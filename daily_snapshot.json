@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-08-08 17:17:02",
+  "sync_time": "2026-08-08 17:22:02",
   "report_date": "2026-08-08",
   "summary": {
     "arrivals_count": 7,
-    "departures_count": 2,
-    "inhouse_count": 76,
+    "departures_count": 1,
+    "inhouse_count": 75,
     "noshow_count": 4,
     "hk_count": 111
   },
@@ -179,27 +179,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "2524550781",
-        "GroupNo": "",
-        "RecId": 31407,
-        "FirstName1": "ALEKSEI",
-        "LastName1": "CHURILOV",
-        "CheckinDate": "2026-08-03",
-        "CheckOutDate": "2026-08-08",
-        "Room": "1013",
-        "RoomType": "PM",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 120311.7896,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       }
     ],
     "inhouse": [
@@ -223,27 +202,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "2524550781",
-        "GroupNo": "",
-        "RecId": 31407,
-        "FirstName1": "ALEKSEI",
-        "LastName1": "CHURILOV",
-        "CheckinDate": "2026-08-03",
-        "CheckOutDate": "2026-08-08",
-        "Room": "1013",
-        "RoomType": "PM",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 120311.7896,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "2989204",
@@ -1078,7 +1036,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 2796.6156,
+        "ExtraFolioBalance": 3344.9716,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1904,7 +1862,7 @@
       {
         "Room": "103",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2670,8 +2628,8 @@
     "2026-08-08": {
       "summary": {
         "arrivals_count": 7,
-        "departures_count": 2,
-        "inhouse_count": 76,
+        "departures_count": 1,
+        "inhouse_count": 75,
         "noshow_count": 4
       },
       "arrivals": [
@@ -2844,27 +2802,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "2524550781",
-          "GroupNo": "",
-          "RecId": 31407,
-          "FirstName1": "ALEKSEI",
-          "LastName1": "CHURILOV",
-          "CheckinDate": "2026-08-03",
-          "CheckOutDate": "2026-08-08",
-          "Room": "1013",
-          "RoomType": "PM",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 120311.7896,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
@@ -2888,27 +2825,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "2524550781",
-          "GroupNo": "",
-          "RecId": 31407,
-          "FirstName1": "ALEKSEI",
-          "LastName1": "CHURILOV",
-          "CheckinDate": "2026-08-03",
-          "CheckOutDate": "2026-08-08",
-          "Room": "1013",
-          "RoomType": "PM",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 120311.7896,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "2989204",
@@ -3743,7 +3659,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 2796.6156,
+          "ExtraFolioBalance": 3344.9716,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5712,7 +5628,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 2796.6156,
+          "ExtraFolioBalance": 3344.9716,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7365,7 +7281,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 2796.6156,
+          "ExtraFolioBalance": 3344.9716,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8575,7 +8491,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 2796.6156,
+          "ExtraFolioBalance": 3344.9716,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
