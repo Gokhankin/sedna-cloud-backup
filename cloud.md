@@ -91,12 +91,12 @@ WHERE ForeCast = 1
        statusText = 'Temiz';
    }
    ```
-2. **Modal Rozetleri (Badges) Güncellendi:**
-   Odaya tıklandığında açılan modal içerisindeki temizlik rozetleri de Arızalı (OOO), Blokeli, Temiz ve Kirli durumlarını tam destekleyecek şekilde güncellendi.
 3. **Netlify Dağıtımı & Git Push:**
    - Düzeltmeler `society_makina/sedna_cloud_backup/dashboard/index.html` ve ana dizine işlendi.
    - `git push origin master` ile GitHub deponuza (`Gokhankin/sedna-cloud-backup`) gönderildi.
    - Güncel `index.html` dosyası Netlify Dashboard (`cooksclubadakoy.netlify.app`) paneline yüklenerek canlıya alındı.
+4. **Giriş / Çıkış Tarihi Metin Hizalaması Düzeltildi:**
+   - Tablodaki Giriş / Çıkış tarih hücrelerine (`<td>`) `whitespace-nowrap` ve `font-mono` sınıfları eklendi. Tarihlerin (örn: `2026-08-02`) dar ekranlarda kırılıp alt satıra kayması engellendi.
 
 ---
 
