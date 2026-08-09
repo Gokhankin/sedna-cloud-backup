@@ -1030,12 +1030,23 @@
                         : 'bg-slate-800/25 border-slate-700/40 hover:bg-slate-800/40 text-slate-400'
                 }`;
                 
-                const isClean = hk.DirtyClean == 1;
-                const dotColor = isClean ? 'bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]' : 'bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]';
-                const cleanText = isClean ? 'Temiz' : 'Kirli';
+                // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
+                let dotColor = 'bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]';
+                let statusText = 'Kirli';
+
+                if (hk.HkStatus == 4) {
+                    dotColor = 'bg-amber-500 shadow-[0_0_6px_rgba(245,158,11,0.6)]';
+                    statusText = 'Arızalı (OOO)';
+                } else if (hk.HkStatus == 5) {
+                    dotColor = 'bg-purple-500 shadow-[0_0_6px_rgba(168,85,247,0.6)]';
+                    statusText = 'Blokeli';
+                } else if (hk.DirtyClean == 0 || hk.HkStatus == 2 || hk.HkStatus == 3) {
+                    dotColor = 'bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]';
+                    statusText = 'Temiz';
+                }
                 
                 card.innerHTML = `
-                    <div class="absolute top-2 right-2 w-2 h-2 rounded-full ${dotColor}" title="${cleanText}"></div>
+                    <div class="absolute top-2 right-2 w-2 h-2 rounded-full ${dotColor}" title="${statusText}"></div>
                     <span class="text-xl font-bold font-mono tracking-tight text-white mb-0.5">${hk.Room}</span>
                     <span class="text-[10px] uppercase font-semibold text-slate-400 tracking-wider">${hk.RoomTypeCode}</span>
                 `;
@@ -1049,10 +1060,16 @@
             const modal = document.getElementById('room-modal');
             const content = document.getElementById('modal-content');
             
-            const isClean = hk.DirtyClean == 1;
-            const cleanBadge = isClean 
-                ? '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 flex items-center gap-1"><i class="fa-solid fa-sparkles"></i> Temiz</span>' 
-                : '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/20 flex items-center gap-1"><i class="fa-solid fa-broom"></i> Kirli</span>';
+            // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
+            let statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/20 flex items-center gap-1"><i class="fa-solid fa-broom"></i> Kirli</span>';
+            
+            if (hk.HkStatus == 4) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 flex items-center gap-1"><i class="fa-solid fa-wrench"></i> Arızalı (OOO)</span>';
+            } else if (hk.HkStatus == 5) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-500/15 text-purple-400 border border-purple-500/20 flex items-center gap-1"><i class="fa-solid fa-ban"></i> Blokeli</span>';
+            } else if (hk.DirtyClean == 0 || hk.HkStatus == 2 || hk.HkStatus == 3) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 flex items-center gap-1"><i class="fa-solid fa-sparkles"></i> Temiz</span>';
+            }
                 
             const occBadge = guest 
                 ? '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-500/15 text-brand-400 border border-brand-500/20 flex items-center gap-1"><i class="fa-solid fa-user"></i> Dolu</span>' 
@@ -1108,7 +1125,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    ${cleanBadge}
+                    ${statusBadge}
                     ${occBadge}
                 </div>
                 ${guestHtml}
