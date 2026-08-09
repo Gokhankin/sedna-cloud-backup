@@ -930,21 +930,21 @@
                             <div class="text-slate-200 text-lg">${fullName}</div>
                             ${extraInfo}
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 whitespace-nowrap">
                             <div class="text-white font-medium text-xs tracking-wider">${formatVal(row.Voucher)}</div>
                             <div class="text-xs text-slate-500 mt-1">${getCleanAgencyName(row.AgencyCode, row.AgencyId)}</div>
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 whitespace-nowrap">
                             <div class="flex items-center gap-2">
                                 <i class="fa-solid fa-arrow-right-to-bracket text-emerald-500/70 text-xs w-3"></i> 
-                                <span>${formatVal(row.CheckinDate)}</span>
+                                <span class="font-mono">${formatVal(row.CheckinDate)}</span>
                             </div>
                             <div class="flex items-center gap-2 mt-1">
                                 <i class="fa-solid fa-arrow-right-from-bracket text-rose-500/70 text-xs w-3"></i> 
-                                <span class="text-slate-400">${formatVal(row.CheckOutDate)}</span>
+                                <span class="text-slate-400 font-mono">${formatVal(row.CheckOutDate)}</span>
                             </div>
                         </td>
-                        <td class="px-6 py-4">
+                        <td class="px-6 py-4 whitespace-nowrap">
                             <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium">${formatVal(row.RoomType)}</div>
                             <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium ml-1">${formatVal(row.Board)}</div>
                         </td>
