@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedna Cloud - Günlük Misafir Durumu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        // Init theme immediately to prevent flashing
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            if (savedTheme === 'light') {
+                document.documentElement.classList.remove('dark');
+            } else {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        },
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            background-image: radial-gradient(circle at top right, rgba(14, 165, 233, 0.1), transparent 400px),
+                              radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.1), transparent 400px);
+            min-height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: background 0.3s ease, border-color 0.3s ease;
+        }
+        
+        .tab-active {
+            border-bottom: 2px solid #38bdf8;
+            color: #38bdf8;
+            background: rgba(56, 189, 248, 0.1);
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.5); 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569; 
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Login Overlay */
+        #login-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: #0f172a;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Custom date selector */
+        #date-select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+            background-repeat: no-repeat;
+            background-position: right 0px center;
+            background-size: 16px;
+            padding-right: 24px;
+        }
+        .room-card {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            cursor: pointer;
+            border-radius: 0.75rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .room-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 12px -3px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Light Mode Theme Overrides */
+        html:not(.dark) body {
+            background-color: #f8fafc;
+            color: #0f172a;
+            background-image: radial-gradient(circle at top right, rgba(14, 165, 233, 0.05), transparent 400px),
+                              radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.05), transparent 400px);
+        }
+        
+        html:not(.dark) .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-color: rgba(15, 23, 42, 0.08);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        html:not(.dark) .text-white {
+            color: #0f172a !important;
+        }
+
+        html:not(.dark) .text-slate-400 {
+            color: #475569 !important;
+        }
+
+        html:not(.dark) .text-slate-300 {
+            color: #334155 !important;
+        }
+
+        html:not(.dark) .text-slate-200 {
+            color: #1e293b !important;
+        }
+
+        html:not(.dark) .bg-slate-800\/50,
+        html:not(.dark) .bg-slate-900\/60,
+        html:not(.dark) .bg-slate-800\/80,
+        html:not(.dark) .bg-slate-800,
+        html:not(.dark) .bg-slate-900,
+        html:not(.dark) thead.bg-slate-800\/50 {
+            background-color: #f1f5f9 !important;
+        }
+
+        html:not(.dark) .border-dark-border,
+        html:not(.dark) .border-slate-800,
+        html:not(.dark) .border-slate-700,
+        html:not(.dark) .border-slate-700\/50,
+        html:not(.dark) tr.border-b,
+        html:not(.dark) .divide-dark-border > * + * {
+            border-color: #cbd5e1 !important;
+        }
+
+        html:not(.dark) #searchInput,
+        html:not(.dark) #pass-input {
+            background-color: #ffffff !important;
+            color: #0f172a !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        html:not(.dark) #date-select {
+            color: #0f172a !important;
+        }
+
+        html:not(.dark) #date-select option {
+            background-color: #ffffff !important;
+            color: #0f172a !important;
+        }
+
+        html:not(.dark) .room-card.bg-slate-800\/25 {
+            background-color: #f1f5f9 !important;
+            border-color: #cbd5e1 !important;
+            color: #64748b !important;
+        }
+
+        html:not(.dark) tr:hover {
+            background-color: #f8fafc !important;
+        }
+
+        html:not(.dark) header {
+            background-color: rgba(255, 255, 255, 0.95) !important;
+            border-bottom-color: #cbd5e1 !important;
+        }
+
+        html:not(.dark) .tab-active {
+            background: rgba(14, 165, 233, 0.1) !important;
+            color: #0284c7 !important;
+            border-bottom-color: #0284c7 !important;
+        }
+
+        html:not(.dark) button:hover {
+            color: #0284c7 !important;
+        }
+
+        html:not(.dark) .bg-clip-text {
+            background-image: none !important;
+            color: #0f172a !important;
+            -webkit-text-fill-color: initial !important;
+        }
+
+        html:not(.dark) #login-overlay {
+            background-color: #f8fafc !important;
+        }
+
+        /* Print Styles: hide everything except lists */
+        @media print {
+            body {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+                background-image: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                min-height: auto !important;
+                overflow: visible !important;
+            }
+            
+            /* Hide all UI elements except the content card */
+            header,
+            #login-overlay,
+            main > div:not(#tabs-card),
+            .glass-card.p-2.mb-6, /* Search bar wrapper */
+            #tabs-card > div:first-child, /* Tab buttons */
+            #room-grid-view,
+            #connection-status,
+            #last-sync,
+            button,
+            select,
+            i,
+            .no-print {
+                display: none !important;
+            }
+            
+            /* Expand the tables card to print-friendly size */
+            #tabs-card {
+                background: none !important;
+                border: none !important;
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                overflow: visible !important;
+            }
+            
+            table {
+                color: #000000 !important;
+                border-collapse: collapse !important;
+                width: 100% !important;
+                margin-top: 20px !important;
+                page-break-inside: auto !important;
+            }
+            
+            tr {
+                page-break-inside: avoid !important;
+                page-break-after: auto !important;
+            }
+            
+            th, td {
+                border: 1px solid #94a3b8 !important;
+                padding: 10px 12px !important;
+                color: #000000 !important;
+                font-size: 11px !important;
+            }
+            
+            th {
+                background-color: #f1f5f9 !important;
+                font-weight: bold !important;
+                color: #000000 !important;
+            }
+            
+            /* Force badge styling to print-friendly grayscale or border */
+            .bg-slate-800, .bg-emerald-500\/10, .bg-rose-500\/10, .bg-brand-500\/10, .bg-amber-500\/10 {
+                background: none !important;
+                color: #000000 !important;
+                border: 1px solid #cbd5e1 !important;
+                padding: 2px 4px !important;
+            }
+            
+            /* Specific column formatting for print */
+            td span.font-bold {
+                color: #000000 !important;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased font-sans flex flex-col items-center pb-12 overflow-hidden" id="body">
+
+    <!-- Print Title (Only visible in print/PDF) -->
+    <div id="print-title" class="hidden print:block text-center w-full max-w-7xl mx-auto my-6">
+        <h1 class="text-3xl font-bold text-slate-900">Cook's Club Adaköy</h1>
+        <h2 id="print-subtitle" class="text-xl font-semibold text-slate-700 mt-1">Misafir Listesi</h2>
+    </div>
+
+    <!-- Login Overlay -->
+    <div id="login-overlay" class="no-print">
+        <div class="glass-card p-8 flex flex-col items-center max-w-sm w-full mx-4 fade-in">
+            <div class="w-16 h-16 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-400 text-3xl mb-4 shadow-lg shadow-brand-500/20 border border-brand-500/30">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-white mb-2">Sedna Cloud</h2>
+            <p class="text-slate-400 text-sm mb-6 text-center">Giriş çıkış raporlarına erişmek için lütfen şifreyi giriniz.</p>
+            
+            <input type="password" id="pass-input" placeholder="Şifre" class="w-full bg-slate-800/80 border border-slate-600 text-center text-white rounded-lg px-4 py-3 mb-4 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 text-xl tracking-[0.5em]">
+            
+            <button onclick="checkPass()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-medium py-3 rounded-lg transition-colors">
+                Giriş Yap
+            </button>
+            <p id="pass-error" class="text-rose-500 text-sm mt-3 hidden">Hatalı şifre, lütfen tekrar deneyin.</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="w-full glass-card rounded-none border-t-0 border-x-0 border-b border-dark-border sticky top-0 z-50 no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded bg-brand-500 flex items-center justify-center text-white font-bold shadow-lg shadow-brand-500/30">
+                    <i class="fa-solid fa-hotel"></i>
+                </div>
+                <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">Sedna Cloud</h1>
+            </div>
+            
+            <div class="flex items-center gap-4 text-sm text-slate-400">
+                <div id="connection-status" class="flex items-center gap-2">
+                    <span class="relative flex h-3 w-3">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+                    </span>
+                    Bağlanıyor...
+                </div>
+                
+                <!-- Aydınlık Mod Butonu -->
+                <button onclick="toggleTheme()" class="p-2 rounded-lg hover:bg-slate-800 transition-colors" title="Karanlık / Aydınlık Mod" id="theme-toggle">
+                    <i class="fa-solid fa-sun text-brand-400" id="theme-icon"></i>
+                </button>
+
+                <button onclick="fetchData()" class="p-2 rounded-lg hover:bg-slate-800 transition-colors" title="Yenile">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+        
+        <!-- Header Info -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4 no-print">
+            <div>
+                <h2 class="text-3xl font-bold text-white tracking-tight">Günlük Durum</h2>
+                <p id="last-sync" class="text-slate-400 mt-1 flex items-center gap-2">
+                    <i class="fa-regular fa-clock"></i> Son Senkronizasyon: Bekleniyor...
+                </p>
+            </div>
+            <div class="glass-card px-3 py-1.5 flex items-center gap-2 text-sm bg-slate-900/60 border border-slate-700/50 rounded-xl shadow-inner">
+                <i class="fa-solid fa-calendar-day text-brand-400"></i>
+                <select id="date-select" onchange="handleDateChange(this.value)" class="bg-transparent border-none text-slate-200 font-medium focus:outline-none cursor-pointer pr-5 py-0.5">
+                    <option value="" class="bg-slate-900 text-white">Yükleniyor...</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Stats Cards (Grid optimized for mobile to show 2 columns) -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-8 no-print">
+            <!-- Arrivals -->
+            <div onclick="switchTab('arrivals')" class="glass-card p-4 sm:p-6 relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-colors">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all duration-500"></div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-xs sm:text-sm font-medium text-emerald-400 mb-1">Gelecekler (Arrival)</p>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-white mt-1">
+                            <span id="count-arrivals">0</span> Oda <span class="text-slate-400 text-sm">/</span> <span id="pax-arrivals">0</span> Pax
+                        </h3>
+                    </div>
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-lg sm:text-xl border border-emerald-500/20">
+                        <i class="fa-solid fa-plane-arrival"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Departures -->
+            <div onclick="switchTab('departures')" class="glass-card p-4 sm:p-6 relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-colors">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-rose-500/10 rounded-full blur-2xl group-hover:bg-rose-500/20 transition-all duration-500"></div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-xs sm:text-sm font-medium text-rose-400 mb-1">Gidecekler (Departure)</p>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-white mt-1">
+                            <span id="count-departures">0</span> Oda <span class="text-slate-400 text-sm">/</span> <span id="pax-departures">0</span> Pax
+                        </h3>
+                    </div>
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-rose-500/20 flex items-center justify-center text-rose-400 text-lg sm:text-xl border border-rose-500/20">
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- In-House -->
+            <div onclick="switchTab('inhouse')" class="glass-card p-4 sm:p-6 relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-colors flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-brand-500/10 rounded-full blur-2xl group-hover:bg-brand-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-brand-400 mb-1">Konaklayan<br>(In-House)</p>
+                            <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-white mt-1">
+                                <span id="count-inhouse">0</span> Oda <span class="text-slate-400 text-sm">/</span> <span id="pax-inhouse">0</span> Pax
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-brand-500/20 flex items-center justify-center text-brand-400 text-lg sm:text-xl border border-brand-500/20">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Inhouse Pax info at the bottom -->
+                <div class="mt-3 pt-2 border-t border-slate-700/50 flex justify-between items-center text-2xs sm:text-xs font-semibold text-slate-300">
+                    <span>Gün Sonu:</span>
+                    <span id="pax-eod" class="text-purple-400 font-bold text-xs sm:text-sm">0 Pax</span>
+                </div>
+            </div>
+
+            <!-- No-Show -->
+            <div onclick="switchTab('noshow')" class="glass-card p-4 sm:p-6 relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-colors">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition-all duration-500"></div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-xs sm:text-sm font-medium text-amber-400 mb-1">No-Show</p>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-white mt-1">
+                            <span id="count-noshow">0</span> Oda
+                        </h3>
+                    </div>
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-amber-500/20 flex items-center justify-center text-amber-400 text-lg sm:text-xl border border-amber-500/20">
+                        <i class="fa-solid fa-user-slash"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Oda Planı (Grid) -->
+            <div onclick="switchTab('roomgrid')" class="glass-card p-4 sm:p-6 relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-colors">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-purple-500/10 rounded-full blur-2xl group-hover:bg-purple-500/20 transition-all duration-500"></div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-xs sm:text-sm font-medium text-purple-400 mb-1">Oda Planı</p>
+                        <h3 id="count-rooms-map" class="text-lg sm:text-xl lg:text-2xl font-bold text-white mt-1 tracking-tight">0 / 0</h3>
+                    </div>
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-purple-500/20 flex items-center justify-center text-purple-400 text-lg sm:text-xl border border-purple-500/20">
+                        <i class="fa-solid fa-table-cells"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Folio Extra Balance -->
+            <div onclick="switchTab('inhouse')" class="glass-card p-4 sm:p-6 relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-colors">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-sky-500/10 rounded-full blur-2xl group-hover:bg-sky-500/20 transition-all duration-500"></div>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <p class="text-xs sm:text-sm font-medium text-sky-400 mb-1">Ekstra Bakiye</p>
+                        <h3 id="count-balance" class="text-lg sm:text-xl lg:text-2xl font-bold text-white mt-1 tracking-tight">0 ₺</h3>
+                    </div>
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-sky-500/20 flex items-center justify-center text-sky-400 text-lg sm:text-xl border border-sky-500/20">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search, Filter & PDF Print Button (no-print) -->
+        <div class="glass-card p-2 mb-6 flex flex-col sm:flex-row gap-2 no-print">
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                <input type="text" id="searchInput" placeholder="İsim, Voucher veya Oda No ile ara..." 
+                    class="w-full bg-slate-800/50 border border-slate-700 text-white rounded-lg pl-11 pr-4 py-3 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all">
+            </div>
+            
+            <!-- PDF Kaydet/Yazdır Butonu -->
+            <button onclick="printPDF()" class="bg-brand-500 hover:bg-brand-600 text-white font-medium px-5 py-3 rounded-lg flex items-center justify-center gap-2 transition-colors shadow-lg shadow-brand-500/20">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>PDF Olarak Kaydet</span>
+            </button>
+        </div>
+
+        <!-- Tabs -->
+        <div id="tabs-card" class="glass-card overflow-hidden">
+            <div class="flex border-b border-dark-border overflow-x-auto">
+                <button onclick="switchTab('arrivals')" id="tab-arrivals" class="flex-1 py-4 px-6 text-sm font-medium text-slate-300 hover:text-white transition-colors tab-active flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    Gelecekler (Arrivals)
+                </button>
+                <button onclick="switchTab('departures')" id="tab-departures" class="flex-1 py-4 px-6 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                    Gidecekler (Departures)
+                </button>
+                <button onclick="switchTab('inhouse')" id="tab-inhouse" class="flex-1 py-4 px-6 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-brand-500"></span>
+                    Konaklayanlar (In-House)
+                </button>
+                <button onclick="switchTab('noshow')" id="tab-noshow" class="flex-1 py-4 px-6 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+                    No-Show
+                </button>
+                <button onclick="switchTab('roomgrid')" id="tab-roomgrid" class="flex-1 py-4 px-6 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+                    Oda Planı (Grid)
+                </button>
+            </div>
+            
+            <!-- Table Container -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-300">
+                    <thead class="bg-slate-800/50 text-slate-400 text-xs uppercase border-b border-dark-border">
+                        <tr>
+                            <th scope="col" class="px-6 py-4 font-medium">Oda</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Misafir</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Voucher / Acente</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Giriş / Çıkış</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Tip / Pans.</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Bakiye (Borç)</th>
+                            <th scope="col" class="px-6 py-4 font-medium text-center">Kişi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body" class="divide-y divide-dark-border">
+                        <!-- Rows will be injected here -->
+                    </tbody>
+                </table>
+                <div id="empty-state" class="hidden flex flex-col items-center justify-center py-12 text-slate-500">
+                    <i class="fa-solid fa-folder-open text-4xl mb-3 opacity-50"></i>
+                    <p>Gösterilecek kayıt bulunamadı.</p>
+                </div>
+            </div>
+            
+            <!-- Room Grid View -->
+            <div id="room-grid-view" class="hidden p-6">
+                <!-- Agency stats breakdown widget -->
+                <div class="mb-8 bg-slate-900/40 border border-slate-800 rounded-2xl p-6">
+                    <h4 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-chart-simple text-purple-400"></i> Acente Dağılım Analizi (Konaklayanlar)
+                    </h4>
+                    <div id="agency-breakdown" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Grid of rooms -->
+                <div class="mb-4 flex items-center justify-between">
+                    <h4 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-hotel text-brand-400"></i> Oda Durum Matrisi
+                    </h4>
+                    <!-- Legend -->
+                    <div class="flex flex-wrap gap-4 text-xs">
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-brand-500/10 border border-brand-500/35"></span> Dolu</div>
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-slate-800/25 border border-slate-700/40"></span> Boş</div>
+                        <div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]"></span> Temiz</div>
+                        <div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]"></span> Kirli</div>
+                    </div>
+                </div>
+                <div id="room-grid" class="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-11 gap-3">
+                    <!-- Cards populated by JS -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Room Details Modal -->
+        <div id="room-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[9999] hidden flex items-center justify-center p-4" onclick="if(event.target === this) closeRoomModal()">
+            <div class="glass-card max-w-md w-full p-6 relative overflow-hidden fade-in border border-slate-700/50 shadow-2xl">
+                <button onclick="closeRoomModal()" class="absolute right-4 top-4 text-slate-400 hover:text-white transition-colors text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div id="modal-content">
+                    <!-- Dynamically injected content -->
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script>
+        const FIREBASE_URL = "https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json";
+        let appData = null;
+        let currentTab = 'arrivals';
+        let searchQuery = '';
+
+        function checkPass() {
+            const val = document.getElementById('pass-input').value;
+            if(val === "1234") {
+                document.getElementById('login-overlay').style.display = 'none';
+                document.getElementById('body').classList.remove('overflow-hidden');
+                fetchData();
+            } else {
+                document.getElementById('pass-error').classList.remove('hidden');
+                document.getElementById('pass-input').value = '';
+            }
+        }
+        
+        // Allow pressing Enter to login
+        document.getElementById('pass-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') checkPass();
+        });
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value.toLowerCase();
+            renderTable();
+        });
+
+        async function fetchData() {
+            const statusEl = document.getElementById('connection-status');
+            statusEl.innerHTML = `
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+                </span>
+                Senkronize ediliyor...
+            `;
+            statusEl.className = "flex items-center gap-2 text-amber-400";
+
+            try {
+                // Add timestamp parameter to prevent browser caching
+                const res = await fetch(`${FIREBASE_URL}?t=${new Date().getTime()}`);
+                if (!res.ok) throw new Error("Ağ hatası!");
+                const data = await res.json();
+                
+                if (data) {
+                    appData = data;
+                    updateDashboard();
+                    statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span> Çevrimiçi`;
+                    statusEl.className = "flex items-center gap-2 text-emerald-400";
+                } else {
+                    throw new Error("Veri boş!");
+                }
+            } catch (err) {
+                console.error(err);
+                statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.8)]"></span> Çevrimdışı (Hata)`;
+                statusEl.className = "flex items-center gap-2 text-rose-400";
+            }
+        }
+
+        let selectedDate = '';
+
+        function handleDateChange(date) {
+            selectedDate = date;
+            updateDashboard();
+        }
+
+        function getDayNameTr(dateStr) {
+            const date = new Date(dateStr);
+            const days = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
+            return days[date.getDay()];
+        }
+
+        function updateDashboard() {
+            if (!appData) return;
+            
+            document.getElementById('last-sync').innerHTML = `<i class="fa-regular fa-clock"></i> Son Senk: <span class="text-white font-medium">${appData.sync_time}</span>`;
+            
+            // Populate date selector if it has by_date
+            const dateSelect = document.getElementById('date-select');
+            if (appData.by_date) {
+                if (!selectedDate) {
+                    selectedDate = appData.report_date;
+                }
+                
+                // Only rebuild options if count differs or select is empty
+                if (dateSelect.options.length <= 1) {
+                    dateSelect.innerHTML = '';
+                    const sortedDates = Object.keys(appData.by_date).sort();
+                    sortedDates.forEach(dStr => {
+                        const opt = document.createElement('option');
+                        opt.value = dStr;
+                        opt.className = "bg-slate-900 text-white";
+                        
+                        let suffix = '';
+                        if (dStr === appData.report_date) {
+                            suffix = ' (Bugün)';
+                        } else {
+                            suffix = ` (${getDayNameTr(dStr)})`;
+                        }
+                        
+                        opt.innerText = dStr + suffix;
+                        dateSelect.appendChild(opt);
+                    });
+                }
+                dateSelect.value = selectedDate;
+            } else {
+                dateSelect.innerHTML = `<option value="">${appData.report_date}</option>`;
+            }
+            
+            // Set counts based on selected date
+            let inhouseList = [];
+            let arrivalsList = [];
+            let departuresList = [];
+            let noshowList = [];
+            if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
+                const daySummary = appData.by_date[selectedDate].summary;
+                document.getElementById('count-arrivals').innerText = daySummary.arrivals_count;
+                document.getElementById('count-departures').innerText = daySummary.departures_count;
+                document.getElementById('count-inhouse').innerText = daySummary.inhouse_count;
+                document.getElementById('count-noshow').innerText = daySummary.noshow_count || 0;
+                inhouseList = appData.by_date[selectedDate].inhouse || [];
+                arrivalsList = appData.by_date[selectedDate].arrivals || [];
+                departuresList = appData.by_date[selectedDate].departures || [];
+                noshowList = appData.by_date[selectedDate].noshow || [];
+            } else {
+                document.getElementById('count-arrivals').innerText = appData.summary.arrivals_count;
+                document.getElementById('count-departures').innerText = appData.summary.departures_count;
+                document.getElementById('count-inhouse').innerText = appData.summary.inhouse_count;
+                document.getElementById('count-noshow').innerText = appData.summary.noshow_count || 0;
+                inhouseList = (appData.data && appData.data.inhouse) ? appData.data.inhouse : [];
+                arrivalsList = (appData.data && appData.data.arrivals) ? appData.data.arrivals : [];
+                departuresList = (appData.data && appData.data.departures) ? appData.data.departures : [];
+                noshowList = (appData.data && appData.data.noshow) ? appData.data.noshow : [];
+            }
+            
+            // Calculate Pax & Childs counts
+            let arrivalsPax = 0;
+            let arrivalsChilds = 0;
+            arrivalsList.forEach(r => {
+                arrivalsPax += (parseInt(r.Pax) || 0);
+                arrivalsChilds += (parseInt(r.Childs) || 0);
+            });
+
+            let departuresPax = 0;
+            let departuresChilds = 0;
+            departuresList.forEach(r => {
+                departuresPax += (parseInt(r.Pax) || 0);
+                departuresChilds += (parseInt(r.Childs) || 0);
+            });
+
+            let inhousePax = 0;
+            let inhouseChilds = 0;
+            inhouseList.forEach(r => {
+                inhousePax += (parseInt(r.Pax) || 0);
+                inhouseChilds += (parseInt(r.Childs) || 0);
+            });
+
+            // Set Pax UI
+            document.getElementById('pax-arrivals').innerText = arrivalsPax;
+            document.getElementById('pax-departures').innerText = departuresPax;
+            document.getElementById('pax-inhouse').innerText = inhousePax;
+            
+            // Calculate and set End of Day (EOD) Pax: In-house + Arrivals - Departures
+            const eodPax = Math.max(0, inhousePax + arrivalsPax - departuresPax);
+            document.getElementById('pax-eod').innerText = `${eodPax} Pax`;
+            
+            // Calculate and set Total Bakiye
+            let totalBalance = 0;
+            inhouseList.forEach(guest => {
+                if (guest.ExtraFolioBalance && Math.abs(guest.ExtraFolioBalance) >= 0.01) {
+                    totalBalance += guest.ExtraFolioBalance;
+                }
+            });
+            document.getElementById('count-balance').innerText = totalBalance.toLocaleString('tr-TR', {minimumFractionDigits: 0}) + ' ₺';
+            
+            // Calculate and set Room Map occupancy ratio
+            const totalRooms = appData.summary.hk_count || 111;
+            const occupiedRoomsCount = inhouseList.length;
+            document.getElementById('count-rooms-map').innerText = `${occupiedRoomsCount} / ${totalRooms}`;
+            
+            if (currentTab === 'roomgrid') {
+                renderRoomGrid();
+            } else {
+                renderTable();
+            }
+        }
+
+        function switchTab(tab) {
+            currentTab = tab;
+            
+            const tabs = ['arrivals', 'departures', 'inhouse', 'noshow', 'roomgrid'];
+            tabs.forEach(t => {
+                const el = document.getElementById(`tab-${t}`);
+                if(el) el.classList.remove('tab-active');
+            });
+            
+            const activeEl = document.getElementById(`tab-${tab}`);
+            if(activeEl) activeEl.classList.add('tab-active');
+            
+            // Adjust elements based on tab
+            const thead = document.querySelector('thead tr');
+            const tableEl = document.querySelector('table');
+            const roomGridView = document.getElementById('room-grid-view');
+            const searchContainer = document.getElementById('searchInput').parentElement.parentElement;
+            
+            if (tab === 'roomgrid') {
+                if (tableEl) tableEl.classList.add('hidden');
+                if (roomGridView) roomGridView.classList.remove('hidden');
+                if (searchContainer) searchContainer.classList.add('hidden');
+                renderRoomGrid();
+            } else {
+                if (tableEl) tableEl.classList.remove('hidden');
+                if (roomGridView) roomGridView.classList.add('hidden');
+                if (searchContainer) searchContainer.classList.remove('hidden');
+                
+                thead.innerHTML = `
+                    <th scope="col" class="px-6 py-4 font-medium">Oda</th>
+                    <th scope="col" class="px-6 py-4 font-medium">Misafir & Detaylar</th>
+                    <th scope="col" class="px-6 py-4 font-medium">Voucher / Acente</th>
+                    <th scope="col" class="px-6 py-4 font-medium">Giriş / Çıkış</th>
+                    <th scope="col" class="px-6 py-4 font-medium">Tip / Pans.</th>
+                    <th scope="col" class="px-6 py-4 font-medium">Bakiye (Borç)</th>
+                    <th scope="col" class="px-6 py-4 font-medium text-center">Kişi</th>
+                `;
+                
+                renderTable();
+            }
+
+            // Smooth scroll to tabs/table area with sticky header offset
+            const tabsCard = document.getElementById('tabs-card');
+            if (tabsCard) {
+                const yOffset = -80; // Height of sticky header + margin
+                const y = tabsCard.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+        }
+
+        function formatVal(val) {
+            return val ? val : '-';
+        }
+
+        function getCleanAgencyName(code, id) {
+            if (!code) {
+                if (id == 10) return 'COMP';
+                if (id == 1 || id == 3) return 'Münferit';
+                return id ? `Acente ${id}` : '-';
+            }
+            const upperCode = code.toUpperCase();
+            if (upperCode.includes('MUNFERIT')) return 'Münferit';
+            if (upperCode.includes('COMP')) return 'COMP';
+            if (upperCode.includes('NEILSON')) return 'Neilson';
+            if (upperCode.includes('JET2')) return 'Jet2';
+            if (upperCode.includes('EASYJET')) return 'EasyJet';
+            if (upperCode.includes('TUI')) return 'TUI';
+            if (upperCode.includes('BOOKING')) return 'Booking.com';
+            if (upperCode.includes('EXPEDIA')) return 'Expedia';
+            if (upperCode.includes('ADDAJET')) return 'Addajet';
+            if (upperCode.includes('DIANA')) return 'Diana';
+            if (upperCode.includes('HOTELBEDS')) return 'Hotelbeds';
+            if (upperCode.includes('LTUR')) return 'Ltur';
+            
+            // Fallback: capitalize first letter of each word
+            return code.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
+        }
+
+        function renderTable() {
+            if (!appData) return;
+            
+            const tbody = document.getElementById('table-body');
+            const emptyState = document.getElementById('empty-state');
+            tbody.innerHTML = '';
+            
+            let dataset = [];
+            
+            if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
+                dataset = appData.by_date[selectedDate][currentTab] || [];
+            } else {
+                dataset = (appData.data && appData.data[currentTab]) ? appData.data[currentTab] : [];
+            }
+            
+            // Apply Search Filter
+            if (searchQuery) {
+                dataset = dataset.filter(row => {
+                    const name1 = (row.FirstName1 || '') + ' ' + (row.LastName1 || '');
+                    const voucher = row.Voucher || '';
+                    const room = row.Room || '';
+                    const searchStr = `${name1} ${voucher} ${room}`.toLowerCase();
+                    return searchStr.includes(searchQuery);
+                });
+            }
+
+            if (dataset.length === 0) {
+                emptyState.classList.remove('hidden');
+                emptyState.classList.add('flex');
+            } else {
+                emptyState.classList.add('hidden');
+                emptyState.classList.remove('flex');
+                
+                dataset.forEach((row, idx) => {
+                    const tr = document.createElement('tr');
+                    tr.className = "hover:bg-slate-800/50 transition-colors fade-in border-b border-slate-800";
+                    tr.style.animationDelay = `${idx * 0.03}s`;
+                    
+                    const roomBadge = row.Room ? 
+                        `<span class="bg-slate-800 border border-slate-600 text-white font-mono px-3 py-1 rounded-md shadow-sm text-lg">${row.Room}</span>` : 
+                        `<span class="text-slate-500 italic">Atanmadı</span>`;
+                    
+                    const fullName = `${formatVal(row.FirstName1)} <span class="font-bold text-white uppercase">${formatVal(row.LastName1)}</span>`;
+                    
+                    let extraInfo = '';
+                    if (row.ResRemark) extraInfo += `<div class="text-xs text-amber-400 mt-1 max-w-xs truncate" title="${row.ResRemark}"><i class="fa-solid fa-comment-dots"></i> ${row.ResRemark}</div>`;
+                    if (row.FlightArrival) extraInfo += `<div class="text-xs text-sky-400 mt-1"><i class="fa-solid fa-plane-arrival"></i> ${row.FlightArrival}</div>`;
+                    if (row.FlightDeparture) extraInfo += `<div class="text-xs text-purple-400 mt-1"><i class="fa-solid fa-plane-departure"></i> ${row.FlightDeparture}</div>`;
+                    
+                    const paxLabel = `<span class="inline-flex items-center gap-1"><i class="fa-solid fa-user text-slate-500"></i> ${row.Pax}</span>`;
+                    const chdLabel = row.Childs > 0 ? `<span class="inline-flex items-center gap-1 ml-2"><i class="fa-solid fa-child text-slate-500"></i> ${row.Childs}</span>` : '';
+                    
+                    const balance = (row.ExtraFolioBalance && Math.abs(row.ExtraFolioBalance) >= 0.01) ? row.ExtraFolioBalance : 0;
+                    let balanceHtml = `<span class="text-slate-500">-</span>`;
+                    if (balance > 0) {
+                        balanceHtml = `<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-rose-500/10 border border-rose-500/20 text-rose-400 font-bold"><i class="fa-solid fa-coins"></i> ${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                    } else if (balance < 0) {
+                        balanceHtml = `<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold"><i class="fa-solid fa-coins"></i> ${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                    }
+                    
+                    tr.innerHTML = `
+                        <td class="px-6 py-4 whitespace-nowrap">${roomBadge}</td>
+                        <td class="px-6 py-4">
+                            <div class="text-slate-200 text-lg">${fullName}</div>
+                            ${extraInfo}
+                        </td>
+                        <td class="px-6 py-4">
+                            <div class="text-white font-medium text-xs tracking-wider">${formatVal(row.Voucher)}</div>
+                            <div class="text-xs text-slate-500 mt-1">${getCleanAgencyName(row.AgencyCode, row.AgencyId)}</div>
+                        </td>
+                        <td class="px-6 py-4">
+                            <div class="flex items-center gap-2">
+                                <i class="fa-solid fa-arrow-right-to-bracket text-emerald-500/70 text-xs w-3"></i> 
+                                <span>${formatVal(row.CheckinDate)}</span>
+                            </div>
+                            <div class="flex items-center gap-2 mt-1">
+                                <i class="fa-solid fa-arrow-right-from-bracket text-rose-500/70 text-xs w-3"></i> 
+                                <span class="text-slate-400">${formatVal(row.CheckOutDate)}</span>
+                            </div>
+                        </td>
+                        <td class="px-6 py-4">
+                            <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium">${formatVal(row.RoomType)}</div>
+                            <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium ml-1">${formatVal(row.Board)}</div>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap">
+                            ${balanceHtml}
+                        </td>
+                        <td class="px-6 py-4 text-center whitespace-nowrap">
+                            ${paxLabel}${chdLabel}
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            }
+        }
+
+        // Auto-refresh every 2 minutes (only if data is loaded)
+        setInterval(() => {
+            if(appData) fetchData();
+        }, 120000);
+
+        function renderRoomGrid() {
+            if (!appData) return;
+            const gridEl = document.getElementById('room-grid');
+            const breakdownEl = document.getElementById('agency-breakdown');
+            gridEl.innerHTML = '';
+            breakdownEl.innerHTML = '';
+            
+            let inhouseList = [];
+            if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
+                inhouseList = appData.by_date[selectedDate].inhouse || [];
+            } else {
+                inhouseList = (appData.data && appData.data.inhouse) ? appData.data.inhouse : [];
+            }
+            
+            const agencyCounts = {};
+            let totalInhouseGuests = 0;
+            
+            inhouseList.forEach(guest => {
+                const acName = getCleanAgencyName(guest.AgencyCode, guest.AgencyId);
+                agencyCounts[acName] = (agencyCounts[acName] || 0) + 1;
+                totalInhouseGuests++;
+            });
+            
+            const sortedAgencies = Object.entries(agencyCounts).sort((a,b) => b[1] - a[1]);
+            if (sortedAgencies.length === 0) {
+                breakdownEl.innerHTML = '<div class="text-slate-500 italic col-span-4 text-center">Konaklayan misafir kaydı bulunmamaktadır.</div>';
+            } else {
+                sortedAgencies.forEach(([acName, count]) => {
+                    const pct = totalInhouseGuests > 0 ? Math.round((count / totalInhouseGuests) * 100) : 0;
+                    const card = document.createElement('div');
+                    card.className = "bg-slate-900/60 border border-slate-800/80 rounded-xl p-3 shadow-inner";
+                    card.innerHTML = `
+                        <div class="flex justify-between items-center text-xs font-semibold text-slate-400 mb-1.5">
+                            <span class="truncate max-w-[120px]" title="${acName}">${acName}</span>
+                            <span class="text-white">${count} Oda (${pct}%)</span>
+                        </div>
+                        <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-500 h-1.5 rounded-full" style="width: ${pct}%"></div>
+                        </div>
+                    `;
+                    breakdownEl.appendChild(card);
+                });
+            }
+            
+            const hkList = (appData.data && appData.data.hk) ? appData.data.hk : [];
+            const occupiedRooms = {};
+            inhouseList.forEach(guest => {
+                if (guest.Room) {
+                    occupiedRooms[guest.Room] = guest;
+                }
+            });
+            
+            const sortedHk = [...hkList].sort((a, b) => parseInt(a.Room) - parseInt(b.Room));
+            
+            sortedHk.forEach((hk, idx) => {
+                const guest = occupiedRooms[hk.Room];
+                const isOccupied = !!guest;
+                
+                const card = document.createElement('div');
+                card.className = `room-card border transition-all ${
+                    isOccupied 
+                        ? 'bg-brand-500/10 border-brand-500/35 hover:bg-brand-500/20 text-white shadow-brand-500/5' 
+                        : 'bg-slate-800/25 border-slate-700/40 hover:bg-slate-800/40 text-slate-400'
+                }`;
+                
+                // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
+                let dotColor = 'bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]';
+                let statusText = 'Kirli';
+
+                if (hk.HkStatus == 4) {
+                    dotColor = 'bg-amber-500 shadow-[0_0_6px_rgba(245,158,11,0.6)]';
+                    statusText = 'Arızalı (OOO)';
+                } else if (hk.HkStatus == 5) {
+                    dotColor = 'bg-purple-500 shadow-[0_0_6px_rgba(168,85,247,0.6)]';
+                    statusText = 'Blokeli';
+                } else if (hk.DirtyClean == 0 || hk.HkStatus == 2 || hk.HkStatus == 3) {
+                    dotColor = 'bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]';
+                    statusText = 'Temiz';
+                }
+                
+                card.innerHTML = `
+                    <div class="absolute top-2 right-2 w-2 h-2 rounded-full ${dotColor}" title="${statusText}"></div>
+                    <span class="text-xl font-bold font-mono tracking-tight text-white mb-0.5">${hk.Room}</span>
+                    <span class="text-[10px] uppercase font-semibold text-slate-400 tracking-wider">${hk.RoomTypeCode}</span>
+                `;
+                
+                card.onclick = () => openRoomModal(hk, guest);
+                gridEl.appendChild(card);
+            });
+        }
+
+        function openRoomModal(hk, guest) {
+            const modal = document.getElementById('room-modal');
+            const content = document.getElementById('modal-content');
+            
+            // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
+            let statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/20 flex items-center gap-1"><i class="fa-solid fa-broom"></i> Kirli</span>';
+            
+            if (hk.HkStatus == 4) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 flex items-center gap-1"><i class="fa-solid fa-wrench"></i> Arızalı (OOO)</span>';
+            } else if (hk.HkStatus == 5) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-500/15 text-purple-400 border border-purple-500/20 flex items-center gap-1"><i class="fa-solid fa-ban"></i> Blokeli</span>';
+            } else if (hk.DirtyClean == 0 || hk.HkStatus == 2 || hk.HkStatus == 3) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 flex items-center gap-1"><i class="fa-solid fa-sparkles"></i> Temiz</span>';
+            }
+                
+            const occBadge = guest 
+                ? '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-500/15 text-brand-400 border border-brand-500/20 flex items-center gap-1"><i class="fa-solid fa-user"></i> Dolu</span>' 
+                : '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-400 border border-slate-700 flex items-center gap-1"><i class="fa-regular fa-user"></i> Boş</span>';
+                
+            let guestHtml = '';
+            if (guest) {
+                const acName = getCleanAgencyName(guest.AgencyCode, guest.AgencyId);
+                const balance = (guest.ExtraFolioBalance && Math.abs(guest.ExtraFolioBalance) >= 0.01) ? guest.ExtraFolioBalance : 0;
+                let balanceHtml = `<span class="text-slate-500">-</span>`;
+                if (balance > 0) {
+                    balanceHtml = `<span class="text-rose-400 font-bold">${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                } else if (balance < 0) {
+                    balanceHtml = `<span class="text-emerald-400 font-bold">${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                }
+                
+                let remarkHtml = '';
+                if (guest.ResRemark) {
+                    remarkHtml = `
+                        <div class="mt-4 bg-slate-900/60 border border-slate-800 rounded-xl p-3 text-xs text-amber-400">
+                            <div class="font-bold text-slate-400 mb-1"><i class="fa-solid fa-comment-dots"></i> Notlar:</div>
+                            ${guest.ResRemark}
+                        </div>
+                    `;
+                }
+                
+                guestHtml = `
+                    <div class="mt-5 border-t border-slate-800 pt-4 text-sm text-slate-300 space-y-2.5">
+                        <div class="flex justify-between"><span class="text-slate-400">Misafir Adı:</span> <span class="font-bold text-white text-base">${guest.FirstName1} ${guest.LastName1}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Voucher No:</span> <span class="font-mono text-white">${guest.Voucher || '-'}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Acente:</span> <span class="font-medium text-slate-200">${acName}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Giriş / Çıkış:</span> <span class="text-slate-200 font-medium">${guest.CheckinDate} / ${guest.CheckOutDate}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Kişi (Pax/Chd):</span> <span class="text-slate-200 font-medium">${guest.Pax} Yetişkin ${guest.Childs > 0 ? `, ${guest.Childs} Çocuk` : ''}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Pansiyon Tipi:</span> <span class="text-slate-200 font-medium">${guest.Board}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Ekstra Bakiye:</span> ${balanceHtml}</div>
+                        ${remarkHtml}
+                    </div>
+                `;
+            } else {
+                guestHtml = `
+                    <div class="mt-5 border-t border-slate-800 pt-4 text-center py-6 text-slate-500 text-sm">
+                        <i class="fa-regular fa-calendar-check text-3xl mb-2 opacity-30"></i>
+                        <p>Oda şu an boş durumda.</p>
+                    </div>
+                `;
+            }
+            
+            content.innerHTML = `
+                <div class="flex justify-between items-center pr-8 mb-4">
+                    <div class="flex items-baseline gap-2">
+                        <h3 class="text-2xl font-bold text-white font-mono">Oda ${hk.Room}</h3>
+                        <span class="text-xs uppercase font-bold text-slate-400 px-2 py-0.5 rounded bg-slate-800">${hk.RoomTypeCode}</span>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    ${statusBadge}
+                    ${occBadge}
+                </div>
+                ${guestHtml}
+            `;
+            
+            modal.classList.remove('hidden');
+        }
+
+        function closeRoomModal() {
+            document.getElementById('room-modal').classList.add('hidden');
+        }
+
+        // Theme Management
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const themeIcon = document.getElementById('theme-icon');
+            if (savedTheme === 'light') {
+                document.documentElement.classList.remove('dark');
+                if (themeIcon) themeIcon.className = 'fa-solid fa-moon text-brand-500';
+            } else {
+                document.documentElement.classList.add('dark');
+                if (themeIcon) themeIcon.className = 'fa-solid fa-sun text-amber-400';
+            }
+        }
+        
+        function toggleTheme() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            const themeIcon = document.getElementById('theme-icon');
+            if (themeIcon) {
+                themeIcon.className = isDark ? 'fa-solid fa-sun text-amber-400' : 'fa-solid fa-moon text-brand-500';
+            }
+        }
+
+        // PDF Print Function
+        function printPDF() {
+            const activeTabName = {
+                'arrivals': 'Gelecekler (Arrivals)',
+                'departures': 'Gidecekler (Departures)',
+                'inhouse': 'Konaklayanlar (In-House)',
+                'noshow': 'No-Show Misafirler',
+                'roomgrid': 'Oda Planı'
+            }[currentTab] || 'Misafir Listesi';
+            
+            const dateStr = selectedDate || (appData && appData.report_date) || '';
+            const printSubtitle = document.getElementById('print-subtitle');
+            if (printSubtitle) {
+                printSubtitle.innerText = `${activeTabName} - Tarih: ${dateStr}`;
+            }
+            
+            window.print();
+        }
+
+        // Initialize theme icon on load
+        initTheme();
+    </script>
+</body>
+</html>
