@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-08-10 04:00:01",
+  "sync_time": "2026-08-10 05:00:02",
   "report_date": "2026-08-10",
   "summary": {
     "arrivals_count": 25,
-    "departures_count": 17,
-    "inhouse_count": 82,
+    "departures_count": 15,
+    "inhouse_count": 80,
     "noshow_count": 3,
     "hk_count": 111
   },
@@ -664,48 +664,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "12104377",
-        "GroupNo": "",
-        "RecId": 31103,
-        "FirstName1": "DANIEL",
-        "LastName1": "DASAEV",
-        "CheckinDate": "2026-08-03",
-        "CheckOutDate": "2026-08-10",
-        "Room": "2000",
-        "RoomType": "PM",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 28,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "11:50",
-        "FlightDeparture": "01:35",
-        "Status": 2,
-        "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
-        "Voucher": "12104398",
-        "GroupNo": "",
-        "RecId": 31104,
-        "FirstName1": "DMITRY",
-        "LastName1": "GILLEROVICH",
-        "CheckinDate": "2026-08-03",
-        "CheckOutDate": "2026-08-10",
-        "Room": "2001",
-        "RoomType": "PM",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 28,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "11:50",
-        "FlightDeparture": "01:35",
-        "Status": 2,
-        "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
         "Voucher": "75-3677083",
         "GroupNo": "",
         "RecId": 31177,
@@ -1021,48 +979,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "12104377",
-        "GroupNo": "",
-        "RecId": 31103,
-        "FirstName1": "DANIEL",
-        "LastName1": "DASAEV",
-        "CheckinDate": "2026-08-03",
-        "CheckOutDate": "2026-08-10",
-        "Room": "2000",
-        "RoomType": "PM",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 28,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "11:50",
-        "FlightDeparture": "01:35",
-        "Status": 2,
-        "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
-        "Voucher": "12104398",
-        "GroupNo": "",
-        "RecId": 31104,
-        "FirstName1": "DMITRY",
-        "LastName1": "GILLEROVICH",
-        "CheckinDate": "2026-08-03",
-        "CheckOutDate": "2026-08-10",
-        "Room": "2001",
-        "RoomType": "PM",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 28,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "11:50",
-        "FlightDeparture": "01:35",
-        "Status": 2,
-        "AgencyCode": "FUN&SUN TRAVEL"
       },
       {
         "Voucher": "75-3677083",
@@ -2638,7 +2554,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 2,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       },
       {
@@ -2659,7 +2575,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 2,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       },
       {
@@ -2680,7 +2596,7 @@
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
-        "Status": 2,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       }
     ],
@@ -2688,7 +2604,7 @@
       {
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2758,7 +2674,7 @@
       {
         "Room": "111",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2786,14 +2702,14 @@
       {
         "Room": "115",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2828,7 +2744,7 @@
       {
         "Room": "121",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2842,7 +2758,7 @@
       {
         "Room": "123",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2856,7 +2772,7 @@
       {
         "Room": "125",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2884,7 +2800,7 @@
       {
         "Room": "129",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2898,7 +2814,7 @@
       {
         "Room": "131",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2926,14 +2842,14 @@
       {
         "Room": "201",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "202",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2947,7 +2863,7 @@
       {
         "Room": "204",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2982,7 +2898,7 @@
       {
         "Room": "209",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2996,7 +2912,7 @@
       {
         "Room": "211",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3010,28 +2926,28 @@
       {
         "Room": "302",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "303",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "304",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "305",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3080,7 +2996,7 @@
       {
         "Room": "312",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3290,7 +3206,7 @@
       {
         "Room": "405",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3468,8 +3384,8 @@
     "2026-08-10": {
       "summary": {
         "arrivals_count": 25,
-        "departures_count": 17,
-        "inhouse_count": 82,
+        "departures_count": 15,
+        "inhouse_count": 80,
         "noshow_count": 3
       },
       "arrivals": [
@@ -4127,48 +4043,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "12104377",
-          "GroupNo": "",
-          "RecId": 31103,
-          "FirstName1": "DANIEL",
-          "LastName1": "DASAEV",
-          "CheckinDate": "2026-08-03",
-          "CheckOutDate": "2026-08-10",
-          "Room": "2000",
-          "RoomType": "PM",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "11:50",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
-          "Voucher": "12104398",
-          "GroupNo": "",
-          "RecId": 31104,
-          "FirstName1": "DMITRY",
-          "LastName1": "GILLEROVICH",
-          "CheckinDate": "2026-08-03",
-          "CheckOutDate": "2026-08-10",
-          "Room": "2001",
-          "RoomType": "PM",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "11:50",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
           "Voucher": "75-3677083",
           "GroupNo": "",
           "RecId": 31177,
@@ -4484,48 +4358,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "12104377",
-          "GroupNo": "",
-          "RecId": 31103,
-          "FirstName1": "DANIEL",
-          "LastName1": "DASAEV",
-          "CheckinDate": "2026-08-03",
-          "CheckOutDate": "2026-08-10",
-          "Room": "2000",
-          "RoomType": "PM",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "11:50",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
-          "Voucher": "12104398",
-          "GroupNo": "",
-          "RecId": 31104,
-          "FirstName1": "DMITRY",
-          "LastName1": "GILLEROVICH",
-          "CheckinDate": "2026-08-03",
-          "CheckOutDate": "2026-08-10",
-          "Room": "2001",
-          "RoomType": "PM",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "11:50",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
         },
         {
           "Voucher": "75-3677083",
@@ -6101,7 +5933,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6122,7 +5954,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6143,7 +5975,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         }
       ]
