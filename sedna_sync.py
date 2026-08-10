@@ -172,7 +172,8 @@ def extract_daily_data():
     print(f"Today's counts -> Arrivals: {len(today_data['arrivals'])} | Departures: {len(today_data['departures'])} | In-House: {len(today_data['inhouse'])}")
     
     # Push to Firebase Realtime Database
-    firebase_secret = os.getenv("FIREBASE_SECRET", "").strip()
+    default_secret = "egKsRyn2xGkgNJJV7R2GbRQ2nYAZ7LLPcRzhjZYy"
+    firebase_secret = os.getenv("FIREBASE_SECRET", default_secret).strip()
     if firebase_secret:
         firebase_url = f"https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json?auth={firebase_secret}"
     else:
