@@ -3,10 +3,7 @@ import json
 from datetime import datetime, timedelta
 import os
 import requests
-
-def get_db_connection():
-    conn_str = "DRIVER={ODBC Driver 18 for SQL Server};SERVER=192.168.0.41,1433;DATABASE=SednaAdakoy;UID=gokhan;PWD=Ad!!2025!!;TrustServerCertificate=yes;"
-    return pyodbc.connect(conn_str)
+from config import get_db_connection, get_firebase_url
 
 def dictfetchall(cursor):
     "Return all rows from a cursor as a dict"
@@ -41,10 +38,8 @@ def extract_daily_data():
             r.Status,
             a.AgencyCode
         FROM Reservation r
-        LEFT JOIN Room rm ON r.RoomNummer = rm.RecId
         LEFT JOIN Agency a ON r.AgencyId = a.RecId
         WHERE r.StatusCode IN (0, 1, 2, 3)
-          AND (r.RoomNummer = 0 OR r.RoomNummer IS NULL OR rm.ForeCast = 1)
           AND r.CheckinDate <= ? 
           AND r.CheckOutDate >= ?
     """
@@ -104,24 +99,28 @@ def extract_daily_data():
                     noshow_list.append(r_copy)
                 continue  # Exclude no-shows from active lists
             
-            # Arrivals today: CheckinDate == date_str AND Status == 1 (Bekleyen Girişler - Henüz Check-in yapılmamış)
-            if status == 1 and checkin == date_str:
-                arr_list.append(r_copy)
-                
-            # Departures today: CheckOutDate == date_str AND Status == 2 (Henüz Check-out yapılmamış In-House misafirler)
-            if status == 2 and checkout == date_str:
-                dep_list.append(r_copy)
-                
-            # In-House: Status == 2 (checked in)
-            # For today: anyone checked in is physically in-house.
-            # For future: anyone checked in and staying past that date.
             if date_str == today_iso:
-                is_inhouse = (status == 2)
+                # Arrivals today: CheckinDate == date_str AND Status == 1 (Bekleyen Girişler - Henüz Check-in yapılmamış)
+                if status == 1 and checkin == date_str:
+                    arr_list.append(r_copy)
+                    
+                # Departures today: CheckOutDate == date_str AND Status == 2 (Henüz Check-out yapılmamış In-House misafirler)
+                if status == 2 and checkout == date_str:
+                    dep_list.append(r_copy)
+                    
+                # In-House today: Status == 2 (checked in)
+                if status == 2:
+                    inh_list.append(r_copy)
             else:
-                is_inhouse = (status == 2 and checkin <= date_str and checkout > date_str)
-                
-            if is_inhouse:
-                inh_list.append(r_copy)
+                # Future dates: include active reservations (Status 1 and 2)
+                if status in (1, 2) and checkin == date_str:
+                    arr_list.append(r_copy)
+
+                if status in (1, 2) and checkout == date_str:
+                    dep_list.append(r_copy)
+
+                if status in (1, 2) and checkin <= date_str and checkout > date_str:
+                    inh_list.append(r_copy)
                 
         by_date[date_str] = {
             "summary": {
@@ -172,14 +171,8 @@ def extract_daily_data():
     print(f"Today's counts -> Arrivals: {len(today_data['arrivals'])} | Departures: {len(today_data['departures'])} | In-House: {len(today_data['inhouse'])}")
     
     # Push to Firebase Realtime Database
-    default_secret = "egKsRyn2xGkgNJJV7R2GbRQ2nYAZ7LLPcRzhjZYy"
-    firebase_secret = os.getenv("FIREBASE_SECRET", default_secret).strip()
-    if firebase_secret:
-        firebase_url = f"https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json?auth={firebase_secret}"
-    else:
-        firebase_url = "https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json"
-
-    print(f"Pushing data to Firebase: https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json")
+    firebase_url = get_firebase_url()
+    print(f"Pushing data to Firebase: {firebase_url}")
     try:
         response = requests.put(firebase_url, json=snapshot)
         if response.status_code == 200:
