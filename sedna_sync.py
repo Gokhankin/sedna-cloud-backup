@@ -172,8 +172,13 @@ def extract_daily_data():
     print(f"Today's counts -> Arrivals: {len(today_data['arrivals'])} | Departures: {len(today_data['departures'])} | In-House: {len(today_data['inhouse'])}")
     
     # Push to Firebase Realtime Database
-    firebase_url = "https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json"
-    print(f"Pushing data to Firebase: {firebase_url}")
+    firebase_secret = os.getenv("FIREBASE_SECRET", "").strip()
+    if firebase_secret:
+        firebase_url = f"https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json?auth={firebase_secret}"
+    else:
+        firebase_url = "https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json"
+
+    print(f"Pushing data to Firebase: https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json")
     try:
         response = requests.put(firebase_url, json=snapshot)
         if response.status_code == 200:
