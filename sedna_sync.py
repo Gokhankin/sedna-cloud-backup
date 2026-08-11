@@ -32,12 +32,14 @@ def extract_daily_data():
             r.Voucher, r.GroupNo, r.RecId,
             r.FirstName1, r.LastName1,
             r.CheckinDate, r.CheckOutDate,
-            r.Room, r.RoomType, r.Board,
+            COALESCE(NULLIF(r.Room, ''), rm.Room) AS Room,
+            r.RoomType, r.Board,
             r.Pax, r.Childs, r.AgencyId, r.ExtraFolioBalance,
             r.ResRemark, r.FlightArrival, r.FlightDeparture,
             r.Status,
             a.AgencyCode
         FROM Reservation r
+        LEFT JOIN Room rm ON r.RoomNummer = rm.RecId
         LEFT JOIN Agency a ON r.AgencyId = a.RecId
         WHERE r.StatusCode IN (0, 1, 2, 3)
           AND r.CheckinDate <= ? 

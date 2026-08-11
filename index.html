@@ -573,6 +573,7 @@
                     <!-- Legend -->
                     <div class="flex flex-wrap gap-4 text-xs">
                         <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-brand-500/10 border border-brand-500/35"></span> Dolu</div>
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-amber-500/10 border border-amber-500/35"></span> Giriş Bekliyor</div>
                         <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-slate-800/25 border border-slate-700/40"></span> Boş</div>
                         <div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]"></span> Temiz</div>
                         <div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]"></span> Kirli</div>
@@ -973,10 +974,16 @@
             breakdownEl.innerHTML = '';
             
             let inhouseList = [];
+            let arrivalsList = [];
+            let departuresList = [];
             if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
                 inhouseList = appData.by_date[selectedDate].inhouse || [];
+                arrivalsList = appData.by_date[selectedDate].arrivals || [];
+                departuresList = appData.by_date[selectedDate].departures || [];
             } else {
                 inhouseList = (appData.data && appData.data.inhouse) ? appData.data.inhouse : [];
+                arrivalsList = (appData.data && appData.data.arrivals) ? appData.data.arrivals : [];
+                departuresList = (appData.data && appData.data.departures) ? appData.data.departures : [];
             }
             
             const agencyCounts = {};
@@ -1010,25 +1017,37 @@
             }
             
             const hkList = (appData.data && appData.data.hk) ? appData.data.hk : [];
-            const occupiedRooms = {};
+            
+            // Priority matching: 1. Arrivals today, 2. Departures today, 3. In-House (Highest)
+            const roomGuests = {};
+            arrivalsList.forEach(guest => {
+                if (guest.Room) roomGuests[guest.Room] = guest;
+            });
+            departuresList.forEach(guest => {
+                if (guest.Room && !roomGuests[guest.Room]) roomGuests[guest.Room] = guest;
+            });
             inhouseList.forEach(guest => {
-                if (guest.Room) {
-                    occupiedRooms[guest.Room] = guest;
-                }
+                if (guest.Room) roomGuests[guest.Room] = guest;
             });
             
             const sortedHk = [...hkList].sort((a, b) => parseInt(a.Room) - parseInt(b.Room));
             
             sortedHk.forEach((hk, idx) => {
-                const guest = occupiedRooms[hk.Room];
-                const isOccupied = !!guest;
+                const guest = roomGuests[hk.Room];
+                
+                let cardStyle = 'bg-slate-800/25 border-slate-700/40 hover:bg-slate-800/40 text-slate-400';
+                if (guest) {
+                    if (guest.Status == 2) {
+                        cardStyle = 'bg-brand-500/10 border-brand-500/35 hover:bg-brand-500/20 text-white shadow-brand-500/5';
+                    } else if (guest.Status == 1) {
+                        cardStyle = 'bg-amber-500/10 border-amber-500/35 hover:bg-amber-500/20 text-white shadow-amber-500/5';
+                    } else {
+                        cardStyle = 'bg-slate-800/30 border-slate-700/50 hover:bg-slate-800/50 text-slate-300';
+                    }
+                }
                 
                 const card = document.createElement('div');
-                card.className = `room-card border transition-all ${
-                    isOccupied 
-                        ? 'bg-brand-500/10 border-brand-500/35 hover:bg-brand-500/20 text-white shadow-brand-500/5' 
-                        : 'bg-slate-800/25 border-slate-700/40 hover:bg-slate-800/40 text-slate-400'
-                }`;
+                card.className = `room-card border transition-all ${cardStyle}`;
                 
                 // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
                 let dotColor = 'bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]';
@@ -1071,9 +1090,18 @@
                 statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 flex items-center gap-1"><i class="fa-solid fa-sparkles"></i> Temiz</span>';
             }
                 
-            const occBadge = guest 
-                ? '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-500/15 text-brand-400 border border-brand-500/20 flex items-center gap-1"><i class="fa-solid fa-user"></i> Dolu</span>' 
-                : '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-400 border border-slate-700 flex items-center gap-1"><i class="fa-regular fa-user"></i> Boş</span>';
+            let occBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-400 border border-slate-700 flex items-center gap-1"><i class="fa-regular fa-user"></i> Boş</span>';
+            if (guest) {
+                if (guest.Status == 2) {
+                    occBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-500/15 text-brand-400 border border-brand-500/20 flex items-center gap-1"><i class="fa-solid fa-user"></i> Dolu (Konaklıyor)</span>';
+                } else if (guest.Status == 1) {
+                    occBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 flex items-center gap-1"><i class="fa-solid fa-plane-arrival"></i> Giriş Bekliyor (Gelecek)</span>';
+                } else if (guest.Status == 3) {
+                    occBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/20 flex items-center gap-1"><i class="fa-solid fa-plane-departure"></i> Çıkış Yapıldı</span>';
+                } else {
+                    occBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-500/15 text-brand-400 border border-brand-500/20 flex items-center gap-1"><i class="fa-solid fa-user"></i> Rezerve</span>';
+                }
+            }
                 
             let guestHtml = '';
             if (guest) {
