@@ -32,14 +32,12 @@ def extract_daily_data():
             r.Voucher, r.GroupNo, r.RecId,
             r.FirstName1, r.LastName1,
             r.CheckinDate, r.CheckOutDate,
-            COALESCE(NULLIF(r.Room, ''), rm.Room) AS Room,
-            r.RoomType, r.Board,
+            r.Room, r.RoomType, r.Board,
             r.Pax, r.Childs, r.AgencyId, r.ExtraFolioBalance,
             r.ResRemark, r.FlightArrival, r.FlightDeparture,
             r.Status,
             a.AgencyCode
         FROM Reservation r
-        LEFT JOIN Room rm ON r.RoomNummer = rm.RecId
         LEFT JOIN Agency a ON r.AgencyId = a.RecId
         WHERE r.StatusCode IN (0, 1, 2, 3)
           AND r.CheckinDate <= ? 
@@ -65,6 +63,94 @@ def extract_daily_data():
         WHERE ForeCast = 1
     """)
     hk_data = dictfetchall(cursor)
+    
+    # Fetch Out of Order / Out of Service / Closed to Sale rooms (Arızalı / Tamirde / Satışa Kapalı)
+    ooo_rooms = set()
+    try:
+        cursor.execute("""
+            SELECT DISTINCT Room
+            FROM HkHistory
+            WHERE CAST(HotelDate AS DATE) = CAST(GETDATE() AS DATE)
+              AND OOOStatus IN ('OOO', 'OOS', 'CS')
+        """)
+        ooo_rooms = set(r[0] for r in cursor.fetchall())
+    except Exception as e:
+        print(f"Error fetching OOO rooms: {e}")
+        ooo_rooms = set()
+    
+    # Fetch Room Changes (from LOG table and RoomChangePlan)
+    room_changes = []
+    try:
+        # 1. Fetch direct room changes from LOG table
+        cursor.execute("""
+            SELECT 
+                l.ResId AS ReservationId,
+                l.ADateTime AS RecordDate,
+                l.Old AS OldRoom,
+                l.New AS NewRoom,
+                l.UserCode AS RecordUser,
+                r.Voucher,
+                r.FirstName1,
+                r.LastName1,
+                r.AgencyId,
+                r.CheckinDate,
+                r.CheckOutDate,
+                r.PriceType,
+                r.Remark,
+                a.AgencyCode
+            FROM LOG l
+            INNER JOIN Reservation r ON l.ResId = r.RecId
+            LEFT JOIN Agency a ON r.AgencyId = a.RecId
+            WHERE l.FieldName = 'Room'
+              AND l.Old IS NOT NULL AND l.Old != ''
+              AND l.New IS NOT NULL AND l.New != ''
+            ORDER BY l.ADateTime DESC
+        """)
+        log_changes = dictfetchall(cursor)
+        for rc in log_changes:
+            if rc.get('RecordDate'):
+                dt_obj = rc['RecordDate']
+                rc['RCDate'] = dt_obj.strftime('%Y-%m-%d')
+                rc['RecordDate'] = dt_obj.strftime('%Y-%m-%d %H:%M:%S')
+                rc['Time'] = dt_obj.strftime('%H:%M')
+            if rc.get('CheckinDate'):
+                rc['CheckinDate'] = str(rc['CheckinDate'])[:10]
+            if rc.get('CheckOutDate'):
+                rc['CheckOutDate'] = str(rc['CheckOutDate'])[:10]
+            rc['RoomChanged'] = '1'
+            room_changes.append(rc)
+
+        # 2. Also fetch RoomChangePlan for planned changes not in LOG
+        cursor.execute("""
+            SELECT 
+                rcp.RecId, rcp.RCDate, rcp.Time, rcp.OldRoom, rcp.NewRoom, rcp.Remark, 
+                rcp.RecordUser, rcp.RecordDate, rcp.RoomChanged, rcp.ReservationId,
+                r.Voucher, r.FirstName1, r.LastName1, r.AgencyId, a.AgencyCode
+            FROM RoomChangePlan rcp
+            LEFT JOIN Reservation r ON rcp.ReservationId = r.RecId
+            LEFT JOIN Agency a ON r.AgencyId = a.RecId
+            WHERE (rcp.Deleted = 0 OR rcp.Deleted IS NULL)
+            ORDER BY rcp.RCDate DESC, rcp.RecId DESC
+        """)
+        plan_changes = dictfetchall(cursor)
+        existing_keys = set((rc['ReservationId'], rc.get('RCDate')) for rc in room_changes)
+        for rc in plan_changes:
+            if rc.get('RCDate'):
+                rc['RCDate'] = rc['RCDate'].strftime('%Y-%m-%d')
+            if rc.get('RecordDate'):
+                rc['RecordDate'] = rc['RecordDate'].strftime('%Y-%m-%d %H:%M:%S')
+            if rc.get('Time'):
+                try:
+                    rc['Time'] = rc['Time'].strftime('%H:%M')
+                except Exception:
+                    rc['Time'] = str(rc['Time'])
+            key = (rc.get('ReservationId'), rc.get('RCDate'))
+            if key not in existing_keys:
+                room_changes.append(rc)
+
+    except Exception as e:
+        print(f"Error fetching room changes: {e}")
+        room_changes = []
     
     # Generate multi-day lists
     by_date = {}
@@ -124,17 +210,29 @@ def extract_daily_data():
                 if status in (1, 2) and checkin <= date_str and checkout > date_str:
                     inh_list.append(r_copy)
                 
+        # Determine vacant rooms for date_str (excluding occupied, arrival-allocated, and OOO/OOS/CS rooms)
+        occ_rooms = set(r['Room'] for r in inh_list if r.get('Room'))
+        arr_rooms = set(r['Room'] for r in arr_list if r.get('Room'))
+        vacant_list = [dict(hk) for hk in hk_data if hk.get('Room') not in occ_rooms and hk.get('Room') not in arr_rooms and hk.get('Room') not in ooo_rooms]
+
+        # Room changes for date_str
+        rc_list = [rc for rc in room_changes if rc.get('RCDate') == date_str]
+
         by_date[date_str] = {
             "summary": {
                 "arrivals_count": len(arr_list),
                 "departures_count": len(dep_list),
                 "inhouse_count": len(inh_list),
-                "noshow_count": len(noshow_list)
+                "noshow_count": len(noshow_list),
+                "vacant_count": len(vacant_list),
+                "roomchanges_count": len(rc_list)
             },
             "arrivals": arr_list,
             "departures": dep_list,
             "inhouse": inh_list,
-            "noshow": noshow_list
+            "noshow": noshow_list,
+            "vacant": vacant_list,
+            "roomchanges": rc_list
         }
         
     # Maintain backward-compatible "data" section for today
@@ -142,24 +240,31 @@ def extract_daily_data():
         "arrivals": [],
         "departures": [],
         "inhouse": [],
-        "noshow": []
+        "noshow": [],
+        "vacant": [],
+        "roomchanges": []
     })
     
     snapshot = {
         "sync_time": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         "report_date": today_iso,
         "summary": {
-            "arrivals_count": len(today_data["arrivals"]),
-            "departures_count": len(today_data["departures"]),
-            "inhouse_count": len(today_data["inhouse"]),
-            "noshow_count": len(today_data["noshow"]),
+            "arrivals_count": len(today_data.get("arrivals", [])),
+            "departures_count": len(today_data.get("departures", [])),
+            "inhouse_count": len(today_data.get("inhouse", [])),
+            "noshow_count": len(today_data.get("noshow", [])),
+            "vacant_count": len(today_data.get("vacant", [])),
+            "roomchanges_count": len(today_data.get("roomchanges", [])),
             "hk_count": len(hk_data)
         },
         "data": {
-            "arrivals": today_data["arrivals"],
-            "departures": today_data["departures"],
-            "inhouse": today_data["inhouse"],
-            "noshow": today_data["noshow"],
+            "arrivals": today_data.get("arrivals", []),
+            "departures": today_data.get("departures", []),
+            "inhouse": today_data.get("inhouse", []),
+            "noshow": today_data.get("noshow", []),
+            "vacant": today_data.get("vacant", []),
+            "roomchanges": today_data.get("roomchanges", []),
+            "all_roomchanges": room_changes,
             "hk": hk_data
         },
         "by_date": by_date
