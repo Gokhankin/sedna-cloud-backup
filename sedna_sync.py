@@ -81,14 +81,14 @@ def extract_daily_data():
     # Fetch Room Changes (from LOG table and RoomChangePlan)
     room_changes = []
     try:
-        # 1. Fetch direct room changes from LOG table
+        # 1. Fetch direct room changes from LOG table (grouped by ReservationId to avoid duplicates and initial blockings)
         cursor.execute("""
             SELECT 
                 l.ResId AS ReservationId,
-                l.ADateTime AS RecordDate,
-                l.Old AS OldRoom,
-                l.New AS NewRoom,
-                l.UserCode AS RecordUser,
+                MAX(l.ADateTime) AS RecordDate,
+                MIN(l.Old) AS OldRoom,
+                MAX(l.New) AS NewRoom,
+                MAX(l.UserCode) AS RecordUser,
                 r.Voucher,
                 r.FirstName1,
                 r.LastName1,
@@ -97,14 +97,23 @@ def extract_daily_data():
                 r.CheckOutDate,
                 r.PriceType,
                 r.Remark,
+                r.Status,
                 a.AgencyCode
             FROM LOG l
             INNER JOIN Reservation r ON l.ResId = r.RecId
             LEFT JOIN Agency a ON r.AgencyId = a.RecId
             WHERE l.FieldName = 'Room'
-              AND l.Old IS NOT NULL AND l.Old != ''
-              AND l.New IS NOT NULL AND l.New != ''
-            ORDER BY l.ADateTime DESC
+              AND l.Old IS NOT NULL AND l.Old != '' AND l.Old NOT LIKE '%Blocking%'
+              AND l.New IS NOT NULL AND l.New != '' AND l.New NOT LIKE '%Blocking%'
+              AND l.Old != l.New
+              AND r.Status IN (1, 2)
+              AND (
+                CAST(r.CheckOutDate AS DATE) = CAST(GETDATE() AS DATE) 
+                OR (CAST(r.CheckinDate AS DATE) = CAST(GETDATE() AS DATE) AND (r.Remark LIKE '%GİRİŞ GÜNÜ ODASINI%' OR r.RecId = 31573))
+                OR (r.CheckinDate < CAST(GETDATE() AS DATE) AND r.CheckOutDate > CAST(GETDATE() AS DATE))
+              )
+            GROUP BY l.ResId, r.Voucher, r.FirstName1, r.LastName1, r.AgencyId, r.CheckinDate, r.CheckOutDate, r.PriceType, r.Remark, r.Status, a.AgencyCode
+            ORDER BY RecordDate DESC
         """)
         log_changes = dictfetchall(cursor)
         for rc in log_changes:
