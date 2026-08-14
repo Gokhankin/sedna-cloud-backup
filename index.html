@@ -911,8 +911,15 @@
                     
                     let extraInfo = '';
                     if (row.ResRemark) extraInfo += `<div class="text-xs text-amber-400 mt-1 max-w-xs truncate" title="${row.ResRemark}"><i class="fa-solid fa-comment-dots"></i> ${row.ResRemark}</div>`;
-                    if (row.FlightArrival) extraInfo += `<div class="text-xs text-sky-400 mt-1"><i class="fa-solid fa-plane-arrival"></i> ${row.FlightArrival}</div>`;
-                    if (row.FlightDeparture) extraInfo += `<div class="text-xs text-purple-400 mt-1"><i class="fa-solid fa-plane-departure"></i> ${row.FlightDeparture}</div>`;
+                    
+                    if (currentTab === 'arrivals' || currentTab === 'noshow') {
+                        if (row.FlightArrival) extraInfo += `<div class="text-xs text-sky-400 mt-1"><i class="fa-solid fa-plane-arrival"></i> ${row.FlightArrival}</div>`;
+                    } else if (currentTab === 'departures' || currentTab === 'inhouse') {
+                        if (row.FlightDeparture) extraInfo += `<div class="text-xs text-purple-400 mt-1"><i class="fa-solid fa-plane-departure"></i> ${row.FlightDeparture}</div>`;
+                    } else {
+                        if (row.FlightArrival) extraInfo += `<div class="text-xs text-sky-400 mt-1"><i class="fa-solid fa-plane-arrival"></i> ${row.FlightArrival}</div>`;
+                        if (row.FlightDeparture) extraInfo += `<div class="text-xs text-purple-400 mt-1"><i class="fa-solid fa-plane-departure"></i> ${row.FlightDeparture}</div>`;
+                    }
                     
                     const paxLabel = `<span class="inline-flex items-center gap-1"><i class="fa-solid fa-user text-slate-500"></i> ${row.Pax}</span>`;
                     const chdLabel = row.Childs > 0 ? `<span class="inline-flex items-center gap-1 ml-2"><i class="fa-solid fa-child text-slate-500"></i> ${row.Childs}</span>` : '';
