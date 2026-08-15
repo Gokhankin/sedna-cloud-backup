@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-08-15 08:00:02",
+  "sync_time": "2026-08-15 09:00:02",
   "report_date": "2026-08-15",
   "summary": {
-    "arrivals_count": 26,
+    "arrivals_count": 28,
     "departures_count": 16,
     "inhouse_count": 83,
     "noshow_count": 5,
-    "vacant_count": 16,
-    "roomchanges_count": 0,
+    "vacant_count": 15,
+    "roomchanges_count": 1,
     "hk_count": 111
   },
   "data": {
@@ -137,6 +137,48 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "EXPEDIA"
+      },
+      {
+        "Voucher": "31708",
+        "GroupNo": "",
+        "RecId": 31708,
+        "FirstName1": "MEHMET ALI",
+        "LastName1": "YILDIZ",
+        "CheckinDate": "2026-08-15",
+        "CheckOutDate": "2026-08-18",
+        "Room": "702",
+        "RoomType": "STD SEA",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1,
+        "ExtraFolioBalance": 48000.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "MUNFERIT TL"
+      },
+      {
+        "Voucher": "31709",
+        "GroupNo": "",
+        "RecId": 31709,
+        "FirstName1": "MEHMET ALI",
+        "LastName1": "YILDIZ",
+        "CheckinDate": "2026-08-15",
+        "CheckOutDate": "2026-08-18",
+        "Room": "703",
+        "RoomType": "STD SEA",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1,
+        "ExtraFolioBalance": 48000.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "MUNFERIT TL"
       },
       {
         "Voucher": "2625902",
@@ -458,7 +500,7 @@
         "GroupNo": "",
         "RecId": 31609,
         "FirstName1": "NADIRE",
-        "LastName1": "AKINCIOGLU",
+        "LastName1": "KONUK",
         "CheckinDate": "2026-08-15",
         "CheckOutDate": "2026-08-23",
         "Room": "130",
@@ -2628,8 +2670,8 @@
         "LastName1": "CALIM",
         "CheckinDate": "2026-07-31",
         "CheckOutDate": "2026-08-31",
-        "Room": "701",
-        "RoomType": "STD SEA L",
+        "Room": "1013",
+        "RoomType": "PM",
         "Board": "AI",
         "Pax": 1,
         "Childs": 0,
@@ -2842,16 +2884,9 @@
         "OccVac": 1
       },
       {
-        "Room": "702",
-        "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "703",
-        "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "Room": "701",
+        "RoomTypeCode": "STD SEA L",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2863,8 +2898,49 @@
         "OccVac": 1
       }
     ],
-    "roomchanges": [],
+    "roomchanges": [
+      {
+        "ReservationId": 31319,
+        "RecordDate": "2026-08-15 08:12:57",
+        "OldRoom": "314",
+        "NewRoom": "701",
+        "RecordUser": "AYTEKİN",
+        "Voucher": "31319",
+        "FirstName1": "BURHANETTIN",
+        "LastName1": "CALIM",
+        "AgencyId": 10,
+        "CheckinDate": "2026-07-31",
+        "CheckOutDate": "2026-08-31",
+        "PriceType": "STD-LV",
+        "Remark": "FULL COMP 100% INDIRIMLI",
+        "Status": 2,
+        "AgencyCode": "COMP",
+        "RCDate": "2026-08-15",
+        "Time": "08:12",
+        "RoomChanged": "1"
+      }
+    ],
     "all_roomchanges": [
+      {
+        "ReservationId": 31319,
+        "RecordDate": "2026-08-15 08:12:57",
+        "OldRoom": "314",
+        "NewRoom": "701",
+        "RecordUser": "AYTEKİN",
+        "Voucher": "31319",
+        "FirstName1": "BURHANETTIN",
+        "LastName1": "CALIM",
+        "AgencyId": 10,
+        "CheckinDate": "2026-07-31",
+        "CheckOutDate": "2026-08-31",
+        "PriceType": "STD-LV",
+        "Remark": "FULL COMP 100% INDIRIMLI",
+        "Status": 2,
+        "AgencyCode": "COMP",
+        "RCDate": "2026-08-15",
+        "Time": "08:12",
+        "RoomChanged": "1"
+      },
       {
         "ReservationId": 30067,
         "RecordDate": "2026-08-14 19:31:15",
@@ -3303,26 +3379,6 @@
         "AgencyCode": "HOTELBEDS - B2B",
         "RCDate": "2026-08-10",
         "Time": "10:28",
-        "RoomChanged": "1"
-      },
-      {
-        "ReservationId": 31319,
-        "RecordDate": "2026-08-10 09:56:20",
-        "OldRoom": "314",
-        "NewRoom": "701",
-        "RecordUser": "AYTEKİN",
-        "Voucher": "31319",
-        "FirstName1": "BURHANETTIN",
-        "LastName1": "CALIM",
-        "AgencyId": 10,
-        "CheckinDate": "2026-07-31",
-        "CheckOutDate": "2026-08-31",
-        "PriceType": "STD-LV",
-        "Remark": "FULL COMP 100% INDIRIMLI",
-        "Status": 2,
-        "AgencyCode": "COMP",
-        "RCDate": "2026-08-10",
-        "Time": "09:56",
         "RoomChanged": "1"
       },
       {
@@ -4391,12 +4447,12 @@
   "by_date": {
     "2026-08-15": {
       "summary": {
-        "arrivals_count": 26,
+        "arrivals_count": 28,
         "departures_count": 16,
         "inhouse_count": 83,
         "noshow_count": 5,
-        "vacant_count": 16,
-        "roomchanges_count": 0
+        "vacant_count": 15,
+        "roomchanges_count": 1
       },
       "arrivals": [
         {
@@ -4524,6 +4580,48 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "31708",
+          "GroupNo": "",
+          "RecId": 31708,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "702",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "31709",
+          "GroupNo": "",
+          "RecId": 31709,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
         },
         {
           "Voucher": "2625902",
@@ -4845,7 +4943,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -7015,8 +7113,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -7229,16 +7327,9 @@
           "OccVac": 1
         },
         {
-          "Room": "702",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7250,15 +7341,36 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 31319,
+          "RecordDate": "2026-08-15 08:12:57",
+          "OldRoom": "314",
+          "NewRoom": "701",
+          "RecordUser": "AYTEKİN",
+          "Voucher": "31319",
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "AgencyId": 10,
+          "CheckinDate": "2026-07-31",
+          "CheckOutDate": "2026-08-31",
+          "PriceType": "STD-LV",
+          "Remark": "FULL COMP 100% INDIRIMLI",
+          "Status": 2,
+          "AgencyCode": "COMP",
+          "RCDate": "2026-08-15",
+          "Time": "08:12",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-08-16": {
       "summary": {
         "arrivals_count": 15,
         "departures_count": 19,
-        "inhouse_count": 89,
+        "inhouse_count": 91,
         "noshow_count": 0,
-        "vacant_count": 35,
+        "vacant_count": 34,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -8464,6 +8576,48 @@
           "AgencyCode": "EXPEDIA"
         },
         {
+          "Voucher": "31708",
+          "GroupNo": "",
+          "RecId": 31708,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "702",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "31709",
+          "GroupNo": "",
+          "RecId": 31709,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
           "Voucher": "3018178",
           "GroupNo": "",
           "RecId": 28988,
@@ -9539,7 +9693,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -9836,8 +9990,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -10077,16 +10231,9 @@
           "OccVac": 1
         },
         {
-          "Room": "702",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10104,9 +10251,9 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 17,
-        "inhouse_count": 83,
+        "inhouse_count": 85,
         "noshow_count": 0,
-        "vacant_count": 50,
+        "vacant_count": 49,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -10829,6 +10976,48 @@
           "AgencyCode": "EXPEDIA"
         },
         {
+          "Voucher": "31708",
+          "GroupNo": "",
+          "RecId": 31708,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "702",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "31709",
+          "GroupNo": "",
+          "RecId": 31709,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
           "Voucher": "3018178",
           "GroupNo": "",
           "RecId": 28988,
@@ -12093,7 +12282,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -12432,8 +12621,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -12778,16 +12967,9 @@
           "OccVac": 1
         },
         {
-          "Room": "702",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12804,10 +12986,10 @@
     "2026-08-18": {
       "summary": {
         "arrivals_count": 8,
-        "departures_count": 16,
+        "departures_count": 18,
         "inhouse_count": 75,
         "noshow_count": 0,
-        "vacant_count": 66,
+        "vacant_count": 67,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -13108,6 +13290,48 @@
           "AgencyCode": "EXPEDIA"
         },
         {
+          "Voucher": "31708",
+          "GroupNo": "",
+          "RecId": 31708,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "702",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "31709",
+          "GroupNo": "",
+          "RecId": 31709,
+          "FirstName1": "MEHMET ALI",
+          "LastName1": "YILDIZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-18",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 48000.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
           "Voucher": "3018178",
           "GroupNo": "",
           "RecId": 28988,
@@ -14416,7 +14640,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -14881,8 +15105,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -15332,6 +15556,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
@@ -15368,7 +15599,7 @@
         "departures_count": 9,
         "inhouse_count": 73,
         "noshow_count": 0,
-        "vacant_count": 74,
+        "vacant_count": 75,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -16662,7 +16893,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -17232,8 +17463,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -17739,6 +17970,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
@@ -17775,7 +18013,7 @@
         "departures_count": 10,
         "inhouse_count": 72,
         "noshow_count": 0,
-        "vacant_count": 79,
+        "vacant_count": 80,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -18943,7 +19181,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -19681,8 +19919,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -20223,6 +20461,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
@@ -20259,7 +20504,7 @@
         "departures_count": 18,
         "inhouse_count": 63,
         "noshow_count": 0,
-        "vacant_count": 88,
+        "vacant_count": 89,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -21238,7 +21483,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -22144,8 +22389,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -22749,6 +22994,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
@@ -22785,7 +23037,7 @@
         "departures_count": 15,
         "inhouse_count": 59,
         "noshow_count": 0,
-        "vacant_count": 98,
+        "vacant_count": 99,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -23428,7 +23680,7 @@
           "GroupNo": "",
           "RecId": 31609,
           "FirstName1": "NADIRE",
-          "LastName1": "AKINCIOGLU",
+          "LastName1": "KONUK",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-23",
           "Room": "130",
@@ -24544,8 +24796,8 @@
           "LastName1": "CALIM",
           "CheckinDate": "2026-07-31",
           "CheckOutDate": "2026-08-31",
-          "Room": "701",
-          "RoomType": "STD SEA L",
+          "Room": "1013",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -25235,6 +25487,13 @@
         {
           "Room": "424",
           "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
