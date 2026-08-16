@@ -1,8 +1,8 @@
 {
-  "sync_time": "2026-08-17 01:00:01",
+  "sync_time": "2026-08-17 02:00:01",
   "report_date": "2026-08-17",
   "summary": {
-    "arrivals_count": 13,
+    "arrivals_count": 14,
     "departures_count": 18,
     "inhouse_count": 91,
     "noshow_count": 6,
@@ -12,6 +12,27 @@
   },
   "data": {
     "arrivals": [
+      {
+        "Voucher": "31751",
+        "GroupNo": "",
+        "RecId": 31751,
+        "FirstName1": "MUHAMMET ALI",
+        "LastName1": "KORKMAZ",
+        "CheckinDate": "2026-08-17",
+        "CheckOutDate": "2026-08-18",
+        "Room": "119",
+        "RoomType": "CLUB SEA",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 3,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "MUNFERIT EURO"
+      },
       {
         "Voucher": "2533663202",
         "GroupNo": "",
@@ -1395,7 +1416,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 827.0865,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1584,7 +1605,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 13040.39714,
+        "ExtraFolioBalance": 4769.52714,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -4434,7 +4455,7 @@
   "by_date": {
     "2026-08-17": {
       "summary": {
-        "arrivals_count": 13,
+        "arrivals_count": 14,
         "departures_count": 18,
         "inhouse_count": 91,
         "noshow_count": 6,
@@ -4442,6 +4463,27 @@
         "roomchanges_count": 0
       },
       "arrivals": [
+        {
+          "Voucher": "31751",
+          "GroupNo": "",
+          "RecId": 31751,
+          "FirstName1": "MUHAMMET ALI",
+          "LastName1": "KORKMAZ",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-18",
+          "Room": "119",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT EURO"
+        },
         {
           "Voucher": "2533663202",
           "GroupNo": "",
@@ -5825,7 +5867,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 827.0865,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6014,7 +6056,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 13040.39714,
+          "ExtraFolioBalance": 4769.52714,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7284,7 +7326,7 @@
     "2026-08-18": {
       "summary": {
         "arrivals_count": 12,
-        "departures_count": 17,
+        "departures_count": 18,
         "inhouse_count": 82,
         "noshow_count": 0,
         "vacant_count": 39,
@@ -7545,6 +7587,27 @@
         }
       ],
       "departures": [
+        {
+          "Voucher": "31751",
+          "GroupNo": "",
+          "RecId": 31751,
+          "FirstName1": "MUHAMMET ALI",
+          "LastName1": "KORKMAZ",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-18",
+          "Room": "119",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT EURO"
+        },
         {
           "Voucher": "3018178",
           "GroupNo": "",
@@ -7895,7 +7958,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 827.0865,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8149,7 +8212,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 13040.39714,
+          "ExtraFolioBalance": 4769.52714,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10372,7 +10435,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 13040.39714,
+          "ExtraFolioBalance": 4769.52714,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
