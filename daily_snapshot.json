@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-16 09:00:02",
+  "sync_time": "2026-08-16 10:00:02",
   "report_date": "2026-08-16",
   "summary": {
     "arrivals_count": 16,
-    "departures_count": 19,
-    "inhouse_count": 95,
+    "departures_count": 18,
+    "inhouse_count": 94,
     "noshow_count": 4,
-    "vacant_count": 13,
+    "vacant_count": 14,
     "roomchanges_count": 2,
     "hk_count": 111
   },
@@ -26,7 +26,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": -53988.89837,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -47,7 +47,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": -67395.97054,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -68,7 +68,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": -67887.25992,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -307,7 +307,7 @@
         "AgencyCode": "HOTELBEDS - B2B"
       },
       {
-        "Voucher": "",
+        "Voucher": "31714",
         "GroupNo": "",
         "RecId": 31714,
         "FirstName1": "YILMAZ",
@@ -582,27 +582,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "2620114",
-        "GroupNo": "",
-        "RecId": 31388,
-        "FirstName1": "EMRE",
-        "LastName1": "ACAR",
-        "CheckinDate": "2026-08-11",
-        "CheckOutDate": "2026-08-16",
-        "Room": "424",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
         "Voucher": "75-3678981",
         "GroupNo": "",
         "RecId": 31506,
@@ -732,7 +711,7 @@
         "Voucher": "6616703889",
         "GroupNo": "",
         "RecId": 31711,
-        "FirstName1": "CEREN ",
+        "FirstName1": "CEREN",
         "LastName1": "KAPANCIOGLU",
         "CheckinDate": "2026-08-15",
         "CheckOutDate": "2026-08-16",
@@ -983,27 +962,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "2620114",
-        "GroupNo": "",
-        "RecId": 31388,
-        "FirstName1": "EMRE",
-        "LastName1": "ACAR",
-        "CheckinDate": "2026-08-11",
-        "CheckOutDate": "2026-08-16",
-        "Room": "424",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
         "Voucher": "75-3678981",
         "GroupNo": "",
         "RecId": 31506,
@@ -1133,7 +1091,7 @@
         "Voucher": "6616703889",
         "GroupNo": "",
         "RecId": 31711,
-        "FirstName1": "CEREN ",
+        "FirstName1": "CEREN",
         "LastName1": "KAPANCIOGLU",
         "CheckinDate": "2026-08-15",
         "CheckOutDate": "2026-08-16",
@@ -2898,6 +2856,13 @@
         "OccVac": 1
       },
       {
+        "Room": "424",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "701",
         "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
@@ -4616,10 +4581,10 @@
     "2026-08-16": {
       "summary": {
         "arrivals_count": 16,
-        "departures_count": 19,
-        "inhouse_count": 95,
+        "departures_count": 18,
+        "inhouse_count": 94,
         "noshow_count": 4,
-        "vacant_count": 13,
+        "vacant_count": 14,
         "roomchanges_count": 2
       },
       "arrivals": [
@@ -4637,7 +4602,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -53988.89837,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4658,7 +4623,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67395.97054,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4679,7 +4644,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67887.25992,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4918,7 +4883,7 @@
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -5193,27 +5158,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "2620114",
-          "GroupNo": "",
-          "RecId": 31388,
-          "FirstName1": "EMRE",
-          "LastName1": "ACAR",
-          "CheckinDate": "2026-08-11",
-          "CheckOutDate": "2026-08-16",
-          "Room": "424",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
           "Voucher": "75-3678981",
           "GroupNo": "",
           "RecId": 31506,
@@ -5343,7 +5287,7 @@
           "Voucher": "6616703889",
           "GroupNo": "",
           "RecId": 31711,
-          "FirstName1": "CEREN ",
+          "FirstName1": "CEREN",
           "LastName1": "KAPANCIOGLU",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-16",
@@ -5594,27 +5538,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "2620114",
-          "GroupNo": "",
-          "RecId": 31388,
-          "FirstName1": "EMRE",
-          "LastName1": "ACAR",
-          "CheckinDate": "2026-08-11",
-          "CheckOutDate": "2026-08-16",
-          "Room": "424",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
           "Voucher": "75-3678981",
           "GroupNo": "",
           "RecId": 31506,
@@ -5744,7 +5667,7 @@
           "Voucher": "6616703889",
           "GroupNo": "",
           "RecId": 31711,
-          "FirstName1": "CEREN ",
+          "FirstName1": "CEREN",
           "LastName1": "KAPANCIOGLU",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-16",
@@ -7509,6 +7432,13 @@
           "OccVac": 1
         },
         {
+          "Room": "424",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -8595,7 +8525,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -53988.89837,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8637,7 +8567,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67395.97054,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8826,7 +8756,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67887.25992,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9758,7 +9688,7 @@
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -10341,7 +10271,7 @@
       },
       "arrivals": [
         {
-          "Voucher": "",
+          "Voucher": "31725",
           "GroupNo": "",
           "RecId": 31725,
           "FirstName1": "ALI",
@@ -10904,7 +10834,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -53988.89837,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10946,7 +10876,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67395.97054,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10954,7 +10884,7 @@
           "AgencyCode": "BOOKING.COM"
         },
         {
-          "Voucher": "",
+          "Voucher": "31725",
           "GroupNo": "",
           "RecId": 31725,
           "FirstName1": "ALI",
@@ -11177,7 +11107,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67887.25992,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12172,7 +12102,7 @@
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -13162,7 +13092,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -53988.89837,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13204,7 +13134,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67395.97054,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13212,7 +13142,7 @@
           "AgencyCode": "BOOKING.COM"
         },
         {
-          "Voucher": "",
+          "Voucher": "31725",
           "GroupNo": "",
           "RecId": 31725,
           "FirstName1": "ALI",
@@ -13437,7 +13367,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67887.25992,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14495,7 +14425,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -15716,7 +15646,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -67887.25992,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -16818,7 +16748,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -19120,7 +19050,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -21359,7 +21289,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
@@ -23442,7 +23372,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31714",
           "GroupNo": "",
           "RecId": 31714,
           "FirstName1": "YILMAZ",
