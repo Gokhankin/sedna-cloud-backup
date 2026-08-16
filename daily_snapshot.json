@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-16 03:00:01",
+  "sync_time": "2026-08-16 04:00:01",
   "report_date": "2026-08-16",
   "summary": {
     "arrivals_count": 17,
     "departures_count": 20,
-    "inhouse_count": 94,
+    "inhouse_count": 95,
     "noshow_count": 4,
-    "vacant_count": 15,
+    "vacant_count": 14,
     "roomchanges_count": 2,
     "hk_count": 111
   },
@@ -2537,6 +2537,27 @@
         "AgencyCode": "WEBBEDS-B2B"
       },
       {
+        "Voucher": "5923803844",
+        "GroupNo": "",
+        "RecId": 31699,
+        "FirstName1": "DANIEL",
+        "LastName1": "MUNOZ",
+        "CheckinDate": "2026-08-15",
+        "CheckOutDate": "2026-08-22",
+        "Room": "127",
+        "RoomType": "STD-SVL",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 7,
+        "ExtraFolioBalance": 1e-05,
+        "ResRemark": "",
+        "FlightArrival": "23:30",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "BOOKING.COM"
+      },
+      {
         "Voucher": "30725",
         "GroupNo": "",
         "RecId": 30725,
@@ -2858,13 +2879,6 @@
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "127",
-        "RoomTypeCode": "STD-SVL",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -4652,9 +4666,9 @@
       "summary": {
         "arrivals_count": 17,
         "departures_count": 20,
-        "inhouse_count": 94,
+        "inhouse_count": 95,
         "noshow_count": 4,
-        "vacant_count": 15,
+        "vacant_count": 14,
         "roomchanges_count": 2
       },
       "arrivals": [
@@ -7183,6 +7197,27 @@
           "AgencyCode": "WEBBEDS-B2B"
         },
         {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
+        },
+        {
           "Voucher": "30725",
           "GroupNo": "",
           "RecId": 30725,
@@ -7504,13 +7539,6 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "127",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -9492,27 +9520,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "5923803844",
-          "GroupNo": "",
-          "RecId": 31699,
-          "FirstName1": "DANIEL",
-          "LastName1": "MUNOZ",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "127",
-          "RoomType": "STD-SVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -105984.51828,
-          "ResRemark": "",
-          "FlightArrival": "23:30",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2535143822",
           "GroupNo": "",
           "RecId": 31717,
@@ -9721,6 +9728,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "WEBBEDS-B2B"
+        },
+        {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "3025591",
@@ -11892,27 +11920,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "5923803844",
-          "GroupNo": "",
-          "RecId": 31699,
-          "FirstName1": "DANIEL",
-          "LastName1": "MUNOZ",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "127",
-          "RoomType": "STD-SVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -105984.51828,
-          "ResRemark": "",
-          "FlightArrival": "23:30",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2535143822",
           "GroupNo": "",
           "RecId": 31717,
@@ -12121,6 +12128,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "WEBBEDS-B2B"
+        },
+        {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "3025591",
@@ -14201,27 +14229,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "5923803844",
-          "GroupNo": "",
-          "RecId": 31699,
-          "FirstName1": "DANIEL",
-          "LastName1": "MUNOZ",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "127",
-          "RoomType": "STD-SVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -105984.51828,
-          "ResRemark": "",
-          "FlightArrival": "23:30",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2535143822",
           "GroupNo": "",
           "RecId": 31717,
@@ -14430,6 +14437,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "WEBBEDS-B2B"
+        },
+        {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "3025591",
@@ -16489,27 +16517,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "5923803844",
-          "GroupNo": "",
-          "RecId": 31699,
-          "FirstName1": "DANIEL",
-          "LastName1": "MUNOZ",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "127",
-          "RoomType": "STD-SVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -105984.51828,
-          "ResRemark": "",
-          "FlightArrival": "23:30",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2535143822",
           "GroupNo": "",
           "RecId": 31717,
@@ -16718,6 +16725,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "WEBBEDS-B2B"
+        },
+        {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "3025591",
@@ -18791,27 +18819,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "5923803844",
-          "GroupNo": "",
-          "RecId": 31699,
-          "FirstName1": "DANIEL",
-          "LastName1": "MUNOZ",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "127",
-          "RoomType": "STD-SVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -105984.51828,
-          "ResRemark": "",
-          "FlightArrival": "23:30",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2535143822",
           "GroupNo": "",
           "RecId": 31717,
@@ -19020,6 +19027,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "WEBBEDS-B2B"
+        },
+        {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "3025591",
@@ -21028,27 +21056,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "5923803844",
-          "GroupNo": "",
-          "RecId": 31699,
-          "FirstName1": "DANIEL",
-          "LastName1": "MUNOZ",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "127",
-          "RoomType": "STD-SVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -105984.51828,
-          "ResRemark": "",
-          "FlightArrival": "23:30",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2535143822",
           "GroupNo": "",
           "RecId": 31717,
@@ -21257,6 +21264,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "WEBBEDS-B2B"
+        },
+        {
+          "Voucher": "5923803844",
+          "GroupNo": "",
+          "RecId": 31699,
+          "FirstName1": "DANIEL",
+          "LastName1": "MUNOZ",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "127",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 1e-05,
+          "ResRemark": "",
+          "FlightArrival": "23:30",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         }
       ],
       "inhouse": [
