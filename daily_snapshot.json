@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-08-16 02:00:01",
+  "sync_time": "2026-08-16 03:00:01",
   "report_date": "2026-08-16",
   "summary": {
     "arrivals_count": 17,
     "departures_count": 20,
-    "inhouse_count": 93,
+    "inhouse_count": 94,
     "noshow_count": 4,
-    "vacant_count": 16,
-    "roomchanges_count": 1,
+    "vacant_count": 15,
+    "roomchanges_count": 2,
     "hk_count": 111
   },
   "data": {
@@ -1878,7 +1878,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 2e-05,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2369,6 +2369,27 @@
         "AgencyCode": "ATIK TOUR"
       },
       {
+        "Voucher": "8630548",
+        "GroupNo": "",
+        "RecId": 30023,
+        "FirstName1": "MAGDALENA",
+        "LastName1": "SZEWC",
+        "CheckinDate": "2026-08-15",
+        "CheckOutDate": "2026-08-22",
+        "Room": "318",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 9,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "22:30",
+        "FlightDeparture": "23:25",
+        "Status": 2,
+        "AgencyCode": "EASYJET"
+      },
+      {
         "Voucher": "17695828",
         "GroupNo": "",
         "RecId": 30067,
@@ -2481,8 +2502,8 @@
         "LastName1": "SARVAROVA",
         "CheckinDate": "2026-08-15",
         "CheckOutDate": "2026-08-22",
-        "Room": "208",
-        "RoomType": "STD-LVL",
+        "Room": "406",
+        "RoomType": "CLUB LV",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
@@ -2856,9 +2877,9 @@
         "OccVac": 1
       },
       {
-        "Room": "318",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "Room": "208",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2872,13 +2893,6 @@
       {
         "Room": "403",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "406",
-        "RoomTypeCode": "CLUB LV",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -2949,6 +2963,26 @@
     ],
     "roomchanges": [
       {
+        "ReservationId": 31682,
+        "RecordDate": "2026-08-16 02:24:01",
+        "OldRoom": "1010",
+        "NewRoom": "406",
+        "RecordUser": "Bahadır",
+        "Voucher": "HTL-WBD-1028934435 ",
+        "FirstName1": "AMINA",
+        "LastName1": "SARVAROVA",
+        "AgencyId": 1105,
+        "CheckinDate": "2026-08-15",
+        "CheckOutDate": "2026-08-22",
+        "PriceType": "STD-LV",
+        "Remark": "ODEME GIRIS GUNU ACENTEDEN ALINDI",
+        "Status": 2,
+        "AgencyCode": "WEBBEDS-B2B",
+        "RCDate": "2026-08-16",
+        "Time": "02:24",
+        "RoomChanged": "1"
+      },
+      {
         "ReservationId": 31683,
         "RecordDate": "2026-08-16 01:44:00",
         "OldRoom": "1010",
@@ -2970,6 +3004,26 @@
       }
     ],
     "all_roomchanges": [
+      {
+        "ReservationId": 31682,
+        "RecordDate": "2026-08-16 02:24:01",
+        "OldRoom": "1010",
+        "NewRoom": "406",
+        "RecordUser": "Bahadır",
+        "Voucher": "HTL-WBD-1028934435 ",
+        "FirstName1": "AMINA",
+        "LastName1": "SARVAROVA",
+        "AgencyId": 1105,
+        "CheckinDate": "2026-08-15",
+        "CheckOutDate": "2026-08-22",
+        "PriceType": "STD-LV",
+        "Remark": "ODEME GIRIS GUNU ACENTEDEN ALINDI",
+        "Status": 2,
+        "AgencyCode": "WEBBEDS-B2B",
+        "RCDate": "2026-08-16",
+        "Time": "02:24",
+        "RoomChanged": "1"
+      },
       {
         "ReservationId": 31683,
         "RecordDate": "2026-08-16 01:44:00",
@@ -3028,26 +3082,6 @@
         "AgencyCode": "COMP",
         "RCDate": "2026-08-15",
         "Time": "19:45",
-        "RoomChanged": "1"
-      },
-      {
-        "ReservationId": 31682,
-        "RecordDate": "2026-08-15 16:13:33",
-        "OldRoom": "1010",
-        "NewRoom": "208",
-        "RecordUser": "Bahadır",
-        "Voucher": "HTL-WBD-1028934435 ",
-        "FirstName1": "AMINA",
-        "LastName1": "SARVAROVA",
-        "AgencyId": 1105,
-        "CheckinDate": "2026-08-15",
-        "CheckOutDate": "2026-08-22",
-        "PriceType": "STD-LV",
-        "Remark": "ODEME GIRIS GUNU ACENTEDEN ALINDI",
-        "Status": 2,
-        "AgencyCode": "WEBBEDS-B2B",
-        "RCDate": "2026-08-15",
-        "Time": "16:13",
         "RoomChanged": "1"
       },
       {
@@ -4124,7 +4158,7 @@
       {
         "Room": "208",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4618,10 +4652,10 @@
       "summary": {
         "arrivals_count": 17,
         "departures_count": 20,
-        "inhouse_count": 93,
+        "inhouse_count": 94,
         "noshow_count": 4,
-        "vacant_count": 16,
-        "roomchanges_count": 1
+        "vacant_count": 15,
+        "roomchanges_count": 2
       },
       "arrivals": [
         {
@@ -6490,7 +6524,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 2e-05,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6981,6 +7015,27 @@
           "AgencyCode": "ATIK TOUR"
         },
         {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "17695828",
           "GroupNo": "",
           "RecId": 30067,
@@ -7093,8 +7148,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7468,9 +7523,9 @@
           "OccVac": 1
         },
         {
-          "Room": "318",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7484,13 +7539,6 @@
         {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "406",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -7560,6 +7608,26 @@
         }
       ],
       "roomchanges": [
+        {
+          "ReservationId": 31682,
+          "RecordDate": "2026-08-16 02:24:01",
+          "OldRoom": "1010",
+          "NewRoom": "406",
+          "RecordUser": "Bahadır",
+          "Voucher": "HTL-WBD-1028934435 ",
+          "FirstName1": "AMINA",
+          "LastName1": "SARVAROVA",
+          "AgencyId": 1105,
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "PriceType": "STD-LV",
+          "Remark": "ODEME GIRIS GUNU ACENTEDEN ALINDI",
+          "Status": 2,
+          "AgencyCode": "WEBBEDS-B2B",
+          "RCDate": "2026-08-16",
+          "Time": "02:24",
+          "RoomChanged": "1"
+        },
         {
           "ReservationId": 31683,
           "RecordDate": "2026-08-16 01:44:00",
@@ -8534,7 +8602,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 2e-05,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9382,27 +9450,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "8630548",
-          "GroupNo": "",
-          "RecId": 30023,
-          "FirstName1": "MAGDALENA",
-          "LastName1": "SZEWC",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "318",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "22:30",
-          "FlightDeparture": "23:25",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "8814307",
           "GroupNo": "",
           "RecId": 31035,
@@ -9506,6 +9553,27 @@
           "FlightDeparture": "00:01",
           "Status": 2,
           "AgencyCode": "ATIK TOUR"
+        },
+        {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "17695828",
@@ -9620,8 +9688,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -10155,6 +10223,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -10228,13 +10303,6 @@
           "Room": "405",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "406",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10848,7 +10916,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 2e-05,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -11782,27 +11850,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "8630548",
-          "GroupNo": "",
-          "RecId": 30023,
-          "FirstName1": "MAGDALENA",
-          "LastName1": "SZEWC",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "318",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "22:30",
-          "FlightDeparture": "23:25",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "8814307",
           "GroupNo": "",
           "RecId": 31035,
@@ -11906,6 +11953,27 @@
           "FlightDeparture": "00:01",
           "Status": 2,
           "AgencyCode": "ATIK TOUR"
+        },
+        {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "17695828",
@@ -12020,8 +12088,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -12723,6 +12791,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -12831,13 +12906,6 @@
           "Room": "405",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "406",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14049,27 +14117,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "8630548",
-          "GroupNo": "",
-          "RecId": 30023,
-          "FirstName1": "MAGDALENA",
-          "LastName1": "SZEWC",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "318",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "22:30",
-          "FlightDeparture": "23:25",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "8814307",
           "GroupNo": "",
           "RecId": 31035,
@@ -14217,6 +14264,27 @@
           "AgencyCode": "ATIK TOUR"
         },
         {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "17695828",
           "GroupNo": "",
           "RecId": 30067,
@@ -14329,8 +14397,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15228,6 +15296,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -15371,13 +15446,6 @@
           "Room": "405",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "406",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16337,27 +16405,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "8630548",
-          "GroupNo": "",
-          "RecId": 30023,
-          "FirstName1": "MAGDALENA",
-          "LastName1": "SZEWC",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "318",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "22:30",
-          "FlightDeparture": "23:25",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "8814307",
           "GroupNo": "",
           "RecId": 31035,
@@ -16505,6 +16552,27 @@
           "AgencyCode": "ATIK TOUR"
         },
         {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "17695828",
           "GroupNo": "",
           "RecId": 30067,
@@ -16617,8 +16685,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -17719,6 +17787,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -17890,13 +17965,6 @@
           "Room": "405",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "406",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18618,27 +18686,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "8630548",
-          "GroupNo": "",
-          "RecId": 30023,
-          "FirstName1": "MAGDALENA",
-          "LastName1": "SZEWC",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "318",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "22:30",
-          "FlightDeparture": "23:25",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "8814307",
           "GroupNo": "",
           "RecId": 31035,
@@ -18807,6 +18854,27 @@
           "AgencyCode": "ATIK TOUR"
         },
         {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "17695828",
           "GroupNo": "",
           "RecId": 30067,
@@ -18919,8 +18987,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -20196,6 +20264,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -20437,13 +20512,6 @@
           "Room": "405",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "406",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20855,27 +20923,6 @@
       ],
       "departures": [
         {
-          "Voucher": "8630548",
-          "GroupNo": "",
-          "RecId": 30023,
-          "FirstName1": "MAGDALENA",
-          "LastName1": "SZEWC",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "318",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "22:30",
-          "FlightDeparture": "23:25",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "8814307",
           "GroupNo": "",
           "RecId": 31035,
@@ -21044,6 +21091,27 @@
           "AgencyCode": "ATIK TOUR"
         },
         {
+          "Voucher": "8630548",
+          "GroupNo": "",
+          "RecId": 30023,
+          "FirstName1": "MAGDALENA",
+          "LastName1": "SZEWC",
+          "CheckinDate": "2026-08-15",
+          "CheckOutDate": "2026-08-22",
+          "Room": "318",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:30",
+          "FlightDeparture": "23:25",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "17695828",
           "GroupNo": "",
           "RecId": 30067,
@@ -21156,8 +21224,8 @@
           "LastName1": "SARVAROVA",
           "CheckinDate": "2026-08-15",
           "CheckOutDate": "2026-08-22",
-          "Room": "208",
-          "RoomType": "STD-LVL",
+          "Room": "406",
+          "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -22717,7 +22785,7 @@
         {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24970,7 +25038,7 @@
         {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
