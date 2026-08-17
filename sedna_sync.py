@@ -64,13 +64,39 @@ def extract_daily_data():
     """)
     hk_data = dictfetchall(cursor)
     
+    # Fetch Vacant Rooms per date directly from HkHistory using Sedna's Kapasite İçi business logic
+    vacant_rooms_by_date = {}
+    try:
+        cursor.execute("""
+            SELECT DISTINCT CAST(HotelDate AS DATE) AS HDate, Room, RoomTypeCode, DirtyClean, HkStatus, Fostatus
+            FROM HkHistory
+            WHERE Forecast = 1
+              AND (OOOStatus IS NULL OR OOOStatus = '' OR OOOStatus = ' ')
+              AND (Fostatus IN ('VAC', 'C/Out') OR (Fostatus = 'EA' AND (ResStatus IS NULL OR ResStatus = 0)) OR (Fostatus = 'ED' AND DirtyClean = 1))
+        """)
+        v_rows = dictfetchall(cursor)
+        for vr in v_rows:
+            d_key = str(vr['HDate'])[:10]
+            if d_key not in vacant_rooms_by_date:
+                vacant_rooms_by_date[d_key] = []
+            vacant_rooms_by_date[d_key].append({
+                "Room": vr["Room"],
+                "RoomTypeCode": vr.get("RoomTypeCode", ""),
+                "DirtyClean": vr.get("DirtyClean", 0),
+                "HkStatus": vr.get("HkStatus", 0),
+                "OccVac": vr.get("Fostatus", "VAC")
+            })
+    except Exception as e:
+        print(f"Error fetching vacant rooms from HkHistory: {e}")
+        vacant_rooms_by_date = {}
+    
     # Fetch Out of Order / Out of Service / Closed to Sale rooms (Arızalı / Tamirde / Satışa Kapalı)
     ooo_rooms = set()
     try:
         cursor.execute("""
             SELECT DISTINCT Room
             FROM HkHistory
-            WHERE CAST(HotelDate AS DATE) = CAST(GETDATE() AS DATE)
+            WHERE CAST(HotelDate AS DATE) = (SELECT MAX(CAST(HotelDate AS DATE)) FROM HkHistory)
               AND OOOStatus IN ('OOO', 'OOS', 'CS')
         """)
         ooo_rooms = set(r[0] for r in cursor.fetchall())
@@ -209,17 +235,23 @@ def extract_daily_data():
                 if status == 2:
                     inh_list.append(r_copy)
             else:
-                # Future dates: include active reservations (Status 1 and 2)
-                if status in (1, 2) and checkin == date_str:
+                # Future dates:
+                # Arrivals: checkin == date_str
+                if checkin == date_str and status in (1, 2):
                     arr_list.append(r_copy)
 
-                if status in (1, 2) and checkout == date_str:
+                # Departures: checkout == date_str
+                if checkout == date_str and status in (1, 2):
                     dep_list.append(r_copy)
 
-                if status in (1, 2) and checkin <= date_str and checkout > date_str:
+                # In-House: only include if Status == 2 (currently checked in) OR (status == 1 and checkin < date_str and checkout > date_str)
+                if status == 2 and checkin <= date_str and checkout > date_str:
+                    inh_list.append(r_copy)
+                elif status == 1 and checkin < date_str and checkout > date_str:
+                    # Expected in-house on future day after arrival
                     inh_list.append(r_copy)
                 
-        # Determine vacant rooms for date_str (excluding occupied, arrival-allocated, and OOO/OOS/CS rooms)
+        # Determine vacant rooms for date_str (using Sedna's exact Kapasite İçi business logic)
         occ_rooms = set(r['Room'] for r in inh_list if r.get('Room'))
         arr_rooms = set(r['Room'] for r in arr_list if r.get('Room'))
         vacant_list = [dict(hk) for hk in hk_data if hk.get('Room') not in occ_rooms and hk.get('Room') not in arr_rooms and hk.get('Room') not in ooo_rooms]

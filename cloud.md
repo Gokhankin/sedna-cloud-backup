@@ -124,4 +124,14 @@ Netlify üzerindeki canlı siteye güncelleme atarken dikkat edilmesi gerekenler
 * **Aktif Kurallar:** Veritabanı güvenlik kuralları okuma/yazma için açık (`".read": true, ".write": true`) duruma getirilmiştir.
 
 ---
-*Doküman Son Güncelleme Tarihi: 09.08.2026*
+
+### ⏱️ 17.08.2026 — Senkronizasyon Periyodu 5 Dakikaya Hizalandı
+
+* **Problem/İhtiyaç:** Python veritabanı senkronizasyon betiği 15 dakikada bir çalışırken, frontend tarayıcı 2 dakikada bir yenileme yapıyordu. Bu durum tutarsızlık yaratmasa da gereksiz ağ trafiği oluşturuyor ve verilerin canlık süresini sınırlıyordu.
+* **Yapılan Düzeltme:**
+  1. Sunucu tarafındaki `sedna_sync.py` cron job sıklığı 15 dakikadan **5 dakikaya** düşürüldü (`*/5 * * * *`).
+  2. Frontend `index.html` tarafındaki otomatik sorgulama zamanlayıcısı `300.000 ms` (**5 dakika**) olarak güncellendi.
+  3. Değişiklikler Society makinesine (`192.168.0.128`) canlıya alındı.
+
+---
+*Doküman Son Güncelleme Tarihi: 17.08.2026*

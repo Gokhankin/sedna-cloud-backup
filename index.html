@@ -707,6 +707,26 @@
             renderTable();
         });
 
+        // Turkish character normalization helper
+        function trNormalize(str) {
+            if (!str) return '';
+            return str
+                .replace(/İ/g, 'i')
+                .replace(/I/g, 'i')
+                .replace(/ı/g, 'i')
+                .replace(/Ş/g, 's')
+                .replace(/ş/g, 's')
+                .replace(/Ğ/g, 'g')
+                .replace(/ğ/g, 'g')
+                .replace(/Ü/g, 'u')
+                .replace(/ü/g, 'u')
+                .replace(/Ö/g, 'o')
+                .replace(/ö/g, 'o')
+                .replace(/Ç/g, 'c')
+                .replace(/ç/g, 'c')
+                .toLowerCase();
+        }
+
         async function fetchData() {
             const statusEl = document.getElementById('connection-status');
             statusEl.innerHTML = `
@@ -726,6 +746,12 @@
                 
                 if (data) {
                     appData = data;
+                    // Cache data in localStorage for offline availability
+                    try {
+                        localStorage.setItem('sedna_cloud_snapshot', JSON.stringify(data));
+                    } catch (e) {
+                        console.warn("localStorage quota exceeded, could not cache snapshot", e);
+                    }
                     updateDashboard();
                     statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span> Çevrimiçi`;
                     statusEl.className = "flex items-center gap-2 text-emerald-400";
@@ -734,6 +760,19 @@
                 }
             } catch (err) {
                 console.error(err);
+                // Attempt fallback to cached offline data
+                const cachedData = localStorage.getItem('sedna_cloud_snapshot');
+                if (cachedData) {
+                    try {
+                        appData = JSON.parse(cachedData);
+                        updateDashboard();
+                        statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.8)]"></span> Çevrimdışı (Önbellekten Yüklendi)`;
+                        statusEl.className = "flex items-center gap-2 text-amber-400";
+                        return;
+                    } catch (parseErr) {
+                        console.error("Cache parse error", parseErr);
+                    }
+                }
                 statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.8)]"></span> Çevrimdışı (Hata)`;
                 statusEl.className = "flex items-center gap-2 text-rose-400";
             }
@@ -1004,8 +1043,61 @@
             tbody.innerHTML = '';
             
             let dataset = [];
+            let isGlobalSearchActive = false;
             
-            if (currentTab === 'roomchanges' && showAllRoomChanges) {
+            const cleanQuery = trNormalize(searchQuery);
+            
+            if (cleanQuery && appData.by_date) {
+                // Perform global cross-date search across all dates in snapshot
+                isGlobalSearchActive = true;
+                const seenRecIds = new Set();
+                const reportDate = appData.report_date;
+                
+                Object.keys(appData.by_date).forEach(dStr => {
+                    const dayData = appData.by_date[dStr];
+                    const catItems = dayData[currentTab] || [];
+                    
+                    catItems.forEach(row => {
+                        // For In-House tab: Only show guests who are ACTUALLY currently checked in (Status 2) 
+                        // or whose Check-in date is on/before today
+                        if (currentTab === 'inhouse') {
+                            const isCheckedIn = (row.Status === 2);
+                            const hasArrived = row.CheckinDate && (row.CheckinDate <= reportDate);
+                            if (!isCheckedIn && !hasArrived) {
+                                return; // Skip future reservations that haven't checked in yet
+                            }
+                        }
+
+                        const recKey = row.RecId || row.ReservationId || (row.Room ? row.Room + '_' + dStr : dStr);
+                        if (!seenRecIds.has(recKey)) {
+                            let match = false;
+                            if (currentTab === 'vacant') {
+                                const room = trNormalize(row.Room || '');
+                                const type = trNormalize(row.RoomTypeCode || '');
+                                match = (room + ' ' + type).includes(cleanQuery);
+                            } else if (currentTab === 'roomchanges') {
+                                const oldR = trNormalize(row.OldRoom || '');
+                                const newR = trNormalize(row.NewRoom || '');
+                                const guest = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                                const voucher = trNormalize(row.Voucher || '');
+                                const remark = trNormalize(row.Remark || '');
+                                const user = trNormalize(row.RecordUser || '');
+                                match = `${oldR} ${newR} ${guest} ${voucher} ${remark} ${user}`.includes(cleanQuery);
+                            } else {
+                                const name1 = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                                const voucher = trNormalize(row.Voucher || '');
+                                const room = trNormalize(row.Room || '');
+                                match = `${name1} ${voucher} ${room}`.includes(cleanQuery);
+                            }
+                            
+                            if (match) {
+                                seenRecIds.add(recKey);
+                                dataset.push(row);
+                            }
+                        }
+                    });
+                });
+            } else if (currentTab === 'roomchanges' && showAllRoomChanges) {
                 dataset = (appData.data && appData.data.all_roomchanges) ? appData.data.all_roomchanges : [];
             } else if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
                 dataset = appData.by_date[selectedDate][currentTab] || [];
@@ -1014,7 +1106,7 @@
             }
             
             // Special handling for roomchanges if date has 0 records but overall records exist
-            if (currentTab === 'roomchanges' && dataset.length === 0 && appData.data && appData.data.all_roomchanges && appData.data.all_roomchanges.length > 0 && !showAllRoomChanges) {
+            if (currentTab === 'roomchanges' && dataset.length === 0 && appData.data && appData.data.all_roomchanges && appData.data.all_roomchanges.length > 0 && !showAllRoomChanges && !cleanQuery) {
                 const trBanner = document.createElement('tr');
                 trBanner.className = "bg-indigo-500/10 border-b border-indigo-500/20";
                 trBanner.innerHTML = `
@@ -1032,28 +1124,39 @@
                 return;
             }
 
-            // Apply Search Filter
-            if (searchQuery) {
+            // Apply Search Filter for single-date/static fallback dataset if not already globally searched
+            if (cleanQuery && !isGlobalSearchActive) {
                 dataset = dataset.filter(row => {
                     if (currentTab === 'vacant') {
-                        const room = row.Room || '';
-                        const type = row.RoomTypeCode || '';
-                        return `${room} ${type}`.toLowerCase().includes(searchQuery);
+                        const room = trNormalize(row.Room || '');
+                        const type = trNormalize(row.RoomTypeCode || '');
+                        return `${room} ${type}`.includes(cleanQuery);
                     } else if (currentTab === 'roomchanges') {
-                        const oldR = row.OldRoom || '';
-                        const newR = row.NewRoom || '';
-                        const guest = (row.FirstName1 || '') + ' ' + (row.LastName1 || '');
-                        const voucher = row.Voucher || '';
-                        const remark = row.Remark || '';
-                        const user = row.RecordUser || '';
-                        return `${oldR} ${newR} ${guest} ${voucher} ${remark} ${user}`.toLowerCase().includes(searchQuery);
+                        const oldR = trNormalize(row.OldRoom || '');
+                        const newR = trNormalize(row.NewRoom || '');
+                        const guest = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                        const voucher = trNormalize(row.Voucher || '');
+                        const remark = trNormalize(row.Remark || '');
+                        const user = trNormalize(row.RecordUser || '');
+                        return `${oldR} ${newR} ${guest} ${voucher} ${remark} ${user}`.includes(cleanQuery);
                     } else {
-                        const name1 = (row.FirstName1 || '') + ' ' + (row.LastName1 || '');
-                        const voucher = row.Voucher || '';
-                        const room = row.Room || '';
-                        return `${name1} ${voucher} ${room}`.toLowerCase().includes(searchQuery);
+                        const name1 = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                        const voucher = trNormalize(row.Voucher || '');
+                        const room = trNormalize(row.Room || '');
+                        return `${name1} ${voucher} ${room}`.includes(cleanQuery);
                     }
                 });
+            }
+
+            if (isGlobalSearchActive && dataset.length > 0) {
+                const trBanner = document.createElement('tr');
+                trBanner.className = "bg-brand-500/10 border-b border-brand-500/20";
+                trBanner.innerHTML = `
+                    <td colspan="7" class="px-6 py-3 text-center">
+                        <span class="text-xs text-brand-300 font-medium"><i class="fa-solid fa-globe mr-1"></i> Tüm tarihler taranarak "${searchQuery}" için ${dataset.length} sonuç bulundu (Tarih filtresinden bağımsız).</span>
+                    </td>
+                `;
+                tbody.appendChild(trBanner);
             }
 
             if (dataset.length === 0) {
@@ -1221,10 +1324,10 @@
             }
         }
 
-        // Auto-refresh every 2 minutes (only if data is loaded)
+        // Auto-refresh every 5 minutes (only if data is loaded)
         setInterval(() => {
             if(appData) fetchData();
-        }, 120000);
+        }, 300000);
 
         function renderRoomGrid() {
             if (!appData) return;
