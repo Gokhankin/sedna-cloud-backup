@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-17 04:00:01",
+  "sync_time": "2026-08-17 05:00:02",
   "report_date": "2026-08-17",
   "summary": {
-    "arrivals_count": 15,
+    "arrivals_count": 14,
     "departures_count": 18,
-    "inhouse_count": 92,
+    "inhouse_count": 93,
     "noshow_count": 6,
-    "vacant_count": 19,
+    "vacant_count": 18,
     "roomchanges_count": 0,
     "hk_count": 111
   },
@@ -263,27 +263,6 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
-        "Voucher": "2535143822",
-        "GroupNo": "",
-        "RecId": 31717,
-        "FirstName1": "METIN",
-        "LastName1": "MADEN",
-        "CheckinDate": "2026-08-17",
-        "CheckOutDate": "2026-08-22",
-        "Room": "401",
-        "RoomType": "STD SEA L",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "7160473",
@@ -2285,6 +2264,27 @@
         "AgencyCode": "BOOKING.COM"
       },
       {
+        "Voucher": "2535143822",
+        "GroupNo": "",
+        "RecId": 31717,
+        "FirstName1": "METIN",
+        "LastName1": "MADEN",
+        "CheckinDate": "2026-08-17",
+        "CheckOutDate": "2026-08-22",
+        "Room": "116",
+        "RoomType": "STD SEA",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 8,
+        "ExtraFolioBalance": 158207.8627,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EXPEDIA"
+      },
+      {
         "Voucher": "3025591",
         "GroupNo": "",
         "RecId": 29691,
@@ -2789,13 +2789,6 @@
         "Room": "112",
         "RoomTypeCode": "STD-SVL",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "116",
-        "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4490,11 +4483,11 @@
   "by_date": {
     "2026-08-17": {
       "summary": {
-        "arrivals_count": 15,
+        "arrivals_count": 14,
         "departures_count": 18,
-        "inhouse_count": 92,
+        "inhouse_count": 93,
         "noshow_count": 6,
-        "vacant_count": 19,
+        "vacant_count": 18,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -4749,27 +4742,6 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
-          "Voucher": "2535143822",
-          "GroupNo": "",
-          "RecId": 31717,
-          "FirstName1": "METIN",
-          "LastName1": "MADEN",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "401",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "7160473",
@@ -6771,6 +6743,27 @@
           "AgencyCode": "BOOKING.COM"
         },
         {
+          "Voucher": "2535143822",
+          "GroupNo": "",
+          "RecId": 31717,
+          "FirstName1": "METIN",
+          "LastName1": "MADEN",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-22",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 158207.8627,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "3025591",
           "GroupNo": "",
           "RecId": 29691,
@@ -7275,13 +7268,6 @@
           "Room": "112",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "116",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8983,27 +8969,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "2535143822",
-          "GroupNo": "",
-          "RecId": 31717,
-          "FirstName1": "METIN",
-          "LastName1": "MADEN",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "401",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "75-3680691",
           "GroupNo": "",
           "RecId": 31733,
@@ -9254,6 +9219,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "2535143822",
+          "GroupNo": "",
+          "RecId": 31717,
+          "FirstName1": "METIN",
+          "LastName1": "MADEN",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-22",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 158207.8627,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "12217166",
@@ -9826,13 +9812,6 @@
           "OccVac": 1
         },
         {
-          "Room": "116",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -9919,6 +9898,13 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "401",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11250,27 +11236,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "2535143822",
-          "GroupNo": "",
-          "RecId": 31717,
-          "FirstName1": "METIN",
-          "LastName1": "MADEN",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "401",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "75-3680691",
           "GroupNo": "",
           "RecId": 31733,
@@ -11521,6 +11486,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "2535143822",
+          "GroupNo": "",
+          "RecId": 31717,
+          "FirstName1": "METIN",
+          "LastName1": "MADEN",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-22",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 158207.8627,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "12217166",
@@ -12268,13 +12254,6 @@
           "OccVac": 1
         },
         {
-          "Room": "116",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -12438,6 +12417,13 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "401",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -13517,27 +13503,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "2535143822",
-          "GroupNo": "",
-          "RecId": 31717,
-          "FirstName1": "METIN",
-          "LastName1": "MADEN",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "401",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "75-3680691",
           "GroupNo": "",
           "RecId": 31733,
@@ -13788,6 +13753,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "2535143822",
+          "GroupNo": "",
+          "RecId": 31717,
+          "FirstName1": "METIN",
+          "LastName1": "MADEN",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-22",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 158207.8627,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "31557",
@@ -14752,13 +14738,6 @@
           "OccVac": 1
         },
         {
-          "Room": "116",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -14985,6 +14964,13 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "401",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -15812,27 +15798,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "2535143822",
-          "GroupNo": "",
-          "RecId": 31717,
-          "FirstName1": "METIN",
-          "LastName1": "MADEN",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "401",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "75-3680691",
           "GroupNo": "",
           "RecId": 31733,
@@ -16083,6 +16048,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "2535143822",
+          "GroupNo": "",
+          "RecId": 31717,
+          "FirstName1": "METIN",
+          "LastName1": "MADEN",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-22",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 158207.8627,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "31557",
@@ -17229,13 +17215,6 @@
           "OccVac": 1
         },
         {
-          "Room": "116",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -17546,6 +17525,13 @@
         {
           "Room": "337",
           "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "401",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -18070,27 +18056,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "2535143822",
-          "GroupNo": "",
-          "RecId": 31717,
-          "FirstName1": "METIN",
-          "LastName1": "MADEN",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "401",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "75-3680691",
           "GroupNo": "",
           "RecId": 31733,
@@ -18341,6 +18306,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "2535143822",
+          "GroupNo": "",
+          "RecId": 31717,
+          "FirstName1": "METIN",
+          "LastName1": "MADEN",
+          "CheckinDate": "2026-08-17",
+          "CheckOutDate": "2026-08-22",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 158207.8627,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
