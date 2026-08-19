@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-08-19 10:00:02",
+  "sync_time": "2026-08-19 11:00:02",
   "report_date": "2026-08-19",
   "summary": {
-    "arrivals_count": 13,
+    "arrivals_count": 12,
     "departures_count": 10,
-    "inhouse_count": 85,
+    "inhouse_count": 86,
     "noshow_count": 18,
     "vacant_count": 13,
     "roomchanges_count": 0,
@@ -263,27 +263,6 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
-        "Voucher": "75-3680145",
-        "GroupNo": "",
-        "RecId": 31645,
-        "FirstName1": "GULSAH",
-        "LastName1": "ARMAGAN",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-26",
-        "Room": "202",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "HOTELBEDS - B2B"
       }
     ],
     "departures": [
@@ -448,7 +427,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 23902.79484,
+        "ExtraFolioBalance": 24674.74224,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -660,7 +639,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 23902.79484,
+        "ExtraFolioBalance": 24674.74224,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1332,7 +1311,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 28889.5727,
+        "ExtraFolioBalance": 28964.5727,
         "ResRemark": "",
         "FlightArrival": "23:25",
         "FlightDeparture": "00:25",
@@ -2241,6 +2220,27 @@
         "FlightDeparture": "04:30",
         "Status": 2,
         "AgencyCode": "ITS REISEN"
+      },
+      {
+        "Voucher": "75-3680145",
+        "GroupNo": "",
+        "RecId": 31645,
+        "FirstName1": "GULSAH",
+        "LastName1": "ARMAGAN",
+        "CheckinDate": "2026-08-19",
+        "CheckOutDate": "2026-08-26",
+        "Room": "2005",
+        "RoomType": "PM",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1103,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "HOTELBEDS - B2B"
       },
       {
         "Voucher": "3039185",
@@ -4363,9 +4363,9 @@
   "by_date": {
     "2026-08-19": {
       "summary": {
-        "arrivals_count": 13,
+        "arrivals_count": 12,
         "departures_count": 10,
-        "inhouse_count": 85,
+        "inhouse_count": 86,
         "noshow_count": 18,
         "vacant_count": 13,
         "roomchanges_count": 0
@@ -4622,27 +4622,6 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
         }
       ],
       "departures": [
@@ -4807,7 +4786,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 23902.79484,
+          "ExtraFolioBalance": 24674.74224,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5019,7 +4998,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 23902.79484,
+          "ExtraFolioBalance": 24674.74224,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5691,7 +5670,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 28889.5727,
+          "ExtraFolioBalance": 28964.5727,
           "ResRemark": "",
           "FlightArrival": "23:25",
           "FlightDeparture": "00:25",
@@ -6600,6 +6579,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "3039185",
@@ -7125,7 +7125,7 @@
         "departures_count": 13,
         "inhouse_count": 75,
         "noshow_count": 0,
-        "vacant_count": 28,
+        "vacant_count": 29,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -7987,7 +7987,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 28889.5727,
+          "ExtraFolioBalance": 28964.5727,
           "ResRemark": "",
           "FlightArrival": "23:25",
           "FlightDeparture": "00:25",
@@ -9129,27 +9129,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "692898080",
           "GroupNo": "",
           "RecId": 31130,
@@ -9169,6 +9148,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "3039185",
@@ -9275,6 +9275,13 @@
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9420,7 +9427,7 @@
         "departures_count": 20,
         "inhouse_count": 66,
         "noshow_count": 0,
-        "vacant_count": 47,
+        "vacant_count": 48,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -9986,7 +9993,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 28889.5727,
+          "ExtraFolioBalance": 28964.5727,
           "ResRemark": "",
           "FlightArrival": "23:25",
           "FlightDeparture": "00:25",
@@ -11298,27 +11305,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "692898080",
           "GroupNo": "",
           "RecId": 31130,
@@ -11338,6 +11324,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "62MCTY",
@@ -11528,6 +11535,13 @@
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11785,7 +11799,7 @@
         "departures_count": 22,
         "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 68,
+        "vacant_count": 69,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -13348,27 +13362,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "692898080",
           "GroupNo": "",
           "RecId": 31130,
@@ -13388,6 +13381,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "62MCTY",
@@ -13813,6 +13827,13 @@
           "OccVac": 1
         },
         {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -14150,7 +14171,7 @@
         "departures_count": 22,
         "inhouse_count": 45,
         "noshow_count": 0,
-        "vacant_count": 88,
+        "vacant_count": 89,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -15167,27 +15188,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "692898080",
           "GroupNo": "",
           "RecId": 31130,
@@ -15207,6 +15207,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "62MCTY",
@@ -15891,6 +15912,13 @@
           "OccVac": 1
         },
         {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "204",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -16298,7 +16326,7 @@
         "departures_count": 8,
         "inhouse_count": 42,
         "noshow_count": 0,
-        "vacant_count": 94,
+        "vacant_count": 95,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -16874,27 +16902,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "CTDMB8",
           "GroupNo": "",
           "RecId": 31710,
@@ -16935,6 +16942,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "62MCTY",
@@ -17731,6 +17759,13 @@
           "OccVac": 1
         },
         {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "204",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -18152,7 +18187,7 @@
         "departures_count": 12,
         "inhouse_count": 36,
         "noshow_count": 0,
-        "vacant_count": 101,
+        "vacant_count": 102,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -18560,27 +18595,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "CTDMB8",
           "GroupNo": "",
           "RecId": 31710,
@@ -18621,6 +18635,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "62MCTY",
@@ -19517,6 +19552,13 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -20209,27 +20251,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "CTDMB8",
           "GroupNo": "",
           "RecId": 31710,
@@ -20270,6 +20291,27 @@
           "FlightDeparture": "04:30",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "75-3680145",
+          "GroupNo": "",
+          "RecId": 31645,
+          "FirstName1": "GULSAH",
+          "LastName1": "ARMAGAN",
+          "CheckinDate": "2026-08-19",
+          "CheckOutDate": "2026-08-26",
+          "Room": "2005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         }
       ],
       "inhouse": [
