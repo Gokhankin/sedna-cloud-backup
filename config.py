@@ -27,7 +27,7 @@ def get_db_connection_string():
     server = os.getenv("DB_SERVER", "192.168.0.41,1433")
     database = os.getenv("DB_NAME", "SednaAdakoy")
     user = os.getenv("DB_USER", "gokhan")
-    pwd = os.getenv("DB_PASSWORD", "")
+    pwd = os.getenv("DB_PASSWORD", "Ad!!2025!!")
     
     # Şifre b64: prefix ile şifrelenmişse otomatik çöz
     if pwd.startswith("b64:"):
@@ -51,7 +51,7 @@ def get_firebase_url():
     Firebase Realtime Database URL adresini auth parametresi ile döndürür.
     """
     base_url = os.getenv("FIREBASE_URL", "https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json")
-    secret = os.getenv("FIREBASE_SECRET", "").strip()
+    secret = os.getenv("FIREBASE_SECRET", "egKsRyn2xGkgNJJV7R2GbRQ2nYAZ7LLPcRzhjZYy").strip()
     if secret and "auth=" not in base_url:
         sep = "&" if "?" in base_url else "?"
         base_url = f"{base_url}{sep}auth={secret}"
