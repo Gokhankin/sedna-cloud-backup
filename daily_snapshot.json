@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-20 07:00:02",
+  "sync_time": "2026-08-20 08:00:02",
   "report_date": "2026-08-20",
   "summary": {
     "arrivals_count": 13,
-    "departures_count": 12,
-    "inhouse_count": 88,
+    "departures_count": 11,
+    "inhouse_count": 87,
     "noshow_count": 12,
-    "vacant_count": 16,
+    "vacant_count": 17,
     "roomchanges_count": 0,
     "hk_count": 111
   },
@@ -498,27 +498,6 @@
         "AgencyCode": "EXPEDIA"
       },
       {
-        "Voucher": "2535851223",
-        "GroupNo": "",
-        "RecId": 31734,
-        "FirstName1": "ZELIHA",
-        "LastName1": "TILEKLIOGLU",
-        "CheckinDate": "2026-08-18",
-        "CheckOutDate": "2026-08-20",
-        "Room": "119",
-        "RoomType": "CLUB SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
-      },
-      {
         "Voucher": "31812",
         "GroupNo": "",
         "RecId": 31812,
@@ -745,27 +724,6 @@
         "Childs": 0,
         "AgencyId": 8,
         "ExtraFolioBalance": 13012.82746,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
-      },
-      {
-        "Voucher": "2535851223",
-        "GroupNo": "",
-        "RecId": 31734,
-        "FirstName1": "ZELIHA",
-        "LastName1": "TILEKLIOGLU",
-        "CheckinDate": "2026-08-18",
-        "CheckOutDate": "2026-08-20",
-        "Room": "119",
-        "RoomType": "CLUB SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2653,6 +2611,13 @@
         "OccVac": 1
       },
       {
+        "Room": "119",
+        "RoomTypeCode": "CLUB SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "121",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 1,
@@ -4404,10 +4369,10 @@
     "2026-08-20": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 12,
-        "inhouse_count": 88,
+        "departures_count": 11,
+        "inhouse_count": 87,
         "noshow_count": 12,
-        "vacant_count": 16,
+        "vacant_count": 17,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -4897,27 +4862,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "2535851223",
-          "GroupNo": "",
-          "RecId": 31734,
-          "FirstName1": "ZELIHA",
-          "LastName1": "TILEKLIOGLU",
-          "CheckinDate": "2026-08-18",
-          "CheckOutDate": "2026-08-20",
-          "Room": "119",
-          "RoomType": "CLUB SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "31812",
           "GroupNo": "",
           "RecId": 31812,
@@ -5144,27 +5088,6 @@
           "Childs": 0,
           "AgencyId": 8,
           "ExtraFolioBalance": 13012.82746,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
-          "Voucher": "2535851223",
-          "GroupNo": "",
-          "RecId": 31734,
-          "FirstName1": "ZELIHA",
-          "LastName1": "TILEKLIOGLU",
-          "CheckinDate": "2026-08-18",
-          "CheckOutDate": "2026-08-20",
-          "Room": "119",
-          "RoomType": "CLUB SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7048,6 +6971,13 @@
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "119",
+          "RoomTypeCode": "CLUB SEA",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
