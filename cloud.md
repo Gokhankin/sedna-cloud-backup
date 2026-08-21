@@ -156,3 +156,21 @@ Netlify üzerindeki canlı siteye güncelleme atarken dikkat edilmesi gerekenler
    Yapılan düzeltmeler sonucu 21.08.2026 ile 28.08.2026 arasındaki tüm günlerin Dolu Oda (Sold), Giriş (Cin_Room), Çıkış (Cout_Room) ve Gün Sonu Kişi Sayıları (TotalPax) Sedna Desktop `0101001_General Forecast Analysis` PDF raporu ile %100 birebir eşitlendi.
 4. **Dağıtım & Senkronizasyon:**
    Değişiklikler yerel sunucuda (`192.168.0.128`), `dashboard/index.html` alt klasöründe ve GitHub (`origin master` / Netlify) canlı ortamında güncellendi.
+
+
+---
+
+### 🗓️ 21.08.2026 — Masaüstü & Mobil Rezervasyon Kontrol Paneli Pasta Grafiği Metin Kesintisi (Clipping) Çözümü
+
+#### 🚨 Tespit Edilen Problem:
+Society makinesindeki (`192.168.0.128:8090`) Rezervasyon Kontrol Paneli masaüstü görünümünde "Kullanıcı Kayıt Dağılımı" ve "Oda Tipi Dağılımı" pasta grafiklerinin üst kısmındaki çizgi ucu etiketleri ("REMİ (28.3%)", "SUIT (0.3%)", "CLUB SV (2.5%)" vb.) KPI pencere/kart boyutunun yetersiz olması nedeniyle yukarıdan kesiliyor ve kapalı/okunamayan yazılar oluşuyordu.
+
+#### 🛠️ Yapılan Düzeltmeler:
+1. **Öncesinde Güvenli Sistem Yedeği Alındı:**
+   İşleme başlanmadan önce tüm panel kodlarının tam bir yedeği `/home/society/Masaüstü/sedna_dashboard_21.08.2026_115721_pasta_yazisi_yedek` ve `/home/society/Masaüstü/rezkontrol_backups/` dizinlerine alındı.
+2. **Kart ve Container Yüksekliği Artırıldı:**
+   CSS `.chart-container` yüksekliği `230px` değerinden **`320px`** seviyesine çıkarıldı ve üstten `15px` iç boşluk (`padding-top: 15px`) eklendi.
+3. **Chart.js Düzlem Boşlukları (Padding) İnce Ayarı Yapıldı:**
+   Grafiğin çizim alanındaki üst marj `top: 40px` (`top: isMobile ? 30 : 40`) olarak ayarlanarak pasta grafiği hafifçe aşağı kaydırıldı. Böylece üst kısımda etiket çizgileri ve yüzdeler için geniş ve rahat bir alan oluşturuldu.
+4. **Canlı Ortam Doğrulaması:**
+   Değişiklikler yerel `index.html` ve Society makinesindeki (`192.168.0.128`) `/home/society/Masaüstü/Adakoy Society/rezkontrol/templates/index.html` dosyasına işlenip `app.py` servisi yeniden başlatıldı. Grafiğin tüm etiketlerinin hiç kesilmeden ve kart dışına taşmadan %100 net görüntülendiği doğrulandı.
