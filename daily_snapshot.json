@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-08-21 11:00:02",
+  "sync_time": "2026-08-21 11:20:03",
   "report_date": "2026-08-21",
   "summary": {
     "arrivals_count": 10,
     "departures_count": 10,
     "inhouse_count": 83,
     "noshow_count": 12,
-    "vacant_count": 18,
-    "roomchanges_count": 0,
+    "vacant_count": 19,
+    "roomchanges_count": 1,
     "hk_count": 111
   },
   "data": {
@@ -358,13 +358,13 @@
         "LastName1": "HAMMACOTT",
         "CheckinDate": "2026-08-14",
         "CheckOutDate": "2026-08-21",
-        "Room": "337",
-        "RoomType": "STD-SV",
+        "Room": "2002",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 21577.8445,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "23:25",
         "FlightDeparture": "00:25",
@@ -570,13 +570,13 @@
         "LastName1": "HAMMACOTT",
         "CheckinDate": "2026-08-14",
         "CheckOutDate": "2026-08-21",
-        "Room": "337",
-        "RoomType": "STD-SV",
+        "Room": "2002",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 21577.8445,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "23:25",
         "FlightDeparture": "00:25",
@@ -2513,6 +2513,13 @@
         "OccVac": 1
       },
       {
+        "Room": "337",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "403",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
@@ -2562,8 +2569,49 @@
         "OccVac": 1
       }
     ],
-    "roomchanges": [],
+    "roomchanges": [
+      {
+        "ReservationId": 31679,
+        "RecordDate": "2026-08-21 11:10:45",
+        "OldRoom": "337",
+        "NewRoom": "2002",
+        "RecordUser": "KAYRA",
+        "Voucher": "33736276",
+        "FirstName1": "REBECCA",
+        "LastName1": "HAMMACOTT",
+        "AgencyId": 12,
+        "CheckinDate": "2026-08-14",
+        "CheckOutDate": "2026-08-21",
+        "PriceType": "STD-LV",
+        "Remark": "Adjoining Rooms,Adjoining Rooms//blokaj değişmeesinn",
+        "Status": 2,
+        "AgencyCode": "TUI UK",
+        "RCDate": "2026-08-21",
+        "Time": "11:10",
+        "RoomChanged": "1"
+      }
+    ],
     "all_roomchanges": [
+      {
+        "ReservationId": 31679,
+        "RecordDate": "2026-08-21 11:10:45",
+        "OldRoom": "337",
+        "NewRoom": "2002",
+        "RecordUser": "KAYRA",
+        "Voucher": "33736276",
+        "FirstName1": "REBECCA",
+        "LastName1": "HAMMACOTT",
+        "AgencyId": 12,
+        "CheckinDate": "2026-08-14",
+        "CheckOutDate": "2026-08-21",
+        "PriceType": "STD-LV",
+        "Remark": "Adjoining Rooms,Adjoining Rooms//blokaj değişmeesinn",
+        "Status": 2,
+        "AgencyCode": "TUI UK",
+        "RCDate": "2026-08-21",
+        "Time": "11:10",
+        "RoomChanged": "1"
+      },
       {
         "ReservationId": 31843,
         "RecordDate": "2026-08-20 19:16:05",
@@ -4151,8 +4199,8 @@
         "departures_count": 10,
         "inhouse_count": 83,
         "noshow_count": 12,
-        "vacant_count": 18,
-        "roomchanges_count": 0
+        "vacant_count": 19,
+        "roomchanges_count": 1
       },
       "arrivals": [
         {
@@ -4501,13 +4549,13 @@
           "LastName1": "HAMMACOTT",
           "CheckinDate": "2026-08-14",
           "CheckOutDate": "2026-08-21",
-          "Room": "337",
-          "RoomType": "STD-SV",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 21577.8445,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "23:25",
           "FlightDeparture": "00:25",
@@ -4713,13 +4761,13 @@
           "LastName1": "HAMMACOTT",
           "CheckinDate": "2026-08-14",
           "CheckOutDate": "2026-08-21",
-          "Room": "337",
-          "RoomType": "STD-SV",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 21577.8445,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "23:25",
           "FlightDeparture": "00:25",
@@ -6656,6 +6704,13 @@
           "OccVac": 1
         },
         {
+          "Room": "337",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -6705,7 +6760,28 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 31679,
+          "RecordDate": "2026-08-21 11:10:45",
+          "OldRoom": "337",
+          "NewRoom": "2002",
+          "RecordUser": "KAYRA",
+          "Voucher": "33736276",
+          "FirstName1": "REBECCA",
+          "LastName1": "HAMMACOTT",
+          "AgencyId": 12,
+          "CheckinDate": "2026-08-14",
+          "CheckOutDate": "2026-08-21",
+          "PriceType": "STD-LV",
+          "Remark": "Adjoining Rooms,Adjoining Rooms//blokaj değişmeesinn",
+          "Status": 2,
+          "AgencyCode": "TUI UK",
+          "RCDate": "2026-08-21",
+          "Time": "11:10",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-08-22": {
       "summary": {
