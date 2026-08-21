@@ -174,3 +174,14 @@ Society makinesindeki (`192.168.0.128:8090`) Rezervasyon Kontrol Paneli masaüst
    Grafiğin çizim alanındaki üst marj `top: 40px` (`top: isMobile ? 30 : 40`) olarak ayarlanarak pasta grafiği hafifçe aşağı kaydırıldı. Böylece üst kısımda etiket çizgileri ve yüzdeler için geniş ve rahat bir alan oluşturuldu.
 4. **Canlı Ortam Doğrulaması:**
    Değişiklikler yerel `index.html` ve Society makinesindeki (`192.168.0.128`) `/home/society/Masaüstü/Adakoy Society/rezkontrol/templates/index.html` dosyasına işlenip `app.py` servisi yeniden başlatıldı. Grafiğin tüm etiketlerinin hiç kesilmeden ve kart dışına taşmadan %100 net görüntülendiği doğrulandı.
+
+## [Sürüm Güncellemesi] - 21.08.2026 13:10
+- **Mobil Görünüm & KPI Formatı:** Gidecekler (Departure) KPI kartındaki `Pax` metin grubunun mobilde bölünmesi engellendi (`inline-block whitespace-nowrap`), `17 Pax` biçiminde 2. satıra hizalandı.
+- **Tarih Formatı:** Dashboard üzerindeki tüm tarih gösterimleri Türkçe standart olan `GG.AA.YYYY` (gün.ay.yıl) formatına çevrildi.
+- **Özel Dropdown Menü:** Mobil cihazlarda HTML `<select>` elemanının tam ekran native işletim sistemi çarkını tetiklemesi engellendi. Tarih seçici, butonun hemen altında açılan modern ve şık web dropdown menüsüne dönüştürüldü.
+
+## [Sürüm Güncellemesi & Mobil İyileştirmeler] - 21.08.2026 13:19
+- **KPI Kart Düzenlemesi (Gidecekler / Departures):** Mobilde "Gidecekler" KPI kartındaki sayı (`17`) ile `Pax` kelimesinin ayrılıp sayının tek basamağa kalmasını engellemek amacıyla `inline-block whitespace-nowrap` yapısı eklendi. `17 Pax` metni diğer KPI kartlarıyla (Gelecekler, Konaklayanlar) tam simetrik olarak 2. satıra hizalandı.
+- **Tarih Formatı Standartlaştırması:** Uygulama genelindeki tüm tarih gösterimleri (Tarih Seçim Menüsü, Tablo Giriş/Çıkış sütunları, Oda Değişim tarihleri, Misafir Detay Modalı ve PDF çıktıları) Türkçe standart olan `GG.AA.YYYY` (örneğin `21.08.2026`) formatına dönüştürüldü.
+- **Mobil Özel Tarih Dropdown Menüsü:** HTML varsayılan `<select>` elemanının mobil cihazlarda tam ekran native çark (wheel picker) açması engellendi. Tarih seçici, butonun hemen sol hizasında (`left-0`) açılan, mobil ekran dışına taşmayan, pratik ve modern bir web açılır menüsüne (custom glassmorphism dropdown) dönüştürüldü.
+- **Netlify Yayını Hazırlığı:** Tüm frontend değişiklikleri `index.html` ve `dashboard/index.html` dosyalarına işlenip test edildi.

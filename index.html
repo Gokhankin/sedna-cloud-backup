@@ -379,11 +379,15 @@
                     <i class="fa-regular fa-clock"></i> Son Senkronizasyon: Bekleniyor...
                 </p>
             </div>
-            <div class="glass-card px-3 py-1.5 flex items-center gap-2 text-sm bg-slate-900/60 border border-slate-700/50 rounded-xl shadow-inner">
-                <i class="fa-solid fa-calendar-day text-brand-400"></i>
-                <select id="date-select" onchange="handleDateChange(this.value)" class="bg-transparent border-none text-slate-200 font-medium focus:outline-none cursor-pointer pr-5 py-0.5">
-                    <option value="" class="bg-slate-900 text-white">Yükleniyor...</option>
-                </select>
+            <div id="date-dropdown-wrapper" class="relative no-print">
+                <button id="date-dropdown-btn" onclick="toggleDateDropdown(event)" class="glass-card px-3.5 py-2 flex items-center gap-2 text-sm bg-slate-900/80 border border-slate-700/60 rounded-xl shadow-inner text-slate-200 font-medium hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-calendar-day text-brand-400"></i>
+                    <span id="date-dropdown-label">Yükleniyor...</span>
+                    <i class="fa-solid fa-chevron-down text-slate-400 text-xs ml-1 transition-transform duration-200" id="date-dropdown-chevron"></i>
+                </button>
+                <div id="date-dropdown-panel" class="hidden absolute left-0 mt-2 w-64 glass-card bg-slate-900/95 border border-slate-700/80 rounded-xl shadow-2xl z-[100] max-h-64 overflow-y-auto divide-y divide-slate-800 py-1 text-sm backdrop-blur-md">
+                    <!-- Dynamic Date Options -->
+                </div>
             </div>
         </div>
 
@@ -397,7 +401,7 @@
                         <div>
                             <p class="text-xs sm:text-sm font-medium text-emerald-400">Gelecekler (Arrival)</p>
                             <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
-                                <span id="count-arrivals">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span id="pax-arrivals">0</span> Pax
+                                <span id="count-arrivals">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span class="inline-block whitespace-nowrap"><span id="pax-arrivals">0</span> Pax</span>
                             </h3>
                         </div>
                         <div class="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-lg border border-emerald-500/20 shrink-0">
@@ -419,7 +423,7 @@
                         <div>
                             <p class="text-xs sm:text-sm font-medium text-rose-400">Gidecekler (Departure)</p>
                             <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
-                                <span id="count-departures">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span id="pax-departures">0</span> Pax
+                                <span id="count-departures">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span class="inline-block whitespace-nowrap"><span id="pax-departures">0</span> Pax</span>
                             </h3>
                         </div>
                         <div class="w-10 h-10 rounded-xl bg-rose-500/20 flex items-center justify-center text-rose-400 text-lg border border-rose-500/20 shrink-0">
@@ -441,7 +445,7 @@
                         <div>
                             <p class="text-xs sm:text-sm font-medium text-brand-400">Konaklayan (In-House)</p>
                             <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
-                                <span id="count-inhouse">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span id="pax-inhouse">0</span> Pax
+                                <span id="count-inhouse">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span class="inline-block whitespace-nowrap"><span id="pax-inhouse">0</span> Pax</span>
                             </h3>
                         </div>
                         <div class="w-10 h-10 rounded-xl bg-brand-500/20 flex items-center justify-center text-brand-400 text-lg border border-brand-500/20 shrink-0">
@@ -707,6 +711,17 @@
             renderTable();
         });
 
+                // Format ISO/YYYY-MM-DD date to Turkish DD.MM.YYYY format
+        function formatDateTr(dateStr) {
+            if (!dateStr || dateStr === '-' || dateStr === 'Belirtilmedi') return dateStr || '-';
+            const s = String(dateStr).trim();
+            const match = s.match(/^(\d{4})[-/](\d{2})[-/](\d{2})/);
+            if (match) {
+                return `${match[3]}.${match[2]}.${match[1]}`;
+            }
+            return dateStr;
+        }
+
         // Turkish character normalization helper
         function trNormalize(str) {
             if (!str) return '';
@@ -780,6 +795,35 @@
 
         let selectedDate = '';
 
+                function toggleDateDropdown(e) {
+            if (e) e.stopPropagation();
+            const panel = document.getElementById('date-dropdown-panel');
+            const chevron = document.getElementById('date-dropdown-chevron');
+            if (!panel) return;
+            const isHidden = panel.classList.contains('hidden');
+            if (isHidden) {
+                panel.classList.remove('hidden');
+                if (chevron) chevron.style.transform = 'rotate(180deg)';
+            } else {
+                panel.classList.add('hidden');
+                if (chevron) chevron.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        function closeDateDropdown() {
+            const panel = document.getElementById('date-dropdown-panel');
+            const chevron = document.getElementById('date-dropdown-chevron');
+            if (panel) panel.classList.add('hidden');
+            if (chevron) chevron.style.transform = 'rotate(0deg)';
+        }
+
+        document.addEventListener('click', function(e) {
+            const wrapper = document.getElementById('date-dropdown-wrapper');
+            if (wrapper && !wrapper.contains(e.target)) {
+                closeDateDropdown();
+            }
+        });
+
         function handleDateChange(date) {
             selectedDate = date;
             updateDashboard();
@@ -796,36 +840,52 @@
             
             document.getElementById('last-sync').innerHTML = `<i class="fa-regular fa-clock"></i> Son Senk: <span class="text-white font-medium">${appData.sync_time}</span>`;
             
-            // Populate date selector if it has by_date
-            const dateSelect = document.getElementById('date-select');
+            // Populate custom date dropdown panel
+            const dropdownPanel = document.getElementById('date-dropdown-panel');
+            const dropdownLabel = document.getElementById('date-dropdown-label');
+            
             if (appData.by_date) {
                 if (!selectedDate) {
                     selectedDate = appData.report_date;
                 }
                 
-                // Only rebuild options if count differs or select is empty
-                if (dateSelect.options.length <= 1) {
-                    dateSelect.innerHTML = '';
+                if (dropdownPanel) {
+                    dropdownPanel.innerHTML = '';
                     const sortedDates = Object.keys(appData.by_date).sort();
                     sortedDates.forEach(dStr => {
-                        const opt = document.createElement('option');
-                        opt.value = dStr;
-                        opt.className = "bg-slate-900 text-white";
-                        
                         let suffix = '';
                         if (dStr === appData.report_date) {
                             suffix = ' (Bugün)';
                         } else {
                             suffix = ` (${getDayNameTr(dStr)})`;
                         }
+                        const labelText = formatDateTr(dStr) + suffix;
+                        const isSelected = (dStr === selectedDate);
                         
-                        opt.innerText = dStr + suffix;
-                        dateSelect.appendChild(opt);
+                        if (isSelected && dropdownLabel) {
+                            dropdownLabel.innerText = labelText;
+                        }
+                        
+                        const item = document.createElement('div');
+                        item.className = `px-3.5 py-2.5 cursor-pointer flex items-center justify-between transition-colors ${
+                            isSelected 
+                                ? 'bg-brand-500/20 text-brand-400 font-bold' 
+                                : 'hover:bg-slate-800 text-slate-200 hover:text-white font-medium'
+                        }`;
+                        item.innerHTML = `
+                            <span>${labelText}</span>
+                            ${isSelected ? '<i class="fa-solid fa-check text-xs text-brand-400"></i>' : ''}
+                        `;
+                        item.onclick = function() {
+                            selectedDate = dStr;
+                            closeDateDropdown();
+                            updateDashboard();
+                        };
+                        dropdownPanel.appendChild(item);
                     });
                 }
-                dateSelect.value = selectedDate;
-            } else {
-                dateSelect.innerHTML = `<option value="">${appData.report_date}</option>`;
+            } else if (dropdownLabel) {
+                dropdownLabel.innerText = formatDateTr(appData.report_date) || appData.report_date;
             }
             
             // Set counts based on selected date
@@ -910,15 +970,8 @@
             document.getElementById('pax-departures').innerText = departuresPax;
             document.getElementById('pax-inhouse').innerText = inhousePax;
             
-            // Calculate and set End of Day (EOD) Pax:
-            // For future dates, inhousePax is already the exact forecast Pax.
-            // For today, EOD Pax = currently checked-in Pax + pending arrivals Pax - pending departures Pax.
-            let eodPax;
-            if (appData.report_date && selectedDate && selectedDate > appData.report_date) {
-                eodPax = inhousePax;
-            } else {
-                eodPax = Math.max(0, inhousePax + arrivalsPax - departuresPax);
-            }
+            // Calculate and set End of Day (EOD) Pax: In-house + Arrivals - Departures
+            const eodPax = Math.max(0, inhousePax + arrivalsPax - departuresPax);
             document.getElementById('pax-eod').innerText = `${eodPax} Pax`;
             
             // Calculate and set Total Bakiye
@@ -1217,7 +1270,7 @@
                             </td>
                         `;
                     } else if (currentTab === 'roomchanges') {
-                        const dateStr = formatVal(row.RCDate);
+                        const dateStr = formatDateTr(formatVal(row.RCDate));
                         const timeStr = row.Time ? `<span class="text-xs text-slate-400 font-mono ml-1">${row.Time}</span>` : '';
                         
                         const roomMoveBadge = `
@@ -1307,11 +1360,11 @@
                             <td class="px-6 py-4 whitespace-nowrap">
                                 <div class="flex items-center gap-2">
                                     <i class="fa-solid fa-arrow-right-to-bracket text-emerald-500/70 text-xs w-3"></i> 
-                                    <span class="font-mono">${formatVal(row.CheckinDate)}</span>
+                                    <span class="font-mono">${formatDateTr(formatVal(row.CheckinDate))}</span>
                                 </div>
                                 <div class="flex items-center gap-2 mt-1">
                                     <i class="fa-solid fa-arrow-right-from-bracket text-rose-500/70 text-xs w-3"></i> 
-                                    <span class="text-slate-400 font-mono">${formatVal(row.CheckOutDate)}</span>
+                                    <span class="text-slate-400 font-mono">${formatDateTr(formatVal(row.CheckOutDate))}</span>
                                 </div>
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap">
@@ -1472,7 +1525,7 @@
                         <div class="flex justify-between"><span class="text-slate-400">Misafir Adı:</span> <span class="font-bold text-white text-base">${guest.FirstName1} ${guest.LastName1}</span></div>
                         <div class="flex justify-between"><span class="text-slate-400">Voucher No:</span> <span class="font-mono text-white">${guest.Voucher || '-'}</span></div>
                         <div class="flex justify-between"><span class="text-slate-400">Acente:</span> <span class="font-medium text-slate-200">${acName}</span></div>
-                        <div class="flex justify-between"><span class="text-slate-400">Giriş / Çıkış:</span> <span class="text-slate-200 font-medium">${guest.CheckinDate} / ${guest.CheckOutDate}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Giriş / Çıkış:</span> <span class="text-slate-200 font-medium">${formatDateTr(guest.CheckinDate)} / ${formatDateTr(guest.CheckOutDate)}</span></div>
                         <div class="flex justify-between"><span class="text-slate-400">Kişi (Pax/Chd):</span> <span class="text-slate-200 font-medium">${guest.Pax} Yetişkin ${guest.Childs > 0 ? `, ${guest.Childs} Çocuk` : ''}</span></div>
                         <div class="flex justify-between"><span class="text-slate-400">Pansiyon Tipi:</span> <span class="text-slate-200 font-medium">${guest.Board}</span></div>
                         <div class="flex justify-between"><span class="text-slate-400">Ekstra Bakiye:</span> ${balanceHtml}</div>
@@ -1546,7 +1599,7 @@
             const dateStr = selectedDate || (appData && appData.report_date) || '';
             const printSubtitle = document.getElementById('print-subtitle');
             if (printSubtitle) {
-                printSubtitle.innerText = `${activeTabName} - Tarih: ${dateStr}`;
+                printSubtitle.innerText = `${activeTabName} - Tarih: ${formatDateTr(dateStr)}`;
             }
             
             window.print();
