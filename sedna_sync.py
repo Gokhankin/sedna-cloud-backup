@@ -244,11 +244,8 @@ def extract_daily_data():
                 if checkout == date_str and status in (1, 2):
                     dep_list.append(r_copy)
 
-                # In-House: only include if Status == 2 (currently checked in) OR (status == 1 and checkin < date_str and checkout > date_str)
-                if status == 2 and checkin <= date_str and checkout > date_str:
-                    inh_list.append(r_copy)
-                elif status == 1 and checkin < date_str and checkout > date_str:
-                    # Expected in-house on future day after arrival
+                # In-House / Occupied on future date: CheckinDate <= date_str AND CheckOutDate > date_str AND Status IN (1, 2)
+                if status in (1, 2) and checkin <= date_str and checkout > date_str:
                     inh_list.append(r_copy)
                 
         # Determine vacant rooms for date_str (using Sedna's exact Kapasite İçi business logic)
