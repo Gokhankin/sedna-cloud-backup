@@ -256,6 +256,12 @@ def extract_daily_data():
         # Room changes for date_str
         rc_list = [rc for rc in room_changes if rc.get('RCDate') == date_str]
 
+        arr_pax = sum(int(r.get('Pax') or 0) for r in arr_list)
+        dep_pax = sum(int(r.get('Pax') or 0) for r in dep_list)
+        inh_pax = sum(int(r.get('Pax') or 0) for r in inh_list)
+        eod_room_count = max(0, len(inh_list) + len(arr_list) - len(dep_list))
+        eod_pax_count = max(0, inh_pax + arr_pax - dep_pax)
+
         by_date[date_str] = {
             "summary": {
                 "arrivals_count": len(arr_list),
@@ -263,7 +269,9 @@ def extract_daily_data():
                 "inhouse_count": len(inh_list),
                 "noshow_count": len(noshow_list),
                 "vacant_count": len(vacant_list),
-                "roomchanges_count": len(rc_list)
+                "roomchanges_count": len(rc_list),
+                "eod_room_count": eod_room_count,
+                "eod_pax_count": eod_pax_count
             },
             "arrivals": arr_list,
             "departures": dep_list,
@@ -293,6 +301,8 @@ def extract_daily_data():
             "noshow_count": len(today_data.get("noshow", [])),
             "vacant_count": len(today_data.get("vacant", [])),
             "roomchanges_count": len(today_data.get("roomchanges", [])),
+            "eod_room_count": max(0, len(today_data.get("inhouse", [])) + len(today_data.get("arrivals", [])) - len(today_data.get("departures", []))),
+            "eod_pax_count": max(0, sum(int(r.get("Pax") or 0) for r in today_data.get("inhouse", [])) + sum(int(r.get("Pax") or 0) for r in today_data.get("arrivals", [])) - sum(int(r.get("Pax") or 0) for r in today_data.get("departures", []))),
             "hk_count": len(hk_data)
         },
         "data": {

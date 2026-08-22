@@ -1,2536 +1,1615 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr" class="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Cook's Club Adaköy · Rezervasyon Kontrol Paneli</title>
-  
-  <!-- Premium Sedna Dashboard Fonts: Plus Jakarta Sans & Barlow -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Barlow:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  
-  <!-- Chart.js for Pie & Doughnut Charts -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-  <style>
-    :root {
-      --bg-dark: #070e17;
-      --navy: #0a1628;
-      --card-bg: #0f1c2e;
-      --card-bg2: #0b1625;
-      --teal: #1a8a96;
-      --teal-light: #25b5c5;
-      --teal-glow: rgba(37, 181, 197, 0.25);
-      --gold: #d4af37;
-      --gold-light: #e5c870;
-      --text-main: #f0ebe0;
-      --text-muted: #829ab5;
-      --border-color: rgba(212, 175, 55, 0.18);
-      --border-teal: rgba(37, 181, 197, 0.25);
-      --pos: #3fd68a;
-      --neg: #ff6b6b;
-      --warn: #f0a040;
-      --font-main: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-      --font-display: 'Barlow', 'Plus Jakarta Sans', sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
-    }
-
-    /* LIGHT MODE OPTIONS */
-    body.light-mode {
-      --bg-dark: #f0f2f5;
-      --navy: #ffffff;
-      --card-bg: #ffffff;
-      --card-bg2: #f4f6f9;
-      --text-main: #0f172a;
-      --text-muted: #475569;
-      --border-color: rgba(26, 138, 150, 0.25);
-      --border-teal: rgba(26, 138, 150, 0.3);
-      --teal-light: #1578a0;
-      --gold: #a07820;
-    }
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    html, body { 
-      scroll-behavior: smooth; 
-      overflow-x: hidden;
-      width: 100%;
-    }
-
-    /* CUSTOM DARK SCROLLBARS FOR ALL CONTAINERS */
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    ::-webkit-scrollbar-track {
-      background: var(--bg-dark);
-      border-radius: 4px;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #1e2d42;
-      border-radius: 4px;
-      border: 1px solid var(--border-color);
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: var(--teal-light);
-    }
-    * {
-      scrollbar-width: thin;
-      scrollbar-color: #1e2d42 var(--bg-dark);
-    }
-
-    body {
-      background: var(--bg-dark);
-      color: var(--text-main);
-      font-family: var(--font-main);
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      -webkit-font-smoothing: antialiased;
-      transition: background 0.3s, color 0.3s;
-    }
-
-    /* TOP HEADER NAVBAR */
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(10, 22, 40, 0.95);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      padding: 12px 24px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    body.light-mode header {
-      background: rgba(255, 255, 255, 0.95);
-    }
-
-    .nav-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-    }
-
-    .nav-top-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%;
-      gap: 12px;
-    }
-
-    .nav-brand-group {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      flex-shrink: 0;
-    }
-
-    .brand-title {
-      font-family: var(--font-display);
-      font-size: 18px;
-      font-weight: 600;
-      color: var(--text-main);
-      white-space: nowrap;
-      letter-spacing: 0.03em;
-    }
-
-    .brand-title em {
-      color: var(--teal-light);
-      font-style: normal;
-    }
-
-    /* CLEAN CIRCULAR SVG BUTTONS & NO-SHOW TOGGLE */
-    .nav-controls {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .btn-noshow-toggle {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 0 14px;
-      height: 38px;
-      border-radius: 20px;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.15);
-      color: var(--text-main);
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.25s ease;
-      user-select: none;
-    }
-    .btn-noshow-toggle:hover {
-      background: rgba(255, 255, 255, 0.12);
-      border-color: rgba(255, 255, 255, 0.3);
-    }
-    .btn-noshow-toggle.active-noshow {
-      background: linear-gradient(135deg, rgba(239, 68, 68, 0.25), rgba(245, 158, 11, 0.25));
-      border: 1px solid #f59e0b;
-      color: #fbbf24;
-      box-shadow: 0 0 14px rgba(245, 158, 11, 0.4);
-      animation: noshowPulse 2s infinite ease-in-out;
-    }
-    @keyframes noshowPulse {
-      0% { box-shadow: 0 0 8px rgba(245, 158, 11, 0.3); }
-      50% { box-shadow: 0 0 18px rgba(245, 158, 11, 0.6); }
-      100% { box-shadow: 0 0 8px rgba(245, 158, 11, 0.3); }
-    }
-
-    .btn-circle {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 38px;
-      height: 38px;
-      border-radius: 50%;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      color: var(--text-main);
-      cursor: pointer;
-      transition: all 0.2s ease;
-    }
-
-    .btn-circle:hover {
-      background: rgba(37, 181, 197, 0.18);
-      border-color: var(--teal-light);
-      color: var(--teal-light);
-      box-shadow: 0 0 12px rgba(37, 181, 197, 0.3);
-      transform: translateY(-1px);
-    }
-
-    .btn-circle svg {
-      width: 18px;
-      height: 18px;
-      stroke-width: 2.2;
-      transition: transform 0.3s ease;
-    }
-
-    .btn-circle:hover svg {
-      transform: rotate(45deg);
-    }
-
-    /* DESKTOP NAV TABS (REGULAR FONT WEIGHT) */
-    .nav-tabs {
-      display: flex;
-      gap: 6px;
-      width: 100%;
-      border-top: 1px solid rgba(250, 250, 250, 0.08);
-      padding-top: 10px;
-      overflow-x: auto;
-    }
-
-    .tab-btn {
-      padding: 8px 15px;
-      font-family: var(--font-display);
-      font-size: 13.5px;
-      font-weight: 500;
-      color: var(--text-muted);
-      background: transparent;
-      border: 1px solid transparent;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: all 0.2s;
-      white-space: nowrap;
-      letter-spacing: 0.02em;
-    }
-
-    .tab-btn:hover {
-      color: var(--teal-light);
-      background: rgba(37, 181, 197, 0.1);
-    }
-
-    .tab-btn.active {
-      color: #ffffff;
-      background: var(--teal);
-      border-color: var(--teal-light);
-      box-shadow: 0 4px 14px var(--teal-glow);
-    }
-
-    /* MOBILE CUSTOM ACCORDION / SLIDING DROPDOWN MENU */
-    .mobile-dropdown-container {
-      display: none;
-      width: 100%;
-      position: relative;
-      margin-top: 2px;
-    }
-
-    .mobile-menu-trigger {
-      width: 100%;
-      height: 42px;
-      padding: 0 14px;
-      background: rgba(37, 181, 197, 0.12);
-      border: 1.5px solid var(--teal-light);
-      border-radius: 12px;
-      color: var(--text-main);
-      font-size: 13.5px;
-      font-weight: 500;
-      font-family: var(--font-display);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      cursor: pointer;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
-      transition: all 0.2s ease;
-    }
-
-    .mobile-menu-trigger:active {
-      transform: scale(0.99);
-    }
-
-    .chevron-icon {
-      width: 18px;
-      height: 18px;
-      stroke-width: 2.2;
-      color: var(--teal-light);
-      transition: transform 0.3s ease;
-    }
-
-    .mobile-menu-trigger.open .chevron-icon {
-      transform: rotate(180deg);
-    }
-
-    .mobile-custom-menu {
-      display: none;
-      flex-direction: column;
-      gap: 4px;
-      width: 100%;
-      background: #0b1728;
-      border: 1.5px solid var(--border-teal);
-      border-radius: 12px;
-      padding: 6px;
-      margin-top: 6px;
-      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
-      overflow: hidden;
-      animation: fadeInDown 0.22s ease-out;
-    }
-
-    @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-8px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .mobile-custom-menu.show {
-      display: flex;
-    }
-
-    .mobile-menu-item {
-      padding: 11px 14px;
-      font-family: var(--font-display);
-      font-size: 13px;
-      font-weight: 500;
-      color: var(--text-muted);
-      border-radius: 8px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .mobile-menu-item:hover, .mobile-menu-item.active {
-      color: #ffffff;
-      background: var(--teal);
-    }
-
-    /* HERO BANNER */
-    .hero-banner {
-      padding: 22px 24px;
-      background: linear-gradient(135deg, #071220 0%, #0c1e36 60%, #09172a 100%);
-      border-bottom: 1px solid var(--border-color);
-      position: relative;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    body.light-mode .hero-banner {
-      background: linear-gradient(135deg, #e2e8f5 0%, #d5e0f2 100%);
-    }
-
-    .hero-inner {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .hero-eyebrow {
-      font-family: var(--font-display);
-      font-size: 11px;
-      font-weight: 600;
-      color: var(--gold);
-      margin-bottom: 4px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .hero-heading {
-      font-family: var(--font-display);
-      font-size: 24px;
-      font-weight: 700;
-      color: var(--text-main);
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-    }
-
-    .hero-heading em {
-      color: var(--teal-light);
-      font-style: normal;
-    }
-
-    .hero-sub {
-      font-size: 12.5px;
-      color: var(--text-muted);
-      margin-top: 4px;
-      font-weight: 400;
-    }
-
-    .live-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 5px 12px;
-      background: rgba(37, 181, 197, 0.12);
-      border: 1px solid var(--border-teal);
-      border-radius: 20px;
-      font-size: 11px;
-      font-weight: 500;
-      color: var(--teal-light);
-      font-family: var(--font-mono);
-    }
-
-    .pulse-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: var(--teal-light);
-      box-shadow: 0 0 10px var(--teal-light);
-    }
-
-    /* MAIN CONTAINER */
-    main {
-      padding: 24px;
-      max-width: 1400px;
-      margin: 0 auto;
-      width: 100%;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      gap: 22px;
-    }
-
-    /* VIEW SECTIONS */
-    .view-pane {
-      display: none;
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    .view-pane.active {
-      display: flex;
-    }
-
-    /* KPI CARDS (2 PER ROW ON MOBILE, 4 PER ROW ON DESKTOP) */
-    .kpi-row {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 16px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    .kpi-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 20px;
-      position: relative;
-      overflow: hidden;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-      transition: transform 0.2s ease, border-color 0.2s ease;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    .kpi-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(37, 181, 197, 0.35);
-    }
-
-    .kpi-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; height: 3.5px;
-      background: linear-gradient(90deg, var(--teal-light), var(--gold));
-    }
-
-    /* INDIVIDUAL TRANSPARENT COLOR SCHEMES FOR TOP 4 KPI CARDS */
-    .kpi-card.kpi-blue {
-      background: linear-gradient(135deg, rgba(37, 181, 197, 0.16) 0%, rgba(15, 28, 46, 0.95) 100%);
-      border-color: rgba(37, 181, 197, 0.38);
-    }
-    .kpi-card.kpi-blue::before {
-      background: linear-gradient(90deg, #25b5c5, #0ea5e9);
-    }
-
-    .kpi-card.kpi-green {
-      background: linear-gradient(135deg, rgba(63, 214, 138, 0.16) 0%, rgba(15, 28, 46, 0.95) 100%);
-      border-color: rgba(63, 214, 138, 0.38);
-    }
-    .kpi-card.kpi-green::before {
-      background: linear-gradient(90deg, #3fd68a, #10b981);
-    }
-
-    .kpi-card.kpi-yellow {
-      background: linear-gradient(135deg, rgba(212, 175, 55, 0.18) 0%, rgba(15, 28, 46, 0.95) 100%);
-      border-color: rgba(212, 175, 55, 0.42);
-    }
-    .kpi-card.kpi-yellow::before {
-      background: linear-gradient(90deg, #d4af37, #f59e0b);
-    }
-
-    .kpi-card.kpi-red {
-      background: linear-gradient(135deg, rgba(244, 63, 94, 0.16) 0%, rgba(15, 28, 46, 0.95) 100%);
-      border-color: rgba(244, 63, 94, 0.38);
-    }
-    .kpi-card.kpi-red::before {
-      background: linear-gradient(90deg, #f43f5e, #ff6b6b);
-    }
-
-    /* Light mode adaptations for transparent KPI colors */
-    body.light-mode .kpi-card.kpi-blue {
-      background: linear-gradient(135deg, rgba(37, 181, 197, 0.15) 0%, #ffffff 100%);
-    }
-    body.light-mode .kpi-card.kpi-green {
-      background: linear-gradient(135deg, rgba(63, 214, 138, 0.15) 0%, #ffffff 100%);
-    }
-    body.light-mode .kpi-card.kpi-yellow {
-      background: linear-gradient(135deg, rgba(212, 175, 55, 0.18) 0%, #ffffff 100%);
-    }
-    body.light-mode .kpi-card.kpi-red {
-      background: linear-gradient(135deg, rgba(244, 63, 94, 0.15) 0%, #ffffff 100%);
-    }
-
-    .kpi-label {
-      font-family: var(--font-display);
-      font-size: 11.5px;
-      font-weight: 600;
-      color: var(--text-muted);
-      margin-bottom: 8px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
-
-    .kpi-value {
-      font-family: var(--font-display);
-      font-size: 32px;
-      font-weight: 700;
-      color: var(--text-main);
-      line-height: 1.1;
-    }
-
-    .kpi-desc {
-      font-size: 11.5px;
-      color: var(--text-muted);
-      margin-top: 6px;
-      font-weight: 400;
-    }
-
-    /* PREMIUM DASHBOARD CARD DESIGN */
-    .dashboard-card {
-      background: var(--card-bg);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 20px;
-      position: relative;
-      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      box-sizing: border-box;
-      overflow: hidden;
-    }
-
-    .dashboard-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; height: 3px;
-      background: linear-gradient(90deg, var(--teal-light), var(--gold));
-      border-radius: 16px 16px 0 0;
-    }
-
-    .card-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 4px;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .card-title-text {
-      font-family: var(--font-display);
-      font-size: 16.5px;
-      font-weight: 600;
-      color: var(--text-main);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      letter-spacing: 0.02em;
-    }
-
-    .card-subtitle {
-      order: 2;
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-bottom: 14px;
-      font-weight: 400;
-    }
-
-    /* CHART BOX (DESKTOP: PLACED ON TOP OF TABLES) */
-    .chart-container {
-      order: 3 !important;
-      width: 100%;
-      height: 320px;
-      position: relative;
-      margin-bottom: 16px;
-      padding-top: 15px;
-      padding-bottom: 14px;
-      border-bottom: 1px dashed rgba(200, 164, 74, 0.15);
-      border-top: none;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-sizing: border-box;
-    }
-
-    /* TABLES (DESKTOP: PLACED UNDERNEATH CHARTS) */
-    .table-container {
-      order: 4 !important;
-      width: 100%;
-      max-width: 100%;
-      overflow-x: auto;
-      -webkit-overflow-scrolling: touch;
-      max-height: 55vh;
-      border-radius: 10px;
-      border: 1px solid rgba(250, 250, 250, 0.05);
-      box-sizing: border-box;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      font-size: 12.5px;
-    }
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedna Cloud - Günlük Misafir Durumu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    thead th {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      background: var(--card-bg2);
-      color: var(--gold);
-      font-family: var(--font-display);
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      padding: 10px 8px;
-      font-size: 11.5px;
-      border-bottom: 2px solid var(--border-color);
-      text-align: left;
-    }
+    <script>
+        // Init theme immediately to prevent flashing
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            if (savedTheme === 'light') {
+                document.documentElement.classList.remove('dark');
+            } else {
+                document.documentElement.classList.add('dark');
+            }
+        })();
 
-    thead th.num-col {
-      text-align: right;
-    }
-
-
-    tbody td {
-      padding: 9px 12px;
-      border-bottom: 1px solid rgba(200, 164, 74, 0.08);
-      color: var(--text-main);
-      white-space: nowrap;
-      background: var(--card-bg);
-      font-family: var(--font-main);
-      font-weight: 400;
-    }
-
-    tbody tr:hover td {
-      background: rgba(37, 181, 197, 0.06);
-    }
-
-    /* SUMMARY TOTAL ROW AT BOTTOM OF TABLES */
-    .total-row td {
-      border-top: 1.5px solid rgba(37, 181, 197, 0.4) !important;
-      background: rgba(37, 181, 197, 0.12) !important;
-      font-weight: 600 !important;
-      color: var(--teal-light) !important;
-      font-size: 12px !important;
-    }
-
-    body.light-mode .total-row td {
-      background: rgba(37, 181, 197, 0.10) !important;
-      color: #0d9488 !important;
-    }
-
-    .num-col {
-      font-family: var(--font-mono);
-      font-weight: 400;
-      text-align: right;
-    }
-
-    /* BADGES & PROGRESS BARS */
-    .tag-badge {
-      display: inline-block;
-      padding: 3px 8px;
-      border-radius: 12px;
-      font-size: 11px;
-      font-weight: 500;
-      font-family: var(--font-mono);
-      background: rgba(37, 181, 197, 0.15);
-      color: var(--teal-light);
-      border: 1px solid var(--border-teal);
-    }
-
-    .bar-bg {
-      display: inline-block;
-      width: 45px;
-      height: 5px;
-      background: rgba(255, 255, 255, 0.1);
-      border-radius: 3px;
-      overflow: hidden;
-      margin-left: 6px;
-      vertical-align: middle;
-    }
-
-    .bar-fill {
-      height: 100%;
-      background: linear-gradient(90deg, var(--teal-light), var(--gold));
-      border-radius: 3px;
-      transition: width 1.2s cubic-bezier(0.25, 1, 0.5, 1);
-    }
-
-    .search-input-box {
-      width: 100%;
-      max-width: 300px;
-      height: 36px;
-      padding: 0 12px 0 32px;
-      background: rgba(0, 0, 0, 0.35);
-      border: 1px solid var(--border-color);
-      border-radius: 10px;
-      color: var(--text-main);
-      font-size: 12.5px;
-      font-family: var(--font-main);
-      font-weight: 400;
-      outline: none;
-    }
-
-    .search-input-box:focus {
-      border-color: var(--teal-light);
-      box-shadow: 0 0 10px var(--teal-glow);
-    }
-
-    .search-wrapper {
-      position: relative;
-      width: 100%;
-      max-width: 300px;
-    }
-
-    .search-wrapper::before {
-      content: "🔍";
-      position: absolute;
-      left: 10px;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 12px;
-      opacity: 0.6;
-    }
-
-    .grid-layout-2 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-      width: 100%;
-      box-sizing: border-box;
-    }
-
-    /* MOBILE COMPACT RESPONSIVE RULES (ZERO SWIPE / FITS ALL COLUMNS 100%) */
-    @media (max-width: 820px) {
-      .nav-tabs { display: none; }
-      .mobile-dropdown-container { display: block; }
-      .brand-title { font-size: 15px; }
-      header { padding: 10px 12px; }
-      
-      main { 
-        padding: 10px 8px; 
-        gap: 10px; 
-        width: 100%; 
-        max-width: 100vw; 
-        box-sizing: border-box; 
-        overflow-x: hidden; 
-      }
-      
-      .hero-banner { padding: 14px 10px; }
-      .hero-heading { font-size: 19px; }
-
-      .view-pane { 
-        width: 100%; 
-        max-width: 100%; 
-        box-sizing: border-box; 
-        overflow-x: hidden; 
-      }
-
-      .kpi-row { 
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 8px; 
-        width: 100%; 
-        max-width: 100%; 
-        box-sizing: border-box; 
-      }
-
-      .kpi-card { 
-        padding: 12px 10px; 
-        width: 100%; 
-        max-width: 100%; 
-        box-sizing: border-box; 
-      }
-
-      .kpi-value {
-        font-size: 22px;
-      }
-
-      .dashboard-card { 
-        padding: 12px 8px; 
-        width: 100%; 
-        max-width: 100%; 
-        box-sizing: border-box; 
-      }
-
-      .grid-layout-2 { 
-        grid-template-columns: 1fr; 
-        gap: 10px; 
-        width: 100%; 
-        max-width: 100%; 
-        box-sizing: border-box; 
-      }
-
-      /* Mobile order: Table ON TOP (order:3), Chart UNDERNEATH (order:4) */
-      .table-container { 
-        order: 3 !important;
-        width: 100%; 
-        max-width: 100%; 
-        overflow-x: auto; 
-        -webkit-overflow-scrolling: touch; 
-        box-sizing: border-box; 
-      }
-
-      .chart-container {
-        order: 4 !important;
-        margin-top: 16px;
-        margin-bottom: 0;
-        padding-top: 14px;
-        padding-bottom: 0;
-        border-bottom: none;
-        border-top: 1px dashed rgba(200, 164, 74, 0.15);
-      }
-
-      table {
-        font-size: 11.5px;
-      }
-
-      thead th {
-        padding: 7px 4px;
-        font-size: 11px;
-        font-weight: 500;
-      }
-
-      tbody td {
-        padding: 7px 4px;
-        font-size: 11.5px;
-        font-weight: 400;
-      }
-
-      /* Compact mobile fit for Agencies Table (Zero Swipe) */
-      #view-agencies table {
-        font-size: 11px;
-        width: 100%;
-        table-layout: auto;
-      }
-      #view-agencies thead th {
-        padding: 6px 3px !important;
-        font-size: 10.5px;
-      }
-      #view-agencies tbody td {
-        padding: 6px 3px !important;
-        font-size: 11px;
-      }
-      #view-agencies .num-col {
-        padding-left: 2px !important;
-        padding-right: 2px !important;
-      }
-
-      /* Compact & Full-Width Fit for Reservation Details Table (Strict Fixed Column Alignment) */
-      #view-details table.tbl-details-fixed {
-        font-size: 11px;
-        width: 100%;
-        table-layout: fixed !important;
-        border-collapse: separate;
-        border-spacing: 0;
-      }
-      #view-details table.tbl-details-fixed thead th {
-        padding: 8px 4px !important;
-        font-size: 11px;
-        text-align: left !important;
-        color: var(--gold);
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-      #view-details table.tbl-details-fixed tbody td {
-        padding: 7px 4px !important;
-        font-size: 11px;
-        text-align: left !important;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-      #view-details table.tbl-details-fixed th.num-col,
-      #view-details table.tbl-details-fixed td.num-col {
-        text-align: right !important;
-        padding-right: 6px !important;
-      }
-      #view-details .table-container {
-        max-height: 68vh;
-        width: 100%;
-        overflow-x: auto;
-      }
-
-      .bar-bg {
-        width: 28px;
-        height: 4px;
-        margin-left: 3px;
-      }
-
-      .search-wrapper {
-        max-width: 100%;
-      }
-    }
-  
-    .seasonal-chart-inner {
-      width: 100%;
-      min-width: 100%;
-    }
-    @media (max-width: 900px) {
-      .seasonal-chart-inner {
-        min-width: 800px;
-      }
-    }
-
-  </style>
-</head>
-<body>
-
-  <!-- HEADER NAVBAR -->
-  <header>
-    <div class="nav-container">
-      <div class="nav-top-row">
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        },
+                        dark: {
+                            bg: '#0f172a',
+                            card: '#1e293b',
+                            border: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            background-image: radial-gradient(circle at top right, rgba(14, 165, 233, 0.1), transparent 400px),
+                              radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.1), transparent 400px);
+            min-height: 100vh;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: background 0.3s ease, border-color 0.3s ease;
+        }
         
-        <!-- Brand Group -->
-        <div class="nav-brand-group">
-          <div class="brand-title">Cook's Club Adaköy</div>
-        </div>
-
-        <!-- Controls with Clean Circular SVG & No-Show Buttons -->
-        <div class="nav-controls">
-          <button class="btn-noshow-toggle" id="btn-noshow" title="No-Show Rezervasyonları Düş (Düşülmüş Göster)" onclick="toggleNoShow()">
-            <span class="noshow-icon">🚫</span>
-            <span class="noshow-text">No-Show Düş</span>
-          </button>
-          
-          <button class="btn-circle" id="btn-refresh" title="Verileri Yenile">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-            </svg>
-          </button>
-          
-          <button class="btn-circle" id="btn-theme" title="Tema Değiştir">
-            <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-            </svg>
-          </button>
-        </div>
-
-      </div>
-
-      <!-- Mobile Custom Sliding Accordion Dropdown Navigation -->
-      <div class="mobile-dropdown-container">
-        <button class="mobile-menu-trigger" id="mobile-menu-trigger" onclick="toggleMobileMenu()">
-          <span id="mobile-active-title">📊 Özet Veri Paneli</span>
-          <svg class="chevron-icon" id="mobile-menu-chevron" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
-        <div class="mobile-custom-menu" id="mobile-custom-menu">
-          <div class="mobile-menu-item active" onclick="selectMobileTab('summary', '📊 Özet Veri Paneli')">📊 Özet Veri Paneli</div>
-          <div class="mobile-menu-item" onclick="selectMobileTab('agencies', '🏢 Acenta Dağılımı')">🏢 Acenta Dağılımı</div>
-          <div class="mobile-menu-item" onclick="selectMobileTab('daily', '📅 Rez Kayıt Günlük (Kullanıcı Matrisi)')">📅 Rez Kayıt Günlük (Kullanıcı Matrisi)</div>
-          <div class="mobile-menu-item" onclick="selectMobileTab('seasonal', '📅 Sezonluk Rez Karşılaştırma')">📅 Sezonluk Rez Karşılaştırma</div>
-          <div class="mobile-menu-item" onclick="selectMobileTab('forecast', '📈 Günlük Forecast Raporu')">📈 Günlük Forecast Raporu</div>
-          <div class="mobile-menu-item" onclick="selectMobileTab('details', '🔍 Rezervasyon Kayıt Detayları')">🔍 Rezervasyon Kayıt Detayları</div>
-        </div>
-      </div>
-
-      <!-- Desktop Tabs -->
-      <div class="nav-tabs">
-        <button class="tab-btn active" data-view="summary">📊 Özet Veri</button>
-        <button class="tab-btn" data-view="agencies">🏢 Acenta Dağılımı</button>
-        <button class="tab-btn" data-view="daily">📅 Rez Kayıt Günlük</button>
-        <button class="tab-btn" data-view="forecast">📈 Günlük Forecast</button>
-        <button class="tab-btn" data-view="details">🔍 Rez Kayıt Detay</button>
-        <button class="tab-btn" data-view="seasonal">📅 Sezonluk Rez Karşılaştırma</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- HERO BANNER -->
-  <div class="hero-banner">
-    <div class="hero-inner">
-      <div>
-        <div class="hero-eyebrow">Sedna SQL Canlı Veri Analizi</div>
-        <h1 class="hero-heading">Rezervasyon Kontrol Paneli</h1>
-        <div class="hero-sub">Gerçek Zamanlı Doluluk, Acenta ve Kayıt Analiz Sistemi</div>
-      </div>
-      <div class="live-status">
-        <span class="pulse-dot"></span>
-        <span id="sync-time-text">Son Güncelleme: Yükleniyor...</span>
-      </div>
-    </div>
-  </div>
-
-  <!-- MAIN BODY CONTENT -->
-  <main>
-
-    <!-- 1. SUMMARY VIEW -->
-    <section id="view-summary" class="view-pane active">
-      
-      <!-- Top 4 KPI Cards with Distinct Transparent Color Schemes -->
-      <div class="kpi-row">
-        <div class="kpi-card kpi-blue">
-          <div class="kpi-label">Toplam Rezervasyon</div>
-          <div class="kpi-value" id="val-total-rez">-</div>
-          <div class="kpi-desc">Aktif Rezervasyon Adedi</div>
-        </div>
-        <div class="kpi-card kpi-green">
-          <div class="kpi-label">Toplam Geceleme</div>
-          <div class="kpi-value" id="val-total-nights">-</div>
-          <div class="kpi-desc">Room Nights (Gece)</div>
-        </div>
-        <div class="kpi-card kpi-yellow">
-          <div class="kpi-label">Ort. Konaklama</div>
-          <div class="kpi-value" id="val-avg-stay">-</div>
-          <div class="kpi-desc">Gece / Rezervasyon</div>
-        </div>
-        <div class="kpi-card kpi-red">
-          <div class="kpi-label">Ort. Erken Kayıt</div>
-          <div class="kpi-value" id="val-avg-lead">-</div>
-          <div class="kpi-desc">Gün Öncesinden Kayıt</div>
-        </div>
-      </div>
-
-      <!-- Grid Cards with Tables FIRST and Pie Charts SECOND (UNDERNEATH) -->
-      <div class="grid-layout-2">
+        .tab-active {
+            border-bottom: 2px solid #38bdf8;
+            color: #38bdf8;
+            background: rgba(56, 189, 248, 0.1);
+        }
         
-        <!-- User Distribution Card -->
-        <div class="dashboard-card">
-          <div class="card-header">
-            <div class="card-title-text">👤 Kullanıcı Kayıt Dağılımı</div>
-            <span class="tag-badge" id="badge-users">0 Kişi</span>
-          </div>
-          <div class="card-subtitle">Kullanıcılara göre giren rezervasyon adedi ve geceleme</div>
-          
-          <!-- TABLE FIRST -->
-          <div class="table-container">
-            <table>
-              <thead>
-                <tr>
-                  <th>Kullanıcı</th>
-                  <th class="num-col">Rez</th>
-                  <th class="num-col">Gece</th>
-                  <th class="num-col">Pay</th>
-                </tr>
-              </thead>
-              <tbody id="tbl-users">
-                <tr><td colspan="4" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-              </tbody>
-            </table>
-          </div>
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.5); 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569; 
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Login Overlay */
+        #login-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: #0f172a;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        /* Custom date selector */
+        #date-select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+            background-repeat: no-repeat;
+            background-position: right 0px center;
+            background-size: 16px;
+            padding-right: 24px;
+        }
+        .room-card {
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            cursor: pointer;
+            border-radius: 0.75rem;
+            transition: all 0.2s ease-in-out;
+        }
+        .room-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 12px -3px rgba(0, 0, 0, 0.4);
+        }
 
-          <!-- CHART SECOND (UNDER TABLE) -->
-          <div class="chart-container">
-            <canvas id="chart-users-canvas"></canvas>
-          </div>
-        </div>
+        /* Light Mode Theme Overrides */
+        html:not(.dark) body {
+            background-color: #f8fafc;
+            color: #0f172a;
+            background-image: radial-gradient(circle at top right, rgba(14, 165, 233, 0.05), transparent 400px),
+                              radial-gradient(circle at bottom left, rgba(139, 92, 246, 0.05), transparent 400px);
+        }
+        
+        html:not(.dark) .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-color: rgba(15, 23, 42, 0.08);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
 
-        <!-- Room Type Distribution Card (REMOVED 9 TIPI BADGE AS REQUESTED) -->
-        <div class="dashboard-card">
-          <div class="card-header">
-            <div class="card-title-text">🛏️ Oda Tipi Dağılımı</div>
-          </div>
-          <div class="card-subtitle">Satılan oda tiplerinin genel payı</div>
+        html:not(.dark) .text-white {
+            color: #0f172a !important;
+        }
 
-          <!-- TABLE FIRST -->
-          <div class="table-container">
-            <table>
-              <thead>
-                <tr>
-                  <th>Oda Tipi</th>
-                  <th class="num-col">Rez</th>
-                  <th class="num-col">Gece</th>
-                  <th class="num-col">Pay</th>
-                </tr>
-              </thead>
-              <tbody id="tbl-roomtypes">
-                <tr><td colspan="4" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-              </tbody>
-            </table>
-          </div>
+        html:not(.dark) .text-slate-400 {
+            color: #475569 !important;
+        }
 
-          <!-- CHART SECOND (UNDER TABLE) -->
-          <div class="chart-container">
-            <canvas id="chart-roomtypes-canvas"></canvas>
-          </div>
-        </div>
+        html:not(.dark) .text-slate-300 {
+            color: #334155 !important;
+        }
 
-        <!-- Board & Continuity Card -->
-        <div class="dashboard-card">
-          <div class="card-header">
-            <div class="card-title-text">🍽️ Pansiyon Tipi & Misafir Sürekliliği</div>
-          </div>
-          <div class="card-subtitle">Pansiyon seçimi ve Tekrar / İlk Kez Gelen misafir oranı</div>
-          
-          <div class="table-container">
-            <table>
-              <thead>
-                <tr>
-                  <th>Pansiyon</th>
-                  <th class="num-col">Rez</th>
-                  <th class="num-col">Gece</th>
-                  <th class="num-col">Pay</th>
-                </tr>
-              </thead>
-              <tbody id="tbl-board">
-                <tr><td colspan="4" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-              </tbody>
-            </table>
+        html:not(.dark) .text-slate-200 {
+            color: #1e293b !important;
+        }
+
+        html:not(.dark) .bg-slate-800\/50,
+        html:not(.dark) .bg-slate-900\/60,
+        html:not(.dark) .bg-slate-800\/80,
+        html:not(.dark) .bg-slate-800,
+        html:not(.dark) .bg-slate-900,
+        html:not(.dark) thead.bg-slate-800\/50 {
+            background-color: #f1f5f9 !important;
+        }
+
+        html:not(.dark) .border-dark-border,
+        html:not(.dark) .border-slate-800,
+        html:not(.dark) .border-slate-700,
+        html:not(.dark) .border-slate-700\/50,
+        html:not(.dark) tr.border-b,
+        html:not(.dark) .divide-dark-border > * + * {
+            border-color: #cbd5e1 !important;
+        }
+
+        html:not(.dark) #searchInput,
+        html:not(.dark) #pass-input {
+            background-color: #ffffff !important;
+            color: #0f172a !important;
+            border-color: #cbd5e1 !important;
+        }
+
+        html:not(.dark) #date-select {
+            color: #0f172a !important;
+        }
+
+        html:not(.dark) #date-select option {
+            background-color: #ffffff !important;
+            color: #0f172a !important;
+        }
+
+        html:not(.dark) .room-card.bg-slate-800\/25 {
+            background-color: #f1f5f9 !important;
+            border-color: #cbd5e1 !important;
+            color: #64748b !important;
+        }
+
+        html:not(.dark) tr:hover {
+            background-color: #f8fafc !important;
+        }
+
+        html:not(.dark) header {
+            background-color: rgba(255, 255, 255, 0.95) !important;
+            border-bottom-color: #cbd5e1 !important;
+        }
+
+        html:not(.dark) .tab-active {
+            background: rgba(14, 165, 233, 0.1) !important;
+            color: #0284c7 !important;
+            border-bottom-color: #0284c7 !important;
+        }
+
+        html:not(.dark) button:hover {
+            color: #0284c7 !important;
+        }
+
+        html:not(.dark) .bg-clip-text {
+            background-image: none !important;
+            color: #0f172a !important;
+            -webkit-text-fill-color: initial !important;
+        }
+
+        html:not(.dark) #login-overlay {
+            background-color: #f8fafc !important;
+        }
+
+        /* Print Styles: hide everything except lists */
+        @media print {
+            body {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+                background-image: none !important;
+                padding: 0 !important;
+                margin: 0 !important;
+                min-height: auto !important;
+                overflow: visible !important;
+            }
             
-            <div style="border-top: 1px solid var(--border-color); margin-top: 12px; padding-top: 10px;">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Misafir</th>
-                    <th class="num-col">Rez</th>
-                    <th class="num-col">Pay</th>
-                  </tr>
-                </thead>
-                <tbody id="tbl-continuity">
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <!-- Market Distribution Card -->
-        <div class="dashboard-card">
-          <div class="card-header">
-            <div class="card-title-text">🌍 Pazar / Uyruk Dağılımı</div>
-          </div>
-          <div class="card-subtitle">Ülke ve pazarlara göre rezervasyon dağılımı</div>
-
-          <!-- TABLE FIRST -->
-          <div class="table-container">
-            <table>
-              <thead>
-                <tr>
-                  <th>Pazar / Ülke</th>
-                  <th class="num-col">Rez</th>
-                  <th class="num-col">Pay</th>
-                </tr>
-              </thead>
-              <tbody id="tbl-markets">
-                <tr><td colspan="3" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-              </tbody>
-            </table>
-          </div>
-
-          <!-- CHART SECOND (UNDER TABLE) -->
-          <div class="chart-container">
-            <canvas id="chart-markets-canvas"></canvas>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 2. AGENCIES VIEW -->
-    <section id="view-agencies" class="view-pane">
-      <div class="dashboard-card">
-        <div class="card-header">
-          <div class="card-title-text">🏢 Acenta Bazlı Rezervasyon Dağılımı</div>
-          <span class="tag-badge" id="badge-agencies">0 Acenta</span>
-        </div>
-        <div class="card-subtitle">Acentalara göre rezervasyon payları ve ortalama erken kayıt süreleri</div>
-
-        <!-- TABLE FIRST -->
-        <div class="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th style="text-align: left; padding-left: 8px;">Acente Adı</th>
-                <th class="num-col">Rezervasyon Adet</th>
-                <th class="num-col">Konaklama Gün Toplam</th>
-                <th class="num-col">Ortalama Gün</th>
-                <th class="num-col">Rez (%) (Adet Bazında)</th>
-              </tr>
-            </thead>
-            <tbody id="tbl-agencies">
-              <tr><td colspan="6" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- CHART SECOND (UNDER TABLE) -->
-        <div class="chart-container" style="height: 250px;">
-          <canvas id="chart-agencies-canvas"></canvas>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. DAILY MATRIX VIEW -->
-    <section id="view-daily" class="view-pane">
-      <div class="dashboard-card">
-        <div class="card-header">
-          <div class="card-title-text">📅 Rez Kayıt Günlük (Kullanıcı Giriş Matrisi)</div>
-          <span class="tag-badge" id="badge-daily-days">0 Gün</span>
-        </div>
-        <div class="card-subtitle">Günlük bazda sistem kullanıcılarının sisteme girdiği rezervasyon sayıları</div>
-        <div class="table-container">
-          <table>
-            <thead id="thead-daily">
-              <tr><th>Tarih</th><th class="num-col">Toplam</th></tr>
-            </thead>
-            <tbody id="tbody-daily">
-              <tr><td colspan="2" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. SEASONAL COMPARISON VIEW -->
-    <section id="view-seasonal" class="view-pane">
-      <div class="dashboard-card" style="padding: 16px;">
-        
-        <!-- Header Title -->
-        <div style="text-align: center; margin-bottom: 16px; border-bottom: 2px solid var(--border-color); padding-bottom: 12px;">
-          <div style="font-family: var(--font-display); font-size: 16px; font-weight: 700; letter-spacing: 0.08em; color: var(--text-main); text-transform: uppercase;">
-            COOK'S CLUB ADAKOY
-          </div>
-          <div style="font-family: var(--font-display); font-size: 18px; font-weight: 700; color: #ef4444; margin-top: 4px;">
-            Seasonal Reservation Comparison
-          </div>
-        </div>
-
-        <!-- Table Container -->
-        <div style="overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-surface);">
-          <table id="tbl-seasonal-table" style="width: 100%; border-collapse: collapse; font-size: 11.5px; text-align: center;">
-            <thead id="thead-seasonal">
-            </thead>
-            <tbody id="tbody-seasonal">
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Dual Chart Layout (Room Nights Top, PAX Bottom) -->
-        <div style="display: flex; flex-direction: column; gap: 24px; margin-top: 24px;">
-          
-          <!-- Chart 1: Room Nights (RM) -->
-          <div style="background: var(--card-bg2); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px;">
-            <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              <span>🛏️</span> <span>RM (Oda Geceleme) Aylık Karşılaştırma</span>
-            </div>
-            <div class="seasonal-chart-scroll-wrapper" style="overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px;">
-              <div class="seasonal-chart-inner" style="height: 320px; position: relative;">
-                <canvas id="chart-seasonal-room-canvas"></canvas>
-              </div>
-            </div>
-          </div>
-
-          <!-- Chart 2: Guest Count (PAX) -->
-          <div style="background: var(--card-bg2); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px;">
-            <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              <span>👥</span> <span>PAX (Kişi Sayısı) Aylık Karşılaştırma</span>
-            </div>
-            <div class="seasonal-chart-scroll-wrapper" style="overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px;">
-              <div class="seasonal-chart-inner" style="height: 320px; position: relative;">
-                <canvas id="chart-seasonal-pax-canvas"></canvas>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 4. FORECAST VIEW -->
-    <section id="view-forecast" class="view-pane">
-      <div class="dashboard-card">
-        <div class="card-header">
-          <div class="card-title-text">📈 Günlük Forecast Raporu (Kapasite: 111 Oda)</div>
-          <span class="tag-badge" id="badge-forecast">0 Gün</span>
-        </div>
-        <div class="card-subtitle">Tarihlere göre satılan oda, doluluk %, giriş/çıkış odalar ve kişi sayıları</div>
-        <div class="table-container">
-          <table>
-            <thead>
-              <tr>
-                <th>Tarih</th>
-                <th class="num-col">Kapasite</th>
-                <th class="num-col">Satılan</th>
-                <th class="num-col">Kalan (Fark)</th>
-                <th class="num-col">Doluluk (%)</th>
-                <th class="num-col">Giriş Oda</th>
-                <th class="num-col">Çıkış Oda</th>
-                <th class="num-col">Yetişkin</th>
-                <th class="num-col">Toplam Pax</th>
-              </tr>
-            </thead>
-            <tbody id="tbl-forecast">
-              <tr><td colspan="9" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. SEASONAL COMPARISON VIEW -->
-    <section id="view-seasonal" class="view-pane">
-      <div class="dashboard-card" style="padding: 16px;">
-        
-        <!-- Header Title -->
-        <div style="text-align: center; margin-bottom: 16px; border-bottom: 2px solid var(--border-color); padding-bottom: 12px;">
-          <div style="font-family: var(--font-display); font-size: 16px; font-weight: 700; letter-spacing: 0.08em; color: var(--text-main); text-transform: uppercase;">
-            COOK'S CLUB ADAKOY
-          </div>
-          <div style="font-family: var(--font-display); font-size: 18px; font-weight: 700; color: #ef4444; margin-top: 4px;">
-            Seasonal Reservation Comparison
-          </div>
-        </div>
-
-        <!-- Table Container -->
-        <div style="overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-surface);">
-          <table id="tbl-seasonal-table" style="width: 100%; border-collapse: collapse; font-size: 11.5px; text-align: center;">
-            <thead id="thead-seasonal">
-            </thead>
-            <tbody id="tbody-seasonal">
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Dual Chart Layout (Room Nights Top, PAX Bottom) -->
-        <div style="display: flex; flex-direction: column; gap: 24px; margin-top: 24px;">
-          
-          <!-- Chart 1: Room Nights (RM) -->
-          <div style="background: var(--card-bg2); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px;">
-            <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              <span>🛏️</span> <span>RM (Oda Geceleme) Aylık Karşılaştırma</span>
-            </div>
-            <div style="height: 280px; position: relative;">
-              <canvas id="chart-seasonal-room-canvas"></canvas>
-            </div>
-          </div>
-
-          <!-- Chart 2: Guest Count (PAX) -->
-          <div style="background: var(--card-bg2); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px;">
-            <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              <span>👥</span> <span>PAX (Kişi Sayısı) Aylık Karşılaştırma</span>
-            </div>
-            <div style="height: 280px; position: relative;">
-              <canvas id="chart-seasonal-pax-canvas"></canvas>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 5. DETAILS VIEW -->
-    <section id="view-details" class="view-pane">
-      <div class="dashboard-card">
-        <div class="card-header">
-          <div class="card-title-text">🔍 Rezervasyon Kayıt Detayları</div>
-          <div class="search-wrapper">
-            <input type="text" id="input-search-details" class="search-input-box" placeholder="İsim, Voucher, Acenta ara...">
-          </div>
-        </div>
-        <div class="card-subtitle">Sistemdeki tüm rezervasyonların detaylı dökümü (<span id="badge-details">0 Kayıt</span>)</div>
-        <div class="table-container">
-          <table class="tbl-details-fixed" style="table-layout: fixed !important; width: 100%;">
-            <colgroup>
-              <col style="width: 50px;">
-              <col style="width: 90px;">
-              <col style="width: 40px;">
-              <col style="width: 65px;">
-              <col style="width: 240px;">
-              <col style="width: 45px;">
-              <col style="width: 60px;">
-              <col style="width: 72px;">
-              <col style="width: 72px;">
-              <col style="width: 35px;">
-              <col style="width: 30px;">
-              <col style="width: 72px;">
-              <col style="width: 75px;">
-            </colgroup>
-            <thead>
-              <tr>
-                <th style="text-align: left !important; padding-left: 4px;">RecId</th>
-                <th style="text-align: left !important; padding-left: 4px;">Acenta</th>
-                <th style="text-align: left !important; padding-left: 4px;">Oda</th>
-                <th style="text-align: left !important; padding-left: 4px;">Voucher</th>
-                <th style="text-align: left !important; padding-left: 4px;">Misafir Ad Soyad</th>
-                <th style="text-align: left !important; padding-left: 4px;">Pansiyon</th>
-                <th style="text-align: left !important; padding-left: 4px;">Oda Tipi</th>
-                <th style="text-align: left !important; padding-left: 4px;">Giriş</th>
-                <th style="text-align: left !important; padding-left: 4px;">Çıkış</th>
-                <th class="num-col" style="text-align: right !important; padding-right: 6px;">Gece</th>
-                <th class="num-col" style="text-align: right !important; padding-right: 6px;">Pax</th>
-                <th style="text-align: left !important; padding-left: 4px;">Kayıt Tarihi</th>
-                <th style="text-align: left !important; padding-left: 4px;">Kullanıcı</th>
-              </tr>
-            </thead>
-            <tbody id="tbl-details">
-              <tr><td colspan="13" style="text-align:center; padding:16px; color:var(--text-muted);">Yükleniyor...</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. SEASONAL COMPARISON VIEW -->
-    <section id="view-seasonal" class="view-pane">
-      <div class="dashboard-card" style="padding: 16px;">
-        
-        <!-- Header Title -->
-        <div style="text-align: center; margin-bottom: 16px; border-bottom: 2px solid var(--border-color); padding-bottom: 12px;">
-          <div style="font-family: var(--font-display); font-size: 16px; font-weight: 700; letter-spacing: 0.08em; color: var(--text-main); text-transform: uppercase;">
-            COOK'S CLUB ADAKOY
-          </div>
-          <div style="font-family: var(--font-display); font-size: 18px; font-weight: 700; color: #ef4444; margin-top: 4px;">
-            Seasonal Reservation Comparison
-          </div>
-        </div>
-
-        <!-- Table Container -->
-        <div style="overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px; border: 1px solid var(--border-color); background: var(--bg-surface);">
-          <table id="tbl-seasonal-table" style="width: 100%; border-collapse: collapse; font-size: 11.5px; text-align: center;">
-            <thead id="thead-seasonal">
-            </thead>
-            <tbody id="tbody-seasonal">
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Dual Chart Layout (Room Nights Top, PAX Bottom) -->
-        <div style="display: flex; flex-direction: column; gap: 24px; margin-top: 24px;">
-          
-          <!-- Chart 1: Room Nights (RM) -->
-          <div style="background: var(--card-bg2); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px;">
-            <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              <span>🛏️</span> <span>RM (Oda Geceleme) Aylık Karşılaştırma</span>
-            </div>
-            <div style="height: 280px; position: relative;">
-              <canvas id="chart-seasonal-room-canvas"></canvas>
-            </div>
-          </div>
-
-          <!-- Chart 2: Guest Count (PAX) -->
-          <div style="background: var(--card-bg2); border: 1px solid var(--border-color); border-radius: 12px; padding: 16px;">
-            <div style="font-size: 14px; font-weight: 700; color: var(--text-main); margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
-              <span>👥</span> <span>PAX (Kişi Sayısı) Aylık Karşılaştırma</span>
-            </div>
-            <div style="height: 280px; position: relative;">
-              <canvas id="chart-seasonal-pax-canvas"></canvas>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-  </main>
-
-  <!-- JAVASCRIPT APP LOGIC -->
-  <script>
-    window.chartSeasonalRoom = null;
-    window.chartSeasonalPax = null;
-    let appData = null;
-
-    // High-Precision Natural Anti-Collision Canvas Leader Line Plugin
-    
-    // Helper function to prepare chart data with optional "DİĞER" (Other) slice
-    function prepareChartData(rawList, topN, labelKey, valueKey, includeOther = false) {
-      if (!rawList || rawList.length === 0) return { labels: [], values: [] };
-      const validList = rawList.filter(item => (Number(item[valueKey]) || 0) > 0);
-      const sorted = [...validList].sort((a, b) => (Number(b[valueKey]) || 0) - (Number(a[valueKey]) || 0));
-      
-      if (sorted.length <= topN || !includeOther) {
-        const list = sorted.slice(0, topN);
-        return {
-          labels: list.map(item => item[labelKey]),
-          values: list.map(item => Number(item[valueKey]))
-        };
-      }
-      
-      const topItems = sorted.slice(0, topN);
-      const otherItems = sorted.slice(topN);
-      const otherTotal = otherItems.reduce((sum, item) => sum + (Number(item[valueKey]) || 0), 0);
-      
-      const labels = topItems.map(item => item[labelKey]);
-      const values = topItems.map(item => Number(item[valueKey]));
-      
-      if (otherTotal > 0) {
-        labels.push('DİĞER');
-        values.push(otherTotal);
-      }
-      return { labels, values };
-    }
-
-    const pieSliceLabelsPlugin = {
-      id: 'pieSliceLabels',
-      afterDraw(chart) {
-        const { ctx } = chart;
-        const type = chart.config.type;
-        if (type !== 'pie' && type !== 'doughnut') return;
-
-        const dataset = chart.data.datasets[0];
-        if (!dataset || !dataset.data) return;
-
-        const meta = chart.getDatasetMeta(0);
-        if (!meta || !meta.data) return;
-
-        const total = dataset.data.reduce((a, b) => a + (Number(b) || 0), 0);
-        if (!total) return;
-
-        const isMobile = window.innerWidth < 480;
-
-        const legend = chart.legend;
-        const hasRightLegend = legend && legend.options.display !== false && legend.options.position === 'right' && !isMobile;
-        const legendBox = hasRightLegend ? {
-          left: legend.left - 10,
-          right: legend.right + 5,
-          top: legend.top - 5,
-          bottom: legend.bottom + 5
-        } : null;
-
-        const items = [];
-
-        meta.data.forEach((element, index) => {
-          const value = Number(dataset.data[index]) || 0;
-          if (value <= 0) return;
-          const pct = (value / total) * 100;
-          if (pct < 1.0) return;
-
-          const label = chart.data.labels[index] || '';
-          const textStr = label + ' (' + pct.toFixed(1) + '%)';
-
-          const props = element.getProps(['startAngle', 'endAngle', 'outerRadius', 'innerRadius', 'x', 'y'], true);
-          const startAngle = props.startAngle;
-          const endAngle = props.endAngle;
-          const midAngle = startAngle + (endAngle - startAngle) / 2;
-
-          const cx = props.x;
-          const cy = props.y;
-          const outerR = props.outerRadius;
-
-          const cosMid = Math.cos(midAngle);
-          const sinMid = Math.sin(midAngle);
-
-          const x1 = cx + cosMid * (outerR * 0.95);
-          const y1 = cy + sinMid * (outerR * 0.95);
-
-          const lineOffset = isMobile ? 12 : 16;
-          const x2 = cx + cosMid * (outerR + lineOffset);
-          const targetY = cy + sinMid * (outerR + lineOffset);
-
-          let isRight = cosMid >= 0;
-
-          if (isRight && legendBox) {
-            const horizMargin = 18;
-            const textX = cx + outerR + horizMargin + 4;
-            if (targetY >= legendBox.top - 12 && targetY <= legendBox.bottom + 12 && textX + 60 >= legendBox.left) {
-              if (targetY < (legendBox.top + legendBox.bottom) / 2 && legendBox.top - 20 > 10) {
-              } else if (legendBox.bottom + 20 < chart.height - 10) {
-              } else {
-                isRight = false;
-              }
+            /* Hide all UI elements except the content card */
+            header,
+            #login-overlay,
+            main > div:not(#tabs-card),
+            .glass-card.p-2.mb-6, /* Search bar wrapper */
+            #tabs-card > div:first-child, /* Tab buttons */
+            #room-grid-view,
+            #connection-status,
+            #last-sync,
+            button,
+            select,
+            i,
+            .no-print {
+                display: none !important;
             }
-          }
+            
+            /* Expand the tables card to print-friendly size */
+            #tabs-card {
+                background: none !important;
+                border: none !important;
+                box-shadow: none !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                overflow: visible !important;
+            }
+            
+            table {
+                color: #000000 !important;
+                border-collapse: collapse !important;
+                width: 100% !important;
+                margin-top: 20px !important;
+                page-break-inside: auto !important;
+            }
+            
+            tr {
+                page-break-inside: avoid !important;
+                page-break-after: auto !important;
+            }
+            
+            th, td {
+                border: 1px solid #94a3b8 !important;
+                padding: 10px 12px !important;
+                color: #000000 !important;
+                font-size: 11px !important;
+            }
+            
+            th {
+                background-color: #f1f5f9 !important;
+                font-weight: bold !important;
+                color: #000000 !important;
+            }
+            
+            /* Force badge styling to print-friendly grayscale or border */
+            .bg-slate-800, .bg-emerald-500\/10, .bg-rose-500\/10, .bg-brand-500\/10, .bg-amber-500\/10 {
+                background: none !important;
+                color: #000000 !important;
+                border: 1px solid #cbd5e1 !important;
+                padding: 2px 4px !important;
+            }
+            
+            /* Specific column formatting for print */
+            td span.font-bold {
+                color: #000000 !important;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased font-sans flex flex-col items-center pb-12 overflow-hidden" id="body">
 
-          items.push({
-            index, textStr, x1, y1, x2, targetY, finalY: targetY, isRight, cx, cy, outerR
-          });
+    <!-- Print Title (Only visible in print/PDF) -->
+    <div id="print-title" class="hidden print:block text-center w-full max-w-7xl mx-auto my-6">
+        <h1 class="text-3xl font-bold text-slate-900">Cook's Club Adaköy</h1>
+        <h2 id="print-subtitle" class="text-xl font-semibold text-slate-700 mt-1">Misafir Listesi</h2>
+    </div>
+
+    <!-- Login Overlay -->
+    <div id="login-overlay" class="no-print">
+        <div class="glass-card p-8 flex flex-col items-center max-w-sm w-full mx-4 fade-in">
+            <div class="w-16 h-16 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-400 text-3xl mb-4 shadow-lg shadow-brand-500/20 border border-brand-500/30">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-white mb-2">Sedna Cloud</h2>
+            <p class="text-slate-400 text-sm mb-6 text-center">Giriş çıkış raporlarına erişmek için lütfen şifreyi giriniz.</p>
+            
+            <input type="password" id="pass-input" placeholder="Şifre" class="w-full bg-slate-800/80 border border-slate-600 text-center text-white rounded-lg px-4 py-3 mb-4 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 text-xl tracking-[0.5em]">
+            
+            <button onclick="checkPass()" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-medium py-3 rounded-lg transition-colors">
+                Giriş Yap
+            </button>
+            <p id="pass-error" class="text-rose-500 text-sm mt-3 hidden">Hatalı şifre, lütfen tekrar deneyin.</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="w-full glass-card rounded-none border-t-0 border-x-0 border-b border-dark-border sticky top-0 z-50 no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded bg-brand-500 flex items-center justify-center text-white font-bold shadow-lg shadow-brand-500/30">
+                    <i class="fa-solid fa-hotel"></i>
+                </div>
+                <h1 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">Sedna Cloud</h1>
+            </div>
+            
+            <div class="flex items-center gap-4 text-sm text-slate-400">
+                <div id="connection-status" class="flex items-center gap-2">
+                    <span class="relative flex h-3 w-3">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+                    </span>
+                    Bağlanıyor...
+                </div>
+                
+                <!-- Aydınlık Mod Butonu -->
+                <button onclick="toggleTheme()" class="p-2 rounded-lg hover:bg-slate-800 transition-colors" title="Karanlık / Aydınlık Mod" id="theme-toggle">
+                    <i class="fa-solid fa-sun text-brand-400" id="theme-icon"></i>
+                </button>
+
+                <button onclick="fetchData()" class="p-2 rounded-lg hover:bg-slate-800 transition-colors" title="Yenile">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
+        
+        <!-- Header Info -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4 no-print">
+            <div>
+                <h2 class="text-3xl font-bold text-white tracking-tight">Günlük Durum</h2>
+                <p id="last-sync" class="text-slate-400 mt-1 flex items-center gap-2">
+                    <i class="fa-regular fa-clock"></i> Son Senkronizasyon: Bekleniyor...
+                </p>
+            </div>
+            <div id="date-dropdown-wrapper" class="relative no-print">
+                <button id="date-dropdown-btn" onclick="toggleDateDropdown(event)" class="glass-card px-3.5 py-2 flex items-center gap-2 text-sm bg-slate-900/80 border border-slate-700/60 rounded-xl shadow-inner text-slate-200 font-medium hover:bg-slate-800 transition-colors">
+                    <i class="fa-solid fa-calendar-day text-brand-400"></i>
+                    <span id="date-dropdown-label">Yükleniyor...</span>
+                    <i class="fa-solid fa-chevron-down text-slate-400 text-xs ml-1 transition-transform duration-200" id="date-dropdown-chevron"></i>
+                </button>
+                <div id="date-dropdown-panel" class="hidden absolute left-0 mt-2 w-64 glass-card bg-slate-900/95 border border-slate-700/80 rounded-xl shadow-2xl z-[100] max-h-64 overflow-y-auto divide-y divide-slate-800 py-1 text-sm backdrop-blur-md">
+                    <!-- Dynamic Date Options -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Cards (Symmetric 4x2 Grid with Fixed Heights) -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 mb-8 no-print">
+            <!-- Arrivals -->
+            <div onclick="switchTab('arrivals')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-emerald-500/10 rounded-full blur-2xl group-hover:bg-emerald-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-emerald-400">Gelecekler (Arrival)</p>
+                            <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
+                                <span id="count-arrivals">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span class="inline-block whitespace-nowrap"><span id="pax-arrivals">0</span> Pax</span>
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-lg border border-emerald-500/20 shrink-0">
+                            <i class="fa-solid fa-plane-arrival"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Giriş Beklenen</span>
+                    <span class="text-emerald-400 font-semibold">Bugün</span>
+                </div>
+            </div>
+            
+            <!-- Departures -->
+            <div onclick="switchTab('departures')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-rose-500/10 rounded-full blur-2xl group-hover:bg-rose-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-rose-400">Gidecekler (Departure)</p>
+                            <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
+                                <span id="count-departures">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span class="inline-block whitespace-nowrap"><span id="pax-departures">0</span> Pax</span>
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-rose-500/20 flex items-center justify-center text-rose-400 text-lg border border-rose-500/20 shrink-0">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Çıkış Beklenen</span>
+                    <span class="text-rose-400 font-semibold">Bugün</span>
+                </div>
+            </div>
+            
+            <!-- In-House -->
+            <div onclick="switchTab('inhouse')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-brand-500/10 rounded-full blur-2xl group-hover:bg-brand-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-brand-400">Konaklayan (In-House)</p>
+                            <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
+                                <span id="count-inhouse">0</span> Oda <span class="text-slate-400 text-sm font-normal">/</span> <span class="inline-block whitespace-nowrap"><span id="pax-inhouse">0</span> Pax</span>
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-brand-500/20 flex items-center justify-center text-brand-400 text-lg border border-brand-500/20 shrink-0">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-300 font-semibold">
+                    <span>Gün Sonu:</span>
+                    <span class="text-purple-400 font-bold"><span id="room-eod">0</span> Oda / <span id="pax-eod">0</span> Pax</span>
+                </div>
+            </div>
+
+            <!-- Boş Odalar (Vacant) -->
+            <div onclick="switchTab('vacant')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-teal-500/10 rounded-full blur-2xl group-hover:bg-teal-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-teal-400">Boş Odalar (Vacant)</p>
+                            <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
+                                <span id="count-vacant">0</span> Oda
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-teal-500/20 flex items-center justify-center text-teal-400 text-lg border border-teal-500/20 shrink-0">
+                            <i class="fa-solid fa-door-open"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Müsait Oda</span>
+                    <span class="text-teal-400 font-semibold">Satışa Hazır</span>
+                </div>
+            </div>
+
+            <!-- Değiştirilen Odalar (Room Changes) -->
+            <div onclick="switchTab('roomchanges')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-indigo-500/10 rounded-full blur-2xl group-hover:bg-indigo-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-indigo-400">Oda Değişimi (Changes)</p>
+                            <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
+                                <span id="count-roomchanges">0</span> Kayıt
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-indigo-500/20 flex items-center justify-center text-indigo-400 text-lg border border-indigo-500/20 shrink-0">
+                            <i class="fa-solid fa-right-left"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Oda Değişimleri</span>
+                    <span class="text-indigo-400 font-semibold">Günlük</span>
+                </div>
+            </div>
+
+            <!-- No-Show -->
+            <div onclick="switchTab('noshow')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-amber-500/10 rounded-full blur-2xl group-hover:bg-amber-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-amber-400">No-Show Misafir</p>
+                            <h3 class="text-lg sm:text-xl font-bold text-white mt-1">
+                                <span id="count-noshow">0</span> Oda
+                            </h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/20 flex items-center justify-center text-amber-400 text-lg border border-amber-500/20 shrink-0">
+                            <i class="fa-solid fa-user-slash"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Gelmeyen Misafir</span>
+                    <span class="text-amber-400 font-semibold">İptal / Gelmedi</span>
+                </div>
+            </div>
+
+            <!-- Oda Planı (Grid) -->
+            <div onclick="switchTab('roomgrid')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-purple-500/10 rounded-full blur-2xl group-hover:bg-purple-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-purple-400">Oda Planı (Matris)</p>
+                            <h3 id="count-rooms-map" class="text-lg sm:text-xl font-bold text-white mt-1 tracking-tight">0 / 0</h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-purple-500/20 flex items-center justify-center text-purple-400 text-lg border border-purple-500/20 shrink-0">
+                            <i class="fa-solid fa-table-cells"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Dolu / Toplam Oda</span>
+                    <span class="text-purple-400 font-semibold">Oda Durumu</span>
+                </div>
+            </div>
+
+            <!-- Folio Extra Balance -->
+            <div onclick="switchTab('inhouse')" class="glass-card p-4 h-[145px] relative overflow-hidden group cursor-pointer hover:bg-slate-800/80 transition-all flex flex-col justify-between">
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-sky-500/10 rounded-full blur-2xl group-hover:bg-sky-500/20 transition-all duration-500"></div>
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="text-xs sm:text-sm font-medium text-sky-400">Ekstra Bakiye (Folio)</p>
+                            <h3 id="count-balance" class="text-lg sm:text-xl font-bold text-white mt-1 tracking-tight">0 ₺</h3>
+                        </div>
+                        <div class="w-10 h-10 rounded-xl bg-sky-500/20 flex items-center justify-center text-sky-400 text-lg border border-sky-500/20 shrink-0">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-400">
+                    <span>Toplam Ekstra</span>
+                    <span class="text-sky-400 font-semibold">Folio Bakiyesi</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Search, Filter & PDF Print Button (no-print) -->
+        <div class="glass-card p-2 mb-6 flex flex-col sm:flex-row gap-2 no-print">
+            <div class="relative flex-1">
+                <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+                <input type="text" id="searchInput" placeholder="İsim, Voucher veya Oda No ile ara..." 
+                    class="w-full bg-slate-800/50 border border-slate-700 text-white rounded-lg pl-11 pr-4 py-3 focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500 transition-all">
+            </div>
+            
+            <!-- PDF Kaydet/Yazdır Butonu -->
+            <button onclick="printPDF()" class="bg-brand-500 hover:bg-brand-600 text-white font-medium px-5 py-3 rounded-lg flex items-center justify-center gap-2 transition-colors shadow-lg shadow-brand-500/20">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>PDF Olarak Kaydet</span>
+            </button>
+        </div>
+
+        <!-- Tabs -->
+        <div id="tabs-card" class="glass-card overflow-hidden">
+            <div class="flex border-b border-dark-border overflow-x-auto">
+                <button onclick="switchTab('arrivals')" id="tab-arrivals" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors tab-active flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                    Gelecekler (Arrivals)
+                </button>
+                <button onclick="switchTab('departures')" id="tab-departures" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                    Gidecekler (Departures)
+                </button>
+                <button onclick="switchTab('inhouse')" id="tab-inhouse" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-brand-500"></span>
+                    Konaklayanlar (In-House)
+                </button>
+                <button onclick="switchTab('vacant')" id="tab-vacant" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-teal-400"></span>
+                    Boş Odalar
+                </button>
+                <button onclick="switchTab('roomchanges')" id="tab-roomchanges" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-indigo-400"></span>
+                    Değiştirilen Odalar
+                </button>
+                <button onclick="switchTab('noshow')" id="tab-noshow" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+                    No-Show
+                </button>
+                <button onclick="switchTab('roomgrid')" id="tab-roomgrid" class="flex-1 py-4 px-5 text-sm font-medium text-slate-300 hover:text-white transition-colors flex items-center justify-center gap-2 whitespace-nowrap">
+                    <span class="w-2 h-2 rounded-full bg-purple-500"></span>
+                    Oda Planı (Grid)
+                </button>
+            </div>
+            
+            <!-- Table Container -->
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-300">
+                    <thead class="bg-slate-800/50 text-slate-400 text-xs uppercase border-b border-dark-border">
+                        <tr>
+                            <th scope="col" class="px-6 py-4 font-medium">Oda</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Misafir</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Voucher / Acente</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Giriş / Çıkış</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Tip / Pans.</th>
+                            <th scope="col" class="px-6 py-4 font-medium">Bakiye (Borç)</th>
+                            <th scope="col" class="px-6 py-4 font-medium text-center">Kişi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body" class="divide-y divide-dark-border">
+                        <!-- Rows will be injected here -->
+                    </tbody>
+                </table>
+                <div id="empty-state" class="hidden flex flex-col items-center justify-center py-12 text-slate-500">
+                    <i class="fa-solid fa-folder-open text-4xl mb-3 opacity-50"></i>
+                    <p>Gösterilecek kayıt bulunamadı.</p>
+                </div>
+            </div>
+            
+            <!-- Room Grid View -->
+            <div id="room-grid-view" class="hidden p-6">
+                <!-- Agency stats breakdown widget -->
+                <div class="mb-8 bg-slate-900/40 border border-slate-800 rounded-2xl p-6">
+                    <h4 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <i class="fa-solid fa-chart-simple text-purple-400"></i> Acente Dağılım Analizi (Konaklayanlar)
+                    </h4>
+                    <div id="agency-breakdown" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+                
+                <!-- Grid of rooms -->
+                <div class="mb-4 flex items-center justify-between">
+                    <h4 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-hotel text-brand-400"></i> Oda Durum Matrisi
+                    </h4>
+                    <!-- Legend -->
+                    <div class="flex flex-wrap gap-4 text-xs">
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-brand-500/10 border border-brand-500/35"></span> Dolu</div>
+                        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-slate-800/25 border border-slate-700/40"></span> Boş</div>
+                        <div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]"></span> Temiz</div>
+                        <div class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]"></span> Kirli</div>
+                    </div>
+                </div>
+                <div id="room-grid" class="grid grid-cols-3 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-11 gap-3">
+                    <!-- Cards populated by JS -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Room Details Modal -->
+        <div id="room-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm z-[9999] hidden flex items-center justify-center p-4" onclick="if(event.target === this) closeRoomModal()">
+            <div class="glass-card max-w-md w-full p-6 relative overflow-hidden fade-in border border-slate-700/50 shadow-2xl">
+                <button onclick="closeRoomModal()" class="absolute right-4 top-4 text-slate-400 hover:text-white transition-colors text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div id="modal-content">
+                    <!-- Dynamically injected content -->
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <script>
+        const FIREBASE_URL = "https://adakoy-default-rtdb.firebaseio.com/daily_snapshot.json";
+        let appData = null;
+        let currentTab = 'arrivals';
+        let searchQuery = '';
+
+        function checkPass() {
+            const val = document.getElementById('pass-input').value;
+            if(val === "1234") {
+                document.getElementById('login-overlay').style.display = 'none';
+                document.getElementById('body').classList.remove('overflow-hidden');
+                fetchData();
+            } else {
+                document.getElementById('pass-error').classList.remove('hidden');
+                document.getElementById('pass-input').value = '';
+            }
+        }
+        
+        // Allow pressing Enter to login
+        document.getElementById('pass-input').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') checkPass();
         });
 
-        if (items.length === 0) return;
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            searchQuery = e.target.value.toLowerCase();
+            renderTable();
+        });
 
-        const processSide = (sideItems) => {
-          if (sideItems.length === 0) return;
-          sideItems.sort((a, b) => a.targetY - b.targetY);
-
-          const minGap = isMobile ? 13 : 16;
-          for (let i = 1; i < sideItems.length; i++) {
-            if (sideItems[i].finalY < sideItems[i - 1].finalY + minGap) {
-              sideItems[i].finalY = sideItems[i - 1].finalY + minGap;
+                // Format ISO/YYYY-MM-DD date to Turkish DD.MM.YYYY format
+        function formatDateTr(dateStr) {
+            if (!dateStr || dateStr === '-' || dateStr === 'Belirtilmedi') return dateStr || '-';
+            const s = String(dateStr).trim();
+            const match = s.match(/^(\d{4})[-/](\d{2})[-/](\d{2})/);
+            if (match) {
+                return `${match[3]}.${match[2]}.${match[1]}`;
             }
-          }
-          for (let i = sideItems.length - 2; i >= 0; i--) {
-            if (sideItems[i].finalY > sideItems[i + 1].finalY - minGap) {
-              sideItems[i].finalY = sideItems[i + 1].finalY - minGap;
-            }
-          }
+            return dateStr;
+        }
 
-          if (legendBox) {
-            sideItems.forEach(item => {
-              if (item.isRight && item.finalY >= legendBox.top - 8 && item.finalY <= legendBox.bottom + 8) {
-                if (item.targetY < (legendBox.top + legendBox.bottom) / 2) {
-                  item.finalY = legendBox.top - 12;
+        // Turkish character normalization helper
+        function trNormalize(str) {
+            if (!str) return '';
+            return str
+                .replace(/İ/g, 'i')
+                .replace(/I/g, 'i')
+                .replace(/ı/g, 'i')
+                .replace(/Ş/g, 's')
+                .replace(/ş/g, 's')
+                .replace(/Ğ/g, 'g')
+                .replace(/ğ/g, 'g')
+                .replace(/Ü/g, 'u')
+                .replace(/ü/g, 'u')
+                .replace(/Ö/g, 'o')
+                .replace(/ö/g, 'o')
+                .replace(/Ç/g, 'c')
+                .replace(/ç/g, 'c')
+                .toLowerCase();
+        }
+
+        async function fetchData() {
+            const statusEl = document.getElementById('connection-status');
+            statusEl.innerHTML = `
+                <span class="relative flex h-3 w-3">
+                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                  <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+                </span>
+                Senkronize ediliyor...
+            `;
+            statusEl.className = "flex items-center gap-2 text-amber-400";
+
+            try {
+                // Add timestamp parameter to prevent browser caching
+                const res = await fetch(`${FIREBASE_URL}?t=${new Date().getTime()}`);
+                if (!res.ok) throw new Error("Ağ hatası!");
+                const data = await res.json();
+                
+                if (data) {
+                    appData = data;
+                    // Cache data in localStorage for offline availability
+                    try {
+                        localStorage.setItem('sedna_cloud_snapshot', JSON.stringify(data));
+                    } catch (e) {
+                        console.warn("localStorage quota exceeded, could not cache snapshot", e);
+                    }
+                    updateDashboard();
+                    statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span> Çevrimiçi`;
+                    statusEl.className = "flex items-center gap-2 text-emerald-400";
                 } else {
-                  item.finalY = legendBox.bottom + 12;
+                    throw new Error("Veri boş!");
                 }
-              }
+            } catch (err) {
+                console.error(err);
+                // Attempt fallback to cached offline data
+                const cachedData = localStorage.getItem('sedna_cloud_snapshot');
+                if (cachedData) {
+                    try {
+                        appData = JSON.parse(cachedData);
+                        updateDashboard();
+                        statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.8)]"></span> Çevrimdışı (Önbellekten Yüklendi)`;
+                        statusEl.className = "flex items-center gap-2 text-amber-400";
+                        return;
+                    } catch (parseErr) {
+                        console.error("Cache parse error", parseErr);
+                    }
+                }
+                statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.8)]"></span> Çevrimdışı (Hata)`;
+                statusEl.className = "flex items-center gap-2 text-rose-400";
+            }
+        }
+
+        let selectedDate = '';
+
+                function toggleDateDropdown(e) {
+            if (e) e.stopPropagation();
+            const panel = document.getElementById('date-dropdown-panel');
+            const chevron = document.getElementById('date-dropdown-chevron');
+            if (!panel) return;
+            const isHidden = panel.classList.contains('hidden');
+            if (isHidden) {
+                panel.classList.remove('hidden');
+                if (chevron) chevron.style.transform = 'rotate(180deg)';
+            } else {
+                panel.classList.add('hidden');
+                if (chevron) chevron.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        function closeDateDropdown() {
+            const panel = document.getElementById('date-dropdown-panel');
+            const chevron = document.getElementById('date-dropdown-chevron');
+            if (panel) panel.classList.add('hidden');
+            if (chevron) chevron.style.transform = 'rotate(0deg)';
+        }
+
+        document.addEventListener('click', function(e) {
+            const wrapper = document.getElementById('date-dropdown-wrapper');
+            if (wrapper && !wrapper.contains(e.target)) {
+                closeDateDropdown();
+            }
+        });
+
+        function handleDateChange(date) {
+            selectedDate = date;
+            updateDashboard();
+        }
+
+        function getDayNameTr(dateStr) {
+            const date = new Date(dateStr);
+            const days = ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'];
+            return days[date.getDay()];
+        }
+
+        function updateDashboard() {
+            if (!appData) return;
+            
+            document.getElementById('last-sync').innerHTML = `<i class="fa-regular fa-clock"></i> Son Senk: <span class="text-white font-medium">${appData.sync_time}</span>`;
+            
+            // Populate custom date dropdown panel
+            const dropdownPanel = document.getElementById('date-dropdown-panel');
+            const dropdownLabel = document.getElementById('date-dropdown-label');
+            
+            if (appData.by_date) {
+                if (!selectedDate) {
+                    selectedDate = appData.report_date;
+                }
+                
+                if (dropdownPanel) {
+                    dropdownPanel.innerHTML = '';
+                    const sortedDates = Object.keys(appData.by_date).sort();
+                    sortedDates.forEach(dStr => {
+                        let suffix = '';
+                        if (dStr === appData.report_date) {
+                            suffix = ' (Bugün)';
+                        } else {
+                            suffix = ` (${getDayNameTr(dStr)})`;
+                        }
+                        const labelText = formatDateTr(dStr) + suffix;
+                        const isSelected = (dStr === selectedDate);
+                        
+                        if (isSelected && dropdownLabel) {
+                            dropdownLabel.innerText = labelText;
+                        }
+                        
+                        const item = document.createElement('div');
+                        item.className = `px-3.5 py-2.5 cursor-pointer flex items-center justify-between transition-colors ${
+                            isSelected 
+                                ? 'bg-brand-500/20 text-brand-400 font-bold' 
+                                : 'hover:bg-slate-800 text-slate-200 hover:text-white font-medium'
+                        }`;
+                        item.innerHTML = `
+                            <span>${labelText}</span>
+                            ${isSelected ? '<i class="fa-solid fa-check text-xs text-brand-400"></i>' : ''}
+                        `;
+                        item.onclick = function() {
+                            selectedDate = dStr;
+                            closeDateDropdown();
+                            updateDashboard();
+                        };
+                        dropdownPanel.appendChild(item);
+                    });
+                }
+            } else if (dropdownLabel) {
+                dropdownLabel.innerText = formatDateTr(appData.report_date) || appData.report_date;
+            }
+            
+            // Set counts based on selected date
+            let inhouseList = [];
+            let arrivalsList = [];
+            let departuresList = [];
+            let noshowList = [];
+            let vacantList = [];
+            let roomchangesList = [];
+            if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
+                const dayData = appData.by_date[selectedDate];
+                const daySummary = dayData.summary || {};
+
+                inhouseList = dayData.inhouse || (appData.data ? appData.data.inhouse : []) || [];
+                arrivalsList = dayData.arrivals || (appData.data ? appData.data.arrivals : []) || [];
+                departuresList = dayData.departures || (appData.data ? appData.data.departures : []) || [];
+                noshowList = dayData.noshow || (appData.data ? appData.data.noshow : []) || [];
+                vacantList = dayData.vacant || (appData.data ? appData.data.vacant : []) || [];
+                roomchangesList = dayData.roomchanges || (appData.data ? appData.data.roomchanges : []) || [];
+
+                document.getElementById('count-arrivals').innerText = daySummary.arrivals_count !== undefined ? daySummary.arrivals_count : arrivalsList.length;
+                document.getElementById('count-departures').innerText = daySummary.departures_count !== undefined ? daySummary.departures_count : departuresList.length;
+                document.getElementById('count-inhouse').innerText = daySummary.inhouse_count !== undefined ? daySummary.inhouse_count : inhouseList.length;
+                document.getElementById('count-noshow').innerText = daySummary.noshow_count !== undefined ? daySummary.noshow_count : noshowList.length;
+                
+                let vacCount = daySummary.vacant_count;
+                if (vacCount === undefined || vacCount === null) {
+                    vacCount = (appData.summary && appData.summary.vacant_count !== undefined) ? appData.summary.vacant_count : vacantList.length;
+                }
+                
+                let rcCount = daySummary.roomchanges_count;
+                if (rcCount === undefined || rcCount === null) {
+                    rcCount = (appData.summary && appData.summary.roomchanges_count !== undefined) ? appData.summary.roomchanges_count : roomchangesList.length;
+                }
+                
+                document.getElementById('count-vacant').innerText = vacCount !== undefined && vacCount !== null ? vacCount : 0;
+                document.getElementById('count-roomchanges').innerText = rcCount !== undefined && rcCount !== null ? rcCount : 0;
+            } else {
+                inhouseList = (appData.data && appData.data.inhouse) ? appData.data.inhouse : [];
+                arrivalsList = (appData.data && appData.data.arrivals) ? appData.data.arrivals : [];
+                departuresList = (appData.data && appData.data.departures) ? appData.data.departures : [];
+                noshowList = (appData.data && appData.data.noshow) ? appData.data.noshow : [];
+                vacantList = (appData.data && appData.data.vacant) ? appData.data.vacant : [];
+                roomchangesList = (appData.data && appData.data.roomchanges) ? appData.data.roomchanges : [];
+
+                document.getElementById('count-arrivals').innerText = (appData.summary && appData.summary.arrivals_count !== undefined) ? appData.summary.arrivals_count : arrivalsList.length;
+                document.getElementById('count-departures').innerText = (appData.summary && appData.summary.departures_count !== undefined) ? appData.summary.departures_count : departuresList.length;
+                document.getElementById('count-inhouse').innerText = (appData.summary && appData.summary.inhouse_count !== undefined) ? appData.summary.inhouse_count : inhouseList.length;
+                document.getElementById('count-noshow').innerText = (appData.summary && appData.summary.noshow_count !== undefined) ? appData.summary.noshow_count : noshowList.length;
+                
+                let vacCount = (appData.summary && appData.summary.vacant_count !== undefined) ? appData.summary.vacant_count : vacantList.length;
+                let rcCount = (appData.summary && appData.summary.roomchanges_count !== undefined) ? appData.summary.roomchanges_count : roomchangesList.length;
+
+                document.getElementById('count-vacant').innerText = vacCount !== undefined && vacCount !== null ? vacCount : 0;
+                document.getElementById('count-roomchanges').innerText = rcCount !== undefined && rcCount !== null ? rcCount : 0;
+            }
+            
+            // Calculate Pax & Childs counts
+            let arrivalsPax = 0;
+            let arrivalsChilds = 0;
+            arrivalsList.forEach(r => {
+                arrivalsPax += (parseInt(r.Pax) || 0);
+                arrivalsChilds += (parseInt(r.Childs) || 0);
             });
-          }
-        };
 
-        processSide(items.filter(item => item.isRight));
-        processSide(items.filter(item => !item.isRight));
-
-        ctx.save();
-
-        items.forEach(item => {
-          const { x1, y1, x2, finalY, isRight, cx, outerR, textStr } = item;
-          const horizMargin = isMobile ? 12 : 18;
-          const x3 = isRight ? (cx + outerR + horizMargin) : (cx - outerR - horizMargin);
-
-          ctx.beginPath();
-          ctx.moveTo(x1, y1);
-          ctx.lineTo(x2, finalY);
-          ctx.lineTo(x3, finalY);
-          ctx.strokeStyle = 'rgba(200, 210, 225, 0.45)';
-          ctx.lineWidth = 1;
-          ctx.stroke();
-
-          ctx.beginPath();
-          ctx.arc(x1, y1, 2, 0, 2 * Math.PI);
-          ctx.fillStyle = 'rgba(200, 210, 225, 0.6)';
-          ctx.fill();
-
-          const fontSize = isMobile ? 9 : 10.5;
-          ctx.font = '400 ' + fontSize + 'px "Plus Jakarta Sans", -apple-system, sans-serif';
-          ctx.fillStyle = '#cbd5e1';
-          ctx.textAlign = isRight ? 'left' : 'right';
-          ctx.textBaseline = 'middle';
-
-          const textX = x3 + (isRight ? 4 : -4);
-          ctx.fillText(textStr, textX, finalY);
-        });
-
-        ctx.restore();
-      }
-    };
-
-    Chart.register(pieSliceLabelsPlugin);
-    let chartUsers = null;
-    let chartRoomTypes = null;
-    let chartMarkets = null;
-    let chartAgencies = null;
-
-    const themeColors = [
-      '#25b5c5', '#d4af37', '#3fd68a', '#8b5cf6', '#f43f5e',
-      '#3b82f6', '#f59e0b', '#10b981', '#ec4899', '#6366f1'
-    ];
-
-    function toggleMobileMenu() {
-      const menu = document.getElementById('mobile-custom-menu');
-      const trigger = document.getElementById('mobile-menu-trigger');
-      menu.classList.toggle('show');
-      trigger.classList.toggle('open');
-    }
-
-    function selectMobileTab(viewName, titleText) {
-      document.getElementById('mobile-active-title').textContent = titleText;
-      document.querySelectorAll('.mobile-menu-item').forEach(item => item.classList.remove('active'));
-      
-      const activeItem = document.querySelector(`.mobile-menu-item[onclick*="'${viewName}'"]`);
-      if (activeItem) activeItem.classList.add('active');
-
-      // Close mobile menu dropdown
-      document.getElementById('mobile-custom-menu').classList.remove('show');
-      document.getElementById('mobile-menu-trigger').classList.remove('open');
-
-      // Switch view
-      switchView(viewName);
-    }
-
-    function switchView(viewName) {
-      document.querySelectorAll('.view-pane').forEach(p => p.classList.remove('active'));
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-
-      const pane = document.getElementById(`view-${viewName}`);
-      if (pane) pane.classList.add('active');
-
-      const btn = document.querySelector(`.tab-btn[data-view="${viewName} "]`);
-      if (btn) btn.classList.add('active');
-
-      if (viewName === 'seasonal') {
-        const act = getActiveData();
-        if (act && act.seasonal) {
-          renderSeasonalComparison(act.seasonal);
-        }
-      }
-
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-      btn.addEventListener('click', () => switchView(btn.getAttribute('data-view')));
-    });
-
-    // Theme Toggle Logic with Pure Circular SVG Icons
-    const btnTheme = document.getElementById('btn-theme');
-    const themeIcon = document.getElementById('theme-icon');
-    let isLight = localStorage.getItem('theme_light') === 'true';
-
-    function updateThemeUI() {
-      if (isLight) {
-        document.body.classList.add('light-mode');
-        themeIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />`;
-      } else {
-        document.body.classList.remove('light-mode');
-        themeIcon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />`;
-      }
-    }
-
-    let isNoShowExcluded = false;
-
-    function getActiveData() {
-      if (!appData) return null;
-      return (isNoShowExcluded && appData.noshow_excluded) ? appData.noshow_excluded : (appData.normal || appData);
-    }
-
-    function toggleNoShow() {
-      isNoShowExcluded = !isNoShowExcluded;
-      const btn = document.getElementById('btn-noshow');
-      if (btn) {
-        if (isNoShowExcluded) {
-          btn.classList.add('active-noshow');
-          btn.innerHTML = `<span class="noshow-icon">🚫</span><span class="noshow-text">No-Show Düşüldü</span>`;
-          btn.title = "No-Show Rezervasyonları Düşüldü (Normale Dönmek İçin Tıklayın)";
-        } else {
-          btn.classList.remove('active-noshow');
-          btn.innerHTML = `<span class="noshow-icon">🚫</span><span class="noshow-text">No-Show Düş</span>`;
-          btn.title = "No-Show Rezervasyonları Düş (Düşülmüş Göster)";
-        }
-      }
-      if (appData) {
-        renderDashboard(appData);
-      }
-    }
-
-    updateThemeUI();
-
-    btnTheme.addEventListener('click', () => {
-      isLight = !isLight;
-      localStorage.setItem('theme_light', isLight);
-      updateThemeUI();
-      if (appData) renderCharts(getActiveData());
-    });
-
-    document.getElementById('btn-refresh').addEventListener('click', () => loadData(true));
-
-    async function loadData(force = false) {
-      try {
-        const url = force ? '/api/data?force=true' : '/api/data';
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        appData = await res.json();
-        renderDashboard(appData);
-      } catch (err) {
-        console.error("Data fetch error:", err);
-        document.getElementById('sync-time-text').textContent = "Hata: Sunucu Bağlantı Hatası!";
-      }
-    }
-
-    function renderDashboard(rawPayload) {
-      if (!rawPayload) return;
-      appData = rawPayload;
-
-      const data = getActiveData();
-      if (!data) return;
-
-      const syncTime = rawPayload.sync_time || data.sync_time || '-';
-      document.getElementById('sync-time-text').textContent = `Son Güncelleme: ${syncTime}${isNoShowExcluded ? ' (No-Show Düşülmüş)' : ''}`;
-
-      // 1. KPIs
-      const k = data.kpis || {};
-      document.getElementById('val-total-rez').textContent = (k.TotalRez || 0).toLocaleString('tr-TR');
-      document.getElementById('val-total-nights').textContent = (k.TotalRoomNights || 0).toLocaleString('tr-TR');
-      document.getElementById('val-avg-stay').textContent = (k.AvgStayNights || 0).toFixed(1) + ' Gece';
-      document.getElementById('val-avg-lead').textContent = (k.AvgLeadTime || 0).toFixed(0) + ' Gün';
-
-      // User Color Map aligned with Pie Chart Palette
-      const userColorMap = {};
-      const uList = data.users || [];
-      uList.forEach((u, i) => {
-        const color = themeColors[i % themeColors.length];
-        userColorMap[u.Username] = color;
-        userColorMap[u.Username.toLowerCase()] = color;
-        userColorMap[u.Username.toUpperCase()] = color;
-      });
-
-      let extraColorIdx = uList.length;
-      const dUsers = data.daily_entered_users || [];
-      dUsers.forEach(uName => {
-        if (!userColorMap[uName]) {
-          const color = themeColors[extraColorIdx % themeColors.length];
-          userColorMap[uName] = color;
-          userColorMap[uName.toLowerCase()] = color;
-          userColorMap[uName.toUpperCase()] = color;
-          extraColorIdx++;
-        }
-      });
-
-      const totRez = k.TotalRez || 0;
-      const totNights = k.TotalRoomNights || 0;
-
-      // 2. Users Table (COLOR-CODED + ANIMATED PROGRESS BARS + DİĞER ROW + TOPLAM ROW)
-      const allUsers = data.users || [];
-      document.getElementById('badge-users').textContent = `${allUsers.length} Kişi`;
-      
-      const topUsers = allUsers.slice(0, 6);
-      const otherUsers = allUsers.slice(6);
-      
-      let uHtml = topUsers.map((u, i) => {
-        const color = themeColors[i % themeColors.length];
-        return `
-        <tr>
-          <td style="text-align: left; padding-left: 8px;"><span style="color:${color}; font-weight:500;">${u.Username}</span></td>
-          <td class="num-col">${u.RezCount}</td>
-          <td class="num-col">${u.RoomNights}</td>
-          <td class="num-col">
-            <span>%${u.Percentage}</span>
-            <div class="bar-bg"><div class="bar-fill user-bar-fill" data-pct="${u.Percentage}" style="width: 0%; background: ${color};"></div></div>
-          </td>
-        </tr>
-      `}).join('');
-
-      if (otherUsers.length > 0) {
-        const othRez = otherUsers.reduce((sum, u) => sum + (u.RezCount || 0), 0);
-        const othNights = otherUsers.reduce((sum, u) => sum + (u.RoomNights || 0), 0);
-        const othPct = totRez > 0 ? (othRez / totRez * 100).toFixed(2) : '0.00';
-        const othColor = themeColors[6 % themeColors.length];
-
-        uHtml += `
-        <tr>
-          <td style="text-align: left; padding-left: 8px;"><span style="color:${othColor}; font-weight:500;">DİĞER (${otherUsers.length} Kişi)</span></td>
-          <td class="num-col">${othRez}</td>
-          <td class="num-col">${othNights}</td>
-          <td class="num-col">
-            <span>%${othPct}</span>
-            <div class="bar-bg"><div class="bar-fill user-bar-fill" data-pct="${othPct}" style="width: 0%; background: ${othColor};"></div></div>
-          </td>
-        </tr>
-        `;
-      }
-
-      if (allUsers.length > 0) {
-        uHtml += `
-        <tr class="total-row">
-          <td style="text-align: left; padding-left: 8px;">TOPLAM</td>
-          <td class="num-col">${totRez.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totNights.toLocaleString('tr-TR')}</td>
-          <td class="num-col">%100.0</td>
-        </tr>
-        `;
-      } else {
-        uHtml = '<tr><td colspan="4">Veri yok.</td></tr>';
-      }
-      document.getElementById('tbl-users').innerHTML = uHtml;
-
-      // Trigger animated progress bar fill from 0% to target percentage
-      setTimeout(() => {
-        document.querySelectorAll('#tbl-users .user-bar-fill').forEach(bar => {
-          bar.style.width = `${bar.dataset.pct}%`;
-        });
-      }, 60);
-
-      // 3. Room Types Table (+ ANIMATED BARS + TOPLAM ROW)
-      const rList = data.room_types || [];
-      let rHtml = rList.map((r, i) => {
-        const color = themeColors[i % themeColors.length];
-        return `
-        <tr>
-          <td>${r.RoomType}</td>
-          <td class="num-col">${r.RezCount}</td>
-          <td class="num-col">${r.RoomNights}</td>
-          <td class="num-col">
-            <span>%${r.Percentage}</span>
-            <div class="bar-bg"><div class="bar-fill anim-bar-fill" data-pct="${r.Percentage}" style="width: 0%; background: ${color};"></div></div>
-          </td>
-        </tr>
-      `}).join('');
-
-      if (rList.length > 0) {
-        rHtml += `
-        <tr class="total-row">
-          <td>TOPLAM</td>
-          <td class="num-col">${totRez.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totNights.toLocaleString('tr-TR')}</td>
-          <td class="num-col">%100.0</td>
-        </tr>
-        `;
-      } else {
-        rHtml = '<tr><td colspan="4">Veri yok.</td></tr>';
-      }
-      document.getElementById('tbl-roomtypes').innerHTML = rHtml;
-
-      // 4. Board & Continuity Table (+ ANIMATED BARS + TOPLAM ROW)
-      const bList = data.boards || [];
-      let bHtml = bList.map((b, i) => {
-        const color = themeColors[i % themeColors.length];
-        return `
-        <tr>
-          <td>${b.Board}</td>
-          <td class="num-col">${b.RezCount}</td>
-          <td class="num-col">${b.RoomNights}</td>
-          <td class="num-col">
-            <span>%${b.Percentage}</span>
-            <div class="bar-bg"><div class="bar-fill anim-bar-fill" data-pct="${b.Percentage}" style="width: 0%; background: ${color};"></div></div>
-          </td>
-        </tr>
-      `}).join('');
-
-      if (bList.length > 0) {
-        bHtml += `
-        <tr class="total-row">
-          <td>TOPLAM</td>
-          <td class="num-col">${totRez.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totNights.toLocaleString('tr-TR')}</td>
-          <td class="num-col">%100.0</td>
-        </tr>
-        `;
-      } else {
-        bHtml = '<tr><td colspan="4">Veri yok.</td></tr>';
-      }
-      document.getElementById('tbl-board').innerHTML = bHtml;
-
-      const gcList = data.guest_continuity || [];
-      let gcHtml = gcList.map((g, i) => {
-        const color = themeColors[i % themeColors.length];
-        return `
-        <tr>
-          <td>${g.GuestType === 'Repeat' ? 'Tekrar Gelen (Repeat)' : 'İlk Kez Gelen (First)'}</td>
-          <td class="num-col">${g.RezCount}</td>
-          <td class="num-col">
-            <span>%${g.Percentage}</span>
-            <div class="bar-bg"><div class="bar-fill anim-bar-fill" data-pct="${g.Percentage}" style="width: 0%; background: ${color};"></div></div>
-          </td>
-        </tr>
-      `}).join('');
-
-      if (gcList.length > 0) {
-        gcHtml += `
-        <tr class="total-row">
-          <td>TOPLAM</td>
-          <td class="num-col">${totRez.toLocaleString('tr-TR')}</td>
-          <td class="num-col">%100.0</td>
-        </tr>
-        `;
-      }
-      document.getElementById('tbl-continuity').innerHTML = gcHtml;
-
-      // 5. Markets Table (+ ANIMATED BARS + TOPLAM ROW)
-      const mList = data.markets || [];
-      let mHtml = mList.map((m, i) => {
-        const color = themeColors[i % themeColors.length];
-        return `
-        <tr>
-          <td>${m.Market}</td>
-          <td class="num-col">${m.RezCount}</td>
-          <td class="num-col">
-            <span>%${m.Percentage}</span>
-            <div class="bar-bg"><div class="bar-fill anim-bar-fill" data-pct="${m.Percentage}" style="width: 0%; background: ${color};"></div></div>
-          </td>
-        </tr>
-      `}).join('');
-
-      if (mList.length > 0) {
-        mHtml += `
-        <tr class="total-row">
-          <td>TOPLAM</td>
-          <td class="num-col">${totRez.toLocaleString('tr-TR')}</td>
-          <td class="num-col">%100.0</td>
-        </tr>
-        `;
-      } else {
-        mHtml = '<tr><td colspan="3">Veri yok.</td></tr>';
-      }
-      document.getElementById('tbl-markets').innerHTML = mHtml;
-
-      // 6. Agencies Table (EXCEL LOGIC ALIGNMENT + ANIMATED BARS)
-      const aList = data.agencies || [];
-      document.getElementById('badge-agencies').textContent = `${aList.length} Acenta`;
-      
-      const totAgencyPax = aList.reduce((acc, a) => acc + (a.TotalPax || 0), 0);
-      const avgAgencyPax = totRez > 0 ? (totAgencyPax / totRez).toFixed(2) : '0.00';
-
-      let aHtml = aList.map((a, i) => {
-        const color = themeColors[i % themeColors.length];
-        const pctVal = (a.Percentage || 0).toFixed(2);
-        return `
-        <tr>
-          <td style="text-align: left; padding-left: 8px;">${a.AgencyName}</td>
-          <td class="num-col">${a.RezCount}</td>
-          <td class="num-col">${(a.TotalPax || 0).toLocaleString('tr-TR')}</td>
-          <td class="num-col">${(a.AvgPax || 0).toFixed(2)}</td>
-          <td class="num-col">
-            <span>%${pctVal}</span>
-            <div class="bar-bg"><div class="bar-fill anim-bar-fill" data-pct="${pctVal}" style="width: 0%; background: ${color};"></div></div>
-          </td>
-        </tr>
-      `}).join('');
-
-      if (aList.length > 0) {
-        aHtml += `
-        <tr class="total-row">
-          <td style="text-align: left; padding-left: 8px;">Toplam</td>
-          <td class="num-col">${totRez.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totAgencyPax.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${avgAgencyPax}</td>
-          <td class="num-col">%100.00</td>
-        </tr>
-        `;
-      } else {
-        aHtml = '<tr><td colspan="5">Veri yok.</td></tr>';
-      }
-      document.getElementById('tbl-agencies').innerHTML = aHtml;
-
-      // Trigger animated progress bar fill from 0% to target percentage across ALL tables
-      setTimeout(() => {
-        document.querySelectorAll('.anim-bar-fill, #tbl-users .user-bar-fill').forEach(bar => {
-          bar.style.width = `${bar.dataset.pct}%`;
-        });
-      }, 60);
-
-      // 7. Daily Matrix Table (COLOR-CODED USER HEADERS)
-      const dMatrix = data.daily_entered || [];
-      document.getElementById('badge-daily-days').textContent = `${dMatrix.length} Gün`;
-      
-      let ths = `<tr><th>Tarih</th>`;
-      dUsers.forEach(u => { 
-        const uColor = userColorMap[u] || userColorMap[u.toUpperCase()] || userColorMap[u.toLowerCase()] || '#25b5c5';
-        ths += `<th class="num-col" style="color:${uColor}; font-weight:500;">${u}</th>`; 
-      });
-      ths += `<th class="num-col" style="color:var(--teal-light); font-weight:600;">TOPLAM</th></tr>`;
-      document.getElementById('thead-daily').innerHTML = ths;
-
-      document.getElementById('tbody-daily').innerHTML = dMatrix.map(row => {
-        let tr = `<tr><td>${row.RecordDay}</td>`;
-        dUsers.forEach(u => {
-          const val = row[u] || 0;
-          tr += `<td class="num-col">${val > 0 ? val : '-'}</td>`;
-        });
-        tr += `<td class="num-col" style="color:var(--teal-light); font-weight:500;">${row.Total || 0}</td></tr>`;
-        return tr;
-      }).join('') || '<tr><td colspan="2">Veri yok.</td></tr>';
-
-      // 8. Forecast Table (ADULTS ONLY - 9 COLUMNS)
-      const fList = data.forecast || [];
-      document.getElementById('badge-forecast').textContent = `${fList.length} Gün`;
-      
-      let totForeCap = 0;
-      let totForeSold = 0;
-      let totForeDiff = 0;
-      let totForeCin = 0;
-      let totForeCout = 0;
-      let totForeAdult = 0;
-      let totForePax = 0;
-
-      let fHtml = fList.map(f => {
-        const cap = f.Capacity || 111;
-        const sold = f.Sold || 0;
-        const diff = f.Difference !== undefined ? f.Difference : (cap - sold);
-        const cin = f.Cin_Room || 0;
-        const cout = f.Cout_Room || 0;
-        const adult = f.Adult || 0;
-        const pax = f.TotalPax || adult;
-
-        totForeCap += cap;
-        totForeSold += sold;
-        totForeDiff += diff;
-        totForeCin += cin;
-        totForeCout += cout;
-        totForeAdult += adult;
-        totForePax += pax;
-
-        return `
-        <tr>
-          <td>${f.DateStr}</td>
-          <td class="num-col">${cap}</td>
-          <td class="num-col" style="color:var(--pos); font-weight:500;">${sold}</td>
-          <td class="num-col">${diff}</td>
-          <td class="num-col">
-            <span>%${f.OccPct}</span>
-            <div class="bar-bg"><div class="bar-fill" style="width: ${Math.min(100, f.OccPct)}%"></div></div>
-          </td>
-          <td class="num-col" style="color:var(--teal-light);">${cin}</td>
-          <td class="num-col" style="color:var(--neg);">${cout}</td>
-          <td class="num-col">${adult}</td>
-          <td class="num-col" style="font-weight:500;">${pax}</td>
-        </tr>
-      `}).join('');
-
-      if (fList.length > 0) {
-        const overallOcc = totForeCap > 0 ? (totForeSold / totForeCap * 100).toFixed(2) : '0.00';
-        fHtml += `
-        <tr class="total-row">
-          <td>Toplam</td>
-          <td class="num-col">${totForeCap.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totForeSold.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totForeDiff.toLocaleString('tr-TR')}</td>
-          <td class="num-col">%${overallOcc}</td>
-          <td class="num-col">${totForeCin.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totForeCout.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totForeAdult.toLocaleString('tr-TR')}</td>
-          <td class="num-col">${totForePax.toLocaleString('tr-TR')}</td>
-        </tr>
-        `;
-      } else {
-        fHtml = '<tr><td colspan="9">Veri yok.</td></tr>';
-      }
-      document.getElementById('tbl-forecast').innerHTML = fHtml;
-
-      // 9. Details Table
-      renderDetailsTable(data.details || []);
-
-      // 10. Render Pie & Doughnut Charts
-      renderCharts(data);
-
-      // 11. Render Seasonal Reservation Comparison Table & Charts
-      const activeData = getActiveData();
-      if (activeData && activeData.seasonal) {
-        renderSeasonalComparison(activeData.seasonal);
-      }
-    }
-
-        function createResponsiveChart(canvasId, defaultType, rawLabels, dataValues) {
-      const isDark = !document.body.classList.contains('light-mode');
-      const textColor = isDark ? '#f0ebe0' : '#0f172a';
-      const isMobile = window.innerWidth <= 900 || ('ontouchstart' in window && window.innerWidth <= 1024);
-
-      // Helper to truncate long text with ...
-      const truncate = (str, len = 15) => {
-        if (!str) return '';
-        const s = str.toString().trim();
-        return s.length > len ? s.substring(0, len) + '...' : s;
-      };
-
-      const truncatedLabels = rawLabels.map(l => truncate(l, 15));
-      const totalSum = dataValues.reduce((a, b) => a + (Number(b) || 0), 0);
-      const pctValues = dataValues.map(v => totalSum > 0 ? Number(((v / totalSum) * 100).toFixed(1)) : 0);
-
-      if (isMobile) {
-        // MOBILE: Horizontal Bar Chart showing percentages (0% - 100%)
-        return new Chart(document.getElementById(canvasId), {
-          type: 'bar',
-          data: {
-            labels: truncatedLabels,
-            datasets: [{
-              data: pctValues,
-              backgroundColor: themeColors.slice(0, pctValues.length),
-              borderRadius: 6,
-              borderWidth: 1,
-              borderColor: isDark ? 'rgba(255,255,255,0.1)' : 'rgba(0,0,0,0.1)',
-              barThickness: 16
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            indexAxis: 'y',
-            layout: {
-              padding: { top: 10, bottom: 10, left: 5, right: 20 }
-            },
-            scales: {
-              x: {
-                min: 0,
-                max: 100,
-                grid: { color: isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)' },
-                ticks: {
-                  color: textColor,
-                  font: { family: 'Barlow', size: 11, weight: '500' },
-                  stepSize: 20,
-                  callback: (val) => '%' + val
+            let departuresPax = 0;
+            let departuresChilds = 0;
+            departuresList.forEach(r => {
+                departuresPax += (parseInt(r.Pax) || 0);
+                departuresChilds += (parseInt(r.Childs) || 0);
+            });
+
+            let inhousePax = 0;
+            let inhouseChilds = 0;
+            inhouseList.forEach(r => {
+                inhousePax += (parseInt(r.Pax) || 0);
+                inhouseChilds += (parseInt(r.Childs) || 0);
+            });
+
+            // Set Pax UI
+            document.getElementById('pax-arrivals').innerText = arrivalsPax;
+            document.getElementById('pax-departures').innerText = departuresPax;
+            document.getElementById('pax-inhouse').innerText = inhousePax;
+            
+            // Calculate and set End of Day (EOD) Rooms & Pax: In-house + Arrivals - Departures
+            const eodRooms = Math.max(0, inhouseList.length + arrivalsList.length - departuresList.length);
+            const eodPax = Math.max(0, inhousePax + arrivalsPax - departuresPax);
+            const roomEodEl = document.getElementById('room-eod');
+            if (roomEodEl) roomEodEl.innerText = eodRooms;
+            document.getElementById('pax-eod').innerText = `${eodPax} Pax`;
+            
+            // Calculate and set Total Bakiye
+            let totalBalance = 0;
+            inhouseList.forEach(guest => {
+                if (guest.ExtraFolioBalance && Math.abs(guest.ExtraFolioBalance) >= 0.01) {
+                    totalBalance += guest.ExtraFolioBalance;
                 }
-              },
-              y: {
-                grid: { display: false },
-                ticks: {
-                  color: textColor,
-                  font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' }
-                }
-              }
-            },
-            plugins: {
-              legend: { display: false },
-              tooltip: {
-                enabled: true,
-                backgroundColor: isDark ? 'rgba(7, 14, 23, 0.96)' : 'rgba(255, 255, 255, 0.96)',
-                titleColor: '#25b5c5',
-                bodyColor: isDark ? '#f0ebe0' : '#0f172a',
-                borderColor: 'rgba(37, 181, 197, 0.4)',
-                borderWidth: 1,
-                padding: 10,
-                callbacks: {
-                  title: (items) => {
-                    const idx = items[0].dataIndex;
-                    return rawLabels[idx] || items[0].label;
-                  },
-                  label: (context) => {
-                    const idx = context.dataIndex;
-                    const rawVal = dataValues[idx] || 0;
-                    const pctVal = context.raw || 0;
-                    return ` %${pctVal} (${rawVal.toLocaleString('tr-TR')} Rezervasyon)`;
-                  }
-                }
-              }
+            });
+            document.getElementById('count-balance').innerText = totalBalance.toLocaleString('tr-TR', {minimumFractionDigits: 0}) + ' ₺';
+            
+            // Calculate and set Room Map occupancy ratio
+            const totalRooms = appData.summary.hk_count || 111;
+            const occupiedRoomsCount = inhouseList.length;
+            document.getElementById('count-rooms-map').innerText = `${occupiedRoomsCount} / ${totalRooms}`;
+            
+            if (currentTab === 'roomgrid') {
+                renderRoomGrid();
+            } else {
+                renderTable();
             }
-          }
-        });
-      } else {
-        // DESKTOP: Pie / Doughnut Chart
-        return new Chart(document.getElementById(canvasId), {
-          type: defaultType,
-          data: {
-            labels: rawLabels,
-            datasets: [{
-              data: dataValues,
-              backgroundColor: themeColors,
-              borderWidth: 1.5,
-              borderColor: isDark ? '#0f1c2e' : '#ffffff',
-              hoverOffset: 14,
-              hoverBorderWidth: 2,
-              hoverBorderColor: '#25b5c5'
-            }]
-          },
-          options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            layout: {
-              padding: { top: 40, bottom: 25, left: 45, right: 45 }
-            },
-            animation: {
-              animateRotate: true,
-              animateScale: true,
-              duration: 1250,
-              easing: 'easeOutQuart'
-            },
-            interaction: { mode: 'nearest', intersect: true },
-            plugins: {
-              legend: {
-                position: 'right',
-                labels: {
-                  color: textColor,
-                  font: { family: 'Barlow', size: 12, weight: '500' },
-                  padding: 12,
-                  usePointStyle: true,
-                  pointStyle: 'circle'
-                }
-              },
-              tooltip: {
-                enabled: true,
-                backgroundColor: isDark ? 'rgba(7, 14, 23, 0.94)' : 'rgba(255, 255, 255, 0.94)',
-                titleColor: '#25b5c5',
-                bodyColor: isDark ? '#f0ebe0' : '#0f172a',
-                borderColor: 'rgba(37, 181, 197, 0.4)',
-                borderWidth: 1,
-                padding: 10,
-                boxPadding: 4,
-                usePointStyle: true,
-                titleFont: { family: 'Barlow', size: 13, weight: '600' },
-                bodyFont: { family: 'Plus Jakarta Sans', size: 12 }
-              }
-            }
-          }
-        });
-      }
-    }
-
-    function renderCharts(data) {
-      // 1. Users Pie Chart
-      const uData = prepareChartData(data.users, 6, 'Username', 'RezCount', true);
-      if (chartUsers) chartUsers.destroy();
-      chartUsers = createResponsiveChart('chart-users-canvas', 'pie', uData.labels, uData.values);
-
-      // 2. Room Types Doughnut Chart
-      const rList = (data.room_types || []).slice(0, 6);
-      if (chartRoomTypes) chartRoomTypes.destroy();
-      chartRoomTypes = createResponsiveChart('chart-roomtypes-canvas', 'doughnut', rList.map(r => r.RoomType), rList.map(r => r.RezCount));
-
-      // 3. Markets Pie Chart
-      const mList = (data.markets || []).slice(0, 6);
-      if (chartMarkets) chartMarkets.destroy();
-      chartMarkets = createResponsiveChart('chart-markets-canvas', 'pie', mList.map(m => m.Market), mList.map(m => m.RezCount));
-
-      // 4. Agencies Doughnut Chart
-      const aList = (data.agencies || []).slice(0, 8);
-      if (chartAgencies) chartAgencies.destroy();
-      chartAgencies = createResponsiveChart('chart-agencies-canvas', 'doughnut', aList.map(a => a.AgencyName), aList.map(a => a.RezCount));
-    }
-
-    function renderDetailsTable(details) {
-      document.getElementById('badge-details').textContent = `${details.length} Kayıt`;
-      const displayItems = details.slice(0, 150);
-      let html = displayItems.map(d => `
-        <tr>
-          <td style="text-align: left !important; padding-left: 4px;">${d.RecId}</td>
-          <td style="text-align: left !important; padding-left: 4px;"><span class="tag-badge">${d.Agency}</span></td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.Room}</td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.Voucher}</td>
-          <td style="text-align: left !important; padding-left: 4px;" class="guest-name-col" title="${d.FirstName1} ${d.LastName1} ${d.FirstName2 ? '/ ' + d.FirstName2 + ' ' + d.LastName2 : ''}">${d.FirstName1} ${d.LastName1} ${d.FirstName2 ? '/ ' + d.FirstName2 + ' ' + d.LastName2 : ''}</td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.Board}</td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.RoomType}</td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.CheckinDate}</td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.CheckOutDate}</td>
-          <td class="num-col" style="text-align: right !important; padding-right: 6px;">${d.StayNights}</td>
-          <td class="num-col" style="text-align: right !important; padding-right: 6px;">${d.Pax}</td>
-          <td style="text-align: left !important; padding-left: 4px;">${d.RecordDate}</td>
-          <td style="text-align: left !important; padding-left: 4px;"><span class="tag-badge" style="background:rgba(37,181,197,0.15); color:var(--teal-light); font-weight:500;">${d.RecordUser}</span></td>
-        </tr>
-      `).join('');
-      if (details.length > 150) {
-        html += `<tr><td colspan="13" style="text-align:center; padding:12px; color:var(--teal-light); font-weight:500;">... Toplam ${details.length} kayıttan ilk 150 gösteriliyor. Aramak için yukarıdaki arama kutusunu kullanın. ...</td></tr>`;
-      }
-      document.getElementById('tbl-details').innerHTML = html || '<tr><td colspan="13">Kayıt bulunamadı.</td></tr>';
-    }
-
-    document.getElementById('input-search-details').addEventListener('input', (e) => {
-      const term = e.target.value.toLowerCase().trim();
-      const currentData = getActiveData();
-      if (!currentData || !currentData.details) return;
-      if (!term) {
-        renderDetailsTable(currentData.details);
-        return;
-      }
-      const filtered = currentData.details.filter(d => 
-        (d.FirstName1 && d.FirstName1.toLowerCase().includes(term)) ||
-        (d.LastName1 && d.LastName1.toLowerCase().includes(term)) ||
-        (d.Voucher && d.Voucher.toLowerCase().includes(term)) ||
-        (d.Agency && d.Agency.toLowerCase().includes(term)) ||
-        (d.Room && d.Room.toLowerCase().includes(term)) ||
-        (d.RecordUser && d.RecordUser.toLowerCase().includes(term))
-      );
-      renderDetailsTable(filtered);
-    });
-
-    // Instant load trigger without blocking
-    loadData();
-
-    function renderSeasonalComparison(seasonal) {
-      if (!seasonal || !seasonal.by_year) return;
-
-      const years = seasonal.years || [2023, 2024, 2025, 2026];
-      const recordDates = seasonal.record_dates || {};
-      const months = ['May', 'June', 'July', 'Aug', 'Sep', 'Oct'];
-      const byYear = seasonal.by_year;
-
-      // 1. Header with right-aligned RM, PAX, RM OCC (%) to align with numbers below
-      let headHtml = `
-        <tr style="background: rgba(37, 181, 197, 0.08); border-bottom: 1px solid var(--border-color);">
-          <th style="text-align: left; padding: 6px 8px; font-weight: 700; color: var(--gold);">Season:</th>
-          ${years.map(y => `<th colspan="3" style="text-align: center; border-left: 1px solid var(--border-color); font-weight: 700; font-size: 13px; color: var(--gold);">${y}</th>`).join('')}
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border-color);">
-          <th style="text-align: left; padding: 6px 8px; font-weight: 600; color: #ef4444;">Record Date:</th>
-          ${years.map(y => `<th colspan="3" style="text-align: center; border-left: 1px solid var(--border-color); color: #ef4444; font-weight: 600;">${recordDates[y] || recordDates[String(y)] || ''}</th>`).join('')}
-        </tr>
-        <tr style="border-bottom: 1px solid var(--border-color); background: rgba(37, 181, 197, 0.04);">
-          <th style="text-align: left; padding: 6px 8px; font-weight: 600;">Room Capacity:</th>
-          ${years.map(() => `<th colspan="3" style="text-align: center; border-left: 1px solid var(--border-color); font-weight: 600;">111</th>`).join('')}
-        </tr>
-        <tr style="background: var(--card-bg2); border-bottom: 2px solid var(--border-color);">
-          <th style="text-align: left; padding: 8px; color: var(--gold);">Months</th>
-          ${years.map(() => `
-            <th style="border-left: 1px solid var(--border-color); color: #ef4444; font-weight: 600; padding: 6px 6px; text-align: right;">RM</th>
-            <th style="color: #ef4444; font-weight: 600; padding: 6px 6px; text-align: right;">PAX</th>
-            <th style="color: #ef4444; font-weight: 600; padding: 6px 6px; text-align: right;">RM OCC (%)</th>
-          `).join('')}
-        </tr>
-      `;
-      document.getElementById('thead-seasonal').innerHTML = headHtml;
-
-      // 2. Body
-      let bodyHtml = months.map((m, idx) => {
-        let rowCells = years.map(y => {
-          const yearData = byYear[y] || byYear[String(y)];
-          const mObj = (yearData && yearData.months) ? yearData.months[idx] : { rm: 0, pax: 0, occ: 0 };
-          const rmStr = (mObj.rm || 0).toLocaleString('tr-TR');
-          const paxStr = (mObj.pax || 0).toLocaleString('tr-TR');
-          const occStr = (mObj.occ || 0).toFixed(2).replace('.', ',') + '%';
-          return `
-            <td style="border-left: 1px solid rgba(200,164,74,0.1); text-align: right; padding: 6px 6px;" class="num-col">${rmStr}</td>
-            <td style="text-align: right; padding: 6px 6px;" class="num-col">${paxStr}</td>
-            <td style="text-align: right; padding: 6px 6px; font-weight: 500;" class="num-col">${occStr}</td>
-          `;
-        }).join('');
-
-        return `
-          <tr style="border-bottom: 1px solid rgba(200,164,74,0.08);">
-            <td style="text-align: left; font-weight: 600; padding: 7px 8px;">${m}</td>
-            ${rowCells}
-          </tr>
-        `;
-      }).join('');
-
-      // Total row
-      let totalRowCells = years.map(y => {
-        const yearData = byYear[y] || byYear[String(y)];
-        const totRm = yearData ? (yearData.total_rm || 0) : 0;
-        const totPax = yearData ? (yearData.total_pax || 0) : 0;
-        const totOcc = yearData ? (yearData.total_occ || 0) : 0;
-        return `
-          <td style="border-left: 1px solid rgba(37,181,197,0.3); text-align: right; font-weight: 700; padding: 8px 6px;" class="num-col">${totRm.toLocaleString('tr-TR')}</td>
-          <td style="text-align: right; font-weight: 700; padding: 8px 6px;" class="num-col">${totPax.toLocaleString('tr-TR')}</td>
-          <td style="text-align: right; font-weight: 700; padding: 8px 6px;" class="num-col">${totOcc.toFixed(2).replace('.', ',')}%</td>
-        `;
-      }).join('');
-
-      bodyHtml += `
-        <tr class="total-row" style="background: rgba(37, 181, 197, 0.12); border-top: 2px solid var(--teal-light);">
-          <td style="text-align: left; font-weight: 700; padding: 8px;">Total</td>
-          ${totalRowCells}
-        </tr>
-      `;
-
-      document.getElementById('tbody-seasonal').innerHTML = bodyHtml;
-
-      // 3. Render 2 KPI Bar Charts (Room Nights & PAX)
-      renderSeasonalCharts(years, months, byYear);
-    }
-
-    function renderSeasonalCharts(years, months, byYear) {
-      const isDark = !document.body.classList.contains('light-mode');
-      const textColor = isDark ? '#f0ebe0' : '#0f172a';
-
-      const yearColors = {
-        2023: '#f97316', // Turuncu
-        2024: '#4ade80', // Yeşil
-        2025: '#3b82f6', // Mavi
-        2026: '#f59e0b'  // Canlı Sarı / Altın (2025 mavi ile karışmaması için)
-      };
-
-      const barTopLabelsPlugin = {
-        id: 'barTopLabelsPlugin',
-        afterDatasetsDraw(chart) {
-          const { ctx } = chart;
-          ctx.save();
-          chart.data.datasets.forEach((dataset, datasetIndex) => {
-            const meta = chart.getDatasetMeta(datasetIndex);
-            if (!meta.hidden) {
-              meta.data.forEach((bar, index) => {
-                const val = dataset.data[index];
-                if (val && val > 0) {
-                  ctx.font = '600 9.5px "Plus Jakarta Sans", sans-serif';
-                  ctx.fillStyle = isDark ? '#e2e8f0' : '#1e293b';
-                  ctx.textAlign = 'center';
-                  ctx.textBaseline = 'bottom';
-                  ctx.fillText(val.toLocaleString('tr-TR'), bar.x, bar.y - 2);
-                }
-              });
-            }
-          });
-          ctx.restore();
         }
-      };
 
-      const getChartOptions = () => ({
-        responsive: true,
-        maintainAspectRatio: false,
-        layout: { padding: { top: 22, bottom: 5, left: 5, right: 5 } },
-        plugins: {
-          legend: {
-            position: 'bottom',
-            labels: { color: textColor, font: { family: 'Barlow', size: 12, weight: '600' }, padding: 14, boxWidth: 12, usePointStyle: true }
-          },
-          tooltip: {
-            mode: 'index', intersect: false,
-            backgroundColor: isDark ? 'rgba(7, 14, 23, 0.94)' : 'rgba(255, 255, 255, 0.94)',
-            titleColor: '#25b5c5', bodyColor: isDark ? '#f0ebe0' : '#0f172a',
-            borderColor: 'rgba(37, 181, 197, 0.4)', borderWidth: 1
-          }
-        },
-        scales: {
-          x: { grid: { display: false }, ticks: { color: textColor, font: { family: 'Barlow', size: 12, weight: '600' } } },
-          y: { grid: { color: isDark ? 'rgba(255,255,255,0.06)' : 'rgba(0,0,0,0.06)' }, ticks: { color: textColor, font: { family: 'Plus Jakarta Sans', size: 11 } } }
+        function switchTab(tab) {
+            currentTab = tab;
+            
+            const tabs = ['arrivals', 'departures', 'inhouse', 'vacant', 'roomchanges', 'noshow', 'roomgrid'];
+            tabs.forEach(t => {
+                const el = document.getElementById(`tab-${t}`);
+                if(el) el.classList.remove('tab-active');
+            });
+            
+            const activeEl = document.getElementById(`tab-${tab}`);
+            if(activeEl) activeEl.classList.add('tab-active');
+            
+            // Adjust elements based on tab
+            const thead = document.querySelector('thead tr');
+            const tableEl = document.querySelector('table');
+            const roomGridView = document.getElementById('room-grid-view');
+            const searchContainer = document.getElementById('searchInput').parentElement.parentElement;
+            
+            if (tab === 'roomgrid') {
+                if (tableEl) tableEl.classList.add('hidden');
+                if (roomGridView) roomGridView.classList.remove('hidden');
+                if (searchContainer) searchContainer.classList.add('hidden');
+                renderRoomGrid();
+            } else {
+                if (tableEl) tableEl.classList.remove('hidden');
+                if (roomGridView) roomGridView.classList.add('hidden');
+                if (searchContainer) searchContainer.classList.remove('hidden');
+                
+                if (tab === 'vacant') {
+                    thead.innerHTML = `
+                        <th scope="col" class="px-6 py-4 font-medium">Oda No</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Oda Tipi</th>
+                        <th scope="col" class="px-6 py-4 font-medium">HK Durumu</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Konaklama Durumu</th>
+                        <th scope="col" class="px-6 py-4 font-medium text-right">Detay</th>
+                    `;
+                } else if (tab === 'roomchanges') {
+                    thead.innerHTML = `
+                        <th scope="col" class="px-6 py-4 font-medium">Tarih / Saat</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Oda Değişimi</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Misafir / Voucher</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Acente</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Açıklama / Nedeni</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Kullanıcı</th>
+                        <th scope="col" class="px-6 py-4 font-medium text-center">Durum</th>
+                    `;
+                } else {
+                    thead.innerHTML = `
+                        <th scope="col" class="px-6 py-4 font-medium">Oda</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Misafir & Detaylar</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Voucher / Acente</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Giriş / Çıkış</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Tip / Pans.</th>
+                        <th scope="col" class="px-6 py-4 font-medium">Bakiye (Borç)</th>
+                        <th scope="col" class="px-6 py-4 font-medium text-center">Kişi</th>
+                    `;
+                }
+                
+                renderTable();
+            }
+
+            // Smooth scroll to tabs/table area with sticky header offset
+            const tabsCard = document.getElementById('tabs-card');
+            if (tabsCard) {
+                const yOffset = -80; // Height of sticky header + margin
+                const y = tabsCard.getBoundingClientRect().top + window.pageYOffset + yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
         }
-      });
 
-      const roomDatasets = years.map(y => {
-        const yearData = byYear[y] || byYear[String(y)];
-        const dataVals = months.map((m, idx) => (yearData && yearData.months[idx]) ? yearData.months[idx].rm : 0);
-        return { label: String(y), data: dataVals, backgroundColor: yearColors[y] || '#25b5c5', borderRadius: 4, barPercentage: 0.85, categoryPercentage: 0.75 };
-      });
+        function formatVal(val) {
+            return val ? val : '-';
+        }
 
-      if (window.chartSeasonalRoom) window.chartSeasonalRoom.destroy();
-      const elRoom = document.getElementById('chart-seasonal-room-canvas');
-      if (elRoom) {
-        window.chartSeasonalRoom = new Chart(elRoom, {
-          type: 'bar', data: { labels: months, datasets: roomDatasets }, options: getChartOptions(), plugins: [barTopLabelsPlugin]
-        });
-      }
+        function getCleanAgencyName(code, id) {
+            if (!code) {
+                if (id == 10) return 'COMP';
+                if (id == 1 || id == 3) return 'Münferit';
+                return id ? `Acente ${id}` : '-';
+            }
+            const upperCode = code.toUpperCase();
+            if (upperCode.includes('MUNFERIT')) return 'Münferit';
+            if (upperCode.includes('COMP')) return 'COMP';
+            if (upperCode.includes('NEILSON')) return 'Neilson';
+            if (upperCode.includes('JET2')) return 'Jet2';
+            if (upperCode.includes('EASYJET')) return 'EasyJet';
+            if (upperCode.includes('TUI')) return 'TUI';
+            if (upperCode.includes('BOOKING')) return 'Booking.com';
+            if (upperCode.includes('EXPEDIA')) return 'Expedia';
+            if (upperCode.includes('ADDAJET')) return 'Addajet';
+            if (upperCode.includes('DIANA')) return 'Diana';
+            if (upperCode.includes('HOTELBEDS')) return 'Hotelbeds';
+            if (upperCode.includes('LTUR')) return 'Ltur';
+            
+            // Fallback: capitalize first letter of each word
+            return code.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
+        }
 
-      const paxDatasets = years.map(y => {
-        const yearData = byYear[y] || byYear[String(y)];
-        const dataVals = months.map((m, idx) => (yearData && yearData.months[idx]) ? yearData.months[idx].pax : 0);
-        return { label: String(y), data: dataVals, backgroundColor: yearColors[y] || '#25b5c5', borderRadius: 4, barPercentage: 0.85, categoryPercentage: 0.75 };
-      });
+        let showAllRoomChanges = false;
 
-      if (window.chartSeasonalPax) window.chartSeasonalPax.destroy();
-      const elPax = document.getElementById('chart-seasonal-pax-canvas');
-      if (elPax) {
-        window.chartSeasonalPax = new Chart(elPax, {
-          type: 'bar', data: { labels: months, datasets: paxDatasets }, options: getChartOptions(), plugins: [barTopLabelsPlugin]
-        });
-      }
-    }
+        function renderTable() {
+            if (!appData) return;
+            
+            const tbody = document.getElementById('table-body');
+            const emptyState = document.getElementById('empty-state');
+            tbody.innerHTML = '';
+            
+            let dataset = [];
+            let isGlobalSearchActive = false;
+            
+            const cleanQuery = trNormalize(searchQuery);
+            
+            if (cleanQuery && appData.by_date) {
+                // Perform global cross-date search across all dates in snapshot
+                isGlobalSearchActive = true;
+                const seenRecIds = new Set();
+                const reportDate = appData.report_date;
+                
+                Object.keys(appData.by_date).forEach(dStr => {
+                    const dayData = appData.by_date[dStr];
+                    const catItems = dayData[currentTab] || [];
+                    
+                    catItems.forEach(row => {
+                        // For In-House tab: Only show guests who are ACTUALLY currently checked in (Status 2) 
+                        // or whose Check-in date is on/before today
+                        if (currentTab === 'inhouse') {
+                            const isCheckedIn = (row.Status === 2);
+                            const hasArrived = row.CheckinDate && (row.CheckinDate <= reportDate);
+                            if (!isCheckedIn && !hasArrived) {
+                                return; // Skip future reservations that haven't checked in yet
+                            }
+                        }
 
-  </script>
+                        const recKey = row.RecId || row.ReservationId || (row.Room ? row.Room + '_' + dStr : dStr);
+                        if (!seenRecIds.has(recKey)) {
+                            let match = false;
+                            if (currentTab === 'vacant') {
+                                const room = trNormalize(row.Room || '');
+                                const type = trNormalize(row.RoomTypeCode || '');
+                                match = (room + ' ' + type).includes(cleanQuery);
+                            } else if (currentTab === 'roomchanges') {
+                                const oldR = trNormalize(row.OldRoom || '');
+                                const newR = trNormalize(row.NewRoom || '');
+                                const guest = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                                const voucher = trNormalize(row.Voucher || '');
+                                const remark = trNormalize(row.Remark || '');
+                                const user = trNormalize(row.RecordUser || '');
+                                match = `${oldR} ${newR} ${guest} ${voucher} ${remark} ${user}`.includes(cleanQuery);
+                            } else {
+                                const name1 = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                                const voucher = trNormalize(row.Voucher || '');
+                                const room = trNormalize(row.Room || '');
+                                match = `${name1} ${voucher} ${room}`.includes(cleanQuery);
+                            }
+                            
+                            if (match) {
+                                seenRecIds.add(recKey);
+                                dataset.push(row);
+                            }
+                        }
+                    });
+                });
+            } else if (currentTab === 'roomchanges' && showAllRoomChanges) {
+                dataset = (appData.data && appData.data.all_roomchanges) ? appData.data.all_roomchanges : [];
+            } else if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
+                dataset = appData.by_date[selectedDate][currentTab] || [];
+            } else {
+                dataset = (appData.data && appData.data[currentTab]) ? appData.data[currentTab] : [];
+            }
+            
+            // Special handling for roomchanges if date has 0 records but overall records exist
+            if (currentTab === 'roomchanges' && dataset.length === 0 && appData.data && appData.data.all_roomchanges && appData.data.all_roomchanges.length > 0 && !showAllRoomChanges && !cleanQuery) {
+                const trBanner = document.createElement('tr');
+                trBanner.className = "bg-indigo-500/10 border-b border-indigo-500/20";
+                trBanner.innerHTML = `
+                    <td colspan="7" class="px-6 py-6 text-center">
+                        <div class="flex flex-col items-center justify-center gap-2">
+                            <p class="text-indigo-300 font-medium"><i class="fa-solid fa-circle-info text-indigo-400 mr-1"></i> Seçili tarihte (${selectedDate}) kayıtlı oda değişimi bulunmamaktadır.</p>
+                            <button onclick="showAllRoomChanges=true; renderTable();" class="mt-1 px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white font-medium rounded-lg text-xs transition-colors shadow-md">
+                                <i class="fa-solid fa-list-ul mr-1"></i> Tüm Oda Değişim Geçmişini Göster (${appData.data.all_roomchanges.length} Kayıt)
+                            </button>
+                        </div>
+                    </td>
+                `;
+                tbody.appendChild(trBanner);
+                emptyState.classList.add('hidden');
+                return;
+            }
+
+            // Apply Search Filter for single-date/static fallback dataset if not already globally searched
+            if (cleanQuery && !isGlobalSearchActive) {
+                dataset = dataset.filter(row => {
+                    if (currentTab === 'vacant') {
+                        const room = trNormalize(row.Room || '');
+                        const type = trNormalize(row.RoomTypeCode || '');
+                        return `${room} ${type}`.includes(cleanQuery);
+                    } else if (currentTab === 'roomchanges') {
+                        const oldR = trNormalize(row.OldRoom || '');
+                        const newR = trNormalize(row.NewRoom || '');
+                        const guest = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                        const voucher = trNormalize(row.Voucher || '');
+                        const remark = trNormalize(row.Remark || '');
+                        const user = trNormalize(row.RecordUser || '');
+                        return `${oldR} ${newR} ${guest} ${voucher} ${remark} ${user}`.includes(cleanQuery);
+                    } else {
+                        const name1 = trNormalize((row.FirstName1 || '') + ' ' + (row.LastName1 || ''));
+                        const voucher = trNormalize(row.Voucher || '');
+                        const room = trNormalize(row.Room || '');
+                        return `${name1} ${voucher} ${room}`.includes(cleanQuery);
+                    }
+                });
+            }
+
+            if (isGlobalSearchActive && dataset.length > 0) {
+                const trBanner = document.createElement('tr');
+                trBanner.className = "bg-brand-500/10 border-b border-brand-500/20";
+                trBanner.innerHTML = `
+                    <td colspan="7" class="px-6 py-3 text-center">
+                        <span class="text-xs text-brand-300 font-medium"><i class="fa-solid fa-globe mr-1"></i> Tüm tarihler taranarak "${searchQuery}" için ${dataset.length} sonuç bulundu (Tarih filtresinden bağımsız).</span>
+                    </td>
+                `;
+                tbody.appendChild(trBanner);
+            }
+
+            if (dataset.length === 0) {
+                emptyState.classList.remove('hidden');
+                emptyState.classList.add('flex');
+            } else {
+                emptyState.classList.add('hidden');
+                emptyState.classList.remove('flex');
+                
+                if (currentTab === 'roomchanges' && showAllRoomChanges) {
+                    const trBanner = document.createElement('tr');
+                    trBanner.className = "bg-indigo-500/10 border-b border-indigo-500/20";
+                    trBanner.innerHTML = `
+                        <td colspan="7" class="px-6 py-3 text-center">
+                            <span class="text-xs text-indigo-300 font-medium">Tüm oda değişim geçmişi gösteriliyor. </span>
+                            <button onclick="showAllRoomChanges=false; renderTable();" class="ml-2 text-xs text-brand-400 hover:underline">Tarih Filtresine Dön</button>
+                        </td>
+                    `;
+                    tbody.appendChild(trBanner);
+                }
+
+                dataset.forEach((row, idx) => {
+                    const tr = document.createElement('tr');
+                    tr.className = "hover:bg-slate-800/50 transition-colors fade-in border-b border-slate-800";
+                    tr.style.animationDelay = `${idx * 0.03}s`;
+                    
+                    if (currentTab === 'vacant') {
+                        const roomBadge = `<span class="bg-slate-800 border border-slate-600 text-white font-mono px-3 py-1 rounded-md shadow-sm text-lg">${row.Room}</span>`;
+                        const typeBadge = `<span class="inline-block px-2.5 py-1 rounded bg-teal-500/10 border border-teal-500/20 text-xs font-semibold text-teal-300">${row.RoomTypeCode}</span>`;
+
+                        let statusBadge = '<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/20 inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-rose-500"></span> Kirli</span>';
+                        if (row.HkStatus == 4) {
+                            statusBadge = '<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-amber-500"></span> Arızalı (OOO)</span>';
+                        } else if (row.HkStatus == 5) {
+                            statusBadge = '<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-500/15 text-purple-400 border border-purple-500/20 inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-purple-500"></span> Blokeli</span>';
+                        } else if (row.DirtyClean == 0 || row.HkStatus == 2 || row.HkStatus == 3) {
+                            statusBadge = '<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span> Temiz</span>';
+                        }
+
+                        const occBadge = '<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-slate-800 text-slate-400 border border-slate-700 inline-flex items-center gap-1"><i class="fa-regular fa-door-open text-xs"></i> Boş</span>';
+
+                        tr.innerHTML = `
+                            <td class="px-6 py-4 whitespace-nowrap">${roomBadge}</td>
+                            <td class="px-6 py-4 whitespace-nowrap">${typeBadge}</td>
+                            <td class="px-6 py-4 whitespace-nowrap">${statusBadge}</td>
+                            <td class="px-6 py-4 whitespace-nowrap">${occBadge}</td>
+                            <td class="px-6 py-4 text-right whitespace-nowrap">
+                                <button onclick="openRoomModal(${JSON.stringify(row).replace(/"/g, '&quot;')}, null)" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium transition-colors border border-slate-700">
+                                    <i class="fa-solid fa-eye mr-1"></i> Görüntüle
+                                </button>
+                            </td>
+                        `;
+                    } else if (currentTab === 'roomchanges') {
+                        const dateStr = formatDateTr(formatVal(row.RCDate));
+                        const timeStr = row.Time ? `<span class="text-xs text-slate-400 font-mono ml-1">${row.Time}</span>` : '';
+                        
+                        const roomMoveBadge = `
+                            <div class="flex items-center gap-2">
+                                <span class="bg-rose-500/15 border border-rose-500/30 text-rose-300 font-mono font-bold px-2.5 py-1 rounded-md text-sm">${formatVal(row.OldRoom)}</span>
+                                <i class="fa-solid fa-arrow-right text-indigo-400 text-xs"></i>
+                                <span class="bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-mono font-bold px-2.5 py-1 rounded-md text-sm">${formatVal(row.NewRoom)}</span>
+                            </div>
+                        `;
+
+                        const guestName = (row.FirstName1 || row.LastName1) ? 
+                            `${formatVal(row.FirstName1)} <span class="font-bold text-white uppercase">${formatVal(row.LastName1)}</span>` : 
+                            `<span class="text-slate-500 italic">Belirtilmedi</span>`;
+                        
+                        const voucherStr = row.Voucher ? `<div class="text-white font-medium text-xs font-mono mt-0.5">${row.Voucher}</div>` : '';
+                        const acName = getCleanAgencyName(row.AgencyCode, row.AgencyId);
+
+                        const remarkStr = row.Remark ? 
+                            `<div class="text-xs text-amber-300 bg-amber-500/10 border border-amber-500/20 px-2.5 py-1 rounded-md max-w-xs"><i class="fa-solid fa-comment-dots mr-1"></i> ${row.Remark}</div>` : 
+                            `<span class="text-slate-500 text-xs">-</span>`;
+
+                        const userStr = row.RecordUser ? 
+                            `<span class="text-xs text-slate-300 font-medium px-2 py-0.5 rounded bg-slate-800"><i class="fa-solid fa-user-gear mr-1 text-slate-400"></i> ${row.RecordUser}</span>` : 
+                            `<span class="text-slate-500 text-xs">-</span>`;
+
+                        const statusBadge = row.RoomChanged == 1 ?
+                            `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 inline-flex items-center gap-1"><i class="fa-solid fa-check text-xs"></i> Değiştirildi</span>` :
+                            `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 inline-flex items-center gap-1"><i class="fa-solid fa-clock text-xs"></i> Planlandı</span>`;
+
+                        tr.innerHTML = `
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="font-mono text-slate-200">${dateStr}</div>
+                                ${timeStr}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">${roomMoveBadge}</td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="text-slate-200 text-sm">${guestName}</div>
+                                ${voucherStr}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <span class="text-xs text-slate-400">${acName}</span>
+                            </td>
+                            <td class="px-6 py-4">${remarkStr}</td>
+                            <td class="px-6 py-4 whitespace-nowrap">${userStr}</td>
+                            <td class="px-6 py-4 text-center whitespace-nowrap">${statusBadge}</td>
+                        `;
+                    } else {
+                        const roomBadge = row.Room ? 
+                            `<span class="bg-slate-800 border border-slate-600 text-white font-mono px-3 py-1 rounded-md shadow-sm text-lg">${row.Room}</span>` : 
+                            `<span class="text-slate-500 italic">Atanmadı</span>`;
+                        
+                        const fullName = `${formatVal(row.FirstName1)} <span class="font-bold text-white uppercase">${formatVal(row.LastName1)}</span>`;
+                        
+                        let extraInfo = '';
+                        if (row.ResRemark) extraInfo += `<div class="text-xs text-amber-400 mt-1 max-w-xs truncate" title="${row.ResRemark}"><i class="fa-solid fa-comment-dots"></i> ${row.ResRemark}</div>`;
+                        
+                        if (currentTab === 'arrivals' || currentTab === 'noshow') {
+                            if (row.FlightArrival) extraInfo += `<div class="text-xs text-sky-400 mt-1"><i class="fa-solid fa-plane-arrival"></i> ${row.FlightArrival}</div>`;
+                        } else if (currentTab === 'departures' || currentTab === 'inhouse') {
+                            if (row.FlightDeparture) extraInfo += `<div class="text-xs text-purple-400 mt-1"><i class="fa-solid fa-plane-departure"></i> ${row.FlightDeparture}</div>`;
+                        } else {
+                            if (row.FlightArrival) extraInfo += `<div class="text-xs text-sky-400 mt-1"><i class="fa-solid fa-plane-arrival"></i> ${row.FlightArrival}</div>`;
+                            if (row.FlightDeparture) extraInfo += `<div class="text-xs text-purple-400 mt-1"><i class="fa-solid fa-plane-departure"></i> ${row.FlightDeparture}</div>`;
+                        }
+                        
+                        const paxLabel = `<span class="inline-flex items-center gap-1"><i class="fa-solid fa-user text-slate-500"></i> ${row.Pax}</span>`;
+                        const chdLabel = row.Childs > 0 ? `<span class="inline-flex items-center gap-1 ml-2"><i class="fa-solid fa-child text-slate-500"></i> ${row.Childs}</span>` : '';
+                        
+                        const balance = (row.ExtraFolioBalance && Math.abs(row.ExtraFolioBalance) >= 0.01) ? row.ExtraFolioBalance : 0;
+                        let balanceHtml = `<span class="text-slate-500">-</span>`;
+                        if (balance > 0) {
+                            balanceHtml = `<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-rose-500/10 border border-rose-500/20 text-rose-400 font-bold"><i class="fa-solid fa-coins"></i> ${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                        } else if (balance < 0) {
+                            balanceHtml = `<span class="inline-flex items-center gap-1 px-2 py-1 rounded bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 font-bold"><i class="fa-solid fa-coins"></i> ${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                        }
+                        
+                        tr.innerHTML = `
+                            <td class="px-6 py-4 whitespace-nowrap">${roomBadge}</td>
+                            <td class="px-6 py-4">
+                                <div class="text-slate-200 text-lg">${fullName}</div>
+                                ${extraInfo}
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="text-white font-medium text-xs tracking-wider">${formatVal(row.Voucher)}</div>
+                                <div class="text-xs text-slate-500 mt-1">${getCleanAgencyName(row.AgencyCode, row.AgencyId)}</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center gap-2">
+                                    <i class="fa-solid fa-arrow-right-to-bracket text-emerald-500/70 text-xs w-3"></i> 
+                                    <span class="font-mono">${formatDateTr(formatVal(row.CheckinDate))}</span>
+                                </div>
+                                <div class="flex items-center gap-2 mt-1">
+                                    <i class="fa-solid fa-arrow-right-from-bracket text-rose-500/70 text-xs w-3"></i> 
+                                    <span class="text-slate-400 font-mono">${formatDateTr(formatVal(row.CheckOutDate))}</span>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium">${formatVal(row.RoomType)}</div>
+                                <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium ml-1">${formatVal(row.Board)}</div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                ${balanceHtml}
+                            </td>
+                            <td class="px-6 py-4 text-center whitespace-nowrap">
+                                ${paxLabel}${chdLabel}
+                            </td>
+                        `;
+                    }
+                    tbody.appendChild(tr);
+                });
+            }
+        }
+
+        // Auto-refresh every 5 minutes (only if data is loaded)
+        setInterval(() => {
+            if(appData) fetchData();
+        }, 300000);
+
+        function renderRoomGrid() {
+            if (!appData) return;
+            const gridEl = document.getElementById('room-grid');
+            const breakdownEl = document.getElementById('agency-breakdown');
+            gridEl.innerHTML = '';
+            breakdownEl.innerHTML = '';
+            
+            let inhouseList = [];
+            if (appData.by_date && selectedDate && appData.by_date[selectedDate]) {
+                inhouseList = appData.by_date[selectedDate].inhouse || [];
+            } else {
+                inhouseList = (appData.data && appData.data.inhouse) ? appData.data.inhouse : [];
+            }
+            
+            const agencyCounts = {};
+            let totalInhouseGuests = 0;
+            
+            inhouseList.forEach(guest => {
+                const acName = getCleanAgencyName(guest.AgencyCode, guest.AgencyId);
+                agencyCounts[acName] = (agencyCounts[acName] || 0) + 1;
+                totalInhouseGuests++;
+            });
+            
+            const sortedAgencies = Object.entries(agencyCounts).sort((a,b) => b[1] - a[1]);
+            if (sortedAgencies.length === 0) {
+                breakdownEl.innerHTML = '<div class="text-slate-500 italic col-span-4 text-center">Konaklayan misafir kaydı bulunmamaktadır.</div>';
+            } else {
+                sortedAgencies.forEach(([acName, count]) => {
+                    const pct = totalInhouseGuests > 0 ? Math.round((count / totalInhouseGuests) * 100) : 0;
+                    const card = document.createElement('div');
+                    card.className = "bg-slate-900/60 border border-slate-800/80 rounded-xl p-3 shadow-inner";
+                    card.innerHTML = `
+                        <div class="flex justify-between items-center text-xs font-semibold text-slate-400 mb-1.5">
+                            <span class="truncate max-w-[120px]" title="${acName}">${acName}</span>
+                            <span class="text-white">${count} Oda (${pct}%)</span>
+                        </div>
+                        <div class="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
+                            <div class="bg-gradient-to-r from-purple-500 to-indigo-500 h-1.5 rounded-full" style="width: ${pct}%"></div>
+                        </div>
+                    `;
+                    breakdownEl.appendChild(card);
+                });
+            }
+            
+            const hkList = (appData.data && appData.data.hk) ? appData.data.hk : [];
+            const occupiedRooms = {};
+            inhouseList.forEach(guest => {
+                if (guest.Room) {
+                    occupiedRooms[guest.Room] = guest;
+                }
+            });
+            
+            const sortedHk = [...hkList].sort((a, b) => parseInt(a.Room) - parseInt(b.Room));
+            
+            sortedHk.forEach((hk, idx) => {
+                const guest = occupiedRooms[hk.Room];
+                const isOccupied = !!guest;
+                
+                const card = document.createElement('div');
+                card.className = `room-card border transition-all ${
+                    isOccupied 
+                        ? 'bg-brand-500/10 border-brand-500/35 hover:bg-brand-500/20 text-white shadow-brand-500/5' 
+                        : 'bg-slate-800/25 border-slate-700/40 hover:bg-slate-800/40 text-slate-400'
+                }`;
+                
+                // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
+                let dotColor = 'bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.6)]';
+                let statusText = 'Kirli';
+
+                if (hk.HkStatus == 4) {
+                    dotColor = 'bg-amber-500 shadow-[0_0_6px_rgba(245,158,11,0.6)]';
+                    statusText = 'Arızalı (OOO)';
+                } else if (hk.HkStatus == 5) {
+                    dotColor = 'bg-purple-500 shadow-[0_0_6px_rgba(168,85,247,0.6)]';
+                    statusText = 'Blokeli';
+                } else if (hk.DirtyClean == 0 || hk.HkStatus == 2 || hk.HkStatus == 3) {
+                    dotColor = 'bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.6)]';
+                    statusText = 'Temiz';
+                }
+                
+                card.innerHTML = `
+                    <div class="absolute top-2 right-2 w-2 h-2 rounded-full ${dotColor}" title="${statusText}"></div>
+                    <span class="text-xl font-bold font-mono tracking-tight text-white mb-0.5">${hk.Room}</span>
+                    <span class="text-[10px] uppercase font-semibold text-slate-400 tracking-wider">${hk.RoomTypeCode}</span>
+                `;
+                
+                card.onclick = () => openRoomModal(hk, guest);
+                gridEl.appendChild(card);
+            });
+        }
+
+        function openRoomModal(hk, guest) {
+            const modal = document.getElementById('room-modal');
+            const content = document.getElementById('modal-content');
+            
+            // Sedna SQL standartları: DirtyClean (0 = Temiz, 1 = Kirli)
+            let statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-rose-500/15 text-rose-400 border border-rose-500/20 flex items-center gap-1"><i class="fa-solid fa-broom"></i> Kirli</span>';
+            
+            if (hk.HkStatus == 4) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 flex items-center gap-1"><i class="fa-solid fa-wrench"></i> Arızalı (OOO)</span>';
+            } else if (hk.HkStatus == 5) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-500/15 text-purple-400 border border-purple-500/20 flex items-center gap-1"><i class="fa-solid fa-ban"></i> Blokeli</span>';
+            } else if (hk.DirtyClean == 0 || hk.HkStatus == 2 || hk.HkStatus == 3) {
+                statusBadge = '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-400 border border-emerald-500/20 flex items-center gap-1"><i class="fa-solid fa-sparkles"></i> Temiz</span>';
+            }
+                
+            const occBadge = guest 
+                ? '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-brand-500/15 text-brand-400 border border-brand-500/20 flex items-center gap-1"><i class="fa-solid fa-user"></i> Dolu</span>' 
+                : '<span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-400 border border-slate-700 flex items-center gap-1"><i class="fa-regular fa-user"></i> Boş</span>';
+                
+            let guestHtml = '';
+            if (guest) {
+                const acName = getCleanAgencyName(guest.AgencyCode, guest.AgencyId);
+                const balance = (guest.ExtraFolioBalance && Math.abs(guest.ExtraFolioBalance) >= 0.01) ? guest.ExtraFolioBalance : 0;
+                let balanceHtml = `<span class="text-slate-500">-</span>`;
+                if (balance > 0) {
+                    balanceHtml = `<span class="text-rose-400 font-bold">${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                } else if (balance < 0) {
+                    balanceHtml = `<span class="text-emerald-400 font-bold">${balance.toLocaleString('tr-TR', {minimumFractionDigits: 2})} ₺</span>`;
+                }
+                
+                let remarkHtml = '';
+                if (guest.ResRemark) {
+                    remarkHtml = `
+                        <div class="mt-4 bg-slate-900/60 border border-slate-800 rounded-xl p-3 text-xs text-amber-400">
+                            <div class="font-bold text-slate-400 mb-1"><i class="fa-solid fa-comment-dots"></i> Notlar:</div>
+                            ${guest.ResRemark}
+                        </div>
+                    `;
+                }
+                
+                guestHtml = `
+                    <div class="mt-5 border-t border-slate-800 pt-4 text-sm text-slate-300 space-y-2.5">
+                        <div class="flex justify-between"><span class="text-slate-400">Misafir Adı:</span> <span class="font-bold text-white text-base">${guest.FirstName1} ${guest.LastName1}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Voucher No:</span> <span class="font-mono text-white">${guest.Voucher || '-'}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Acente:</span> <span class="font-medium text-slate-200">${acName}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Giriş / Çıkış:</span> <span class="text-slate-200 font-medium">${formatDateTr(guest.CheckinDate)} / ${formatDateTr(guest.CheckOutDate)}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Kişi (Pax/Chd):</span> <span class="text-slate-200 font-medium">${guest.Pax} Yetişkin ${guest.Childs > 0 ? `, ${guest.Childs} Çocuk` : ''}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Pansiyon Tipi:</span> <span class="text-slate-200 font-medium">${guest.Board}</span></div>
+                        <div class="flex justify-between"><span class="text-slate-400">Ekstra Bakiye:</span> ${balanceHtml}</div>
+                        ${remarkHtml}
+                    </div>
+                `;
+            } else {
+                guestHtml = `
+                    <div class="mt-5 border-t border-slate-800 pt-4 text-center py-6 text-slate-500 text-sm">
+                        <i class="fa-regular fa-calendar-check text-3xl mb-2 opacity-30"></i>
+                        <p>Oda şu an boş durumda.</p>
+                    </div>
+                `;
+            }
+            
+            content.innerHTML = `
+                <div class="flex justify-between items-center pr-8 mb-4">
+                    <div class="flex items-baseline gap-2">
+                        <h3 class="text-2xl font-bold text-white font-mono">Oda ${hk.Room}</h3>
+                        <span class="text-xs uppercase font-bold text-slate-400 px-2 py-0.5 rounded bg-slate-800">${hk.RoomTypeCode}</span>
+                    </div>
+                </div>
+                <div class="flex gap-2">
+                    ${statusBadge}
+                    ${occBadge}
+                </div>
+                ${guestHtml}
+            `;
+            
+            modal.classList.remove('hidden');
+        }
+
+        function closeRoomModal() {
+            document.getElementById('room-modal').classList.add('hidden');
+        }
+
+        // Theme Management
+        function initTheme() {
+            const savedTheme = localStorage.getItem('theme') || 'dark';
+            const themeIcon = document.getElementById('theme-icon');
+            if (savedTheme === 'light') {
+                document.documentElement.classList.remove('dark');
+                if (themeIcon) themeIcon.className = 'fa-solid fa-moon text-brand-500';
+            } else {
+                document.documentElement.classList.add('dark');
+                if (themeIcon) themeIcon.className = 'fa-solid fa-sun text-amber-400';
+            }
+        }
+        
+        function toggleTheme() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            const themeIcon = document.getElementById('theme-icon');
+            if (themeIcon) {
+                themeIcon.className = isDark ? 'fa-solid fa-sun text-amber-400' : 'fa-solid fa-moon text-brand-500';
+            }
+        }
+
+        // PDF Print Function
+        function printPDF() {
+            const activeTabName = {
+                'arrivals': 'Gelecekler (Arrivals)',
+                'departures': 'Gidecekler (Departures)',
+                'inhouse': 'Konaklayanlar (In-House)',
+                'vacant': 'Boş Odalar (Vacant)',
+                'roomchanges': 'Değiştirilen Odalar (Room Changes)',
+                'noshow': 'No-Show Misafirler',
+                'roomgrid': 'Oda Planı'
+            }[currentTab] || 'Misafir Listesi';
+            
+            const dateStr = selectedDate || (appData && appData.report_date) || '';
+            const printSubtitle = document.getElementById('print-subtitle');
+            if (printSubtitle) {
+                printSubtitle.innerText = `${activeTabName} - Tarih: ${formatDateTr(dateStr)}`;
+            }
+            
+            window.print();
+        }
+
+        // Initialize theme icon on load
+        initTheme();
+    </script>
 </body>
 </html>
