@@ -1,11 +1,11 @@
 {
-  "sync_time": "2026-08-22 03:00:02",
+  "sync_time": "2026-08-22 04:00:02",
   "report_date": "2026-08-22",
   "summary": {
     "arrivals_count": 15,
     "departures_count": 28,
     "inhouse_count": 84,
-    "noshow_count": 3,
+    "noshow_count": 7,
     "vacant_count": 19,
     "roomchanges_count": 0,
     "hk_count": 111
@@ -2693,8 +2693,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-21",
         "CheckOutDate": "2026-08-22",
-        "Room": "",
-        "RoomType": "STD-LV",
+        "Room": "1002",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -2703,7 +2703,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 1,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       },
       {
@@ -2714,8 +2714,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-21",
         "CheckOutDate": "2026-08-22",
-        "Room": "",
-        "RoomType": "STD-SV",
+        "Room": "1006",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -2724,7 +2724,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 1,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       },
       {
@@ -2735,8 +2735,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-21",
         "CheckOutDate": "2026-08-22",
-        "Room": "",
-        "RoomType": "CLUB LV",
+        "Room": "1000",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -2745,7 +2745,91 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 1,
+        "Status": 3,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "NOSHOW",
+        "GroupNo": "",
+        "RecId": 31868,
+        "FirstName1": "NEILSON0001",
+        "LastName1": "UNUSED",
+        "CheckinDate": "2026-08-21",
+        "CheckOutDate": "2026-08-22",
+        "Room": "1001",
+        "RoomType": "PM",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 3,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "NOSHOW",
+        "GroupNo": "",
+        "RecId": 31869,
+        "FirstName1": "NEILSON0001",
+        "LastName1": "UNUSED",
+        "CheckinDate": "2026-08-21",
+        "CheckOutDate": "2026-08-22",
+        "Room": "1003",
+        "RoomType": "PM",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 3,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "NOSHOW",
+        "GroupNo": "",
+        "RecId": 31870,
+        "FirstName1": "NEILSON0002",
+        "LastName1": "UNUSED",
+        "CheckinDate": "2026-08-21",
+        "CheckOutDate": "2026-08-22",
+        "Room": "1004",
+        "RoomType": "PM",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 3,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "NOSHOW",
+        "GroupNo": "",
+        "RecId": 31871,
+        "FirstName1": "NEILSON0003",
+        "LastName1": "UNUSED",
+        "CheckinDate": "2026-08-21",
+        "CheckOutDate": "2026-08-22",
+        "Room": "1005",
+        "RoomType": "PM",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 3,
         "AgencyCode": "NEILSON"
       }
     ],
@@ -3652,7 +3736,7 @@
       {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3666,7 +3750,7 @@
       {
         "Room": "109",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3953,7 +4037,7 @@
       {
         "Room": "305",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3974,7 +4058,7 @@
       {
         "Room": "308",
         "RoomTypeCode": "STD-SVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4016,28 +4100,28 @@
       {
         "Room": "314",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "315",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "316",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "317",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4058,7 +4142,7 @@
       {
         "Room": "320",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4086,7 +4170,7 @@
       {
         "Room": "324",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4128,7 +4212,7 @@
       {
         "Room": "330",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4205,14 +4289,14 @@
       {
         "Room": "404",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "405",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4261,7 +4345,7 @@
       {
         "Room": "412",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4303,7 +4387,7 @@
       {
         "Room": "418",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4392,7 +4476,7 @@
         "arrivals_count": 15,
         "departures_count": 28,
         "inhouse_count": 84,
-        "noshow_count": 3,
+        "noshow_count": 7,
         "vacant_count": 19,
         "roomchanges_count": 0
       },
@@ -7078,8 +7162,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-21",
           "CheckOutDate": "2026-08-22",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "1002",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -7088,7 +7172,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7099,8 +7183,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-21",
           "CheckOutDate": "2026-08-22",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "1006",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -7109,7 +7193,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7120,8 +7204,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-21",
           "CheckOutDate": "2026-08-22",
-          "Room": "",
-          "RoomType": "CLUB LV",
+          "Room": "1000",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -7130,7 +7214,91 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 3,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "NOSHOW",
+          "GroupNo": "",
+          "RecId": 31868,
+          "FirstName1": "NEILSON0001",
+          "LastName1": "UNUSED",
+          "CheckinDate": "2026-08-21",
+          "CheckOutDate": "2026-08-22",
+          "Room": "1001",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "NOSHOW",
+          "GroupNo": "",
+          "RecId": 31869,
+          "FirstName1": "NEILSON0001",
+          "LastName1": "UNUSED",
+          "CheckinDate": "2026-08-21",
+          "CheckOutDate": "2026-08-22",
+          "Room": "1003",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "NOSHOW",
+          "GroupNo": "",
+          "RecId": 31870,
+          "FirstName1": "NEILSON0002",
+          "LastName1": "UNUSED",
+          "CheckinDate": "2026-08-21",
+          "CheckOutDate": "2026-08-22",
+          "Room": "1004",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "NOSHOW",
+          "GroupNo": "",
+          "RecId": 31871,
+          "FirstName1": "NEILSON0003",
+          "LastName1": "UNUSED",
+          "CheckinDate": "2026-08-21",
+          "CheckOutDate": "2026-08-22",
+          "Room": "1005",
+          "RoomType": "PM",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
           "AgencyCode": "NEILSON"
         }
       ],
@@ -9034,7 +9202,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9216,7 +9384,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9265,21 +9433,21 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9377,7 +9545,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10874,7 +11042,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11077,7 +11245,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11126,21 +11294,21 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11238,7 +11406,7 @@
         {
           "Room": "412",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11259,7 +11427,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12637,7 +12805,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12875,7 +13043,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12924,21 +13092,21 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13085,7 +13253,7 @@
         {
           "Room": "412",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13113,7 +13281,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14449,7 +14617,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14701,7 +14869,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14750,21 +14918,21 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14918,7 +15086,7 @@
         {
           "Room": "412",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14946,7 +15114,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16387,7 +16555,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16646,7 +16814,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16695,28 +16863,28 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16730,7 +16898,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16751,7 +16919,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16884,7 +17052,7 @@
         {
           "Room": "412",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16912,7 +17080,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18248,7 +18416,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18507,7 +18675,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18521,7 +18689,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18563,28 +18731,28 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18598,7 +18766,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18619,7 +18787,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18647,7 +18815,7 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18759,7 +18927,7 @@
         {
           "Room": "412",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18787,7 +18955,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20053,7 +20221,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20067,7 +20235,7 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20340,7 +20508,7 @@
         {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20361,7 +20529,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20403,28 +20571,28 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20438,7 +20606,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20466,7 +20634,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20508,7 +20676,7 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20620,7 +20788,7 @@
         {
           "Room": "412",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20648,7 +20816,7 @@
         {
           "Room": "418",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
