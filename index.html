@@ -989,8 +989,8 @@
             
             // Set End of Day (EOD) Total Pax from SQL General Forecast Analysis
             let eodPax = 0;
-            if (daySummary && daySummary.eod_pax_count !== undefined) {
-                eodPax = daySummary.eod_pax_count;
+            if (appData.by_date && selectedDate && appData.by_date[selectedDate] && appData.by_date[selectedDate].summary && appData.by_date[selectedDate].summary.eod_pax_count !== undefined) {
+                eodPax = appData.by_date[selectedDate].summary.eod_pax_count;
             } else if (appData.summary && appData.summary.eod_pax_count !== undefined) {
                 eodPax = appData.summary.eod_pax_count;
             } else {
