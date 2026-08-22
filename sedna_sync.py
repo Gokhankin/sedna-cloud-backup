@@ -187,6 +187,52 @@ def extract_daily_data():
         print(f"Error fetching room changes: {e}")
         room_changes = []
     
+    
+    # Fetch exact Sedna General Forecast Analysis totals per date directly from SQL
+    forecast_by_date = {}
+    try:
+        min_date_str = today_date.strftime('%Y%m%d')
+        cursor.execute('''
+            SELECT 
+                CONVERT(varchar(10), date_range.dt, 120) AS StayDate,
+                COUNT(DISTINCT r.RecId) AS SoldRooms,
+                SUM(ISNULL(r.Pax, 0) + ISNULL(r.Childs, 0)) AS TotalPax
+            FROM (
+                SELECT CAST(? AS DATE) AS dt
+                UNION ALL SELECT DATEADD(day, 1, CAST(? AS DATE))
+                UNION ALL SELECT DATEADD(day, 2, CAST(? AS DATE))
+                UNION ALL SELECT DATEADD(day, 3, CAST(? AS DATE))
+                UNION ALL SELECT DATEADD(day, 4, CAST(? AS DATE))
+                UNION ALL SELECT DATEADD(day, 5, CAST(? AS DATE))
+                UNION ALL SELECT DATEADD(day, 6, CAST(? AS DATE))
+                UNION ALL SELECT DATEADD(day, 7, CAST(? AS DATE))
+            ) date_range
+            LEFT JOIN Reservation r ON r.CheckinDate <= CONVERT(varchar(8), date_range.dt, 112)
+                                  AND r.CheckOutDate > CONVERT(varchar(8), date_range.dt, 112)
+                                  AND r.Status IN (1, 2)
+                                  AND r.StatusCode IN (0, 1, 2, 3)
+                                  AND NOT (
+                                      UPPER(ISNULL(r.Voucher, '')) LIKE '%NOSHOW%' OR UPPER(ISNULL(r.Voucher, '')) LIKE '%NO-SHOW%' OR UPPER(ISNULL(r.Voucher, '')) LIKE '%NO SHOW%'
+                                      OR UPPER(ISNULL(r.FirstName1, '')) LIKE '%NOSHOW%' OR UPPER(ISNULL(r.LastName1, '')) LIKE '%NOSHOW%'
+                                      OR UPPER(ISNULL(r.FirstName1, '')) LIKE '%UNUSED%' OR UPPER(ISNULL(r.LastName1, '')) LIKE '%UNUSED%'
+                                      OR UPPER(ISNULL(r.Remark, '')) LIKE '%GELMEDI%' OR UPPER(ISNULL(r.Remark, '')) LIKE '%GELMEDİ%'
+                                      OR UPPER(ISNULL(r.ResRemark, '')) LIKE '%GELMEDI%' OR UPPER(ISNULL(r.ResRemark, '')) LIKE '%GELMEDİ%'
+                                  )
+            LEFT JOIN Room rm ON r.RoomNummer = rm.RecId
+            WHERE (r.RecId IS NULL OR r.RoomNummer = 0 OR r.RoomNummer IS NULL OR rm.ForeCast = 1)
+            GROUP BY CONVERT(varchar(10), date_range.dt, 120)
+        ''', (min_date_str, min_date_str, min_date_str, min_date_str, min_date_str, min_date_str, min_date_str, min_date_str))
+        for row in cursor.fetchall():
+            s_date = str(row[0])[:10]
+            forecast_by_date[s_date] = {
+                "forecast_rooms": row[1] or 0,
+                "forecast_pax": row[2] or 0
+            }
+        print('Forecast query succeeded:', forecast_by_date)
+    except Exception as e:
+        print(f"Error fetching forecast by date: {e}")
+        forecast_by_date = {}
+
     # Generate multi-day lists
     by_date = {}
     
@@ -256,11 +302,9 @@ def extract_daily_data():
         # Room changes for date_str
         rc_list = [rc for rc in room_changes if rc.get('RCDate') == date_str]
 
-        arr_pax = sum(int(r.get('Pax') or 0) for r in arr_list)
-        dep_pax = sum(int(r.get('Pax') or 0) for r in dep_list)
-        inh_pax = sum(int(r.get('Pax') or 0) for r in inh_list)
-        eod_room_count = max(0, len(inh_list) + len(arr_list) - len(dep_list))
-        eod_pax_count = max(0, inh_pax + arr_pax - dep_pax)
+        fc_info = forecast_by_date.get(date_str, {})
+        eod_room_count = fc_info.get("forecast_rooms", max(0, len(inh_list) + len(arr_list) - len(dep_list)))
+        eod_pax_count = fc_info.get("forecast_pax", max(0, sum(int(r.get('Pax') or 0) for r in inh_list) + sum(int(r.get('Pax') or 0) for r in arr_list) - sum(int(r.get('Pax') or 0) for r in dep_list)))
 
         by_date[date_str] = {
             "summary": {
@@ -302,7 +346,7 @@ def extract_daily_data():
             "vacant_count": len(today_data.get("vacant", [])),
             "roomchanges_count": len(today_data.get("roomchanges", [])),
             "eod_room_count": max(0, len(today_data.get("inhouse", [])) + len(today_data.get("arrivals", [])) - len(today_data.get("departures", []))),
-            "eod_pax_count": max(0, sum(int(r.get("Pax") or 0) for r in today_data.get("inhouse", [])) + sum(int(r.get("Pax") or 0) for r in today_data.get("arrivals", [])) - sum(int(r.get("Pax") or 0) for r in today_data.get("departures", []))),
+            "eod_pax_count": forecast_by_date.get(today_iso, {}).get("forecast_pax", today_data.get("summary", {}).get("eod_pax_count", 0)),
             "hk_count": len(hk_data)
         },
         "data": {

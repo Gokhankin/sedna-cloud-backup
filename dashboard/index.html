@@ -455,7 +455,7 @@
                 </div>
                 <div class="pt-2 border-t border-slate-700/50 flex justify-between items-center text-xs text-slate-300 font-semibold">
                     <span>Gün Sonu:</span>
-                    <span class="text-purple-400 font-bold"><span id="room-eod">0</span> Oda / <span id="pax-eod">0</span> Pax</span>
+                    <span id="pax-eod" class="text-purple-400 font-bold">0 Pax</span>
                 </div>
             </div>
 
@@ -970,11 +970,15 @@
             document.getElementById('pax-departures').innerText = departuresPax;
             document.getElementById('pax-inhouse').innerText = inhousePax;
             
-            // Calculate and set End of Day (EOD) Rooms & Pax: In-house + Arrivals - Departures
-            const eodRooms = Math.max(0, inhouseList.length + arrivalsList.length - departuresList.length);
-            const eodPax = Math.max(0, inhousePax + arrivalsPax - departuresPax);
-            const roomEodEl = document.getElementById('room-eod');
-            if (roomEodEl) roomEodEl.innerText = eodRooms;
+            // Set End of Day (EOD) Total Pax from SQL General Forecast Analysis
+            let eodPax = 0;
+            if (daySummary && daySummary.eod_pax_count !== undefined) {
+                eodPax = daySummary.eod_pax_count;
+            } else if (appData.summary && appData.summary.eod_pax_count !== undefined) {
+                eodPax = appData.summary.eod_pax_count;
+            } else {
+                eodPax = Math.max(0, inhousePax + arrivalsPax - departuresPax);
+            }
             document.getElementById('pax-eod').innerText = `${eodPax} Pax`;
             
             // Calculate and set Total Bakiye
