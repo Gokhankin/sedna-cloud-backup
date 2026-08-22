@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-22 08:00:03",
+  "sync_time": "2026-08-22 09:00:02",
   "report_date": "2026-08-22",
   "summary": {
     "arrivals_count": 14,
-    "departures_count": 27,
-    "inhouse_count": 84,
+    "departures_count": 25,
+    "inhouse_count": 82,
     "noshow_count": 7,
-    "vacant_count": 20,
+    "vacant_count": 22,
     "roomchanges_count": 0,
     "hk_count": 111
   },
@@ -456,27 +456,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "75-3678838",
-        "GroupNo": "",
-        "RecId": 31502,
-        "FirstName1": "VIKTOR",
-        "LastName1": "TIAN",
-        "CheckinDate": "2026-08-15",
-        "CheckOutDate": "2026-08-22",
-        "Room": "102",
-        "RoomType": "CLUB LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
         "Voucher": "2623204",
         "GroupNo": "",
         "RecId": 31553,
@@ -727,27 +706,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "31757",
-        "GroupNo": "",
-        "RecId": 31757,
-        "FirstName1": "SAFIYE",
-        "LastName1": "OZBAY",
-        "CheckinDate": "2026-08-17",
-        "CheckOutDate": "2026-08-22",
-        "Room": "413",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 17368.8165,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "31769",
@@ -1025,27 +983,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "75-3678838",
-        "GroupNo": "",
-        "RecId": 31502,
-        "FirstName1": "VIKTOR",
-        "LastName1": "TIAN",
-        "CheckinDate": "2026-08-15",
-        "CheckOutDate": "2026-08-22",
-        "Room": "102",
-        "RoomType": "CLUB LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
         "Voucher": "2623204",
         "GroupNo": "",
         "RecId": 31553,
@@ -1296,27 +1233,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "31757",
-        "GroupNo": "",
-        "RecId": 31757,
-        "FirstName1": "SAFIYE",
-        "LastName1": "OZBAY",
-        "CheckinDate": "2026-08-17",
-        "CheckOutDate": "2026-08-22",
-        "Room": "413",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 17368.8165,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "31769",
@@ -2800,6 +2716,13 @@
         "OccVac": 1
       },
       {
+        "Room": "102",
+        "RoomTypeCode": "CLUB LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "119",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 0,
@@ -2908,6 +2831,13 @@
         "Room": "407",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "413",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4439,10 +4369,10 @@
     "2026-08-22": {
       "summary": {
         "arrivals_count": 14,
-        "departures_count": 27,
-        "inhouse_count": 84,
+        "departures_count": 25,
+        "inhouse_count": 82,
         "noshow_count": 7,
-        "vacant_count": 20,
+        "vacant_count": 22,
         "roomchanges_count": 0
       },
       "arrivals": [
@@ -4890,27 +4820,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "75-3678838",
-          "GroupNo": "",
-          "RecId": 31502,
-          "FirstName1": "VIKTOR",
-          "LastName1": "TIAN",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "102",
-          "RoomType": "CLUB LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "2623204",
           "GroupNo": "",
           "RecId": 31553,
@@ -5161,27 +5070,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "31757",
-          "GroupNo": "",
-          "RecId": 31757,
-          "FirstName1": "SAFIYE",
-          "LastName1": "OZBAY",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "413",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 17368.8165,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "31769",
@@ -5459,27 +5347,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "75-3678838",
-          "GroupNo": "",
-          "RecId": 31502,
-          "FirstName1": "VIKTOR",
-          "LastName1": "TIAN",
-          "CheckinDate": "2026-08-15",
-          "CheckOutDate": "2026-08-22",
-          "Room": "102",
-          "RoomType": "CLUB LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "2623204",
           "GroupNo": "",
           "RecId": 31553,
@@ -5730,27 +5597,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "31757",
-          "GroupNo": "",
-          "RecId": 31757,
-          "FirstName1": "SAFIYE",
-          "LastName1": "OZBAY",
-          "CheckinDate": "2026-08-17",
-          "CheckOutDate": "2026-08-22",
-          "Room": "413",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 17368.8165,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "31769",
@@ -7234,6 +7080,13 @@
           "OccVac": 1
         },
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -7342,6 +7195,13 @@
           "Room": "407",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "413",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
