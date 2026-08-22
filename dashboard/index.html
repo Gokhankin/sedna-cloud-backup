@@ -742,54 +742,71 @@
                 .toLowerCase();
         }
 
-        async function fetchData() {
+        async function fetchData(retryCount = 0) {
             const statusEl = document.getElementById('connection-status');
-            statusEl.innerHTML = `
-                <span class="relative flex h-3 w-3">
-                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                  <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
-                </span>
-                Senkronize ediliyor...
-            `;
-            statusEl.className = "flex items-center gap-2 text-amber-400";
+            if (statusEl && retryCount === 0) {
+                statusEl.innerHTML = `
+                    <span class="relative flex h-3 w-3">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+                    </span>
+                    Senkronize ediliyor...
+                `;
+                statusEl.className = "flex items-center gap-2 text-amber-400";
+            }
 
             try {
-                // Add timestamp parameter to prevent browser caching
-                const res = await fetch(`${FIREBASE_URL}?t=${new Date().getTime()}`);
-                if (!res.ok) throw new Error("Ağ hatası!");
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 8000);
+
+                const res = await fetch(`${FIREBASE_URL}?t=${new Date().getTime()}`, { signal: controller.signal });
+                clearTimeout(timeoutId);
+
+                if (!res.ok) throw new Error(`Ağ hatası (${res.status})`);
                 const data = await res.json();
                 
                 if (data) {
                     appData = data;
-                    // Cache data in localStorage for offline availability
                     try {
                         localStorage.setItem('sedna_cloud_snapshot', JSON.stringify(data));
                     } catch (e) {
-                        console.warn("localStorage quota exceeded, could not cache snapshot", e);
+                        console.warn("localStorage quota exceeded", e);
                     }
                     updateDashboard();
-                    statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span> Çevrimiçi`;
-                    statusEl.className = "flex items-center gap-2 text-emerald-400";
+                    if (statusEl) {
+                        statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)]"></span> Çevrimiçi`;
+                        statusEl.className = "flex items-center gap-2 text-emerald-400";
+                    }
+                    return;
                 } else {
                     throw new Error("Veri boş!");
                 }
             } catch (err) {
-                console.error(err);
+                console.warn(`Fetch attempt ${retryCount + 1} failed:`, err);
+                if (retryCount < 2) {
+                    setTimeout(() => fetchData(retryCount + 1), 1000);
+                    return;
+                }
+
                 // Attempt fallback to cached offline data
                 const cachedData = localStorage.getItem('sedna_cloud_snapshot');
                 if (cachedData) {
                     try {
                         appData = JSON.parse(cachedData);
                         updateDashboard();
-                        statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.8)]"></span> Çevrimdışı (Önbellekten Yüklendi)`;
-                        statusEl.className = "flex items-center gap-2 text-amber-400";
+                        if (statusEl) {
+                            statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.8)]"></span> Çevrimdışı (Önbellekten Yüklendi)`;
+                            statusEl.className = "flex items-center gap-2 text-amber-400";
+                        }
                         return;
                     } catch (parseErr) {
                         console.error("Cache parse error", parseErr);
                     }
                 }
-                statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.8)]"></span> Çevrimdışı (Hata)`;
-                statusEl.className = "flex items-center gap-2 text-rose-400";
+                if (statusEl) {
+                    statusEl.innerHTML = `<span class="w-3 h-3 rounded-full bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.8)]"></span> Çevrimdışı (Hata)`;
+                    statusEl.className = "flex items-center gap-2 text-rose-400";
+                }
             }
         }
 
