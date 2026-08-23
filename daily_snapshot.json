@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-23 06:00:02",
+  "sync_time": "2026-08-23 07:00:02",
   "report_date": "2026-08-23",
   "summary": {
     "arrivals_count": 7,
-    "departures_count": 22,
-    "inhouse_count": 71,
+    "departures_count": 20,
+    "inhouse_count": 69,
     "noshow_count": 6,
-    "vacant_count": 32,
+    "vacant_count": 34,
     "roomchanges_count": 0,
     "eod_room_count": 56,
     "eod_pax_count": 100,
@@ -353,27 +353,6 @@
         "AgencyCode": "TRSTCA/DIANA"
       },
       {
-        "Voucher": "2627197",
-        "GroupNo": "",
-        "RecId": 31721,
-        "FirstName1": "SEZER",
-        "LastName1": "YILDIZ",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-23",
-        "Room": "418",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 5370.502,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
         "Voucher": "2627459",
         "GroupNo": "",
         "RecId": 31732,
@@ -456,27 +435,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "BOOKING.COM"
-      },
-      {
-        "Voucher": "2537441357",
-        "GroupNo": "",
-        "RecId": 31781,
-        "FirstName1": "REYHAN",
-        "LastName1": "BUTEL",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-23",
-        "Room": "304",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 885.856,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "31802",
@@ -817,27 +775,6 @@
         "AgencyCode": "TRSTCA/DIANA"
       },
       {
-        "Voucher": "2627197",
-        "GroupNo": "",
-        "RecId": 31721,
-        "FirstName1": "SEZER",
-        "LastName1": "YILDIZ",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-23",
-        "Room": "418",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 5370.502,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
         "Voucher": "2627459",
         "GroupNo": "",
         "RecId": 31732,
@@ -920,27 +857,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "BOOKING.COM"
-      },
-      {
-        "Voucher": "2537441357",
-        "GroupNo": "",
-        "RecId": 31781,
-        "FirstName1": "REYHAN",
-        "LastName1": "BUTEL",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-23",
-        "Room": "304",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 885.856,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "31802",
@@ -2354,6 +2270,13 @@
         "OccVac": 1
       },
       {
+        "Room": "304",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "305",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
@@ -2441,6 +2364,13 @@
         "Room": "407",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "418",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2593,26 +2523,6 @@
         "AgencyCode": "MUNFERIT TL",
         "RCDate": "2026-08-21",
         "Time": "17:16",
-        "RoomChanged": "1"
-      },
-      {
-        "ReservationId": 31721,
-        "RecordDate": "2026-08-21 16:49:13",
-        "OldRoom": "120",
-        "NewRoom": "418",
-        "RecordUser": "Ataberk",
-        "Voucher": "2627197",
-        "FirstName1": "SEZER",
-        "LastName1": "YILDIZ",
-        "AgencyId": 1134,
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-23",
-        "PriceType": "STD-LV",
-        "Remark": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA",
-        "RCDate": "2026-08-21",
-        "Time": "16:49",
         "RoomChanged": "1"
       },
       {
@@ -3819,10 +3729,10 @@
     "2026-08-23": {
       "summary": {
         "arrivals_count": 7,
-        "departures_count": 22,
-        "inhouse_count": 71,
+        "departures_count": 20,
+        "inhouse_count": 69,
         "noshow_count": 6,
-        "vacant_count": 32,
+        "vacant_count": 34,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 100
@@ -4167,27 +4077,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "2627197",
-          "GroupNo": "",
-          "RecId": 31721,
-          "FirstName1": "SEZER",
-          "LastName1": "YILDIZ",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-23",
-          "Room": "418",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 5370.502,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
           "Voucher": "2627459",
           "GroupNo": "",
           "RecId": 31732,
@@ -4270,27 +4159,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
-        },
-        {
-          "Voucher": "2537441357",
-          "GroupNo": "",
-          "RecId": 31781,
-          "FirstName1": "REYHAN",
-          "LastName1": "BUTEL",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-23",
-          "Room": "304",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 885.856,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "31802",
@@ -4631,27 +4499,6 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "2627197",
-          "GroupNo": "",
-          "RecId": 31721,
-          "FirstName1": "SEZER",
-          "LastName1": "YILDIZ",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-23",
-          "Room": "418",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 5370.502,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
           "Voucher": "2627459",
           "GroupNo": "",
           "RecId": 31732,
@@ -4734,27 +4581,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
-        },
-        {
-          "Voucher": "2537441357",
-          "GroupNo": "",
-          "RecId": 31781,
-          "FirstName1": "REYHAN",
-          "LastName1": "BUTEL",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-23",
-          "Room": "304",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 885.856,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "31802",
@@ -6168,6 +5994,13 @@
           "OccVac": 1
         },
         {
+          "Room": "304",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -6255,6 +6088,13 @@
           "Room": "407",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
