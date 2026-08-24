@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-08-24 02:00:02",
+  "sync_time": "2026-08-24 03:00:02",
   "report_date": "2026-08-24",
   "summary": {
     "arrivals_count": 7,
@@ -1603,8 +1603,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "STD-SV",
+        "Room": "1000",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1613,7 +1613,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1624,8 +1624,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "STD-LV",
+        "Room": "1001",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1634,7 +1634,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1645,8 +1645,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "CLUB LV",
+        "Room": "1002",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1655,7 +1655,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1666,8 +1666,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "STD-SV",
+        "Room": "1003",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1676,7 +1676,7 @@
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1687,8 +1687,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "STD-SV",
+        "Room": "1004",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1697,7 +1697,7 @@
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1708,8 +1708,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "STD-LV",
+        "Room": "1005",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1718,7 +1718,7 @@
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1729,8 +1729,8 @@
         "LastName1": "UNUSED",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-24",
-        "Room": "",
-        "RoomType": "STD-LV",
+        "Room": "1006",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -1739,7 +1739,7 @@
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
-        "Status": 1,
+        "Status": 2,
         "AgencyCode": "NEILSON"
       }
     ],
@@ -4930,8 +4930,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "1000",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -4940,7 +4940,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -4951,8 +4951,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "1001",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -4961,7 +4961,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -4972,8 +4972,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "CLUB LV",
+          "Room": "1002",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -4982,7 +4982,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -4993,8 +4993,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "1003",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5003,7 +5003,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -5014,8 +5014,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "1004",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5024,7 +5024,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -5035,8 +5035,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "1005",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5045,7 +5045,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -5056,8 +5056,8 @@
           "LastName1": "UNUSED",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "1006",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5066,7 +5066,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         }
       ],
