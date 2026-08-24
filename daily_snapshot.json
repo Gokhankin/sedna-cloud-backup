@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-08-24 09:00:03",
+  "sync_time": "2026-08-24 10:00:03",
   "report_date": "2026-08-24",
   "summary": {
-    "arrivals_count": 7,
+    "arrivals_count": 8,
     "departures_count": 8,
     "inhouse_count": 59,
     "noshow_count": 7,
-    "vacant_count": 42,
+    "vacant_count": 41,
     "roomchanges_count": 0,
-    "eod_room_count": 58,
-    "eod_pax_count": 104,
+    "eod_room_count": 59,
+    "eod_pax_count": 105,
     "hk_count": 111
   },
   "data": {
@@ -160,6 +160,27 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "TRSTCA/DIANA"
+      },
+      {
+        "Voucher": "31915",
+        "GroupNo": "",
+        "RecId": 31915,
+        "FirstName1": "HALIL",
+        "LastName1": "APA",
+        "CheckinDate": "2026-08-24",
+        "CheckOutDate": "2026-08-31",
+        "Room": "704",
+        "RoomType": "STD SEA",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "COMP"
       }
     ],
     "departures": [
@@ -1103,7 +1124,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 4033.1448,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -2006,13 +2027,6 @@
       {
         "Room": "701",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "704",
-        "RoomTypeCode": "STD SEA",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -2939,7 +2953,7 @@
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3263,14 +3277,14 @@
   "by_date": {
     "2026-08-24": {
       "summary": {
-        "arrivals_count": 7,
+        "arrivals_count": 8,
         "departures_count": 8,
         "inhouse_count": 59,
         "noshow_count": 7,
-        "vacant_count": 42,
+        "vacant_count": 41,
         "roomchanges_count": 0,
-        "eod_room_count": 58,
-        "eod_pax_count": 104
+        "eod_room_count": 59,
+        "eod_pax_count": 105
       },
       "arrivals": [
         {
@@ -3419,6 +3433,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
         }
       ],
       "departures": [
@@ -4362,7 +4397,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 4033.1448,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5268,13 +5303,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -5283,12 +5311,12 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 13,
-        "inhouse_count": 54,
+        "inhouse_count": 55,
         "noshow_count": 0,
-        "vacant_count": 62,
+        "vacant_count": 58,
         "roomchanges_count": 0,
-        "eod_room_count": 54,
-        "eod_pax_count": 97
+        "eod_room_count": 55,
+        "eod_pax_count": 98
       },
       "arrivals": [
         {
@@ -5299,7 +5327,7 @@
           "LastName1": "BAZ",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -5320,8 +5348,8 @@
           "LastName1": "BAZ002",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
-          "RoomType": "STD SEA",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5467,7 +5495,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -6149,7 +6177,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 4033.1448,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6185,7 +6213,7 @@
           "LastName1": "BAZ",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -6206,8 +6234,8 @@
           "LastName1": "BAZ002",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
-          "RoomType": "STD SEA",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -6745,6 +6773,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -6878,7 +6927,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -7000,13 +7049,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -7091,22 +7133,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -7320,13 +7348,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -7335,12 +7356,12 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 10,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 72,
+        "vacant_count": 68,
         "roomchanges_count": 0,
-        "eod_room_count": 53,
-        "eod_pax_count": 95
+        "eod_room_count": 54,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -7928,7 +7949,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 4033.1448,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7964,7 +7985,7 @@
           "LastName1": "BAZ",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -7985,8 +8006,8 @@
           "LastName1": "BAZ002",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
-          "RoomType": "STD SEA",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -8629,6 +8650,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -8825,7 +8867,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -8982,13 +9024,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -9094,22 +9129,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9358,13 +9379,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -9373,12 +9387,12 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 9,
-        "inhouse_count": 55,
+        "inhouse_count": 56,
         "noshow_count": 0,
-        "vacant_count": 81,
+        "vacant_count": 77,
         "roomchanges_count": 0,
-        "eod_room_count": 55,
-        "eod_pax_count": 101
+        "eod_room_count": 56,
+        "eod_pax_count": 102
       },
       "arrivals": [
         {
@@ -9796,7 +9810,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 4033.1448,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9834,7 +9848,7 @@
           "LastName1": "BAZ",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -9855,8 +9869,8 @@
           "LastName1": "BAZ002",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
-          "RoomType": "STD SEA",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -10604,6 +10618,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -10842,7 +10877,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -11090,13 +11125,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -11209,22 +11237,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11518,13 +11532,6 @@
         },
         {
           "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "704",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -11537,12 +11544,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 8,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 87,
+        "vacant_count": 85,
         "roomchanges_count": 0,
-        "eod_room_count": 53,
-        "eod_pax_count": 94
+        "eod_room_count": 54,
+        "eod_pax_count": 95
       },
       "arrivals": [
         {
@@ -11702,7 +11709,7 @@
           "LastName1": "BAZ",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -11723,8 +11730,8 @@
           "LastName1": "BAZ002",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-28",
-          "Room": "",
-          "RoomType": "STD SEA",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -12474,6 +12481,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -12754,7 +12782,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -13081,13 +13109,6 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -13560,13 +13581,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -13575,12 +13589,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 15,
-        "inhouse_count": 44,
+        "inhouse_count": 45,
         "noshow_count": 0,
-        "vacant_count": 97,
+        "vacant_count": 95,
         "roomchanges_count": 0,
-        "eod_room_count": 44,
-        "eod_pax_count": 76
+        "eod_room_count": 45,
+        "eod_pax_count": 77
       },
       "arrivals": [
         {
@@ -14344,6 +14358,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -14645,7 +14680,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -15096,13 +15131,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -15364,7 +15392,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15626,13 +15654,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -15641,12 +15662,12 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 7,
-        "inhouse_count": 48,
+        "inhouse_count": 49,
         "noshow_count": 0,
-        "vacant_count": 98,
+        "vacant_count": 96,
         "roomchanges_count": 0,
-        "eod_room_count": 48,
-        "eod_pax_count": 85
+        "eod_room_count": 49,
+        "eod_pax_count": 86
       },
       "arrivals": [
         {
@@ -16200,6 +16221,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -16543,7 +16585,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -17183,13 +17225,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -17451,7 +17486,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17720,13 +17755,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -17734,10 +17762,10 @@
     "2026-08-31": {
       "summary": {
         "arrivals_count": 8,
-        "departures_count": 11,
+        "departures_count": 12,
         "inhouse_count": 45,
         "noshow_count": 0,
-        "vacant_count": 99,
+        "vacant_count": 98,
         "roomchanges_count": 0,
         "eod_room_count": 45,
         "eod_pax_count": 80
@@ -18082,6 +18110,27 @@
           "AgencyCode": "ITS REISEN"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3030225",
           "GroupNo": "",
           "RecId": 30138,
@@ -18427,7 +18476,7 @@
           "LastName1": "SMORODINA",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-09-03",
-          "Room": "",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -19235,13 +19284,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -19503,7 +19545,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
