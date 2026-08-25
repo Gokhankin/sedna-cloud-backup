@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-08-26 01:00:02",
+  "sync_time": "2026-08-26 02:00:03",
   "report_date": "2026-08-26",
   "summary": {
     "arrivals_count": 10,
@@ -7,7 +7,7 @@
     "inhouse_count": 55,
     "noshow_count": 3,
     "vacant_count": 44,
-    "roomchanges_count": 0,
+    "roomchanges_count": 2,
     "eod_room_count": 55,
     "eod_pax_count": 99,
     "hk_count": 111
@@ -824,7 +824,7 @@
         "LastName1": "DEDEOGLU",
         "CheckinDate": "2026-08-24",
         "CheckOutDate": "2026-08-27",
-        "Room": "325",
+        "Room": "134",
         "RoomType": "JR SUIT S",
         "Board": "BB",
         "Pax": 2,
@@ -956,7 +956,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 7055.2314,
+        "ExtraFolioBalance": 7055.23139,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1219,7 +1219,7 @@
         "Voucher": "31636",
         "GroupNo": "",
         "RecId": 31636,
-        "FirstName1": "MORGAN",
+        "FirstName1": "MORGAN LEWIS",
         "LastName1": "BOWEN",
         "CheckinDate": "2026-08-25",
         "CheckOutDate": "2026-08-29",
@@ -1244,7 +1244,7 @@
         "LastName1": "PELEN YUKSEL",
         "CheckinDate": "2026-08-23",
         "CheckOutDate": "2026-08-29",
-        "Room": "332",
+        "Room": "333",
         "RoomType": "STD-LV",
         "Board": "AI",
         "Pax": 2,
@@ -1429,7 +1429,7 @@
         "Voucher": "F38113",
         "GroupNo": "",
         "RecId": 31774,
-        "FirstName1": "JERREL",
+        "FirstName1": "JERREL HAROEN",
         "LastName1": "RAHIMBAKS",
         "CheckinDate": "2026-08-25",
         "CheckOutDate": "2026-08-31",
@@ -1794,13 +1794,6 @@
         "OccVac": 1
       },
       {
-        "Room": "134",
-        "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "201",
         "RoomTypeCode": "STD SEA",
         "DirtyClean": 0,
@@ -1857,9 +1850,16 @@
         "OccVac": 1
       },
       {
-        "Room": "333",
+        "Room": "325",
+        "RoomTypeCode": "JR SUIT S",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "332",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1969,8 +1969,89 @@
         "OccVac": 1
       }
     ],
-    "roomchanges": [],
+    "roomchanges": [
+      {
+        "ReservationId": 31872,
+        "RecordDate": "2026-08-26 01:09:51",
+        "OldRoom": "332",
+        "NewRoom": "333",
+        "RecordUser": "Bahadır",
+        "Voucher": "81269072",
+        "FirstName1": "MELDA",
+        "LastName1": "PELEN YUKSEL",
+        "AgencyId": 1100,
+        "CheckinDate": "2026-08-23",
+        "CheckOutDate": "2026-08-29",
+        "PriceType": "STD-LV",
+        "Remark": "FIYAT BOYLE KALACAK",
+        "Status": 2,
+        "AgencyCode": "LTUR",
+        "RCDate": "2026-08-26",
+        "Time": "01:09",
+        "RoomChanged": "1"
+      },
+      {
+        "ReservationId": 31655,
+        "RecordDate": "2026-08-26 01:09:10",
+        "OldRoom": "325",
+        "NewRoom": "134",
+        "RecordUser": "Bahadır",
+        "Voucher": "2533240707",
+        "FirstName1": "ANIL",
+        "LastName1": "DEDEOGLU",
+        "AgencyId": 8,
+        "CheckinDate": "2026-08-24",
+        "CheckOutDate": "2026-08-27",
+        "PriceType": "STD SEA",
+        "Remark": "ODEME ALINDI ISLENDI //BALAYI ODASI BALKONLU GUZEL ODA RICADIR",
+        "Status": 2,
+        "AgencyCode": "EXPEDIA",
+        "RCDate": "2026-08-26",
+        "Time": "01:09",
+        "RoomChanged": "1"
+      }
+    ],
     "all_roomchanges": [
+      {
+        "ReservationId": 31872,
+        "RecordDate": "2026-08-26 01:09:51",
+        "OldRoom": "332",
+        "NewRoom": "333",
+        "RecordUser": "Bahadır",
+        "Voucher": "81269072",
+        "FirstName1": "MELDA",
+        "LastName1": "PELEN YUKSEL",
+        "AgencyId": 1100,
+        "CheckinDate": "2026-08-23",
+        "CheckOutDate": "2026-08-29",
+        "PriceType": "STD-LV",
+        "Remark": "FIYAT BOYLE KALACAK",
+        "Status": 2,
+        "AgencyCode": "LTUR",
+        "RCDate": "2026-08-26",
+        "Time": "01:09",
+        "RoomChanged": "1"
+      },
+      {
+        "ReservationId": 31655,
+        "RecordDate": "2026-08-26 01:09:10",
+        "OldRoom": "325",
+        "NewRoom": "134",
+        "RecordUser": "Bahadır",
+        "Voucher": "2533240707",
+        "FirstName1": "ANIL",
+        "LastName1": "DEDEOGLU",
+        "AgencyId": 8,
+        "CheckinDate": "2026-08-24",
+        "CheckOutDate": "2026-08-27",
+        "PriceType": "STD SEA",
+        "Remark": "ODEME ALINDI ISLENDI //BALAYI ODASI BALKONLU GUZEL ODA RICADIR",
+        "Status": 2,
+        "AgencyCode": "EXPEDIA",
+        "RCDate": "2026-08-26",
+        "Time": "01:09",
+        "RoomChanged": "1"
+      },
       {
         "ReservationId": 31636,
         "RecordDate": "2026-08-25 16:10:26",
@@ -1978,7 +2059,7 @@
         "NewRoom": "326",
         "RecordUser": "HANNAH",
         "Voucher": "31636",
-        "FirstName1": "MORGAN",
+        "FirstName1": "MORGAN LEWIS",
         "LastName1": "BOWEN",
         "AgencyId": 3,
         "CheckinDate": "2026-08-25",
@@ -2320,7 +2401,7 @@
         "Remark": "KLIMA ARIZASI SEBEBIYLE ODA DEGISIKLIGI YAPILMISTIR",
         "RecordUser": "DİLEK",
         "RecordDate": "2026-08-25 21:27:56",
-        "RoomChanged": 0,
+        "RoomChanged": 1,
         "ReservationId": 31655,
         "Voucher": "2533240707",
         "FirstName1": "ANIL",
@@ -2683,7 +2764,7 @@
       {
         "Room": "134",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3236,7 +3317,7 @@
         "inhouse_count": 55,
         "noshow_count": 3,
         "vacant_count": 44,
-        "roomchanges_count": 0,
+        "roomchanges_count": 2,
         "eod_room_count": 56,
         "eod_pax_count": 99
       },
@@ -4051,7 +4132,7 @@
           "LastName1": "DEDEOGLU",
           "CheckinDate": "2026-08-24",
           "CheckOutDate": "2026-08-27",
-          "Room": "325",
+          "Room": "134",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
@@ -4183,7 +4264,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7055.2314,
+          "ExtraFolioBalance": 7055.23139,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4446,7 +4527,7 @@
           "Voucher": "31636",
           "GroupNo": "",
           "RecId": 31636,
-          "FirstName1": "MORGAN",
+          "FirstName1": "MORGAN LEWIS",
           "LastName1": "BOWEN",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-29",
@@ -4471,7 +4552,7 @@
           "LastName1": "PELEN YUKSEL",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-29",
-          "Room": "332",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -4656,7 +4737,7 @@
           "Voucher": "F38113",
           "GroupNo": "",
           "RecId": 31774,
-          "FirstName1": "JERREL",
+          "FirstName1": "JERREL HAROEN",
           "LastName1": "RAHIMBAKS",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-31",
@@ -5021,13 +5102,6 @@
           "OccVac": 1
         },
         {
-          "Room": "134",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
@@ -5084,9 +5158,16 @@
           "OccVac": 1
         },
         {
-          "Room": "333",
+          "Room": "325",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5196,7 +5277,48 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 31872,
+          "RecordDate": "2026-08-26 01:09:51",
+          "OldRoom": "332",
+          "NewRoom": "333",
+          "RecordUser": "Bahadır",
+          "Voucher": "81269072",
+          "FirstName1": "MELDA",
+          "LastName1": "PELEN YUKSEL",
+          "AgencyId": 1100,
+          "CheckinDate": "2026-08-23",
+          "CheckOutDate": "2026-08-29",
+          "PriceType": "STD-LV",
+          "Remark": "FIYAT BOYLE KALACAK",
+          "Status": 2,
+          "AgencyCode": "LTUR",
+          "RCDate": "2026-08-26",
+          "Time": "01:09",
+          "RoomChanged": "1"
+        },
+        {
+          "ReservationId": 31655,
+          "RecordDate": "2026-08-26 01:09:10",
+          "OldRoom": "325",
+          "NewRoom": "134",
+          "RecordUser": "Bahadır",
+          "Voucher": "2533240707",
+          "FirstName1": "ANIL",
+          "LastName1": "DEDEOGLU",
+          "AgencyId": 8,
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-08-27",
+          "PriceType": "STD SEA",
+          "Remark": "ODEME ALINDI ISLENDI //BALAYI ODASI BALKONLU GUZEL ODA RICADIR",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA",
+          "RCDate": "2026-08-26",
+          "Time": "01:09",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-08-27": {
       "summary": {
@@ -5682,7 +5804,7 @@
           "LastName1": "DEDEOGLU",
           "CheckinDate": "2026-08-24",
           "CheckOutDate": "2026-08-27",
-          "Room": "325",
+          "Room": "134",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
@@ -5837,7 +5959,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7055.2314,
+          "ExtraFolioBalance": 7055.23139,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6205,7 +6327,7 @@
           "Voucher": "31636",
           "GroupNo": "",
           "RecId": 31636,
-          "FirstName1": "MORGAN",
+          "FirstName1": "MORGAN LEWIS",
           "LastName1": "BOWEN",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-29",
@@ -6230,7 +6352,7 @@
           "LastName1": "PELEN YUKSEL",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-29",
-          "Room": "332",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -6604,7 +6726,7 @@
           "Voucher": "F38113",
           "GroupNo": "",
           "RecId": 31774,
-          "FirstName1": "JERREL",
+          "FirstName1": "JERREL HAROEN",
           "LastName1": "RAHIMBAKS",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-31",
@@ -7138,7 +7260,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7255,9 +7377,9 @@
           "OccVac": 1
         },
         {
-          "Room": "333",
+          "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7663,7 +7785,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7055.2314,
+          "ExtraFolioBalance": 7055.23139,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8033,7 +8155,7 @@
           "Voucher": "31636",
           "GroupNo": "",
           "RecId": 31636,
-          "FirstName1": "MORGAN",
+          "FirstName1": "MORGAN LEWIS",
           "LastName1": "BOWEN",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-29",
@@ -8058,7 +8180,7 @@
           "LastName1": "PELEN YUKSEL",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-29",
-          "Room": "332",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -8432,7 +8554,7 @@
           "Voucher": "F38113",
           "GroupNo": "",
           "RecId": 31774,
-          "FirstName1": "JERREL",
+          "FirstName1": "JERREL HAROEN",
           "LastName1": "RAHIMBAKS",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-31",
@@ -9099,7 +9221,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9258,9 +9380,9 @@
           "OccVac": 1
         },
         {
-          "Room": "333",
+          "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9873,7 +9995,7 @@
           "Voucher": "31636",
           "GroupNo": "",
           "RecId": 31636,
-          "FirstName1": "MORGAN",
+          "FirstName1": "MORGAN LEWIS",
           "LastName1": "BOWEN",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-29",
@@ -9898,7 +10020,7 @@
           "LastName1": "PELEN YUKSEL",
           "CheckinDate": "2026-08-23",
           "CheckOutDate": "2026-08-29",
-          "Room": "332",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -10274,7 +10396,7 @@
           "Voucher": "F38113",
           "GroupNo": "",
           "RecId": 31774,
-          "FirstName1": "JERREL",
+          "FirstName1": "JERREL HAROEN",
           "LastName1": "RAHIMBAKS",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-31",
@@ -11116,7 +11238,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12116,7 +12238,7 @@
           "Voucher": "F38113",
           "GroupNo": "",
           "RecId": 31774,
-          "FirstName1": "JERREL",
+          "FirstName1": "JERREL HAROEN",
           "LastName1": "RAHIMBAKS",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-31",
@@ -13238,7 +13360,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14005,7 +14127,7 @@
           "Voucher": "F38113",
           "GroupNo": "",
           "RecId": 31774,
-          "FirstName1": "JERREL",
+          "FirstName1": "JERREL HAROEN",
           "LastName1": "RAHIMBAKS",
           "CheckinDate": "2026-08-25",
           "CheckOutDate": "2026-08-31",
@@ -15304,7 +15426,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17503,7 +17625,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19611,7 +19733,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
