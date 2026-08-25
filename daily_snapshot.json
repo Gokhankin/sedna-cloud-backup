@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-25 05:00:02",
+  "sync_time": "2026-08-25 06:00:02",
   "report_date": "2026-08-25",
   "summary": {
-    "arrivals_count": 9,
+    "arrivals_count": 8,
     "departures_count": 13,
-    "inhouse_count": 59,
+    "inhouse_count": 60,
     "noshow_count": 8,
-    "vacant_count": 44,
+    "vacant_count": 43,
     "roomchanges_count": 0,
     "eod_room_count": 55,
     "eod_pax_count": 98,
@@ -118,27 +118,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "TUI NETHERLANDS"
-      },
-      {
-        "Voucher": "24257276",
-        "GroupNo": "",
-        "RecId": 31881,
-        "FirstName1": "NADEJDA",
-        "LastName1": "ANDRONACHI",
-        "CheckinDate": "2026-08-25",
-        "CheckOutDate": "2026-08-31",
-        "Room": "208",
-        "RoomType": "STD-LVL",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1136,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "JOIN UP TRAVEL"
       },
       {
         "Voucher": "2630266",
@@ -1636,6 +1615,27 @@
         "AgencyCode": "COMP"
       },
       {
+        "Voucher": "24257276",
+        "GroupNo": "",
+        "RecId": 31881,
+        "FirstName1": "NADEJDA",
+        "LastName1": "ANDRONACHI",
+        "CheckinDate": "2026-08-25",
+        "CheckOutDate": "2026-08-31",
+        "Room": "412",
+        "RoomType": "STD-LVL",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1136,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "JOIN UP TRAVEL"
+      },
+      {
         "Voucher": "31915",
         "GroupNo": "",
         "RecId": 31915,
@@ -2146,13 +2146,6 @@
       {
         "Room": "411",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "412",
-        "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -3445,11 +3438,11 @@
   "by_date": {
     "2026-08-25": {
       "summary": {
-        "arrivals_count": 9,
+        "arrivals_count": 8,
         "departures_count": 13,
-        "inhouse_count": 59,
+        "inhouse_count": 60,
         "noshow_count": 8,
-        "vacant_count": 44,
+        "vacant_count": 43,
         "roomchanges_count": 0,
         "eod_room_count": 55,
         "eod_pax_count": 98
@@ -3559,27 +3552,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "2630266",
@@ -5077,6 +5049,27 @@
           "AgencyCode": "COMP"
         },
         {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
+        },
+        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -5587,13 +5580,6 @@
         {
           "Room": "411",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -6878,27 +6864,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
-        },
-        {
           "Voucher": "2630266",
           "GroupNo": "",
           "RecId": 31884,
@@ -7002,6 +6967,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "31915",
@@ -7413,6 +7399,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -7555,13 +7548,6 @@
         {
           "Room": "411",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -8881,27 +8867,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
-        },
-        {
           "Voucher": "2630266",
           "GroupNo": "",
           "RecId": 31884,
@@ -9005,6 +8970,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "31915",
@@ -9556,6 +9542,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -9726,13 +9719,6 @@
         {
           "Room": "411",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -10737,27 +10723,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
-        },
-        {
           "Voucher": "2630266",
           "GroupNo": "",
           "RecId": 31884,
@@ -10861,6 +10826,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "31915",
@@ -11552,6 +11538,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -11764,13 +11757,6 @@
         {
           "Room": "411",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -12628,27 +12614,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
-        },
-        {
           "Voucher": "2630266",
           "GroupNo": "",
           "RecId": 31884,
@@ -12752,6 +12717,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "31915",
@@ -13604,6 +13590,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -13879,13 +13872,6 @@
         {
           "Room": "411",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -14498,27 +14484,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
-        },
-        {
           "Voucher": "2630266",
           "GroupNo": "",
           "RecId": 31884,
@@ -14622,6 +14587,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "31915",
@@ -15712,6 +15698,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -16008,13 +16001,6 @@
         {
           "Room": "411",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -16394,27 +16380,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "24257276",
-          "GroupNo": "",
-          "RecId": 31881,
-          "FirstName1": "NADEJDA",
-          "LastName1": "ANDRONACHI",
-          "CheckinDate": "2026-08-25",
-          "CheckOutDate": "2026-08-31",
-          "Room": "208",
-          "RoomType": "STD-LVL",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
-        },
-        {
           "Voucher": "2630266",
           "GroupNo": "",
           "RecId": 31884,
@@ -16518,6 +16483,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "24257276",
+          "GroupNo": "",
+          "RecId": 31881,
+          "FirstName1": "NADEJDA",
+          "LastName1": "ANDRONACHI",
+          "CheckinDate": "2026-08-25",
+          "CheckOutDate": "2026-08-31",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "31915",
