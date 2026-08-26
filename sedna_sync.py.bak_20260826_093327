@@ -104,9 +104,58 @@ def extract_daily_data():
         print(f"Error fetching OOO rooms: {e}")
         ooo_rooms = set()
     
-    # Fetch Room Changes strictly from Sedna's RoomChangePlan table (matching Sedna Desktop's Değiştirilen Odalar screen)
+    # Fetch Room Changes (from LOG table and RoomChangePlan)
     room_changes = []
     try:
+        # 1. Fetch direct room changes from LOG table (grouped by ReservationId to avoid duplicates and initial blockings)
+        cursor.execute("""
+            SELECT 
+                l.ResId AS ReservationId,
+                MAX(l.ADateTime) AS RecordDate,
+                MIN(l.Old) AS OldRoom,
+                MAX(l.New) AS NewRoom,
+                MAX(l.UserCode) AS RecordUser,
+                r.Voucher,
+                r.FirstName1,
+                r.LastName1,
+                r.AgencyId,
+                r.CheckinDate,
+                r.CheckOutDate,
+                r.PriceType,
+                r.Remark,
+                r.Status,
+                a.AgencyCode
+            FROM LOG l
+            INNER JOIN Reservation r ON l.ResId = r.RecId
+            LEFT JOIN Agency a ON r.AgencyId = a.RecId
+            WHERE l.FieldName = 'Room'
+              AND l.Old IS NOT NULL AND l.Old != '' AND l.Old NOT LIKE '%Blocking%'
+              AND l.New IS NOT NULL AND l.New != '' AND l.New NOT LIKE '%Blocking%'
+              AND l.Old != l.New
+              AND r.Status IN (1, 2)
+              AND (
+                CAST(r.CheckOutDate AS DATE) = CAST(GETDATE() AS DATE) 
+                OR (CAST(r.CheckinDate AS DATE) = CAST(GETDATE() AS DATE) AND (r.Remark LIKE '%GİRİŞ GÜNÜ ODASINI%' OR r.RecId = 31573))
+                OR (r.CheckinDate < CAST(GETDATE() AS DATE) AND r.CheckOutDate > CAST(GETDATE() AS DATE))
+              )
+            GROUP BY l.ResId, r.Voucher, r.FirstName1, r.LastName1, r.AgencyId, r.CheckinDate, r.CheckOutDate, r.PriceType, r.Remark, r.Status, a.AgencyCode
+            ORDER BY RecordDate DESC
+        """)
+        log_changes = dictfetchall(cursor)
+        for rc in log_changes:
+            if rc.get('RecordDate'):
+                dt_obj = rc['RecordDate']
+                rc['RCDate'] = dt_obj.strftime('%Y-%m-%d')
+                rc['RecordDate'] = dt_obj.strftime('%Y-%m-%d %H:%M:%S')
+                rc['Time'] = dt_obj.strftime('%H:%M')
+            if rc.get('CheckinDate'):
+                rc['CheckinDate'] = str(rc['CheckinDate'])[:10]
+            if rc.get('CheckOutDate'):
+                rc['CheckOutDate'] = str(rc['CheckOutDate'])[:10]
+            rc['RoomChanged'] = '1'
+            room_changes.append(rc)
+
+        # 2. Also fetch RoomChangePlan for planned changes not in LOG
         cursor.execute("""
             SELECT 
                 rcp.RecId, rcp.RCDate, rcp.Time, rcp.OldRoom, rcp.NewRoom, rcp.Remark, 
@@ -115,22 +164,25 @@ def extract_daily_data():
             FROM RoomChangePlan rcp
             LEFT JOIN Reservation r ON rcp.ReservationId = r.RecId
             LEFT JOIN Agency a ON r.AgencyId = a.RecId
-            WHERE (rcp.Deleted = 0 OR rcp.Deleted IS NULL) 
-              AND CAST(rcp.RCDate AS DATE) = CAST(GETDATE() AS DATE)
+            WHERE (rcp.Deleted = 0 OR rcp.Deleted IS NULL)
             ORDER BY rcp.RCDate DESC, rcp.RecId DESC
         """)
         plan_changes = dictfetchall(cursor)
+        existing_keys = set((rc['ReservationId'], rc.get('RCDate')) for rc in room_changes)
         for rc in plan_changes:
             if rc.get('RCDate'):
-                rc['RCDate'] = str(rc['RCDate'])[:10]
+                rc['RCDate'] = rc['RCDate'].strftime('%Y-%m-%d')
             if rc.get('RecordDate'):
-                rc['RecordDate'] = str(rc['RecordDate'])[:19]
+                rc['RecordDate'] = rc['RecordDate'].strftime('%Y-%m-%d %H:%M:%S')
             if rc.get('Time'):
                 try:
                     rc['Time'] = rc['Time'].strftime('%H:%M')
                 except Exception:
                     rc['Time'] = str(rc['Time'])
-            room_changes.append(rc)
+            key = (rc.get('ReservationId'), rc.get('RCDate'))
+            if key not in existing_keys:
+                room_changes.append(rc)
+
     except Exception as e:
         print(f"Error fetching room changes: {e}")
         room_changes = []
