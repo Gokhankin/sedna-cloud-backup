@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-08-26 11:00:02",
+  "sync_time": "2026-08-26 12:00:02",
   "report_date": "2026-08-26",
   "summary": {
-    "arrivals_count": 11,
-    "departures_count": 4,
-    "inhouse_count": 50,
+    "arrivals_count": 10,
+    "departures_count": 1,
+    "inhouse_count": 49,
     "noshow_count": 13,
-    "vacant_count": 46,
+    "vacant_count": 47,
     "roomchanges_count": 0,
-    "eod_room_count": 57,
-    "eod_pax_count": 101,
+    "eod_room_count": 58,
+    "eod_pax_count": 103,
     "hk_count": 111
   },
   "data": {
@@ -34,27 +34,6 @@
         "FlightDeparture": "22:20",
         "Status": 1,
         "AgencyCode": "EASYJET"
-      },
-      {
-        "Voucher": "31311",
-        "GroupNo": "",
-        "RecId": 31311,
-        "FirstName1": "BUSRA",
-        "LastName1": "SEMIZ",
-        "CheckinDate": "2026-08-26",
-        "CheckOutDate": "2026-08-30",
-        "Room": "112",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "MUNFERIT TL"
       },
       {
         "Voucher": "8903720",
@@ -232,7 +211,7 @@
         "LastName1": "SAHIN",
         "CheckinDate": "2026-08-26",
         "CheckOutDate": "2026-08-29",
-        "Room": "",
+        "Room": "326",
         "RoomType": "STD-LV",
         "Board": "BB",
         "Pax": 2,
@@ -247,48 +226,6 @@
       }
     ],
     "departures": [
-      {
-        "Voucher": "2618018",
-        "GroupNo": "",
-        "RecId": 31236,
-        "FirstName1": "BUKET",
-        "LastName1": "YILDIZ",
-        "CheckinDate": "2026-08-22",
-        "CheckOutDate": "2026-08-26",
-        "Room": "104",
-        "RoomType": "STD-SV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 10390.94945,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
-        "Voucher": "CTDMB8",
-        "GroupNo": "",
-        "RecId": 31710,
-        "FirstName1": "OZGE",
-        "LastName1": "BALKAN",
-        "CheckinDate": "2026-08-23",
-        "CheckOutDate": "2026-08-26",
-        "Room": "125",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 784.2226,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
-      },
       {
         "Voucher": "75-3681447",
         "GroupNo": "",
@@ -309,27 +246,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "31885",
-        "GroupNo": "",
-        "RecId": 31885,
-        "FirstName1": "ILIA",
-        "LastName1": "RYNENKOV",
-        "CheckinDate": "2026-08-23",
-        "CheckOutDate": "2026-08-26",
-        "Room": "703",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1,
-        "ExtraFolioBalance": 85574.38228,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT TL"
       }
     ],
     "inhouse": [
@@ -515,7 +431,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 5709.552,
+        "ExtraFolioBalance": 6325.288,
         "ResRemark": null,
         "FlightArrival": "OTELE OGL. SNR.",
         "FlightDeparture": null,
@@ -754,27 +670,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "2618018",
-        "GroupNo": "",
-        "RecId": 31236,
-        "FirstName1": "BUKET",
-        "LastName1": "YILDIZ",
-        "CheckinDate": "2026-08-22",
-        "CheckOutDate": "2026-08-26",
-        "Room": "104",
-        "RoomType": "STD-SV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 10390.94945,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
         "Voucher": "75-3677493",
         "GroupNo": "",
         "RecId": 31248,
@@ -794,6 +689,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
+      },
+      {
+        "Voucher": "31311",
+        "GroupNo": "",
+        "RecId": 31311,
+        "FirstName1": "BUSRA",
+        "LastName1": "SEMIZ",
+        "CheckinDate": "2026-08-26",
+        "CheckOutDate": "2026-08-30",
+        "Room": "112",
+        "RoomType": "STD-SVL",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "MUNFERIT TL"
       },
       {
         "Voucher": "31319",
@@ -935,7 +851,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 5599.39,
+        "ExtraFolioBalance": 5795.36865,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1004,27 +920,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
-        "Voucher": "CTDMB8",
-        "GroupNo": "",
-        "RecId": 31710,
-        "FirstName1": "OZGE",
-        "LastName1": "BALKAN",
-        "CheckinDate": "2026-08-23",
-        "CheckOutDate": "2026-08-26",
-        "Room": "125",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 784.2226,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "1314964700",
@@ -1166,7 +1061,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 83855.8023,
+        "ExtraFolioBalance": 85704.327,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1285,14 +1180,14 @@
         "FirstName1": "ILIA",
         "LastName1": "RYNENKOV",
         "CheckinDate": "2026-08-23",
-        "CheckOutDate": "2026-08-26",
+        "CheckOutDate": "2026-08-27",
         "Room": "703",
         "RoomType": "STD SEA",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1,
-        "ExtraFolioBalance": 85574.38228,
+        "ExtraFolioBalance": 100026.48228,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1675,6 +1570,13 @@
         "OccVac": 1
       },
       {
+        "Room": "104",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "105",
         "RoomTypeCode": "CLUB LV",
         "DirtyClean": 0,
@@ -1741,6 +1643,13 @@
         "Room": "123",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "125",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1857,13 +1766,6 @@
         "OccVac": 1
       },
       {
-        "Room": "326",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "332",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
@@ -1880,7 +1782,7 @@
       {
         "Room": "336",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2549,7 +2451,7 @@
       {
         "Room": "336",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2768,14 +2670,14 @@
   "by_date": {
     "2026-08-26": {
       "summary": {
-        "arrivals_count": 11,
-        "departures_count": 4,
-        "inhouse_count": 50,
+        "arrivals_count": 10,
+        "departures_count": 1,
+        "inhouse_count": 49,
         "noshow_count": 13,
-        "vacant_count": 46,
+        "vacant_count": 47,
         "roomchanges_count": 0,
-        "eod_room_count": 57,
-        "eod_pax_count": 101
+        "eod_room_count": 58,
+        "eod_pax_count": 103
       },
       "arrivals": [
         {
@@ -2798,27 +2700,6 @@
           "FlightDeparture": "22:20",
           "Status": 1,
           "AgencyCode": "EASYJET"
-        },
-        {
-          "Voucher": "31311",
-          "GroupNo": "",
-          "RecId": 31311,
-          "FirstName1": "BUSRA",
-          "LastName1": "SEMIZ",
-          "CheckinDate": "2026-08-26",
-          "CheckOutDate": "2026-08-30",
-          "Room": "112",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "MUNFERIT TL"
         },
         {
           "Voucher": "8903720",
@@ -2996,7 +2877,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-26",
           "CheckOutDate": "2026-08-29",
-          "Room": "",
+          "Room": "326",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -3011,48 +2892,6 @@
         }
       ],
       "departures": [
-        {
-          "Voucher": "2618018",
-          "GroupNo": "",
-          "RecId": 31236,
-          "FirstName1": "BUKET",
-          "LastName1": "YILDIZ",
-          "CheckinDate": "2026-08-22",
-          "CheckOutDate": "2026-08-26",
-          "Room": "104",
-          "RoomType": "STD-SV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 10390.94945,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
-          "Voucher": "CTDMB8",
-          "GroupNo": "",
-          "RecId": 31710,
-          "FirstName1": "OZGE",
-          "LastName1": "BALKAN",
-          "CheckinDate": "2026-08-23",
-          "CheckOutDate": "2026-08-26",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 784.2226,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
-        },
         {
           "Voucher": "75-3681447",
           "GroupNo": "",
@@ -3073,27 +2912,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "31885",
-          "GroupNo": "",
-          "RecId": 31885,
-          "FirstName1": "ILIA",
-          "LastName1": "RYNENKOV",
-          "CheckinDate": "2026-08-23",
-          "CheckOutDate": "2026-08-26",
-          "Room": "703",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 85574.38228,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
         }
       ],
       "inhouse": [
@@ -3279,7 +3097,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5709.552,
+          "ExtraFolioBalance": 6325.288,
           "ResRemark": null,
           "FlightArrival": "OTELE OGL. SNR.",
           "FlightDeparture": null,
@@ -3518,27 +3336,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "2618018",
-          "GroupNo": "",
-          "RecId": 31236,
-          "FirstName1": "BUKET",
-          "LastName1": "YILDIZ",
-          "CheckinDate": "2026-08-22",
-          "CheckOutDate": "2026-08-26",
-          "Room": "104",
-          "RoomType": "STD-SV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 10390.94945,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
           "Voucher": "75-3677493",
           "GroupNo": "",
           "RecId": 31248,
@@ -3558,6 +3355,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
+        },
+        {
+          "Voucher": "31311",
+          "GroupNo": "",
+          "RecId": 31311,
+          "FirstName1": "BUSRA",
+          "LastName1": "SEMIZ",
+          "CheckinDate": "2026-08-26",
+          "CheckOutDate": "2026-08-30",
+          "Room": "112",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT TL"
         },
         {
           "Voucher": "31319",
@@ -3699,7 +3517,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 5599.39,
+          "ExtraFolioBalance": 5795.36865,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3768,27 +3586,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
-          "Voucher": "CTDMB8",
-          "GroupNo": "",
-          "RecId": 31710,
-          "FirstName1": "OZGE",
-          "LastName1": "BALKAN",
-          "CheckinDate": "2026-08-23",
-          "CheckOutDate": "2026-08-26",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 784.2226,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "1314964700",
@@ -3930,7 +3727,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 83855.8023,
+          "ExtraFolioBalance": 85704.327,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4049,14 +3846,14 @@
           "FirstName1": "ILIA",
           "LastName1": "RYNENKOV",
           "CheckinDate": "2026-08-23",
-          "CheckOutDate": "2026-08-26",
+          "CheckOutDate": "2026-08-27",
           "Room": "703",
           "RoomType": "STD SEA",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 85574.38228,
+          "ExtraFolioBalance": 100026.48228,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4439,6 +4236,13 @@
           "OccVac": 1
         },
         {
+          "Room": "104",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
@@ -4505,6 +4309,13 @@
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "125",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4621,13 +4432,6 @@
           "OccVac": 1
         },
         {
-          "Room": "326",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -4644,7 +4448,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4752,10 +4556,10 @@
     "2026-08-27": {
       "summary": {
         "arrivals_count": 14,
-        "departures_count": 10,
+        "departures_count": 11,
         "inhouse_count": 61,
         "noshow_count": 0,
-        "vacant_count": 55,
+        "vacant_count": 54,
         "roomchanges_count": 0,
         "eod_room_count": 61,
         "eod_pax_count": 110
@@ -5134,7 +4938,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5709.552,
+          "ExtraFolioBalance": 6325.288,
           "ResRemark": null,
           "FlightArrival": "OTELE OGL. SNR.",
           "FlightDeparture": null,
@@ -5245,6 +5049,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "31885",
+          "GroupNo": "",
+          "RecId": 31885,
+          "FirstName1": "ILIA",
+          "LastName1": "RYNENKOV",
+          "CheckinDate": "2026-08-23",
+          "CheckOutDate": "2026-08-27",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 100026.48228,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT TL"
         },
         {
           "Voucher": "31946",
@@ -5707,7 +5532,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT TL"
         },
         {
@@ -5934,7 +5759,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 5599.39,
+          "ExtraFolioBalance": 5795.36865,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6207,7 +6032,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 83855.8023,
+          "ExtraFolioBalance": 85704.327,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6537,7 +6362,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-26",
           "CheckOutDate": "2026-08-29",
-          "Room": "",
+          "Room": "326",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -6799,13 +6624,6 @@
           "OccVac": 1
         },
         {
-          "Room": "326",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -6822,7 +6640,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6947,7 +6765,7 @@
         "departures_count": 9,
         "inhouse_count": 58,
         "noshow_count": 0,
-        "vacant_count": 63,
+        "vacant_count": 62,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 102
@@ -7668,7 +7486,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT TL"
         },
         {
@@ -7937,7 +7755,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 5599.39,
+          "ExtraFolioBalance": 5795.36865,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8189,7 +8007,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 83855.8023,
+          "ExtraFolioBalance": 85704.327,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8477,7 +8295,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-26",
           "CheckOutDate": "2026-08-29",
-          "Room": "",
+          "Room": "326",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -8781,13 +8599,6 @@
           "OccVac": 1
         },
         {
-          "Room": "326",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -8818,7 +8629,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9301,7 +9112,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 5599.39,
+          "ExtraFolioBalance": 5795.36865,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9343,7 +9154,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 83855.8023,
+          "ExtraFolioBalance": 85704.327,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9484,7 +9295,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-26",
           "CheckOutDate": "2026-08-29",
-          "Room": "",
+          "Room": "326",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -9832,7 +9643,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT TL"
         },
         {
@@ -10898,7 +10709,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11357,7 +11168,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT TL"
         },
         {
@@ -13013,7 +12824,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15079,7 +14890,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17334,7 +17145,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19456,7 +19267,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
