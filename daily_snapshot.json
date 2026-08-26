@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-26 05:00:02",
+  "sync_time": "2026-08-26 06:00:02",
   "report_date": "2026-08-26",
   "summary": {
     "arrivals_count": 10,
-    "departures_count": 7,
-    "inhouse_count": 53,
+    "departures_count": 6,
+    "inhouse_count": 52,
     "noshow_count": 13,
-    "vacant_count": 46,
+    "vacant_count": 47,
     "roomchanges_count": 2,
     "eod_room_count": 56,
     "eod_pax_count": 99,
@@ -290,27 +290,6 @@
         "AgencyCode": "SUNHOTELS/WEBBE"
       },
       {
-        "Voucher": "75-3680145",
-        "GroupNo": "",
-        "RecId": 31645,
-        "FirstName1": "GULSAH",
-        "LastName1": "ARMAGAN",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-26",
-        "Room": "202",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 21426.642,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
         "Voucher": "CTDMB8",
         "GroupNo": "",
         "RecId": 31710,
@@ -437,27 +416,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "SUNHOTELS/WEBBE"
-      },
-      {
-        "Voucher": "75-3680145",
-        "GroupNo": "",
-        "RecId": 31645,
-        "FirstName1": "GULSAH",
-        "LastName1": "ARMAGAN",
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-26",
-        "Room": "202",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 21426.642,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B"
       },
       {
         "Voucher": "CTDMB8",
@@ -1906,6 +1864,13 @@
         "OccVac": 1
       },
       {
+        "Room": "202",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "203",
         "RoomTypeCode": "STD SEA L",
         "DirtyClean": 0,
@@ -2489,26 +2454,6 @@
         "AgencyCode": "NEILSON",
         "RCDate": "2026-08-19",
         "Time": "16:12",
-        "RoomChanged": "1"
-      },
-      {
-        "ReservationId": 31645,
-        "RecordDate": "2026-08-19 13:45:18",
-        "OldRoom": "2005",
-        "NewRoom": "202",
-        "RecordUser": "KAYRA",
-        "Voucher": "75-3680145",
-        "FirstName1": "GULSAH",
-        "LastName1": "ARMAGAN",
-        "AgencyId": 1103,
-        "CheckinDate": "2026-08-19",
-        "CheckOutDate": "2026-08-26",
-        "PriceType": "STD-LV",
-        "Remark": "DOUBLE BED NON SMOKING",
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B",
-        "RCDate": "2026-08-19",
-        "Time": "13:45",
         "RoomChanged": "1"
       },
       {
@@ -3432,10 +3377,10 @@
     "2026-08-26": {
       "summary": {
         "arrivals_count": 10,
-        "departures_count": 7,
-        "inhouse_count": 53,
+        "departures_count": 6,
+        "inhouse_count": 52,
         "noshow_count": 13,
-        "vacant_count": 46,
+        "vacant_count": 47,
         "roomchanges_count": 2,
         "eod_room_count": 56,
         "eod_pax_count": 99
@@ -3717,27 +3662,6 @@
           "AgencyCode": "SUNHOTELS/WEBBE"
         },
         {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 21426.642,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "CTDMB8",
           "GroupNo": "",
           "RecId": 31710,
@@ -3864,27 +3788,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "SUNHOTELS/WEBBE"
-        },
-        {
-          "Voucher": "75-3680145",
-          "GroupNo": "",
-          "RecId": 31645,
-          "FirstName1": "GULSAH",
-          "LastName1": "ARMAGAN",
-          "CheckinDate": "2026-08-19",
-          "CheckOutDate": "2026-08-26",
-          "Room": "202",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 21426.642,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "CTDMB8",
@@ -5329,6 +5232,13 @@
           "Room": "201",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "202",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
