@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-08-28 00:00:02",
+  "sync_time": "2026-08-28 01:00:02",
   "report_date": "2026-08-28",
   "summary": {
     "arrivals_count": 10,
     "departures_count": 11,
-    "inhouse_count": 64,
+    "inhouse_count": 65,
     "noshow_count": 3,
-    "vacant_count": 38,
+    "vacant_count": 37,
     "roomchanges_count": 0,
-    "eod_room_count": 63,
+    "eod_room_count": 64,
     "eod_pax_count": 114,
     "hk_count": 111
   },
@@ -689,6 +689,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "FQBC3W",
+        "GroupNo": "",
+        "RecId": 30839,
+        "FirstName1": "JAMIE",
+        "LastName1": "HALL",
+        "CheckinDate": "2026-08-27",
+        "CheckOutDate": "2026-09-05",
+        "Room": "115",
+        "RoomType": "JR SUIT S",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 13,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "JET2"
       },
       {
         "Voucher": "1692255",
@@ -1920,13 +1941,6 @@
         "OccVac": 1
       },
       {
-        "Room": "115",
-        "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "118",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
@@ -2924,9 +2938,9 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 11,
-        "inhouse_count": 64,
+        "inhouse_count": 65,
         "noshow_count": 3,
-        "vacant_count": 38,
+        "vacant_count": 37,
         "roomchanges_count": 0,
         "eod_room_count": 66,
         "eod_pax_count": 114
@@ -3607,6 +3621,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "FQBC3W",
+          "GroupNo": "",
+          "RecId": 30839,
+          "FirstName1": "JAMIE",
+          "LastName1": "HALL",
+          "CheckinDate": "2026-08-27",
+          "CheckOutDate": "2026-09-05",
+          "Room": "115",
+          "RoomType": "JR SUIT S",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 13,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "JET2"
         },
         {
           "Voucher": "1692255",
@@ -4838,13 +4873,6 @@
           "OccVac": 1
         },
         {
-          "Room": "115",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
@@ -5973,7 +6001,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -8263,7 +8291,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -10308,7 +10336,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -12451,7 +12479,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -14566,7 +14594,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -17003,7 +17031,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -19538,7 +19566,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
