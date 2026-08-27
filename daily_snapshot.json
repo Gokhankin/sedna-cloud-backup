@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-08-27 09:00:02",
+  "sync_time": "2026-08-27 10:00:02",
   "report_date": "2026-08-27",
   "summary": {
-    "arrivals_count": 17,
+    "arrivals_count": 16,
     "departures_count": 12,
-    "inhouse_count": 59,
+    "inhouse_count": 60,
     "noshow_count": 11,
     "vacant_count": 35,
     "roomchanges_count": 0,
@@ -97,27 +97,6 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "1692255",
-        "GroupNo": "",
-        "RecId": 30928,
-        "FirstName1": "ALINA",
-        "LastName1": "KOZINA",
-        "CheckinDate": "2026-08-27",
-        "CheckOutDate": "2026-09-02",
-        "Room": "114",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1079,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "05:50",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "LUXE VACATION"
       },
       {
         "Voucher": "EAV83AU-1-5428483516",
@@ -492,7 +471,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 22174.67975,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -901,6 +880,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "1692255",
+        "GroupNo": "",
+        "RecId": 30928,
+        "FirstName1": "ALINA",
+        "LastName1": "KOZINA",
+        "CheckinDate": "2026-08-27",
+        "CheckOutDate": "2026-09-02",
+        "Room": "114",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1079,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "05:50",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "LUXE VACATION"
+      },
+      {
         "Voucher": "GH9C498-1-4559436170",
         "GroupNo": "",
         "RecId": 31034,
@@ -914,7 +914,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 22174.67975,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1040,7 +1040,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 16098.24624,
+        "ExtraFolioBalance": 18785.95344,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -3132,9 +3132,9 @@
   "by_date": {
     "2026-08-27": {
       "summary": {
-        "arrivals_count": 17,
+        "arrivals_count": 16,
         "departures_count": 12,
-        "inhouse_count": 59,
+        "inhouse_count": 60,
         "noshow_count": 11,
         "vacant_count": 35,
         "roomchanges_count": 0,
@@ -3225,27 +3225,6 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "1692255",
-          "GroupNo": "",
-          "RecId": 30928,
-          "FirstName1": "ALINA",
-          "LastName1": "KOZINA",
-          "CheckinDate": "2026-08-27",
-          "CheckOutDate": "2026-09-02",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1079,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "05:50",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "LUXE VACATION"
         },
         {
           "Voucher": "EAV83AU-1-5428483516",
@@ -3620,7 +3599,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 22174.67975,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4029,6 +4008,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "1692255",
+          "GroupNo": "",
+          "RecId": 30928,
+          "FirstName1": "ALINA",
+          "LastName1": "KOZINA",
+          "CheckinDate": "2026-08-27",
+          "CheckOutDate": "2026-09-02",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1079,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "05:50",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "LUXE VACATION"
+        },
+        {
           "Voucher": "GH9C498-1-4559436170",
           "GroupNo": "",
           "RecId": 31034,
@@ -4042,7 +4042,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 22174.67975,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4168,7 +4168,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 16098.24624,
+          "ExtraFolioBalance": 18785.95344,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5616,7 +5616,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31964",
           "GroupNo": "",
           "RecId": 31964,
           "FirstName1": "MOHAMMAD",
@@ -5736,7 +5736,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 16098.24624,
+          "ExtraFolioBalance": 18785.95344,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6120,7 +6120,7 @@
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "LUXE VACATION"
         },
         {
@@ -7048,7 +7048,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31964",
           "GroupNo": "",
           "RecId": 31964,
           "FirstName1": "MOHAMMAD",
@@ -8055,7 +8055,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31964",
           "GroupNo": "",
           "RecId": 31964,
           "FirstName1": "MOHAMMAD",
@@ -8368,7 +8368,7 @@
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "LUXE VACATION"
         },
         {
@@ -10490,7 +10490,7 @@
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "LUXE VACATION"
         },
         {
@@ -12521,7 +12521,7 @@
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "LUXE VACATION"
         },
         {
@@ -14062,7 +14062,7 @@
           "AgencyCode": "TUI Deutschland"
         },
         {
-          "Voucher": "",
+          "Voucher": "31961",
           "GroupNo": "",
           "RecId": 31961,
           "FirstName1": "OMER AYHAN",
@@ -14650,7 +14650,7 @@
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "LUXE VACATION"
         },
         {
@@ -15347,7 +15347,7 @@
           "AgencyCode": "ADDAJET"
         },
         {
-          "Voucher": "",
+          "Voucher": "31961",
           "GroupNo": "",
           "RecId": 31961,
           "FirstName1": "OMER AYHAN",
@@ -16196,7 +16196,7 @@
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "LUXE VACATION"
         },
         {
@@ -17441,7 +17441,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31961",
           "GroupNo": "",
           "RecId": 31961,
           "FirstName1": "OMER AYHAN",
@@ -19934,7 +19934,7 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
-          "Voucher": "",
+          "Voucher": "31961",
           "GroupNo": "",
           "RecId": 31961,
           "FirstName1": "OMER AYHAN",
