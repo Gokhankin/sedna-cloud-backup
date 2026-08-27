@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-08-27 04:00:02",
+  "sync_time": "2026-08-27 05:00:02",
   "report_date": "2026-08-27",
   "summary": {
-    "arrivals_count": 16,
+    "arrivals_count": 17,
     "departures_count": 12,
     "inhouse_count": 59,
     "noshow_count": 11,
     "vacant_count": 35,
     "roomchanges_count": 0,
-    "eod_room_count": 63,
-    "eod_pax_count": 112,
+    "eod_room_count": 64,
+    "eod_pax_count": 114,
     "hk_count": 111
   },
   "data": {
@@ -341,6 +341,27 @@
         "RoomType": "STD SEA",
         "Board": "HB",
         "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 8,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 1,
+        "AgencyCode": "EXPEDIA"
+      },
+      {
+        "Voucher": "2543932089",
+        "GroupNo": "",
+        "RecId": 31980,
+        "FirstName1": "EKREM EMRE",
+        "LastName1": "TURKOGLU",
+        "CheckinDate": "2026-08-27",
+        "CheckOutDate": "2026-08-30",
+        "Room": "",
+        "RoomType": "STD-LV",
+        "Board": "BB",
+        "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
         "ExtraFolioBalance": 0.0,
@@ -3111,14 +3132,14 @@
   "by_date": {
     "2026-08-27": {
       "summary": {
-        "arrivals_count": 16,
+        "arrivals_count": 17,
         "departures_count": 12,
         "inhouse_count": 59,
         "noshow_count": 11,
         "vacant_count": 35,
         "roomchanges_count": 0,
-        "eod_room_count": 63,
-        "eod_pax_count": 112
+        "eod_room_count": 64,
+        "eod_pax_count": 114
       },
       "arrivals": [
         {
@@ -3448,6 +3469,27 @@
           "RoomType": "STD SEA",
           "Board": "HB",
           "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "2543932089",
+          "GroupNo": "",
+          "RecId": 31980,
+          "FirstName1": "EKREM EMRE",
+          "LastName1": "TURKOGLU",
+          "CheckinDate": "2026-08-27",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
           "ExtraFolioBalance": 0.0,
@@ -5439,12 +5481,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 9,
-        "inhouse_count": 61,
+        "inhouse_count": 62,
         "noshow_count": 0,
         "vacant_count": 52,
         "roomchanges_count": 0,
-        "eod_room_count": 61,
-        "eod_pax_count": 105
+        "eod_room_count": 62,
+        "eod_pax_count": 107
       },
       "arrivals": [
         {
@@ -7067,6 +7109,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "2543932089",
+          "GroupNo": "",
+          "RecId": 31980,
+          "FirstName1": "EKREM EMRE",
+          "LastName1": "TURKOGLU",
+          "CheckinDate": "2026-08-27",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -7442,12 +7505,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 20,
-        "inhouse_count": 48,
+        "inhouse_count": 49,
         "noshow_count": 0,
         "vacant_count": 70,
         "roomchanges_count": 0,
-        "eod_room_count": 48,
-        "eod_pax_count": 81
+        "eod_room_count": 49,
+        "eod_pax_count": 83
       },
       "arrivals": [
         {
@@ -9028,6 +9091,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "2543932089",
+          "GroupNo": "",
+          "RecId": 31980,
+          "FirstName1": "EKREM EMRE",
+          "LastName1": "TURKOGLU",
+          "CheckinDate": "2026-08-27",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -9528,7 +9612,7 @@
     "2026-08-30": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 9,
+        "departures_count": 10,
         "inhouse_count": 52,
         "noshow_count": 0,
         "vacant_count": 77,
@@ -9992,6 +10076,27 @@
           "RoomType": "STD SEA",
           "Board": "HB",
           "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "2543932089",
+          "GroupNo": "",
+          "RecId": 31980,
+          "FirstName1": "EKREM EMRE",
+          "LastName1": "TURKOGLU",
+          "CheckinDate": "2026-08-27",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
           "ExtraFolioBalance": 0.0,
