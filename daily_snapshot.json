@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-08-28 14:00:03",
+  "sync_time": "2026-08-28 15:00:02",
   "report_date": "2026-08-28",
   "summary": {
-    "arrivals_count": 8,
-    "departures_count": 5,
-    "inhouse_count": 65,
+    "arrivals_count": 6,
+    "departures_count": 4,
+    "inhouse_count": 67,
     "noshow_count": 13,
-    "vacant_count": 37,
+    "vacant_count": 36,
     "roomchanges_count": 0,
-    "eod_room_count": 68,
-    "eod_pax_count": 118,
+    "eod_room_count": 69,
+    "eod_pax_count": 120,
     "hk_count": 111
   },
   "data": {
@@ -99,27 +99,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "2627221",
-        "GroupNo": "",
-        "RecId": 31723,
-        "FirstName1": "DOGA",
-        "LastName1": "ASLAN",
-        "CheckinDate": "2026-08-28",
-        "CheckOutDate": "2026-09-02",
-        "Room": "116",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
         "Voucher": "31964",
         "GroupNo": "",
         "RecId": 31964,
@@ -160,27 +139,6 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "DIANA EURO"
-      },
-      {
-        "Voucher": "2632520",
-        "GroupNo": "",
-        "RecId": 32024,
-        "FirstName1": "SELAHATTIN",
-        "LastName1": "ACARA",
-        "CheckinDate": "2026-08-28",
-        "CheckOutDate": "2026-08-31",
-        "Room": "308",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "TRSTCA/DIANA"
       }
     ],
     "departures": [
@@ -198,7 +156,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 3694.412,
+        "ExtraFolioBalance": 4701.98,
         "ResRemark": null,
         "FlightArrival": "21:55",
         "FlightDeparture": "22:50",
@@ -225,27 +183,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
-        "Voucher": "3038647",
-        "GroupNo": "",
-        "RecId": 31162,
-        "FirstName1": "LELIA",
-        "LastName1": "O'CONNELL",
-        "CheckinDate": "2026-08-21",
-        "CheckOutDate": "2026-08-28",
-        "Room": "308",
-        "RoomType": "STD-SVL",
-        "Board": "HB",
-        "Pax": 3,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "20.20",
-        "FlightDeparture": "21.10",
-        "Status": 2,
-        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "5473828169",
@@ -282,7 +219,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 29536.78224,
+        "ExtraFolioBalance": 30264.70294,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -347,7 +284,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 3694.412,
+        "ExtraFolioBalance": 4701.98,
         "ResRemark": null,
         "FlightArrival": "21:55",
         "FlightDeparture": "22:50",
@@ -530,13 +467,13 @@
         "LastName1": "HALL",
         "CheckinDate": "2026-08-27",
         "CheckOutDate": "2026-09-05",
-        "Room": "115",
+        "Room": "106",
         "RoomType": "JR SUIT S",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 1232.8536,
+        "ExtraFolioBalance": 4371.0264,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -628,27 +565,6 @@
         "AgencyCode": "HOTELBEDS - B2B"
       },
       {
-        "Voucher": "3038647",
-        "GroupNo": "",
-        "RecId": 31162,
-        "FirstName1": "LELIA",
-        "LastName1": "O'CONNELL",
-        "CheckinDate": "2026-08-21",
-        "CheckOutDate": "2026-08-28",
-        "Room": "308",
-        "RoomType": "STD-SVL",
-        "Board": "HB",
-        "Pax": 3,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "20.20",
-        "FlightDeparture": "21.10",
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
         "Voucher": "5473828169",
         "GroupNo": "",
         "RecId": 31178,
@@ -683,7 +599,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 29536.78224,
+        "ExtraFolioBalance": 30264.70294,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -998,7 +914,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1103,
-        "ExtraFolioBalance": 6998.49929,
+        "ExtraFolioBalance": 8566.19689,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1019,7 +935,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1103,
-        "ExtraFolioBalance": 4255.1792,
+        "ExtraFolioBalance": 5822.8768,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1069,6 +985,27 @@
         "AgencyCode": "DIANA GBP"
       },
       {
+        "Voucher": "2627221",
+        "GroupNo": "",
+        "RecId": 31723,
+        "FirstName1": "DOGA",
+        "LastName1": "ASLAN",
+        "CheckinDate": "2026-08-28",
+        "CheckOutDate": "2026-09-02",
+        "Room": "116",
+        "RoomType": "STD SEA",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1134,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "TRSTCA/DIANA"
+      },
+      {
         "Voucher": "152QM5",
         "GroupNo": "",
         "RecId": 31754,
@@ -1103,7 +1040,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 19,
-        "ExtraFolioBalance": 2353.6296,
+        "ExtraFolioBalance": 4651.2204,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1124,7 +1061,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 33,
-        "ExtraFolioBalance": 7111.2253,
+        "ExtraFolioBalance": 8231.1033,
         "ResRemark": null,
         "FlightArrival": "10:55",
         "FlightDeparture": null,
@@ -1250,7 +1187,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1136,
-        "ExtraFolioBalance": 18310.0053,
+        "ExtraFolioBalance": 21193.69115,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1313,7 +1250,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1131,
-        "ExtraFolioBalance": 1287.8597,
+        "ExtraFolioBalance": 1735.8109,
         "ResRemark": "",
         "FlightArrival": "23:50",
         "FlightDeparture": "06:30",
@@ -1655,6 +1592,48 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "ADDAJET"
+      },
+      {
+        "Voucher": "2632520",
+        "GroupNo": "",
+        "RecId": 32024,
+        "FirstName1": "SELAHATTIN",
+        "LastName1": "ACARA",
+        "CheckinDate": "2026-08-28",
+        "CheckOutDate": "2026-08-31",
+        "Room": "308",
+        "RoomType": "STD-SVL",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1134,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "TRSTCA/DIANA"
+      },
+      {
+        "Voucher": "SH30885527",
+        "GroupNo": "",
+        "RecId": 32031,
+        "FirstName1": "ADWAN",
+        "LastName1": "ALOBRA",
+        "CheckinDate": "2026-08-28",
+        "CheckOutDate": "2026-08-30",
+        "Room": "113",
+        "RoomType": "JR SUIT S",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 40,
+        "ExtraFolioBalance": 1342.9776,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "SUNHOTELS/WEBBE"
       }
     ],
     "noshow": [
@@ -1955,13 +1934,6 @@
         "OccVac": 1
       },
       {
-        "Room": "106",
-        "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "108",
         "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
@@ -1976,16 +1948,16 @@
         "OccVac": 1
       },
       {
-        "Room": "113",
-        "RoomTypeCode": "JR SUIT S",
+        "Room": "114",
+        "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
-        "Room": "114",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "Room": "115",
+        "RoomTypeCode": "JR SUIT S",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2304,7 +2276,7 @@
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2500,7 +2472,7 @@
       {
         "Room": "210",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2563,7 +2535,7 @@
       {
         "Room": "308",
         "RoomTypeCode": "STD-SVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2978,14 +2950,14 @@
   "by_date": {
     "2026-08-28": {
       "summary": {
-        "arrivals_count": 8,
-        "departures_count": 5,
-        "inhouse_count": 65,
+        "arrivals_count": 6,
+        "departures_count": 4,
+        "inhouse_count": 67,
         "noshow_count": 13,
-        "vacant_count": 37,
+        "vacant_count": 36,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 118
+        "eod_room_count": 69,
+        "eod_pax_count": 120
       },
       "arrivals": [
         {
@@ -3073,27 +3045,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "2627221",
-          "GroupNo": "",
-          "RecId": 31723,
-          "FirstName1": "DOGA",
-          "LastName1": "ASLAN",
-          "CheckinDate": "2026-08-28",
-          "CheckOutDate": "2026-09-02",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
           "Voucher": "31964",
           "GroupNo": "",
           "RecId": 31964,
@@ -3134,27 +3085,6 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "DIANA EURO"
-        },
-        {
-          "Voucher": "2632520",
-          "GroupNo": "",
-          "RecId": 32024,
-          "FirstName1": "SELAHATTIN",
-          "LastName1": "ACARA",
-          "CheckinDate": "2026-08-28",
-          "CheckOutDate": "2026-08-31",
-          "Room": "308",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "departures": [
@@ -3172,7 +3102,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 3694.412,
+          "ExtraFolioBalance": 4701.98,
           "ResRemark": null,
           "FlightArrival": "21:55",
           "FlightDeparture": "22:50",
@@ -3199,27 +3129,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
-          "Voucher": "3038647",
-          "GroupNo": "",
-          "RecId": 31162,
-          "FirstName1": "LELIA",
-          "LastName1": "O'CONNELL",
-          "CheckinDate": "2026-08-21",
-          "CheckOutDate": "2026-08-28",
-          "Room": "308",
-          "RoomType": "STD-SVL",
-          "Board": "HB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "20.20",
-          "FlightDeparture": "21.10",
-          "Status": 2,
-          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "5473828169",
@@ -3256,7 +3165,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 29536.78224,
+          "ExtraFolioBalance": 30264.70294,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3321,7 +3230,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 3694.412,
+          "ExtraFolioBalance": 4701.98,
           "ResRemark": null,
           "FlightArrival": "21:55",
           "FlightDeparture": "22:50",
@@ -3504,13 +3413,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3602,27 +3511,6 @@
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
-          "Voucher": "3038647",
-          "GroupNo": "",
-          "RecId": 31162,
-          "FirstName1": "LELIA",
-          "LastName1": "O'CONNELL",
-          "CheckinDate": "2026-08-21",
-          "CheckOutDate": "2026-08-28",
-          "Room": "308",
-          "RoomType": "STD-SVL",
-          "Board": "HB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "20.20",
-          "FlightDeparture": "21.10",
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "5473828169",
           "GroupNo": "",
           "RecId": 31178,
@@ -3657,7 +3545,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 29536.78224,
+          "ExtraFolioBalance": 30264.70294,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3972,7 +3860,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 6998.49929,
+          "ExtraFolioBalance": 8566.19689,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3993,7 +3881,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 4255.1792,
+          "ExtraFolioBalance": 5822.8768,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4043,6 +3931,27 @@
           "AgencyCode": "DIANA GBP"
         },
         {
+          "Voucher": "2627221",
+          "GroupNo": "",
+          "RecId": 31723,
+          "FirstName1": "DOGA",
+          "LastName1": "ASLAN",
+          "CheckinDate": "2026-08-28",
+          "CheckOutDate": "2026-09-02",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
           "Voucher": "152QM5",
           "GroupNo": "",
           "RecId": 31754,
@@ -4077,7 +3986,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4098,7 +4007,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 7111.2253,
+          "ExtraFolioBalance": 8231.1033,
           "ResRemark": null,
           "FlightArrival": "10:55",
           "FlightDeparture": null,
@@ -4224,7 +4133,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 18310.0053,
+          "ExtraFolioBalance": 21193.69115,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4287,7 +4196,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 1287.8597,
+          "ExtraFolioBalance": 1735.8109,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "06:30",
@@ -4629,6 +4538,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "2632520",
+          "GroupNo": "",
+          "RecId": 32024,
+          "FirstName1": "SELAHATTIN",
+          "LastName1": "ACARA",
+          "CheckinDate": "2026-08-28",
+          "CheckOutDate": "2026-08-31",
+          "Room": "308",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "SH30885527",
+          "GroupNo": "",
+          "RecId": 32031,
+          "FirstName1": "ADWAN",
+          "LastName1": "ALOBRA",
+          "CheckinDate": "2026-08-28",
+          "CheckOutDate": "2026-08-30",
+          "Room": "113",
+          "RoomType": "JR SUIT S",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 40,
+          "ExtraFolioBalance": 1342.9776,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "SUNHOTELS/WEBBE"
         }
       ],
       "noshow": [
@@ -4929,13 +4880,6 @@
           "OccVac": 1
         },
         {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -4950,16 +4894,16 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
-          "RoomTypeCode": "JR SUIT S",
+          "Room": "114",
+          "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5171,14 +5115,14 @@
     },
     "2026-08-29": {
       "summary": {
-        "arrivals_count": 8,
+        "arrivals_count": 9,
         "departures_count": 22,
-        "inhouse_count": 54,
+        "inhouse_count": 56,
         "noshow_count": 0,
-        "vacant_count": 59,
+        "vacant_count": 58,
         "roomchanges_count": 0,
-        "eod_room_count": 54,
-        "eod_pax_count": 92
+        "eod_room_count": 56,
+        "eod_pax_count": 95
       },
       "arrivals": [
         {
@@ -5348,6 +5292,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "32032",
+          "GroupNo": "",
+          "RecId": 32032,
+          "FirstName1": "VLADIMIR",
+          "LastName1": "BARYSHEV",
+          "CheckinDate": "2026-08-29",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 2,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT USD"
         }
       ],
       "departures": [
@@ -6054,13 +6019,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6396,7 +6361,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 6998.49929,
+          "ExtraFolioBalance": 8566.19689,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6417,7 +6382,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 4255.1792,
+          "ExtraFolioBalance": 5822.8768,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6484,7 +6449,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -6522,7 +6487,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6543,7 +6508,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 7111.2253,
+          "ExtraFolioBalance": 8231.1033,
           "ResRemark": null,
           "FlightArrival": "10:55",
           "FlightDeparture": null,
@@ -6606,7 +6571,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 18310.0053,
+          "ExtraFolioBalance": 21193.69115,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6669,7 +6634,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 1287.8597,
+          "ExtraFolioBalance": 1735.8109,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "06:30",
@@ -6925,7 +6890,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -6948,6 +6913,48 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "SH30885527",
+          "GroupNo": "",
+          "RecId": 32031,
+          "FirstName1": "ADWAN",
+          "LastName1": "ALOBRA",
+          "CheckinDate": "2026-08-28",
+          "CheckOutDate": "2026-08-30",
+          "Room": "113",
+          "RoomType": "JR SUIT S",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 40,
+          "ExtraFolioBalance": 1342.9776,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "SUNHOTELS/WEBBE"
+        },
+        {
+          "Voucher": "32032",
+          "GroupNo": "",
+          "RecId": 32032,
+          "FirstName1": "VLADIMIR",
+          "LastName1": "BARYSHEV",
+          "CheckinDate": "2026-08-29",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 2,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT USD"
         }
       ],
       "noshow": [],
@@ -6969,13 +6976,6 @@
         {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -7009,16 +7009,16 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
-          "RoomTypeCode": "JR SUIT S",
+          "Room": "114",
+          "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7371,7 +7371,7 @@
     "2026-08-30": {
       "summary": {
         "arrivals_count": 14,
-        "departures_count": 12,
+        "departures_count": 14,
         "inhouse_count": 56,
         "noshow_count": 0,
         "vacant_count": 69,
@@ -7753,7 +7753,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 6998.49929,
+          "ExtraFolioBalance": 8566.19689,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7774,7 +7774,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1103,
-          "ExtraFolioBalance": 4255.1792,
+          "ExtraFolioBalance": 5822.8768,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7927,6 +7927,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "SH30885527",
+          "GroupNo": "",
+          "RecId": 32031,
+          "FirstName1": "ADWAN",
+          "LastName1": "ALOBRA",
+          "CheckinDate": "2026-08-28",
+          "CheckOutDate": "2026-08-30",
+          "Room": "113",
+          "RoomType": "JR SUIT S",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 40,
+          "ExtraFolioBalance": 1342.9776,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "SUNHOTELS/WEBBE"
+        },
+        {
+          "Voucher": "32032",
+          "GroupNo": "",
+          "RecId": 32032,
+          "FirstName1": "VLADIMIR",
+          "LastName1": "BARYSHEV",
+          "CheckinDate": "2026-08-29",
+          "CheckOutDate": "2026-08-30",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 2,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT USD"
         }
       ],
       "inhouse": [
@@ -8253,13 +8295,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8704,7 +8746,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -8742,7 +8784,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8763,7 +8805,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 7111.2253,
+          "ExtraFolioBalance": 8231.1033,
           "ResRemark": null,
           "FlightArrival": "10:55",
           "FlightDeparture": null,
@@ -8826,7 +8868,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 18310.0053,
+          "ExtraFolioBalance": 21193.69115,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8889,7 +8931,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 1287.8597,
+          "ExtraFolioBalance": 1735.8109,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "06:30",
@@ -9082,7 +9124,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -9126,13 +9168,6 @@
         {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -9190,6 +9225,13 @@
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10001,7 +10043,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 7111.2253,
+          "ExtraFolioBalance": 8231.1033,
           "ResRemark": null,
           "FlightArrival": "10:55",
           "FlightDeparture": null,
@@ -10022,7 +10064,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 18310.0053,
+          "ExtraFolioBalance": 21193.69115,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -10064,7 +10106,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 1287.8597,
+          "ExtraFolioBalance": 1735.8109,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "06:30",
@@ -10110,7 +10152,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -10417,13 +10459,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10889,7 +10931,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -10969,7 +11011,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -11281,13 +11323,6 @@
           "OccVac": 1
         },
         {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -11340,6 +11375,13 @@
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11514,7 +11556,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12623,13 +12665,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13116,7 +13158,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -13238,7 +13280,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13571,13 +13613,6 @@
           "OccVac": 1
         },
         {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -13623,6 +13658,13 @@
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13804,7 +13846,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14368,7 +14410,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -14801,13 +14843,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -15416,7 +15458,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -15749,13 +15791,6 @@
           "OccVac": 1
         },
         {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -15798,9 +15833,16 @@
           "OccVac": 1
         },
         {
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15989,7 +16031,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16780,7 +16822,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 2353.6296,
+          "ExtraFolioBalance": 4651.2204,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -17301,13 +17343,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -18333,13 +18375,6 @@
           "OccVac": 1
         },
         {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -18382,9 +18417,16 @@
           "OccVac": 1
         },
         {
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18601,7 +18643,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19962,13 +20004,13 @@
           "LastName1": "HALL",
           "CheckinDate": "2026-08-27",
           "CheckOutDate": "2026-09-05",
-          "Room": "115",
+          "Room": "106",
           "RoomType": "JR SUIT S",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 1232.8536,
+          "ExtraFolioBalance": 4371.0264,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -20917,13 +20959,6 @@
           "OccVac": 1
         },
         {
-          "Room": "106",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -20966,9 +21001,16 @@
           "OccVac": 1
         },
         {
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21129,7 +21171,7 @@
         {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21192,7 +21234,7 @@
         {
           "Room": "308",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
