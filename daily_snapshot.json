@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-08-29 03:00:02",
+  "sync_time": "2026-08-29 04:00:02",
   "report_date": "2026-08-29",
   "summary": {
     "arrivals_count": 9,
     "departures_count": 22,
-    "inhouse_count": 68,
+    "inhouse_count": 69,
     "noshow_count": 11,
-    "vacant_count": 33,
+    "vacant_count": 32,
     "roomchanges_count": 0,
-    "eod_room_count": 55,
+    "eod_room_count": 56,
     "eod_pax_count": 95,
     "hk_count": 111
   },
@@ -1067,6 +1067,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "MUNFERIT TL"
+      },
+      {
+        "Voucher": "3039429",
+        "GroupNo": "",
+        "RecId": 31314,
+        "FirstName1": "ELISABETH",
+        "LastName1": "MAC HALE",
+        "CheckinDate": "2026-08-28",
+        "CheckOutDate": "2026-09-04",
+        "Room": "210",
+        "RoomType": "STD-LVL",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "00:30",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "31319",
@@ -2424,13 +2445,6 @@
         "OccVac": 1
       },
       {
-        "Room": "210",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "309",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
@@ -3351,9 +3365,9 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 22,
-        "inhouse_count": 68,
+        "inhouse_count": 69,
         "noshow_count": 11,
-        "vacant_count": 33,
+        "vacant_count": 32,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 95
@@ -4412,6 +4426,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "3039429",
+          "GroupNo": "",
+          "RecId": 31314,
+          "FirstName1": "ELISABETH",
+          "LastName1": "MAC HALE",
+          "CheckinDate": "2026-08-28",
+          "CheckOutDate": "2026-09-04",
+          "Room": "210",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "00:30",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "31319",
@@ -5769,13 +5804,6 @@
           "OccVac": 1
         },
         {
-          "Room": "210",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
@@ -6974,7 +7002,7 @@
           "ResRemark": null,
           "FlightArrival": "00:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9215,7 +9243,7 @@
           "ResRemark": null,
           "FlightArrival": "00:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11421,7 +11449,7 @@
           "ResRemark": null,
           "FlightArrival": "00:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13606,7 +13634,7 @@
           "ResRemark": null,
           "FlightArrival": "00:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16092,7 +16120,7 @@
           "ResRemark": null,
           "FlightArrival": "00:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17918,7 +17946,7 @@
           "ResRemark": null,
           "FlightArrival": "00:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
