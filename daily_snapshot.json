@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-29 07:00:02",
+  "sync_time": "2026-08-29 08:00:02",
   "report_date": "2026-08-29",
   "summary": {
     "arrivals_count": 9,
-    "departures_count": 22,
-    "inhouse_count": 69,
+    "departures_count": 21,
+    "inhouse_count": 68,
     "noshow_count": 11,
-    "vacant_count": 32,
+    "vacant_count": 33,
     "roomchanges_count": 0,
     "eod_room_count": 56,
     "eod_pax_count": 95,
@@ -205,27 +205,6 @@
       }
     ],
     "departures": [
-      {
-        "Voucher": "E867235",
-        "GroupNo": "",
-        "RecId": 30083,
-        "FirstName1": "DANNY FERDINAND",
-        "LastName1": "POST",
-        "CheckinDate": "2026-08-21",
-        "CheckOutDate": "2026-08-29",
-        "Room": "107",
-        "RoomType": "STD-LVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1104,
-        "ExtraFolioBalance": 1763.244,
-        "ResRemark": "",
-        "FlightArrival": "10:25",
-        "FlightDeparture": "12:40",
-        "Status": 2,
-        "AgencyCode": "ALLTOURS"
-      },
       {
         "Voucher": "3034345",
         "GroupNo": "",
@@ -450,7 +429,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 133990.0328,
+        "ExtraFolioBalance": 135222.3826,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -752,27 +731,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "E867235",
-        "GroupNo": "",
-        "RecId": 30083,
-        "FirstName1": "DANNY FERDINAND",
-        "LastName1": "POST",
-        "CheckinDate": "2026-08-21",
-        "CheckOutDate": "2026-08-29",
-        "Room": "107",
-        "RoomType": "STD-LVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1104,
-        "ExtraFolioBalance": 1763.244,
-        "ResRemark": "",
-        "FlightArrival": "10:25",
-        "FlightDeparture": "12:40",
-        "Status": 2,
-        "AgencyCode": "ALLTOURS"
       },
       {
         "Voucher": "3030225",
@@ -1586,7 +1544,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 133990.0328,
+        "ExtraFolioBalance": 135222.3826,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2357,6 +2315,13 @@
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "107",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3364,10 +3329,10 @@
     "2026-08-29": {
       "summary": {
         "arrivals_count": 9,
-        "departures_count": 22,
-        "inhouse_count": 69,
+        "departures_count": 21,
+        "inhouse_count": 68,
         "noshow_count": 11,
-        "vacant_count": 32,
+        "vacant_count": 33,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 95
@@ -3564,27 +3529,6 @@
         }
       ],
       "departures": [
-        {
-          "Voucher": "E867235",
-          "GroupNo": "",
-          "RecId": 30083,
-          "FirstName1": "DANNY FERDINAND",
-          "LastName1": "POST",
-          "CheckinDate": "2026-08-21",
-          "CheckOutDate": "2026-08-29",
-          "Room": "107",
-          "RoomType": "STD-LVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1104,
-          "ExtraFolioBalance": 1763.244,
-          "ResRemark": "",
-          "FlightArrival": "10:25",
-          "FlightDeparture": "12:40",
-          "Status": 2,
-          "AgencyCode": "ALLTOURS"
-        },
         {
           "Voucher": "3034345",
           "GroupNo": "",
@@ -3809,7 +3753,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 133990.0328,
+          "ExtraFolioBalance": 135222.3826,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4111,27 +4055,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "E867235",
-          "GroupNo": "",
-          "RecId": 30083,
-          "FirstName1": "DANNY FERDINAND",
-          "LastName1": "POST",
-          "CheckinDate": "2026-08-21",
-          "CheckOutDate": "2026-08-29",
-          "Room": "107",
-          "RoomType": "STD-LVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1104,
-          "ExtraFolioBalance": 1763.244,
-          "ResRemark": "",
-          "FlightArrival": "10:25",
-          "FlightDeparture": "12:40",
-          "Status": 2,
-          "AgencyCode": "ALLTOURS"
         },
         {
           "Voucher": "3030225",
@@ -4945,7 +4868,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 133990.0328,
+          "ExtraFolioBalance": 135222.3826,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5716,6 +5639,13 @@
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "107",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
