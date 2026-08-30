@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-08-30 16:00:02",
+  "sync_time": "2026-08-30 17:00:02",
   "report_date": "2026-08-30",
   "summary": {
-    "arrivals_count": 12,
+    "arrivals_count": 10,
     "departures_count": 1,
-    "inhouse_count": 48,
+    "inhouse_count": 50,
     "noshow_count": 11,
     "vacant_count": 46,
     "roomchanges_count": 0,
@@ -99,27 +99,6 @@
         "AgencyCode": "ITS REISEN"
       },
       {
-        "Voucher": "75-3675146",
-        "GroupNo": "",
-        "RecId": 30902,
-        "FirstName1": "MICHAEL",
-        "LastName1": "KONDRATENKO",
-        "CheckinDate": "2026-08-30",
-        "CheckOutDate": "2026-09-03",
-        "Room": "124",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
         "Voucher": "3040491",
         "GroupNo": "",
         "RecId": 31383,
@@ -181,27 +160,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "EXPEDIA"
-      },
-      {
-        "Voucher": "33835772",
-        "GroupNo": "",
-        "RecId": 31803,
-        "FirstName1": "BELINDA",
-        "LastName1": "WARD",
-        "CheckinDate": "2026-08-30",
-        "CheckOutDate": "2026-09-06",
-        "Room": "336",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 12,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "12:05",
-        "FlightDeparture": "13:15",
-        "Status": 1,
-        "AgencyCode": "TUI UK"
       },
       {
         "Voucher": "3045723",
@@ -536,7 +494,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 17484.1056,
+        "ExtraFolioBalance": 20061.8904,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -563,6 +521,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "75-3675146",
+        "GroupNo": "",
+        "RecId": 30902,
+        "FirstName1": "MICHAEL",
+        "LastName1": "KONDRATENKO",
+        "CheckinDate": "2026-08-30",
+        "CheckOutDate": "2026-09-03",
+        "Room": "321",
+        "RoomType": "STD-LVL",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1103,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "HOTELBEDS - B2B"
       },
       {
         "Voucher": "1692255",
@@ -746,7 +725,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 10078.056,
+        "ExtraFolioBalance": 10805.9156,
         "ResRemark": "",
         "FlightArrival": "20:00",
         "FlightDeparture": "",
@@ -851,7 +830,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 43,
-        "ExtraFolioBalance": 9288.7777,
+        "ExtraFolioBalance": 10968.3127,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -935,7 +914,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 19,
-        "ExtraFolioBalance": 5771.9964,
+        "ExtraFolioBalance": 6780.6948,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -983,6 +962,27 @@
         "FlightDeparture": "06:55",
         "Status": 2,
         "AgencyCode": "DER TOUR"
+      },
+      {
+        "Voucher": "33835772",
+        "GroupNo": "",
+        "RecId": 31803,
+        "FirstName1": "BELINDA",
+        "LastName1": "WARD",
+        "CheckinDate": "2026-08-30",
+        "CheckOutDate": "2026-09-06",
+        "Room": "336",
+        "RoomType": "STD-SV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 12,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "12:05",
+        "FlightDeparture": "13:15",
+        "Status": 2,
+        "AgencyCode": "TUI UK"
       },
       {
         "Voucher": "24257276",
@@ -1187,7 +1187,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 14,
-        "ExtraFolioBalance": 9009.1414,
+        "ExtraFolioBalance": 9736.5876,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1292,7 +1292,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 12356.03755,
+        "ExtraFolioBalance": 13083.83605,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1612,6 +1612,13 @@
         "OccVac": 1
       },
       {
+        "Room": "124",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "125",
         "RoomTypeCode": "STD SEA",
         "DirtyClean": 1,
@@ -1704,13 +1711,6 @@
       },
       {
         "Room": "317",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "321",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
         "HkStatus": 0,
@@ -2024,7 +2024,7 @@
       {
         "Room": "124",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2642,9 +2642,9 @@
   "by_date": {
     "2026-08-30": {
       "summary": {
-        "arrivals_count": 12,
+        "arrivals_count": 10,
         "departures_count": 1,
-        "inhouse_count": 48,
+        "inhouse_count": 50,
         "noshow_count": 11,
         "vacant_count": 46,
         "roomchanges_count": 0,
@@ -2737,27 +2737,6 @@
           "AgencyCode": "ITS REISEN"
         },
         {
-          "Voucher": "75-3675146",
-          "GroupNo": "",
-          "RecId": 30902,
-          "FirstName1": "MICHAEL",
-          "LastName1": "KONDRATENKO",
-          "CheckinDate": "2026-08-30",
-          "CheckOutDate": "2026-09-03",
-          "Room": "124",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "3040491",
           "GroupNo": "",
           "RecId": 31383,
@@ -2819,27 +2798,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "EXPEDIA"
-        },
-        {
-          "Voucher": "33835772",
-          "GroupNo": "",
-          "RecId": 31803,
-          "FirstName1": "BELINDA",
-          "LastName1": "WARD",
-          "CheckinDate": "2026-08-30",
-          "CheckOutDate": "2026-09-06",
-          "Room": "336",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "12:05",
-          "FlightDeparture": "13:15",
-          "Status": 1,
-          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "3045723",
@@ -3174,7 +3132,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3201,6 +3159,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "75-3675146",
+          "GroupNo": "",
+          "RecId": 30902,
+          "FirstName1": "MICHAEL",
+          "LastName1": "KONDRATENKO",
+          "CheckinDate": "2026-08-30",
+          "CheckOutDate": "2026-09-03",
+          "Room": "321",
+          "RoomType": "STD-LVL",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1103,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "HOTELBEDS - B2B"
         },
         {
           "Voucher": "1692255",
@@ -3384,7 +3363,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 10078.056,
+          "ExtraFolioBalance": 10805.9156,
           "ResRemark": "",
           "FlightArrival": "20:00",
           "FlightDeparture": "",
@@ -3489,7 +3468,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9288.7777,
+          "ExtraFolioBalance": 10968.3127,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3573,7 +3552,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5771.9964,
+          "ExtraFolioBalance": 6780.6948,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3621,6 +3600,27 @@
           "FlightDeparture": "06:55",
           "Status": 2,
           "AgencyCode": "DER TOUR"
+        },
+        {
+          "Voucher": "33835772",
+          "GroupNo": "",
+          "RecId": 31803,
+          "FirstName1": "BELINDA",
+          "LastName1": "WARD",
+          "CheckinDate": "2026-08-30",
+          "CheckOutDate": "2026-09-06",
+          "Room": "336",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "12:05",
+          "FlightDeparture": "13:15",
+          "Status": 2,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "24257276",
@@ -3825,7 +3825,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 9009.1414,
+          "ExtraFolioBalance": 9736.5876,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3930,7 +3930,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 12356.03755,
+          "ExtraFolioBalance": 13083.83605,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4250,6 +4250,13 @@
           "OccVac": 1
         },
         {
+          "Room": "124",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -4342,13 +4349,6 @@
         },
         {
           "Room": "317",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "321",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -4503,7 +4503,7 @@
         "departures_count": 15,
         "inhouse_count": 56,
         "noshow_count": 0,
-        "vacant_count": 60,
+        "vacant_count": 49,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 98
@@ -4538,8 +4538,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -4559,7 +4559,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -4580,7 +4580,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -4601,8 +4601,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -4622,8 +4622,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -4643,7 +4643,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "305",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -4664,8 +4664,8 @@
           "LastName1": "BABALITAS",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "107",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -4685,7 +4685,7 @@
           "LastName1": "OZCAN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -4706,7 +4706,7 @@
           "LastName1": "KOKSAL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -4727,7 +4727,7 @@
           "LastName1": "GREGOREK",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -4748,7 +4748,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -5071,7 +5071,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 12356.03755,
+          "ExtraFolioBalance": 13083.83605,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5319,8 +5319,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -5340,7 +5340,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -5367,7 +5367,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5403,8 +5403,8 @@
           "LastName1": "KONDRATENKO",
           "CheckinDate": "2026-08-30",
           "CheckOutDate": "2026-09-03",
-          "Room": "124",
-          "RoomType": "STD-LV",
+          "Room": "321",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5413,7 +5413,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
@@ -5445,7 +5445,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -5466,8 +5466,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -5661,7 +5661,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 10078.056,
+          "ExtraFolioBalance": 10805.9156,
           "ResRemark": "",
           "FlightArrival": "20:00",
           "FlightDeparture": "",
@@ -5766,7 +5766,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9288.7777,
+          "ExtraFolioBalance": 10968.3127,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5781,8 +5781,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -5844,7 +5844,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "305",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -5886,8 +5886,8 @@
           "LastName1": "BABALITAS",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "107",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -5913,7 +5913,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5771.9964,
+          "ExtraFolioBalance": 6780.6948,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5959,7 +5959,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -6102,7 +6102,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 9009.1414,
+          "ExtraFolioBalance": 9736.5876,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6117,7 +6117,7 @@
           "LastName1": "OZCAN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -6159,7 +6159,7 @@
           "LastName1": "KOKSAL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -6180,7 +6180,7 @@
           "LastName1": "GREGOREK",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -6201,7 +6201,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -6274,20 +6274,6 @@
           "OccVac": 1
         },
         {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
@@ -6344,16 +6330,16 @@
           "OccVac": 1
         },
         {
-          "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "Room": "123",
+          "RoomTypeCode": "CLUB SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "123",
-          "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 0,
+          "Room": "124",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6386,13 +6372,6 @@
           "OccVac": 1
         },
         {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 1,
@@ -6414,13 +6393,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -6438,13 +6410,6 @@
           "Room": "304",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "305",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6484,51 +6449,9 @@
           "OccVac": 1
         },
         {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "333",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6688,7 +6611,7 @@
         "departures_count": 7,
         "inhouse_count": 66,
         "noshow_count": 0,
-        "vacant_count": 66,
+        "vacant_count": 55,
         "roomchanges_count": 0,
         "eod_room_count": 66,
         "eod_pax_count": 116
@@ -7462,8 +7385,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7483,7 +7406,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -7552,7 +7475,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7588,8 +7511,8 @@
           "LastName1": "KONDRATENKO",
           "CheckinDate": "2026-08-30",
           "CheckOutDate": "2026-09-03",
-          "Room": "124",
-          "RoomType": "STD-LV",
+          "Room": "321",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -7598,7 +7521,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
@@ -7630,7 +7553,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -7651,8 +7574,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7888,7 +7811,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 10078.056,
+          "ExtraFolioBalance": 10805.9156,
           "ResRemark": "",
           "FlightArrival": "20:00",
           "FlightDeparture": "",
@@ -7951,7 +7874,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9288.7777,
+          "ExtraFolioBalance": 10968.3127,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7987,8 +7910,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -8050,7 +7973,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "305",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -8134,8 +8057,8 @@
           "LastName1": "BABALITAS",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "107",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -8161,7 +8084,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5771.9964,
+          "ExtraFolioBalance": 6780.6948,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8207,7 +8130,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -8350,7 +8273,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 9009.1414,
+          "ExtraFolioBalance": 9736.5876,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8365,7 +8288,7 @@
           "LastName1": "OZCAN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -8407,7 +8330,7 @@
           "LastName1": "KOKSAL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -8428,7 +8351,7 @@
           "LastName1": "GREGOREK",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -8470,7 +8393,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -8606,23 +8529,9 @@
           "OccVac": 1
         },
         {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8683,16 +8592,16 @@
           "OccVac": 1
         },
         {
-          "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "Room": "123",
+          "RoomTypeCode": "CLUB SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "123",
-          "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 0,
+          "Room": "124",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8719,13 +8628,6 @@
         },
         {
           "Room": "131",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -8760,13 +8662,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -8784,13 +8679,6 @@
           "Room": "304",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "305",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8858,51 +8746,9 @@
           "OccVac": 1
         },
         {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "333",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9062,7 +8908,7 @@
         "departures_count": 5,
         "inhouse_count": 70,
         "noshow_count": 0,
-        "vacant_count": 69,
+        "vacant_count": 58,
         "roomchanges_count": 0,
         "eod_room_count": 70,
         "eod_pax_count": 123
@@ -9668,8 +9514,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9689,7 +9535,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -9779,7 +9625,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9815,8 +9661,8 @@
           "LastName1": "KONDRATENKO",
           "CheckinDate": "2026-08-30",
           "CheckOutDate": "2026-09-03",
-          "Room": "124",
-          "RoomType": "STD-LV",
+          "Room": "321",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -9825,7 +9671,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
@@ -9857,7 +9703,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -9878,8 +9724,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -10115,7 +9961,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 10078.056,
+          "ExtraFolioBalance": 10805.9156,
           "ResRemark": "",
           "FlightArrival": "20:00",
           "FlightDeparture": "",
@@ -10220,7 +10066,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9288.7777,
+          "ExtraFolioBalance": 10968.3127,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -10256,8 +10102,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -10277,7 +10123,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "305",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -10361,8 +10207,8 @@
           "LastName1": "BABALITAS",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "107",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -10388,7 +10234,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5771.9964,
+          "ExtraFolioBalance": 6780.6948,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10434,7 +10280,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -10577,7 +10423,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 9009.1414,
+          "ExtraFolioBalance": 9736.5876,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10592,7 +10438,7 @@
           "LastName1": "OZCAN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -10634,7 +10480,7 @@
           "LastName1": "KOKSAL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -10655,7 +10501,7 @@
           "LastName1": "GREGOREK",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -10697,7 +10543,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -10854,23 +10700,9 @@
           "OccVac": 1
         },
         {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10938,16 +10770,16 @@
           "OccVac": 1
         },
         {
-          "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "Room": "123",
+          "RoomTypeCode": "CLUB SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "123",
-          "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 0,
+          "Room": "124",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10974,13 +10806,6 @@
         },
         {
           "Room": "131",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -11029,13 +10854,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -11053,13 +10871,6 @@
           "Room": "304",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "305",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11120,51 +10931,9 @@
           "OccVac": 1
         },
         {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "333",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11331,7 +11100,7 @@
         "departures_count": 7,
         "inhouse_count": 78,
         "noshow_count": 0,
-        "vacant_count": 76,
+        "vacant_count": 65,
         "roomchanges_count": 0,
         "eod_room_count": 78,
         "eod_pax_count": 139
@@ -11662,8 +11431,8 @@
           "LastName1": "KONDRATENKO",
           "CheckinDate": "2026-08-30",
           "CheckOutDate": "2026-09-03",
-          "Room": "124",
-          "RoomType": "STD-LV",
+          "Room": "321",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -11672,7 +11441,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
@@ -11710,7 +11479,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 10078.056,
+          "ExtraFolioBalance": 10805.9156,
           "ResRemark": "",
           "FlightArrival": "20:00",
           "FlightDeparture": "",
@@ -11773,7 +11542,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5771.9964,
+          "ExtraFolioBalance": 6780.6948,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12189,8 +11958,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -12210,7 +11979,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -12300,7 +12069,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12357,7 +12126,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -12378,8 +12147,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -12678,7 +12447,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9288.7777,
+          "ExtraFolioBalance": 10968.3127,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -12714,8 +12483,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -12735,7 +12504,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "305",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -12924,8 +12693,8 @@
           "LastName1": "BABALITAS",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "107",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -12997,7 +12766,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -13182,7 +12951,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 9009.1414,
+          "ExtraFolioBalance": 9736.5876,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13197,7 +12966,7 @@
           "LastName1": "OZCAN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -13239,7 +13008,7 @@
           "LastName1": "KOKSAL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -13260,7 +13029,7 @@
           "LastName1": "GREGOREK",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -13302,7 +13071,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -13459,23 +13228,9 @@
           "OccVac": 1
         },
         {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13550,13 +13305,6 @@
           "OccVac": 1
         },
         {
-          "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -13573,7 +13321,7 @@
         {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13600,13 +13348,6 @@
         },
         {
           "Room": "131",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -13676,13 +13417,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -13700,13 +13434,6 @@
           "Room": "304",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "305",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13774,20 +13501,6 @@
           "OccVac": 1
         },
         {
-          "Room": "322",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -13798,27 +13511,6 @@
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "333",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13985,7 +13677,7 @@
         "departures_count": 14,
         "inhouse_count": 75,
         "noshow_count": 0,
-        "vacant_count": 80,
+        "vacant_count": 74,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 138
@@ -14280,7 +13972,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9288.7777,
+          "ExtraFolioBalance": 10968.3127,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -14316,7 +14008,7 @@
           "LastName1": "SAHIN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "305",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 2,
@@ -14337,8 +14029,8 @@
           "LastName1": "BABALITAS",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "107",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -14406,7 +14098,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 9009.1414,
+          "ExtraFolioBalance": 9736.5876,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14421,7 +14113,7 @@
           "LastName1": "OZCAN",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -14442,7 +14134,7 @@
           "LastName1": "KOKSAL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -14463,7 +14155,7 @@
           "LastName1": "GREGOREK",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-04",
-          "Room": "",
+          "Room": "333",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -14906,8 +14598,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -14927,7 +14619,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -15038,7 +14730,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -15095,7 +14787,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -15116,8 +14808,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15431,8 +15123,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -15672,7 +15364,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -15977,7 +15669,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -16113,13 +15805,6 @@
           "OccVac": 1
         },
         {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -16211,13 +15896,6 @@
           "OccVac": 1
         },
         {
-          "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -16234,7 +15912,7 @@
         {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16261,13 +15939,6 @@
         },
         {
           "Room": "131",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -16456,13 +16127,6 @@
           "OccVac": 1
         },
         {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -16473,20 +16137,6 @@
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16667,7 +16317,7 @@
         "departures_count": 19,
         "inhouse_count": 75,
         "noshow_count": 0,
-        "vacant_count": 88,
+        "vacant_count": 84,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 137
@@ -17193,7 +16843,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 17484.1056,
+          "ExtraFolioBalance": 20061.8904,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -17229,8 +16879,8 @@
           "LastName1": "KIVANC",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "103",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -17418,7 +17068,7 @@
           "LastName1": "ABDELGALIL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-05",
-          "Room": "",
+          "Room": "120",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -17903,8 +17553,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -17924,7 +17574,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -18071,7 +17721,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -18428,8 +18078,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -18690,7 +18340,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -19203,7 +18853,7 @@
         {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19251,13 +18901,6 @@
         },
         {
           "Room": "131",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -19446,13 +19089,6 @@
           "OccVac": 1
         },
         {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -19460,22 +19096,8 @@
           "OccVac": 1
         },
         {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -19678,7 +19300,7 @@
         "departures_count": 18,
         "inhouse_count": 64,
         "noshow_count": 0,
-        "vacant_count": 94,
+        "vacant_count": 91,
         "roomchanges_count": 0,
         "eod_room_count": 64,
         "eod_pax_count": 115
@@ -20009,7 +19631,7 @@
           "LastName1": "FRISE",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-06",
-          "Room": "",
+          "Room": "132",
           "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
@@ -20166,7 +19788,7 @@
           "ResRemark": "",
           "FlightArrival": "12:05",
           "FlightDeparture": "13:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -20515,8 +20137,8 @@
           "LastName1": "CARMICHAEL",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -20536,7 +20158,7 @@
           "LastName1": "JOHNSTON",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-07",
-          "Room": "",
+          "Room": "323",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -20998,8 +20620,8 @@
           "LastName1": "TITARENKO",
           "CheckinDate": "2026-08-31",
           "CheckOutDate": "2026-09-13",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "329",
+          "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -21710,7 +21332,7 @@
         {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21960,13 +21582,6 @@
           "OccVac": 1
         },
         {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -21995,22 +21610,8 @@
           "OccVac": 1
         },
         {
-          "Room": "329",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
