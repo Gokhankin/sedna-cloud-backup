@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-08-30 10:00:03",
+  "sync_time": "2026-08-30 11:00:03",
   "report_date": "2026-08-30",
   "summary": {
     "arrivals_count": 16,
-    "departures_count": 10,
-    "inhouse_count": 53,
+    "departures_count": 9,
+    "inhouse_count": 52,
     "noshow_count": 11,
-    "vacant_count": 41,
+    "vacant_count": 42,
     "roomchanges_count": 0,
     "eod_room_count": 59,
     "eod_pax_count": 103,
@@ -387,7 +387,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 18184.5906,
+        "ExtraFolioBalance": 15382.6506,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -540,27 +540,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "ADDAJET"
-      },
-      {
-        "Voucher": "SH30885527",
-        "GroupNo": "",
-        "RecId": 32031,
-        "FirstName1": "ADWAN",
-        "LastName1": "ALOBRA",
-        "CheckinDate": "2026-08-28",
-        "CheckOutDate": "2026-08-30",
-        "Room": "113",
-        "RoomType": "JR SUIT S",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 40,
-        "ExtraFolioBalance": 4980.2086,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "SUNHOTELS/WEBBE"
       }
     ],
     "inhouse": [
@@ -830,7 +809,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 671.814,
+        "ExtraFolioBalance": 3415.0545,
         "ResRemark": null,
         "FlightArrival": "19:00",
         "FlightDeparture": null,
@@ -956,7 +935,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 18184.5906,
+        "ExtraFolioBalance": 15382.6506,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1418,7 +1397,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1131,
-        "ExtraFolioBalance": 3359.634,
+        "ExtraFolioBalance": 3807.5852,
         "ResRemark": "",
         "FlightArrival": "23:50",
         "FlightDeparture": "06:30",
@@ -1460,7 +1439,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 9414.5184,
+        "ExtraFolioBalance": 13897.6224,
         "ResRemark": "",
         "FlightArrival": "21.30",
         "FlightDeparture": "",
@@ -1655,27 +1634,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "TRSTCA/DIANA"
-      },
-      {
-        "Voucher": "SH30885527",
-        "GroupNo": "",
-        "RecId": 32031,
-        "FirstName1": "ADWAN",
-        "LastName1": "ALOBRA",
-        "CheckinDate": "2026-08-28",
-        "CheckOutDate": "2026-08-30",
-        "Room": "113",
-        "RoomType": "JR SUIT S",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 40,
-        "ExtraFolioBalance": 4980.2086,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "SUNHOTELS/WEBBE"
       }
     ],
     "noshow": [
@@ -1944,6 +1902,13 @@
         "Room": "110",
         "RoomTypeCode": "STD SEA",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "113",
+        "RoomTypeCode": "JR SUIT S",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2986,10 +2951,10 @@
     "2026-08-30": {
       "summary": {
         "arrivals_count": 16,
-        "departures_count": 10,
-        "inhouse_count": 53,
+        "departures_count": 9,
+        "inhouse_count": 52,
         "noshow_count": 11,
-        "vacant_count": 41,
+        "vacant_count": 42,
         "roomchanges_count": 0,
         "eod_room_count": 59,
         "eod_pax_count": 103
@@ -3368,7 +3333,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 18184.5906,
+          "ExtraFolioBalance": 15382.6506,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3521,27 +3486,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
-        },
-        {
-          "Voucher": "SH30885527",
-          "GroupNo": "",
-          "RecId": 32031,
-          "FirstName1": "ADWAN",
-          "LastName1": "ALOBRA",
-          "CheckinDate": "2026-08-28",
-          "CheckOutDate": "2026-08-30",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 40,
-          "ExtraFolioBalance": 4980.2086,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "SUNHOTELS/WEBBE"
         }
       ],
       "inhouse": [
@@ -3811,7 +3755,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -3937,7 +3881,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 18184.5906,
+          "ExtraFolioBalance": 15382.6506,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4399,7 +4343,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 3359.634,
+          "ExtraFolioBalance": 3807.5852,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "06:30",
@@ -4441,7 +4385,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 9414.5184,
+          "ExtraFolioBalance": 13897.6224,
           "ResRemark": "",
           "FlightArrival": "21.30",
           "FlightDeparture": "",
@@ -4636,27 +4580,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
-        },
-        {
-          "Voucher": "SH30885527",
-          "GroupNo": "",
-          "RecId": 32031,
-          "FirstName1": "ADWAN",
-          "LastName1": "ALOBRA",
-          "CheckinDate": "2026-08-28",
-          "CheckOutDate": "2026-08-30",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 40,
-          "ExtraFolioBalance": 4980.2086,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "SUNHOTELS/WEBBE"
         }
       ],
       "noshow": [
@@ -4925,6 +4848,13 @@
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5673,7 +5603,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 3359.634,
+          "ExtraFolioBalance": 3807.5852,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "06:30",
@@ -6074,7 +6004,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -6683,7 +6613,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 9414.5184,
+          "ExtraFolioBalance": 13897.6224,
           "ResRemark": "",
           "FlightArrival": "21.30",
           "FlightDeparture": "",
@@ -7370,14 +7300,14 @@
     },
     "2026-09-01": {
       "summary": {
-        "arrivals_count": 15,
+        "arrivals_count": 16,
         "departures_count": 7,
-        "inhouse_count": 64,
+        "inhouse_count": 65,
         "noshow_count": 0,
         "vacant_count": 66,
         "roomchanges_count": 0,
-        "eod_room_count": 64,
-        "eod_pax_count": 112
+        "eod_room_count": 65,
+        "eod_pax_count": 114
       },
       "arrivals": [
         {
@@ -7694,6 +7624,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "2632944",
+          "GroupNo": "",
+          "RecId": 32073,
+          "FirstName1": "KUBRA",
+          "LastName1": "OZYURT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "departures": [
@@ -7837,7 +7788,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 9414.5184,
+          "ExtraFolioBalance": 13897.6224,
           "ResRemark": "",
           "FlightArrival": "21.30",
           "FlightDeparture": "",
@@ -8217,7 +8168,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -9189,6 +9140,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "2632944",
+          "GroupNo": "",
+          "RecId": 32073,
+          "FirstName1": "KUBRA",
+          "LastName1": "OZYURT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "noshow": [],
@@ -9662,12 +9634,12 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 5,
-        "inhouse_count": 68,
+        "inhouse_count": 69,
         "noshow_count": 0,
         "vacant_count": 69,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 119
+        "eod_room_count": 69,
+        "eod_pax_count": 121
       },
       "arrivals": [
         {
@@ -10402,7 +10374,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -11395,6 +11367,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "2632944",
+          "GroupNo": "",
+          "RecId": 32073,
+          "FirstName1": "KUBRA",
+          "LastName1": "OZYURT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "noshow": [],
@@ -11889,12 +11882,12 @@
       "summary": {
         "arrivals_count": 15,
         "departures_count": 7,
-        "inhouse_count": 76,
+        "inhouse_count": 77,
         "noshow_count": 0,
         "vacant_count": 76,
         "roomchanges_count": 0,
-        "eod_room_count": 76,
-        "eod_pax_count": 135
+        "eod_room_count": 77,
+        "eod_pax_count": 137
       },
       "arrivals": [
         {
@@ -12881,7 +12874,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -13958,6 +13951,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "2632944",
+          "GroupNo": "",
+          "RecId": 32073,
+          "FirstName1": "KUBRA",
+          "LastName1": "OZYURT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "noshow": [],
@@ -14501,12 +14515,12 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 13,
-        "inhouse_count": 74,
+        "inhouse_count": 75,
         "noshow_count": 0,
         "vacant_count": 81,
         "roomchanges_count": 0,
-        "eod_room_count": 74,
-        "eod_pax_count": 136
+        "eod_room_count": 75,
+        "eod_pax_count": 138
       },
       "arrivals": [
         {
@@ -15556,7 +15570,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -16570,6 +16584,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "2632944",
+          "GroupNo": "",
+          "RecId": 32073,
+          "FirstName1": "KUBRA",
+          "LastName1": "OZYURT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "noshow": [],
@@ -17147,7 +17182,7 @@
     "2026-09-05": {
       "summary": {
         "arrivals_count": 18,
-        "departures_count": 18,
+        "departures_count": 19,
         "inhouse_count": 74,
         "noshow_count": 0,
         "vacant_count": 89,
@@ -17676,7 +17711,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 671.814,
+          "ExtraFolioBalance": 3415.0545,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -17913,6 +17948,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "2632944",
+          "GroupNo": "",
+          "RecId": 32073,
+          "FirstName1": "KUBRA",
+          "LastName1": "OZYURT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "inhouse": [
