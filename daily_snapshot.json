@@ -1,9 +1,9 @@
 {
-  "sync_time": "2026-08-30 15:00:02",
+  "sync_time": "2026-08-30 16:00:02",
   "report_date": "2026-08-30",
   "summary": {
-    "arrivals_count": 13,
-    "departures_count": 2,
+    "arrivals_count": 12,
+    "departures_count": 1,
     "inhouse_count": 48,
     "noshow_count": 11,
     "vacant_count": 46,
@@ -118,27 +118,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "17864754",
-        "GroupNo": "",
-        "RecId": 31348,
-        "FirstName1": "DIPIKA",
-        "LastName1": "PARMAR",
-        "CheckinDate": "2026-08-30",
-        "CheckOutDate": "2026-09-03",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "DIANA GBP"
       },
       {
         "Voucher": "3040491",
@@ -309,27 +288,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "2632260",
-        "GroupNo": "",
-        "RecId": 32005,
-        "FirstName1": "SONER",
-        "LastName1": "YAPICIER",
-        "CheckinDate": "2026-08-28",
-        "CheckOutDate": "2026-08-30",
-        "Room": "2000",
-        "RoomType": "PM",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
       }
     ],
     "inhouse": [
@@ -691,6 +649,27 @@
         "AgencyCode": "BA HOLIDAYS"
       },
       {
+        "Voucher": "17864754",
+        "GroupNo": "",
+        "RecId": 31348,
+        "FirstName1": "DIPIKA",
+        "LastName1": "PARMAR",
+        "CheckinDate": "2026-08-30",
+        "CheckOutDate": "2026-09-03",
+        "Room": "110",
+        "RoomType": "STD SEA",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 44,
+        "ExtraFolioBalance": 2351.349,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "DIANA GBP"
+      },
+      {
         "Voucher": "2525844621",
         "GroupNo": "",
         "RecId": 31462,
@@ -872,7 +851,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 43,
-        "ExtraFolioBalance": 9036.84745,
+        "ExtraFolioBalance": 9288.7777,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -893,7 +872,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 44,
-        "ExtraFolioBalance": 27425.38464,
+        "ExtraFolioBalance": 27985.54364,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -956,7 +935,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 19,
-        "ExtraFolioBalance": 5211.6084,
+        "ExtraFolioBalance": 5771.9964,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -977,7 +956,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 33,
-        "ExtraFolioBalance": 11394.75865,
+        "ExtraFolioBalance": 12738.61225,
         "ResRemark": null,
         "FlightArrival": "10:55",
         "FlightDeparture": null,
@@ -1103,7 +1082,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 16083.1356,
+        "ExtraFolioBalance": 16307.2908,
         "ResRemark": "",
         "FlightArrival": "21.30",
         "FlightDeparture": "",
@@ -1208,33 +1187,12 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 14,
-        "ExtraFolioBalance": 8281.6952,
+        "ExtraFolioBalance": 9009.1414,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "DIANA EURO"
-      },
-      {
-        "Voucher": "2632260",
-        "GroupNo": "",
-        "RecId": 32005,
-        "FirstName1": "SONER",
-        "LastName1": "YAPICIER",
-        "CheckinDate": "2026-08-28",
-        "CheckOutDate": "2026-08-30",
-        "Room": "2000",
-        "RoomType": "PM",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "TRSTCA/DIANA"
       },
       {
         "Voucher": "2632520",
@@ -1250,7 +1208,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 671.4888,
+        "ExtraFolioBalance": 1119.148,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1691,7 +1649,7 @@
       {
         "Room": "205",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2171,7 +2129,7 @@
       {
         "Room": "205",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2339,7 +2297,7 @@
       {
         "Room": "318",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2465,14 +2423,14 @@
       {
         "Room": "336",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "337",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2684,8 +2642,8 @@
   "by_date": {
     "2026-08-30": {
       "summary": {
-        "arrivals_count": 13,
-        "departures_count": 2,
+        "arrivals_count": 12,
+        "departures_count": 1,
         "inhouse_count": 48,
         "noshow_count": 11,
         "vacant_count": 46,
@@ -2798,27 +2756,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "17864754",
-          "GroupNo": "",
-          "RecId": 31348,
-          "FirstName1": "DIPIKA",
-          "LastName1": "PARMAR",
-          "CheckinDate": "2026-08-30",
-          "CheckOutDate": "2026-09-03",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "3040491",
@@ -2989,27 +2926,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "2632260",
-          "GroupNo": "",
-          "RecId": 32005,
-          "FirstName1": "SONER",
-          "LastName1": "YAPICIER",
-          "CheckinDate": "2026-08-28",
-          "CheckOutDate": "2026-08-30",
-          "Room": "2000",
-          "RoomType": "PM",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
         }
       ],
       "inhouse": [
@@ -3371,6 +3287,27 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
+          "Voucher": "17864754",
+          "GroupNo": "",
+          "RecId": 31348,
+          "FirstName1": "DIPIKA",
+          "LastName1": "PARMAR",
+          "CheckinDate": "2026-08-30",
+          "CheckOutDate": "2026-09-03",
+          "Room": "110",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 2351.349,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DIANA GBP"
+        },
+        {
           "Voucher": "2525844621",
           "GroupNo": "",
           "RecId": 31462,
@@ -3552,7 +3489,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9036.84745,
+          "ExtraFolioBalance": 9288.7777,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3573,7 +3510,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 27425.38464,
+          "ExtraFolioBalance": 27985.54364,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3636,7 +3573,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5211.6084,
+          "ExtraFolioBalance": 5771.9964,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3657,7 +3594,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 11394.75865,
+          "ExtraFolioBalance": 12738.61225,
           "ResRemark": null,
           "FlightArrival": "10:55",
           "FlightDeparture": null,
@@ -3783,7 +3720,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 16083.1356,
+          "ExtraFolioBalance": 16307.2908,
           "ResRemark": "",
           "FlightArrival": "21.30",
           "FlightDeparture": "",
@@ -3888,33 +3825,12 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 8281.6952,
+          "ExtraFolioBalance": 9009.1414,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA EURO"
-        },
-        {
-          "Voucher": "2632260",
-          "GroupNo": "",
-          "RecId": 32005,
-          "FirstName1": "SONER",
-          "LastName1": "YAPICIER",
-          "CheckinDate": "2026-08-28",
-          "CheckOutDate": "2026-08-30",
-          "Room": "2000",
-          "RoomType": "PM",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "TRSTCA/DIANA"
         },
         {
           "Voucher": "2632520",
@@ -3930,7 +3846,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 671.4888,
+          "ExtraFolioBalance": 1119.148,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4371,7 +4287,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4987,7 +4903,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 11394.75865,
+          "ExtraFolioBalance": 12738.61225,
           "ResRemark": null,
           "FlightArrival": "10:55",
           "FlightDeparture": null,
@@ -5092,7 +5008,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 671.4888,
+          "ExtraFolioBalance": 1119.148,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5598,11 +5514,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2351.349,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -5850,7 +5766,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9036.84745,
+          "ExtraFolioBalance": 9288.7777,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5892,7 +5808,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 27425.38464,
+          "ExtraFolioBalance": 27985.54364,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5997,7 +5913,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5211.6084,
+          "ExtraFolioBalance": 5771.9964,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6081,7 +5997,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 16083.1356,
+          "ExtraFolioBalance": 16307.2908,
           "ResRemark": "",
           "FlightArrival": "21.30",
           "FlightDeparture": "",
@@ -6186,7 +6102,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 8281.6952,
+          "ExtraFolioBalance": 9009.1414,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6486,7 +6402,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6768,14 +6684,14 @@
     },
     "2026-09-01": {
       "summary": {
-        "arrivals_count": 16,
+        "arrivals_count": 17,
         "departures_count": 7,
-        "inhouse_count": 65,
+        "inhouse_count": 66,
         "noshow_count": 0,
         "vacant_count": 66,
         "roomchanges_count": 0,
-        "eod_room_count": 65,
-        "eod_pax_count": 114
+        "eod_room_count": 66,
+        "eod_pax_count": 116
       },
       "arrivals": [
         {
@@ -7113,6 +7029,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "2546535337",
+          "GroupNo": "",
+          "RecId": 32082,
+          "FirstName1": "IHSAN ERDEM",
+          "LastName1": "BAYKENT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "departures": [
@@ -7256,7 +7193,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 16083.1356,
+          "ExtraFolioBalance": 16307.2908,
           "ResRemark": "",
           "FlightArrival": "21.30",
           "FlightDeparture": "",
@@ -7762,11 +7699,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2351.349,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -8014,7 +7951,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9036.84745,
+          "ExtraFolioBalance": 9288.7777,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8077,7 +8014,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 27425.38464,
+          "ExtraFolioBalance": 27985.54364,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8224,7 +8161,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5211.6084,
+          "ExtraFolioBalance": 5771.9964,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8413,7 +8350,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 8281.6952,
+          "ExtraFolioBalance": 9009.1414,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8629,6 +8566,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "2546535337",
+          "GroupNo": "",
+          "RecId": 32082,
+          "FirstName1": "IHSAN ERDEM",
+          "LastName1": "BAYKENT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -8790,7 +8748,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9102,12 +9060,12 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 5,
-        "inhouse_count": 69,
+        "inhouse_count": 70,
         "noshow_count": 0,
         "vacant_count": 69,
         "roomchanges_count": 0,
-        "eod_room_count": 69,
-        "eod_pax_count": 121
+        "eod_room_count": 70,
+        "eod_pax_count": 123
       },
       "arrivals": [
         {
@@ -9336,7 +9294,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 27425.38464,
+          "ExtraFolioBalance": 27985.54364,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9968,11 +9926,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2351.349,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -10262,7 +10220,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9036.84745,
+          "ExtraFolioBalance": 9288.7777,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -10430,7 +10388,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5211.6084,
+          "ExtraFolioBalance": 5771.9964,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10619,7 +10577,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 8281.6952,
+          "ExtraFolioBalance": 9009.1414,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10856,6 +10814,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "2546535337",
+          "GroupNo": "",
+          "RecId": 32082,
+          "FirstName1": "IHSAN ERDEM",
+          "LastName1": "BAYKENT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -11024,7 +11003,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11350,12 +11329,12 @@
       "summary": {
         "arrivals_count": 15,
         "departures_count": 7,
-        "inhouse_count": 77,
+        "inhouse_count": 78,
         "noshow_count": 0,
         "vacant_count": 76,
         "roomchanges_count": 0,
-        "eod_room_count": 77,
-        "eod_pax_count": 137
+        "eod_room_count": 78,
+        "eod_pax_count": 139
       },
       "arrivals": [
         {
@@ -11710,11 +11689,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2351.349,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -11794,7 +11773,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 19,
-          "ExtraFolioBalance": 5211.6084,
+          "ExtraFolioBalance": 5771.9964,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12699,7 +12678,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9036.84745,
+          "ExtraFolioBalance": 9288.7777,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -13203,7 +13182,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 8281.6952,
+          "ExtraFolioBalance": 9009.1414,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13440,6 +13419,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "2546535337",
+          "GroupNo": "",
+          "RecId": 32082,
+          "FirstName1": "IHSAN ERDEM",
+          "LastName1": "BAYKENT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -13643,7 +13643,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13982,7 +13982,7 @@
     "2026-09-04": {
       "summary": {
         "arrivals_count": 11,
-        "departures_count": 13,
+        "departures_count": 14,
         "inhouse_count": 75,
         "noshow_count": 0,
         "vacant_count": 80,
@@ -14280,7 +14280,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 9036.84745,
+          "ExtraFolioBalance": 9288.7777,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -14406,7 +14406,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 8281.6952,
+          "ExtraFolioBalance": 9009.1414,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14496,6 +14496,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "2546535337",
+          "GroupNo": "",
+          "RecId": 32082,
+          "FirstName1": "IHSAN ERDEM",
+          "LastName1": "BAYKENT",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
@@ -16283,7 +16304,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16642,14 +16663,14 @@
     },
     "2026-09-05": {
       "summary": {
-        "arrivals_count": 18,
+        "arrivals_count": 19,
         "departures_count": 19,
-        "inhouse_count": 74,
+        "inhouse_count": 75,
         "noshow_count": 0,
         "vacant_count": 88,
         "roomchanges_count": 0,
-        "eod_room_count": 74,
-        "eod_pax_count": 136
+        "eod_room_count": 75,
+        "eod_pax_count": 137
       },
       "arrivals": [
         {
@@ -17029,6 +17050,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "32081",
+          "GroupNo": "",
+          "RecId": 32081,
+          "FirstName1": "METIN",
+          "LastName1": "CINAROGLU",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-14",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
         }
       ],
       "departures": [
@@ -18986,6 +19028,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "32081",
+          "GroupNo": "",
+          "RecId": 32081,
+          "FirstName1": "METIN",
+          "LastName1": "CINAROGLU",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-14",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
         }
       ],
       "noshow": [],
@@ -19231,7 +19294,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19613,12 +19676,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 18,
-        "inhouse_count": 63,
+        "inhouse_count": 64,
         "noshow_count": 0,
         "vacant_count": 94,
         "roomchanges_count": 0,
-        "eod_room_count": 63,
-        "eod_pax_count": 114
+        "eod_room_count": 64,
+        "eod_pax_count": 115
       },
       "arrivals": [
         {
@@ -21472,6 +21535,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "32081",
+          "GroupNo": "",
+          "RecId": 32081,
+          "FirstName1": "METIN",
+          "LastName1": "CINAROGLU",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-14",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT TL"
         }
       ],
       "noshow": [],
@@ -21717,7 +21801,7 @@
         {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21850,7 +21934,7 @@
         {
           "Room": "318",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21962,7 +22046,7 @@
         {
           "Room": "336",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
