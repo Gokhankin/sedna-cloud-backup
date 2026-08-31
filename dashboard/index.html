@@ -619,13 +619,13 @@
                 <table class="w-full text-left text-sm text-slate-300">
                     <thead class="bg-slate-800/50 text-slate-400 text-xs uppercase border-b border-dark-border">
                         <tr>
-                            <th scope="col" class="px-6 py-4 font-medium">Oda</th>
-                            <th scope="col" class="px-6 py-4 font-medium">Misafir</th>
-                            <th scope="col" class="px-6 py-4 font-medium">Voucher / Acente</th>
-                            <th scope="col" class="px-6 py-4 font-medium">Giriş / Çıkış</th>
-                            <th scope="col" class="px-6 py-4 font-medium">Tip / Pans.</th>
-                            <th scope="col" class="px-6 py-4 font-medium">Bakiye (Borç)</th>
-                            <th scope="col" class="px-6 py-4 font-medium text-center">Kişi</th>
+                            <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Oda</th>
+                            <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Misafir & Detaylar</th>
+                            <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Voucher / Acente</th>
+                            <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Giriş / Çıkış</th>
+                            <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Tip / Pans.</th>
+                            <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Bakiye (Borç)</th>
+                            <th scope="col" class="px-2 sm:px-4 py-3.5 font-medium text-center">Kişi</th>
                         </tr>
                     </thead>
                     <tbody id="table-body" class="divide-y divide-dark-border">
@@ -1053,31 +1053,31 @@
                 
                 if (tab === 'vacant') {
                     thead.innerHTML = `
-                        <th scope="col" class="px-6 py-4 font-medium">Oda No</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Oda Tipi</th>
-                        <th scope="col" class="px-6 py-4 font-medium">HK Durumu</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Konaklama Durumu</th>
-                        <th scope="col" class="px-6 py-4 font-medium text-right">Detay</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Oda No</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Oda Tipi</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">HK Durumu</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Konaklama Durumu</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium text-right">Detay</th>
                     `;
                 } else if (tab === 'roomchanges') {
                     thead.innerHTML = `
-                        <th scope="col" class="px-6 py-4 font-medium">Tarih / Saat</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Oda Değişimi</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Misafir / Voucher</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Acente</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Açıklama / Nedeni</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Kullanıcı</th>
-                        <th scope="col" class="px-6 py-4 font-medium text-center">Durum</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Tarih / Saat</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Oda Değişimi</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Misafir / Voucher</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Acente</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Açıklama / Nedeni</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Kullanıcı</th>
+                        <th scope="col" class="px-2 sm:px-4 py-3.5 font-medium text-center">Durum</th>
                     `;
                 } else {
                     thead.innerHTML = `
-                        <th scope="col" class="px-6 py-4 font-medium">Oda</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Misafir & Detaylar</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Voucher / Acente</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Giriş / Çıkış</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Tip / Pans.</th>
-                        <th scope="col" class="px-6 py-4 font-medium">Bakiye (Borç)</th>
-                        <th scope="col" class="px-6 py-4 font-medium text-center">Kişi</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Oda</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Misafir & Detaylar</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Voucher / Acente</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Giriş / Çıkış</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Tip / Pans.</th>
+                        <th scope="col" class="px-3 sm:px-6 py-3.5 font-medium">Bakiye (Borç)</th>
+                        <th scope="col" class="px-2 sm:px-4 py-3.5 font-medium text-center">Kişi</th>
                     `;
                 }
                 
@@ -1287,11 +1287,11 @@
                         const occBadge = '<span class="px-2.5 py-1 rounded-full text-xs font-medium bg-slate-800 text-slate-400 border border-slate-700 inline-flex items-center gap-1"><i class="fa-regular fa-door-open text-xs"></i> Boş</span>';
 
                         tr.innerHTML = `
-                            <td class="px-6 py-4 whitespace-nowrap">${roomBadge}</td>
-                            <td class="px-6 py-4 whitespace-nowrap">${typeBadge}</td>
-                            <td class="px-6 py-4 whitespace-nowrap">${statusBadge}</td>
-                            <td class="px-6 py-4 whitespace-nowrap">${occBadge}</td>
-                            <td class="px-6 py-4 text-right whitespace-nowrap">
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">${roomBadge}</td>
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">${typeBadge}</td>
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">${statusBadge}</td>
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">${occBadge}</td>
+                            <td class="px-3 sm:px-6 py-3.5 text-right whitespace-nowrap">
                                 <button onclick="openRoomModal(${JSON.stringify(row).replace(/"/g, '&quot;')}, null)" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-medium transition-colors border border-slate-700">
                                     <i class="fa-solid fa-eye mr-1"></i> Görüntüle
                                 </button>
@@ -1329,21 +1329,21 @@
                             `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-400 border border-amber-500/20 inline-flex items-center gap-1"><i class="fa-solid fa-clock text-xs"></i> Planlandı</span>`;
 
                         tr.innerHTML = `
-                            <td class="px-6 py-4 whitespace-nowrap">
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">
                                 <div class="font-mono text-slate-200">${dateStr}</div>
                                 ${timeStr}
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">${roomMoveBadge}</td>
-                            <td class="px-6 py-4 whitespace-nowrap">
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">${roomMoveBadge}</td>
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">
                                 <div class="text-slate-200 text-sm">${guestName}</div>
                                 ${voucherStr}
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">
                                 <span class="text-xs text-slate-400">${acName}</span>
                             </td>
-                            <td class="px-6 py-4">${remarkStr}</td>
-                            <td class="px-6 py-4 whitespace-nowrap">${userStr}</td>
-                            <td class="px-6 py-4 text-center whitespace-nowrap">${statusBadge}</td>
+                            <td class="px-3 sm:px-6 py-3.5">${remarkStr}</td>
+                            <td class="px-3 sm:px-6 py-3.5 whitespace-nowrap">${userStr}</td>
+                            <td class="px-2 sm:px-4 py-3.5 text-center whitespace-nowrap">${statusBadge}</td>
                         `;
                     } else {
                         const roomBadge = row.Room ? 
@@ -1376,33 +1376,33 @@
                         }
                         
                         tr.innerHTML = `
-                            <td class="px-6 py-4 whitespace-nowrap">${roomBadge}</td>
-                            <td class="px-6 py-4">
-                                <div class="text-slate-200 text-lg">${fullName}</div>
+                            <td class="px-3 sm:px-6 py-3 sm:py-4 whitespace-nowrap">${roomBadge}</td>
+                            <td class="px-3 sm:px-6 py-3 sm:py-4 max-w-[160px] sm:max-w-none">
+                                <div class="text-slate-200 text-base sm:text-lg leading-tight font-medium">${fullName}</div>
                                 ${extraInfo}
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">
-                                <div class="text-white font-medium text-xs tracking-wider">${formatVal(row.Voucher)}</div>
-                                <div class="text-xs text-slate-500 mt-1">${getCleanAgencyName(row.AgencyCode, row.AgencyId)}</div>
+                            <td class="px-3 sm:px-6 py-3 sm:py-4 whitespace-nowrap max-w-[130px] sm:max-w-none">
+                                <div class="text-white font-medium text-xs tracking-wider font-mono">${formatVal(row.Voucher)}</div>
+                                <div class="text-xs text-slate-400 mt-0.5 truncate">${getCleanAgencyName(row.AgencyCode, row.AgencyId)}</div>
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">
-                                <div class="flex items-center gap-2">
+                            <td class="px-3 sm:px-6 py-3 sm:py-4 whitespace-nowrap text-xs sm:text-sm">
+                                <div class="flex items-center gap-1.5">
                                     <i class="fa-solid fa-arrow-right-to-bracket text-emerald-500/70 text-xs w-3"></i> 
-                                    <span class="font-mono">${formatDateTr(formatVal(row.CheckinDate))}</span>
+                                    <span class="font-mono text-slate-200">${formatDateTr(formatVal(row.CheckinDate))}</span>
                                 </div>
-                                <div class="flex items-center gap-2 mt-1">
+                                <div class="flex items-center gap-1.5 mt-0.5">
                                     <i class="fa-solid fa-arrow-right-from-bracket text-rose-500/70 text-xs w-3"></i> 
                                     <span class="text-slate-400 font-mono">${formatDateTr(formatVal(row.CheckOutDate))}</span>
                                 </div>
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">
-                                <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium">${formatVal(row.RoomType)}</div>
-                                <div class="inline-block px-2 py-1 rounded bg-slate-800 text-xs text-slate-300 font-medium ml-1">${formatVal(row.Board)}</div>
+                            <td class="px-3 sm:px-6 py-3 sm:py-4 whitespace-nowrap">
+                                <div class="inline-block px-1.5 py-0.5 rounded bg-slate-800 text-xs text-slate-300 font-medium">${formatVal(row.RoomType)}</div>
+                                <div class="inline-block px-1.5 py-0.5 rounded bg-slate-800 text-xs text-slate-300 font-medium ml-0.5">${formatVal(row.Board)}</div>
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap">
+                            <td class="px-3 sm:px-6 py-3 sm:py-4 whitespace-nowrap">
                                 ${balanceHtml}
                             </td>
-                            <td class="px-6 py-4 text-center whitespace-nowrap">
+                            <td class="px-2 sm:px-4 py-3 sm:py-4 text-center whitespace-nowrap">
                                 ${paxLabel}${chdLabel}
                             </td>
                         `;
