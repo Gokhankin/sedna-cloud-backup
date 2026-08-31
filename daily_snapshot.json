@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-08-31 09:00:02",
+  "sync_time": "2026-08-31 10:00:03",
   "report_date": "2026-08-31",
   "summary": {
     "arrivals_count": 12,
@@ -492,7 +492,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 5682.42675,
+        "ExtraFolioBalance": 6802.11675,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -641,7 +641,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1131,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 1679.535,
         "ResRemark": "",
         "FlightArrival": "15:10",
         "FlightDeparture": "07:00",
@@ -935,7 +935,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1079,
-        "ExtraFolioBalance": 3810.6384,
+        "ExtraFolioBalance": 5155.5696,
         "ResRemark": "",
         "FlightArrival": "05:50",
         "FlightDeparture": "",
@@ -1649,7 +1649,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 5682.42675,
+        "ExtraFolioBalance": 6802.11675,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -3354,7 +3354,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 5682.42675,
+          "ExtraFolioBalance": 6802.11675,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3503,7 +3503,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
@@ -3797,7 +3797,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1079,
-          "ExtraFolioBalance": 3810.6384,
+          "ExtraFolioBalance": 5155.5696,
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
@@ -4511,7 +4511,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 5682.42675,
+          "ExtraFolioBalance": 6802.11675,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4947,14 +4947,14 @@
     },
     "2026-09-01": {
       "summary": {
-        "arrivals_count": 17,
+        "arrivals_count": 18,
         "departures_count": 7,
-        "inhouse_count": 66,
+        "inhouse_count": 67,
         "noshow_count": 0,
         "vacant_count": 55,
         "roomchanges_count": 0,
-        "eod_room_count": 66,
-        "eod_pax_count": 116
+        "eod_room_count": 67,
+        "eod_pax_count": 117
       },
       "arrivals": [
         {
@@ -5313,6 +5313,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "125031632",
+          "GroupNo": "",
+          "RecId": 32089,
+          "FirstName1": "MERT",
+          "LastName1": "SEN",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA EURO"
         }
       ],
       "departures": [
@@ -5584,7 +5605,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
@@ -5878,7 +5899,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1079,
-          "ExtraFolioBalance": 3810.6384,
+          "ExtraFolioBalance": 5155.5696,
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
@@ -6850,6 +6871,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "125031632",
+          "GroupNo": "",
+          "RecId": 32089,
+          "FirstName1": "MERT",
+          "LastName1": "SEN",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA EURO"
         }
       ],
       "noshow": [],
@@ -7246,12 +7288,12 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 5,
-        "inhouse_count": 70,
+        "inhouse_count": 71,
         "noshow_count": 0,
         "vacant_count": 58,
         "roomchanges_count": 0,
-        "eod_room_count": 70,
-        "eod_pax_count": 123
+        "eod_room_count": 71,
+        "eod_pax_count": 124
       },
       "arrivals": [
         {
@@ -7459,7 +7501,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1079,
-          "ExtraFolioBalance": 3810.6384,
+          "ExtraFolioBalance": 5155.5696,
           "ResRemark": "",
           "FlightArrival": "05:50",
           "FlightDeparture": "",
@@ -7692,7 +7734,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
@@ -9021,6 +9063,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "125031632",
+          "GroupNo": "",
+          "RecId": 32089,
+          "FirstName1": "MERT",
+          "LastName1": "SEN",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA EURO"
         }
       ],
       "noshow": [],
@@ -9438,12 +9501,12 @@
       "summary": {
         "arrivals_count": 15,
         "departures_count": 7,
-        "inhouse_count": 78,
+        "inhouse_count": 79,
         "noshow_count": 0,
         "vacant_count": 65,
         "roomchanges_count": 0,
-        "eod_room_count": 78,
-        "eod_pax_count": 139
+        "eod_room_count": 79,
+        "eod_pax_count": 140
       },
       "arrivals": [
         {
@@ -10052,7 +10115,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
@@ -11549,6 +11612,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "125031632",
+          "GroupNo": "",
+          "RecId": 32089,
+          "FirstName1": "MERT",
+          "LastName1": "SEN",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA EURO"
         }
       ],
       "noshow": [],
@@ -12015,12 +12099,12 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 14,
-        "inhouse_count": 75,
+        "inhouse_count": 76,
         "noshow_count": 0,
         "vacant_count": 74,
         "roomchanges_count": 0,
-        "eod_room_count": 75,
-        "eod_pax_count": 138
+        "eod_room_count": 76,
+        "eod_pax_count": 139
       },
       "arrivals": [
         {
@@ -12692,7 +12776,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
@@ -14126,6 +14210,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "125031632",
+          "GroupNo": "",
+          "RecId": 32089,
+          "FirstName1": "MERT",
+          "LastName1": "SEN",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA EURO"
         }
       ],
       "noshow": [],
@@ -14654,7 +14759,7 @@
     "2026-09-05": {
       "summary": {
         "arrivals_count": 19,
-        "departures_count": 19,
+        "departures_count": 20,
         "inhouse_count": 75,
         "noshow_count": 0,
         "vacant_count": 84,
@@ -15462,6 +15567,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "125031632",
+          "GroupNo": "",
+          "RecId": 32089,
+          "FirstName1": "MERT",
+          "LastName1": "SEN",
+          "CheckinDate": "2026-09-01",
+          "CheckOutDate": "2026-09-05",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA EURO"
         }
       ],
       "inhouse": [
@@ -15647,7 +15773,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
@@ -17872,7 +17998,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1679.535,
           "ResRemark": "",
           "FlightArrival": "15:10",
           "FlightDeparture": "07:00",
