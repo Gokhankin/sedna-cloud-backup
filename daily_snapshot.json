@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-01 09:00:02",
+  "sync_time": "2026-09-01 10:00:02",
   "report_date": "2026-09-01",
   "summary": {
     "arrivals_count": 17,
-    "departures_count": 5,
-    "inhouse_count": 56,
+    "departures_count": 4,
+    "inhouse_count": 55,
     "noshow_count": 7,
-    "vacant_count": 33,
+    "vacant_count": 34,
     "roomchanges_count": 0,
     "eod_room_count": 68,
     "eod_pax_count": 118,
@@ -374,27 +374,6 @@
     ],
     "departures": [
       {
-        "Voucher": "8474400",
-        "GroupNo": "",
-        "RecId": 29093,
-        "FirstName1": "ELEANOR JEAN",
-        "LastName1": "BREHENY",
-        "CheckinDate": "2026-08-22",
-        "CheckOutDate": "2026-09-01",
-        "Room": "133",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 9,
-        "ExtraFolioBalance": 2240.636,
-        "ResRemark": "",
-        "FlightArrival": " 14:15",
-        "FlightDeparture": "14:40",
-        "Status": 2,
-        "AgencyCode": "EASYJET"
-      },
-      {
         "Voucher": "2525844621",
         "GroupNo": "",
         "RecId": 31462,
@@ -584,27 +563,6 @@
         "FlightDeparture": "07:00",
         "Status": 2,
         "AgencyCode": "ITS REISEN"
-      },
-      {
-        "Voucher": "8474400",
-        "GroupNo": "",
-        "RecId": 29093,
-        "FirstName1": "ELEANOR JEAN",
-        "LastName1": "BREHENY",
-        "CheckinDate": "2026-08-22",
-        "CheckOutDate": "2026-09-01",
-        "Room": "133",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 9,
-        "ExtraFolioBalance": 2240.636,
-        "ResRemark": "",
-        "FlightArrival": " 14:15",
-        "FlightDeparture": "14:40",
-        "Status": 2,
-        "AgencyCode": "EASYJET"
       },
       {
         "Voucher": "3022387",
@@ -1885,6 +1843,13 @@
         "OccVac": 1
       },
       {
+        "Room": "133",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "134",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 1,
@@ -2129,7 +2094,7 @@
       {
         "Room": "113",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2825,10 +2790,10 @@
     "2026-09-01": {
       "summary": {
         "arrivals_count": 17,
-        "departures_count": 5,
-        "inhouse_count": 56,
+        "departures_count": 4,
+        "inhouse_count": 55,
         "noshow_count": 7,
-        "vacant_count": 33,
+        "vacant_count": 34,
         "roomchanges_count": 0,
         "eod_room_count": 68,
         "eod_pax_count": 118
@@ -3194,27 +3159,6 @@
       ],
       "departures": [
         {
-          "Voucher": "8474400",
-          "GroupNo": "",
-          "RecId": 29093,
-          "FirstName1": "ELEANOR JEAN",
-          "LastName1": "BREHENY",
-          "CheckinDate": "2026-08-22",
-          "CheckOutDate": "2026-09-01",
-          "Room": "133",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 2240.636,
-          "ResRemark": "",
-          "FlightArrival": " 14:15",
-          "FlightDeparture": "14:40",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "2525844621",
           "GroupNo": "",
           "RecId": 31462,
@@ -3404,27 +3348,6 @@
           "FlightDeparture": "07:00",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
-        },
-        {
-          "Voucher": "8474400",
-          "GroupNo": "",
-          "RecId": 29093,
-          "FirstName1": "ELEANOR JEAN",
-          "LastName1": "BREHENY",
-          "CheckinDate": "2026-08-22",
-          "CheckOutDate": "2026-09-01",
-          "Room": "133",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 2240.636,
-          "ResRemark": "",
-          "FlightArrival": " 14:15",
-          "FlightDeparture": "14:40",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "3022387",
@@ -4701,6 +4624,13 @@
           "Room": "131",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "133",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17580,14 +17510,14 @@
     },
     "2026-09-07": {
       "summary": {
-        "arrivals_count": 12,
+        "arrivals_count": 13,
         "departures_count": 10,
-        "inhouse_count": 68,
+        "inhouse_count": 69,
         "noshow_count": 0,
         "vacant_count": 86,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 121
+        "eod_room_count": 69,
+        "eod_pax_count": 122
       },
       "arrivals": [
         {
@@ -17841,6 +17771,27 @@
           "FlightDeparture": "10:15",
           "Status": 1,
           "AgencyCode": "TUI UK"
+        },
+        {
+          "Voucher": "1319824381",
+          "GroupNo": "",
+          "RecId": 32111,
+          "FirstName1": "SHABANA",
+          "LastName1": "DARR",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-13",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA GBP"
         }
       ],
       "departures": [
@@ -19483,6 +19434,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "1319824381",
+          "GroupNo": "",
+          "RecId": 32111,
+          "FirstName1": "SHABANA",
+          "LastName1": "DARR",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-13",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA GBP"
         }
       ],
       "noshow": [],
@@ -20096,12 +20068,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 12,
-        "inhouse_count": 59,
+        "inhouse_count": 60,
         "noshow_count": 0,
         "vacant_count": 93,
         "roomchanges_count": 0,
-        "eod_room_count": 59,
-        "eod_pax_count": 105
+        "eod_room_count": 60,
+        "eod_pax_count": 106
       },
       "arrivals": [
         {
@@ -21661,6 +21633,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "1319824381",
+          "GroupNo": "",
+          "RecId": 32111,
+          "FirstName1": "SHABANA",
+          "LastName1": "DARR",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-13",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA GBP"
         }
       ],
       "noshow": [],
@@ -21752,7 +21745,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
