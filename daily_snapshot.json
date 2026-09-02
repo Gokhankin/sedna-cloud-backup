@@ -1,11 +1,11 @@
 {
-  "sync_time": "2026-09-02 22:00:03",
+  "sync_time": "2026-09-02 23:00:02",
   "report_date": "2026-09-02",
   "summary": {
     "arrivals_count": 7,
     "departures_count": 0,
     "inhouse_count": 68,
-    "noshow_count": 7,
+    "noshow_count": 8,
     "vacant_count": 32,
     "roomchanges_count": 0,
     "eod_room_count": 75,
@@ -14,27 +14,6 @@
   },
   "data": {
     "arrivals": [
-      {
-        "Voucher": "31349130",
-        "GroupNo": "",
-        "RecId": 28835,
-        "FirstName1": "LESRAY",
-        "LastName1": "CAMERON",
-        "CheckinDate": "2026-09-02",
-        "CheckOutDate": "2026-09-09",
-        "Room": "317",
-        "RoomType": "STD-LVL",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 12,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "19:55",
-        "FlightDeparture": "20:55",
-        "Status": 1,
-        "AgencyCode": "TUI UK"
-      },
       {
         "Voucher": "3034623",
         "GroupNo": "",
@@ -118,6 +97,27 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "31923",
+        "GroupNo": "",
+        "RecId": 31923,
+        "FirstName1": "SEYED HAMED",
+        "LastName1": "GHORAYSHI",
+        "CheckinDate": "2026-09-02",
+        "CheckOutDate": "2026-09-04",
+        "Room": "118",
+        "RoomType": "SUIT",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 3,
+        "ExtraFolioBalance": 3576.1176,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "3046867",
@@ -310,6 +310,27 @@
         "FlightDeparture": "07:00",
         "Status": 2,
         "AgencyCode": "ITS REISEN"
+      },
+      {
+        "Voucher": "31349130",
+        "GroupNo": "",
+        "RecId": 28835,
+        "FirstName1": "LESRAY",
+        "LastName1": "CAMERON",
+        "CheckinDate": "2026-09-02",
+        "CheckOutDate": "2026-09-09",
+        "Room": "317",
+        "RoomType": "STD-LVL",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 12,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "19:55",
+        "FlightDeparture": "20:55",
+        "Status": 2,
+        "AgencyCode": "TUI UK"
       },
       {
         "Voucher": "6237154120",
@@ -913,7 +934,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 43,
-        "ExtraFolioBalance": 26956.53675,
+        "ExtraFolioBalance": 40392.81675,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1213,27 +1234,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "31923",
-        "GroupNo": "",
-        "RecId": 31923,
-        "FirstName1": "SEYED HAMED",
-        "LastName1": "GHORAYSHI",
-        "CheckinDate": "2026-09-02",
-        "CheckOutDate": "2026-09-07",
-        "Room": "118",
-        "RoomType": "SUIT",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 3576.1216,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "2630943",
@@ -1564,7 +1564,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 1676.307,
+        "ExtraFolioBalance": 4190.7675,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1585,7 +1585,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 4889.22875,
+        "ExtraFolioBalance": 5559.75155,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1739,6 +1739,27 @@
         "FlightArrival": "",
         "FlightDeparture": "",
         "Status": 3,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "NOSHOW",
+        "GroupNo": "",
+        "RecId": 32156,
+        "FirstName1": "NEILSON",
+        "LastName1": "UNUSED",
+        "CheckinDate": "2026-09-02",
+        "CheckOutDate": "2026-09-03",
+        "Room": "",
+        "RoomType": "STD-SV",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
         "AgencyCode": "NEILSON"
       }
     ],
@@ -2756,34 +2777,13 @@
         "arrivals_count": 7,
         "departures_count": 0,
         "inhouse_count": 68,
-        "noshow_count": 7,
+        "noshow_count": 8,
         "vacant_count": 32,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 131
       },
       "arrivals": [
-        {
-          "Voucher": "31349130",
-          "GroupNo": "",
-          "RecId": 28835,
-          "FirstName1": "LESRAY",
-          "LastName1": "CAMERON",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-09",
-          "Room": "317",
-          "RoomType": "STD-LVL",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "19:55",
-          "FlightDeparture": "20:55",
-          "Status": 1,
-          "AgencyCode": "TUI UK"
-        },
         {
           "Voucher": "3034623",
           "GroupNo": "",
@@ -2867,6 +2867,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "31923",
+          "GroupNo": "",
+          "RecId": 31923,
+          "FirstName1": "SEYED HAMED",
+          "LastName1": "GHORAYSHI",
+          "CheckinDate": "2026-09-02",
+          "CheckOutDate": "2026-09-04",
+          "Room": "118",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 3576.1176,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "3046867",
@@ -3059,6 +3080,27 @@
           "FlightDeparture": "07:00",
           "Status": 2,
           "AgencyCode": "ITS REISEN"
+        },
+        {
+          "Voucher": "31349130",
+          "GroupNo": "",
+          "RecId": 28835,
+          "FirstName1": "LESRAY",
+          "LastName1": "CAMERON",
+          "CheckinDate": "2026-09-02",
+          "CheckOutDate": "2026-09-09",
+          "Room": "317",
+          "RoomType": "STD-LVL",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "19:55",
+          "FlightDeparture": "20:55",
+          "Status": 2,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "6237154120",
@@ -3662,7 +3704,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 26956.53675,
+          "ExtraFolioBalance": 40392.81675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3962,27 +4004,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "31923",
-          "GroupNo": "",
-          "RecId": 31923,
-          "FirstName1": "SEYED HAMED",
-          "LastName1": "GHORAYSHI",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-07",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 3576.1216,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "2630943",
@@ -4313,7 +4334,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 1676.307,
+          "ExtraFolioBalance": 4190.7675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4334,7 +4355,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 4889.22875,
+          "ExtraFolioBalance": 5559.75155,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4488,6 +4509,27 @@
           "FlightArrival": "",
           "FlightDeparture": "",
           "Status": 3,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "NOSHOW",
+          "GroupNo": "",
+          "RecId": 32156,
+          "FirstName1": "NEILSON",
+          "LastName1": "UNUSED",
+          "CheckinDate": "2026-09-02",
+          "CheckOutDate": "2026-09-03",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
           "AgencyCode": "NEILSON"
         }
       ],
@@ -4724,7 +4766,7 @@
         "arrivals_count": 19,
         "departures_count": 8,
         "inhouse_count": 86,
-        "noshow_count": 0,
+        "noshow_count": 1,
         "vacant_count": 21,
         "roomchanges_count": 0,
         "eod_room_count": 86,
@@ -5467,7 +5509,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -6198,7 +6240,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 26956.53675,
+          "ExtraFolioBalance": 40392.81675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6632,18 +6674,18 @@
           "FirstName1": "SEYED HAMED",
           "LastName1": "GHORAYSHI",
           "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-07",
+          "CheckOutDate": "2026-09-04",
           "Room": "118",
           "RoomType": "SUIT",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 3576.1216,
+          "ExtraFolioBalance": 3576.1176,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -7059,7 +7101,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 1676.307,
+          "ExtraFolioBalance": 4190.7675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7080,7 +7122,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 4889.22875,
+          "ExtraFolioBalance": 5559.75155,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7109,7 +7151,29 @@
           "AgencyCode": "MUNFERIT TL"
         }
       ],
-      "noshow": [],
+      "noshow": [
+        {
+          "Voucher": "NOSHOW",
+          "GroupNo": "",
+          "RecId": 32156,
+          "FirstName1": "NEILSON",
+          "LastName1": "UNUSED",
+          "CheckinDate": "2026-09-02",
+          "CheckOutDate": "2026-09-03",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
+        }
+      ],
       "vacant": [
         {
           "Room": "101",
@@ -7264,13 +7328,13 @@
     "2026-09-04": {
       "summary": {
         "arrivals_count": 15,
-        "departures_count": 13,
-        "inhouse_count": 88,
+        "departures_count": 14,
+        "inhouse_count": 87,
         "noshow_count": 0,
-        "vacant_count": 23,
+        "vacant_count": 24,
         "roomchanges_count": 0,
-        "eod_room_count": 88,
-        "eod_pax_count": 162
+        "eod_room_count": 87,
+        "eod_pax_count": 160
       },
       "arrivals": [
         {
@@ -7646,7 +7710,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 43,
-          "ExtraFolioBalance": 26956.53675,
+          "ExtraFolioBalance": 40392.81675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7757,6 +7821,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "31923",
+          "GroupNo": "",
+          "RecId": 31923,
+          "FirstName1": "SEYED HAMED",
+          "LastName1": "GHORAYSHI",
+          "CheckinDate": "2026-09-02",
+          "CheckOutDate": "2026-09-04",
+          "Room": "118",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 3576.1176,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "SFL-506565F9B0-1",
@@ -8030,7 +8115,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -9126,27 +9211,6 @@
           "AgencyCode": "MUNFERIT TL"
         },
         {
-          "Voucher": "31923",
-          "GroupNo": "",
-          "RecId": 31923,
-          "FirstName1": "SEYED HAMED",
-          "LastName1": "GHORAYSHI",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-07",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 3576.1216,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "75-3681749",
           "GroupNo": "",
           "RecId": 31924,
@@ -9601,7 +9665,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 1676.307,
+          "ExtraFolioBalance": 4190.7675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9622,7 +9686,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 4889.22875,
+          "ExtraFolioBalance": 5559.75155,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9766,6 +9830,13 @@
           "OccVac": 1
         },
         {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -9884,12 +9955,12 @@
       "summary": {
         "arrivals_count": 19,
         "departures_count": 21,
-        "inhouse_count": 86,
+        "inhouse_count": 85,
         "noshow_count": 0,
-        "vacant_count": 36,
+        "vacant_count": 37,
         "roomchanges_count": 0,
-        "eod_room_count": 86,
-        "eod_pax_count": 158
+        "eod_room_count": 85,
+        "eod_pax_count": 156
       },
       "arrivals": [
         {
@@ -10985,7 +11056,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -12081,27 +12152,6 @@
           "AgencyCode": "MUNFERIT TL"
         },
         {
-          "Voucher": "31923",
-          "GroupNo": "",
-          "RecId": 31923,
-          "FirstName1": "SEYED HAMED",
-          "LastName1": "GHORAYSHI",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-07",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 3576.1216,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "75-3681749",
           "GroupNo": "",
           "RecId": 31924,
@@ -12430,7 +12480,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 1676.307,
+          "ExtraFolioBalance": 4190.7675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -12451,7 +12501,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 4889.22875,
+          "ExtraFolioBalance": 5559.75155,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12611,6 +12661,13 @@
         {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -12804,12 +12861,12 @@
       "summary": {
         "arrivals_count": 8,
         "departures_count": 23,
-        "inhouse_count": 71,
+        "inhouse_count": 70,
         "noshow_count": 0,
-        "vacant_count": 58,
+        "vacant_count": 59,
         "roomchanges_count": 0,
-        "eod_room_count": 71,
-        "eod_pax_count": 127
+        "eod_room_count": 70,
+        "eod_pax_count": 125
       },
       "arrivals": [
         {
@@ -13395,7 +13452,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 1676.307,
+          "ExtraFolioBalance": 4190.7675,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -13416,7 +13473,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 4889.22875,
+          "ExtraFolioBalance": 5559.75155,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13632,7 +13689,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -14539,27 +14596,6 @@
           "AgencyCode": "COMP"
         },
         {
-          "Voucher": "31923",
-          "GroupNo": "",
-          "RecId": 31923,
-          "FirstName1": "SEYED HAMED",
-          "LastName1": "GHORAYSHI",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-07",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 3576.1216,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "75-3681749",
           "GroupNo": "",
           "RecId": 31924,
@@ -15049,6 +15085,13 @@
           "Room": "117",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15373,7 +15416,7 @@
     "2026-09-07": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 12,
+        "departures_count": 11,
         "inhouse_count": 72,
         "noshow_count": 0,
         "vacant_count": 68,
@@ -15742,27 +15785,6 @@
           "AgencyCode": "COMP"
         },
         {
-          "Voucher": "31923",
-          "GroupNo": "",
-          "RecId": 31923,
-          "FirstName1": "SEYED HAMED",
-          "LastName1": "GHORAYSHI",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-07",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 3576.1216,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "75-3681749",
           "GroupNo": "",
           "RecId": 31924,
@@ -16097,7 +16119,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -18464,7 +18486,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -20346,7 +20368,7 @@
           "ResRemark": "",
           "FlightArrival": "19:55",
           "FlightDeparture": "20:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
