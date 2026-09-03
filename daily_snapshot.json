@@ -1,40 +1,19 @@
 {
-  "sync_time": "2026-09-03 22:00:02",
+  "sync_time": "2026-09-03 23:00:02",
   "report_date": "2026-09-03",
   "summary": {
-    "arrivals_count": 5,
+    "arrivals_count": 3,
     "departures_count": 0,
-    "inhouse_count": 82,
+    "inhouse_count": 84,
     "noshow_count": 1,
     "vacant_count": 19,
     "roomchanges_count": 0,
     "eod_room_count": 87,
-    "eod_pax_count": 154,
+    "eod_pax_count": 153,
     "hk_count": 111
   },
   "data": {
     "arrivals": [
-      {
-        "Voucher": "31649",
-        "GroupNo": "",
-        "RecId": 31649,
-        "FirstName1": "OGANES",
-        "LastName1": "GRIGORYAN",
-        "CheckinDate": "2026-09-03",
-        "CheckOutDate": "2026-09-11",
-        "Room": "119",
-        "RoomType": "CLUB SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "MUNFERIT EURO"
-      },
       {
         "Voucher": "WY584U",
         "GroupNo": "",
@@ -57,31 +36,10 @@
         "AgencyCode": "ADDAJET"
       },
       {
-        "Voucher": "21BVGP",
-        "GroupNo": "",
-        "RecId": 31755,
-        "FirstName1": "NADIA",
-        "LastName1": "ELAHMADI",
-        "CheckinDate": "2026-09-03",
-        "CheckOutDate": "2026-09-13",
-        "Room": "102",
-        "RoomType": "CLUB LV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 13,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "20:10",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "JET2"
-      },
-      {
         "Voucher": "F3H1KN",
         "GroupNo": "",
         "RecId": 31776,
-        "FirstName1": "LISA",
+        "FirstName1": "LISA JANE",
         "LastName1": "BETTS",
         "CheckinDate": "2026-09-03",
         "CheckOutDate": "2026-09-10",
@@ -220,7 +178,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 13143.4647,
+        "ExtraFolioBalance": 14655.1731,
         "ResRemark": "",
         "FlightArrival": "20:30",
         "FlightDeparture": "22:20",
@@ -787,7 +745,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 16795.35004,
+        "ExtraFolioBalance": 17467.16404,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -940,6 +898,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "31649",
+        "GroupNo": "",
+        "RecId": 31649,
+        "FirstName1": "OGANES",
+        "LastName1": "GRIGORYAN",
+        "CheckinDate": "2026-09-03",
+        "CheckOutDate": "2026-09-11",
+        "Room": "119",
+        "RoomType": "CLUB SEA",
+        "Board": "HB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 3,
+        "ExtraFolioBalance": 3235.9882,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "75-3680199",
@@ -1108,6 +1087,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "21BVGP",
+        "GroupNo": "",
+        "RecId": 31755,
+        "FirstName1": "NADIA",
+        "LastName1": "ELAHMADI",
+        "CheckinDate": "2026-09-03",
+        "CheckOutDate": "2026-09-13",
+        "Room": "102",
+        "RoomType": "CLUB LV",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 13,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "20:10",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "JET2"
       },
       {
         "Voucher": "TAYFUNYOGA",
@@ -1627,7 +1627,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 2626.2143,
+        "ExtraFolioBalance": 3631.9985,
         "ResRemark": null,
         "FlightArrival": "20:10",
         "FlightDeparture": null,
@@ -1795,7 +1795,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 7906.58135,
+        "ExtraFolioBalance": 8130.08895,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2788,37 +2788,16 @@
   "by_date": {
     "2026-09-03": {
       "summary": {
-        "arrivals_count": 5,
+        "arrivals_count": 3,
         "departures_count": 0,
-        "inhouse_count": 82,
+        "inhouse_count": 84,
         "noshow_count": 1,
         "vacant_count": 19,
         "roomchanges_count": 0,
         "eod_room_count": 87,
-        "eod_pax_count": 154
+        "eod_pax_count": 153
       },
       "arrivals": [
-        {
-          "Voucher": "31649",
-          "GroupNo": "",
-          "RecId": 31649,
-          "FirstName1": "OGANES",
-          "LastName1": "GRIGORYAN",
-          "CheckinDate": "2026-09-03",
-          "CheckOutDate": "2026-09-11",
-          "Room": "119",
-          "RoomType": "CLUB SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "MUNFERIT EURO"
-        },
         {
           "Voucher": "WY584U",
           "GroupNo": "",
@@ -2841,31 +2820,10 @@
           "AgencyCode": "ADDAJET"
         },
         {
-          "Voucher": "21BVGP",
-          "GroupNo": "",
-          "RecId": 31755,
-          "FirstName1": "NADIA",
-          "LastName1": "ELAHMADI",
-          "CheckinDate": "2026-09-03",
-          "CheckOutDate": "2026-09-13",
-          "Room": "102",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 13,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "20:10",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "JET2"
-        },
-        {
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -3004,7 +2962,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 13143.4647,
+          "ExtraFolioBalance": 14655.1731,
           "ResRemark": "",
           "FlightArrival": "20:30",
           "FlightDeparture": "22:20",
@@ -3571,7 +3529,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 16795.35004,
+          "ExtraFolioBalance": 17467.16404,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3724,6 +3682,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "31649",
+          "GroupNo": "",
+          "RecId": 31649,
+          "FirstName1": "OGANES",
+          "LastName1": "GRIGORYAN",
+          "CheckinDate": "2026-09-03",
+          "CheckOutDate": "2026-09-11",
+          "Room": "119",
+          "RoomType": "CLUB SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 3235.9882,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "75-3680199",
@@ -3892,6 +3871,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "21BVGP",
+          "GroupNo": "",
+          "RecId": 31755,
+          "FirstName1": "NADIA",
+          "LastName1": "ELAHMADI",
+          "CheckinDate": "2026-09-03",
+          "CheckOutDate": "2026-09-13",
+          "Room": "102",
+          "RoomType": "CLUB LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 13,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:10",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "JET2"
         },
         {
           "Voucher": "TAYFUNYOGA",
@@ -4411,7 +4411,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2626.2143,
+          "ExtraFolioBalance": 3631.9985,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -4579,7 +4579,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7906.58135,
+          "ExtraFolioBalance": 8130.08895,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4798,7 +4798,7 @@
         "vacant_count": 17,
         "roomchanges_count": 0,
         "eod_room_count": 89,
-        "eod_pax_count": 164
+        "eod_pax_count": 163
       },
       "arrivals": [
         {
@@ -5533,7 +5533,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 13143.4647,
+          "ExtraFolioBalance": 14655.1731,
           "ResRemark": "",
           "FlightArrival": "20:30",
           "FlightDeparture": "22:20",
@@ -6100,7 +6100,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 16795.35004,
+          "ExtraFolioBalance": 17467.16404,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6286,14 +6286,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -6440,7 +6440,7 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -6552,7 +6552,7 @@
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -6961,7 +6961,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2626.2143,
+          "ExtraFolioBalance": 3631.9985,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -7171,7 +7171,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7906.58135,
+          "ExtraFolioBalance": 8130.08895,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7438,7 +7438,7 @@
         "vacant_count": 30,
         "roomchanges_count": 0,
         "eod_room_count": 88,
-        "eod_pax_count": 161
+        "eod_pax_count": 160
       },
       "arrivals": [
         {
@@ -7898,7 +7898,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 13143.4647,
+          "ExtraFolioBalance": 14655.1731,
           "ResRemark": "",
           "FlightArrival": "20:30",
           "FlightDeparture": "22:20",
@@ -9034,7 +9034,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 16795.35004,
+          "ExtraFolioBalance": 17467.16404,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9178,14 +9178,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -9374,7 +9374,7 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -9486,7 +9486,7 @@
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -9853,7 +9853,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2626.2143,
+          "ExtraFolioBalance": 3631.9985,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -10000,7 +10000,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7906.58135,
+          "ExtraFolioBalance": 8130.08895,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10379,7 +10379,7 @@
         "vacant_count": 54,
         "roomchanges_count": 0,
         "eod_room_count": 72,
-        "eod_pax_count": 128
+        "eod_pax_count": 127
       },
       "arrivals": [
         {
@@ -10776,7 +10776,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 16795.35004,
+          "ExtraFolioBalance": 17467.16404,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -11007,7 +11007,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 7906.58135,
+          "ExtraFolioBalance": 8130.08895,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -11804,14 +11804,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -12000,7 +12000,7 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -12028,7 +12028,7 @@
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -12416,7 +12416,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2626.2143,
+          "ExtraFolioBalance": 3631.9985,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -13005,7 +13005,7 @@
         "vacant_count": 64,
         "roomchanges_count": 0,
         "eod_room_count": 75,
-        "eod_pax_count": 132
+        "eod_pax_count": 131
       },
       "arrivals": [
         {
@@ -13486,7 +13486,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2626.2143,
+          "ExtraFolioBalance": 3631.9985,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -14346,14 +14346,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -14563,7 +14563,7 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -14591,7 +14591,7 @@
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -15575,7 +15575,7 @@
         "vacant_count": 75,
         "roomchanges_count": 0,
         "eod_room_count": 65,
-        "eod_pax_count": 114
+        "eod_pax_count": 113
       },
       "arrivals": [
         {
@@ -16685,14 +16685,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -16902,14 +16902,14 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -17865,7 +17865,7 @@
         "vacant_count": 80,
         "roomchanges_count": 0,
         "eod_room_count": 67,
-        "eod_pax_count": 120
+        "eod_pax_count": 119
       },
       "arrivals": [
         {
@@ -18933,14 +18933,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -19108,14 +19108,14 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -20190,7 +20190,7 @@
         "vacant_count": 79,
         "roomchanges_count": 0,
         "eod_room_count": 74,
-        "eod_pax_count": 133
+        "eod_pax_count": 132
       },
       "arrivals": [
         {
@@ -20472,7 +20472,7 @@
           "Voucher": "F3H1KN",
           "GroupNo": "",
           "RecId": 31776,
-          "FirstName1": "LISA",
+          "FirstName1": "LISA JANE",
           "LastName1": "BETTS",
           "CheckinDate": "2026-09-03",
           "CheckOutDate": "2026-09-10",
@@ -21342,14 +21342,14 @@
           "Room": "119",
           "RoomType": "CLUB SEA",
           "Board": "HB",
-          "Pax": 2,
+          "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 3235.9882,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -21517,7 +21517,7 @@
           "ResRemark": "",
           "FlightArrival": "20:10",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
