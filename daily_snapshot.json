@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-09-03 09:00:02",
+  "sync_time": "2026-09-03 10:00:02",
   "report_date": "2026-09-03",
   "summary": {
     "arrivals_count": 19,
-    "departures_count": 6,
-    "inhouse_count": 73,
+    "departures_count": 5,
+    "inhouse_count": 72,
     "noshow_count": 1,
     "vacant_count": 17,
     "roomchanges_count": 0,
@@ -416,27 +416,6 @@
     ],
     "departures": [
       {
-        "Voucher": "17864754",
-        "GroupNo": "",
-        "RecId": 31348,
-        "FirstName1": "DIPIKA",
-        "LastName1": "PARMAR",
-        "CheckinDate": "2026-08-30",
-        "CheckOutDate": "2026-09-03",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA GBP"
-      },
-      {
         "Voucher": "8903720",
         "GroupNo": "",
         "RecId": 31593,
@@ -599,7 +578,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 3750.9615,
+        "ExtraFolioBalance": 5094.5895,
         "ResRemark": null,
         "FlightArrival": "14:10",
         "FlightDeparture": "",
@@ -1067,27 +1046,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "17864754",
-        "GroupNo": "",
-        "RecId": 31348,
-        "FirstName1": "DIPIKA",
-        "LastName1": "PARMAR",
-        "CheckinDate": "2026-08-30",
-        "CheckOutDate": "2026-09-03",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA GBP"
       },
       {
         "Voucher": "3040491",
@@ -2195,7 +2153,7 @@
       {
         "Room": "409",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2675,7 +2633,7 @@
       {
         "Room": "320",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2857,7 +2815,7 @@
       {
         "Room": "409",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3007,8 +2965,8 @@
     "2026-09-03": {
       "summary": {
         "arrivals_count": 19,
-        "departures_count": 6,
-        "inhouse_count": 73,
+        "departures_count": 5,
+        "inhouse_count": 72,
         "noshow_count": 1,
         "vacant_count": 17,
         "roomchanges_count": 0,
@@ -3418,27 +3376,6 @@
       ],
       "departures": [
         {
-          "Voucher": "17864754",
-          "GroupNo": "",
-          "RecId": 31348,
-          "FirstName1": "DIPIKA",
-          "LastName1": "PARMAR",
-          "CheckinDate": "2026-08-30",
-          "CheckOutDate": "2026-09-03",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
-        },
-        {
           "Voucher": "8903720",
           "GroupNo": "",
           "RecId": 31593,
@@ -3601,7 +3538,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3750.9615,
+          "ExtraFolioBalance": 5094.5895,
           "ResRemark": null,
           "FlightArrival": "14:10",
           "FlightDeparture": "",
@@ -4069,27 +4006,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "17864754",
-          "GroupNo": "",
-          "RecId": 31348,
-          "FirstName1": "DIPIKA",
-          "LastName1": "PARMAR",
-          "CheckinDate": "2026-08-30",
-          "CheckOutDate": "2026-09-03",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "3040491",
@@ -5197,7 +5113,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5906,7 +5822,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3750.9615,
+          "ExtraFolioBalance": 5094.5895,
           "ResRemark": null,
           "FlightArrival": "14:10",
           "FlightDeparture": "",
@@ -7823,7 +7739,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8784,7 +8700,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3750.9615,
+          "ExtraFolioBalance": 5094.5895,
           "ResRemark": null,
           "FlightArrival": "14:10",
           "FlightDeparture": "",
@@ -10722,7 +10638,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10995,7 +10911,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3750.9615,
+          "ExtraFolioBalance": 5094.5895,
           "ResRemark": null,
           "FlightArrival": "14:10",
           "FlightDeparture": "",
@@ -13145,7 +13061,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13243,7 +13159,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15638,7 +15554,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15750,7 +15666,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17858,7 +17774,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17984,7 +17900,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20071,7 +19987,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20197,7 +20113,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22438,7 +22354,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22564,7 +22480,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
