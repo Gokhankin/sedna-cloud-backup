@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-04 00:00:03",
+  "sync_time": "2026-09-04 01:00:02",
   "report_date": "2026-09-04",
   "summary": {
     "arrivals_count": 16,
     "departures_count": 14,
-    "inhouse_count": 85,
+    "inhouse_count": 87,
     "noshow_count": 0,
-    "vacant_count": 12,
+    "vacant_count": 10,
     "roomchanges_count": 0,
-    "eod_room_count": 87,
+    "eod_room_count": 89,
     "eod_pax_count": 163,
     "hk_count": 111
   },
@@ -1615,6 +1615,27 @@
         "AgencyCode": "TRSTCA/DIANA"
       },
       {
+        "Voucher": "WY584U",
+        "GroupNo": "",
+        "RecId": 31735,
+        "FirstName1": "ASTRA",
+        "LastName1": "FARMER",
+        "CheckinDate": "2026-09-03",
+        "CheckOutDate": "2026-09-10",
+        "Room": "123",
+        "RoomType": "CLUB SEA",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 5,
+        "ExtraFolioBalance": 0.1116,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "ADDAJET"
+      },
+      {
         "Voucher": "3043775",
         "GroupNo": "",
         "RecId": 31739,
@@ -2308,6 +2329,27 @@
         "AgencyCode": "DIANA EURO"
       },
       {
+        "Voucher": "3047693",
+        "GroupNo": "",
+        "RecId": 32119,
+        "FirstName1": "ANDREW",
+        "LastName1": "TAYLOR",
+        "CheckinDate": "2026-09-03",
+        "CheckOutDate": "2026-09-08",
+        "Room": "324",
+        "RoomType": "STD-SV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:25",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "2548150006",
         "GroupNo": "",
         "RecId": 32129,
@@ -2444,13 +2486,6 @@
         "OccVac": 1
       },
       {
-        "Room": "123",
-        "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "130",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
@@ -2481,13 +2516,6 @@
       {
         "Room": "319",
         "RoomTypeCode": "CLUB SV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "324",
-        "RoomTypeCode": "STD-SV",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -3308,9 +3336,9 @@
       "summary": {
         "arrivals_count": 16,
         "departures_count": 14,
-        "inhouse_count": 85,
+        "inhouse_count": 87,
         "noshow_count": 0,
-        "vacant_count": 12,
+        "vacant_count": 10,
         "roomchanges_count": 0,
         "eod_room_count": 89,
         "eod_pax_count": 163
@@ -4917,6 +4945,27 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
+          "Voucher": "WY584U",
+          "GroupNo": "",
+          "RecId": 31735,
+          "FirstName1": "ASTRA",
+          "LastName1": "FARMER",
+          "CheckinDate": "2026-09-03",
+          "CheckOutDate": "2026-09-10",
+          "Room": "123",
+          "RoomType": "CLUB SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.1116,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3043775",
           "GroupNo": "",
           "RecId": 31739,
@@ -5610,6 +5659,27 @@
           "AgencyCode": "DIANA EURO"
         },
         {
+          "Voucher": "3047693",
+          "GroupNo": "",
+          "RecId": 32119,
+          "FirstName1": "ANDREW",
+          "LastName1": "TAYLOR",
+          "CheckinDate": "2026-09-03",
+          "CheckOutDate": "2026-09-08",
+          "Room": "324",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:25",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "2548150006",
           "GroupNo": "",
           "RecId": 32129,
@@ -5746,13 +5816,6 @@
           "OccVac": 1
         },
         {
-          "Room": "123",
-          "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "130",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
@@ -5783,13 +5846,6 @@
         {
           "Room": "319",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "324",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -7703,11 +7759,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": -204425.1856,
+          "ExtraFolioBalance": 0.1116,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -8316,7 +8372,7 @@
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -10329,11 +10385,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": -204425.1856,
+          "ExtraFolioBalance": 0.1116,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -10879,7 +10935,7 @@
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12892,11 +12948,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": -204425.1856,
+          "ExtraFolioBalance": 0.1116,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -13379,7 +13435,7 @@
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14330,7 +14386,7 @@
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -15231,11 +15287,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": -204425.1856,
+          "ExtraFolioBalance": 0.1116,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -17437,11 +17493,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": -204425.1856,
+          "ExtraFolioBalance": 0.1116,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -18857,11 +18913,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": -204425.1856,
+          "ExtraFolioBalance": 0.1116,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
