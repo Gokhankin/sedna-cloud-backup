@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-09-04 05:00:02",
+  "sync_time": "2026-09-04 06:00:02",
   "report_date": "2026-09-04",
   "summary": {
-    "arrivals_count": 16,
+    "arrivals_count": 15,
     "departures_count": 14,
-    "inhouse_count": 87,
+    "inhouse_count": 88,
     "noshow_count": 0,
     "vacant_count": 10,
     "roomchanges_count": 0,
@@ -223,27 +223,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "24271368",
-        "GroupNo": "",
-        "RecId": 32097,
-        "FirstName1": "OLHA",
-        "LastName1": "KHMIL",
-        "CheckinDate": "2026-09-04",
-        "CheckOutDate": "2026-09-07",
-        "Room": "114",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1136,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "02:35",
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "JOIN UP TRAVEL"
       },
       {
         "Voucher": "32130",
@@ -2329,6 +2308,27 @@
         "AgencyCode": "DIANA EURO"
       },
       {
+        "Voucher": "24271368",
+        "GroupNo": "",
+        "RecId": 32097,
+        "FirstName1": "OLHA",
+        "LastName1": "KHMIL",
+        "CheckinDate": "2026-09-04",
+        "CheckOutDate": "2026-09-07",
+        "Room": "114",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1136,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "02:35",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "JOIN UP TRAVEL"
+      },
+      {
         "Voucher": "3047693",
         "GroupNo": "",
         "RecId": 32119,
@@ -3334,9 +3334,9 @@
   "by_date": {
     "2026-09-04": {
       "summary": {
-        "arrivals_count": 16,
+        "arrivals_count": 15,
         "departures_count": 14,
-        "inhouse_count": 87,
+        "inhouse_count": 88,
         "noshow_count": 0,
         "vacant_count": 10,
         "roomchanges_count": 0,
@@ -3553,27 +3553,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "24271368",
-          "GroupNo": "",
-          "RecId": 32097,
-          "FirstName1": "OLHA",
-          "LastName1": "KHMIL",
-          "CheckinDate": "2026-09-04",
-          "CheckOutDate": "2026-09-07",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "02:35",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "32130",
@@ -5657,6 +5636,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA EURO"
+        },
+        {
+          "Voucher": "24271368",
+          "GroupNo": "",
+          "RecId": 32097,
+          "FirstName1": "OLHA",
+          "LastName1": "KHMIL",
+          "CheckinDate": "2026-09-04",
+          "CheckOutDate": "2026-09-07",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1136,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "02:35",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "3047693",
@@ -8351,7 +8351,7 @@
           "ResRemark": null,
           "FlightArrival": "02:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JOIN UP TRAVEL"
         },
         {
@@ -10914,7 +10914,7 @@
           "ResRemark": null,
           "FlightArrival": "02:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JOIN UP TRAVEL"
         },
         {
@@ -11963,7 +11963,7 @@
           "ResRemark": null,
           "FlightArrival": "02:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JOIN UP TRAVEL"
         },
         {
