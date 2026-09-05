@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-09-05 04:00:02",
+  "sync_time": "2026-09-05 05:00:02",
   "report_date": "2026-09-05",
   "summary": {
-    "arrivals_count": 20,
+    "arrivals_count": 21,
     "departures_count": 22,
     "inhouse_count": 91,
     "noshow_count": 0,
     "vacant_count": 8,
     "roomchanges_count": 0,
-    "eod_room_count": 89,
-    "eod_pax_count": 161,
+    "eod_room_count": 90,
+    "eod_pax_count": 163,
     "hk_count": 111
   },
   "data": {
@@ -433,6 +433,27 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "TRSTCA/DIANA"
+      },
+      {
+        "Voucher": "2551327441",
+        "GroupNo": "",
+        "RecId": 32182,
+        "FirstName1": "NEBIL",
+        "LastName1": "ASLAN GUZEL",
+        "CheckinDate": "2026-09-05",
+        "CheckOutDate": "2026-09-09",
+        "Room": "",
+        "RoomType": "STD SEA",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 8,
+        "ExtraFolioBalance": 103752.72296,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 1,
+        "AgencyCode": "EXPEDIA"
       }
     ],
     "departures": [
@@ -3656,14 +3677,14 @@
   "by_date": {
     "2026-09-05": {
       "summary": {
-        "arrivals_count": 20,
+        "arrivals_count": 21,
         "departures_count": 22,
         "inhouse_count": 91,
         "noshow_count": 0,
         "vacant_count": 8,
         "roomchanges_count": 0,
-        "eod_room_count": 89,
-        "eod_pax_count": 161
+        "eod_room_count": 90,
+        "eod_pax_count": 163
       },
       "arrivals": [
         {
@@ -4085,6 +4106,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "2551327441",
+          "GroupNo": "",
+          "RecId": 32182,
+          "FirstName1": "NEBIL",
+          "LastName1": "ASLAN GUZEL",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-09",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 103752.72296,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "departures": [
@@ -6529,12 +6571,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 26,
-        "inhouse_count": 73,
+        "inhouse_count": 74,
         "noshow_count": 0,
         "vacant_count": 43,
         "roomchanges_count": 0,
-        "eod_room_count": 73,
-        "eod_pax_count": 129
+        "eod_room_count": 74,
+        "eod_pax_count": 131
       },
       "arrivals": [
         {
@@ -8829,6 +8871,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "HOTELBEDS - B2B"
+        },
+        {
+          "Voucher": "2551327441",
+          "GroupNo": "",
+          "RecId": 32182,
+          "FirstName1": "NEBIL",
+          "LastName1": "ASLAN GUZEL",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-09",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 103752.72296,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -9141,12 +9204,12 @@
       "summary": {
         "arrivals_count": 16,
         "departures_count": 12,
-        "inhouse_count": 77,
+        "inhouse_count": 78,
         "noshow_count": 0,
         "vacant_count": 52,
         "roomchanges_count": 0,
-        "eod_room_count": 77,
-        "eod_pax_count": 133
+        "eod_room_count": 78,
+        "eod_pax_count": 135
       },
       "arrivals": [
         {
@@ -11357,6 +11420,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "HOTELBEDS - B2B"
+        },
+        {
+          "Voucher": "2551327441",
+          "GroupNo": "",
+          "RecId": 32182,
+          "FirstName1": "NEBIL",
+          "LastName1": "ASLAN GUZEL",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-09",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 103752.72296,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -11732,12 +11816,12 @@
       "summary": {
         "arrivals_count": 4,
         "departures_count": 13,
-        "inhouse_count": 68,
+        "inhouse_count": 69,
         "noshow_count": 0,
         "vacant_count": 63,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 117
+        "eod_room_count": 69,
+        "eod_pax_count": 119
       },
       "arrivals": [
         {
@@ -13528,6 +13612,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "HOTELBEDS - B2B"
+        },
+        {
+          "Voucher": "2551327441",
+          "GroupNo": "",
+          "RecId": 32182,
+          "FirstName1": "NEBIL",
+          "LastName1": "ASLAN GUZEL",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-09",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 103752.72296,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -13979,7 +14084,7 @@
     "2026-09-09": {
       "summary": {
         "arrivals_count": 9,
-        "departures_count": 7,
+        "departures_count": 8,
         "inhouse_count": 70,
         "noshow_count": 0,
         "vacant_count": 67,
@@ -14325,6 +14430,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "2551327441",
+          "GroupNo": "",
+          "RecId": 32182,
+          "FirstName1": "NEBIL",
+          "LastName1": "ASLAN GUZEL",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-09",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 103752.72296,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
