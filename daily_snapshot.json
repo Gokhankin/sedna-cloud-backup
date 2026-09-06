@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-09-06 13:00:02",
+  "sync_time": "2026-09-06 14:00:03",
   "report_date": "2026-09-06",
   "summary": {
-    "arrivals_count": 8,
+    "arrivals_count": 7,
     "departures_count": 6,
-    "inhouse_count": 74,
+    "inhouse_count": 75,
     "noshow_count": 0,
     "vacant_count": 29,
     "roomchanges_count": 0,
@@ -76,27 +76,6 @@
         "FlightDeparture": "22.00",
         "Status": 1,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "2628387",
-        "GroupNo": "",
-        "RecId": 31804,
-        "FirstName1": "HUSEYIN ANIL",
-        "LastName1": "KARABULUT",
-        "CheckinDate": "2026-09-06",
-        "CheckOutDate": "2026-09-11",
-        "Room": "320",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1134,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "TRSTCA/DIANA"
       },
       {
         "Voucher": "3046253",
@@ -303,7 +282,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 7220.29769,
+        "ExtraFolioBalance": 8591.59454,
         "ResRemark": "",
         "FlightArrival": "OTELE 16-17",
         "FlightDeparture": "",
@@ -641,7 +620,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 12596.5125,
+        "ExtraFolioBalance": 12932.4195,
         "ResRemark": "",
         "FlightArrival": "21:30",
         "FlightDeparture": "",
@@ -683,7 +662,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 9571.0923,
+        "ExtraFolioBalance": 9906.9201,
         "ResRemark": null,
         "FlightArrival": "14:30",
         "FlightDeparture": null,
@@ -956,7 +935,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 4,
-        "ExtraFolioBalance": 2018.0556,
+        "ExtraFolioBalance": 4036.1112,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1256,6 +1235,27 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
+      },
+      {
+        "Voucher": "2628387",
+        "GroupNo": "",
+        "RecId": 31804,
+        "FirstName1": "HUSEYIN ANIL",
+        "LastName1": "KARABULUT",
+        "CheckinDate": "2026-09-06",
+        "CheckOutDate": "2026-09-11",
+        "Room": "320",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1134,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "TRSTCA/DIANA"
       },
       {
         "Voucher": "2628513",
@@ -1607,7 +1607,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1,
-        "ExtraFolioBalance": 2242.284,
+        "ExtraFolioBalance": 2410.4553,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1649,7 +1649,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 16319.42325,
+        "ExtraFolioBalance": 17267.90255,
         "ResRemark": null,
         "FlightArrival": "21:25",
         "FlightDeparture": null,
@@ -1712,7 +1712,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 7220.29769,
+        "ExtraFolioBalance": 8591.59454,
         "ResRemark": "",
         "FlightArrival": "OTELE 16-17",
         "FlightDeparture": "",
@@ -1817,7 +1817,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 17798.8734,
+        "ExtraFolioBalance": 18190.6725,
         "ResRemark": null,
         "FlightArrival": "OTELE 18-19",
         "FlightDeparture": null,
@@ -1900,7 +1900,7 @@
       {
         "Room": "122",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1970,7 +1970,7 @@
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2226,7 +2226,7 @@
       {
         "Room": "122",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2527,7 +2527,7 @@
       {
         "Room": "320",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2611,14 +2611,14 @@
       {
         "Room": "332",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2858,9 +2858,9 @@
   "by_date": {
     "2026-09-06": {
       "summary": {
-        "arrivals_count": 8,
+        "arrivals_count": 7,
         "departures_count": 6,
-        "inhouse_count": 74,
+        "inhouse_count": 75,
         "noshow_count": 0,
         "vacant_count": 29,
         "roomchanges_count": 0,
@@ -2930,27 +2930,6 @@
           "FlightDeparture": "22.00",
           "Status": 1,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "2628387",
-          "GroupNo": "",
-          "RecId": 31804,
-          "FirstName1": "HUSEYIN ANIL",
-          "LastName1": "KARABULUT",
-          "CheckinDate": "2026-09-06",
-          "CheckOutDate": "2026-09-11",
-          "Room": "320",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1134,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "TRSTCA/DIANA"
         },
         {
           "Voucher": "3046253",
@@ -3157,7 +3136,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 7220.29769,
+          "ExtraFolioBalance": 8591.59454,
           "ResRemark": "",
           "FlightArrival": "OTELE 16-17",
           "FlightDeparture": "",
@@ -3495,7 +3474,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 12596.5125,
+          "ExtraFolioBalance": 12932.4195,
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "",
@@ -3537,7 +3516,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9571.0923,
+          "ExtraFolioBalance": 9906.9201,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -3810,7 +3789,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 4,
-          "ExtraFolioBalance": 2018.0556,
+          "ExtraFolioBalance": 4036.1112,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4110,6 +4089,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "2628387",
+          "GroupNo": "",
+          "RecId": 31804,
+          "FirstName1": "HUSEYIN ANIL",
+          "LastName1": "KARABULUT",
+          "CheckinDate": "2026-09-06",
+          "CheckOutDate": "2026-09-11",
+          "Room": "320",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1134,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "TRSTCA/DIANA"
         },
         {
           "Voucher": "2628513",
@@ -4461,7 +4461,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4503,7 +4503,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 16319.42325,
+          "ExtraFolioBalance": 17267.90255,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -4566,7 +4566,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 7220.29769,
+          "ExtraFolioBalance": 8591.59454,
           "ResRemark": "",
           "FlightArrival": "OTELE 16-17",
           "FlightDeparture": "",
@@ -4671,7 +4671,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 17798.8734,
+          "ExtraFolioBalance": 18190.6725,
           "ResRemark": null,
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": null,
@@ -4754,7 +4754,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4824,7 +4824,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5356,7 +5356,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 12596.5125,
+          "ExtraFolioBalance": 12932.4195,
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "",
@@ -5566,7 +5566,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 17798.8734,
+          "ExtraFolioBalance": 18190.6725,
           "ResRemark": null,
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": null,
@@ -6030,7 +6030,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9571.0923,
+          "ExtraFolioBalance": 9906.9201,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -6324,7 +6324,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 4,
-          "ExtraFolioBalance": 2018.0556,
+          "ExtraFolioBalance": 4036.1112,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6664,7 +6664,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -6954,7 +6954,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6996,7 +6996,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 16319.42325,
+          "ExtraFolioBalance": 17267.90255,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -7310,7 +7310,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7667,7 +7667,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 4,
-          "ExtraFolioBalance": 2018.0556,
+          "ExtraFolioBalance": 4036.1112,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7793,7 +7793,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 16319.42325,
+          "ExtraFolioBalance": 17267.90255,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -8320,7 +8320,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9571.0923,
+          "ExtraFolioBalance": 9906.9201,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -8828,7 +8828,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -9055,7 +9055,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9390,7 +9390,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10463,7 +10463,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9571.0923,
+          "ExtraFolioBalance": 9906.9201,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -10908,7 +10908,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -11156,7 +11156,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -11526,7 +11526,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12746,7 +12746,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9571.0923,
+          "ExtraFolioBalance": 9906.9201,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -13170,7 +13170,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -13418,7 +13418,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -13844,7 +13844,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14446,7 +14446,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9571.0923,
+          "ExtraFolioBalance": 9906.9201,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -14576,7 +14576,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
@@ -15876,7 +15876,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -16253,7 +16253,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16414,7 +16414,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16463,14 +16463,14 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18894,7 +18894,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -19257,7 +19257,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19432,7 +19432,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19488,14 +19488,14 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21513,7 +21513,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 2242.284,
+          "ExtraFolioBalance": 2410.4553,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -21890,7 +21890,7 @@
         {
           "Room": "122",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22156,14 +22156,14 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
