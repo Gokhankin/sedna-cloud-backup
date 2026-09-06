@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-06 02:00:02",
+  "sync_time": "2026-09-06 03:00:02",
   "report_date": "2026-09-06",
   "summary": {
     "arrivals_count": 10,
     "departures_count": 26,
-    "inhouse_count": 86,
+    "inhouse_count": 90,
     "noshow_count": 0,
-    "vacant_count": 18,
+    "vacant_count": 14,
     "roomchanges_count": 0,
-    "eod_room_count": 70,
+    "eod_room_count": 74,
     "eod_pax_count": 132,
     "hk_count": 111
   },
@@ -901,6 +901,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "3004875",
+        "GroupNo": "",
+        "RecId": 28734,
+        "FirstName1": "ZAID",
+        "LastName1": "RAWI",
+        "CheckinDate": "2026-09-05",
+        "CheckOutDate": "2026-09-19",
+        "Room": "319",
+        "RoomType": "CLUB SV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:20",
+        "FlightDeparture": "14:15",
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "8045354",
         "GroupNo": "",
         "RecId": 28761,
@@ -1363,6 +1384,48 @@
         "AgencyCode": "BA HOLIDAYS"
       },
       {
+        "Voucher": "3039336",
+        "GroupNo": "",
+        "RecId": 31238,
+        "FirstName1": "JANE KATHRYN",
+        "LastName1": "DITTY",
+        "CheckinDate": "2026-09-05",
+        "CheckOutDate": "2026-09-12",
+        "Room": "412",
+        "RoomType": "STD-LVL",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:20",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "3039336",
+        "GroupNo": "",
+        "RecId": 31239,
+        "FirstName1": "MICHAEL GRAEME",
+        "LastName1": "DITTY",
+        "CheckinDate": "2026-09-05",
+        "CheckOutDate": "2026-09-12",
+        "Room": "413",
+        "RoomType": "STD-LVL",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:20",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "3039876",
         "GroupNo": "",
         "RecId": 31313,
@@ -1445,6 +1508,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "EXPEDIA"
+      },
+      {
+        "Voucher": "3041300",
+        "GroupNo": "",
+        "RecId": 31473,
+        "FirstName1": "ABIGAIL",
+        "LastName1": "ANDREWS",
+        "CheckinDate": "2026-09-05",
+        "CheckOutDate": "2026-09-10",
+        "Room": "420",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:20",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "17882030",
@@ -2626,13 +2710,6 @@
         "OccVac": 1
       },
       {
-        "Room": "319",
-        "RoomTypeCode": "CLUB SV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "335",
         "RoomTypeCode": "CLUB LV",
         "DirtyClean": 1,
@@ -2670,27 +2747,6 @@
       {
         "Room": "408",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "412",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "413",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "420",
-        "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -3497,9 +3553,9 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 26,
-        "inhouse_count": 86,
+        "inhouse_count": 90,
         "noshow_count": 0,
-        "vacant_count": 18,
+        "vacant_count": 14,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 132
@@ -4392,6 +4448,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "3004875",
+          "GroupNo": "",
+          "RecId": 28734,
+          "FirstName1": "ZAID",
+          "LastName1": "RAWI",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-19",
+          "Room": "319",
+          "RoomType": "CLUB SV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:20",
+          "FlightDeparture": "14:15",
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "8045354",
           "GroupNo": "",
           "RecId": 28761,
@@ -4854,6 +4931,48 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
+          "Voucher": "3039336",
+          "GroupNo": "",
+          "RecId": 31238,
+          "FirstName1": "JANE KATHRYN",
+          "LastName1": "DITTY",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-12",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:20",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "3039336",
+          "GroupNo": "",
+          "RecId": 31239,
+          "FirstName1": "MICHAEL GRAEME",
+          "LastName1": "DITTY",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-12",
+          "Room": "413",
+          "RoomType": "STD-LVL",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:20",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "3039876",
           "GroupNo": "",
           "RecId": 31313,
@@ -4936,6 +5055,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "3041300",
+          "GroupNo": "",
+          "RecId": 31473,
+          "FirstName1": "ABIGAIL",
+          "LastName1": "ANDREWS",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-10",
+          "Room": "420",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:20",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "17882030",
@@ -6117,13 +6257,6 @@
           "OccVac": 1
         },
         {
-          "Room": "319",
-          "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
@@ -6161,27 +6294,6 @@
         {
           "Room": "408",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "413",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "420",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -6909,7 +7021,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7378,7 +7490,7 @@
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31238,
-          "FirstName1": "JANE",
+          "FirstName1": "JANE KATHRYN",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -7392,14 +7504,14 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31239,
-          "FirstName1": "MICHAEL",
+          "FirstName1": "MICHAEL GRAEME",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -7413,7 +7525,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7518,7 +7630,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9248,7 +9360,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9696,7 +9808,7 @@
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31238,
-          "FirstName1": "JANE",
+          "FirstName1": "JANE KATHRYN",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -9710,14 +9822,14 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31239,
-          "FirstName1": "MICHAEL",
+          "FirstName1": "MICHAEL GRAEME",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -9731,7 +9843,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9794,7 +9906,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11482,7 +11594,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11888,7 +12000,7 @@
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31238,
-          "FirstName1": "JANE",
+          "FirstName1": "JANE KATHRYN",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -11902,14 +12014,14 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31239,
-          "FirstName1": "MICHAEL",
+          "FirstName1": "MICHAEL GRAEME",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -11923,7 +12035,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11986,7 +12098,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13497,7 +13609,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13730,7 +13842,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14241,7 +14353,7 @@
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31238,
-          "FirstName1": "JANE",
+          "FirstName1": "JANE KATHRYN",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -14255,14 +14367,14 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31239,
-          "FirstName1": "MICHAEL",
+          "FirstName1": "MICHAEL GRAEME",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -14276,7 +14388,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16321,7 +16433,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16832,7 +16944,7 @@
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31238,
-          "FirstName1": "JANE",
+          "FirstName1": "JANE KATHRYN",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -16846,14 +16958,14 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31239,
-          "FirstName1": "MICHAEL",
+          "FirstName1": "MICHAEL GRAEME",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -16867,7 +16979,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -18805,7 +18917,7 @@
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31238,
-          "FirstName1": "JANE",
+          "FirstName1": "JANE KATHRYN",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -18819,14 +18931,14 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3039336",
           "GroupNo": "",
           "RecId": 31239,
-          "FirstName1": "MICHAEL",
+          "FirstName1": "MICHAEL GRAEME",
           "LastName1": "DITTY",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -18840,7 +18952,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19241,7 +19353,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -21923,7 +22035,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "14:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
