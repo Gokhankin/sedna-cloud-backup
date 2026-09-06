@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-06 04:00:02",
+  "sync_time": "2026-09-06 05:00:02",
   "report_date": "2026-09-06",
   "summary": {
     "arrivals_count": 10,
     "departures_count": 26,
-    "inhouse_count": 90,
+    "inhouse_count": 91,
     "noshow_count": 0,
-    "vacant_count": 14,
+    "vacant_count": 13,
     "roomchanges_count": 0,
-    "eod_room_count": 74,
+    "eod_room_count": 75,
     "eod_pax_count": 132,
     "hk_count": 111
   },
@@ -1741,6 +1741,27 @@
         "AgencyCode": "MUNFERIT USD"
       },
       {
+        "Voucher": "1314968224",
+        "GroupNo": "",
+        "RecId": 31716,
+        "FirstName1": "DEBBIE AMANDA",
+        "LastName1": "FREEDMAN",
+        "CheckinDate": "2026-09-05",
+        "CheckOutDate": "2026-09-12",
+        "Room": "103",
+        "RoomType": "STD-SV",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 44,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "01:35",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "DIANA GBP"
+      },
+      {
         "Voucher": "WY584U",
         "GroupNo": "",
         "RecId": 31735,
@@ -2668,13 +2689,6 @@
     "noshow": [],
     "vacant": [
       {
-        "Room": "103",
-        "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "118",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
@@ -3553,9 +3567,9 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 26,
-        "inhouse_count": 90,
+        "inhouse_count": 91,
         "noshow_count": 0,
-        "vacant_count": 14,
+        "vacant_count": 13,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 132
@@ -5288,6 +5302,27 @@
           "AgencyCode": "MUNFERIT USD"
         },
         {
+          "Voucher": "1314968224",
+          "GroupNo": "",
+          "RecId": 31716,
+          "FirstName1": "DEBBIE AMANDA",
+          "LastName1": "FREEDMAN",
+          "CheckinDate": "2026-09-05",
+          "CheckOutDate": "2026-09-12",
+          "Room": "103",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "01:35",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DIANA GBP"
+        },
+        {
           "Voucher": "WY584U",
           "GroupNo": "",
           "RecId": 31735,
@@ -6214,13 +6249,6 @@
       ],
       "noshow": [],
       "vacant": [
-        {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
@@ -7826,7 +7854,7 @@
           "Voucher": "1314968224",
           "GroupNo": "",
           "RecId": 31716,
-          "FirstName1": "DEBBIE",
+          "FirstName1": "DEBBIE AMANDA",
           "LastName1": "FREEDMAN",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -7840,7 +7868,7 @@
           "ResRemark": "",
           "FlightArrival": "01:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -10081,7 +10109,7 @@
           "Voucher": "1314968224",
           "GroupNo": "",
           "RecId": 31716,
-          "FirstName1": "DEBBIE",
+          "FirstName1": "DEBBIE AMANDA",
           "LastName1": "FREEDMAN",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -10095,7 +10123,7 @@
           "ResRemark": "",
           "FlightArrival": "01:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -12231,7 +12259,7 @@
           "Voucher": "1314968224",
           "GroupNo": "",
           "RecId": 31716,
-          "FirstName1": "DEBBIE",
+          "FirstName1": "DEBBIE AMANDA",
           "LastName1": "FREEDMAN",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -12245,7 +12273,7 @@
           "ResRemark": "",
           "FlightArrival": "01:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -14605,7 +14633,7 @@
           "Voucher": "1314968224",
           "GroupNo": "",
           "RecId": 31716,
-          "FirstName1": "DEBBIE",
+          "FirstName1": "DEBBIE AMANDA",
           "LastName1": "FREEDMAN",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -14619,7 +14647,7 @@
           "ResRemark": "",
           "FlightArrival": "01:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -17175,7 +17203,7 @@
           "Voucher": "1314968224",
           "GroupNo": "",
           "RecId": 31716,
-          "FirstName1": "DEBBIE",
+          "FirstName1": "DEBBIE AMANDA",
           "LastName1": "FREEDMAN",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -17189,7 +17217,7 @@
           "ResRemark": "",
           "FlightArrival": "01:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
@@ -19001,7 +19029,7 @@
           "Voucher": "1314968224",
           "GroupNo": "",
           "RecId": 31716,
-          "FirstName1": "DEBBIE",
+          "FirstName1": "DEBBIE AMANDA",
           "LastName1": "FREEDMAN",
           "CheckinDate": "2026-09-05",
           "CheckOutDate": "2026-09-12",
@@ -19015,7 +19043,7 @@
           "ResRemark": "",
           "FlightArrival": "01:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA GBP"
         },
         {
