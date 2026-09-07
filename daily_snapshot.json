@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-08 00:00:02",
+  "sync_time": "2026-09-08 01:00:02",
   "report_date": "2026-09-08",
   "summary": {
     "arrivals_count": 5,
     "departures_count": 14,
-    "inhouse_count": 75,
+    "inhouse_count": 80,
     "noshow_count": 0,
-    "vacant_count": 30,
+    "vacant_count": 25,
     "roomchanges_count": 0,
-    "eod_room_count": 66,
+    "eod_room_count": 71,
     "eod_pax_count": 122,
     "hk_count": 111
   },
@@ -626,6 +626,27 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "TRSTCA/DIANA"
+      },
+      {
+        "Voucher": "3018724",
+        "GroupNo": "",
+        "RecId": 29012,
+        "FirstName1": "MOIRA",
+        "LastName1": "HAMPSON",
+        "CheckinDate": "2026-09-07",
+        "CheckOutDate": "2026-09-14",
+        "Room": "408",
+        "RoomType": "STD-LVL",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:30",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "8453960",
@@ -1552,6 +1573,27 @@
         "AgencyCode": "HOTELBEDS - B2B"
       },
       {
+        "Voucher": "3045040",
+        "GroupNo": "",
+        "RecId": 31860,
+        "FirstName1": "RICHARD",
+        "LastName1": "HUMPHREYS",
+        "CheckinDate": "2026-09-07",
+        "CheckOutDate": "2026-09-21",
+        "Room": "323",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "20:30",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "31915",
         "GroupNo": "",
         "RecId": 31915,
@@ -1697,6 +1739,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "34033004",
+        "GroupNo": "",
+        "RecId": 32072,
+        "FirstName1": "LISA",
+        "LastName1": "FREEMAN",
+        "CheckinDate": "2026-09-07",
+        "CheckOutDate": "2026-09-14",
+        "Room": "402",
+        "RoomType": "STD SEA L",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 12,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "20:50",
+        "FlightDeparture": "10:15",
+        "Status": 2,
+        "AgencyCode": "TUI UK"
       },
       {
         "Voucher": "32081",
@@ -1886,6 +1949,48 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "ADDAJET"
+      },
+      {
+        "Voucher": "B9PPKL",
+        "GroupNo": "",
+        "RecId": 32177,
+        "FirstName1": "LUCA",
+        "LastName1": "PUCCETTI",
+        "CheckinDate": "2026-09-07",
+        "CheckOutDate": "2026-09-11",
+        "Room": "333",
+        "RoomType": "STD-LV",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1112,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "PRIME TRAVEL"
+      },
+      {
+        "Voucher": "B9PPKL",
+        "GroupNo": "",
+        "RecId": 32178,
+        "FirstName1": "CLAUDIO",
+        "LastName1": "BERARDO",
+        "CheckinDate": "2026-09-07",
+        "CheckOutDate": "2026-09-11",
+        "Room": "331",
+        "RoomType": "STD-SVL",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1112,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "PRIME TRAVEL"
       },
       {
         "Voucher": "75-3683054",
@@ -2101,13 +2206,6 @@
         "OccVac": 1
       },
       {
-        "Room": "323",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "325",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 1,
@@ -2115,30 +2213,9 @@
         "OccVac": 1
       },
       {
-        "Room": "331",
-        "RoomTypeCode": "STD-SVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "333",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "335",
         "RoomTypeCode": "CLUB LV",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "402",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2159,13 +2236,6 @@
       {
         "Room": "407",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "408",
-        "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -2993,9 +3063,9 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 14,
-        "inhouse_count": 75,
+        "inhouse_count": 80,
         "noshow_count": 0,
-        "vacant_count": 30,
+        "vacant_count": 25,
         "roomchanges_count": 0,
         "eod_room_count": 71,
         "eod_pax_count": 122
@@ -3613,6 +3683,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "3018724",
+          "GroupNo": "",
+          "RecId": 29012,
+          "FirstName1": "MOIRA",
+          "LastName1": "HAMPSON",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-14",
+          "Room": "408",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:30",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "8453960",
@@ -4539,6 +4630,27 @@
           "AgencyCode": "HOTELBEDS - B2B"
         },
         {
+          "Voucher": "3045040",
+          "GroupNo": "",
+          "RecId": 31860,
+          "FirstName1": "RICHARD",
+          "LastName1": "HUMPHREYS",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-21",
+          "Room": "323",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:30",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -4684,6 +4796,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "34033004",
+          "GroupNo": "",
+          "RecId": 32072,
+          "FirstName1": "LISA",
+          "LastName1": "FREEMAN",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-14",
+          "Room": "402",
+          "RoomType": "STD SEA L",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:50",
+          "FlightDeparture": "10:15",
+          "Status": 2,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "32081",
@@ -4873,6 +5006,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "B9PPKL",
+          "GroupNo": "",
+          "RecId": 32177,
+          "FirstName1": "LUCA",
+          "LastName1": "PUCCETTI",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-11",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1112,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "PRIME TRAVEL"
+        },
+        {
+          "Voucher": "B9PPKL",
+          "GroupNo": "",
+          "RecId": 32178,
+          "FirstName1": "CLAUDIO",
+          "LastName1": "BERARDO",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-11",
+          "Room": "331",
+          "RoomType": "STD-SVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1112,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "PRIME TRAVEL"
         },
         {
           "Voucher": "75-3683054",
@@ -5088,13 +5263,6 @@
           "OccVac": 1
         },
         {
-          "Room": "323",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 1,
@@ -5102,30 +5270,9 @@
           "OccVac": 1
         },
         {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "333",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "402",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5146,13 +5293,6 @@
         {
           "Room": "407",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "408",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -5859,7 +5999,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6615,7 +6755,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6762,7 +6902,7 @@
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -7035,7 +7175,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "PRIME TRAVEL"
         },
         {
@@ -7056,7 +7196,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "PRIME TRAVEL"
         },
         {
@@ -8079,7 +8219,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -8898,7 +9038,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9066,7 +9206,7 @@
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -9402,7 +9542,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "PRIME TRAVEL"
         },
         {
@@ -9423,7 +9563,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "PRIME TRAVEL"
         },
         {
@@ -10360,7 +10500,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "PRIME TRAVEL"
         },
         {
@@ -10381,7 +10521,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "PRIME TRAVEL"
         },
         {
@@ -10635,7 +10775,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11391,7 +11531,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11559,7 +11699,7 @@
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -13562,7 +13702,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14444,7 +14584,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14675,7 +14815,7 @@
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -16307,7 +16447,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17210,7 +17350,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17399,7 +17539,7 @@
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -18525,7 +18665,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -18609,7 +18749,7 @@
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -19871,7 +20011,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -22322,7 +22462,7 @@
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
