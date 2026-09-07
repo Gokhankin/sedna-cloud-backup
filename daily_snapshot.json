@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-09-07 06:00:02",
+  "sync_time": "2026-09-07 07:00:02",
   "report_date": "2026-09-07",
   "summary": {
-    "arrivals_count": 17,
+    "arrivals_count": 16,
     "departures_count": 13,
-    "inhouse_count": 76,
+    "inhouse_count": 77,
     "noshow_count": 0,
     "vacant_count": 18,
     "roomchanges_count": 0,
@@ -286,27 +286,6 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "DIANA GBP"
-      },
-      {
-        "Voucher": "529HPD",
-        "GroupNo": "",
-        "RecId": 32166,
-        "FirstName1": "SIHAM",
-        "LastName1": "NOUARI",
-        "CheckinDate": "2026-09-07",
-        "CheckOutDate": "2026-09-12",
-        "Room": "417",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "B9PPKL",
@@ -2140,6 +2119,27 @@
         "AgencyCode": "TRSTCA/DIANA"
       },
       {
+        "Voucher": "529HPD",
+        "GroupNo": "",
+        "RecId": 32166,
+        "FirstName1": "SIHAM",
+        "LastName1": "NOUARI",
+        "CheckinDate": "2026-09-07",
+        "CheckOutDate": "2026-09-12",
+        "Room": "122",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 5,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "ADDAJET"
+      },
+      {
         "Voucher": "32175",
         "GroupNo": "",
         "RecId": 32175,
@@ -2276,13 +2276,6 @@
         "OccVac": 1
       },
       {
-        "Room": "122",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "126",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 1,
@@ -2342,6 +2335,13 @@
         "Room": "407",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "417",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3159,9 +3159,9 @@
   "by_date": {
     "2026-09-07": {
       "summary": {
-        "arrivals_count": 17,
+        "arrivals_count": 16,
         "departures_count": 13,
-        "inhouse_count": 76,
+        "inhouse_count": 77,
         "noshow_count": 0,
         "vacant_count": 18,
         "roomchanges_count": 0,
@@ -3441,27 +3441,6 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "529HPD",
-          "GroupNo": "",
-          "RecId": 32166,
-          "FirstName1": "SIHAM",
-          "LastName1": "NOUARI",
-          "CheckinDate": "2026-09-07",
-          "CheckOutDate": "2026-09-12",
-          "Room": "417",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "B9PPKL",
@@ -5295,6 +5274,27 @@
           "AgencyCode": "TRSTCA/DIANA"
         },
         {
+          "Voucher": "529HPD",
+          "GroupNo": "",
+          "RecId": 32166,
+          "FirstName1": "SIHAM",
+          "LastName1": "NOUARI",
+          "CheckinDate": "2026-09-07",
+          "CheckOutDate": "2026-09-12",
+          "Room": "122",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "32175",
           "GroupNo": "",
           "RecId": 32175,
@@ -5431,13 +5431,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -5497,6 +5490,13 @@
           "Room": "407",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "417",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7277,7 +7277,7 @@
           "LastName1": "NOUARI",
           "CheckinDate": "2026-09-07",
           "CheckOutDate": "2026-09-12",
-          "Room": "417",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -7287,7 +7287,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -7511,13 +7511,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "128",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 0,
@@ -7666,6 +7659,13 @@
         },
         {
           "Room": "410",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "417",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -9455,7 +9455,7 @@
           "LastName1": "NOUARI",
           "CheckinDate": "2026-09-07",
           "CheckOutDate": "2026-09-12",
-          "Room": "417",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -9465,7 +9465,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -9661,13 +9661,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -9844,6 +9837,13 @@
         },
         {
           "Room": "410",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "417",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -11780,7 +11780,7 @@
           "LastName1": "NOUARI",
           "CheckinDate": "2026-09-07",
           "CheckOutDate": "2026-09-12",
-          "Room": "417",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -11790,7 +11790,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -11979,13 +11979,6 @@
           "OccVac": 1
         },
         {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -12162,6 +12155,13 @@
         },
         {
           "Room": "410",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "417",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -14217,7 +14217,7 @@
           "LastName1": "NOUARI",
           "CheckinDate": "2026-09-07",
           "CheckOutDate": "2026-09-12",
-          "Room": "417",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -14227,7 +14227,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -14377,13 +14377,6 @@
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14648,6 +14641,13 @@
         },
         {
           "Room": "410",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "417",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -15651,7 +15651,7 @@
           "LastName1": "NOUARI",
           "CheckinDate": "2026-09-07",
           "CheckOutDate": "2026-09-12",
-          "Room": "417",
+          "Room": "122",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -15661,7 +15661,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "ADDAJET"
         },
         {
