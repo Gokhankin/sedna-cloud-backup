@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-08 14:00:02",
+  "sync_time": "2026-09-08 15:00:02",
   "report_date": "2026-09-08",
   "summary": {
     "arrivals_count": 3,
     "departures_count": 6,
     "inhouse_count": 74,
     "noshow_count": 0,
-    "vacant_count": 33,
+    "vacant_count": 32,
     "roomchanges_count": 0,
     "eod_room_count": 71,
     "eod_pax_count": 122,
@@ -473,7 +473,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 33,
-        "ExtraFolioBalance": 14891.877,
+        "ExtraFolioBalance": 16179.5205,
         "ResRemark": null,
         "FlightArrival": "18:20",
         "FlightDeparture": null,
@@ -557,7 +557,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 19114.19895,
+        "ExtraFolioBalance": 21409.02225,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -620,7 +620,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 5269.3674,
         "ResRemark": null,
         "FlightArrival": "12:05",
         "FlightDeparture": null,
@@ -635,8 +635,8 @@
         "LastName1": "HUSSAIN",
         "CheckinDate": "2026-09-08",
         "CheckOutDate": "2026-09-11",
-        "Room": "2004",
-        "RoomType": "PM",
+        "Room": "312",
+        "RoomType": "STD-LVL",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -809,7 +809,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 9753.9354,
+        "ExtraFolioBalance": 9978.1638,
         "ResRemark": null,
         "FlightArrival": "21:35",
         "FlightDeparture": null,
@@ -977,7 +977,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 17517.40815,
+        "ExtraFolioBalance": 17740.91575,
         "ResRemark": null,
         "FlightArrival": "20:10",
         "FlightDeparture": null,
@@ -1271,7 +1271,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 224.2284,
         "ResRemark": null,
         "FlightArrival": "20:30",
         "FlightDeparture": null,
@@ -1802,7 +1802,7 @@
       {
         "Room": "114",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1877,16 +1877,9 @@
         "OccVac": 1
       },
       {
-        "Room": "312",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "314",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1935,14 +1928,14 @@
       {
         "Room": "404",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "405",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2044,7 +2037,7 @@
       {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2093,7 +2086,7 @@
       {
         "Room": "114",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2394,7 +2387,7 @@
       {
         "Room": "312",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2408,7 +2401,7 @@
       {
         "Room": "314",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2597,14 +2590,14 @@
       {
         "Room": "404",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "405",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2785,7 +2778,7 @@
         "departures_count": 6,
         "inhouse_count": 74,
         "noshow_count": 0,
-        "vacant_count": 33,
+        "vacant_count": 32,
         "roomchanges_count": 0,
         "eod_room_count": 71,
         "eod_pax_count": 122
@@ -3250,7 +3243,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 14891.877,
+          "ExtraFolioBalance": 16179.5205,
           "ResRemark": null,
           "FlightArrival": "18:20",
           "FlightDeparture": null,
@@ -3334,7 +3327,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 19114.19895,
+          "ExtraFolioBalance": 21409.02225,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3397,7 +3390,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -3412,8 +3405,8 @@
           "LastName1": "HUSSAIN",
           "CheckinDate": "2026-09-08",
           "CheckOutDate": "2026-09-11",
-          "Room": "2004",
-          "RoomType": "PM",
+          "Room": "312",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -3586,7 +3579,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9753.9354,
+          "ExtraFolioBalance": 9978.1638,
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
@@ -3754,7 +3747,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17517.40815,
+          "ExtraFolioBalance": 17740.91575,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -4048,7 +4041,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -4579,7 +4572,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4654,16 +4647,9 @@
           "OccVac": 1
         },
         {
-          "Room": "312",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4712,14 +4698,14 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4781,7 +4767,7 @@
         "departures_count": 9,
         "inhouse_count": 74,
         "noshow_count": 0,
-        "vacant_count": 35,
+        "vacant_count": 34,
         "roomchanges_count": 0,
         "eod_room_count": 74,
         "eod_pax_count": 130
@@ -5076,7 +5062,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 14891.877,
+          "ExtraFolioBalance": 16179.5205,
           "ResRemark": null,
           "FlightArrival": "18:20",
           "FlightDeparture": null,
@@ -5181,7 +5167,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17517.40815,
+          "ExtraFolioBalance": 17740.91575,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -5624,7 +5610,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 19114.19895,
+          "ExtraFolioBalance": 21409.02225,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5687,7 +5673,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -5702,8 +5688,8 @@
           "LastName1": "HUSSAIN",
           "CheckinDate": "2026-09-08",
           "CheckOutDate": "2026-09-11",
-          "Room": "2004",
-          "RoomType": "PM",
+          "Room": "312",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5834,7 +5820,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9753.9354,
+          "ExtraFolioBalance": 9978.1638,
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
@@ -6212,7 +6198,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -6813,7 +6799,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6902,16 +6888,9 @@
           "OccVac": 1
         },
         {
-          "Room": "312",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7043,7 +7022,7 @@
         "departures_count": 5,
         "inhouse_count": 83,
         "noshow_count": 0,
-        "vacant_count": 35,
+        "vacant_count": 34,
         "roomchanges_count": 0,
         "eod_room_count": 83,
         "eod_pax_count": 146
@@ -7949,7 +7928,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 19114.19895,
+          "ExtraFolioBalance": 21409.02225,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8012,7 +7991,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -8027,8 +8006,8 @@
           "LastName1": "HUSSAIN",
           "CheckinDate": "2026-09-08",
           "CheckOutDate": "2026-09-11",
-          "Room": "2004",
-          "RoomType": "PM",
+          "Room": "312",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -8159,7 +8138,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9753.9354,
+          "ExtraFolioBalance": 9978.1638,
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
@@ -8495,7 +8474,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -9215,7 +9194,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9297,16 +9276,9 @@
           "OccVac": 1
         },
         {
-          "Room": "312",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9726,7 +9698,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 19114.19895,
+          "ExtraFolioBalance": 21409.02225,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9762,8 +9734,8 @@
           "LastName1": "HUSSAIN",
           "CheckinDate": "2026-09-08",
           "CheckOutDate": "2026-09-11",
-          "Room": "2004",
-          "RoomType": "PM",
+          "Room": "312",
+          "RoomType": "STD-LVL",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -10547,7 +10519,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -10715,7 +10687,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9753.9354,
+          "ExtraFolioBalance": 9978.1638,
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
@@ -10988,7 +10960,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -11652,7 +11624,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11764,7 +11736,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11778,7 +11750,7 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12688,7 +12660,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9753.9354,
+          "ExtraFolioBalance": 9978.1638,
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
@@ -13635,7 +13607,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -14055,7 +14027,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -14698,7 +14670,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14845,7 +14817,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14859,7 +14831,7 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16366,7 +16338,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -16807,7 +16779,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -17373,7 +17345,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17541,7 +17513,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17555,7 +17527,7 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17702,14 +17674,14 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18992,7 +18964,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -19496,7 +19468,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -20034,7 +20006,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20195,7 +20167,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20209,7 +20181,7 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20356,14 +20328,14 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21450,7 +21422,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 5269.3674,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -21933,7 +21905,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 224.2284,
           "ResRemark": null,
           "FlightArrival": "20:30",
           "FlightDeparture": null,
@@ -22534,7 +22506,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22562,7 +22534,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22730,7 +22702,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22744,7 +22716,7 @@
         {
           "Room": "314",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22891,14 +22863,14 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
