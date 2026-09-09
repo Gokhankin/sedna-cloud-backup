@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-09 15:00:02",
+  "sync_time": "2026-09-09 16:00:02",
   "report_date": "2026-09-09",
   "summary": {
-    "arrivals_count": 9,
-    "departures_count": 5,
-    "inhouse_count": 72,
+    "arrivals_count": 6,
+    "departures_count": 3,
+    "inhouse_count": 73,
     "noshow_count": 0,
-    "vacant_count": 25,
+    "vacant_count": 27,
     "roomchanges_count": 0,
     "eod_room_count": 76,
     "eod_pax_count": 132,
@@ -14,27 +14,6 @@
   },
   "data": {
     "arrivals": [
-      {
-        "Voucher": "DY5603",
-        "GroupNo": "",
-        "RecId": 28722,
-        "FirstName1": "DAAN",
-        "LastName1": "KORSTANJE",
-        "CheckinDate": "2026-09-09",
-        "CheckOutDate": "2026-09-16",
-        "Room": "317",
-        "RoomType": "STD-LVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 33,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "12:30",
-        "FlightDeparture": "13:05",
-        "Status": 1,
-        "AgencyCode": "TUI NETHERLANDS"
-      },
       {
         "Voucher": "102310322",
         "GroupNo": "",
@@ -120,27 +99,6 @@
         "AgencyCode": "TUI UK"
       },
       {
-        "Voucher": "F72949",
-        "GroupNo": "",
-        "RecId": 32112,
-        "FirstName1": "KAI JORIAN",
-        "LastName1": "VAN DER HEIJDEN",
-        "CheckinDate": "2026-09-09",
-        "CheckOutDate": "2026-09-13",
-        "Room": "405",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 33,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "12:30",
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "TUI NETHERLANDS"
-      },
-      {
         "Voucher": "3048272",
         "GroupNo": "",
         "RecId": 32170,
@@ -160,27 +118,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "2552881338",
-        "GroupNo": "",
-        "RecId": 32198,
-        "FirstName1": "AYTURE",
-        "LastName1": "SOYDEMIR",
-        "CheckinDate": "2026-09-09",
-        "CheckOutDate": "2026-09-13",
-        "Room": "404",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": -103946.4832,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "2553297464",
@@ -205,48 +142,6 @@
       }
     ],
     "departures": [
-      {
-        "Voucher": "31349130",
-        "GroupNo": "",
-        "RecId": 28835,
-        "FirstName1": "LESRAY CHARMALYN",
-        "LastName1": "CAMERON",
-        "CheckinDate": "2026-09-02",
-        "CheckOutDate": "2026-09-09",
-        "Room": "128",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 12,
-        "ExtraFolioBalance": 447.0152,
-        "ResRemark": "",
-        "FlightArrival": "19:55",
-        "FlightDeparture": "20:55",
-        "Status": 2,
-        "AgencyCode": "TUI UK"
-      },
-      {
-        "Voucher": "3034623",
-        "GroupNo": "",
-        "RecId": 30750,
-        "FirstName1": "PAUL AUSTIN",
-        "LastName1": "LIEBERMAN",
-        "CheckinDate": "2026-09-02",
-        "CheckOutDate": "2026-09-09",
-        "Room": "206",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 2235.076,
-        "ResRemark": null,
-        "FlightArrival": "20:10",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
       {
         "Voucher": "3042599",
         "GroupNo": "",
@@ -397,6 +292,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "DY5603",
+        "GroupNo": "",
+        "RecId": 28722,
+        "FirstName1": "DAAN",
+        "LastName1": "KORSTANJE",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-16",
+        "Room": "317",
+        "RoomType": "STD-LVL",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 33,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "12:30",
+        "FlightDeparture": "13:05",
+        "Status": 2,
+        "AgencyCode": "TUI NETHERLANDS"
+      },
+      {
         "Voucher": "3004875",
         "GroupNo": "",
         "RecId": 28734,
@@ -458,27 +374,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "31349130",
-        "GroupNo": "",
-        "RecId": 28835,
-        "FirstName1": "LESRAY CHARMALYN",
-        "LastName1": "CAMERON",
-        "CheckinDate": "2026-09-02",
-        "CheckOutDate": "2026-09-09",
-        "Room": "128",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 12,
-        "ExtraFolioBalance": 447.0152,
-        "ResRemark": "",
-        "FlightArrival": "19:55",
-        "FlightDeparture": "20:55",
-        "Status": 2,
-        "AgencyCode": "TUI UK"
       },
       {
         "Voucher": "2564080",
@@ -641,7 +536,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 22500.4626,
+        "ExtraFolioBalance": 24179.6016,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -662,7 +557,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 14,
-        "ExtraFolioBalance": 5465.56725,
+        "ExtraFolioBalance": 6446.5665,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -725,33 +620,12 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 14580.03343,
+        "ExtraFolioBalance": 15619.45778,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "EXPEDIA"
-      },
-      {
-        "Voucher": "3034623",
-        "GroupNo": "",
-        "RecId": 30750,
-        "FirstName1": "PAUL AUSTIN",
-        "LastName1": "LIEBERMAN",
-        "CheckinDate": "2026-09-02",
-        "CheckOutDate": "2026-09-09",
-        "Room": "206",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 2235.076,
-        "ResRemark": null,
-        "FlightArrival": "20:10",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "3034978",
@@ -1510,6 +1384,27 @@
         "AgencyCode": "DIANA GBP"
       },
       {
+        "Voucher": "F72949",
+        "GroupNo": "",
+        "RecId": 32112,
+        "FirstName1": "KAI JORIAN",
+        "LastName1": "VAN DER HEIJDEN",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-13",
+        "Room": "102",
+        "RoomType": "CLUB LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 33,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "12:30",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "TUI NETHERLANDS"
+      },
+      {
         "Voucher": "2548398267",
         "GroupNo": "",
         "RecId": 32133,
@@ -1762,6 +1657,27 @@
         "AgencyCode": "EXPEDIA"
       },
       {
+        "Voucher": "2552881338",
+        "GroupNo": "",
+        "RecId": 32198,
+        "FirstName1": "AYTURE",
+        "LastName1": "SOYDEMIR",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-13",
+        "Room": "404",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 8,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EXPEDIA"
+      },
+      {
         "Voucher": "341310359",
         "GroupNo": "",
         "RecId": 32201,
@@ -1796,7 +1712,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1,
-        "ExtraFolioBalance": 9439.0968,
+        "ExtraFolioBalance": 10338.0584,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1835,16 +1751,9 @@
         "OccVac": 1
       },
       {
-        "Room": "102",
-        "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1877,6 +1786,13 @@
         "OccVac": 1
       },
       {
+        "Room": "128",
+        "RoomTypeCode": "STD-SVL",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "129",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 0,
@@ -1887,6 +1803,13 @@
         "Room": "132",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "206",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1950,6 +1873,13 @@
         "Room": "335",
         "RoomTypeCode": "CLUB LV",
         "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "405",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2051,7 +1981,7 @@
       {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2198,7 +2128,7 @@
       {
         "Room": "128",
         "RoomTypeCode": "STD-SVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2788,37 +2718,16 @@
   "by_date": {
     "2026-09-09": {
       "summary": {
-        "arrivals_count": 9,
-        "departures_count": 5,
-        "inhouse_count": 72,
+        "arrivals_count": 6,
+        "departures_count": 3,
+        "inhouse_count": 73,
         "noshow_count": 0,
-        "vacant_count": 25,
+        "vacant_count": 27,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 132
       },
       "arrivals": [
-        {
-          "Voucher": "DY5603",
-          "GroupNo": "",
-          "RecId": 28722,
-          "FirstName1": "DAAN",
-          "LastName1": "KORSTANJE",
-          "CheckinDate": "2026-09-09",
-          "CheckOutDate": "2026-09-16",
-          "Room": "317",
-          "RoomType": "STD-LVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 33,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "12:30",
-          "FlightDeparture": "13:05",
-          "Status": 1,
-          "AgencyCode": "TUI NETHERLANDS"
-        },
         {
           "Voucher": "102310322",
           "GroupNo": "",
@@ -2904,27 +2813,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "F72949",
-          "GroupNo": "",
-          "RecId": 32112,
-          "FirstName1": "KAI JORIAN",
-          "LastName1": "VAN DER HEIJDEN",
-          "CheckinDate": "2026-09-09",
-          "CheckOutDate": "2026-09-13",
-          "Room": "405",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 33,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "12:30",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
           "Voucher": "3048272",
           "GroupNo": "",
           "RecId": 32170,
@@ -2944,27 +2832,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "2552881338",
-          "GroupNo": "",
-          "RecId": 32198,
-          "FirstName1": "AYTURE",
-          "LastName1": "SOYDEMIR",
-          "CheckinDate": "2026-09-09",
-          "CheckOutDate": "2026-09-13",
-          "Room": "404",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": -103946.4832,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "2553297464",
@@ -2989,48 +2856,6 @@
         }
       ],
       "departures": [
-        {
-          "Voucher": "31349130",
-          "GroupNo": "",
-          "RecId": 28835,
-          "FirstName1": "LESRAY CHARMALYN",
-          "LastName1": "CAMERON",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-09",
-          "Room": "128",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 12,
-          "ExtraFolioBalance": 447.0152,
-          "ResRemark": "",
-          "FlightArrival": "19:55",
-          "FlightDeparture": "20:55",
-          "Status": 2,
-          "AgencyCode": "TUI UK"
-        },
-        {
-          "Voucher": "3034623",
-          "GroupNo": "",
-          "RecId": 30750,
-          "FirstName1": "PAUL AUSTIN",
-          "LastName1": "LIEBERMAN",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-09",
-          "Room": "206",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 2235.076,
-          "ResRemark": null,
-          "FlightArrival": "20:10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
         {
           "Voucher": "3042599",
           "GroupNo": "",
@@ -3181,6 +3006,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "DY5603",
+          "GroupNo": "",
+          "RecId": 28722,
+          "FirstName1": "DAAN",
+          "LastName1": "KORSTANJE",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-16",
+          "Room": "317",
+          "RoomType": "STD-LVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 33,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "12:30",
+          "FlightDeparture": "13:05",
+          "Status": 2,
+          "AgencyCode": "TUI NETHERLANDS"
+        },
+        {
           "Voucher": "3004875",
           "GroupNo": "",
           "RecId": 28734,
@@ -3242,27 +3088,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "31349130",
-          "GroupNo": "",
-          "RecId": 28835,
-          "FirstName1": "LESRAY CHARMALYN",
-          "LastName1": "CAMERON",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-09",
-          "Room": "128",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 12,
-          "ExtraFolioBalance": 447.0152,
-          "ResRemark": "",
-          "FlightArrival": "19:55",
-          "FlightDeparture": "20:55",
-          "Status": 2,
-          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "2564080",
@@ -3425,7 +3250,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 22500.4626,
+          "ExtraFolioBalance": 24179.6016,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3446,7 +3271,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 5465.56725,
+          "ExtraFolioBalance": 6446.5665,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3509,33 +3334,12 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 14580.03343,
+          "ExtraFolioBalance": 15619.45778,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
-        },
-        {
-          "Voucher": "3034623",
-          "GroupNo": "",
-          "RecId": 30750,
-          "FirstName1": "PAUL AUSTIN",
-          "LastName1": "LIEBERMAN",
-          "CheckinDate": "2026-09-02",
-          "CheckOutDate": "2026-09-09",
-          "Room": "206",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 2235.076,
-          "ResRemark": null,
-          "FlightArrival": "20:10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3034978",
@@ -4294,6 +4098,27 @@
           "AgencyCode": "DIANA GBP"
         },
         {
+          "Voucher": "F72949",
+          "GroupNo": "",
+          "RecId": 32112,
+          "FirstName1": "KAI JORIAN",
+          "LastName1": "VAN DER HEIJDEN",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-13",
+          "Room": "102",
+          "RoomType": "CLUB LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 33,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "12:30",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "TUI NETHERLANDS"
+        },
+        {
           "Voucher": "2548398267",
           "GroupNo": "",
           "RecId": 32133,
@@ -4546,6 +4371,27 @@
           "AgencyCode": "EXPEDIA"
         },
         {
+          "Voucher": "2552881338",
+          "GroupNo": "",
+          "RecId": 32198,
+          "FirstName1": "AYTURE",
+          "LastName1": "SOYDEMIR",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-13",
+          "Room": "404",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "341310359",
           "GroupNo": "",
           "RecId": 32201,
@@ -4580,7 +4426,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 9439.0968,
+          "ExtraFolioBalance": 10338.0584,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4619,16 +4465,9 @@
           "OccVac": 1
         },
         {
-          "Room": "102",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4661,6 +4500,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -4671,6 +4517,13 @@
           "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "206",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4734,6 +4587,13 @@
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "405",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4809,8 +4669,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -5237,7 +5097,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 9439.0968,
+          "ExtraFolioBalance": 10338.0584,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5369,7 +5229,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -5548,8 +5408,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -5764,7 +5624,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 22500.4626,
+          "ExtraFolioBalance": 24179.6016,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5785,7 +5645,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 5465.56725,
+          "ExtraFolioBalance": 6446.5665,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5848,7 +5708,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 14580.03343,
+          "ExtraFolioBalance": 15619.45778,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6619,8 +6479,8 @@
           "LastName1": "VAN DER HEIJDEN",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-13",
-          "Room": "405",
-          "RoomType": "STD-LV",
+          "Room": "102",
+          "RoomType": "CLUB LV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -6629,7 +6489,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -6919,11 +6779,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -103946.4832,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -7042,13 +6902,6 @@
           "OccVac": 1
         },
         {
-          "Room": "102",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -7072,7 +6925,7 @@
         {
           "Room": "128",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7086,13 +6939,6 @@
         {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -7140,9 +6986,23 @@
           "OccVac": 1
         },
         {
+          "Room": "405",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "407",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7506,7 +7366,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 22500.4626,
+          "ExtraFolioBalance": 24179.6016,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7527,7 +7387,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 14,
-          "ExtraFolioBalance": 5465.56725,
+          "ExtraFolioBalance": 6446.5665,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7548,7 +7408,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 14580.03343,
+          "ExtraFolioBalance": 15619.45778,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7890,7 +7750,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -8069,8 +7929,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -9077,8 +8937,8 @@
           "LastName1": "VAN DER HEIJDEN",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-13",
-          "Room": "405",
-          "RoomType": "STD-LV",
+          "Room": "102",
+          "RoomType": "CLUB LV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -9087,7 +8947,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -9314,11 +9174,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -103946.4832,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -9479,13 +9339,6 @@
           "OccVac": 1
         },
         {
-          "Room": "102",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -9509,7 +9362,7 @@
         {
           "Room": "128",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9537,13 +9390,6 @@
         {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -9647,6 +9493,13 @@
           "OccVac": 1
         },
         {
+          "Room": "405",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "407",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -9656,6 +9509,13 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -10866,7 +10726,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -11129,8 +10989,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -12179,8 +12039,8 @@
           "LastName1": "VAN DER HEIJDEN",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-13",
-          "Room": "405",
-          "RoomType": "STD-LV",
+          "Room": "102",
+          "RoomType": "CLUB LV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -12189,7 +12049,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -12374,11 +12234,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -103946.4832,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -12492,13 +12352,6 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "102",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -12618,13 +12471,6 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -12763,6 +12609,13 @@
           "OccVac": 1
         },
         {
+          "Room": "405",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "407",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -12792,6 +12645,13 @@
         },
         {
           "Room": "413",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -13298,8 +13158,8 @@
           "LastName1": "VAN DER HEIJDEN",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-13",
-          "Room": "405",
-          "RoomType": "STD-LV",
+          "Room": "102",
+          "RoomType": "CLUB LV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -13308,7 +13168,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -13346,11 +13206,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -103946.4832,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -13520,7 +13380,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -13783,8 +13643,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -15132,7 +14992,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15273,13 +15133,6 @@
           "Room": "305",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15475,6 +15328,13 @@
         {
           "Room": "416",
           "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -16076,7 +15936,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -16339,8 +16199,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -17765,7 +17625,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17899,13 +17759,6 @@
           "Room": "305",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18101,6 +17954,13 @@
         {
           "Room": "416",
           "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -18569,7 +18429,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -18811,8 +18671,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -20258,7 +20118,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20413,13 +20273,6 @@
           "Room": "305",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20634,6 +20487,13 @@
           "OccVac": 1
         },
         {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "419",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
@@ -20759,7 +20619,7 @@
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": "13:05",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
@@ -21192,8 +21052,8 @@
           "LastName1": "RYDER",
           "CheckinDate": "2026-09-10",
           "CheckOutDate": "2026-09-24",
-          "Room": "418",
-          "RoomType": "STD-LVL",
+          "Room": "307",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -22555,7 +22415,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22745,13 +22605,6 @@
           "Room": "305",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22968,6 +22821,13 @@
         {
           "Room": "416",
           "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
