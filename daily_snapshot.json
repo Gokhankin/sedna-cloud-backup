@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-09 03:00:02",
+  "sync_time": "2026-09-09 04:00:02",
   "report_date": "2026-09-09",
   "summary": {
     "arrivals_count": 12,
     "departures_count": 9,
-    "inhouse_count": 71,
+    "inhouse_count": 72,
     "noshow_count": 0,
-    "vacant_count": 25,
+    "vacant_count": 24,
     "roomchanges_count": 0,
-    "eod_room_count": 74,
+    "eod_room_count": 75,
     "eod_pax_count": 132,
     "hk_count": 111
   },
@@ -689,6 +689,27 @@
         "FlightDeparture": "20:40",
         "Status": 2,
         "AgencyCode": "EASYJET"
+      },
+      {
+        "Voucher": "3023632",
+        "GroupNo": "",
+        "RecId": 29491,
+        "FirstName1": "JULIA",
+        "LastName1": "WHITEHALL",
+        "CheckinDate": "2026-09-08",
+        "CheckOutDate": "2026-09-15",
+        "Room": "410",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "20:10",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "DZKSBB",
@@ -2094,13 +2115,6 @@
         "OccVac": 1
       },
       {
-        "Room": "410",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "417",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
@@ -2184,7 +2198,7 @@
       {
         "Room": "108",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2240,7 +2254,7 @@
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2310,7 +2324,7 @@
       {
         "Room": "126",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2359,7 +2373,7 @@
       {
         "Room": "133",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2387,7 +2401,7 @@
       {
         "Room": "203",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2527,7 +2541,7 @@
       {
         "Room": "312",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2772,7 +2786,7 @@
       {
         "Room": "410",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2916,9 +2930,9 @@
       "summary": {
         "arrivals_count": 12,
         "departures_count": 9,
-        "inhouse_count": 71,
+        "inhouse_count": 72,
         "noshow_count": 0,
-        "vacant_count": 25,
+        "vacant_count": 24,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 132
@@ -3599,6 +3613,27 @@
           "FlightDeparture": "20:40",
           "Status": 2,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "3023632",
+          "GroupNo": "",
+          "RecId": 29491,
+          "FirstName1": "JULIA",
+          "LastName1": "WHITEHALL",
+          "CheckinDate": "2026-09-08",
+          "CheckOutDate": "2026-09-15",
+          "Room": "410",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:10",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "DZKSBB",
@@ -5004,13 +5039,6 @@
           "OccVac": 1
         },
         {
-          "Room": "410",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "417",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -5747,7 +5775,7 @@
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7254,7 +7282,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8275,7 +8303,7 @@
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9754,7 +9782,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11300,7 +11328,7 @@
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12814,7 +12842,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13989,7 +14017,7 @@
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -15314,7 +15342,7 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15489,7 +15517,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16566,7 +16594,7 @@
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17968,7 +17996,7 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18136,7 +18164,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18637,7 +18665,7 @@
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -20482,7 +20510,7 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20566,7 +20594,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20664,7 +20692,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20853,7 +20881,7 @@
         {
           "Room": "410",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22814,7 +22842,7 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22919,7 +22947,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23031,7 +23059,7 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23227,7 +23255,7 @@
         {
           "Room": "410",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
