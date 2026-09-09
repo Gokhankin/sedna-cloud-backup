@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-09 14:00:02",
+  "sync_time": "2026-09-09 15:00:02",
   "report_date": "2026-09-09",
   "summary": {
-    "arrivals_count": 10,
-    "departures_count": 6,
+    "arrivals_count": 9,
+    "departures_count": 5,
     "inhouse_count": 72,
     "noshow_count": 0,
-    "vacant_count": 24,
+    "vacant_count": 25,
     "roomchanges_count": 0,
     "eod_room_count": 76,
     "eod_pax_count": 132,
@@ -97,27 +97,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "2531518888",
-        "GroupNo": "",
-        "RecId": 31619,
-        "FirstName1": "TANER",
-        "LastName1": "YILDIRIM",
-        "CheckinDate": "2026-09-09",
-        "CheckOutDate": "2026-09-12",
-        "Room": "328",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": -78028.9638,
-        "ResRemark": "",
-        "FlightArrival": "OTELE 14:00",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "34041788",
@@ -290,27 +269,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "75-3680199",
-        "GroupNo": "",
-        "RecId": 31651,
-        "FirstName1": "IULIIA",
-        "LastName1": "RAFEEVA",
-        "CheckinDate": "2026-09-03",
-        "CheckOutDate": "2026-09-09",
-        "Room": "418",
-        "RoomType": "STD-LVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
         "Voucher": "3043122",
         "GroupNo": "",
         "RecId": 31660,
@@ -324,7 +282,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 21261.16045,
+        "ExtraFolioBalance": 23244.7904,
         "ResRemark": null,
         "FlightArrival": "20:10",
         "FlightDeparture": null,
@@ -809,7 +767,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 19030.242,
+        "ExtraFolioBalance": 20317.5819,
         "ResRemark": null,
         "FlightArrival": "14:30",
         "FlightDeparture": null,
@@ -985,6 +943,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "2531518888",
+        "GroupNo": "",
+        "RecId": 31619,
+        "FirstName1": "TANER",
+        "LastName1": "YILDIRIM",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-12",
+        "Room": "328",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 8,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "OTELE 14:00",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EXPEDIA"
+      },
+      {
         "Voucher": "31649",
         "GroupNo": "",
         "RecId": 31649,
@@ -1006,27 +985,6 @@
         "AgencyCode": "MUNFERIT EURO"
       },
       {
-        "Voucher": "75-3680199",
-        "GroupNo": "",
-        "RecId": 31651,
-        "FirstName1": "IULIIA",
-        "LastName1": "RAFEEVA",
-        "CheckinDate": "2026-09-03",
-        "CheckOutDate": "2026-09-09",
-        "Room": "418",
-        "RoomType": "STD-LVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1103,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
         "Voucher": "3043122",
         "GroupNo": "",
         "RecId": 31660,
@@ -1040,7 +998,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 21261.16045,
+        "ExtraFolioBalance": 23244.7904,
         "ResRemark": null,
         "FlightArrival": "20:10",
         "FlightDeparture": null,
@@ -1145,7 +1103,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 5,
-        "ExtraFolioBalance": 18885.89665,
+        "ExtraFolioBalance": 19332.23985,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1397,7 +1355,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 38,
-        "ExtraFolioBalance": 12565.55685,
+        "ExtraFolioBalance": 13125.26985,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1418,7 +1376,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 15051.33135,
+        "ExtraFolioBalance": 16508.81595,
         "ResRemark": null,
         "FlightArrival": "20:00",
         "FlightDeparture": null,
@@ -1838,7 +1796,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1,
-        "ExtraFolioBalance": 3820.5868,
+        "ExtraFolioBalance": 9439.0968,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1859,7 +1817,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 1573.04,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1907,7 +1865,7 @@
       {
         "Room": "120",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1921,7 +1879,7 @@
       {
         "Room": "129",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1970,7 +1928,7 @@
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2006,6 +1964,13 @@
         "Room": "417",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "418",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2177,7 +2142,7 @@
       {
         "Room": "120",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2240,7 +2205,7 @@
       {
         "Room": "129",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2373,7 +2338,7 @@
       {
         "Room": "303",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2499,7 +2464,7 @@
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2823,11 +2788,11 @@
   "by_date": {
     "2026-09-09": {
       "summary": {
-        "arrivals_count": 10,
-        "departures_count": 6,
+        "arrivals_count": 9,
+        "departures_count": 5,
         "inhouse_count": 72,
         "noshow_count": 0,
-        "vacant_count": 24,
+        "vacant_count": 25,
         "roomchanges_count": 0,
         "eod_room_count": 75,
         "eod_pax_count": 132
@@ -2916,27 +2881,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "2531518888",
-          "GroupNo": "",
-          "RecId": 31619,
-          "FirstName1": "TANER",
-          "LastName1": "YILDIRIM",
-          "CheckinDate": "2026-09-09",
-          "CheckOutDate": "2026-09-12",
-          "Room": "328",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": -78028.9638,
-          "ResRemark": "",
-          "FlightArrival": "OTELE 14:00",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "34041788",
@@ -3109,27 +3053,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "75-3680199",
-          "GroupNo": "",
-          "RecId": 31651,
-          "FirstName1": "IULIIA",
-          "LastName1": "RAFEEVA",
-          "CheckinDate": "2026-09-03",
-          "CheckOutDate": "2026-09-09",
-          "Room": "418",
-          "RoomType": "STD-LVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "3043122",
           "GroupNo": "",
           "RecId": 31660,
@@ -3143,7 +3066,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 21261.16045,
+          "ExtraFolioBalance": 23244.7904,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -3628,7 +3551,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19030.242,
+          "ExtraFolioBalance": 20317.5819,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -3804,6 +3727,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "2531518888",
+          "GroupNo": "",
+          "RecId": 31619,
+          "FirstName1": "TANER",
+          "LastName1": "YILDIRIM",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-12",
+          "Room": "328",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "OTELE 14:00",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "31649",
           "GroupNo": "",
           "RecId": 31649,
@@ -3825,27 +3769,6 @@
           "AgencyCode": "MUNFERIT EURO"
         },
         {
-          "Voucher": "75-3680199",
-          "GroupNo": "",
-          "RecId": 31651,
-          "FirstName1": "IULIIA",
-          "LastName1": "RAFEEVA",
-          "CheckinDate": "2026-09-03",
-          "CheckOutDate": "2026-09-09",
-          "Room": "418",
-          "RoomType": "STD-LVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1103,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
           "Voucher": "3043122",
           "GroupNo": "",
           "RecId": 31660,
@@ -3859,7 +3782,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 21261.16045,
+          "ExtraFolioBalance": 23244.7904,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -3964,7 +3887,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 18885.89665,
+          "ExtraFolioBalance": 19332.23985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4216,7 +4139,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 38,
-          "ExtraFolioBalance": 12565.55685,
+          "ExtraFolioBalance": 13125.26985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4237,7 +4160,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15051.33135,
+          "ExtraFolioBalance": 16508.81595,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -4657,7 +4580,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 3820.5868,
+          "ExtraFolioBalance": 9439.0968,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4678,7 +4601,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1573.04,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4726,7 +4649,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4740,7 +4663,7 @@
         {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4789,7 +4712,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4825,6 +4748,13 @@
           "Room": "417",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "418",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5223,7 +5153,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 18885.89665,
+          "ExtraFolioBalance": 19332.23985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5307,7 +5237,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 3820.5868,
+          "ExtraFolioBalance": 9439.0968,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5328,7 +5258,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1573.04,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5939,7 +5869,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19030.242,
+          "ExtraFolioBalance": 20317.5819,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -6086,11 +6016,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -78028.9638,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "OTELE 14:00",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -6443,7 +6373,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 38,
-          "ExtraFolioBalance": 12565.55685,
+          "ExtraFolioBalance": 13125.26985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6485,7 +6415,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15051.33135,
+          "ExtraFolioBalance": 16508.81595,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -7135,7 +7065,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7149,7 +7079,7 @@
         {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7639,7 +7569,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19030.242,
+          "ExtraFolioBalance": 20317.5819,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -8628,11 +8558,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -78028.9638,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "OTELE 14:00",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -8901,7 +8831,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 38,
-          "ExtraFolioBalance": 12565.55685,
+          "ExtraFolioBalance": 13125.26985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8943,7 +8873,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15051.33135,
+          "ExtraFolioBalance": 16508.81595,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -9572,7 +9502,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9586,7 +9516,7 @@
         {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10531,11 +10461,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -78028.9638,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "OTELE 14:00",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -12003,7 +11933,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 38,
-          "ExtraFolioBalance": 12565.55685,
+          "ExtraFolioBalance": 13125.26985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12045,7 +11975,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15051.33135,
+          "ExtraFolioBalance": 16508.81595,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -12625,7 +12555,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12688,7 +12618,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13269,7 +13199,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 38,
-          "ExtraFolioBalance": 12565.55685,
+          "ExtraFolioBalance": 13125.26985,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13290,7 +13220,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15051.33135,
+          "ExtraFolioBalance": 16508.81595,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -15251,7 +15181,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15335,7 +15265,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17884,7 +17814,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17961,7 +17891,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20377,7 +20307,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20475,7 +20405,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22681,7 +22611,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22807,7 +22737,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
