@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-10 00:00:02",
+  "sync_time": "2026-09-10 01:00:02",
   "report_date": "2026-09-10",
   "summary": {
     "arrivals_count": 17,
     "departures_count": 7,
-    "inhouse_count": 72,
+    "inhouse_count": 73,
     "noshow_count": 0,
-    "vacant_count": 22,
+    "vacant_count": 21,
     "roomchanges_count": 0,
-    "eod_room_count": 82,
+    "eod_room_count": 83,
     "eod_pax_count": 150,
     "hk_count": 111
   },
@@ -1166,7 +1166,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 31439.29915,
+        "ExtraFolioBalance": 39194.51225,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1657,6 +1657,27 @@
         "AgencyCode": "MUNFERIT TL"
       },
       {
+        "Voucher": "34041788",
+        "GroupNo": "",
+        "RecId": 32083,
+        "FirstName1": "PETER",
+        "LastName1": "KING",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-16",
+        "Room": "204",
+        "RoomType": "STD-LVL",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 12,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "20:55",
+        "FlightDeparture": "21:55",
+        "Status": 2,
+        "AgencyCode": "TUI UK"
+      },
+      {
         "Voucher": "1319824381",
         "GroupNo": "",
         "RecId": 32111,
@@ -2083,13 +2104,6 @@
         "Room": "202",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "204",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2979,9 +2993,9 @@
       "summary": {
         "arrivals_count": 17,
         "departures_count": 7,
-        "inhouse_count": 72,
+        "inhouse_count": 73,
         "noshow_count": 0,
-        "vacant_count": 22,
+        "vacant_count": 21,
         "roomchanges_count": 0,
         "eod_room_count": 85,
         "eod_pax_count": 150
@@ -4139,7 +4153,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 31439.29915,
+          "ExtraFolioBalance": 39194.51225,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4630,6 +4644,27 @@
           "AgencyCode": "MUNFERIT TL"
         },
         {
+          "Voucher": "34041788",
+          "GroupNo": "",
+          "RecId": 32083,
+          "FirstName1": "PETER",
+          "LastName1": "KING",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-16",
+          "Room": "204",
+          "RoomType": "STD-LVL",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:55",
+          "FlightDeparture": "21:55",
+          "Status": 2,
+          "AgencyCode": "TUI UK"
+        },
+        {
           "Voucher": "1319824381",
           "GroupNo": "",
           "RecId": 32111,
@@ -5056,13 +5091,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5573,7 +5601,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 31439.29915,
+          "ExtraFolioBalance": 39194.51225,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6986,7 +7014,7 @@
           "ResRemark": "",
           "FlightArrival": "20:55",
           "FlightDeparture": "21:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -10137,7 +10165,7 @@
           "ResRemark": "",
           "FlightArrival": "20:55",
           "FlightDeparture": "21:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -12819,7 +12847,7 @@
           "ResRemark": "",
           "FlightArrival": "20:55",
           "FlightDeparture": "21:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -15508,7 +15536,7 @@
           "ResRemark": "",
           "FlightArrival": "20:55",
           "FlightDeparture": "21:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -17966,7 +17994,7 @@
           "ResRemark": "",
           "FlightArrival": "20:55",
           "FlightDeparture": "21:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -18966,7 +18994,7 @@
           "ResRemark": "",
           "FlightArrival": "20:55",
           "FlightDeparture": "21:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
