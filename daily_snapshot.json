@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-09-10 08:00:02",
+  "sync_time": "2026-09-10 09:00:02",
   "report_date": "2026-09-10",
   "summary": {
-    "arrivals_count": 17,
+    "arrivals_count": 18,
     "departures_count": 7,
     "inhouse_count": 76,
     "noshow_count": 0,
-    "vacant_count": 18,
+    "vacant_count": 17,
     "roomchanges_count": 0,
-    "eod_room_count": 86,
-    "eod_pax_count": 150,
+    "eod_room_count": 87,
+    "eod_pax_count": 152,
     "hk_count": 111
   },
   "data": {
@@ -370,6 +370,27 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "JET2"
+      },
+      {
+        "Voucher": "2555126980",
+        "GroupNo": "",
+        "RecId": 32226,
+        "FirstName1": "YUSUF CAN",
+        "LastName1": "OZATA",
+        "CheckinDate": "2026-09-10",
+        "CheckOutDate": "2026-09-13",
+        "Room": "209",
+        "RoomType": "STD SEA L",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 8,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 1,
+        "AgencyCode": "EXPEDIA"
       }
     ],
     "departures": [
@@ -1586,7 +1607,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 19283.6424,
+        "ExtraFolioBalance": 19171.5282,
         "ResRemark": null,
         "FlightArrival": "20:00",
         "FlightDeparture": null,
@@ -1649,7 +1670,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 1205.22765,
+        "ExtraFolioBalance": 3895.96845,
         "ResRemark": "",
         "FlightArrival": "20:50",
         "FlightDeparture": "10:15",
@@ -2153,13 +2174,6 @@
         "Room": "202",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "209",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3033,14 +3047,14 @@
   "by_date": {
     "2026-09-10": {
       "summary": {
-        "arrivals_count": 17,
+        "arrivals_count": 18,
         "departures_count": 7,
         "inhouse_count": 76,
         "noshow_count": 0,
-        "vacant_count": 18,
+        "vacant_count": 17,
         "roomchanges_count": 0,
-        "eod_room_count": 85,
-        "eod_pax_count": 150
+        "eod_room_count": 86,
+        "eod_pax_count": 152
       },
       "arrivals": [
         {
@@ -3399,6 +3413,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "2555126980",
+          "GroupNo": "",
+          "RecId": 32226,
+          "FirstName1": "YUSUF CAN",
+          "LastName1": "OZATA",
+          "CheckinDate": "2026-09-10",
+          "CheckOutDate": "2026-09-13",
+          "Room": "209",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "departures": [
@@ -4615,7 +4650,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19283.6424,
+          "ExtraFolioBalance": 19171.5282,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -4678,7 +4713,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 1205.22765,
+          "ExtraFolioBalance": 3895.96845,
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
@@ -5182,13 +5217,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5283,12 +5311,12 @@
       "summary": {
         "arrivals_count": 12,
         "departures_count": 16,
-        "inhouse_count": 82,
+        "inhouse_count": 83,
         "noshow_count": 0,
-        "vacant_count": 30,
+        "vacant_count": 29,
         "roomchanges_count": 0,
-        "eod_room_count": 81,
-        "eod_pax_count": 144
+        "eod_room_count": 82,
+        "eod_pax_count": 146
       },
       "arrivals": [
         {
@@ -6968,7 +6996,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19283.6424,
+          "ExtraFolioBalance": 19171.5282,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -7031,7 +7059,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 1205.22765,
+          "ExtraFolioBalance": 3895.96845,
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
@@ -7604,6 +7632,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "2555126980",
+          "GroupNo": "",
+          "RecId": 32226,
+          "FirstName1": "YUSUF CAN",
+          "LastName1": "OZATA",
+          "CheckinDate": "2026-09-10",
+          "CheckOutDate": "2026-09-13",
+          "Room": "209",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -7668,13 +7717,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7825,12 +7867,12 @@
       "summary": {
         "arrivals_count": 26,
         "departures_count": 23,
-        "inhouse_count": 85,
+        "inhouse_count": 86,
         "noshow_count": 0,
-        "vacant_count": 47,
+        "vacant_count": 46,
         "roomchanges_count": 0,
-        "eod_room_count": 84,
-        "eod_pax_count": 155
+        "eod_room_count": 85,
+        "eod_pax_count": 157
       },
       "arrivals": [
         {
@@ -10098,7 +10140,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19283.6424,
+          "ExtraFolioBalance": 19171.5282,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -10203,7 +10245,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 1205.22765,
+          "ExtraFolioBalance": 3895.96845,
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
@@ -10650,6 +10692,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "2555126980",
+          "GroupNo": "",
+          "RecId": 32226,
+          "FirstName1": "YUSUF CAN",
+          "LastName1": "OZATA",
+          "CheckinDate": "2026-09-10",
+          "CheckOutDate": "2026-09-13",
+          "Room": "209",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "noshow": [],
@@ -10756,13 +10819,6 @@
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10989,7 +11045,7 @@
     "2026-09-13": {
       "summary": {
         "arrivals_count": 12,
-        "departures_count": 14,
+        "departures_count": 15,
         "inhouse_count": 83,
         "noshow_count": 0,
         "vacant_count": 57,
@@ -11371,7 +11427,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 19283.6424,
+          "ExtraFolioBalance": 19171.5282,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -11545,6 +11601,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "2555126980",
+          "GroupNo": "",
+          "RecId": 32226,
+          "FirstName1": "YUSUF CAN",
+          "LastName1": "OZATA",
+          "CheckinDate": "2026-09-10",
+          "CheckOutDate": "2026-09-13",
+          "Room": "209",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
@@ -12885,7 +12962,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 1205.22765,
+          "ExtraFolioBalance": 3895.96845,
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
@@ -13698,14 +13775,14 @@
     },
     "2026-09-14": {
       "summary": {
-        "arrivals_count": 12,
+        "arrivals_count": 13,
         "departures_count": 9,
-        "inhouse_count": 86,
+        "inhouse_count": 87,
         "noshow_count": 0,
         "vacant_count": 57,
         "roomchanges_count": 0,
-        "eod_room_count": 85,
-        "eod_pax_count": 158
+        "eod_room_count": 86,
+        "eod_pax_count": 160
       },
       "arrivals": [
         {
@@ -13959,6 +14036,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "PENINSULA UKR"
+        },
+        {
+          "Voucher": "9041394",
+          "GroupNo": "",
+          "RecId": 32228,
+          "FirstName1": "JACK",
+          "LastName1": "PRICE",
+          "CheckinDate": "2026-09-14",
+          "CheckOutDate": "2026-09-21",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:10",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EASYJET"
         }
       ],
       "departures": [
@@ -14081,7 +14179,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 1205.22765,
+          "ExtraFolioBalance": 3895.96845,
           "ResRemark": "",
           "FlightArrival": "20:50",
           "FlightDeparture": "10:15",
@@ -15958,6 +16056,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "9041394",
+          "GroupNo": "",
+          "RecId": 32228,
+          "FirstName1": "JACK",
+          "LastName1": "PRICE",
+          "CheckinDate": "2026-09-14",
+          "CheckOutDate": "2026-09-21",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:10",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EASYJET"
         }
       ],
       "noshow": [],
@@ -16368,12 +16487,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 8,
-        "inhouse_count": 85,
+        "inhouse_count": 86,
         "noshow_count": 0,
         "vacant_count": 62,
         "roomchanges_count": 0,
-        "eod_room_count": 85,
-        "eod_pax_count": 153
+        "eod_room_count": 86,
+        "eod_pax_count": 155
       },
       "arrivals": [
         {
@@ -18479,6 +18598,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "9041394",
+          "GroupNo": "",
+          "RecId": 32228,
+          "FirstName1": "JACK",
+          "LastName1": "PRICE",
+          "CheckinDate": "2026-09-14",
+          "CheckOutDate": "2026-09-21",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:10",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EASYJET"
         }
       ],
       "noshow": [],
@@ -18922,14 +19062,14 @@
     },
     "2026-09-16": {
       "summary": {
-        "arrivals_count": 2,
+        "arrivals_count": 3,
         "departures_count": 7,
-        "inhouse_count": 80,
+        "inhouse_count": 82,
         "noshow_count": 0,
         "vacant_count": 68,
         "roomchanges_count": 0,
-        "eod_room_count": 80,
-        "eod_pax_count": 145
+        "eod_room_count": 82,
+        "eod_pax_count": 148
       },
       "arrivals": [
         {
@@ -18973,6 +19113,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "34220612",
+          "GroupNo": "",
+          "RecId": 32227,
+          "FirstName1": "HELEN",
+          "LastName1": "OAKLEY",
+          "CheckinDate": "2026-09-16",
+          "CheckOutDate": "2026-09-22",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "12:40",
+          "FlightDeparture": "14:35",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         }
       ],
       "departures": [
@@ -20804,6 +20965,48 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "34220612",
+          "GroupNo": "",
+          "RecId": 32227,
+          "FirstName1": "HELEN",
+          "LastName1": "OAKLEY",
+          "CheckinDate": "2026-09-16",
+          "CheckOutDate": "2026-09-22",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "12:40",
+          "FlightDeparture": "14:35",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
+        },
+        {
+          "Voucher": "9041394",
+          "GroupNo": "",
+          "RecId": 32228,
+          "FirstName1": "JACK",
+          "LastName1": "PRICE",
+          "CheckinDate": "2026-09-14",
+          "CheckOutDate": "2026-09-21",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:10",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EASYJET"
         }
       ],
       "noshow": [],
@@ -21291,12 +21494,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 11,
-        "inhouse_count": 79,
+        "inhouse_count": 81,
         "noshow_count": 0,
         "vacant_count": 73,
         "roomchanges_count": 0,
-        "eod_room_count": 79,
-        "eod_pax_count": 141
+        "eod_room_count": 81,
+        "eod_pax_count": 144
       },
       "arrivals": [
         {
@@ -23402,6 +23605,48 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "34220612",
+          "GroupNo": "",
+          "RecId": 32227,
+          "FirstName1": "HELEN",
+          "LastName1": "OAKLEY",
+          "CheckinDate": "2026-09-16",
+          "CheckOutDate": "2026-09-22",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "12:40",
+          "FlightDeparture": "14:35",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
+        },
+        {
+          "Voucher": "9041394",
+          "GroupNo": "",
+          "RecId": 32228,
+          "FirstName1": "JACK",
+          "LastName1": "PRICE",
+          "CheckinDate": "2026-09-14",
+          "CheckOutDate": "2026-09-21",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:10",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EASYJET"
         }
       ],
       "noshow": [],
