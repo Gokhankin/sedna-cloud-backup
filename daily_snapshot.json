@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-09-10 09:00:02",
+  "sync_time": "2026-09-10 10:00:02",
   "report_date": "2026-09-10",
   "summary": {
     "arrivals_count": 18,
@@ -385,7 +385,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": -61506.42216,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2352,7 +2352,7 @@
       {
         "Room": "113",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3428,7 +3428,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -61506.42216,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7647,7 +7647,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -61506.42216,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7865,14 +7865,14 @@
     },
     "2026-09-12": {
       "summary": {
-        "arrivals_count": 26,
+        "arrivals_count": 27,
         "departures_count": 23,
-        "inhouse_count": 86,
+        "inhouse_count": 87,
         "noshow_count": 0,
         "vacant_count": 46,
         "roomchanges_count": 0,
-        "eod_room_count": 85,
-        "eod_pax_count": 157
+        "eod_room_count": 86,
+        "eod_pax_count": 159
       },
       "arrivals": [
         {
@@ -8420,6 +8420,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "departures": [
@@ -10707,12 +10728,33 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -61506.42216,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "noshow": [],
@@ -11046,12 +11088,12 @@
       "summary": {
         "arrivals_count": 12,
         "departures_count": 15,
-        "inhouse_count": 83,
+        "inhouse_count": 84,
         "noshow_count": 0,
         "vacant_count": 57,
         "roomchanges_count": 0,
-        "eod_room_count": 82,
-        "eod_pax_count": 150
+        "eod_room_count": 83,
+        "eod_pax_count": 152
       },
       "arrivals": [
         {
@@ -11616,7 +11658,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -61506.42216,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13367,6 +13409,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "noshow": [],
@@ -13777,12 +13840,12 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 9,
-        "inhouse_count": 87,
+        "inhouse_count": 88,
         "noshow_count": 0,
         "vacant_count": 57,
         "roomchanges_count": 0,
-        "eod_room_count": 86,
-        "eod_pax_count": 160
+        "eod_room_count": 87,
+        "eod_pax_count": 162
       },
       "arrivals": [
         {
@@ -16077,6 +16140,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "noshow": [],
@@ -16126,7 +16210,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16487,12 +16571,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 8,
-        "inhouse_count": 86,
+        "inhouse_count": 87,
         "noshow_count": 0,
         "vacant_count": 62,
         "roomchanges_count": 0,
-        "eod_room_count": 86,
-        "eod_pax_count": 155
+        "eod_room_count": 87,
+        "eod_pax_count": 157
       },
       "arrivals": [
         {
@@ -18619,6 +18703,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "noshow": [],
@@ -18668,7 +18773,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19062,14 +19167,14 @@
     },
     "2026-09-16": {
       "summary": {
-        "arrivals_count": 3,
+        "arrivals_count": 4,
         "departures_count": 7,
-        "inhouse_count": 82,
+        "inhouse_count": 84,
         "noshow_count": 0,
         "vacant_count": 68,
         "roomchanges_count": 0,
-        "eod_room_count": 82,
-        "eod_pax_count": 148
+        "eod_room_count": 84,
+        "eod_pax_count": 151
       },
       "arrivals": [
         {
@@ -19134,6 +19239,27 @@
           "FlightDeparture": "14:35",
           "Status": 1,
           "AgencyCode": "TUI UK"
+        },
+        {
+          "Voucher": "F023714",
+          "GroupNo": "",
+          "RecId": 32231,
+          "FirstName1": "ALICE",
+          "LastName1": "NIEMZ",
+          "CheckinDate": "2026-09-16",
+          "CheckOutDate": "2026-09-23",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1104,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "14:25",
+          "FlightDeparture": "07:00",
+          "Status": 1,
+          "AgencyCode": "ALLTOURS"
         }
       ],
       "departures": [
@@ -21007,6 +21133,48 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "F023714",
+          "GroupNo": "",
+          "RecId": 32231,
+          "FirstName1": "ALICE",
+          "LastName1": "NIEMZ",
+          "CheckinDate": "2026-09-16",
+          "CheckOutDate": "2026-09-23",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1104,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "14:25",
+          "FlightDeparture": "07:00",
+          "Status": 1,
+          "AgencyCode": "ALLTOURS"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "noshow": [],
@@ -21063,7 +21231,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21494,12 +21662,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 11,
-        "inhouse_count": 81,
+        "inhouse_count": 83,
         "noshow_count": 0,
         "vacant_count": 73,
         "roomchanges_count": 0,
-        "eod_room_count": 81,
-        "eod_pax_count": 144
+        "eod_room_count": 83,
+        "eod_pax_count": 147
       },
       "arrivals": [
         {
@@ -23647,6 +23815,48 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "F023714",
+          "GroupNo": "",
+          "RecId": 32231,
+          "FirstName1": "ALICE",
+          "LastName1": "NIEMZ",
+          "CheckinDate": "2026-09-16",
+          "CheckOutDate": "2026-09-23",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1104,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "14:25",
+          "FlightDeparture": "07:00",
+          "Status": 1,
+          "AgencyCode": "ALLTOURS"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "NEILSON"
         }
       ],
       "noshow": [],
@@ -23703,7 +23913,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
