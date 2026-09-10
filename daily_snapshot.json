@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-09-11 00:00:05",
+  "sync_time": "2026-09-11 01:00:05",
   "report_date": "2026-09-11",
   "summary": {
     "arrivals_count": 13,
     "departures_count": 16,
-    "inhouse_count": 86,
+    "inhouse_count": 87,
     "noshow_count": 0,
-    "vacant_count": 16,
-    "roomchanges_count": 1,
+    "vacant_count": 15,
+    "roomchanges_count": 0,
     "eod_room_count": 85,
     "eod_pax_count": 152,
     "hk_count": 111
@@ -2182,6 +2182,27 @@
         "AgencyCode": "PRIME TRAVEL"
       },
       {
+        "Voucher": "34133046",
+        "GroupNo": "",
+        "RecId": 32186,
+        "FirstName1": "MARK",
+        "LastName1": "COLEGATE",
+        "CheckinDate": "2026-09-10",
+        "CheckOutDate": "2026-09-20",
+        "Room": "417",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 12,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "21:30",
+        "FlightDeparture": "21:00",
+        "Status": 2,
+        "AgencyCode": "TUI UK"
+      },
+      {
         "Voucher": "2551938304",
         "GroupNo": "",
         "RecId": 32188,
@@ -2500,13 +2521,6 @@
         "OccVac": 1
       },
       {
-        "Room": "417",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "421",
         "RoomTypeCode": "STD-SV",
         "DirtyClean": 0,
@@ -2549,84 +2563,8 @@
         "OccVac": 1
       }
     ],
-    "roomchanges": [
-      {
-        "RecId": 14,
-        "RCDate": "2026-09-11",
-        "Time": "14:00",
-        "OldRoom": "114",
-        "NewRoom": "336",
-        "Remark": null,
-        "RecordUser": "Bahadır",
-        "RecordDate": "2026-09-10 01:28:24",
-        "RoomChanged": 0,
-        "ReservationId": 28723,
-        "Voucher": "102310322",
-        "FirstName1": "CAROLINE",
-        "LastName1": "JORDENS",
-        "AgencyId": 18,
-        "AgencyCode": "TUI BELGIUM"
-      }
-    ],
-    "all_roomchanges": [
-      {
-        "ReservationId": 31473,
-        "RecordDate": "2026-09-10 12:29:46",
-        "OldRoom": "420",
-        "NewRoom": "2000",
-        "RecordUser": "Bahadır",
-        "Voucher": "3041300",
-        "FirstName1": "ABIGAIL SARAH",
-        "LastName1": "ANDREWS",
-        "AgencyId": 1120,
-        "CheckinDate": "2026-09-05",
-        "CheckOutDate": "2026-09-10",
-        "PriceType": "STD-LV",
-        "Remark": "QUIET ROOM",
-        "Status": 3,
-        "AgencyCode": "NEILSON",
-        "RCDate": "2026-09-10",
-        "Time": "12:29",
-        "RoomChanged": "1"
-      },
-      {
-        "ReservationId": 31735,
-        "RecordDate": "2026-09-10 11:59:57",
-        "OldRoom": "130",
-        "NewRoom": "120",
-        "RecordUser": "Bahadır",
-        "Voucher": "WY584U",
-        "FirstName1": "ASTRA LEIGH",
-        "LastName1": "FARMER",
-        "AgencyId": 5,
-        "CheckinDate": "2026-09-03",
-        "CheckOutDate": "2026-09-10",
-        "PriceType": "CLUB SEA",
-        "Remark": "LATE 18:00 CHARGED // ON ODEME OK ISLENDI//HIGH FLOOR VE CIKIS GUNU LATE CO SORDU CEVAP BEKLENIYOR",
-        "Status": 3,
-        "AgencyCode": "ADDAJET",
-        "RCDate": "2026-09-10",
-        "Time": "11:59",
-        "RoomChanged": "1"
-      },
-      {
-        "RecId": 14,
-        "RCDate": "2026-09-11",
-        "Time": "14:00",
-        "OldRoom": "114",
-        "NewRoom": "336",
-        "Remark": null,
-        "RecordUser": "Bahadır",
-        "RecordDate": "2026-09-10 01:28:24",
-        "RoomChanged": 0,
-        "ReservationId": 28723,
-        "Voucher": "102310322",
-        "FirstName1": "CAROLINE",
-        "LastName1": "JORDENS",
-        "AgencyId": 18,
-        "AgencyCode": "TUI BELGIUM"
-      }
-    ],
+    "roomchanges": [],
+    "all_roomchanges": [],
     "hk": [
       {
         "Room": "101",
@@ -3412,10 +3350,10 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 16,
-        "inhouse_count": 86,
+        "inhouse_count": 87,
         "noshow_count": 0,
-        "vacant_count": 16,
-        "roomchanges_count": 1,
+        "vacant_count": 15,
+        "roomchanges_count": 0,
         "eod_room_count": 85,
         "eod_pax_count": 152
       },
@@ -5588,6 +5526,27 @@
           "AgencyCode": "PRIME TRAVEL"
         },
         {
+          "Voucher": "34133046",
+          "GroupNo": "",
+          "RecId": 32186,
+          "FirstName1": "MARK",
+          "LastName1": "COLEGATE",
+          "CheckinDate": "2026-09-10",
+          "CheckOutDate": "2026-09-20",
+          "Room": "417",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:30",
+          "FlightDeparture": "21:00",
+          "Status": 2,
+          "AgencyCode": "TUI UK"
+        },
+        {
           "Voucher": "2551938304",
           "GroupNo": "",
           "RecId": 32188,
@@ -5906,13 +5865,6 @@
           "OccVac": 1
         },
         {
-          "Room": "417",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "421",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
@@ -5955,25 +5907,7 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": [
-        {
-          "RecId": 14,
-          "RCDate": "2026-09-11",
-          "Time": "14:00",
-          "OldRoom": "114",
-          "NewRoom": "336",
-          "Remark": null,
-          "RecordUser": "Bahadır",
-          "RecordDate": "2026-09-10 01:28:24",
-          "RoomChanged": 0,
-          "ReservationId": 28723,
-          "Voucher": "102310322",
-          "FirstName1": "CAROLINE",
-          "LastName1": "JORDENS",
-          "AgencyId": 18,
-          "AgencyCode": "TUI BELGIUM"
-        }
-      ]
+      "roomchanges": []
     },
     "2026-09-12": {
       "summary": {
@@ -8634,7 +8568,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -11393,7 +11327,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -14096,7 +14030,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -16638,7 +16572,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -19075,7 +19009,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -21736,7 +21670,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
@@ -24432,7 +24366,7 @@
           "ResRemark": "",
           "FlightArrival": "21:30",
           "FlightDeparture": "21:00",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "TUI UK"
         },
         {
