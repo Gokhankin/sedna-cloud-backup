@@ -1,14 +1,14 @@
 {
-  "sync_time": "2026-09-10 02:00:02",
+  "sync_time": "2026-09-10 03:00:02",
   "report_date": "2026-09-10",
   "summary": {
     "arrivals_count": 17,
     "departures_count": 7,
-    "inhouse_count": 75,
+    "inhouse_count": 76,
     "noshow_count": 0,
-    "vacant_count": 19,
+    "vacant_count": 18,
     "roomchanges_count": 0,
-    "eod_room_count": 85,
+    "eod_room_count": 86,
     "eod_pax_count": 150,
     "hk_count": 111
   },
@@ -1208,7 +1208,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 39417.68385,
+        "ExtraFolioBalance": 47115.5526,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1250,7 +1250,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 2,
-        "ExtraFolioBalance": 7700.27242,
+        "ExtraFolioBalance": 2.40367,
         "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1888,6 +1888,27 @@
         "AgencyCode": "ADDAJET"
       },
       {
+        "Voucher": "3048272",
+        "GroupNo": "",
+        "RecId": 32170,
+        "FirstName1": "TARA",
+        "LastName1": "WILLIAMS",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-16",
+        "Room": "124",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "23:00",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "B9PPKL",
         "GroupNo": "",
         "RecId": 32177,
@@ -2115,13 +2136,6 @@
         "OccVac": 1
       },
       {
-        "Room": "124",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "128",
         "RoomTypeCode": "STD-SVL",
         "DirtyClean": 1,
@@ -2247,7 +2261,7 @@
       {
         "Room": "102",
         "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2282,7 +2296,7 @@
       {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2303,14 +2317,14 @@
       {
         "Room": "110",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "111",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2331,7 +2345,7 @@
       {
         "Room": "114",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2401,7 +2415,7 @@
       {
         "Room": "124",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2443,7 +2457,7 @@
       {
         "Room": "130",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2499,7 +2513,7 @@
       {
         "Room": "204",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2548,7 +2562,7 @@
       {
         "Room": "211",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2569,7 +2583,7 @@
       {
         "Room": "303",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2667,7 +2681,7 @@
       {
         "Room": "317",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2744,7 +2758,7 @@
       {
         "Room": "328",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2814,7 +2828,7 @@
       {
         "Room": "401",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2835,7 +2849,7 @@
       {
         "Room": "404",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2849,7 +2863,7 @@
       {
         "Room": "406",
         "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3021,9 +3035,9 @@
       "summary": {
         "arrivals_count": 17,
         "departures_count": 7,
-        "inhouse_count": 75,
+        "inhouse_count": 76,
         "noshow_count": 0,
-        "vacant_count": 19,
+        "vacant_count": 18,
         "roomchanges_count": 0,
         "eod_room_count": 85,
         "eod_pax_count": 150
@@ -4223,7 +4237,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 39417.68385,
+          "ExtraFolioBalance": 47115.5526,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4265,7 +4279,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 7700.27242,
+          "ExtraFolioBalance": 2.40367,
           "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4903,6 +4917,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "3048272",
+          "GroupNo": "",
+          "RecId": 32170,
+          "FirstName1": "TARA",
+          "LastName1": "WILLIAMS",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-16",
+          "Room": "124",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "23:00",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "B9PPKL",
           "GroupNo": "",
           "RecId": 32177,
@@ -5124,13 +5159,6 @@
         },
         {
           "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "124",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -5657,7 +5685,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 39417.68385,
+          "ExtraFolioBalance": 47115.5526,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6709,7 +6737,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 7700.27242,
+          "ExtraFolioBalance": 2.40367,
           "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7301,7 +7329,7 @@
           "ResRemark": null,
           "FlightArrival": "23:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7597,7 +7625,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9839,7 +9867,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 7700.27242,
+          "ExtraFolioBalance": 2.40367,
           "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -10368,7 +10396,7 @@
           "ResRemark": null,
           "FlightArrival": "23:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -10657,14 +10685,14 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10748,7 +10776,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10825,7 +10853,7 @@
         {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12563,7 +12591,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 7700.27242,
+          "ExtraFolioBalance": 2.40367,
           "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -13029,7 +13057,7 @@
           "ResRemark": null,
           "FlightArrival": "23:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13276,7 +13304,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13297,7 +13325,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13311,14 +13339,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13367,7 +13395,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13430,7 +13458,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13514,7 +13542,7 @@
         {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13577,7 +13605,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15231,7 +15259,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 7700.27242,
+          "ExtraFolioBalance": 2.40367,
           "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -15718,7 +15746,7 @@
           "ResRemark": null,
           "FlightArrival": "23:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -15937,7 +15965,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15958,7 +15986,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16084,7 +16112,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16161,7 +16189,7 @@
         {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16231,7 +16259,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16616,7 +16644,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 7700.27242,
+          "ExtraFolioBalance": 2.40367,
           "ResRemark": "+7 926 139 45 61 ILETISIM NUMARASI OLARAK BIRAKILMIS.",
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -18239,7 +18267,7 @@
           "ResRemark": null,
           "FlightArrival": "23:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -18458,7 +18486,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18479,7 +18507,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18605,7 +18633,7 @@
         {
           "Room": "211",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18626,7 +18654,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18703,7 +18731,7 @@
         {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18780,7 +18808,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19071,7 +19099,7 @@
           "ResRemark": null,
           "FlightArrival": "23:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -20783,7 +20811,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20804,7 +20832,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20874,7 +20902,7 @@
         {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20930,7 +20958,7 @@
         {
           "Room": "204",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20965,7 +20993,7 @@
         {
           "Room": "211",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20986,7 +21014,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21035,7 +21063,7 @@
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21070,7 +21098,7 @@
         {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21147,7 +21175,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23381,7 +23409,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23402,7 +23430,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23472,7 +23500,7 @@
         {
           "Room": "124",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23521,7 +23549,7 @@
         {
           "Room": "204",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23570,7 +23598,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23619,7 +23647,7 @@
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23675,7 +23703,7 @@
         {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23752,7 +23780,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
