@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-12 01:00:05",
+  "sync_time": "2026-09-12 02:00:05",
   "report_date": "2026-09-12",
   "summary": {
     "arrivals_count": 27,
     "departures_count": 23,
-    "inhouse_count": 85,
+    "inhouse_count": 86,
     "noshow_count": 0,
-    "vacant_count": 11,
+    "vacant_count": 10,
     "roomchanges_count": 0,
     "eod_room_count": 90,
     "eod_pax_count": 168,
@@ -2182,6 +2182,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "3PF3SY",
+        "GroupNo": "",
+        "RecId": 32039,
+        "FirstName1": "JORDAN",
+        "LastName1": "MARTIN",
+        "CheckinDate": "2026-09-11",
+        "CheckOutDate": "2026-09-18",
+        "Room": "202",
+        "RoomType": "STD-LVL",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 13,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "JET2"
+      },
+      {
         "Voucher": "34033004",
         "GroupNo": "",
         "RecId": 32072,
@@ -2836,7 +2857,7 @@
         "Voucher": "32243",
         "GroupNo": "",
         "RecId": 32243,
-        "FirstName1": "BERNA",
+        "FirstName1": "ECKHARD",
         "LastName1": "EBEL",
         "CheckinDate": "2026-09-11",
         "CheckOutDate": "2026-09-13",
@@ -2867,13 +2888,6 @@
         "Room": "120",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "202",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2940,7 +2954,7 @@
       {
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2968,7 +2982,7 @@
       {
         "Room": "105",
         "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2982,7 +2996,7 @@
       {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3045,7 +3059,7 @@
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3171,7 +3185,7 @@
       {
         "Room": "134",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3185,7 +3199,7 @@
       {
         "Room": "202",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3220,7 +3234,7 @@
       {
         "Room": "207",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3339,7 +3353,7 @@
       {
         "Room": "313",
         "RoomTypeCode": "CLUB SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3423,14 +3437,14 @@
       {
         "Room": "325",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "326",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3458,7 +3472,7 @@
       {
         "Room": "330",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3479,7 +3493,7 @@
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3493,14 +3507,14 @@
       {
         "Room": "335",
         "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "336",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3542,7 +3556,7 @@
       {
         "Room": "405",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3570,7 +3584,7 @@
       {
         "Room": "409",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3721,9 +3735,9 @@
       "summary": {
         "arrivals_count": 27,
         "departures_count": 23,
-        "inhouse_count": 85,
+        "inhouse_count": 86,
         "noshow_count": 0,
-        "vacant_count": 11,
+        "vacant_count": 10,
         "roomchanges_count": 0,
         "eod_room_count": 90,
         "eod_pax_count": 168
@@ -5897,6 +5911,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "3PF3SY",
+          "GroupNo": "",
+          "RecId": 32039,
+          "FirstName1": "JORDAN",
+          "LastName1": "MARTIN",
+          "CheckinDate": "2026-09-11",
+          "CheckOutDate": "2026-09-18",
+          "Room": "202",
+          "RoomType": "STD-LVL",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 13,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "JET2"
+        },
+        {
           "Voucher": "34033004",
           "GroupNo": "",
           "RecId": 32072,
@@ -6551,7 +6586,7 @@
           "Voucher": "32243",
           "GroupNo": "",
           "RecId": 32243,
-          "FirstName1": "BERNA",
+          "FirstName1": "ECKHARD",
           "LastName1": "EBEL",
           "CheckinDate": "2026-09-11",
           "CheckOutDate": "2026-09-13",
@@ -6582,13 +6617,6 @@
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "202",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7278,7 +7306,7 @@
           "Voucher": "32243",
           "GroupNo": "",
           "RecId": 32243,
-          "FirstName1": "BERNA",
+          "FirstName1": "ECKHARD",
           "LastName1": "EBEL",
           "CheckinDate": "2026-09-11",
           "CheckOutDate": "2026-09-13",
@@ -8596,7 +8624,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -9067,7 +9095,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9137,7 +9165,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9200,7 +9228,7 @@
         {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9214,7 +9242,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11201,7 +11229,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -11707,7 +11735,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11777,7 +11805,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11805,7 +11833,7 @@
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13561,7 +13589,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -14165,7 +14193,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14221,7 +14249,7 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14263,7 +14291,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14291,7 +14319,7 @@
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15907,7 +15935,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -16420,7 +16448,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16525,7 +16553,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16595,7 +16623,7 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16644,7 +16672,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16672,7 +16700,7 @@
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18456,7 +18484,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -18969,7 +18997,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19067,7 +19095,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19130,7 +19158,7 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19179,7 +19207,7 @@
         {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19200,7 +19228,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19214,7 +19242,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19242,7 +19270,7 @@
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19729,7 +19757,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "JET2"
         },
         {
@@ -21525,14 +21553,14 @@
         {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21588,7 +21616,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21651,7 +21679,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21665,7 +21693,7 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21693,7 +21721,7 @@
         {
           "Room": "207",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21742,7 +21770,7 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21791,7 +21819,7 @@
         {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21812,7 +21840,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21826,7 +21854,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21854,7 +21882,7 @@
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21875,7 +21903,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24340,7 +24368,7 @@
         {
           "Room": "105",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24354,7 +24382,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24417,7 +24445,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24515,7 +24543,7 @@
         {
           "Room": "134",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24529,7 +24557,7 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24557,7 +24585,7 @@
         {
           "Room": "207",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24634,7 +24662,7 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24690,7 +24718,7 @@
         {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24732,7 +24760,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24746,7 +24774,7 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24774,7 +24802,7 @@
         {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24802,7 +24830,7 @@
         {
           "Room": "409",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
