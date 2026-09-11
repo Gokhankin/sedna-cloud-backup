@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-11 10:00:06",
+  "sync_time": "2026-09-11 11:00:04",
   "report_date": "2026-09-11",
   "summary": {
     "arrivals_count": 13,
-    "departures_count": 14,
-    "inhouse_count": 86,
+    "departures_count": 11,
+    "inhouse_count": 83,
     "noshow_count": 0,
-    "vacant_count": 15,
+    "vacant_count": 16,
     "roomchanges_count": 0,
     "eod_room_count": 85,
     "eod_pax_count": 152,
@@ -303,7 +303,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 3195.2547,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -353,27 +353,6 @@
         "AgencyCode": "BA HOLIDAYS"
       },
       {
-        "Voucher": "423375071",
-        "GroupNo": "",
-        "RecId": 30470,
-        "FirstName1": "UMUT",
-        "LastName1": "AYTAC",
-        "CheckinDate": "2026-09-07",
-        "CheckOutDate": "2026-09-11",
-        "Room": "330",
-        "RoomType": "STD-LV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 14,
-        "ExtraFolioBalance": 8520.6792,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA EURO"
-      },
-      {
         "Voucher": "2495808925",
         "GroupNo": "",
         "RecId": 30541,
@@ -408,7 +387,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 25354.9989,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "14:30",
         "FlightDeparture": null,
@@ -429,7 +408,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 50797.884,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -540,48 +519,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "2548398267",
-        "GroupNo": "",
-        "RecId": 32133,
-        "FirstName1": "AYCA",
-        "LastName1": "SARGIN LACIN",
-        "CheckinDate": "2026-09-06",
-        "CheckOutDate": "2026-09-11",
-        "Room": "336",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": -1e-05,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
-      },
-      {
-        "Voucher": "2551938304",
-        "GroupNo": "",
-        "RecId": 32188,
-        "FirstName1": "METIN",
-        "LastName1": "OZANTURK",
-        "CheckinDate": "2026-09-07",
-        "CheckOutDate": "2026-09-11",
-        "Room": "313",
-        "RoomType": "CLUB SV",
-        "Board": "AI",
-        "Pax": 3,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 84.08561,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       }
     ],
     "inhouse": [
@@ -788,7 +725,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1134,
-        "ExtraFolioBalance": 3195.2547,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1090,27 +1027,6 @@
         "AgencyCode": "BA HOLIDAYS"
       },
       {
-        "Voucher": "423375071",
-        "GroupNo": "",
-        "RecId": 30470,
-        "FirstName1": "UMUT",
-        "LastName1": "AYTAC",
-        "CheckinDate": "2026-09-07",
-        "CheckOutDate": "2026-09-11",
-        "Room": "330",
-        "RoomType": "STD-LV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 14,
-        "ExtraFolioBalance": 8520.6792,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA EURO"
-      },
-      {
         "Voucher": "3032922",
         "GroupNo": "",
         "RecId": 30521,
@@ -1187,7 +1103,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 25354.9989,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "14:30",
         "FlightDeparture": null,
@@ -1376,7 +1292,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 50797.884,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1951,27 +1867,6 @@
         "AgencyCode": "TUI NETHERLANDS"
       },
       {
-        "Voucher": "2548398267",
-        "GroupNo": "",
-        "RecId": 32133,
-        "FirstName1": "AYCA",
-        "LastName1": "SARGIN LACIN",
-        "CheckinDate": "2026-09-06",
-        "CheckOutDate": "2026-09-11",
-        "Room": "336",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": -1e-05,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
-      },
-      {
         "Voucher": "2634225",
         "GroupNo": "",
         "RecId": 32145,
@@ -2138,27 +2033,6 @@
         "FlightDeparture": "21:00",
         "Status": 2,
         "AgencyCode": "TUI UK"
-      },
-      {
-        "Voucher": "2551938304",
-        "GroupNo": "",
-        "RecId": 32188,
-        "FirstName1": "METIN",
-        "LastName1": "OZANTURK",
-        "CheckinDate": "2026-09-07",
-        "CheckOutDate": "2026-09-11",
-        "Room": "313",
-        "RoomType": "CLUB SV",
-        "Board": "AI",
-        "Pax": 3,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 84.08561,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "2635729",
@@ -2444,6 +2318,13 @@
         "OccVac": 1
       },
       {
+        "Room": "336",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "405",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
@@ -2611,7 +2492,7 @@
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2639,7 +2520,7 @@
       {
         "Room": "120",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3045,7 +2926,7 @@
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3286,10 +3167,10 @@
     "2026-09-11": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 14,
-        "inhouse_count": 86,
+        "departures_count": 11,
+        "inhouse_count": 83,
         "noshow_count": 0,
-        "vacant_count": 15,
+        "vacant_count": 16,
         "roomchanges_count": 0,
         "eod_room_count": 85,
         "eod_pax_count": 152
@@ -3584,7 +3465,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 3195.2547,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3634,27 +3515,6 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
-          "Voucher": "423375071",
-          "GroupNo": "",
-          "RecId": 30470,
-          "FirstName1": "UMUT",
-          "LastName1": "AYTAC",
-          "CheckinDate": "2026-09-07",
-          "CheckOutDate": "2026-09-11",
-          "Room": "330",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 14,
-          "ExtraFolioBalance": 8520.6792,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA EURO"
-        },
-        {
           "Voucher": "2495808925",
           "GroupNo": "",
           "RecId": 30541,
@@ -3689,7 +3549,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 25354.9989,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -3710,7 +3570,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 50797.884,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -3821,48 +3681,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "2548398267",
-          "GroupNo": "",
-          "RecId": 32133,
-          "FirstName1": "AYCA",
-          "LastName1": "SARGIN LACIN",
-          "CheckinDate": "2026-09-06",
-          "CheckOutDate": "2026-09-11",
-          "Room": "336",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": -1e-05,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
-          "Voucher": "2551938304",
-          "GroupNo": "",
-          "RecId": 32188,
-          "FirstName1": "METIN",
-          "LastName1": "OZANTURK",
-          "CheckinDate": "2026-09-07",
-          "CheckOutDate": "2026-09-11",
-          "Room": "313",
-          "RoomType": "CLUB SV",
-          "Board": "AI",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 84.08561,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
@@ -4069,7 +3887,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1134,
-          "ExtraFolioBalance": 3195.2547,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4371,27 +4189,6 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
-          "Voucher": "423375071",
-          "GroupNo": "",
-          "RecId": 30470,
-          "FirstName1": "UMUT",
-          "LastName1": "AYTAC",
-          "CheckinDate": "2026-09-07",
-          "CheckOutDate": "2026-09-11",
-          "Room": "330",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 14,
-          "ExtraFolioBalance": 8520.6792,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA EURO"
-        },
-        {
           "Voucher": "3032922",
           "GroupNo": "",
           "RecId": 30521,
@@ -4468,7 +4265,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 25354.9989,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "14:30",
           "FlightDeparture": null,
@@ -4657,7 +4454,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 50797.884,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5232,27 +5029,6 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
-          "Voucher": "2548398267",
-          "GroupNo": "",
-          "RecId": 32133,
-          "FirstName1": "AYCA",
-          "LastName1": "SARGIN LACIN",
-          "CheckinDate": "2026-09-06",
-          "CheckOutDate": "2026-09-11",
-          "Room": "336",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": -1e-05,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "2634225",
           "GroupNo": "",
           "RecId": 32145,
@@ -5419,27 +5195,6 @@
           "FlightDeparture": "21:00",
           "Status": 2,
           "AgencyCode": "TUI UK"
-        },
-        {
-          "Voucher": "2551938304",
-          "GroupNo": "",
-          "RecId": 32188,
-          "FirstName1": "METIN",
-          "LastName1": "OZANTURK",
-          "CheckinDate": "2026-09-07",
-          "CheckOutDate": "2026-09-11",
-          "Room": "313",
-          "RoomType": "CLUB SV",
-          "Board": "AI",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 84.08561,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "2635729",
@@ -5720,6 +5475,13 @@
         {
           "Room": "331",
           "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -8878,7 +8640,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11602,7 +11364,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14151,7 +13913,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14312,7 +14074,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16735,7 +16497,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16931,7 +16693,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19207,7 +18969,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19445,7 +19207,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21889,7 +21651,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22134,7 +21896,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24578,7 +24340,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24592,7 +24354,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24858,7 +24620,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
