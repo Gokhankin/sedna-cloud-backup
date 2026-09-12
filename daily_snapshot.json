@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-13 01:00:04",
+  "sync_time": "2026-09-13 02:00:05",
   "report_date": "2026-09-13",
   "summary": {
     "arrivals_count": 14,
     "departures_count": 17,
-    "inhouse_count": 82,
+    "inhouse_count": 90,
     "noshow_count": 0,
-    "vacant_count": 20,
+    "vacant_count": 12,
     "roomchanges_count": 0,
     "eod_room_count": 89,
     "eod_pax_count": 163,
@@ -712,6 +712,27 @@
         "AgencyCode": "JET2"
       },
       {
+        "Voucher": "2999745",
+        "GroupNo": "",
+        "RecId": 28663,
+        "FirstName1": "KEITH",
+        "LastName1": "MILLER",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "131",
+        "RoomType": "SUIT",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:10",
+        "FlightDeparture": "22:10",
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "7908057",
         "GroupNo": "",
         "RecId": 28689,
@@ -880,10 +901,31 @@
         "AgencyCode": "EASYJET"
       },
       {
+        "Voucher": "3020768",
+        "GroupNo": "",
+        "RecId": 29100,
+        "FirstName1": "JAYNE",
+        "LastName1": "SMITH",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "332",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:35",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "3020767",
         "GroupNo": "",
         "RecId": 29103,
-        "FirstName1": "ISOBELLA",
+        "FirstName1": "ISOBELLE",
         "LastName1": "SMITH",
         "CheckinDate": "2026-09-12",
         "CheckOutDate": "2026-09-19",
@@ -918,6 +960,48 @@
         "ResRemark": null,
         "FlightArrival": "21:20",
         "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "8482320",
+        "GroupNo": "",
+        "RecId": 29106,
+        "FirstName1": "MIA LOUISE",
+        "LastName1": "GADD",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "328",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 9,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EASYJET"
+      },
+      {
+        "Voucher": "3021013",
+        "GroupNo": "",
+        "RecId": 29114,
+        "FirstName1": "OLIVIA",
+        "LastName1": "SMITH",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-17",
+        "Room": "322",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:20",
+        "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
       },
@@ -1174,6 +1258,48 @@
         "AgencyCode": "EASYJET"
       },
       {
+        "Voucher": "3032597",
+        "GroupNo": "",
+        "RecId": 30482,
+        "FirstName1": "JENNIFER",
+        "LastName1": "HAMILTON",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-22",
+        "Room": "424",
+        "RoomType": "STD-SV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "22:15",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "3032597",
+        "GroupNo": "",
+        "RecId": 30483,
+        "FirstName1": "ARCHIE",
+        "LastName1": "FLINTON",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-22",
+        "Room": "421",
+        "RoomType": "STD-SV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "22:15",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "3032922",
         "GroupNo": "",
         "RecId": 30521,
@@ -1340,6 +1466,27 @@
         "FlightDeparture": "22.00",
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "8860027",
+        "GroupNo": "",
+        "RecId": 31349,
+        "FirstName1": "OWEN",
+        "LastName1": "REES-SAUNDERS",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "114",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 9,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "21:35",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EASYJET"
       },
       {
         "Voucher": "3041498",
@@ -1972,6 +2119,27 @@
         "AgencyCode": "EXPEDIA"
       },
       {
+        "Voucher": "9053387",
+        "GroupNo": "",
+        "RecId": 32160,
+        "FirstName1": "EVANNE",
+        "LastName1": "SOETEN",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-18",
+        "Room": "412",
+        "RoomType": "STD-LVL",
+        "Board": "AI",
+        "Pax": 3,
+        "Childs": 0,
+        "AgencyId": 14,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "DIANA EURO"
+      },
+      {
         "Voucher": "3048272",
         "GroupNo": "",
         "RecId": 32170,
@@ -2409,13 +2577,6 @@
         "OccVac": 1
       },
       {
-        "Room": "114",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "115",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 0,
@@ -2437,35 +2598,7 @@
         "OccVac": 1
       },
       {
-        "Room": "131",
-        "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "305",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "322",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "328",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "332",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
         "HkStatus": 0,
@@ -2481,27 +2614,6 @@
       {
         "Room": "407",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "412",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "421",
-        "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "424",
-        "RoomTypeCode": "STD-SV",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -3322,9 +3434,9 @@
       "summary": {
         "arrivals_count": 14,
         "departures_count": 17,
-        "inhouse_count": 82,
+        "inhouse_count": 90,
         "noshow_count": 0,
-        "vacant_count": 20,
+        "vacant_count": 12,
         "roomchanges_count": 0,
         "eod_room_count": 89,
         "eod_pax_count": 163
@@ -4028,6 +4140,27 @@
           "AgencyCode": "JET2"
         },
         {
+          "Voucher": "2999745",
+          "GroupNo": "",
+          "RecId": 28663,
+          "FirstName1": "KEITH",
+          "LastName1": "MILLER",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "131",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:10",
+          "FlightDeparture": "22:10",
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "7908057",
           "GroupNo": "",
           "RecId": 28689,
@@ -4196,10 +4329,31 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "3020768",
+          "GroupNo": "",
+          "RecId": 29100,
+          "FirstName1": "JAYNE",
+          "LastName1": "SMITH",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "332",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:35",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -4234,6 +4388,48 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "8482320",
+          "GroupNo": "",
+          "RecId": 29106,
+          "FirstName1": "MIA LOUISE",
+          "LastName1": "GADD",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "328",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "3021013",
+          "GroupNo": "",
+          "RecId": 29114,
+          "FirstName1": "OLIVIA",
+          "LastName1": "SMITH",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-17",
+          "Room": "322",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:20",
+          "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
         },
@@ -4490,6 +4686,48 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "3032597",
+          "GroupNo": "",
+          "RecId": 30482,
+          "FirstName1": "JENNIFER",
+          "LastName1": "HAMILTON",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-22",
+          "Room": "424",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "22:15",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "3032597",
+          "GroupNo": "",
+          "RecId": 30483,
+          "FirstName1": "ARCHIE",
+          "LastName1": "FLINTON",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-22",
+          "Room": "421",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "22:15",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "3032922",
           "GroupNo": "",
           "RecId": 30521,
@@ -4656,6 +4894,27 @@
           "FlightDeparture": "22.00",
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "8860027",
+          "GroupNo": "",
+          "RecId": 31349,
+          "FirstName1": "OWEN",
+          "LastName1": "REES-SAUNDERS",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:35",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "3041498",
@@ -5288,6 +5547,27 @@
           "AgencyCode": "EXPEDIA"
         },
         {
+          "Voucher": "9053387",
+          "GroupNo": "",
+          "RecId": 32160,
+          "FirstName1": "EVANNE",
+          "LastName1": "SOETEN",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-18",
+          "Room": "412",
+          "RoomType": "STD-LVL",
+          "Board": "AI",
+          "Pax": 3,
+          "Childs": 0,
+          "AgencyId": 14,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DIANA EURO"
+        },
+        {
           "Voucher": "3048272",
           "GroupNo": "",
           "RecId": 32170,
@@ -5725,13 +6005,6 @@
           "OccVac": 1
         },
         {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
@@ -5753,35 +6026,7 @@
           "OccVac": 1
         },
         {
-          "Room": "131",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "305",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "328",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "332",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -5797,27 +6042,6 @@
         {
           "Room": "407",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "412",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "421",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "424",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -6475,7 +6699,7 @@
           "ResRemark": null,
           "FlightArrival": "21:10",
           "FlightDeparture": "22:10",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6643,14 +6867,14 @@
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -6706,7 +6930,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -6727,7 +6951,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7042,7 +7266,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7063,7 +7287,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7210,7 +7434,7 @@
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -7924,7 +8148,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA EURO"
         },
         {
@@ -8961,7 +9185,7 @@
           "ResRemark": null,
           "FlightArrival": "21:10",
           "FlightDeparture": "22:10",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9129,14 +9353,14 @@
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -9192,7 +9416,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -9213,7 +9437,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9486,7 +9710,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9507,7 +9731,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9675,7 +9899,7 @@
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -10410,7 +10634,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA EURO"
         },
         {
@@ -11363,7 +11587,7 @@
           "ResRemark": null,
           "FlightArrival": "21:10",
           "FlightDeparture": "22:10",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11510,14 +11734,14 @@
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -11573,7 +11797,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -11594,7 +11818,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11867,7 +12091,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11888,7 +12112,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12014,7 +12238,7 @@
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -12728,7 +12952,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA EURO"
         },
         {
@@ -13637,7 +13861,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13891,7 +14115,7 @@
           "ResRemark": null,
           "FlightArrival": "21:10",
           "FlightDeparture": "22:10",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14038,14 +14262,14 @@
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -14101,7 +14325,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -14311,7 +14535,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14332,7 +14556,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14542,7 +14766,7 @@
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -15235,7 +15459,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA EURO"
         },
         {
@@ -16382,7 +16606,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "DIANA EURO"
         },
         {
@@ -16552,7 +16776,7 @@
           "ResRemark": null,
           "FlightArrival": "21:10",
           "FlightDeparture": "22:10",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16678,14 +16902,14 @@
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -16741,7 +16965,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -17014,7 +17238,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17035,7 +17259,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17203,7 +17427,7 @@
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -18973,7 +19197,7 @@
           "ResRemark": null,
           "FlightArrival": "21:10",
           "FlightDeparture": "22:10",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19036,14 +19260,14 @@
           "ResRemark": null,
           "FlightArrival": "21:35",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "3020767",
           "GroupNo": "",
           "RecId": 29103,
-          "FirstName1": "ISOBELLA",
+          "FirstName1": "ISOBELLE",
           "LastName1": "SMITH",
           "CheckinDate": "2026-09-12",
           "CheckOutDate": "2026-09-19",
@@ -19099,7 +19323,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -19246,7 +19470,7 @@
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -19899,7 +20123,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19920,7 +20144,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -22497,7 +22721,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -22518,7 +22742,7 @@
           "ResRemark": null,
           "FlightArrival": "22:15",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
