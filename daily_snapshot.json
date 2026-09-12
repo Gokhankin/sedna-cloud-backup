@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-13 00:00:05",
+  "sync_time": "2026-09-13 01:00:04",
   "report_date": "2026-09-13",
   "summary": {
     "arrivals_count": 14,
     "departures_count": 17,
-    "inhouse_count": 79,
+    "inhouse_count": 82,
     "noshow_count": 0,
-    "vacant_count": 23,
+    "vacant_count": 20,
     "roomchanges_count": 0,
     "eod_room_count": 89,
     "eod_pax_count": 163,
@@ -177,7 +177,7 @@
         "AgencyId": 3,
         "ExtraFolioBalance": 0.0,
         "ResRemark": null,
-        "FlightArrival": null,
+        "FlightArrival": "17:00 SULARINDA",
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "MUNFERIT EURO"
@@ -576,7 +576,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 16,
-        "ExtraFolioBalance": 5505.64,
+        "ExtraFolioBalance": 5674.18,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -880,6 +880,48 @@
         "AgencyCode": "EASYJET"
       },
       {
+        "Voucher": "3020767",
+        "GroupNo": "",
+        "RecId": 29103,
+        "FirstName1": "ISOBELLA",
+        "LastName1": "SMITH",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "208",
+        "RoomType": "STD-LVL",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "3020767",
+        "GroupNo": "",
+        "RecId": 29104,
+        "FirstName1": "HELENA",
+        "LastName1": "SMITH",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "210",
+        "RoomType": "STD-LVL",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:20",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "3023632",
         "GroupNo": "",
         "RecId": 29491,
@@ -1145,7 +1187,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 4652.7393,
+        "ExtraFolioBalance": 5101.1961,
         "ResRemark": null,
         "FlightArrival": "12:05",
         "FlightDeparture": null,
@@ -1418,7 +1460,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1078,
-        "ExtraFolioBalance": 36345.523,
+        "ExtraFolioBalance": 36627.053,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2069,7 +2111,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 16,
-        "ExtraFolioBalance": 5505.64,
+        "ExtraFolioBalance": 5674.18,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2222,6 +2264,27 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "EXPEDIA"
+      },
+      {
+        "Voucher": "3050165",
+        "GroupNo": "",
+        "RecId": 32233,
+        "FirstName1": "BERNICE",
+        "LastName1": "BERRY",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-19",
+        "Room": "411",
+        "RoomType": "STD-LV",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:40",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "2555656305",
@@ -2381,20 +2444,6 @@
         "OccVac": 1
       },
       {
-        "Room": "208",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "210",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "305",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
@@ -2431,13 +2480,6 @@
       },
       {
         "Room": "407",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "411",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
         "HkStatus": 0,
@@ -3280,9 +3322,9 @@
       "summary": {
         "arrivals_count": 14,
         "departures_count": 17,
-        "inhouse_count": 79,
+        "inhouse_count": 82,
         "noshow_count": 0,
-        "vacant_count": 23,
+        "vacant_count": 20,
         "roomchanges_count": 0,
         "eod_room_count": 89,
         "eod_pax_count": 163
@@ -3451,7 +3493,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -3850,7 +3892,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 16,
-          "ExtraFolioBalance": 5505.64,
+          "ExtraFolioBalance": 5674.18,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4154,6 +4196,48 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "3020767",
+          "GroupNo": "",
+          "RecId": 29103,
+          "FirstName1": "ISOBELLA",
+          "LastName1": "SMITH",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "208",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "3020767",
+          "GroupNo": "",
+          "RecId": 29104,
+          "FirstName1": "HELENA",
+          "LastName1": "SMITH",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "210",
+          "RoomType": "STD-LVL",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:20",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "3023632",
           "GroupNo": "",
           "RecId": 29491,
@@ -4419,7 +4503,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4652.7393,
+          "ExtraFolioBalance": 5101.1961,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -4692,7 +4776,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1078,
-          "ExtraFolioBalance": 36345.523,
+          "ExtraFolioBalance": 36627.053,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5343,7 +5427,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 16,
-          "ExtraFolioBalance": 5505.64,
+          "ExtraFolioBalance": 5674.18,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5496,6 +5580,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "3050165",
+          "GroupNo": "",
+          "RecId": 32233,
+          "FirstName1": "BERNICE",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "411",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:40",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "2555656305",
@@ -5655,20 +5760,6 @@
           "OccVac": 1
         },
         {
-          "Room": "208",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "210",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "305",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -5705,13 +5796,6 @@
         },
         {
           "Room": "407",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "411",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
           "HkStatus": 0,
@@ -6175,7 +6259,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1078,
-          "ExtraFolioBalance": 36345.523,
+          "ExtraFolioBalance": 36627.053,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6580,7 +6664,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6601,7 +6685,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6996,7 +7080,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4652.7393,
+          "ExtraFolioBalance": 5101.1961,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -7775,7 +7859,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -8134,7 +8218,7 @@
           "ResRemark": null,
           "FlightArrival": "21:40",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9066,7 +9150,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9087,7 +9171,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9461,7 +9545,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4652.7393,
+          "ExtraFolioBalance": 5101.1961,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -10219,7 +10303,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -10620,7 +10704,7 @@
           "ResRemark": null,
           "FlightArrival": "21:40",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11063,7 +11147,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4652.7393,
+          "ExtraFolioBalance": 5101.1961,
           "ResRemark": null,
           "FlightArrival": "12:05",
           "FlightDeparture": null,
@@ -11447,7 +11531,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -11468,7 +11552,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12537,7 +12621,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -12959,7 +13043,7 @@
           "ResRemark": null,
           "FlightArrival": "21:40",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13975,7 +14059,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13996,7 +14080,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -15065,7 +15149,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -15487,7 +15571,7 @@
           "ResRemark": null,
           "FlightArrival": "21:40",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16615,7 +16699,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16636,7 +16720,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17705,7 +17789,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -18064,7 +18148,7 @@
           "ResRemark": null,
           "FlightArrival": "21:40",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -18973,7 +19057,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -18994,7 +19078,7 @@
           "ResRemark": null,
           "FlightArrival": "21:20",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19372,7 +19456,7 @@
           "ResRemark": null,
           "FlightArrival": "21:40",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -20548,7 +20632,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -23062,7 +23146,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "17:00 SULARINDA",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
