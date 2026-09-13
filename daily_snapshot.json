@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-14 01:00:05",
+  "sync_time": "2026-09-14 02:00:05",
   "report_date": "2026-09-14",
   "summary": {
     "arrivals_count": 19,
     "departures_count": 11,
-    "inhouse_count": 86,
+    "inhouse_count": 89,
     "noshow_count": 0,
-    "vacant_count": 11,
+    "vacant_count": 8,
     "roomchanges_count": 0,
     "eod_room_count": 96,
     "eod_pax_count": 178,
@@ -1510,6 +1510,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "8892225",
+        "GroupNo": "",
+        "RecId": 31530,
+        "FirstName1": "CAYLEIGH",
+        "LastName1": "HARRISON-GIBBS",
+        "CheckinDate": "2026-09-13",
+        "CheckOutDate": "2026-09-20",
+        "Room": "108",
+        "RoomType": "STD SEA L",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 9,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "21:45",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EASYJET"
+      },
+      {
         "Voucher": "12181770",
         "GroupNo": "",
         "RecId": 31532,
@@ -1550,6 +1571,27 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "EASYJET"
+      },
+      {
+        "Voucher": "3042014",
+        "GroupNo": "",
+        "RecId": 31558,
+        "FirstName1": "SHAUN",
+        "LastName1": "FLANAGAN",
+        "CheckinDate": "2026-09-13",
+        "CheckOutDate": "2026-09-20",
+        "Room": "335",
+        "RoomType": "CLUB LV",
+        "Board": "HB",
+        "Pax": 3,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:45",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "UCK9HP",
@@ -2182,6 +2224,27 @@
         "AgencyCode": "TUI UK"
       },
       {
+        "Voucher": "3048714",
+        "GroupNo": "",
+        "RecId": 32190,
+        "FirstName1": "DEAN",
+        "LastName1": "MCARDLE",
+        "CheckinDate": "2026-09-13",
+        "CheckOutDate": "2026-09-20",
+        "Room": "120",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "21:30",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
         "Voucher": "3049731",
         "GroupNo": "",
         "RecId": 32205,
@@ -2458,13 +2521,6 @@
     "noshow": [],
     "vacant": [
       {
-        "Room": "108",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "115",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 0,
@@ -2479,13 +2535,6 @@
         "OccVac": 1
       },
       {
-        "Room": "120",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "123",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 1,
@@ -2496,13 +2545,6 @@
         "Room": "315",
         "RoomTypeCode": "STD SEA",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "335",
-        "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3322,9 +3364,9 @@
       "summary": {
         "arrivals_count": 19,
         "departures_count": 11,
-        "inhouse_count": 86,
+        "inhouse_count": 89,
         "noshow_count": 0,
-        "vacant_count": 11,
+        "vacant_count": 8,
         "roomchanges_count": 0,
         "eod_room_count": 96,
         "eod_pax_count": 178
@@ -4826,6 +4868,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "8892225",
+          "GroupNo": "",
+          "RecId": 31530,
+          "FirstName1": "CAYLEIGH",
+          "LastName1": "HARRISON-GIBBS",
+          "CheckinDate": "2026-09-13",
+          "CheckOutDate": "2026-09-20",
+          "Room": "108",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:45",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "12181770",
           "GroupNo": "",
           "RecId": 31532,
@@ -4866,6 +4929,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "3042014",
+          "GroupNo": "",
+          "RecId": 31558,
+          "FirstName1": "SHAUN",
+          "LastName1": "FLANAGAN",
+          "CheckinDate": "2026-09-13",
+          "CheckOutDate": "2026-09-20",
+          "Room": "335",
+          "RoomType": "CLUB LV",
+          "Board": "HB",
+          "Pax": 3,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:45",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "UCK9HP",
@@ -5498,6 +5582,27 @@
           "AgencyCode": "TUI UK"
         },
         {
+          "Voucher": "3048714",
+          "GroupNo": "",
+          "RecId": 32190,
+          "FirstName1": "DEAN",
+          "LastName1": "MCARDLE",
+          "CheckinDate": "2026-09-13",
+          "CheckOutDate": "2026-09-20",
+          "Room": "120",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "21:30",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "3049731",
           "GroupNo": "",
           "RecId": 32205,
@@ -5774,13 +5879,6 @@
       "noshow": [],
       "vacant": [
         {
-          "Room": "108",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
@@ -5795,13 +5893,6 @@
           "OccVac": 1
         },
         {
-          "Room": "120",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -5812,13 +5903,6 @@
           "Room": "315",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7168,7 +7252,7 @@
           "ResRemark": "",
           "FlightArrival": "21:45",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -7252,7 +7336,7 @@
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -7924,7 +8008,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9528,7 +9612,7 @@
           "ResRemark": "",
           "FlightArrival": "21:45",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -9591,7 +9675,7 @@
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -10242,7 +10326,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12119,7 +12203,7 @@
           "ResRemark": "",
           "FlightArrival": "21:45",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -12182,7 +12266,7 @@
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12791,7 +12875,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14864,7 +14948,7 @@
           "ResRemark": "",
           "FlightArrival": "21:45",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -14885,7 +14969,7 @@
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -15431,7 +15515,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17742,7 +17826,7 @@
           "ResRemark": "",
           "FlightArrival": "21:45",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -17784,7 +17868,7 @@
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -18309,7 +18393,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19344,7 +19428,7 @@
           "ResRemark": "",
           "FlightArrival": "21:45",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -19365,7 +19449,7 @@
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19512,7 +19596,7 @@
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
