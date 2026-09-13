@@ -1,9 +1,9 @@
 {
-  "sync_time": "2026-09-13 09:00:04",
+  "sync_time": "2026-09-13 10:00:05",
   "report_date": "2026-09-13",
   "summary": {
-    "arrivals_count": 14,
-    "departures_count": 14,
+    "arrivals_count": 13,
+    "departures_count": 13,
     "inhouse_count": 89,
     "noshow_count": 0,
     "vacant_count": 12,
@@ -267,27 +267,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "5931454871",
-        "GroupNo": "",
-        "RecId": 32250,
-        "FirstName1": "VALENTINA",
-        "LastName1": "SUSLOVA",
-        "CheckinDate": "2026-09-13",
-        "CheckOutDate": "2026-09-16",
-        "Room": "302",
-        "RoomType": "STD SEA L",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 7,
-        "ExtraFolioBalance": -66129.68088,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "BOOKING.COM"
-      },
-      {
         "Voucher": "2557056222",
         "GroupNo": "",
         "RecId": 32251,
@@ -519,27 +498,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "EXPEDIA"
-      },
-      {
-        "Voucher": "5350056191",
-        "GroupNo": "",
-        "RecId": 32202,
-        "FirstName1": "VALENTINA",
-        "LastName1": "SUSLOVA",
-        "CheckinDate": "2026-09-10",
-        "CheckOutDate": "2026-09-13",
-        "Room": "302",
-        "RoomType": "STD SEA L",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 7,
-        "ExtraFolioBalance": 40484.014,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "BOOKING.COM"
       },
       {
         "Voucher": "32215",
@@ -1502,7 +1460,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 2702.9424,
         "ResRemark": "",
         "FlightArrival": "13:30",
         "FlightDeparture": "",
@@ -2182,27 +2140,6 @@
         "AgencyCode": "EXPEDIA"
       },
       {
-        "Voucher": "5350056191",
-        "GroupNo": "",
-        "RecId": 32202,
-        "FirstName1": "VALENTINA",
-        "LastName1": "SUSLOVA",
-        "CheckinDate": "2026-09-10",
-        "CheckOutDate": "2026-09-13",
-        "Room": "302",
-        "RoomType": "STD SEA L",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 7,
-        "ExtraFolioBalance": 40484.014,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "BOOKING.COM"
-      },
-      {
         "Voucher": "3049731",
         "GroupNo": "",
         "RecId": 32205,
@@ -2432,6 +2369,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "MUNFERIT EURO"
+      },
+      {
+        "Voucher": "5931454871",
+        "GroupNo": "",
+        "RecId": 32250,
+        "FirstName1": "VALENTINA",
+        "LastName1": "SUSLOVA",
+        "CheckinDate": "2026-09-13",
+        "CheckOutDate": "2026-09-16",
+        "Room": "302",
+        "RoomType": "STD SEA L",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 7,
+        "ExtraFolioBalance": 42285.806,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "BOOKING.COM"
       },
       {
         "Voucher": "5505334365",
@@ -2933,7 +2891,7 @@
       {
         "Room": "302",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3390,8 +3348,8 @@
   "by_date": {
     "2026-09-13": {
       "summary": {
-        "arrivals_count": 14,
-        "departures_count": 14,
+        "arrivals_count": 13,
+        "departures_count": 13,
         "inhouse_count": 89,
         "noshow_count": 0,
         "vacant_count": 12,
@@ -3653,27 +3611,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "5931454871",
-          "GroupNo": "",
-          "RecId": 32250,
-          "FirstName1": "VALENTINA",
-          "LastName1": "SUSLOVA",
-          "CheckinDate": "2026-09-13",
-          "CheckOutDate": "2026-09-16",
-          "Room": "302",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -66129.68088,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "2557056222",
           "GroupNo": "",
           "RecId": 32251,
@@ -3905,27 +3842,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
-        },
-        {
-          "Voucher": "5350056191",
-          "GroupNo": "",
-          "RecId": 32202,
-          "FirstName1": "VALENTINA",
-          "LastName1": "SUSLOVA",
-          "CheckinDate": "2026-09-10",
-          "CheckOutDate": "2026-09-13",
-          "Room": "302",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": 40484.014,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "32215",
@@ -4888,7 +4804,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2702.9424,
           "ResRemark": "",
           "FlightArrival": "13:30",
           "FlightDeparture": "",
@@ -5568,27 +5484,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "5350056191",
-          "GroupNo": "",
-          "RecId": 32202,
-          "FirstName1": "VALENTINA",
-          "LastName1": "SUSLOVA",
-          "CheckinDate": "2026-09-10",
-          "CheckOutDate": "2026-09-13",
-          "Room": "302",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": 40484.014,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "3049731",
           "GroupNo": "",
           "RecId": 32205,
@@ -5818,6 +5713,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "5931454871",
+          "GroupNo": "",
+          "RecId": 32250,
+          "FirstName1": "VALENTINA",
+          "LastName1": "SUSLOVA",
+          "CheckinDate": "2026-09-13",
+          "CheckOutDate": "2026-09-16",
+          "Room": "302",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 42285.806,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "5505334365",
@@ -7493,7 +7409,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2702.9424,
           "ResRemark": "",
           "FlightArrival": "13:30",
           "FlightDeparture": "",
@@ -8396,11 +8312,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": -66129.68088,
+          "ExtraFolioBalance": 42285.806,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "BOOKING.COM"
         },
         {
@@ -9937,7 +9853,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2702.9424,
           "ResRemark": "",
           "FlightArrival": "13:30",
           "FlightDeparture": "",
@@ -10903,11 +10819,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": -66129.68088,
+          "ExtraFolioBalance": 42285.806,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "BOOKING.COM"
         },
         {
@@ -11308,7 +11224,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 2702.9424,
           "ResRemark": "",
           "FlightArrival": "13:30",
           "FlightDeparture": "",
@@ -11413,11 +11329,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": -66129.68088,
+          "ExtraFolioBalance": 42285.806,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "BOOKING.COM"
         }
       ],
@@ -13381,7 +13297,7 @@
         {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15916,7 +15832,7 @@
         {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18507,7 +18423,7 @@
         {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21378,7 +21294,7 @@
         {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23801,7 +23717,7 @@
         {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
