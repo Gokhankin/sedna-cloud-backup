@@ -1,13 +1,13 @@
 {
-  "sync_time": "2026-09-13 08:00:05",
+  "sync_time": "2026-09-13 09:00:04",
   "report_date": "2026-09-13",
   "summary": {
     "arrivals_count": 14,
-    "departures_count": 15,
-    "inhouse_count": 90,
+    "departures_count": 14,
+    "inhouse_count": 89,
     "noshow_count": 0,
-    "vacant_count": 10,
-    "roomchanges_count": 0,
+    "vacant_count": 12,
+    "roomchanges_count": 1,
     "eod_room_count": 89,
     "eod_pax_count": 163,
     "hk_count": 111
@@ -30,7 +30,7 @@
         "AgencyId": 3,
         "ExtraFolioBalance": -58787.5561,
         "ResRemark": null,
-        "FlightArrival": null,
+        "FlightArrival": "20:15",
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "MUNFERIT EURO"
@@ -280,7 +280,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": -66129.68088,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -303,7 +303,7 @@
         "AgencyId": 8,
         "ExtraFolioBalance": -116929.0951,
         "ResRemark": "",
-        "FlightArrival": "",
+        "FlightArrival": "otele 10 gibi ",
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "EXPEDIA"
@@ -521,27 +521,6 @@
         "AgencyCode": "EXPEDIA"
       },
       {
-        "Voucher": "341310359",
-        "GroupNo": "",
-        "RecId": 32201,
-        "FirstName1": "MAHMUT",
-        "LastName1": "AKKURT",
-        "CheckinDate": "2026-09-09",
-        "CheckOutDate": "2026-09-13",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 16,
-        "ExtraFolioBalance": 5674.18,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "SUNTALYA"
-      },
-      {
         "Voucher": "5350056191",
         "GroupNo": "",
         "RecId": 32202,
@@ -570,8 +549,8 @@
         "LastName1": "OZER",
         "CheckinDate": "2026-09-09",
         "CheckOutDate": "2026-09-13",
-        "Room": "211",
-        "RoomType": "STD SEA L",
+        "Room": "1015",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -2203,27 +2182,6 @@
         "AgencyCode": "EXPEDIA"
       },
       {
-        "Voucher": "341310359",
-        "GroupNo": "",
-        "RecId": 32201,
-        "FirstName1": "MAHMUT",
-        "LastName1": "AKKURT",
-        "CheckinDate": "2026-09-09",
-        "CheckOutDate": "2026-09-13",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 16,
-        "ExtraFolioBalance": 5674.18,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "SUNTALYA"
-      },
-      {
         "Voucher": "5350056191",
         "GroupNo": "",
         "RecId": 32202,
@@ -2294,8 +2252,8 @@
         "LastName1": "OZER",
         "CheckinDate": "2026-09-09",
         "CheckOutDate": "2026-09-13",
-        "Room": "211",
-        "RoomType": "STD SEA L",
+        "Room": "1015",
+        "RoomType": "PM",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -2521,6 +2479,13 @@
     "noshow": [],
     "vacant": [
       {
+        "Room": "110",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "111",
         "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
@@ -2545,6 +2510,13 @@
         "Room": "119",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "211",
+        "RoomTypeCode": "STD SEA L",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2591,8 +2563,50 @@
         "OccVac": 1
       }
     ],
-    "roomchanges": [],
-    "all_roomchanges": [],
+    "roomchanges": [
+      {
+        "ReservationId": 32215,
+        "RecordDate": "2026-09-13 08:47:38",
+        "OldRoom": "211",
+        "NewRoom": "1015",
+        "RecordUser": "DİLEK",
+        "Voucher": "32215",
+        "FirstName1": "ALPER",
+        "LastName1": "OZER",
+        "AgencyId": 1,
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-13",
+        "PriceType": "STD SEA",
+        "Remark": "211 DEN C-O",
+        "Status": 2,
+        "AgencyCode": "MUNFERIT TL",
+        "RCDate": "2026-09-13",
+        "Time": "08:47",
+        "RoomChanged": "1"
+      }
+    ],
+    "all_roomchanges": [
+      {
+        "ReservationId": 32215,
+        "RecordDate": "2026-09-13 08:47:38",
+        "OldRoom": "211",
+        "NewRoom": "1015",
+        "RecordUser": "DİLEK",
+        "Voucher": "32215",
+        "FirstName1": "ALPER",
+        "LastName1": "OZER",
+        "AgencyId": 1,
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-13",
+        "PriceType": "STD SEA",
+        "Remark": "211 DEN C-O",
+        "Status": 2,
+        "AgencyCode": "MUNFERIT TL",
+        "RCDate": "2026-09-13",
+        "Time": "08:47",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -3377,11 +3391,11 @@
     "2026-09-13": {
       "summary": {
         "arrivals_count": 14,
-        "departures_count": 15,
-        "inhouse_count": 90,
+        "departures_count": 14,
+        "inhouse_count": 89,
         "noshow_count": 0,
-        "vacant_count": 10,
-        "roomchanges_count": 0,
+        "vacant_count": 12,
+        "roomchanges_count": 1,
         "eod_room_count": 89,
         "eod_pax_count": 163
       },
@@ -3402,7 +3416,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -3652,7 +3666,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -66129.68088,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3675,7 +3689,7 @@
           "AgencyId": 8,
           "ExtraFolioBalance": -116929.0951,
           "ResRemark": "",
-          "FlightArrival": "",
+          "FlightArrival": "otele 10 gibi ",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
@@ -3893,27 +3907,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "341310359",
-          "GroupNo": "",
-          "RecId": 32201,
-          "FirstName1": "MAHMUT",
-          "LastName1": "AKKURT",
-          "CheckinDate": "2026-09-09",
-          "CheckOutDate": "2026-09-13",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 16,
-          "ExtraFolioBalance": 5674.18,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "SUNTALYA"
-        },
-        {
           "Voucher": "5350056191",
           "GroupNo": "",
           "RecId": 32202,
@@ -3942,8 +3935,8 @@
           "LastName1": "OZER",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-13",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "1015",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5575,27 +5568,6 @@
           "AgencyCode": "EXPEDIA"
         },
         {
-          "Voucher": "341310359",
-          "GroupNo": "",
-          "RecId": 32201,
-          "FirstName1": "MAHMUT",
-          "LastName1": "AKKURT",
-          "CheckinDate": "2026-09-09",
-          "CheckOutDate": "2026-09-13",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 16,
-          "ExtraFolioBalance": 5674.18,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "SUNTALYA"
-        },
-        {
           "Voucher": "5350056191",
           "GroupNo": "",
           "RecId": 32202,
@@ -5666,8 +5638,8 @@
           "LastName1": "OZER",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-13",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "1015",
+          "RoomType": "PM",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5893,6 +5865,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "110",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -5917,6 +5896,13 @@
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5963,7 +5949,28 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 32215,
+          "RecordDate": "2026-09-13 08:47:38",
+          "OldRoom": "211",
+          "NewRoom": "1015",
+          "RecordUser": "DİLEK",
+          "Voucher": "32215",
+          "FirstName1": "ALPER",
+          "LastName1": "OZER",
+          "AgencyId": 1,
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-13",
+          "PriceType": "STD SEA",
+          "Remark": "211 DEN C-O",
+          "Status": 2,
+          "AgencyCode": "MUNFERIT TL",
+          "RCDate": "2026-09-13",
+          "Time": "08:47",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-09-14": {
       "summary": {
@@ -7341,7 +7348,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -8389,7 +8396,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -66129.68088,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8412,7 +8419,7 @@
           "AgencyId": 8,
           "ExtraFolioBalance": -116929.0951,
           "ResRemark": "",
-          "FlightArrival": "",
+          "FlightArrival": "otele 10 gibi ",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
@@ -9806,7 +9813,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -10896,7 +10903,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -66129.68088,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10919,7 +10926,7 @@
           "AgencyId": 8,
           "ExtraFolioBalance": -116929.0951,
           "ResRemark": "",
-          "FlightArrival": "",
+          "FlightArrival": "otele 10 gibi ",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
@@ -11406,7 +11413,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -66129.68088,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12145,7 +12152,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -13216,7 +13223,7 @@
           "AgencyId": 8,
           "ExtraFolioBalance": -116929.0951,
           "ResRemark": "",
-          "FlightArrival": "",
+          "FlightArrival": "otele 10 gibi ",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
@@ -14694,7 +14701,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -15765,7 +15772,7 @@
           "AgencyId": 8,
           "ExtraFolioBalance": -116929.0951,
           "ResRemark": "",
-          "FlightArrival": "",
+          "FlightArrival": "otele 10 gibi ",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
@@ -16597,7 +16604,7 @@
           "AgencyId": 8,
           "ExtraFolioBalance": -116929.0951,
           "ResRemark": "",
-          "FlightArrival": "",
+          "FlightArrival": "otele 10 gibi ",
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EXPEDIA"
@@ -17376,7 +17383,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -20261,7 +20268,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
@@ -21870,7 +21877,7 @@
           "AgencyId": 3,
           "ExtraFolioBalance": -58787.5561,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "20:15",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "MUNFERIT EURO"
