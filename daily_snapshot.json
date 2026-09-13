@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-13 03:00:05",
+  "sync_time": "2026-09-13 04:00:04",
   "report_date": "2026-09-13",
   "summary": {
     "arrivals_count": 14,
     "departures_count": 17,
-    "inhouse_count": 91,
+    "inhouse_count": 92,
     "noshow_count": 0,
-    "vacant_count": 11,
+    "vacant_count": 10,
     "roomchanges_count": 0,
     "eod_room_count": 89,
     "eod_pax_count": 163,
@@ -471,7 +471,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 2421.158,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -710,6 +710,27 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
+      },
+      {
+        "Voucher": "7780860",
+        "GroupNo": "",
+        "RecId": 28659,
+        "FirstName1": "CHARLOTTE",
+        "LastName1": "GRAHAM-CUMMING",
+        "CheckinDate": "2026-09-12",
+        "CheckOutDate": "2026-09-22",
+        "Room": "103",
+        "RoomType": "STD-SV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 9,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "00:25",
+        "FlightDeparture": "19:55",
+        "Status": 2,
+        "AgencyCode": "EASYJET"
       },
       {
         "Voucher": "2999745",
@@ -2027,7 +2048,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": 2421.158,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -2583,13 +2604,6 @@
     ],
     "noshow": [],
     "vacant": [
-      {
-        "Room": "103",
-        "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
       {
         "Room": "111",
         "RoomTypeCode": "STD SEA L",
@@ -3448,9 +3462,9 @@
       "summary": {
         "arrivals_count": 14,
         "departures_count": 17,
-        "inhouse_count": 91,
+        "inhouse_count": 92,
         "noshow_count": 0,
-        "vacant_count": 11,
+        "vacant_count": 10,
         "roomchanges_count": 0,
         "eod_room_count": 89,
         "eod_pax_count": 163
@@ -3913,7 +3927,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 2421.158,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4152,6 +4166,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "7780860",
+          "GroupNo": "",
+          "RecId": 28659,
+          "FirstName1": "CHARLOTTE",
+          "LastName1": "GRAHAM-CUMMING",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-22",
+          "Room": "103",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "00:25",
+          "FlightDeparture": "19:55",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "2999745",
@@ -5469,7 +5504,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 2421.158,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6025,13 +6060,6 @@
       ],
       "noshow": [],
       "vacant": [
-        {
-          "Room": "103",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
@@ -6706,7 +6734,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -9192,7 +9220,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -11594,7 +11622,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -14122,7 +14150,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -16783,7 +16811,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -19815,7 +19843,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -22434,7 +22462,7 @@
           "ResRemark": "",
           "FlightArrival": "00:25",
           "FlightDeparture": "19:55",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
