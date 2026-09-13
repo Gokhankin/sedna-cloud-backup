@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-13 10:00:05",
+  "sync_time": "2026-09-13 11:00:05",
   "report_date": "2026-09-13",
   "summary": {
     "arrivals_count": 13,
-    "departures_count": 13,
-    "inhouse_count": 89,
+    "departures_count": 11,
+    "inhouse_count": 87,
     "noshow_count": 0,
-    "vacant_count": 12,
+    "vacant_count": 14,
     "roomchanges_count": 1,
     "eod_room_count": 89,
     "eod_pax_count": 163,
@@ -22,7 +22,7 @@
         "LastName1": "IPENBURG",
         "CheckinDate": "2026-09-13",
         "CheckOutDate": "2026-09-20",
-        "Room": "320",
+        "Room": "",
         "RoomType": "STD-LV",
         "Board": "BB",
         "Pax": 1,
@@ -85,7 +85,7 @@
         "LastName1": "FLANAGAN",
         "CheckinDate": "2026-09-13",
         "CheckOutDate": "2026-09-20",
-        "Room": "102",
+        "Room": "335",
         "RoomType": "CLUB LV",
         "Board": "HB",
         "Pax": 3,
@@ -311,27 +311,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "2532222835",
-        "GroupNo": "",
-        "RecId": 31642,
-        "FirstName1": "EBRU",
-        "LastName1": "GEZGIN",
-        "CheckinDate": "2026-09-10",
-        "CheckOutDate": "2026-09-13",
-        "Room": "315",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 3547.278,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
-      },
-      {
         "Voucher": "21BVGP",
         "GroupNo": "",
         "RecId": 31755,
@@ -351,27 +330,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "31942",
-        "GroupNo": "",
-        "RecId": 31942,
-        "FirstName1": "MYKOLA",
-        "LastName1": "PRAVYTSKYI",
-        "CheckinDate": "2026-09-06",
-        "CheckOutDate": "2026-09-13",
-        "Room": "309",
-        "RoomType": "SUIT",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 31192.07345,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "81328543",
@@ -450,7 +408,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 33,
-        "ExtraFolioBalance": 10224.76,
+        "ExtraFolioBalance": 12471.96,
         "ResRemark": null,
         "FlightArrival": "12:30",
         "FlightDeparture": null,
@@ -893,7 +851,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 561.754,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1489,27 +1447,6 @@
         "AgencyCode": "ADDAJET"
       },
       {
-        "Voucher": "2532222835",
-        "GroupNo": "",
-        "RecId": 31642,
-        "FirstName1": "EBRU",
-        "LastName1": "GEZGIN",
-        "CheckinDate": "2026-09-10",
-        "CheckOutDate": "2026-09-13",
-        "Room": "315",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 3547.278,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
-      },
-      {
         "Voucher": "19444288",
         "GroupNo": "",
         "RecId": 31672,
@@ -1697,27 +1634,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "31942",
-        "GroupNo": "",
-        "RecId": 31942,
-        "FirstName1": "MYKOLA",
-        "LastName1": "PRAVYTSKYI",
-        "CheckinDate": "2026-09-06",
-        "CheckOutDate": "2026-09-13",
-        "Room": "309",
-        "RoomType": "SUIT",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 31192.07345,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "81328543",
@@ -1943,7 +1859,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 33,
-        "ExtraFolioBalance": 10224.76,
+        "ExtraFolioBalance": 12471.96,
         "ResRemark": null,
         "FlightArrival": "12:30",
         "FlightDeparture": null,
@@ -2479,9 +2395,23 @@
         "OccVac": 1
       },
       {
-        "Room": "335",
-        "RoomTypeCode": "CLUB LV",
+        "Room": "309",
+        "RoomTypeCode": "SUIT",
         "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "315",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "320",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3349,10 +3279,10 @@
     "2026-09-13": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 13,
-        "inhouse_count": 89,
+        "departures_count": 11,
+        "inhouse_count": 87,
         "noshow_count": 0,
-        "vacant_count": 12,
+        "vacant_count": 14,
         "roomchanges_count": 1,
         "eod_room_count": 89,
         "eod_pax_count": 163
@@ -3366,7 +3296,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -3429,7 +3359,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -3655,27 +3585,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "2532222835",
-          "GroupNo": "",
-          "RecId": 31642,
-          "FirstName1": "EBRU",
-          "LastName1": "GEZGIN",
-          "CheckinDate": "2026-09-10",
-          "CheckOutDate": "2026-09-13",
-          "Room": "315",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 3547.278,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "21BVGP",
           "GroupNo": "",
           "RecId": 31755,
@@ -3695,27 +3604,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "31942",
-          "GroupNo": "",
-          "RecId": 31942,
-          "FirstName1": "MYKOLA",
-          "LastName1": "PRAVYTSKYI",
-          "CheckinDate": "2026-09-06",
-          "CheckOutDate": "2026-09-13",
-          "Room": "309",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 31192.07345,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "81328543",
@@ -3794,7 +3682,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 10224.76,
+          "ExtraFolioBalance": 12471.96,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -4237,7 +4125,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4833,27 +4721,6 @@
           "AgencyCode": "ADDAJET"
         },
         {
-          "Voucher": "2532222835",
-          "GroupNo": "",
-          "RecId": 31642,
-          "FirstName1": "EBRU",
-          "LastName1": "GEZGIN",
-          "CheckinDate": "2026-09-10",
-          "CheckOutDate": "2026-09-13",
-          "Room": "315",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 3547.278,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
-        },
-        {
           "Voucher": "19444288",
           "GroupNo": "",
           "RecId": 31672,
@@ -5041,27 +4908,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "31942",
-          "GroupNo": "",
-          "RecId": 31942,
-          "FirstName1": "MYKOLA",
-          "LastName1": "PRAVYTSKYI",
-          "CheckinDate": "2026-09-06",
-          "CheckOutDate": "2026-09-13",
-          "Room": "309",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 31192.07345,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "81328543",
@@ -5287,7 +5133,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 33,
-          "ExtraFolioBalance": 10224.76,
+          "ExtraFolioBalance": 12471.96,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -5823,9 +5669,23 @@
           "OccVac": 1
         },
         {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
+          "Room": "309",
+          "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "315",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5894,7 +5754,7 @@
         "departures_count": 10,
         "inhouse_count": 94,
         "noshow_count": 0,
-        "vacant_count": 19,
+        "vacant_count": 20,
         "roomchanges_count": 0,
         "eod_room_count": 94,
         "eod_pax_count": 173
@@ -6737,7 +6597,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7256,7 +7116,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -7466,7 +7326,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -8407,6 +8267,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -8470,9 +8337,9 @@
           "OccVac": 1
         },
         {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 1,
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8548,7 +8415,7 @@
         "departures_count": 10,
         "inhouse_count": 92,
         "noshow_count": 0,
-        "vacant_count": 25,
+        "vacant_count": 26,
         "roomchanges_count": 0,
         "eod_room_count": 92,
         "eod_pax_count": 166
@@ -9223,7 +9090,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9721,7 +9588,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -9910,7 +9777,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -10872,6 +10739,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -10956,6 +10830,13 @@
           "OccVac": 1
         },
         {
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "329",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -10965,13 +10846,6 @@
         {
           "Room": "334",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11055,7 +10929,7 @@
         "departures_count": 9,
         "inhouse_count": 87,
         "noshow_count": 0,
-        "vacant_count": 34,
+        "vacant_count": 35,
         "roomchanges_count": 0,
         "eod_room_count": 87,
         "eod_pax_count": 155
@@ -11604,7 +11478,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12060,7 +11934,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -12228,7 +12102,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -13169,6 +13043,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -13316,6 +13197,13 @@
           "OccVac": 1
         },
         {
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "329",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -13325,13 +13213,6 @@
         {
           "Room": "334",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -13415,7 +13296,7 @@
         "departures_count": 10,
         "inhouse_count": 88,
         "noshow_count": 0,
-        "vacant_count": 41,
+        "vacant_count": 42,
         "roomchanges_count": 0,
         "eod_room_count": 88,
         "eod_pax_count": 155
@@ -14132,7 +14013,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14609,7 +14490,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -14777,7 +14658,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -15718,6 +15599,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -15858,6 +15746,13 @@
           "OccVac": 1
         },
         {
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -15895,13 +15790,6 @@
         {
           "Room": "334",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -16013,7 +15901,7 @@
         "departures_count": 15,
         "inhouse_count": 82,
         "noshow_count": 0,
-        "vacant_count": 55,
+        "vacant_count": 56,
         "roomchanges_count": 0,
         "eod_room_count": 82,
         "eod_pax_count": 146
@@ -16772,7 +16660,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -17291,7 +17179,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -17417,7 +17305,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -18253,6 +18141,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -18470,6 +18365,13 @@
           "OccVac": 1
         },
         {
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -18507,13 +18409,6 @@
         {
           "Room": "334",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -18646,7 +18541,7 @@
         "departures_count": 25,
         "inhouse_count": 73,
         "noshow_count": 0,
-        "vacant_count": 74,
+        "vacant_count": 75,
         "roomchanges_count": 0,
         "eod_room_count": 73,
         "eod_pax_count": 127
@@ -19130,7 +19025,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 561.754,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -20176,7 +20071,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -20302,7 +20197,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
@@ -21054,6 +20949,13 @@
       "noshow": [],
       "vacant": [
         {
+          "Room": "102",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
@@ -21362,6 +21264,13 @@
           "OccVac": 1
         },
         {
+          "Room": "320",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -21420,13 +21329,6 @@
         {
           "Room": "334",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "335",
-          "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -21785,7 +21687,7 @@
           "LastName1": "IPENBURG",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "320",
+          "Room": "",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 1,
@@ -21890,7 +21792,7 @@
           "LastName1": "FLANAGAN",
           "CheckinDate": "2026-09-13",
           "CheckOutDate": "2026-09-20",
-          "Room": "102",
+          "Room": "335",
           "RoomType": "CLUB LV",
           "Board": "HB",
           "Pax": 3,
