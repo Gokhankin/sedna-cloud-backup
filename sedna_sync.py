@@ -20,9 +20,9 @@ def extract_daily_data():
     today_dt = datetime.now()
     today_iso = today_dt.strftime('%Y-%m-%d')
     
-    # Calculate range: today to today + 7 days
+    # Calculate range: yesterday to today + 7 days
     today_date = today_dt.date()
-    min_date_str = today_date.strftime('%Y%m%d')
+    min_date_str = (today_date - timedelta(days=1)).strftime('%Y%m%d')
     max_date_str = (today_date + timedelta(days=7)).strftime('%Y%m%d')
     
     # Fetch Reservations in date range
@@ -110,10 +110,10 @@ def extract_daily_data():
               AND l.Old IS NOT NULL AND l.Old != '' AND l.Old NOT IN ('Basic Blocking', 'Cancel Blocking')
               AND l.New IS NOT NULL AND l.New != '' AND l.New NOT IN ('Basic Blocking', 'Cancel Blocking')
               AND l.Old != l.New
-              AND CAST(l.ADateTime AS DATE) = CAST(GETDATE() AS DATE)
-              AND CAST(r.CheckOutDate AS DATE) = CAST(GETDATE() AS DATE)
+              AND CONVERT(VARCHAR(8), l.ADateTime, 112) >= ?
+              AND CONVERT(VARCHAR(8), l.ADateTime, 112) <= ?
             ORDER BY l.ADateTime DESC
-        """)
+        """, (min_date_str, max_date_str))
         log_changes = dictfetchall(cursor)
         for rc in log_changes:
             if rc.get('RecordDate'):
@@ -138,9 +138,9 @@ def extract_daily_data():
             LEFT JOIN Reservation r ON rcp.ReservationId = r.RecId
             LEFT JOIN Agency a ON r.AgencyId = a.RecId
             WHERE (rcp.Deleted = 0 OR rcp.Deleted IS NULL)
-              AND rcp.RCDate > CAST(GETDATE() AS DATE)
+              AND CONVERT(VARCHAR(8), rcp.RCDate, 112) >= ?
             ORDER BY rcp.RCDate DESC, rcp.RecId DESC
-        """)
+        """, (min_date_str,))
         plan_changes = dictfetchall(cursor)
         existing_keys = set((rc['ReservationId'], rc.get('RCDate')) for rc in room_changes)
         for rc in plan_changes:
@@ -164,7 +164,7 @@ def extract_daily_data():
     # Fetch exact Sedna General Forecast Analysis totals per date directly from official SQL Stored Procedure
     forecast_by_date = {}
     try:
-        d_begin = today_dt.strftime('%m/%d/%Y')
+        d_begin = (today_dt - timedelta(days=1)).strftime('%m/%d/%Y')
         d_end = (today_dt + timedelta(days=7)).strftime('%m/%d/%Y')
         sp_query = """
             SET NOCOUNT ON;
@@ -189,15 +189,15 @@ def extract_daily_data():
                 @Board = '',
                 @StayType = '',
                 @VipType = '',
-                @OOO = -1,
-                @CS = -1,
-                @CB = -1,
-                @PM = -1,
-                @Share = -1,
+                @OOO = 1,
+                @CS = 1,
+                @CB = 1,
+                @PM = 1,
+                @Share = 1,
                 @Option = -1,
                 @Definite = -1,
                 @Tentative = -1,
-                @Connection = -1,
+                @Connection = 1,
                 @HotelCode = ''
         """
         cursor.execute(sp_query, (d_begin, d_end))
@@ -215,17 +215,18 @@ def extract_daily_data():
                 "forecast_pax": tot_pax,
                 "adult": adult,
                 "cin_room": int(row_dict.get('Cin_Room') or 0),
-                "cout_room": int(row_dict.get('Cout_Room') or 0)
+                "cout_room": int(row_dict.get('Cout_Room') or 0),
+                "cap": int(row_dict.get('Cap') or 111)
             }
         print('Forecast SP executed successfully:', forecast_by_date)
     except Exception as e:
         print(f"Error executing forecast SP: {e}")
         forecast_by_date = {}
 
-    # Generate multi-day lists
+    # Generate multi-day lists (Yesterday, Today, and Next 7 Days)
     by_date = {}
     
-    for i in range(8):
+    for i in range(-1, 8):
         date_d = today_date + timedelta(days=i)
         date_str = date_d.strftime('%Y-%m-%d')
         
@@ -242,31 +243,38 @@ def extract_daily_data():
             # Copy to avoid side-effects if we modify fields
             r_copy = dict(r)
             
-            # Helper to check if it's a no-show
+            # Check if this reservation is marked as No-Show
             v = (r_copy.get('Voucher') or '').upper()
-            f = (r_copy.get('FirstName1') or '').upper()
-            l = (r_copy.get('LastName1') or '').upper()
             rem = (r_copy.get('Remark') or '').upper()
             res_rem = (r_copy.get('ResRemark') or '').upper()
-            
             ns_keywords = ['NOSHOW', 'NO-SHOW', 'NO SHOW', 'GELMEDI', 'GELMEDİ', 'NO_SHOW']
-            is_ns = any(any(kw in field for kw in ns_keywords) for field in [v, f, l, rem, res_rem])
+            is_ns = (status == 5) or any(any(kw in field for kw in ns_keywords) for field in [v, rem, res_rem])
             
             if is_ns:
                 if checkin <= date_str and checkout >= date_str:
                     noshow_list.append(r_copy)
-                continue  # Exclude no-shows from active lists
             
-            if date_str == today_iso:
-                # Arrivals today: CheckinDate == date_str AND Status == 1 (Bekleyen Girişler - Henüz Check-in yapılmamış)
-                if status == 1 and checkin == date_str:
+            if date_d < today_date:
+                # Past dates (Yesterday):
+                # Arrivals: checkin == date_str
+                if checkin == date_str and status in (1, 2, 3):
+                    arr_list.append(r_copy)
+                # Departures: checkout == date_str
+                if checkout == date_str and status in (2, 3):
+                    dep_list.append(r_copy)
+                # Inhouse on past date:
+                if status in (1, 2, 3) and checkin <= date_str and checkout > date_str:
+                    inh_list.append(r_copy)
+            elif date_str == today_iso:
+                # Arrivals today (Giriş Beklenen): CheckinDate == date_str AND Status == 1
+                if checkin == date_str and status == 1:
                     arr_list.append(r_copy)
                     
-                # Departures today: CheckOutDate == date_str AND Status == 2 (Henüz Check-out yapılmamış In-House misafirler)
-                if status == 2 and checkout == date_str:
+                # Departures today (Çıkış Beklenen): CheckOutDate == date_str AND Status == 2
+                if checkout == date_str and status == 2:
                     dep_list.append(r_copy)
                     
-                # In-House today: Status == 2 (checked in)
+                # In-House today (Konaklayan / Odada): Status == 2
                 if status == 2:
                     inh_list.append(r_copy)
             else:
@@ -298,8 +306,9 @@ def extract_daily_data():
         rc_list = [rc for rc in room_changes if rc.get('RCDate') == date_str]
 
         fc_info = forecast_by_date.get(date_str, {})
-        eod_room_count = fc_info.get("forecast_rooms", max(0, len(inh_list) + len(arr_list) - len(dep_list)))
-        eod_pax_count = fc_info.get("forecast_pax", max(0, sum(int(r.get('Pax') or 0) for r in inh_list) + sum(int(r.get('Pax') or 0) for r in arr_list) - sum(int(r.get('Pax') or 0) for r in dep_list)))
+        # EOD numbers are 100% from Sedna SQL General Forecast Analysis SP
+        eod_room_count = fc_info.get("forecast_rooms", len(inh_list))
+        eod_pax_count = fc_info.get("forecast_pax", sum(int(r.get('Pax') or 0) for r in inh_list))
 
         by_date[date_str] = {
             "summary": {
