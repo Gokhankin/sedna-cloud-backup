@@ -83,52 +83,40 @@ def extract_daily_data():
         print(f"Error fetching closed rooms: {e}")
         closed_rooms_by_date = {}
     
-    # Fetch Room Changes (from LOG table matching Sedna Ön Büro Değiştirilen Odalar exactly)
+    # Fetch Room Changes directly using Sedna's official RoomChangeList SP + RoomChangePlan
     room_changes = []
     try:
-        cursor.execute("""
-            SELECT 
-                l.ResId AS ReservationId,
-                l.ADateTime AS RecordDate,
-                l.Old AS OldRoom,
-                l.New AS NewRoom,
-                l.UserCode AS RecordUser,
-                r.Voucher,
-                r.FirstName1,
-                r.LastName1,
-                r.AgencyId,
-                r.CheckinDate,
-                r.CheckOutDate,
-                r.PriceType,
-                r.Remark,
-                r.Status,
-                a.AgencyCode
-            FROM LOG l
-            INNER JOIN Reservation r ON l.ResId = r.RecId
-            LEFT JOIN Agency a ON r.AgencyId = a.RecId
-            WHERE l.FieldName = 'Room'
-              AND l.Old IS NOT NULL AND l.Old != '' AND l.Old NOT IN ('Basic Blocking', 'Cancel Blocking')
-              AND l.New IS NOT NULL AND l.New != '' AND l.New NOT IN ('Basic Blocking', 'Cancel Blocking')
-              AND l.Old != l.New
-              AND CONVERT(VARCHAR(8), l.ADateTime, 112) >= ?
-              AND CONVERT(VARCHAR(8), l.ADateTime, 112) <= ?
-            ORDER BY l.ADateTime DESC
-        """, (min_date_str, max_date_str))
-        log_changes = dictfetchall(cursor)
-        for rc in log_changes:
-            if rc.get('RecordDate'):
-                dt_obj = rc['RecordDate']
-                rc['RCDate'] = dt_obj.strftime('%Y-%m-%d')
-                rc['RecordDate'] = dt_obj.strftime('%Y-%m-%d %H:%M:%S')
-                rc['Time'] = dt_obj.strftime('%H:%M')
-            if rc.get('CheckinDate'):
-                rc['CheckinDate'] = str(rc['CheckinDate'])[:10]
-            if rc.get('CheckOutDate'):
-                rc['CheckOutDate'] = str(rc['CheckOutDate'])[:10]
-            rc['RoomChanged'] = '1'
-            room_changes.append(rc)
+        # 1. Fetch from official RoomChangeList for date range
+        for i in range(-1, 8):
+            d_loop = today_date + timedelta(days=i)
+            d_loop_str = d_loop.strftime('%Y-%m-%d')
+            try:
+                cursor.execute("""
+                    SET DATEFORMAT ymd;
+                    EXEC [dbo].[RoomChangeList] @CompanyCode = 'CLUBADAKOY', @HotelDate = ?
+                """, (d_loop_str,))
+                for row_dict in dictfetchall(cursor):
+                    rc_item = {
+                        "ReservationId": row_dict.get('RecId'),
+                        "Voucher": row_dict.get('Voucher'),
+                        "FirstName1": row_dict.get('FirstName1'),
+                        "LastName1": row_dict.get('LastName1'),
+                        "OldRoom": row_dict.get('DailyRoom'),
+                        "NewRoom": row_dict.get('Room'),
+                        "RecordUser": row_dict.get('RecordUser') or 'Sedna',
+                        "RecordDate": d_loop_str,
+                        "RCDate": d_loop_str,
+                        "Time": "",
+                        "CheckinDate": str(row_dict.get('CheckinDate'))[:10] if row_dict.get('CheckinDate') else '',
+                        "CheckOutDate": str(row_dict.get('CheckOutDate'))[:10] if row_dict.get('CheckOutDate') else '',
+                        "AgencyCode": row_dict.get('AgencyCode'),
+                        "RoomChanged": '1'
+                    }
+                    room_changes.append(rc_item)
+            except Exception as e:
+                print(f"Error executing RoomChangeList for {d_loop_str}: {e}")
 
-        # Also fetch RoomChangePlan for future planned changes
+        # 2. Also fetch RoomChangePlan for planned changes
         cursor.execute("""
             SELECT 
                 rcp.RecId, rcp.RCDate, rcp.Time, rcp.OldRoom, rcp.NewRoom, rcp.Remark, 
