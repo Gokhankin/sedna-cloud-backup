@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-09-15 09:00:05",
+  "sync_time": "2026-09-15 10:00:06",
   "report_date": "2026-09-15",
   "summary": {
-    "arrivals_count": 10,
+    "arrivals_count": 9,
     "departures_count": 6,
     "inhouse_count": 95,
     "noshow_count": 0,
     "vacant_count": 5,
     "roomchanges_count": 0,
-    "eod_room_count": 99,
-    "eod_pax_count": 179,
+    "eod_room_count": 98,
+    "eod_pax_count": 178,
     "hk_count": 111
   },
   "data": {
@@ -118,27 +118,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "32199",
-        "GroupNo": "",
-        "RecId": 32199,
-        "FirstName1": "NOOR",
-        "LastName1": "EMAD",
-        "CheckinDate": "2026-09-15",
-        "CheckOutDate": "2026-09-21",
-        "Room": "125",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "11:15",
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "32200",
@@ -255,13 +234,13 @@
         "LastName1": "GUPTA",
         "CheckinDate": "2026-09-09",
         "CheckOutDate": "2026-09-15",
-        "Room": "401",
-        "RoomType": "STD SEA L",
+        "Room": "2000",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 5112.38,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "21.45",
         "FlightDeparture": null,
@@ -383,13 +362,13 @@
         "LastName1": "GUPTA",
         "CheckinDate": "2026-09-09",
         "CheckOutDate": "2026-09-15",
-        "Room": "401",
-        "RoomType": "STD SEA L",
+        "Room": "2000",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 5112.38,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "21.45",
         "FlightDeparture": null,
@@ -2369,7 +2348,7 @@
       {
         "Room": "701",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2383,13 +2362,30 @@
       {
         "Room": "705",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       }
     ],
     "roomchanges": [],
-    "all_roomchanges": [],
+    "all_roomchanges": [
+      {
+        "ReservationId": 29996,
+        "Voucher": "3026631",
+        "FirstName1": "ELENA",
+        "LastName1": "GUPTA",
+        "OldRoom": "401",
+        "NewRoom": "2000",
+        "RecordUser": "Remi",
+        "RecordDate": "2026-09-14",
+        "RCDate": "2026-09-14",
+        "Time": "",
+        "CheckinDate": "2026-09-09",
+        "CheckOutDate": "2026-09-15",
+        "AgencyCode": "NEILSON",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -3136,7 +3132,7 @@
       {
         "Room": "701",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3164,7 +3160,7 @@
       {
         "Room": "705",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       }
@@ -3177,8 +3173,8 @@
         "departures_count": 10,
         "inhouse_count": 99,
         "noshow_count": 0,
-        "vacant_count": 7,
-        "roomchanges_count": 0,
+        "vacant_count": 8,
+        "roomchanges_count": 1,
         "eod_room_count": 99,
         "eod_pax_count": 183
       },
@@ -3846,13 +3842,13 @@
           "LastName1": "GUPTA",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-15",
-          "Room": "401",
-          "RoomType": "STD SEA L",
+          "Room": "2000",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5112.38,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "21.45",
           "FlightDeparture": null,
@@ -5928,9 +5924,16 @@
           "OccVac": 1
         },
         {
+          "Room": "401",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5944,23 +5947,40 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 29996,
+          "Voucher": "3026631",
+          "FirstName1": "ELENA",
+          "LastName1": "GUPTA",
+          "OldRoom": "401",
+          "NewRoom": "2000",
+          "RecordUser": "Remi",
+          "RecordDate": "2026-09-14",
+          "RCDate": "2026-09-14",
+          "Time": "",
+          "CheckinDate": "2026-09-09",
+          "CheckOutDate": "2026-09-15",
+          "AgencyCode": "NEILSON",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-09-15": {
       "summary": {
-        "arrivals_count": 10,
+        "arrivals_count": 9,
         "departures_count": 6,
         "inhouse_count": 95,
         "noshow_count": 0,
         "vacant_count": 5,
         "roomchanges_count": 0,
-        "eod_room_count": 99,
-        "eod_pax_count": 179
+        "eod_room_count": 98,
+        "eod_pax_count": 178
       },
       "arrivals": [
         {
@@ -6067,27 +6087,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32200",
@@ -6204,13 +6203,13 @@
           "LastName1": "GUPTA",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-15",
-          "Room": "401",
-          "RoomType": "STD SEA L",
+          "Room": "2000",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5112.38,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "21.45",
           "FlightDeparture": null,
@@ -6332,13 +6331,13 @@
           "LastName1": "GUPTA",
           "CheckinDate": "2026-09-09",
           "CheckOutDate": "2026-09-15",
-          "Room": "401",
-          "RoomType": "STD SEA L",
+          "Room": "2000",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5112.38,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "21.45",
           "FlightDeparture": null,
@@ -8318,7 +8317,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8332,7 +8331,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -8343,12 +8342,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 9,
-        "inhouse_count": 95,
+        "inhouse_count": 94,
         "noshow_count": 0,
-        "vacant_count": 11,
+        "vacant_count": 12,
         "roomchanges_count": 0,
-        "eod_room_count": 95,
-        "eod_pax_count": 170
+        "eod_room_count": 94,
+        "eod_pax_count": 169
       },
       "arrivals": [
         {
@@ -10120,27 +10119,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "32200",
           "GroupNo": "",
           "RecId": 32200,
@@ -10683,6 +10661,13 @@
           "OccVac": 1
         },
         {
+          "Room": "125",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "127",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -10706,7 +10691,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10720,7 +10705,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -10731,12 +10716,12 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 13,
-        "inhouse_count": 95,
+        "inhouse_count": 94,
         "noshow_count": 0,
-        "vacant_count": 21,
+        "vacant_count": 22,
         "roomchanges_count": 0,
-        "eod_room_count": 95,
-        "eod_pax_count": 168
+        "eod_room_count": 94,
+        "eod_pax_count": 167
       },
       "arrivals": [
         {
@@ -12613,27 +12598,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "32200",
           "GroupNo": "",
           "RecId": 32200,
@@ -13337,6 +13301,13 @@
           "OccVac": 1
         },
         {
+          "Room": "125",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "127",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -13416,7 +13387,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13430,7 +13401,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -13441,12 +13412,12 @@
       "summary": {
         "arrivals_count": 9,
         "departures_count": 17,
-        "inhouse_count": 87,
+        "inhouse_count": 86,
         "noshow_count": 0,
-        "vacant_count": 38,
+        "vacant_count": 39,
         "roomchanges_count": 0,
-        "eod_room_count": 87,
-        "eod_pax_count": 155
+        "eod_room_count": 86,
+        "eod_pax_count": 154
       },
       "arrivals": [
         {
@@ -14987,27 +14958,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "32200",
           "GroupNo": "",
           "RecId": 32200,
@@ -15907,6 +15857,13 @@
           "OccVac": 1
         },
         {
+          "Room": "125",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "127",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -16070,7 +16027,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16091,7 +16048,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -16102,12 +16059,12 @@
       "summary": {
         "arrivals_count": 18,
         "departures_count": 27,
-        "inhouse_count": 78,
+        "inhouse_count": 77,
         "noshow_count": 0,
-        "vacant_count": 62,
+        "vacant_count": 63,
         "roomchanges_count": 0,
-        "eod_room_count": 78,
-        "eod_pax_count": 134
+        "eod_room_count": 77,
+        "eod_pax_count": 133
       },
       "arrivals": [
         {
@@ -17480,27 +17437,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "32200",
           "GroupNo": "",
           "RecId": 32200,
@@ -18799,6 +18735,13 @@
           "OccVac": 1
         },
         {
+          "Room": "125",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "127",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -19109,7 +19052,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19130,7 +19073,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -19141,12 +19084,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 20,
-        "inhouse_count": 65,
+        "inhouse_count": 64,
         "noshow_count": 0,
-        "vacant_count": 79,
+        "vacant_count": 80,
         "roomchanges_count": 0,
-        "eod_room_count": 65,
-        "eod_pax_count": 110
+        "eod_room_count": 64,
+        "eod_pax_count": 109
       },
       "arrivals": [
         {
@@ -19721,27 +19664,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "32200",
           "GroupNo": "",
           "RecId": 32200,
@@ -21215,6 +21137,13 @@
           "OccVac": 1
         },
         {
+          "Room": "125",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "127",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -21616,7 +21545,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21637,7 +21566,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -21646,14 +21575,14 @@
     },
     "2026-09-21": {
       "summary": {
-        "arrivals_count": 12,
-        "departures_count": 9,
-        "inhouse_count": 68,
+        "arrivals_count": 13,
+        "departures_count": 8,
+        "inhouse_count": 69,
         "noshow_count": 0,
         "vacant_count": 82,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 119
+        "eod_room_count": 69,
+        "eod_pax_count": 121
       },
       "arrivals": [
         {
@@ -21867,6 +21796,27 @@
           "AgencyCode": "TUI UK"
         },
         {
+          "Voucher": "18018879",
+          "GroupNo": "",
+          "RecId": 32278,
+          "FirstName1": "DANIEL",
+          "LastName1": "CHALMERS",
+          "CheckinDate": "2026-09-21",
+          "CheckOutDate": "2026-09-28",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA GBP"
+        },
+        {
           "Voucher": "544Y1N",
           "GroupNo": "",
           "RecId": 28513,
@@ -21910,27 +21860,6 @@
         }
       ],
       "departures": [
-        {
-          "Voucher": "32199",
-          "GroupNo": "",
-          "RecId": 32199,
-          "FirstName1": "NOOR",
-          "LastName1": "EMAD",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-21",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "11:15",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "COMP"
-        },
         {
           "Voucher": "32200",
           "GroupNo": "",
@@ -23467,6 +23396,27 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
+          "Voucher": "18018879",
+          "GroupNo": "",
+          "RecId": 32278,
+          "FirstName1": "DANIEL",
+          "LastName1": "CHALMERS",
+          "CheckinDate": "2026-09-21",
+          "CheckOutDate": "2026-09-28",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA GBP"
+        },
+        {
           "Voucher": "Y7DTK6",
           "GroupNo": "",
           "RecId": 28473,
@@ -24081,7 +24031,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -24102,7 +24052,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
@@ -24113,12 +24063,12 @@
       "summary": {
         "arrivals_count": 4,
         "departures_count": 9,
-        "inhouse_count": 63,
+        "inhouse_count": 64,
         "noshow_count": 0,
         "vacant_count": 89,
         "roomchanges_count": 0,
-        "eod_room_count": 63,
-        "eod_pax_count": 110
+        "eod_room_count": 64,
+        "eod_pax_count": 112
       },
       "arrivals": [
         {
@@ -25617,6 +25567,27 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
+          "Voucher": "18018879",
+          "GroupNo": "",
+          "RecId": 32278,
+          "FirstName1": "DANIEL",
+          "LastName1": "CHALMERS",
+          "CheckinDate": "2026-09-21",
+          "CheckOutDate": "2026-09-28",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "DIANA GBP"
+        },
+        {
           "Voucher": "Y7DTK6",
           "GroupNo": "",
           "RecId": 28473,
@@ -26322,7 +26293,7 @@
         {
           "Room": "701",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -26343,7 +26314,7 @@
         {
           "Room": "705",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         }
