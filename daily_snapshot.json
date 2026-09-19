@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-19 05:00:04",
+  "sync_time": "2026-09-19 06:00:04",
   "report_date": "2026-09-19",
   "summary": {
     "arrivals_count": 19,
-    "departures_count": 28,
-    "inhouse_count": 92,
+    "departures_count": 27,
+    "inhouse_count": 91,
     "noshow_count": 0,
-    "vacant_count": 7,
+    "vacant_count": 8,
     "roomchanges_count": 0,
     "eod_room_count": 83,
     "eod_pax_count": 144,
@@ -605,27 +605,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "RZYM2G",
-        "GroupNo": "",
-        "RecId": 29960,
-        "FirstName1": "EMMA",
-        "LastName1": "EGNELL",
-        "CheckinDate": "2026-09-12",
-        "CheckOutDate": "2026-09-19",
-        "Room": "129",
-        "RoomType": "CLUB SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
-      },
-      {
         "Voucher": "3028294",
         "GroupNo": "",
         "RecId": 30021,
@@ -1193,27 +1172,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "RZYM2G",
-        "GroupNo": "",
-        "RecId": 29960,
-        "FirstName1": "EMMA",
-        "LastName1": "EGNELL",
-        "CheckinDate": "2026-09-12",
-        "CheckOutDate": "2026-09-19",
-        "Room": "129",
-        "RoomType": "CLUB SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "3028294",
@@ -2948,6 +2906,13 @@
         "OccVac": 1
       },
       {
+        "Room": "129",
+        "RoomTypeCode": "CLUB SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "309",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 1,
@@ -4606,27 +4571,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "RZYM2G",
-          "GroupNo": "",
-          "RecId": 29960,
-          "FirstName1": "EMMA",
-          "LastName1": "EGNELL",
-          "CheckinDate": "2026-09-12",
-          "CheckOutDate": "2026-09-19",
-          "Room": "129",
-          "RoomType": "CLUB SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
-        },
-        {
           "Voucher": "3028294",
           "GroupNo": "",
           "RecId": 30021,
@@ -5003,6 +4947,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "RZYM2G",
+          "GroupNo": "",
+          "RecId": 29960,
+          "FirstName1": "EMMA",
+          "LastName1": "EGNELL",
+          "CheckinDate": "2026-09-12",
+          "CheckOutDate": "2026-09-19",
+          "Room": "129",
+          "RoomType": "CLUB SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "102310322",
@@ -6473,10 +6438,10 @@
     "2026-09-19": {
       "summary": {
         "arrivals_count": 19,
-        "departures_count": 28,
-        "inhouse_count": 92,
+        "departures_count": 27,
+        "inhouse_count": 91,
         "noshow_count": 0,
-        "vacant_count": 7,
+        "vacant_count": 8,
         "roomchanges_count": 0,
         "eod_room_count": 83,
         "eod_pax_count": 144
@@ -7073,27 +7038,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "RZYM2G",
-          "GroupNo": "",
-          "RecId": 29960,
-          "FirstName1": "EMMA",
-          "LastName1": "EGNELL",
-          "CheckinDate": "2026-09-12",
-          "CheckOutDate": "2026-09-19",
-          "Room": "129",
-          "RoomType": "CLUB SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
-        },
-        {
           "Voucher": "3028294",
           "GroupNo": "",
           "RecId": 30021,
@@ -7661,27 +7605,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "RZYM2G",
-          "GroupNo": "",
-          "RecId": 29960,
-          "FirstName1": "EMMA",
-          "LastName1": "EGNELL",
-          "CheckinDate": "2026-09-12",
-          "CheckOutDate": "2026-09-19",
-          "Room": "129",
-          "RoomType": "CLUB SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "3028294",
@@ -9412,6 +9335,13 @@
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "129",
+          "RoomTypeCode": "CLUB SEA",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
