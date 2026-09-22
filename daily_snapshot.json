@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-09-22 09:00:04",
+  "sync_time": "2026-09-22 10:00:05",
   "report_date": "2026-09-22",
   "summary": {
     "arrivals_count": 4,
-    "departures_count": 11,
-    "inhouse_count": 76,
+    "departures_count": 10,
+    "inhouse_count": 74,
     "noshow_count": 0,
-    "vacant_count": 27,
+    "vacant_count": 29,
     "roomchanges_count": 0,
-    "eod_room_count": 69,
-    "eod_pax_count": 119,
+    "eod_room_count": 68,
+    "eod_pax_count": 117,
     "hk_count": 111
   },
   "data": {
@@ -309,27 +309,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "6853946525",
-        "GroupNo": "",
-        "RecId": 32307,
-        "FirstName1": "BIRGIT",
-        "LastName1": "BUDDE",
-        "CheckinDate": "2026-09-19",
-        "CheckOutDate": "2026-09-22",
-        "Room": "313",
-        "RoomType": "CLUB SV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 7,
-        "ExtraFolioBalance": -3e-05,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "BOOKING.COM"
       }
     ],
     "inhouse": [
@@ -542,27 +521,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "HOTELBEDS - B2B"
-      },
-      {
-        "Voucher": "6853946525",
-        "GroupNo": "",
-        "RecId": 32307,
-        "FirstName1": "BIRGIT",
-        "LastName1": "BUDDE",
-        "CheckinDate": "2026-09-19",
-        "CheckOutDate": "2026-09-22",
-        "Room": "313",
-        "RoomType": "CLUB SV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 7,
-        "ExtraFolioBalance": -3e-05,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "BOOKING.COM"
       },
       {
         "Voucher": "F023714",
@@ -1166,7 +1124,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 13112.5535,
+        "ExtraFolioBalance": 13279.9478,
         "ResRemark": null,
         "FlightArrival": "19:55",
         "FlightDeparture": null,
@@ -1733,7 +1691,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 18761.4902,
+        "ExtraFolioBalance": 39948.3142,
         "ResRemark": "",
         "FlightArrival": "17.55",
         "FlightDeparture": "",
@@ -1846,27 +1804,6 @@
         "AgencyCode": "DIANA GBP"
       },
       {
-        "Voucher": "32326",
-        "GroupNo": "",
-        "RecId": 32326,
-        "FirstName1": "NONAME",
-        "LastName1": "YANGIN SISTEMI",
-        "CheckinDate": "2026-09-21",
-        "CheckOutDate": "2026-09-28",
-        "Room": "701",
-        "RoomType": "STD SEA L",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
         "Voucher": "Y7DTK6",
         "GroupNo": "",
         "RecId": 28473,
@@ -1970,7 +1907,7 @@
       {
         "Room": "118",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2034,6 +1971,13 @@
         "Room": "309",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "313",
+        "RoomTypeCode": "CLUB SV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2103,6 +2047,13 @@
       {
         "Room": "420",
         "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "701",
+        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -2247,7 +2198,7 @@
       {
         "Room": "118",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2918,6 +2869,27 @@
       },
       "arrivals": [
         {
+          "Voucher": "32326",
+          "GroupNo": "",
+          "RecId": 32326,
+          "FirstName1": "NONAME",
+          "LastName1": "YANGIN SISTEMI",
+          "CheckinDate": "2026-09-21",
+          "CheckOutDate": "2026-09-22",
+          "Room": "701",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32306",
           "GroupNo": "",
           "RecId": 32306,
@@ -3168,27 +3140,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "544Y1N",
@@ -3653,8 +3604,29 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "32326",
+          "GroupNo": "",
+          "RecId": 32326,
+          "FirstName1": "NONAME",
+          "LastName1": "YANGIN SISTEMI",
+          "CheckinDate": "2026-09-21",
+          "CheckOutDate": "2026-09-22",
+          "Room": "701",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "F023714",
@@ -4258,7 +4230,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 13112.5535,
+          "ExtraFolioBalance": 13279.9478,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -4825,7 +4797,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -4938,27 +4910,6 @@
           "AgencyCode": "DIANA GBP"
         },
         {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "Y7DTK6",
           "GroupNo": "",
           "RecId": 28473,
@@ -5062,7 +5013,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5240,13 +5191,13 @@
     "2026-09-22": {
       "summary": {
         "arrivals_count": 4,
-        "departures_count": 11,
-        "inhouse_count": 76,
+        "departures_count": 10,
+        "inhouse_count": 74,
         "noshow_count": 0,
-        "vacant_count": 27,
+        "vacant_count": 29,
         "roomchanges_count": 0,
-        "eod_room_count": 69,
-        "eod_pax_count": 119
+        "eod_room_count": 68,
+        "eod_pax_count": 117
       },
       "arrivals": [
         {
@@ -5544,27 +5495,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "6853946525",
-          "GroupNo": "",
-          "RecId": 32307,
-          "FirstName1": "BIRGIT",
-          "LastName1": "BUDDE",
-          "CheckinDate": "2026-09-19",
-          "CheckOutDate": "2026-09-22",
-          "Room": "313",
-          "RoomType": "CLUB SV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -3e-05,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "BOOKING.COM"
         }
       ],
       "inhouse": [
@@ -5777,27 +5707,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "HOTELBEDS - B2B"
-        },
-        {
-          "Voucher": "6853946525",
-          "GroupNo": "",
-          "RecId": 32307,
-          "FirstName1": "BIRGIT",
-          "LastName1": "BUDDE",
-          "CheckinDate": "2026-09-19",
-          "CheckOutDate": "2026-09-22",
-          "Room": "313",
-          "RoomType": "CLUB SV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": -3e-05,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "F023714",
@@ -6401,7 +6310,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 13112.5535,
+          "ExtraFolioBalance": 13279.9478,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -6968,7 +6877,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -7081,27 +6990,6 @@
           "AgencyCode": "DIANA GBP"
         },
         {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "Y7DTK6",
           "GroupNo": "",
           "RecId": 28473,
@@ -7205,7 +7093,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7269,6 +7157,13 @@
           "Room": "309",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "313",
+          "RoomTypeCode": "CLUB SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7343,6 +7238,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -7363,12 +7265,12 @@
       "summary": {
         "arrivals_count": 12,
         "departures_count": 2,
-        "inhouse_count": 79,
+        "inhouse_count": 78,
         "noshow_count": 0,
-        "vacant_count": 34,
+        "vacant_count": 35,
         "roomchanges_count": 0,
-        "eod_room_count": 79,
-        "eod_pax_count": 138
+        "eod_room_count": 78,
+        "eod_pax_count": 136
       },
       "arrivals": [
         {
@@ -8292,7 +8194,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 13112.5535,
+          "ExtraFolioBalance": 13279.9478,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -8922,7 +8824,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -9054,27 +8956,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "22Q6W5",
@@ -9390,7 +9271,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9556,6 +9437,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -9576,12 +9464,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 11,
-        "inhouse_count": 78,
+        "inhouse_count": 77,
         "noshow_count": 0,
-        "vacant_count": 43,
+        "vacant_count": 44,
         "roomchanges_count": 0,
-        "eod_room_count": 78,
-        "eod_pax_count": 134
+        "eod_room_count": 77,
+        "eod_pax_count": 132
       },
       "arrivals": [
         {
@@ -10421,7 +10309,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 13112.5535,
+          "ExtraFolioBalance": 13279.9478,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -11135,7 +11023,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -11288,27 +11176,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "22Q6W5",
@@ -11722,7 +11589,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11946,6 +11813,13 @@
         {
           "Room": "424",
           "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11978,12 +11852,12 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 11,
-        "inhouse_count": 78,
+        "inhouse_count": 77,
         "noshow_count": 0,
-        "vacant_count": 53,
+        "vacant_count": 54,
         "roomchanges_count": 0,
-        "eod_room_count": 78,
-        "eod_pax_count": 135
+        "eod_room_count": 77,
+        "eod_pax_count": 133
       },
       "arrivals": [
         {
@@ -12655,7 +12529,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 13112.5535,
+          "ExtraFolioBalance": 13279.9478,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -13369,7 +13243,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -13543,27 +13417,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "29986",
@@ -14159,7 +14012,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14444,6 +14297,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -14471,12 +14331,12 @@
       "summary": {
         "arrivals_count": 11,
         "departures_count": 22,
-        "inhouse_count": 67,
+        "inhouse_count": 66,
         "noshow_count": 0,
-        "vacant_count": 72,
+        "vacant_count": 73,
         "roomchanges_count": 0,
-        "eod_room_count": 67,
-        "eod_pax_count": 117
+        "eod_room_count": 66,
+        "eod_pax_count": 115
       },
       "arrivals": [
         {
@@ -14915,7 +14775,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 13112.5535,
+          "ExtraFolioBalance": 13279.9478,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -15631,7 +15491,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -15805,27 +15665,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "29986",
@@ -16680,7 +16519,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17058,6 +16897,13 @@
         {
           "Room": "424",
           "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -17097,12 +16943,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 22,
-        "inhouse_count": 51,
+        "inhouse_count": 50,
         "noshow_count": 0,
-        "vacant_count": 89,
+        "vacant_count": 90,
         "roomchanges_count": 0,
-        "eod_room_count": 51,
-        "eod_pax_count": 90
+        "eod_room_count": 50,
+        "eod_pax_count": 88
       },
       "arrivals": [
         {
@@ -17688,7 +17534,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 18761.4902,
+          "ExtraFolioBalance": 39948.3142,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -17864,27 +17710,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "29986",
@@ -18865,7 +18690,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19367,6 +19192,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -19400,7 +19232,7 @@
     "2026-09-28": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 9,
+        "departures_count": 8,
         "inhouse_count": 55,
         "noshow_count": 0,
         "vacant_count": 95,
@@ -19851,27 +19683,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "32326",
-          "GroupNo": "",
-          "RecId": 32326,
-          "FirstName1": "NONAME",
-          "LastName1": "YANGIN SISTEMI",
-          "CheckinDate": "2026-09-21",
-          "CheckOutDate": "2026-09-28",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [
@@ -21127,7 +20938,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23179,7 +22990,7 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
