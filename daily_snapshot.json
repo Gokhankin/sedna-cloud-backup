@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-09-23 10:00:04",
+  "sync_time": "2026-09-23 11:00:07",
   "report_date": "2026-09-23",
   "summary": {
     "arrivals_count": 14,
@@ -22,8 +22,8 @@
         "LastName1": "DURHAM",
         "CheckinDate": "2026-09-23",
         "CheckOutDate": "2026-09-25",
-        "Room": "126",
-        "RoomType": "CLUB SEA",
+        "Room": "132",
+        "RoomType": "SUIT",
         "Board": "AI",
         "Pax": 2,
         "Childs": 0,
@@ -1757,6 +1757,13 @@
         "OccVac": 1
       },
       {
+        "Room": "126",
+        "RoomTypeCode": "CLUB SEA",
+        "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "129",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 0,
@@ -1767,13 +1774,6 @@
         "Room": "130",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "132",
-        "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1903,14 +1903,14 @@
       {
         "Room": "103",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "104",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2064,7 +2064,7 @@
       {
         "Room": "126",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2414,7 +2414,7 @@
       {
         "Room": "331",
         "RoomTypeCode": "STD-SVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2603,7 +2603,7 @@
       {
         "Room": "421",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4459,14 +4459,14 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4529,7 +4529,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4627,7 +4627,7 @@
         {
           "Room": "331",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4683,7 +4683,7 @@
         {
           "Room": "421",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4738,8 +4738,8 @@
           "LastName1": "DURHAM",
           "CheckinDate": "2026-09-23",
           "CheckOutDate": "2026-09-25",
-          "Room": "126",
-          "RoomType": "CLUB SEA",
+          "Room": "132",
+          "RoomType": "SUIT",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -6473,6 +6473,13 @@
           "OccVac": 1
         },
         {
+          "Room": "126",
+          "RoomTypeCode": "CLUB SEA",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
@@ -6483,13 +6490,6 @@
           "Room": "130",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6852,8 +6852,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7108,8 +7108,8 @@
           "LastName1": "DURHAM",
           "CheckinDate": "2026-09-23",
           "CheckOutDate": "2026-09-25",
-          "Room": "126",
-          "RoomType": "CLUB SEA",
+          "Room": "132",
+          "RoomType": "SUIT",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -8767,8 +8767,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -8840,6 +8840,13 @@
           "OccVac": 1
         },
         {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
@@ -8854,16 +8861,16 @@
           "OccVac": 1
         },
         {
-          "Room": "130",
-          "RoomTypeCode": "SUIT",
+          "Room": "126",
+          "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "132",
+          "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8912,13 +8919,6 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -9298,8 +9298,8 @@
           "LastName1": "DURHAM",
           "CheckinDate": "2026-09-23",
           "CheckOutDate": "2026-09-25",
-          "Room": "126",
-          "RoomType": "CLUB SEA",
+          "Room": "132",
+          "RoomType": "SUIT",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -11169,8 +11169,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11263,6 +11263,13 @@
           "OccVac": 1
         },
         {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -11293,7 +11300,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11377,13 +11384,6 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -13683,8 +13683,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13779,7 +13779,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13833,6 +13833,13 @@
           "OccVac": 1
         },
         {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -13877,7 +13884,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14010,13 +14017,6 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -15826,8 +15826,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15943,7 +15943,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15993,6 +15993,13 @@
           "Room": "112",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16048,7 +16055,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16230,13 +16237,6 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -17906,8 +17906,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18191,7 +18191,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18241,6 +18241,13 @@
           "Room": "112",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18296,7 +18303,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18490,13 +18497,6 @@
           "OccVac": 1
         },
         {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -18597,7 +18597,7 @@
         {
           "Room": "331",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19902,8 +19902,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -20250,7 +20250,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20300,6 +20300,13 @@
           "Room": "112",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20362,7 +20369,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20563,13 +20570,6 @@
           "OccVac": 1
         },
         {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -20677,7 +20677,7 @@
         {
           "Room": "331",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21814,8 +21814,8 @@
           "LastName1": "BREMNER",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-10-04",
-          "Room": "113",
-          "RoomType": "JR SUIT S",
+          "Room": "314",
+          "RoomType": "SUIT",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -22204,14 +22204,14 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22261,6 +22261,13 @@
           "Room": "112",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "113",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22337,7 +22344,7 @@
         {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22559,13 +22566,6 @@
           "OccVac": 1
         },
         {
-          "Room": "314",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -22673,7 +22673,7 @@
         {
           "Room": "331",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22841,7 +22841,7 @@
         {
           "Room": "421",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
