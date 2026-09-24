@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-09-24 02:00:05",
+  "sync_time": "2026-09-24 03:00:08",
   "report_date": "2026-09-24",
   "summary": {
-    "arrivals_count": 15,
+    "arrivals_count": 16,
     "departures_count": 13,
     "inhouse_count": 83,
     "noshow_count": 0,
     "vacant_count": 17,
     "roomchanges_count": 0,
-    "eod_room_count": 85,
-    "eod_pax_count": 146,
+    "eod_room_count": 86,
+    "eod_pax_count": 148,
     "hk_count": 111
   },
   "data": {
@@ -34,6 +34,27 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "BOOKING.COM"
+      },
+      {
+        "Voucher": "HWMW9E",
+        "GroupNo": "",
+        "RecId": 32353,
+        "FirstName1": "ABDULLAH",
+        "LastName1": "KAKI",
+        "CheckinDate": "2026-09-24",
+        "CheckOutDate": "2026-09-26",
+        "Room": "123",
+        "RoomType": "CLUB SEA",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 5,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 1,
+        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "TAYFUNYOGA2",
@@ -1943,7 +1964,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 31,
-        "ExtraFolioBalance": 11170.26,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "20:40",
         "FlightDeparture": "00:01",
@@ -3428,7 +3449,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 31,
-          "ExtraFolioBalance": 11170.26,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "20:40",
           "FlightDeparture": "00:01",
@@ -5007,7 +5028,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 31,
-          "ExtraFolioBalance": 11170.26,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "20:40",
           "FlightDeparture": "00:01",
@@ -5582,14 +5603,14 @@
     },
     "2026-09-24": {
       "summary": {
-        "arrivals_count": 15,
+        "arrivals_count": 16,
         "departures_count": 13,
         "inhouse_count": 83,
         "noshow_count": 0,
         "vacant_count": 17,
         "roomchanges_count": 0,
-        "eod_room_count": 85,
-        "eod_pax_count": 146
+        "eod_room_count": 86,
+        "eod_pax_count": 148
       },
       "arrivals": [
         {
@@ -5612,6 +5633,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "HWMW9E",
+          "GroupNo": "",
+          "RecId": 32353,
+          "FirstName1": "ABDULLAH",
+          "LastName1": "KAKI",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-26",
+          "Room": "123",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "TAYFUNYOGA2",
@@ -7521,7 +7563,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 31,
-          "ExtraFolioBalance": 11170.26,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "20:40",
           "FlightDeparture": "00:01",
@@ -8056,12 +8098,12 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 11,
-        "inhouse_count": 87,
+        "inhouse_count": 88,
         "noshow_count": 0,
-        "vacant_count": 30,
+        "vacant_count": 29,
         "roomchanges_count": 0,
-        "eod_room_count": 87,
-        "eod_pax_count": 150
+        "eod_room_count": 88,
+        "eod_pax_count": 152
       },
       "arrivals": [
         {
@@ -8634,6 +8676,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "HWMW9E",
+          "GroupNo": "",
+          "RecId": 32353,
+          "FirstName1": "ABDULLAH",
+          "LastName1": "KAKI",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-26",
+          "Room": "123",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "2981599",
@@ -9636,7 +9699,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 31,
-          "ExtraFolioBalance": 11170.26,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "20:40",
           "FlightDeparture": "00:01",
@@ -10459,13 +10522,6 @@
           "OccVac": 1
         },
         {
-          "Room": "123",
-          "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "126",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -10618,7 +10674,7 @@
     "2026-09-26": {
       "summary": {
         "arrivals_count": 12,
-        "departures_count": 25,
+        "departures_count": 26,
         "inhouse_count": 74,
         "noshow_count": 0,
         "vacant_count": 53,
@@ -10943,6 +10999,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "HWMW9E",
+          "GroupNo": "",
+          "RecId": 32353,
+          "FirstName1": "ABDULLAH",
+          "LastName1": "KAKI",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-26",
+          "Room": "123",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "2981599",
@@ -11947,7 +12024,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 31,
-          "ExtraFolioBalance": 11170.26,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "20:40",
           "FlightDeparture": "00:01",
@@ -14018,7 +14095,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 31,
-          "ExtraFolioBalance": 11170.26,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "20:40",
           "FlightDeparture": "00:01",
