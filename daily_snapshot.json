@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-25 01:00:04",
+  "sync_time": "2026-09-25 02:00:06",
   "report_date": "2026-09-25",
   "summary": {
     "arrivals_count": 13,
     "departures_count": 11,
-    "inhouse_count": 87,
+    "inhouse_count": 88,
     "noshow_count": 0,
-    "vacant_count": 13,
+    "vacant_count": 12,
     "roomchanges_count": 0,
     "eod_room_count": 90,
     "eod_pax_count": 156,
@@ -1825,6 +1825,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "8777582",
+        "GroupNo": "",
+        "RecId": 30840,
+        "FirstName1": "NATALIIA",
+        "LastName1": "VOVK",
+        "CheckinDate": "2026-09-24",
+        "CheckOutDate": "2026-09-28",
+        "Room": "333",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 9,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "21:40",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "EASYJET"
+      },
+      {
         "Voucher": "CM5WKC",
         "GroupNo": "",
         "RecId": 31603,
@@ -2409,13 +2430,6 @@
         "OccVac": 1
       },
       {
-        "Room": "333",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "337",
         "RoomTypeCode": "STD-SV",
         "DirtyClean": 0,
@@ -2989,7 +3003,7 @@
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3467,7 +3481,7 @@
           "ResRemark": "",
           "FlightArrival": "21:40",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "EASYJET"
         },
         {
@@ -5134,27 +5148,6 @@
           "AgencyCode": "MUNFERIT TL"
         },
         {
-          "Voucher": "8777582",
-          "GroupNo": "",
-          "RecId": 30840,
-          "FirstName1": "NATALIIA",
-          "LastName1": "VOVK",
-          "CheckinDate": "2026-09-24",
-          "CheckOutDate": "2026-09-28",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "21:40",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "3034219",
           "GroupNo": "",
           "RecId": 30713,
@@ -5174,6 +5167,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "8777582",
+          "GroupNo": "",
+          "RecId": 30840,
+          "FirstName1": "NATALIIA",
+          "LastName1": "VOVK",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-28",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:40",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "CM5WKC",
@@ -5836,9 +5850,9 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 11,
-        "inhouse_count": 87,
+        "inhouse_count": 88,
         "noshow_count": 0,
-        "vacant_count": 13,
+        "vacant_count": 12,
         "roomchanges_count": 0,
         "eod_room_count": 90,
         "eod_pax_count": 156
@@ -7655,6 +7669,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "8777582",
+          "GroupNo": "",
+          "RecId": 30840,
+          "FirstName1": "NATALIIA",
+          "LastName1": "VOVK",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-28",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:40",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "CM5WKC",
           "GroupNo": "",
           "RecId": 31603,
@@ -8235,13 +8270,6 @@
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "333",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9679,27 +9707,6 @@
           "AgencyCode": "MUNFERIT TL"
         },
         {
-          "Voucher": "8777582",
-          "GroupNo": "",
-          "RecId": 30840,
-          "FirstName1": "NATALIIA",
-          "LastName1": "VOVK",
-          "CheckinDate": "2026-09-24",
-          "CheckOutDate": "2026-09-28",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "21:40",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "2639288",
           "GroupNo": "",
           "RecId": 32313,
@@ -9740,6 +9747,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "8777582",
+          "GroupNo": "",
+          "RecId": 30840,
+          "FirstName1": "NATALIIA",
+          "LastName1": "VOVK",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-28",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:40",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "CM5WKC",
@@ -11703,27 +11731,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "8777582",
-          "GroupNo": "",
-          "RecId": 30840,
-          "FirstName1": "NATALIIA",
-          "LastName1": "VOVK",
-          "CheckinDate": "2026-09-24",
-          "CheckOutDate": "2026-09-28",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "21:40",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "2639288",
           "GroupNo": "",
           "RecId": 32313,
@@ -11764,6 +11771,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "8777582",
+          "GroupNo": "",
+          "RecId": 30840,
+          "FirstName1": "NATALIIA",
+          "LastName1": "VOVK",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-28",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:40",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "CM5WKC",
@@ -13641,27 +13669,6 @@
       ],
       "departures": [
         {
-          "Voucher": "8777582",
-          "GroupNo": "",
-          "RecId": 30840,
-          "FirstName1": "NATALIIA",
-          "LastName1": "VOVK",
-          "CheckinDate": "2026-09-24",
-          "CheckOutDate": "2026-09-28",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "21:40",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "2639288",
           "GroupNo": "",
           "RecId": 32313,
@@ -13702,6 +13709,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "8777582",
+          "GroupNo": "",
+          "RecId": 30840,
+          "FirstName1": "NATALIIA",
+          "LastName1": "VOVK",
+          "CheckinDate": "2026-09-24",
+          "CheckOutDate": "2026-09-28",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "21:40",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "CM5WKC",
@@ -15482,7 +15510,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17541,7 +17569,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19509,7 +19537,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21547,7 +21575,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23585,7 +23613,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
