@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-24 08:00:05",
+  "sync_time": "2026-09-24 09:00:05",
   "report_date": "2026-09-24",
   "summary": {
     "arrivals_count": 16,
-    "departures_count": 9,
-    "inhouse_count": 80,
+    "departures_count": 8,
+    "inhouse_count": 79,
     "noshow_count": 0,
-    "vacant_count": 18,
+    "vacant_count": 19,
     "roomchanges_count": 0,
     "eod_room_count": 87,
     "eod_pax_count": 149,
@@ -395,27 +395,6 @@
         "AgencyCode": "JET2"
       },
       {
-        "Voucher": "8709813",
-        "GroupNo": "",
-        "RecId": 30505,
-        "FirstName1": "HARRY JAMES",
-        "LastName1": "LAWLER",
-        "CheckinDate": "2026-09-15",
-        "CheckOutDate": "2026-09-24",
-        "Room": "410",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 9,
-        "ExtraFolioBalance": 14847.526,
-        "ResRemark": "",
-        "FlightArrival": "14:05",
-        "FlightDeparture": "14:10",
-        "Status": 2,
-        "AgencyCode": "EASYJET"
-      },
-      {
         "Voucher": "3033970",
         "GroupNo": "",
         "RecId": 30728,
@@ -584,27 +563,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "8709813",
-        "GroupNo": "",
-        "RecId": 30505,
-        "FirstName1": "HARRY JAMES",
-        "LastName1": "LAWLER",
-        "CheckinDate": "2026-09-15",
-        "CheckOutDate": "2026-09-24",
-        "Room": "410",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 9,
-        "ExtraFolioBalance": 14847.526,
-        "ResRemark": "",
-        "FlightArrival": "14:05",
-        "FlightDeparture": "14:10",
-        "Status": 2,
-        "AgencyCode": "EASYJET"
       },
       {
         "Voucher": "3033970",
@@ -2332,6 +2290,13 @@
         "OccVac": 1
       },
       {
+        "Room": "410",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "419",
         "RoomTypeCode": "CLUB LV",
         "DirtyClean": 0,
@@ -3594,27 +3559,6 @@
           "AgencyCode": "JET2"
         },
         {
-          "Voucher": "8709813",
-          "GroupNo": "",
-          "RecId": 30505,
-          "FirstName1": "HARRY JAMES",
-          "LastName1": "LAWLER",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-24",
-          "Room": "410",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 14847.526,
-          "ResRemark": "",
-          "FlightArrival": "14:05",
-          "FlightDeparture": "14:10",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "3033970",
           "GroupNo": "",
           "RecId": 30728,
@@ -3739,6 +3683,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "8709813",
+          "GroupNo": "",
+          "RecId": 30505,
+          "FirstName1": "HARRY JAMES",
+          "LastName1": "LAWLER",
+          "CheckinDate": "2026-09-15",
+          "CheckOutDate": "2026-09-24",
+          "Room": "410",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "14:05",
+          "FlightDeparture": "14:10",
+          "Status": 3,
+          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "32101",
@@ -5464,10 +5429,10 @@
     "2026-09-24": {
       "summary": {
         "arrivals_count": 16,
-        "departures_count": 9,
-        "inhouse_count": 80,
+        "departures_count": 8,
+        "inhouse_count": 79,
         "noshow_count": 0,
-        "vacant_count": 18,
+        "vacant_count": 19,
         "roomchanges_count": 0,
         "eod_room_count": 87,
         "eod_pax_count": 149
@@ -5854,27 +5819,6 @@
           "AgencyCode": "JET2"
         },
         {
-          "Voucher": "8709813",
-          "GroupNo": "",
-          "RecId": 30505,
-          "FirstName1": "HARRY JAMES",
-          "LastName1": "LAWLER",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-24",
-          "Room": "410",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 14847.526,
-          "ResRemark": "",
-          "FlightArrival": "14:05",
-          "FlightDeparture": "14:10",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "3033970",
           "GroupNo": "",
           "RecId": 30728,
@@ -6043,27 +5987,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "8709813",
-          "GroupNo": "",
-          "RecId": 30505,
-          "FirstName1": "HARRY JAMES",
-          "LastName1": "LAWLER",
-          "CheckinDate": "2026-09-15",
-          "CheckOutDate": "2026-09-24",
-          "Room": "410",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 14847.526,
-          "ResRemark": "",
-          "FlightArrival": "14:05",
-          "FlightDeparture": "14:10",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
         },
         {
           "Voucher": "3033970",
@@ -7785,6 +7708,13 @@
         },
         {
           "Room": "407",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "410",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
