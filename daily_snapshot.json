@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-24 09:00:05",
+  "sync_time": "2026-09-24 10:00:05",
   "report_date": "2026-09-24",
   "summary": {
     "arrivals_count": 16,
     "departures_count": 8,
     "inhouse_count": 79,
     "noshow_count": 0,
-    "vacant_count": 19,
+    "vacant_count": 17,
     "roomchanges_count": 0,
     "eod_room_count": 87,
     "eod_pax_count": 149,
@@ -148,13 +148,13 @@
         "LastName1": "DALOGLU",
         "CheckinDate": "2026-09-24",
         "CheckOutDate": "2026-09-27",
-        "Room": "",
-        "RoomType": "STD-SV",
+        "Room": "309",
+        "RoomType": "SUIT",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 8,
-        "ExtraFolioBalance": -49070.12613,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -169,7 +169,7 @@
         "LastName1": "DEMIRBAG",
         "CheckinDate": "2026-09-24",
         "CheckOutDate": "2026-09-27",
-        "Room": "",
+        "Room": "410",
         "RoomType": "STD-LV",
         "Board": "BB",
         "Pax": 2,
@@ -190,7 +190,7 @@
         "LastName1": "DEMIRBAG01",
         "CheckinDate": "2026-09-24",
         "CheckOutDate": "2026-09-27",
-        "Room": "",
+        "Room": "405",
         "RoomType": "STD-LV",
         "Board": "BB",
         "Pax": 2,
@@ -956,7 +956,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 613.7791,
+        "ExtraFolioBalance": 3292.0879,
         "ResRemark": "REPEAT+BIRTHDAY ODA SÜSLEMESİ VE GİRİŞ GÜNÜ CANTİNA AKŞAM YEMEĞİ İÇİM MASA REZERVASYONU İSTER",
         "FlightArrival": "16:05",
         "FlightDeparture": "06:15",
@@ -1712,7 +1712,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 44631.7174,
+        "ExtraFolioBalance": 49092.1014,
         "ResRemark": "",
         "FlightArrival": "17.55",
         "FlightDeparture": "",
@@ -2255,13 +2255,6 @@
         "OccVac": 1
       },
       {
-        "Room": "309",
-        "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "313",
         "RoomTypeCode": "CLUB SV",
         "DirtyClean": 0,
@@ -2284,13 +2277,6 @@
       },
       {
         "Room": "407",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "410",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
         "HkStatus": 0,
@@ -4034,7 +4020,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 613.7791,
+          "ExtraFolioBalance": 3292.0879,
           "ResRemark": "REPEAT+BIRTHDAY ODA SÜSLEMESİ VE GİRİŞ GÜNÜ CANTİNA AKŞAM YEMEĞİ İÇİM MASA REZERVASYONU İSTER",
           "FlightArrival": "16:05",
           "FlightDeparture": "06:15",
@@ -4790,7 +4776,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 44631.7174,
+          "ExtraFolioBalance": 49092.1014,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -5432,7 +5418,7 @@
         "departures_count": 8,
         "inhouse_count": 79,
         "noshow_count": 0,
-        "vacant_count": 19,
+        "vacant_count": 17,
         "roomchanges_count": 0,
         "eod_room_count": 87,
         "eod_pax_count": 149
@@ -5572,13 +5558,13 @@
           "LastName1": "DALOGLU",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "309",
+          "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -49070.12613,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5593,7 +5579,7 @@
           "LastName1": "DEMIRBAG",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "410",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -5614,7 +5600,7 @@
           "LastName1": "DEMIRBAG01",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "405",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -6380,7 +6366,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 613.7791,
+          "ExtraFolioBalance": 3292.0879,
           "ResRemark": "REPEAT+BIRTHDAY ODA SÜSLEMESİ VE GİRİŞ GÜNÜ CANTİNA AKŞAM YEMEĞİ İÇİM MASA REZERVASYONU İSTER",
           "FlightArrival": "16:05",
           "FlightDeparture": "06:15",
@@ -7136,7 +7122,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 44631.7174,
+          "ExtraFolioBalance": 49092.1014,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -7679,13 +7665,6 @@
           "OccVac": 1
         },
         {
-          "Room": "309",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
           "DirtyClean": 0,
@@ -7708,13 +7687,6 @@
         },
         {
           "Room": "407",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "410",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -7750,7 +7722,7 @@
         "departures_count": 11,
         "inhouse_count": 89,
         "noshow_count": 0,
-        "vacant_count": 28,
+        "vacant_count": 25,
         "roomchanges_count": 0,
         "eod_room_count": 89,
         "eod_pax_count": 153
@@ -8383,7 +8355,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 613.7791,
+          "ExtraFolioBalance": 3292.0879,
           "ResRemark": "REPEAT+BIRTHDAY ODA SÜSLEMESİ VE GİRİŞ GÜNÜ CANTİNA AKŞAM YEMEĞİ İÇİM MASA REZERVASYONU İSTER",
           "FlightArrival": "16:05",
           "FlightDeparture": "06:15",
@@ -8923,13 +8895,13 @@
           "LastName1": "DALOGLU",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "309",
+          "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -49070.12613,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8944,7 +8916,7 @@
           "LastName1": "DEMIRBAG",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "410",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -8965,7 +8937,7 @@
           "LastName1": "DEMIRBAG01",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "405",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -9307,7 +9279,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 44631.7174,
+          "ExtraFolioBalance": 49092.1014,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -10228,13 +10200,6 @@
           "OccVac": 1
         },
         {
-          "Room": "309",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -10277,21 +10242,7 @@
           "OccVac": 1
         },
         {
-          "Room": "405",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "407",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "410",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -10337,14 +10288,14 @@
     },
     "2026-09-26": {
       "summary": {
-        "arrivals_count": 12,
+        "arrivals_count": 13,
         "departures_count": 26,
-        "inhouse_count": 75,
+        "inhouse_count": 76,
         "noshow_count": 0,
-        "vacant_count": 52,
+        "vacant_count": 49,
         "roomchanges_count": 0,
-        "eod_room_count": 75,
-        "eod_pax_count": 130
+        "eod_room_count": 76,
+        "eod_pax_count": 131
       },
       "arrivals": [
         {
@@ -10579,6 +10530,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
+        },
+        {
           "Voucher": "17143274",
           "GroupNo": "",
           "RecId": 28675,
@@ -10720,7 +10692,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 613.7791,
+          "ExtraFolioBalance": 3292.0879,
           "ResRemark": "REPEAT+BIRTHDAY ODA SÜSLEMESİ VE GİRİŞ GÜNÜ CANTİNA AKŞAM YEMEĞİ İÇİM MASA REZERVASYONU İSTER",
           "FlightArrival": "16:05",
           "FlightDeparture": "06:15",
@@ -11262,13 +11234,13 @@
           "LastName1": "DALOGLU",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "309",
+          "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -49070.12613,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -11283,7 +11255,7 @@
           "LastName1": "DEMIRBAG",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "410",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -11304,7 +11276,7 @@
           "LastName1": "DEMIRBAG01",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "405",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -11646,7 +11618,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 44631.7174,
+          "ExtraFolioBalance": 49092.1014,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -12599,6 +12571,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
+        },
+        {
           "Voucher": "3041293",
           "GroupNo": "",
           "RecId": 31474,
@@ -12924,13 +12917,6 @@
           "OccVac": 1
         },
         {
-          "Room": "309",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "310",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -13008,13 +12994,6 @@
           "OccVac": 1
         },
         {
-          "Room": "405",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "406",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 1,
@@ -13030,13 +13009,6 @@
         },
         {
           "Room": "409",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "410",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -13098,12 +13070,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 26,
-        "inhouse_count": 55,
+        "inhouse_count": 56,
         "noshow_count": 0,
         "vacant_count": 73,
         "roomchanges_count": 0,
-        "eod_room_count": 55,
-        "eod_pax_count": 95
+        "eod_room_count": 56,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -13347,13 +13319,13 @@
           "LastName1": "DALOGLU",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "309",
+          "RoomType": "SUIT",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": -49070.12613,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -13368,7 +13340,7 @@
           "LastName1": "DEMIRBAG",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "410",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -13389,7 +13361,7 @@
           "LastName1": "DEMIRBAG01",
           "CheckinDate": "2026-09-24",
           "CheckOutDate": "2026-09-27",
-          "Room": "",
+          "Room": "405",
           "RoomType": "STD-LV",
           "Board": "BB",
           "Pax": 2,
@@ -13731,7 +13703,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 44631.7174,
+          "ExtraFolioBalance": 49092.1014,
           "ResRemark": "",
           "FlightArrival": "17.55",
           "FlightDeparture": "",
@@ -14768,6 +14740,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
         },
         {
           "Voucher": "3041293",
@@ -15458,12 +15451,12 @@
       "summary": {
         "arrivals_count": 14,
         "departures_count": 8,
-        "inhouse_count": 61,
+        "inhouse_count": 62,
         "noshow_count": 0,
         "vacant_count": 79,
         "roomchanges_count": 0,
-        "eod_room_count": 61,
-        "eod_pax_count": 106
+        "eod_room_count": 62,
+        "eod_pax_count": 107
       },
       "arrivals": [
         {
@@ -16855,6 +16848,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
         },
         {
           "Voucher": "3041293",
@@ -17776,12 +17790,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 5,
-        "inhouse_count": 61,
+        "inhouse_count": 62,
         "noshow_count": 0,
         "vacant_count": 83,
         "roomchanges_count": 0,
-        "eod_room_count": 61,
-        "eod_pax_count": 107
+        "eod_room_count": 62,
+        "eod_pax_count": 108
       },
       "arrivals": [
         {
@@ -18816,6 +18830,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
         },
         {
           "Voucher": "3041293",
@@ -19870,12 +19905,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 9,
-        "inhouse_count": 54,
+        "inhouse_count": 55,
         "noshow_count": 0,
         "vacant_count": 92,
         "roomchanges_count": 0,
-        "eod_room_count": 54,
-        "eod_pax_count": 94
+        "eod_room_count": 55,
+        "eod_pax_count": 95
       },
       "arrivals": [
         {
@@ -20742,6 +20777,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "ADDAJET"
+        },
+        {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
         },
         {
           "Voucher": "3041293",
@@ -21899,14 +21955,14 @@
     },
     "2026-10-01": {
       "summary": {
-        "arrivals_count": 5,
+        "arrivals_count": 6,
         "departures_count": 7,
-        "inhouse_count": 52,
+        "inhouse_count": 54,
         "noshow_count": 0,
         "vacant_count": 97,
         "roomchanges_count": 0,
-        "eod_room_count": 52,
-        "eod_pax_count": 92
+        "eod_room_count": 54,
+        "eod_pax_count": 94
       },
       "arrivals": [
         {
@@ -21950,6 +22006,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "34445994",
+          "GroupNo": "",
+          "RecId": 32354,
+          "FirstName1": "HAZEL",
+          "LastName1": "WILLIAMS",
+          "CheckinDate": "2026-10-01",
+          "CheckOutDate": "2026-10-07",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:05",
+          "FlightDeparture": "23:15",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "3038307",
@@ -22649,6 +22726,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "MB7X2PZ-1-0174977517",
+          "GroupNo": "",
+          "RecId": 32355,
+          "FirstName1": "TIMOTHY",
+          "LastName1": "NORBRON",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-03",
+          "Room": "",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1085,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "BA HOLIDAYS"
+        },
+        {
           "Voucher": "3041293",
           "GroupNo": "",
           "RecId": 31474,
@@ -23109,6 +23207,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "34445994",
+          "GroupNo": "",
+          "RecId": 32354,
+          "FirstName1": "HAZEL",
+          "LastName1": "WILLIAMS",
+          "CheckinDate": "2026-10-01",
+          "CheckOutDate": "2026-10-07",
+          "Room": "",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:05",
+          "FlightDeparture": "23:15",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "7360661",
