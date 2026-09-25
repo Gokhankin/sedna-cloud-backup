@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-25 06:00:05",
+  "sync_time": "2026-09-25 07:00:05",
   "report_date": "2026-09-25",
   "summary": {
     "arrivals_count": 12,
-    "departures_count": 10,
-    "inhouse_count": 88,
+    "departures_count": 9,
+    "inhouse_count": 87,
     "noshow_count": 0,
-    "vacant_count": 12,
+    "vacant_count": 13,
     "roomchanges_count": 0,
     "eod_room_count": 90,
     "eod_pax_count": 156,
@@ -353,27 +353,6 @@
         "AgencyCode": "JET2"
       },
       {
-        "Voucher": "81224215",
-        "GroupNo": "",
-        "RecId": 31805,
-        "FirstName1": "URSZULA",
-        "LastName1": "LESZCZYNSKA",
-        "CheckinDate": "2026-09-14",
-        "CheckOutDate": "2026-09-25",
-        "Room": "114",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1115,
-        "ExtraFolioBalance": 4325.5058,
-        "ResRemark": "",
-        "FlightArrival": "22:05",
-        "FlightDeparture": "11:30",
-        "Status": 2,
-        "AgencyCode": "TUI POLAND"
-      },
-      {
         "Voucher": "3045924",
         "GroupNo": "",
         "RecId": 31937,
@@ -563,27 +542,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "81224215",
-        "GroupNo": "",
-        "RecId": 31805,
-        "FirstName1": "URSZULA",
-        "LastName1": "LESZCZYNSKA",
-        "CheckinDate": "2026-09-14",
-        "CheckOutDate": "2026-09-25",
-        "Room": "114",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1115,
-        "ExtraFolioBalance": 4325.5058,
-        "ResRemark": "",
-        "FlightArrival": "22:05",
-        "FlightDeparture": "11:30",
-        "Status": 2,
-        "AgencyCode": "TUI POLAND"
       },
       {
         "Voucher": "3045924",
@@ -2360,6 +2318,13 @@
         "OccVac": 1
       },
       {
+        "Room": "114",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "118",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
@@ -3909,27 +3874,6 @@
           "AgencyCode": "JET2"
         },
         {
-          "Voucher": "81224215",
-          "GroupNo": "",
-          "RecId": 31805,
-          "FirstName1": "URSZULA",
-          "LastName1": "LESZCZYNSKA",
-          "CheckinDate": "2026-09-14",
-          "CheckOutDate": "2026-09-25",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1115,
-          "ExtraFolioBalance": 4325.5058,
-          "ResRemark": "",
-          "FlightArrival": "22:05",
-          "FlightDeparture": "11:30",
-          "Status": 2,
-          "AgencyCode": "TUI POLAND"
-        },
-        {
           "Voucher": "3045924",
           "GroupNo": "",
           "RecId": 31937,
@@ -4033,6 +3977,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "81224215",
+          "GroupNo": "",
+          "RecId": 31805,
+          "FirstName1": "URSZULA",
+          "LastName1": "LESZCZYNSKA",
+          "CheckinDate": "2026-09-14",
+          "CheckOutDate": "2026-09-25",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1115,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "22:05",
+          "FlightDeparture": "11:30",
+          "Status": 3,
+          "AgencyCode": "TUI POLAND"
         },
         {
           "Voucher": "2638491",
@@ -5807,10 +5772,10 @@
     "2026-09-25": {
       "summary": {
         "arrivals_count": 12,
-        "departures_count": 10,
-        "inhouse_count": 88,
+        "departures_count": 9,
+        "inhouse_count": 87,
         "noshow_count": 0,
-        "vacant_count": 12,
+        "vacant_count": 13,
         "roomchanges_count": 0,
         "eod_room_count": 90,
         "eod_pax_count": 156
@@ -6155,27 +6120,6 @@
           "AgencyCode": "JET2"
         },
         {
-          "Voucher": "81224215",
-          "GroupNo": "",
-          "RecId": 31805,
-          "FirstName1": "URSZULA",
-          "LastName1": "LESZCZYNSKA",
-          "CheckinDate": "2026-09-14",
-          "CheckOutDate": "2026-09-25",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1115,
-          "ExtraFolioBalance": 4325.5058,
-          "ResRemark": "",
-          "FlightArrival": "22:05",
-          "FlightDeparture": "11:30",
-          "Status": 2,
-          "AgencyCode": "TUI POLAND"
-        },
-        {
           "Voucher": "3045924",
           "GroupNo": "",
           "RecId": 31937,
@@ -6365,27 +6309,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "81224215",
-          "GroupNo": "",
-          "RecId": 31805,
-          "FirstName1": "URSZULA",
-          "LastName1": "LESZCZYNSKA",
-          "CheckinDate": "2026-09-14",
-          "CheckOutDate": "2026-09-25",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1115,
-          "ExtraFolioBalance": 4325.5058,
-          "ResRemark": "",
-          "FlightArrival": "22:05",
-          "FlightDeparture": "11:30",
-          "Status": 2,
-          "AgencyCode": "TUI POLAND"
         },
         {
           "Voucher": "3045924",
@@ -8158,6 +8081,13 @@
           "Room": "112",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "114",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
