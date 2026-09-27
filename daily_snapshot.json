@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-27 03:00:05",
+  "sync_time": "2026-09-27 04:00:05",
   "report_date": "2026-09-27",
   "summary": {
     "arrivals_count": 6,
-    "departures_count": 27,
-    "inhouse_count": 80,
+    "departures_count": 26,
+    "inhouse_count": 79,
     "noshow_count": 0,
-    "vacant_count": 24,
+    "vacant_count": 25,
     "roomchanges_count": 0,
     "eod_room_count": 59,
     "eod_pax_count": 101,
@@ -687,27 +687,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "MUNFERIT TL"
-      },
-      {
-        "Voucher": "32360",
-        "GroupNo": "",
-        "RecId": 32360,
-        "FirstName1": "CHRISTINA",
-        "LastName1": "BLUFSTEIN",
-        "CheckinDate": "2026-09-25",
-        "CheckOutDate": "2026-09-27",
-        "Room": "313",
-        "RoomType": "CLUB SV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 2719.2305,
-        "ResRemark": null,
-        "FlightArrival": "AKSAM",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       }
     ],
     "inhouse": [
@@ -1256,27 +1235,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "MUNFERIT TL"
-      },
-      {
-        "Voucher": "32360",
-        "GroupNo": "",
-        "RecId": 32360,
-        "FirstName1": "CHRISTINA",
-        "LastName1": "BLUFSTEIN",
-        "CheckinDate": "2026-09-25",
-        "CheckOutDate": "2026-09-27",
-        "Room": "313",
-        "RoomType": "CLUB SV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 2719.2305,
-        "ResRemark": null,
-        "FlightArrival": "AKSAM",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "3034219",
@@ -2510,6 +2468,13 @@
         "Room": "310",
         "RoomTypeCode": "STD-SVL",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "313",
+        "RoomTypeCode": "CLUB SV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4762,11 +4727,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 2719.2305,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "AKSAM",
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -6066,10 +6031,10 @@
     "2026-09-27": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 27,
-        "inhouse_count": 80,
+        "departures_count": 26,
+        "inhouse_count": 79,
         "noshow_count": 0,
-        "vacant_count": 24,
+        "vacant_count": 25,
         "roomchanges_count": 0,
         "eod_room_count": 59,
         "eod_pax_count": 101
@@ -6748,27 +6713,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT TL"
-        },
-        {
-          "Voucher": "32360",
-          "GroupNo": "",
-          "RecId": 32360,
-          "FirstName1": "CHRISTINA",
-          "LastName1": "BLUFSTEIN",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-09-27",
-          "Room": "313",
-          "RoomType": "CLUB SV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 2719.2305,
-          "ResRemark": null,
-          "FlightArrival": "AKSAM",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         }
       ],
       "inhouse": [
@@ -7317,27 +7261,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT TL"
-        },
-        {
-          "Voucher": "32360",
-          "GroupNo": "",
-          "RecId": 32360,
-          "FirstName1": "CHRISTINA",
-          "LastName1": "BLUFSTEIN",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-09-27",
-          "Room": "313",
-          "RoomType": "CLUB SV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 2719.2305,
-          "ResRemark": null,
-          "FlightArrival": "AKSAM",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "3034219",
@@ -8571,6 +8494,13 @@
           "Room": "310",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "313",
+          "RoomTypeCode": "CLUB SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
