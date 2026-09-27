@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-27 08:00:05",
+  "sync_time": "2026-09-27 09:00:05",
   "report_date": "2026-09-27",
   "summary": {
     "arrivals_count": 6,
     "departures_count": 26,
     "inhouse_count": 79,
     "noshow_count": 0,
-    "vacant_count": 25,
+    "vacant_count": 24,
     "roomchanges_count": 0,
     "eod_room_count": 59,
     "eod_pax_count": 101,
@@ -43,8 +43,8 @@
         "LastName1": "STOLLARD",
         "CheckinDate": "2026-09-27",
         "CheckOutDate": "2026-10-02",
-        "Room": "209",
-        "RoomType": "STD SEA L",
+        "Room": "109",
+        "RoomType": "STD SEA",
         "Board": "AI",
         "Pax": 1,
         "Childs": 0,
@@ -64,7 +64,7 @@
         "LastName1": "TURNER",
         "CheckinDate": "2026-09-27",
         "CheckOutDate": "2026-10-02",
-        "Room": "211",
+        "Room": "108",
         "RoomType": "STD SEA L",
         "Board": "AI",
         "Pax": 1,
@@ -177,7 +177,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 2510.9145,
+        "ExtraFolioBalance": 2845.7031,
         "ResRemark": null,
         "FlightArrival": "13:40",
         "FlightDeparture": null,
@@ -324,7 +324,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 15735.0642,
+        "ExtraFolioBalance": 17966.9882,
         "ResRemark": null,
         "FlightArrival": "20:00",
         "FlightDeparture": null,
@@ -725,7 +725,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 2510.9145,
+        "ExtraFolioBalance": 2845.7031,
         "ResRemark": null,
         "FlightArrival": "13:40",
         "FlightDeparture": null,
@@ -872,7 +872,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 15735.0642,
+        "ExtraFolioBalance": 17966.9882,
         "ResRemark": null,
         "FlightArrival": "20:00",
         "FlightDeparture": null,
@@ -2174,7 +2174,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 667.0536,
         "ResRemark": "",
         "FlightArrival": "22:30",
         "FlightDeparture": "",
@@ -2374,20 +2374,6 @@
         "OccVac": 1
       },
       {
-        "Room": "108",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "109",
-        "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "111",
         "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
@@ -2446,6 +2432,13 @@
       {
         "Room": "207",
         "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "209",
+        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3547,7 +3540,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -4202,7 +4195,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2510.9145,
+          "ExtraFolioBalance": 2845.7031,
           "ResRemark": null,
           "FlightArrival": "13:40",
           "FlightDeparture": null,
@@ -4349,7 +4342,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15735.0642,
+          "ExtraFolioBalance": 17966.9882,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -5672,7 +5665,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -6034,7 +6027,7 @@
         "departures_count": 26,
         "inhouse_count": 79,
         "noshow_count": 0,
-        "vacant_count": 25,
+        "vacant_count": 24,
         "roomchanges_count": 0,
         "eod_room_count": 59,
         "eod_pax_count": 101
@@ -6069,8 +6062,8 @@
           "LastName1": "STOLLARD",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "209",
-          "RoomType": "STD SEA L",
+          "Room": "109",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -6090,7 +6083,7 @@
           "LastName1": "TURNER",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "211",
+          "Room": "108",
           "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 1,
@@ -6203,7 +6196,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2510.9145,
+          "ExtraFolioBalance": 2845.7031,
           "ResRemark": null,
           "FlightArrival": "13:40",
           "FlightDeparture": null,
@@ -6350,7 +6343,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15735.0642,
+          "ExtraFolioBalance": 17966.9882,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -6751,7 +6744,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2510.9145,
+          "ExtraFolioBalance": 2845.7031,
           "ResRemark": null,
           "FlightArrival": "13:40",
           "FlightDeparture": null,
@@ -6898,7 +6891,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 15735.0642,
+          "ExtraFolioBalance": 17966.9882,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -8200,7 +8193,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -8400,20 +8393,6 @@
           "OccVac": 1
         },
         {
-          "Room": "108",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "109",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -8472,6 +8451,13 @@
         {
           "Room": "207",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "209",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9588,8 +9574,8 @@
           "LastName1": "STOLLARD",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "209",
-          "RoomType": "STD SEA L",
+          "Room": "109",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -9609,7 +9595,7 @@
           "LastName1": "TURNER",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "211",
+          "Room": "108",
           "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 1,
@@ -10035,7 +10021,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -10466,20 +10452,6 @@
           "OccVac": 1
         },
         {
-          "Room": "108",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "109",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -10601,6 +10573,20 @@
         {
           "Room": "207",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "209",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11444,8 +11430,8 @@
           "LastName1": "STOLLARD",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "209",
-          "RoomType": "STD SEA L",
+          "Room": "109",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -11465,7 +11451,7 @@
           "LastName1": "TURNER",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "211",
+          "Room": "108",
           "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 1,
@@ -11891,7 +11877,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -12427,20 +12413,6 @@
           "OccVac": 1
         },
         {
-          "Room": "108",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "109",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -12575,6 +12547,20 @@
         },
         {
           "Room": "205",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "209",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -13265,8 +13251,8 @@
           "LastName1": "STOLLARD",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "209",
-          "RoomType": "STD SEA L",
+          "Room": "109",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -13286,7 +13272,7 @@
           "LastName1": "TURNER",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "211",
+          "Room": "108",
           "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 1,
@@ -13712,7 +13698,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -14297,20 +14283,6 @@
           "OccVac": 1
         },
         {
-          "Room": "108",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "109",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -14474,6 +14446,20 @@
         {
           "Room": "206",
           "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "209",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -15086,8 +15072,8 @@
           "LastName1": "STOLLARD",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "209",
-          "RoomType": "STD SEA L",
+          "Room": "109",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -15107,7 +15093,7 @@
           "LastName1": "TURNER",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "211",
+          "Room": "108",
           "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 1,
@@ -15533,7 +15519,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -16244,20 +16230,6 @@
           "OccVac": 1
         },
         {
-          "Room": "108",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "109",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -16428,6 +16400,20 @@
         {
           "Room": "206",
           "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "209",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -16961,8 +16947,8 @@
           "LastName1": "STOLLARD",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "209",
-          "RoomType": "STD SEA L",
+          "Room": "109",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -16982,7 +16968,7 @@
           "LastName1": "TURNER",
           "CheckinDate": "2026-09-27",
           "CheckOutDate": "2026-10-02",
-          "Room": "211",
+          "Room": "108",
           "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 1,
@@ -17410,7 +17396,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
@@ -19411,7 +19397,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 667.0536,
           "ResRemark": "",
           "FlightArrival": "22:30",
           "FlightDeparture": "",
