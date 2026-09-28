@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-09-28 22:00:05",
+  "sync_time": "2026-09-28 23:00:04",
   "report_date": "2026-09-28",
   "summary": {
-    "arrivals_count": 8,
+    "arrivals_count": 7,
     "departures_count": 0,
-    "inhouse_count": 59,
+    "inhouse_count": 60,
     "noshow_count": 7,
     "vacant_count": 38,
     "roomchanges_count": 0,
@@ -160,27 +160,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "3044462",
-        "GroupNo": "",
-        "RecId": 31809,
-        "FirstName1": "MARK",
-        "LastName1": "KNIGHT",
-        "CheckinDate": "2026-09-28",
-        "CheckOutDate": "2026-10-05",
-        "Room": "112",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "20:00",
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "NEILSON"
       }
     ],
     "departures": [],
@@ -304,7 +283,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 3,
-        "ExtraFolioBalance": 9383.0184,
+        "ExtraFolioBalance": 10109.0853,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -493,7 +472,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 2,
-        "ExtraFolioBalance": 2362.4815,
+        "ExtraFolioBalance": 2529.2449,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1081,7 +1060,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 34929.61062,
+        "ExtraFolioBalance": 35933.97642,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1318,6 +1297,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "COMP"
+      },
+      {
+        "Voucher": "3044462",
+        "GroupNo": "",
+        "RecId": 31809,
+        "FirstName1": "MARK",
+        "LastName1": "KNIGHT",
+        "CheckinDate": "2026-09-28",
+        "CheckOutDate": "2026-10-05",
+        "Room": "112",
+        "RoomType": "STD-SVL",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "20:00",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "32352",
@@ -3999,7 +3999,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 9383.0184,
+          "ExtraFolioBalance": 10109.0853,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4650,7 +4650,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5443,9 +5443,9 @@
     },
     "2026-09-28": {
       "summary": {
-        "arrivals_count": 8,
+        "arrivals_count": 7,
         "departures_count": 0,
-        "inhouse_count": 59,
+        "inhouse_count": 60,
         "noshow_count": 7,
         "vacant_count": 38,
         "roomchanges_count": 0,
@@ -5599,27 +5599,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "3044462",
-          "GroupNo": "",
-          "RecId": 31809,
-          "FirstName1": "MARK",
-          "LastName1": "KNIGHT",
-          "CheckinDate": "2026-09-28",
-          "CheckOutDate": "2026-10-05",
-          "Room": "112",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "NEILSON"
         }
       ],
       "departures": [],
@@ -5743,7 +5722,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 9383.0184,
+          "ExtraFolioBalance": 10109.0853,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -5932,7 +5911,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 2362.4815,
+          "ExtraFolioBalance": 2529.2449,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6520,7 +6499,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6757,6 +6736,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "3044462",
+          "GroupNo": "",
+          "RecId": 31809,
+          "FirstName1": "MARK",
+          "LastName1": "KNIGHT",
+          "CheckinDate": "2026-09-28",
+          "CheckOutDate": "2026-10-05",
+          "Room": "112",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:00",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "32352",
@@ -7387,7 +7387,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -7523,7 +7523,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 9383.0184,
+          "ExtraFolioBalance": 10109.0853,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7712,7 +7712,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 2362.4815,
+          "ExtraFolioBalance": 2529.2449,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8300,7 +8300,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8766,7 +8766,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -8819,7 +8819,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -8929,13 +8929,6 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -9069,6 +9062,13 @@
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9258,7 +9258,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": 9383.0184,
+          "ExtraFolioBalance": 10109.0853,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9447,7 +9447,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 2,
-          "ExtraFolioBalance": 2362.4815,
+          "ExtraFolioBalance": 2529.2449,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -10037,7 +10037,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10503,7 +10503,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -10556,7 +10556,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -10720,13 +10720,6 @@
           "OccVac": 1
         },
         {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
@@ -10883,6 +10876,13 @@
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11760,7 +11760,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12226,7 +12226,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12300,7 +12300,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -12569,13 +12569,6 @@
           "OccVac": 1
         },
         {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 0,
@@ -12753,6 +12746,13 @@
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -13546,7 +13546,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14012,7 +14012,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -14086,7 +14086,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -14502,13 +14502,6 @@
           "OccVac": 1
         },
         {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -14728,6 +14721,13 @@
         {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -15484,7 +15484,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 34929.61062,
+          "ExtraFolioBalance": 35933.97642,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -15973,7 +15973,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -16047,7 +16047,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -16771,13 +16771,6 @@
           "OccVac": 1
         },
         {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -17053,6 +17046,13 @@
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -17794,7 +17794,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17868,7 +17868,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -18697,13 +18697,6 @@
           "OccVac": 1
         },
         {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -19028,6 +19021,13 @@
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -19501,7 +19501,7 @@
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -19577,7 +19577,7 @@
           "LastName1": "ORSBOURN",
           "CheckinDate": "2026-09-29",
           "CheckOutDate": "2026-10-06",
-          "Room": "317",
+          "Room": "107",
           "RoomType": "STD-LVL",
           "Board": "AI",
           "Pax": 2,
@@ -20427,13 +20427,6 @@
           "OccVac": 1
         },
         {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -20772,6 +20765,13 @@
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "317",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
