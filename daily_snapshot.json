@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-09-29 13:00:05",
+  "sync_time": "2026-09-29 14:00:06",
   "report_date": "2026-09-29",
   "summary": {
     "arrivals_count": 5,
@@ -305,7 +305,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 9103.7619,
+        "ExtraFolioBalance": 10192.86225,
         "ResRemark": null,
         "FlightArrival": "20:55",
         "FlightDeparture": null,
@@ -473,7 +473,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 5,
-        "ExtraFolioBalance": 555.878,
+        "ExtraFolioBalance": 3335.268,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -788,7 +788,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 14564.0036,
+        "ExtraFolioBalance": 15898.1108,
         "ResRemark": "",
         "FlightArrival": "14:00",
         "FlightDeparture": "",
@@ -935,7 +935,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 11756.69865,
+        "ExtraFolioBalance": 12315.21165,
         "ResRemark": null,
         "FlightArrival": "20:55",
         "FlightDeparture": null,
@@ -1391,8 +1391,8 @@
         "LastName1": "BINGHAM HALL",
         "CheckinDate": "2026-09-28",
         "CheckOutDate": "2026-10-05",
-        "Room": "336",
-        "RoomType": "STD-SV",
+        "Room": "401",
+        "RoomType": "STD SEA L",
         "Board": "AI",
         "Pax": 2,
         "Childs": 0,
@@ -1599,7 +1599,7 @@
       {
         "Room": "125",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1737,9 +1737,9 @@
         "OccVac": 1
       },
       {
-        "Room": "401",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
+        "Room": "336",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1810,6 +1810,22 @@
         "OldRoom": "320",
         "NewRoom": "324",
         "RecordUser": "AYTEKİN",
+        "RecordDate": "2026-09-28",
+        "RCDate": "2026-09-28",
+        "Time": "",
+        "CheckinDate": "2026-09-28",
+        "CheckOutDate": "2026-10-05",
+        "AgencyCode": "NEILSON",
+        "RoomChanged": "1"
+      },
+      {
+        "ReservationId": 28916,
+        "Voucher": "3014433",
+        "FirstName1": "PAUL",
+        "LastName1": "BINGHAM HALL",
+        "OldRoom": "336",
+        "NewRoom": "401",
+        "RecordUser": "Remi",
         "RecordDate": "2026-09-28",
         "RCDate": "2026-09-28",
         "Time": "",
@@ -1991,7 +2007,7 @@
       {
         "Room": "125",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2075,7 +2091,7 @@
       {
         "Room": "203",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2607,7 +2623,7 @@
         "inhouse_count": 67,
         "noshow_count": 7,
         "vacant_count": 38,
-        "roomchanges_count": 1,
+        "roomchanges_count": 2,
         "eod_room_count": 67,
         "eod_pax_count": 113
       },
@@ -2647,7 +2663,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 555.878,
+          "ExtraFolioBalance": 3335.268,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -2872,8 +2888,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -3470,7 +3486,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9103.7619,
+          "ExtraFolioBalance": 10192.86225,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -3638,7 +3654,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 555.878,
+          "ExtraFolioBalance": 3335.268,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3953,7 +3969,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 14564.0036,
+          "ExtraFolioBalance": 15898.1108,
           "ResRemark": "",
           "FlightArrival": "14:00",
           "FlightDeparture": "",
@@ -4100,7 +4116,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 11756.69865,
+          "ExtraFolioBalance": 12315.21165,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -4556,8 +4572,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -4926,7 +4942,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5071,9 +5087,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5143,6 +5159,22 @@
           "OldRoom": "320",
           "NewRoom": "324",
           "RecordUser": "AYTEKİN",
+          "RecordDate": "2026-09-28",
+          "RCDate": "2026-09-28",
+          "Time": "",
+          "CheckinDate": "2026-09-28",
+          "CheckOutDate": "2026-10-05",
+          "AgencyCode": "NEILSON",
+          "RoomChanged": "1"
+        },
+        {
+          "ReservationId": 28916,
+          "Voucher": "3014433",
+          "FirstName1": "PAUL",
+          "LastName1": "BINGHAM HALL",
+          "OldRoom": "336",
+          "NewRoom": "401",
+          "RecordUser": "Remi",
           "RecordDate": "2026-09-28",
           "RCDate": "2026-09-28",
           "Time": "",
@@ -5456,7 +5488,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9103.7619,
+          "ExtraFolioBalance": 10192.86225,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -5624,7 +5656,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 555.878,
+          "ExtraFolioBalance": 3335.268,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5939,7 +5971,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 14564.0036,
+          "ExtraFolioBalance": 15898.1108,
           "ResRemark": "",
           "FlightArrival": "14:00",
           "FlightDeparture": "",
@@ -6086,7 +6118,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 11756.69865,
+          "ExtraFolioBalance": 12315.21165,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -6542,8 +6574,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -6750,7 +6782,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6888,9 +6920,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7065,7 +7097,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 9103.7619,
+          "ExtraFolioBalance": 10192.86225,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -7235,7 +7267,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 555.878,
+          "ExtraFolioBalance": 3335.268,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7550,7 +7582,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 14564.0036,
+          "ExtraFolioBalance": 15898.1108,
           "ResRemark": "",
           "FlightArrival": "14:00",
           "FlightDeparture": "",
@@ -7697,7 +7729,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 11756.69865,
+          "ExtraFolioBalance": 12315.21165,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -8216,8 +8248,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -8529,7 +8561,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8709,9 +8741,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8956,7 +8988,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 555.878,
+          "ExtraFolioBalance": 3335.268,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9273,7 +9305,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 14564.0036,
+          "ExtraFolioBalance": 15898.1108,
           "ResRemark": "",
           "FlightArrival": "14:00",
           "FlightDeparture": "",
@@ -9420,7 +9452,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 11756.69865,
+          "ExtraFolioBalance": 12315.21165,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -9939,8 +9971,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -10392,7 +10424,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10593,9 +10625,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10716,16 +10748,37 @@
     },
     "2026-10-02": {
       "summary": {
-        "arrivals_count": 7,
+        "arrivals_count": 8,
         "departures_count": 11,
-        "inhouse_count": 54,
+        "inhouse_count": 55,
         "noshow_count": 0,
         "vacant_count": 67,
         "roomchanges_count": 0,
-        "eod_room_count": 54,
-        "eod_pax_count": 92
+        "eod_room_count": 55,
+        "eod_pax_count": 94
       },
       "arrivals": [
+        {
+          "Voucher": "32391",
+          "GroupNo": "",
+          "RecId": 32391,
+          "FirstName1": "UMIT",
+          "LastName1": "ERKAN",
+          "CheckinDate": "2026-10-02",
+          "CheckOutDate": "2026-10-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
         {
           "Voucher": "32292",
           "GroupNo": "",
@@ -11057,7 +11110,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 14564.0036,
+          "ExtraFolioBalance": 15898.1108,
           "ResRemark": "",
           "FlightArrival": "14:00",
           "FlightDeparture": "",
@@ -11206,7 +11259,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 11756.69865,
+          "ExtraFolioBalance": 12315.21165,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -11508,6 +11561,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "32391",
+          "GroupNo": "",
+          "RecId": 32391,
+          "FirstName1": "UMIT",
+          "LastName1": "ERKAN",
+          "CheckinDate": "2026-10-02",
+          "CheckOutDate": "2026-10-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "K2151G",
           "GroupNo": "",
           "RecId": 28893,
@@ -11725,8 +11799,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -12339,7 +12413,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12575,9 +12649,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12721,12 +12795,12 @@
       "summary": {
         "arrivals_count": 15,
         "departures_count": 16,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 0,
         "vacant_count": 83,
         "roomchanges_count": 0,
-        "eod_room_count": 53,
-        "eod_pax_count": 93
+        "eod_room_count": 54,
+        "eod_pax_count": 95
       },
       "arrivals": [
         {
@@ -13144,7 +13218,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 11756.69865,
+          "ExtraFolioBalance": 12315.21165,
           "ResRemark": null,
           "FlightArrival": "20:55",
           "FlightDeparture": null,
@@ -13469,6 +13543,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "32391",
+          "GroupNo": "",
+          "RecId": 32391,
+          "FirstName1": "UMIT",
+          "LastName1": "ERKAN",
+          "CheckinDate": "2026-10-02",
+          "CheckOutDate": "2026-10-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "K2151G",
           "GroupNo": "",
           "RecId": 28893,
@@ -13686,8 +13781,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -14622,7 +14717,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14914,9 +15009,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15087,7 +15182,7 @@
     "2026-10-04": {
       "summary": {
         "arrivals_count": 5,
-        "departures_count": 9,
+        "departures_count": 10,
         "inhouse_count": 49,
         "noshow_count": 0,
         "vacant_count": 91,
@@ -15288,6 +15383,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "32391",
+          "GroupNo": "",
+          "RecId": 32391,
+          "FirstName1": "UMIT",
+          "LastName1": "ERKAN",
+          "CheckinDate": "2026-10-02",
+          "CheckOutDate": "2026-10-04",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "K2151G",
           "GroupNo": "",
           "RecId": 28893,
@@ -15507,8 +15623,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -16548,7 +16664,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16618,7 +16734,7 @@
         {
           "Room": "203",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16889,9 +17005,9 @@
           "OccVac": 1
         },
         {
-          "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17214,8 +17330,8 @@
           "LastName1": "BINGHAM HALL",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "336",
-          "RoomType": "STD-SV",
+          "Room": "401",
+          "RoomType": "STD SEA L",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -18292,7 +18408,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18362,7 +18478,7 @@
         {
           "Room": "203",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20267,7 +20383,7 @@
         {
           "Room": "125",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20344,7 +20460,7 @@
         {
           "Room": "203",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
