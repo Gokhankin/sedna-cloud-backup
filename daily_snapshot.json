@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-30 08:00:05",
+  "sync_time": "2026-09-30 09:00:05",
   "report_date": "2026-09-30",
   "summary": {
     "arrivals_count": 2,
-    "departures_count": 8,
-    "inhouse_count": 66,
+    "departures_count": 7,
+    "inhouse_count": 65,
     "noshow_count": 0,
-    "vacant_count": 38,
+    "vacant_count": 39,
     "roomchanges_count": 0,
     "eod_room_count": 60,
     "eod_pax_count": 101,
@@ -58,27 +58,6 @@
       }
     ],
     "departures": [
-      {
-        "Voucher": "29343",
-        "GroupNo": "",
-        "RecId": 29343,
-        "FirstName1": "TANJA",
-        "LastName1": "BESTERS",
-        "CheckinDate": "2026-09-23",
-        "CheckOutDate": "2026-09-30",
-        "Room": "421",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 10109.0853,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
-      },
       {
         "Voucher": "3026888",
         "GroupNo": "",
@@ -228,27 +207,6 @@
       }
     ],
     "inhouse": [
-      {
-        "Voucher": "29343",
-        "GroupNo": "",
-        "RecId": 29343,
-        "FirstName1": "TANJA",
-        "LastName1": "BESTERS",
-        "CheckinDate": "2026-09-23",
-        "CheckOutDate": "2026-09-30",
-        "Room": "421",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 10109.0853,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
-      },
       {
         "Voucher": "3026888",
         "GroupNo": "",
@@ -1349,7 +1307,7 @@
         "LastName1": "LALLY",
         "CheckinDate": "2026-09-28",
         "CheckOutDate": "2026-10-05",
-        "Room": "337",
+        "Room": "336",
         "RoomType": "STD-SV",
         "Board": "AI",
         "Pax": 2,
@@ -1814,9 +1772,9 @@
         "OccVac": 1
       },
       {
-        "Room": "336",
+        "Room": "337",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1863,6 +1821,13 @@
         "OccVac": 1
       },
       {
+        "Room": "421",
+        "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "424",
         "RoomTypeCode": "STD-SV",
         "DirtyClean": 1,
@@ -1885,7 +1850,24 @@
       }
     ],
     "roomchanges": [],
-    "all_roomchanges": [],
+    "all_roomchanges": [
+      {
+        "ReservationId": 28912,
+        "Voucher": "3014468",
+        "FirstName1": "FREYA",
+        "LastName1": "LALLY",
+        "OldRoom": "337",
+        "NewRoom": "336",
+        "RecordUser": "AYTEKİN",
+        "RecordDate": "2026-09-29",
+        "RCDate": "2026-09-29",
+        "Time": "",
+        "CheckinDate": "2026-09-28",
+        "CheckOutDate": "2026-10-05",
+        "AgencyCode": "NEILSON",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -2674,7 +2656,7 @@
         "inhouse_count": 66,
         "noshow_count": 0,
         "vacant_count": 39,
-        "roomchanges_count": 0,
+        "roomchanges_count": 1,
         "eod_room_count": 66,
         "eod_pax_count": 112
       },
@@ -2915,27 +2897,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "29343",
-          "GroupNo": "",
-          "RecId": 29343,
-          "FirstName1": "TANJA",
-          "LastName1": "BESTERS",
-          "CheckinDate": "2026-09-23",
-          "CheckOutDate": "2026-09-30",
-          "Room": "421",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 10109.0853,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "3026888",
           "GroupNo": "",
           "RecId": 29815,
@@ -3080,6 +3041,27 @@
           "FlightArrival": null,
           "FlightDeparture": null,
           "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "29343",
+          "GroupNo": "",
+          "RecId": 29343,
+          "FirstName1": "TANJA",
+          "LastName1": "BESTERS",
+          "CheckinDate": "2026-09-23",
+          "CheckOutDate": "2026-09-30",
+          "Room": "421",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -4035,7 +4017,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
@@ -4507,9 +4489,9 @@
           "OccVac": 1
         },
         {
-          "Room": "336",
+          "Room": "337",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4577,15 +4559,32 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 28912,
+          "Voucher": "3014468",
+          "FirstName1": "FREYA",
+          "LastName1": "LALLY",
+          "OldRoom": "337",
+          "NewRoom": "336",
+          "RecordUser": "AYTEKİN",
+          "RecordDate": "2026-09-29",
+          "RCDate": "2026-09-29",
+          "Time": "",
+          "CheckinDate": "2026-09-28",
+          "CheckOutDate": "2026-10-05",
+          "AgencyCode": "NEILSON",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-09-30": {
       "summary": {
         "arrivals_count": 2,
-        "departures_count": 8,
-        "inhouse_count": 66,
+        "departures_count": 7,
+        "inhouse_count": 65,
         "noshow_count": 0,
-        "vacant_count": 38,
+        "vacant_count": 39,
         "roomchanges_count": 0,
         "eod_room_count": 60,
         "eod_pax_count": 101
@@ -4635,27 +4634,6 @@
         }
       ],
       "departures": [
-        {
-          "Voucher": "29343",
-          "GroupNo": "",
-          "RecId": 29343,
-          "FirstName1": "TANJA",
-          "LastName1": "BESTERS",
-          "CheckinDate": "2026-09-23",
-          "CheckOutDate": "2026-09-30",
-          "Room": "421",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 10109.0853,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
         {
           "Voucher": "3026888",
           "GroupNo": "",
@@ -4806,27 +4784,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "29343",
-          "GroupNo": "",
-          "RecId": 29343,
-          "FirstName1": "TANJA",
-          "LastName1": "BESTERS",
-          "CheckinDate": "2026-09-23",
-          "CheckOutDate": "2026-09-30",
-          "Room": "421",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 10109.0853,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "3026888",
           "GroupNo": "",
           "RecId": 29815,
@@ -5926,7 +5883,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
@@ -6391,9 +6348,9 @@
           "OccVac": 1
         },
         {
-          "Room": "336",
+          "Room": "337",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6435,6 +6392,13 @@
         {
           "Room": "419",
           "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "421",
+          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -7558,7 +7522,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
@@ -8261,9 +8225,9 @@
           "OccVac": 1
         },
         {
-          "Room": "336",
+          "Room": "337",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9372,7 +9336,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
@@ -10264,9 +10228,9 @@
           "OccVac": 1
         },
         {
-          "Room": "336",
+          "Room": "337",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11333,7 +11297,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
@@ -12603,9 +12567,9 @@
           "OccVac": 1
         },
         {
-          "Room": "336",
+          "Room": "337",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13154,7 +13118,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
@@ -14585,9 +14549,9 @@
           "OccVac": 1
         },
         {
-          "Room": "336",
+          "Room": "337",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14847,7 +14811,7 @@
           "LastName1": "LALLY",
           "CheckinDate": "2026-09-28",
           "CheckOutDate": "2026-10-05",
-          "Room": "337",
+          "Room": "336",
           "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 2,
