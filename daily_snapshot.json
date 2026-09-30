@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-09-30 11:00:05",
+  "sync_time": "2026-09-30 12:00:04",
   "report_date": "2026-09-30",
   "summary": {
     "arrivals_count": 2,
-    "departures_count": 7,
-    "inhouse_count": 65,
+    "departures_count": 6,
+    "inhouse_count": 64,
     "noshow_count": 0,
-    "vacant_count": 38,
+    "vacant_count": 39,
     "roomchanges_count": 0,
     "eod_room_count": 60,
     "eod_pax_count": 101,
@@ -101,27 +101,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "3041022",
-        "GroupNo": "",
-        "RecId": 31436,
-        "FirstName1": "TOBY",
-        "LastName1": "HURTON",
-        "CheckinDate": "2026-09-23",
-        "CheckOutDate": "2026-09-30",
-        "Room": "402",
-        "RoomType": "STD SEA L",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 11624.1101,
-        "ResRemark": null,
-        "FlightArrival": "20:00",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
         "Voucher": "3042805",
         "GroupNo": "",
         "RecId": 31629,
@@ -156,7 +135,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1131,
-        "ExtraFolioBalance": 39216.91538,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "23:50",
         "FlightDeparture": "16:55",
@@ -250,27 +229,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "3041022",
-        "GroupNo": "",
-        "RecId": 31436,
-        "FirstName1": "TOBY",
-        "LastName1": "HURTON",
-        "CheckinDate": "2026-09-23",
-        "CheckOutDate": "2026-09-30",
-        "Room": "402",
-        "RoomType": "STD SEA L",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 11624.1101,
-        "ResRemark": null,
-        "FlightArrival": "20:00",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
         "Voucher": "3042805",
         "GroupNo": "",
         "RecId": 31629,
@@ -305,7 +263,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1131,
-        "ExtraFolioBalance": 39216.91538,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "23:50",
         "FlightDeparture": "16:55",
@@ -368,7 +326,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 5,
-        "ExtraFolioBalance": 6670.536,
+        "ExtraFolioBalance": 7115.2384,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -473,7 +431,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 28,
-        "ExtraFolioBalance": 2167.9242,
+        "ExtraFolioBalance": 2946.1534,
         "ResRemark": "",
         "FlightArrival": "05:15",
         "FlightDeparture": "01:35",
@@ -1620,7 +1578,7 @@
       {
         "Room": "120",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1669,7 +1627,7 @@
       {
         "Room": "131",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1683,7 +1641,7 @@
       {
         "Room": "133",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1767,6 +1725,13 @@
       {
         "Room": "337",
         "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "402",
+        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1998,7 +1963,7 @@
       {
         "Room": "120",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2075,7 +2040,7 @@
       {
         "Room": "131",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2089,7 +2054,7 @@
       {
         "Room": "133",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2932,27 +2897,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "3041022",
-          "GroupNo": "",
-          "RecId": 31436,
-          "FirstName1": "TOBY",
-          "LastName1": "HURTON",
-          "CheckinDate": "2026-09-23",
-          "CheckOutDate": "2026-09-30",
-          "Room": "402",
-          "RoomType": "STD SEA L",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 11624.1101,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "3042805",
           "GroupNo": "",
           "RecId": 31629,
@@ -2987,7 +2931,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 39216.91538,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "16:55",
@@ -3058,6 +3002,27 @@
           "AgencyCode": "MUNFERIT EURO"
         },
         {
+          "Voucher": "3041022",
+          "GroupNo": "",
+          "RecId": 31436,
+          "FirstName1": "TOBY",
+          "LastName1": "HURTON",
+          "CheckinDate": "2026-09-23",
+          "CheckOutDate": "2026-09-30",
+          "Room": "402",
+          "RoomType": "STD SEA L",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:00",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "NEILSON"
+        },
+        {
           "Voucher": "4QBBUJ",
           "GroupNo": "",
           "RecId": 31124,
@@ -3071,7 +3036,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 6670.536,
+          "ExtraFolioBalance": 7115.2384,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -3176,7 +3141,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 28,
-          "ExtraFolioBalance": 2167.9242,
+          "ExtraFolioBalance": 2946.1534,
           "ResRemark": "",
           "FlightArrival": "05:15",
           "FlightDeparture": "01:35",
@@ -4323,7 +4288,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4372,7 +4337,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4386,7 +4351,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4574,10 +4539,10 @@
     "2026-09-30": {
       "summary": {
         "arrivals_count": 2,
-        "departures_count": 7,
-        "inhouse_count": 65,
+        "departures_count": 6,
+        "inhouse_count": 64,
         "noshow_count": 0,
-        "vacant_count": 38,
+        "vacant_count": 39,
         "roomchanges_count": 0,
         "eod_room_count": 60,
         "eod_pax_count": 101
@@ -4670,27 +4635,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "3041022",
-          "GroupNo": "",
-          "RecId": 31436,
-          "FirstName1": "TOBY",
-          "LastName1": "HURTON",
-          "CheckinDate": "2026-09-23",
-          "CheckOutDate": "2026-09-30",
-          "Room": "402",
-          "RoomType": "STD SEA L",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 11624.1101,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "3042805",
           "GroupNo": "",
           "RecId": 31629,
@@ -4725,7 +4669,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 39216.91538,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "16:55",
@@ -4819,27 +4763,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "3041022",
-          "GroupNo": "",
-          "RecId": 31436,
-          "FirstName1": "TOBY",
-          "LastName1": "HURTON",
-          "CheckinDate": "2026-09-23",
-          "CheckOutDate": "2026-09-30",
-          "Room": "402",
-          "RoomType": "STD SEA L",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 11624.1101,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "3042805",
           "GroupNo": "",
           "RecId": 31629,
@@ -4874,7 +4797,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1131,
-          "ExtraFolioBalance": 39216.91538,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "23:50",
           "FlightDeparture": "16:55",
@@ -4937,7 +4860,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 6670.536,
+          "ExtraFolioBalance": 7115.2384,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5042,7 +4965,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 28,
-          "ExtraFolioBalance": 2167.9242,
+          "ExtraFolioBalance": 2946.1534,
           "ResRemark": "",
           "FlightArrival": "05:15",
           "FlightDeparture": "01:35",
@@ -6189,7 +6112,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6238,7 +6161,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6252,7 +6175,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6336,6 +6259,13 @@
         {
           "Room": "337",
           "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "402",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -6567,7 +6497,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 6670.536,
+          "ExtraFolioBalance": 7115.2384,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6672,7 +6602,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 28,
-          "ExtraFolioBalance": 2167.9242,
+          "ExtraFolioBalance": 2946.1534,
           "ResRemark": "",
           "FlightArrival": "05:15",
           "FlightDeparture": "01:35",
@@ -8017,7 +7947,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8066,7 +7996,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8080,7 +8010,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9992,7 +9922,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10034,7 +9964,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10362,7 +10292,7 @@
         "departures_count": 16,
         "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 80,
+        "vacant_count": 79,
         "roomchanges_count": 0,
         "eod_room_count": 54,
         "eod_pax_count": 95
@@ -10565,7 +10495,7 @@
           "LastName1": "KNIGHT",
           "CheckinDate": "2026-10-03",
           "CheckOutDate": "2026-10-10",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -11934,7 +11864,7 @@
           "LastName1": "KNIGHT",
           "CheckinDate": "2026-10-03",
           "CheckOutDate": "2026-10-10",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -12261,7 +12191,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12317,7 +12247,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12477,13 +12407,6 @@
         },
         {
           "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -12729,7 +12652,7 @@
         "departures_count": 10,
         "inhouse_count": 49,
         "noshow_count": 0,
-        "vacant_count": 89,
+        "vacant_count": 88,
         "roomchanges_count": 0,
         "eod_room_count": 49,
         "eod_pax_count": 86
@@ -13755,7 +13678,7 @@
           "LastName1": "KNIGHT",
           "CheckinDate": "2026-10-03",
           "CheckOutDate": "2026-10-10",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -14187,7 +14110,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14250,7 +14173,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14459,13 +14382,6 @@
         },
         {
           "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -14718,7 +14634,7 @@
         "departures_count": 9,
         "inhouse_count": 42,
         "noshow_count": 0,
-        "vacant_count": 98,
+        "vacant_count": 97,
         "roomchanges_count": 0,
         "eod_room_count": 42,
         "eod_pax_count": 73
@@ -15471,7 +15387,7 @@
           "LastName1": "KNIGHT",
           "CheckinDate": "2026-10-03",
           "CheckOutDate": "2026-10-10",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -15959,7 +15875,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16022,7 +15938,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16238,13 +16154,6 @@
         },
         {
           "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -16539,7 +16448,7 @@
         "departures_count": 5,
         "inhouse_count": 47,
         "noshow_count": 0,
-        "vacant_count": 102,
+        "vacant_count": 101,
         "roomchanges_count": 0,
         "eod_room_count": 47,
         "eod_pax_count": 85
@@ -17376,7 +17285,7 @@
           "LastName1": "KNIGHT",
           "CheckinDate": "2026-10-03",
           "CheckOutDate": "2026-10-10",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -17976,7 +17885,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18046,7 +17955,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18060,7 +17969,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18269,13 +18178,6 @@
         },
         {
           "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -18577,7 +18479,7 @@
         "departures_count": 4,
         "inhouse_count": 45,
         "noshow_count": 0,
-        "vacant_count": 103,
+        "vacant_count": 102,
         "roomchanges_count": 0,
         "eod_room_count": 45,
         "eod_pax_count": 84
@@ -19141,7 +19043,7 @@
           "LastName1": "KNIGHT",
           "CheckinDate": "2026-10-03",
           "CheckOutDate": "2026-10-10",
-          "Room": "",
+          "Room": "322",
           "RoomType": "STD-LV",
           "Board": "AI",
           "Pax": 1,
@@ -19790,7 +19692,7 @@
         {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19860,7 +19762,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19874,7 +19776,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20083,13 +19985,6 @@
         },
         {
           "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "322",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
