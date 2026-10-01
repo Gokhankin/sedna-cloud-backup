@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-01 04:00:05",
+  "sync_time": "2026-10-01 05:00:05",
   "report_date": "2026-10-01",
   "summary": {
     "arrivals_count": 6,
-    "departures_count": 7,
-    "inhouse_count": 59,
+    "departures_count": 6,
+    "inhouse_count": 58,
     "noshow_count": 2,
-    "vacant_count": 43,
+    "vacant_count": 44,
     "roomchanges_count": 0,
     "eod_room_count": 58,
     "eod_pax_count": 99,
@@ -143,27 +143,6 @@
     ],
     "departures": [
       {
-        "Voucher": "4QBBUJ",
-        "GroupNo": "",
-        "RecId": 31124,
-        "FirstName1": "JEROEN",
-        "LastName1": "VAN DEN BERG",
-        "CheckinDate": "2026-09-28",
-        "CheckOutDate": "2026-10-01",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 9894.6284,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
-      },
-      {
         "Voucher": "3039290",
         "GroupNo": "",
         "RecId": 31241,
@@ -291,27 +270,6 @@
       }
     ],
     "inhouse": [
-      {
-        "Voucher": "4QBBUJ",
-        "GroupNo": "",
-        "RecId": 31124,
-        "FirstName1": "JEROEN",
-        "LastName1": "VAN DEN BERG",
-        "CheckinDate": "2026-09-28",
-        "CheckOutDate": "2026-10-01",
-        "Room": "110",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 9894.6284,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
-      },
       {
         "Voucher": "3039290",
         "GroupNo": "",
@@ -1587,6 +1545,13 @@
         "Room": "104",
         "RoomTypeCode": "STD-SV",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "110",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2930,27 +2895,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "4QBBUJ",
-          "GroupNo": "",
-          "RecId": 31124,
-          "FirstName1": "JEROEN",
-          "LastName1": "VAN DEN BERG",
-          "CheckinDate": "2026-09-28",
-          "CheckOutDate": "2026-10-01",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 9894.6284,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
-        },
-        {
           "Voucher": "3039290",
           "GroupNo": "",
           "RecId": 31241,
@@ -3075,6 +3019,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT USD"
+        },
+        {
+          "Voucher": "4QBBUJ",
+          "GroupNo": "",
+          "RecId": 31124,
+          "FirstName1": "JEROEN",
+          "LastName1": "VAN DEN BERG",
+          "CheckinDate": "2026-09-28",
+          "CheckOutDate": "2026-10-01",
+          "Room": "110",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "12371033",
@@ -4598,10 +4563,10 @@
     "2026-10-01": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 7,
-        "inhouse_count": 59,
+        "departures_count": 6,
+        "inhouse_count": 58,
         "noshow_count": 2,
-        "vacant_count": 43,
+        "vacant_count": 44,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 99
@@ -4736,27 +4701,6 @@
       ],
       "departures": [
         {
-          "Voucher": "4QBBUJ",
-          "GroupNo": "",
-          "RecId": 31124,
-          "FirstName1": "JEROEN",
-          "LastName1": "VAN DEN BERG",
-          "CheckinDate": "2026-09-28",
-          "CheckOutDate": "2026-10-01",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 9894.6284,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
-        },
-        {
           "Voucher": "3039290",
           "GroupNo": "",
           "RecId": 31241,
@@ -4884,27 +4828,6 @@
         }
       ],
       "inhouse": [
-        {
-          "Voucher": "4QBBUJ",
-          "GroupNo": "",
-          "RecId": 31124,
-          "FirstName1": "JEROEN",
-          "LastName1": "VAN DEN BERG",
-          "CheckinDate": "2026-09-28",
-          "CheckOutDate": "2026-10-01",
-          "Room": "110",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 9894.6284,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
-        },
         {
           "Voucher": "3039290",
           "GroupNo": "",
@@ -6180,6 +6103,13 @@
           "Room": "104",
           "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "110",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
