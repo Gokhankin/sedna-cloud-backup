@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-01 02:00:06",
+  "sync_time": "2026-10-01 03:00:05",
   "report_date": "2026-10-01",
   "summary": {
     "arrivals_count": 6,
-    "departures_count": 10,
-    "inhouse_count": 62,
+    "departures_count": 7,
+    "inhouse_count": 59,
     "noshow_count": 2,
-    "vacant_count": 42,
+    "vacant_count": 43,
     "roomchanges_count": 0,
     "eod_room_count": 58,
     "eod_pax_count": 99,
@@ -248,27 +248,6 @@
         "AgencyCode": "BOOKING.COM"
       },
       {
-        "Voucher": "12371033",
-        "GroupNo": "",
-        "RecId": 32272,
-        "FirstName1": "ALENA",
-        "LastName1": "BASHMAKOVA",
-        "CheckinDate": "2026-09-26",
-        "CheckOutDate": "2026-10-01",
-        "Room": "114",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 28,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "05:15",
-        "FlightDeparture": "01:35",
-        "Status": 2,
-        "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
         "Voucher": "32328",
         "GroupNo": "",
         "RecId": 32328,
@@ -309,48 +288,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "MUNFERIT USD"
-      },
-      {
-        "Voucher": "NOSHOW",
-        "GroupNo": "",
-        "RecId": 32397,
-        "FirstName1": "NEILSON",
-        "LastName1": "UNUSED",
-        "CheckinDate": "2026-09-30",
-        "CheckOutDate": "2026-10-01",
-        "Room": "1000",
-        "RoomType": "PM",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "NOSHOW",
-        "GroupNo": "",
-        "RecId": 32398,
-        "FirstName1": "NEILSON0001",
-        "LastName1": "UNUSED",
-        "CheckinDate": "2026-09-30",
-        "CheckOutDate": "2026-10-01",
-        "Room": "1001",
-        "RoomType": "PM",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "NEILSON"
       }
     ],
     "inhouse": [
@@ -460,27 +397,6 @@
         "AgencyCode": "BOOKING.COM"
       },
       {
-        "Voucher": "12371033",
-        "GroupNo": "",
-        "RecId": 32272,
-        "FirstName1": "ALENA",
-        "LastName1": "BASHMAKOVA",
-        "CheckinDate": "2026-09-26",
-        "CheckOutDate": "2026-10-01",
-        "Room": "114",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 28,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "05:15",
-        "FlightDeparture": "01:35",
-        "Status": 2,
-        "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
         "Voucher": "32328",
         "GroupNo": "",
         "RecId": 32328,
@@ -521,48 +437,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "MUNFERIT USD"
-      },
-      {
-        "Voucher": "NOSHOW",
-        "GroupNo": "",
-        "RecId": 32397,
-        "FirstName1": "NEILSON",
-        "LastName1": "UNUSED",
-        "CheckinDate": "2026-09-30",
-        "CheckOutDate": "2026-10-01",
-        "Room": "1000",
-        "RoomType": "PM",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "NOSHOW",
-        "GroupNo": "",
-        "RecId": 32398,
-        "FirstName1": "NEILSON0001",
-        "LastName1": "UNUSED",
-        "CheckinDate": "2026-09-30",
-        "CheckOutDate": "2026-10-01",
-        "Room": "1001",
-        "RoomType": "PM",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "NEILSON"
       },
       {
         "Voucher": "2543456",
@@ -1676,7 +1550,7 @@
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
-        "Status": 2,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       },
       {
@@ -1697,7 +1571,7 @@
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
-        "Status": 2,
+        "Status": 3,
         "AgencyCode": "NEILSON"
       }
     ],
@@ -1727,6 +1601,13 @@
         "Room": "113",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "114",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2810,7 +2691,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -2831,7 +2712,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -3154,27 +3035,6 @@
           "AgencyCode": "BOOKING.COM"
         },
         {
-          "Voucher": "12371033",
-          "GroupNo": "",
-          "RecId": 32272,
-          "FirstName1": "ALENA",
-          "LastName1": "BASHMAKOVA",
-          "CheckinDate": "2026-09-26",
-          "CheckOutDate": "2026-10-01",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "05:15",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
           "Voucher": "32328",
           "GroupNo": "",
           "RecId": 32328,
@@ -3217,6 +3077,27 @@
           "AgencyCode": "MUNFERIT USD"
         },
         {
+          "Voucher": "12371033",
+          "GroupNo": "",
+          "RecId": 32272,
+          "FirstName1": "ALENA",
+          "LastName1": "BASHMAKOVA",
+          "CheckinDate": "2026-09-26",
+          "CheckOutDate": "2026-10-01",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 28,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "05:15",
+          "FlightDeparture": "01:35",
+          "Status": 3,
+          "AgencyCode": "FUN&SUN TRAVEL"
+        },
+        {
           "Voucher": "NOSHOW",
           "GroupNo": "",
           "RecId": 32397,
@@ -3234,7 +3115,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -3255,7 +3136,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -4370,7 +4251,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -4391,7 +4272,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         }
       ],
@@ -4717,10 +4598,10 @@
     "2026-10-01": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 10,
-        "inhouse_count": 62,
+        "departures_count": 7,
+        "inhouse_count": 59,
         "noshow_count": 2,
-        "vacant_count": 42,
+        "vacant_count": 43,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 99
@@ -4960,27 +4841,6 @@
           "AgencyCode": "BOOKING.COM"
         },
         {
-          "Voucher": "12371033",
-          "GroupNo": "",
-          "RecId": 32272,
-          "FirstName1": "ALENA",
-          "LastName1": "BASHMAKOVA",
-          "CheckinDate": "2026-09-26",
-          "CheckOutDate": "2026-10-01",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "05:15",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
           "Voucher": "32328",
           "GroupNo": "",
           "RecId": 32328,
@@ -5021,48 +4881,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT USD"
-        },
-        {
-          "Voucher": "NOSHOW",
-          "GroupNo": "",
-          "RecId": 32397,
-          "FirstName1": "NEILSON",
-          "LastName1": "UNUSED",
-          "CheckinDate": "2026-09-30",
-          "CheckOutDate": "2026-10-01",
-          "Room": "1000",
-          "RoomType": "PM",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "NOSHOW",
-          "GroupNo": "",
-          "RecId": 32398,
-          "FirstName1": "NEILSON0001",
-          "LastName1": "UNUSED",
-          "CheckinDate": "2026-09-30",
-          "CheckOutDate": "2026-10-01",
-          "Room": "1001",
-          "RoomType": "PM",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "NEILSON"
         }
       ],
       "inhouse": [
@@ -5172,27 +4990,6 @@
           "AgencyCode": "BOOKING.COM"
         },
         {
-          "Voucher": "12371033",
-          "GroupNo": "",
-          "RecId": 32272,
-          "FirstName1": "ALENA",
-          "LastName1": "BASHMAKOVA",
-          "CheckinDate": "2026-09-26",
-          "CheckOutDate": "2026-10-01",
-          "Room": "114",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 28,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "05:15",
-          "FlightDeparture": "01:35",
-          "Status": 2,
-          "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
           "Voucher": "32328",
           "GroupNo": "",
           "RecId": 32328,
@@ -5233,48 +5030,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT USD"
-        },
-        {
-          "Voucher": "NOSHOW",
-          "GroupNo": "",
-          "RecId": 32397,
-          "FirstName1": "NEILSON",
-          "LastName1": "UNUSED",
-          "CheckinDate": "2026-09-30",
-          "CheckOutDate": "2026-10-01",
-          "Room": "1000",
-          "RoomType": "PM",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "NOSHOW",
-          "GroupNo": "",
-          "RecId": 32398,
-          "FirstName1": "NEILSON0001",
-          "LastName1": "UNUSED",
-          "CheckinDate": "2026-09-30",
-          "CheckOutDate": "2026-10-01",
-          "Room": "1001",
-          "RoomType": "PM",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "2543456",
@@ -6388,7 +6143,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -6409,7 +6164,7 @@
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         }
       ],
@@ -6439,6 +6194,13 @@
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "114",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
