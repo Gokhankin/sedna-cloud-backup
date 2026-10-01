@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-01 07:00:04",
+  "sync_time": "2026-10-01 08:00:04",
   "report_date": "2026-10-01",
   "summary": {
     "arrivals_count": 6,
-    "departures_count": 6,
+    "departures_count": 5,
     "inhouse_count": 58,
     "noshow_count": 2,
     "vacant_count": 44,
     "roomchanges_count": 0,
-    "eod_room_count": 58,
-    "eod_pax_count": 99,
+    "eod_room_count": 59,
+    "eod_pax_count": 100,
     "hk_count": 111
   },
   "data": {
@@ -185,27 +185,6 @@
         "AgencyCode": "JET2"
       },
       {
-        "Voucher": "31915",
-        "GroupNo": "",
-        "RecId": 31915,
-        "FirstName1": "HALIL",
-        "LastName1": "APA",
-        "CheckinDate": "2026-08-24",
-        "CheckOutDate": "2026-10-01",
-        "Room": "704",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
         "Voucher": "6476949632",
         "GroupNo": "",
         "RecId": 32131,
@@ -311,27 +290,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "31915",
-        "GroupNo": "",
-        "RecId": 31915,
-        "FirstName1": "HALIL",
-        "LastName1": "APA",
-        "CheckinDate": "2026-08-24",
-        "CheckOutDate": "2026-10-01",
-        "Room": "704",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "6476949632",
@@ -1466,6 +1424,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "31915",
+        "GroupNo": "",
+        "RecId": 31915,
+        "FirstName1": "HALIL",
+        "LastName1": "APA",
+        "CheckinDate": "2026-08-24",
+        "CheckOutDate": "2026-10-31",
+        "Room": "704",
+        "RoomType": "STD SEA",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "COMP"
       },
       {
         "Voucher": "32286",
@@ -2937,27 +2916,6 @@
           "AgencyCode": "JET2"
         },
         {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-10-01",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "6476949632",
           "GroupNo": "",
           "RecId": 32131,
@@ -4176,6 +4134,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -4563,13 +4542,13 @@
     "2026-10-01": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 6,
+        "departures_count": 5,
         "inhouse_count": 58,
         "noshow_count": 2,
         "vacant_count": 44,
         "roomchanges_count": 0,
-        "eod_room_count": 58,
-        "eod_pax_count": 99
+        "eod_room_count": 59,
+        "eod_pax_count": 100
       },
       "arrivals": [
         {
@@ -4743,27 +4722,6 @@
           "AgencyCode": "JET2"
         },
         {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-10-01",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "6476949632",
           "GroupNo": "",
           "RecId": 32131,
@@ -4869,27 +4827,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-10-01",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "6476949632",
@@ -6024,6 +5961,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32286",
@@ -6407,12 +6365,12 @@
       "summary": {
         "arrivals_count": 8,
         "departures_count": 11,
-        "inhouse_count": 55,
+        "inhouse_count": 56,
         "noshow_count": 0,
-        "vacant_count": 58,
+        "vacant_count": 57,
         "roomchanges_count": 0,
-        "eod_room_count": 55,
-        "eod_pax_count": 94
+        "eod_room_count": 56,
+        "eod_pax_count": 95
       },
       "arrivals": [
         {
@@ -7953,6 +7911,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -8374,13 +8353,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -8389,12 +8361,12 @@
       "summary": {
         "arrivals_count": 15,
         "departures_count": 16,
-        "inhouse_count": 54,
+        "inhouse_count": 55,
         "noshow_count": 0,
-        "vacant_count": 73,
+        "vacant_count": 72,
         "roomchanges_count": 0,
-        "eod_room_count": 54,
-        "eod_pax_count": 95
+        "eod_room_count": 55,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -10166,6 +10138,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -10692,13 +10685,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -10707,12 +10693,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 10,
-        "inhouse_count": 49,
+        "inhouse_count": 50,
         "noshow_count": 0,
-        "vacant_count": 82,
+        "vacant_count": 81,
         "roomchanges_count": 0,
-        "eod_room_count": 49,
-        "eod_pax_count": 86
+        "eod_room_count": 50,
+        "eod_pax_count": 87
       },
       "arrivals": [
         {
@@ -12043,6 +12029,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -12632,13 +12639,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -12647,12 +12647,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 9,
-        "inhouse_count": 42,
+        "inhouse_count": 43,
         "noshow_count": 0,
-        "vacant_count": 91,
+        "vacant_count": 90,
         "roomchanges_count": 0,
-        "eod_room_count": 42,
-        "eod_pax_count": 73
+        "eod_room_count": 43,
+        "eod_pax_count": 74
       },
       "arrivals": [
         {
@@ -13752,6 +13752,27 @@
           "AgencyCode": "JOIN UP TRAVEL"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -14404,13 +14425,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -14419,12 +14433,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 5,
-        "inhouse_count": 47,
+        "inhouse_count": 48,
         "noshow_count": 0,
-        "vacant_count": 96,
+        "vacant_count": 95,
         "roomchanges_count": 0,
-        "eod_room_count": 47,
-        "eod_pax_count": 85
+        "eod_room_count": 48,
+        "eod_pax_count": 86
       },
       "arrivals": [
         {
@@ -15713,6 +15727,27 @@
           "AgencyCode": "JOIN UP TRAVEL"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -16400,13 +16435,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -16415,12 +16443,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 4,
-        "inhouse_count": 45,
+        "inhouse_count": 46,
         "noshow_count": 0,
-        "vacant_count": 99,
+        "vacant_count": 98,
         "roomchanges_count": 0,
-        "eod_room_count": 45,
-        "eod_pax_count": 84
+        "eod_room_count": 46,
+        "eod_pax_count": 85
       },
       "arrivals": [
         {
@@ -17478,6 +17506,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -18186,13 +18235,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "704",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -18201,12 +18243,12 @@
       "summary": {
         "arrivals_count": 1,
         "departures_count": 4,
-        "inhouse_count": 42,
+        "inhouse_count": 43,
         "noshow_count": 0,
-        "vacant_count": 102,
+        "vacant_count": 101,
         "roomchanges_count": 0,
-        "eod_room_count": 42,
-        "eod_pax_count": 77
+        "eod_room_count": 43,
+        "eod_pax_count": 78
       },
       "arrivals": [
         {
@@ -19180,6 +19222,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "31915",
+          "GroupNo": "",
+          "RecId": 31915,
+          "FirstName1": "HALIL",
+          "LastName1": "APA",
+          "CheckinDate": "2026-08-24",
+          "CheckOutDate": "2026-10-31",
+          "Room": "704",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32286",
           "GroupNo": "",
           "RecId": 32286,
@@ -19905,13 +19968,6 @@
         },
         {
           "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "704",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
