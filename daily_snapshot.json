@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-10-02 22:00:04",
+  "sync_time": "2026-10-02 23:00:05",
   "report_date": "2026-10-02",
   "summary": {
-    "arrivals_count": 2,
+    "arrivals_count": 1,
     "departures_count": 1,
-    "inhouse_count": 56,
+    "inhouse_count": 57,
     "noshow_count": 0,
     "vacant_count": 47,
     "roomchanges_count": 0,
@@ -31,27 +31,6 @@
         "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "21:50",
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "3043798",
-        "GroupNo": "",
-        "RecId": 31737,
-        "FirstName1": "PATRICK",
-        "LastName1": "MAXWELL",
-        "CheckinDate": "2026-10-02",
-        "CheckOutDate": "2026-10-09",
-        "Room": "125",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "20:20",
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
@@ -1043,6 +1022,27 @@
         "ExtraFolioBalance": 8194.61325,
         "ResRemark": null,
         "FlightArrival": "12:20",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "3043798",
+        "GroupNo": "",
+        "RecId": 31737,
+        "FirstName1": "PATRICK",
+        "LastName1": "MAXWELL",
+        "CheckinDate": "2026-10-02",
+        "CheckOutDate": "2026-10-09",
+        "Room": "125",
+        "RoomType": "STD SEA",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 1120,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "20:20",
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
@@ -4406,9 +4406,9 @@
     },
     "2026-10-02": {
       "summary": {
-        "arrivals_count": 2,
+        "arrivals_count": 1,
         "departures_count": 1,
-        "inhouse_count": 56,
+        "inhouse_count": 57,
         "noshow_count": 0,
         "vacant_count": 47,
         "roomchanges_count": 0,
@@ -4433,27 +4433,6 @@
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "21:50",
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "3043798",
-          "GroupNo": "",
-          "RecId": 31737,
-          "FirstName1": "PATRICK",
-          "LastName1": "MAXWELL",
-          "CheckinDate": "2026-10-02",
-          "CheckOutDate": "2026-10-09",
-          "Room": "125",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "20:20",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -5445,6 +5424,27 @@
           "ExtraFolioBalance": 8194.61325,
           "ResRemark": null,
           "FlightArrival": "12:20",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "3043798",
+          "GroupNo": "",
+          "RecId": 31737,
+          "FirstName1": "PATRICK",
+          "LastName1": "MAXWELL",
+          "CheckinDate": "2026-10-02",
+          "CheckOutDate": "2026-10-09",
+          "Room": "125",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:20",
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
@@ -7351,7 +7351,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -9004,7 +9004,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -10559,7 +10559,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -12289,7 +12289,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -13886,7 +13886,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -15448,7 +15448,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
@@ -17015,7 +17015,7 @@
           "ResRemark": null,
           "FlightArrival": "20:20",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "NEILSON"
         },
         {
