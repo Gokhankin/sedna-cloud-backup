@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-02 09:00:05",
+  "sync_time": "2026-10-02 10:00:04",
   "report_date": "2026-10-02",
   "summary": {
     "arrivals_count": 8,
-    "departures_count": 11,
+    "departures_count": 10,
     "inhouse_count": 59,
     "noshow_count": 0,
     "vacant_count": 37,
     "roomchanges_count": 0,
-    "eod_room_count": 56,
-    "eod_pax_count": 95,
+    "eod_room_count": 57,
+    "eod_pax_count": 96,
     "hk_count": 111
   },
   "data": {
@@ -282,7 +282,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 1445.2828,
+        "ExtraFolioBalance": 3668.7948,
         "ResRemark": null,
         "FlightArrival": "14:00",
         "FlightDeparture": null,
@@ -372,27 +372,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "32347",
-        "GroupNo": "",
-        "RecId": 32347,
-        "FirstName1": "NICU",
-        "LastName1": "GAVRILA",
-        "CheckinDate": "2026-09-25",
-        "CheckOutDate": "2026-10-02",
-        "Room": "703",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "32401",
@@ -515,7 +494,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 1445.2828,
+        "ExtraFolioBalance": 3668.7948,
         "ResRemark": null,
         "FlightArrival": "14:00",
         "FlightDeparture": null,
@@ -605,27 +584,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
-      },
-      {
-        "Voucher": "32347",
-        "GroupNo": "",
-        "RecId": 32347,
-        "FirstName1": "NICU",
-        "LastName1": "GAVRILA",
-        "CheckinDate": "2026-09-25",
-        "CheckOutDate": "2026-10-02",
-        "Room": "703",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "32401",
@@ -1615,6 +1573,27 @@
         "AgencyCode": "NEILSON"
       },
       {
+        "Voucher": "32347",
+        "GroupNo": "",
+        "RecId": 32347,
+        "FirstName1": "NICU",
+        "LastName1": "GAVRILA",
+        "CheckinDate": "2026-09-25",
+        "CheckOutDate": "2026-10-12",
+        "Room": "703",
+        "RoomType": "STD SEA",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "COMP"
+      },
+      {
         "Voucher": "31915",
         "GroupNo": "",
         "RecId": 31915,
@@ -2149,7 +2128,7 @@
       {
         "Room": "133",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3152,7 +3131,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1445.2828,
+          "ExtraFolioBalance": 3668.7948,
           "ResRemark": null,
           "FlightArrival": "14:00",
           "FlightDeparture": null,
@@ -3242,27 +3221,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "32347",
-          "GroupNo": "",
-          "RecId": 32347,
-          "FirstName1": "NICU",
-          "LastName1": "GAVRILA",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-10-02",
-          "Room": "703",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32401",
@@ -4273,6 +4231,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -4482,7 +4461,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4674,13 +4653,13 @@
     "2026-10-02": {
       "summary": {
         "arrivals_count": 8,
-        "departures_count": 11,
+        "departures_count": 10,
         "inhouse_count": 59,
         "noshow_count": 0,
         "vacant_count": 37,
         "roomchanges_count": 0,
-        "eod_room_count": 56,
-        "eod_pax_count": 95
+        "eod_room_count": 57,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -4951,7 +4930,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1445.2828,
+          "ExtraFolioBalance": 3668.7948,
           "ResRemark": null,
           "FlightArrival": "14:00",
           "FlightDeparture": null,
@@ -5041,27 +5020,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "32347",
-          "GroupNo": "",
-          "RecId": 32347,
-          "FirstName1": "NICU",
-          "LastName1": "GAVRILA",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-10-02",
-          "Room": "703",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32401",
@@ -5184,7 +5142,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1445.2828,
+          "ExtraFolioBalance": 3668.7948,
           "ResRemark": null,
           "FlightArrival": "14:00",
           "FlightDeparture": null,
@@ -5274,27 +5232,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
-        },
-        {
-          "Voucher": "32347",
-          "GroupNo": "",
-          "RecId": 32347,
-          "FirstName1": "NICU",
-          "LastName1": "GAVRILA",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-10-02",
-          "Room": "703",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32401",
@@ -6282,6 +6219,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "31915",
@@ -6594,12 +6552,12 @@
       "summary": {
         "arrivals_count": 15,
         "departures_count": 16,
-        "inhouse_count": 55,
+        "inhouse_count": 56,
         "noshow_count": 0,
-        "vacant_count": 60,
+        "vacant_count": 59,
         "roomchanges_count": 0,
-        "eod_room_count": 55,
-        "eod_pax_count": 96
+        "eod_room_count": 56,
+        "eod_pax_count": 97
       },
       "arrivals": [
         {
@@ -8371,6 +8329,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -8827,13 +8806,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -8842,12 +8814,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 10,
-        "inhouse_count": 50,
+        "inhouse_count": 51,
         "noshow_count": 0,
-        "vacant_count": 69,
+        "vacant_count": 68,
         "roomchanges_count": 0,
-        "eod_room_count": 50,
-        "eod_pax_count": 87
+        "eod_room_count": 51,
+        "eod_pax_count": 88
       },
       "arrivals": [
         {
@@ -10178,6 +10150,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -10697,13 +10690,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -10712,12 +10698,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 9,
-        "inhouse_count": 43,
+        "inhouse_count": 44,
         "noshow_count": 0,
-        "vacant_count": 78,
+        "vacant_count": 77,
         "roomchanges_count": 0,
-        "eod_room_count": 43,
-        "eod_pax_count": 74
+        "eod_room_count": 44,
+        "eod_pax_count": 75
       },
       "arrivals": [
         {
@@ -11796,6 +11782,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "24339290",
           "GroupNo": "",
           "RecId": 32395,
@@ -12399,13 +12406,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -12414,12 +12414,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 5,
-        "inhouse_count": 48,
+        "inhouse_count": 49,
         "noshow_count": 0,
-        "vacant_count": 83,
+        "vacant_count": 82,
         "roomchanges_count": 0,
-        "eod_room_count": 48,
-        "eod_pax_count": 86
+        "eod_room_count": 49,
+        "eod_pax_count": 87
       },
       "arrivals": [
         {
@@ -13624,6 +13624,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -13909,7 +13930,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14325,13 +14346,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -14340,12 +14354,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 4,
-        "inhouse_count": 46,
+        "inhouse_count": 47,
         "noshow_count": 0,
-        "vacant_count": 87,
+        "vacant_count": 86,
         "roomchanges_count": 0,
-        "eod_room_count": 46,
-        "eod_pax_count": 85
+        "eod_room_count": 47,
+        "eod_pax_count": 86
       },
       "arrivals": [
         {
@@ -15277,6 +15291,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -15625,7 +15660,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16048,13 +16083,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -16063,12 +16091,12 @@
       "summary": {
         "arrivals_count": 1,
         "departures_count": 4,
-        "inhouse_count": 43,
+        "inhouse_count": 44,
         "noshow_count": 0,
-        "vacant_count": 90,
+        "vacant_count": 89,
         "roomchanges_count": 0,
-        "eod_room_count": 43,
-        "eod_pax_count": 78
+        "eod_room_count": 44,
+        "eod_pax_count": 79
       },
       "arrivals": [
         {
@@ -16895,6 +16923,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -17271,7 +17320,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17708,13 +17757,6 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
-        },
-        {
-          "Room": "703",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -17723,12 +17765,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 9,
-        "inhouse_count": 37,
+        "inhouse_count": 38,
         "noshow_count": 0,
-        "vacant_count": 94,
+        "vacant_count": 93,
         "roomchanges_count": 0,
-        "eod_room_count": 37,
-        "eod_pax_count": 64
+        "eod_room_count": 38,
+        "eod_pax_count": 65
       },
       "arrivals": [
         {
@@ -18513,6 +18555,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32347",
+          "GroupNo": "",
+          "RecId": 32347,
+          "FirstName1": "NICU",
+          "LastName1": "GAVRILA",
+          "CheckinDate": "2026-09-25",
+          "CheckOutDate": "2026-10-12",
+          "Room": "703",
+          "RoomType": "STD SEA",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -18966,7 +19029,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19413,13 +19476,6 @@
         },
         {
           "Room": "702",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "703",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
