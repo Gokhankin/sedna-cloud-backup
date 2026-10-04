@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-04 09:00:05",
+  "sync_time": "2026-10-04 10:00:05",
   "report_date": "2026-10-04",
   "summary": {
     "arrivals_count": 5,
-    "departures_count": 9,
+    "departures_count": 7,
     "inhouse_count": 56,
     "noshow_count": 9,
-    "vacant_count": 45,
+    "vacant_count": 43,
     "roomchanges_count": 0,
-    "eod_room_count": 52,
-    "eod_pax_count": 90,
+    "eod_room_count": 54,
+    "eod_pax_count": 92,
     "hk_count": 111
   },
   "data": {
@@ -64,8 +64,8 @@
         "LastName1": "SELLWOOD",
         "CheckinDate": "2026-10-04",
         "CheckOutDate": "2026-10-11",
-        "Room": "310",
-        "RoomType": "STD-SVL",
+        "Room": "211",
+        "RoomType": "STD SEA L",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -85,8 +85,8 @@
         "LastName1": "NOBLE",
         "CheckinDate": "2026-10-04",
         "CheckOutDate": "2026-10-11",
-        "Room": "308",
-        "RoomType": "STD-SVL",
+        "Room": "209",
+        "RoomType": "STD SEA L",
         "Board": "BB",
         "Pax": 2,
         "Childs": 0,
@@ -106,8 +106,8 @@
         "LastName1": "CREMONINI",
         "CheckinDate": "2026-10-04",
         "CheckOutDate": "2026-10-11",
-        "Room": "307",
-        "RoomType": "STD-SV",
+        "Room": "308",
+        "RoomType": "STD-SVL",
         "Board": "AI",
         "Pax": 1,
         "Childs": 0,
@@ -246,48 +246,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "32372",
-        "GroupNo": "",
-        "RecId": 32372,
-        "FirstName1": "BURHANETTIN",
-        "LastName1": "CALIM",
-        "CheckinDate": "2026-09-27",
-        "CheckOutDate": "2026-10-04",
-        "Room": "307",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "32373",
-        "GroupNo": "",
-        "RecId": 32373,
-        "FirstName1": "BULENT",
-        "LastName1": "BAYKAL",
-        "CheckinDate": "2026-09-27",
-        "CheckOutDate": "2026-10-04",
-        "Room": "310",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 778.2292,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "32391",
@@ -437,48 +395,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "32372",
-        "GroupNo": "",
-        "RecId": 32372,
-        "FirstName1": "BURHANETTIN",
-        "LastName1": "CALIM",
-        "CheckinDate": "2026-09-27",
-        "CheckOutDate": "2026-10-04",
-        "Room": "307",
-        "RoomType": "STD-SV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "32373",
-        "GroupNo": "",
-        "RecId": 32373,
-        "FirstName1": "BULENT",
-        "LastName1": "BAYKAL",
-        "CheckinDate": "2026-09-27",
-        "CheckOutDate": "2026-10-04",
-        "Room": "310",
-        "RoomType": "STD-SVL",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 778.2292,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "32391",
@@ -1405,6 +1321,48 @@
         "AgencyCode": "BA HOLIDAYS"
       },
       {
+        "Voucher": "32372",
+        "GroupNo": "",
+        "RecId": 32372,
+        "FirstName1": "BURHANETTIN",
+        "LastName1": "CALIM",
+        "CheckinDate": "2026-09-27",
+        "CheckOutDate": "2026-10-11",
+        "Room": "307",
+        "RoomType": "STD-SV",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "COMP"
+      },
+      {
+        "Voucher": "32373",
+        "GroupNo": "",
+        "RecId": 32373,
+        "FirstName1": "BULENT",
+        "LastName1": "BAYKAL",
+        "CheckinDate": "2026-09-27",
+        "CheckOutDate": "2026-10-11",
+        "Room": "310",
+        "RoomType": "STD-SVL",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 778.2292,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "COMP"
+      },
+      {
         "Voucher": "3045185",
         "GroupNo": "",
         "RecId": 31878,
@@ -1773,22 +1731,8 @@
         "OccVac": 1
       },
       {
-        "Room": "209",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "210",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "211",
-        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -1803,7 +1747,7 @@
       {
         "Room": "303",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1831,7 +1775,7 @@
       {
         "Room": "332",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2332,7 +2276,7 @@
       {
         "Room": "303",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2535,7 +2479,7 @@
       {
         "Room": "332",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3763,48 +3707,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32372",
-          "GroupNo": "",
-          "RecId": 32372,
-          "FirstName1": "BURHANETTIN",
-          "LastName1": "CALIM",
-          "CheckinDate": "2026-09-27",
-          "CheckOutDate": "2026-10-04",
-          "Room": "307",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32373",
-          "GroupNo": "",
-          "RecId": 32373,
-          "FirstName1": "BULENT",
-          "LastName1": "BAYKAL",
-          "CheckinDate": "2026-09-27",
-          "CheckOutDate": "2026-10-04",
-          "Room": "310",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 778.2292,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "32391",
           "GroupNo": "",
           "RecId": 32391,
@@ -4960,6 +4862,48 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -5365,7 +5309,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5400,7 +5344,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5564,13 +5508,13 @@
     "2026-10-04": {
       "summary": {
         "arrivals_count": 5,
-        "departures_count": 9,
+        "departures_count": 7,
         "inhouse_count": 56,
         "noshow_count": 9,
-        "vacant_count": 45,
+        "vacant_count": 43,
         "roomchanges_count": 0,
-        "eod_room_count": 52,
-        "eod_pax_count": 90
+        "eod_room_count": 54,
+        "eod_pax_count": 92
       },
       "arrivals": [
         {
@@ -5623,8 +5567,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5644,8 +5588,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -5665,8 +5609,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -5805,48 +5749,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "32372",
-          "GroupNo": "",
-          "RecId": 32372,
-          "FirstName1": "BURHANETTIN",
-          "LastName1": "CALIM",
-          "CheckinDate": "2026-09-27",
-          "CheckOutDate": "2026-10-04",
-          "Room": "307",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32373",
-          "GroupNo": "",
-          "RecId": 32373,
-          "FirstName1": "BULENT",
-          "LastName1": "BAYKAL",
-          "CheckinDate": "2026-09-27",
-          "CheckOutDate": "2026-10-04",
-          "Room": "310",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 778.2292,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32391",
@@ -5996,48 +5898,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "32372",
-          "GroupNo": "",
-          "RecId": 32372,
-          "FirstName1": "BURHANETTIN",
-          "LastName1": "CALIM",
-          "CheckinDate": "2026-09-27",
-          "CheckOutDate": "2026-10-04",
-          "Room": "307",
-          "RoomType": "STD-SV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32373",
-          "GroupNo": "",
-          "RecId": 32373,
-          "FirstName1": "BULENT",
-          "LastName1": "BAYKAL",
-          "CheckinDate": "2026-09-27",
-          "CheckOutDate": "2026-10-04",
-          "Room": "310",
-          "RoomType": "STD-SVL",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 778.2292,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32391",
@@ -6964,6 +6824,48 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -7332,22 +7234,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -7362,7 +7250,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7390,7 +7278,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7562,12 +7450,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 10,
-        "inhouse_count": 44,
+        "inhouse_count": 46,
         "noshow_count": 0,
-        "vacant_count": 62,
+        "vacant_count": 60,
         "roomchanges_count": 0,
-        "eod_room_count": 44,
-        "eod_pax_count": 75
+        "eod_room_count": 46,
+        "eod_pax_count": 77
       },
       "arrivals": [
         {
@@ -8548,8 +8436,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -8569,8 +8457,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -8590,8 +8478,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -8623,6 +8511,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "34006258",
@@ -8887,22 +8817,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -8924,7 +8840,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8994,7 +8910,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9194,12 +9110,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 5,
-        "inhouse_count": 49,
+        "inhouse_count": 51,
         "noshow_count": 0,
-        "vacant_count": 67,
+        "vacant_count": 65,
         "roomchanges_count": 0,
-        "eod_room_count": 49,
-        "eod_pax_count": 87
+        "eod_room_count": 51,
+        "eod_pax_count": 89
       },
       "arrivals": [
         {
@@ -10264,8 +10180,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -10285,8 +10201,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -10306,8 +10222,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -10339,6 +10255,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "34006258",
@@ -10708,22 +10666,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -10745,7 +10689,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10822,7 +10766,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11029,12 +10973,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 4,
-        "inhouse_count": 47,
+        "inhouse_count": 49,
         "noshow_count": 0,
-        "vacant_count": 71,
+        "vacant_count": 69,
         "roomchanges_count": 0,
-        "eod_room_count": 47,
-        "eod_pax_count": 86
+        "eod_room_count": 49,
+        "eod_pax_count": 88
       },
       "arrivals": [
         {
@@ -11826,8 +11770,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -11847,8 +11791,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -11868,8 +11812,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -11901,6 +11845,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "34006258",
@@ -12333,22 +12319,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -12370,7 +12342,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12447,7 +12419,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12661,12 +12633,12 @@
       "summary": {
         "arrivals_count": 1,
         "departures_count": 4,
-        "inhouse_count": 44,
+        "inhouse_count": 46,
         "noshow_count": 0,
-        "vacant_count": 75,
+        "vacant_count": 73,
         "roomchanges_count": 0,
-        "eod_room_count": 44,
-        "eod_pax_count": 79
+        "eod_room_count": 46,
+        "eod_pax_count": 81
       },
       "arrivals": [
         {
@@ -13353,8 +13325,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -13374,8 +13346,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -13395,8 +13367,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -13428,6 +13400,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "34006258",
@@ -13895,22 +13909,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -13932,7 +13932,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14023,7 +14023,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14237,12 +14237,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 9,
-        "inhouse_count": 38,
+        "inhouse_count": 40,
         "noshow_count": 0,
-        "vacant_count": 79,
+        "vacant_count": 77,
         "roomchanges_count": 0,
-        "eod_room_count": 38,
-        "eod_pax_count": 65
+        "eod_room_count": 40,
+        "eod_pax_count": 67
       },
       "arrivals": [
         {
@@ -14887,8 +14887,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -14908,8 +14908,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -14929,8 +14929,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -14962,6 +14962,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "34006258",
@@ -15513,22 +15555,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -15550,7 +15578,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15648,7 +15676,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15862,12 +15890,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 16,
-        "inhouse_count": 32,
+        "inhouse_count": 34,
         "noshow_count": 0,
-        "vacant_count": 93,
+        "vacant_count": 91,
         "roomchanges_count": 0,
-        "eod_room_count": 32,
-        "eod_pax_count": 56
+        "eod_room_count": 34,
+        "eod_pax_count": 58
       },
       "arrivals": [
         {
@@ -16470,8 +16498,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -16491,8 +16519,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -16512,8 +16540,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -16545,6 +16573,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "34006258",
@@ -17355,22 +17425,8 @@
           "OccVac": 1
         },
         {
-          "Room": "209",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "210",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "211",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -17392,7 +17448,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17539,7 +17595,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17752,7 +17808,7 @@
     "2026-10-11": {
       "summary": {
         "arrivals_count": 7,
-        "departures_count": 6,
+        "departures_count": 8,
         "inhouse_count": 33,
         "noshow_count": 0,
         "vacant_count": 99,
@@ -17960,8 +18016,8 @@
           "LastName1": "SELLWOOD",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "310",
-          "RoomType": "STD-SVL",
+          "Room": "211",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -17981,8 +18037,8 @@
           "LastName1": "NOBLE",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "308",
-          "RoomType": "STD-SVL",
+          "Room": "209",
+          "RoomType": "STD SEA L",
           "Board": "BB",
           "Pax": 2,
           "Childs": 0,
@@ -18002,8 +18058,8 @@
           "LastName1": "CREMONINI",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "307",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -18035,6 +18091,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
+        },
+        {
+          "Voucher": "32372",
+          "GroupNo": "",
+          "RecId": 32372,
+          "FirstName1": "BURHANETTIN",
+          "LastName1": "CALIM",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "307",
+          "RoomType": "STD-SV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32373",
+          "GroupNo": "",
+          "RecId": 32373,
+          "FirstName1": "BULENT",
+          "LastName1": "BAYKAL",
+          "CheckinDate": "2026-09-27",
+          "CheckOutDate": "2026-10-11",
+          "Room": "310",
+          "RoomType": "STD-SVL",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 778.2292,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [
@@ -19045,7 +19143,7 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19220,7 +19318,7 @@
         {
           "Room": "332",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
