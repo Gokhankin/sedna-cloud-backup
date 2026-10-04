@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-10-04 15:00:05",
+  "sync_time": "2026-10-04 16:00:05",
   "report_date": "2026-10-04",
   "summary": {
     "arrivals_count": 2,
@@ -72,7 +72,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 36826.9175,
+        "ExtraFolioBalance": 36993.6809,
         "ResRemark": "",
         "FlightArrival": "20:15",
         "FlightDeparture": "",
@@ -137,7 +137,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 36826.9175,
+        "ExtraFolioBalance": 36993.6809,
         "ResRemark": "",
         "FlightArrival": "20:15",
         "FlightDeparture": "",
@@ -620,7 +620,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 4055.6391,
+        "ExtraFolioBalance": 3833.4123,
         "ResRemark": null,
         "FlightArrival": "13:15",
         "FlightDeparture": null,
@@ -1103,7 +1103,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 5391.42825,
+        "ExtraFolioBalance": 6773.84575,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1139,7 +1139,7 @@
         "LastName1": "CONNOLLY",
         "CheckinDate": "2026-10-04",
         "CheckOutDate": "2026-10-11",
-        "Room": "115",
+        "Room": "113",
         "RoomType": "JR SUIT S",
         "Board": "AI",
         "Pax": 2,
@@ -1535,9 +1535,9 @@
         "OccVac": 1
       },
       {
-        "Room": "113",
+        "Room": "115",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1957,7 +1957,7 @@
       {
         "Room": "115",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3506,7 +3506,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 36826.9175,
+          "ExtraFolioBalance": 36993.6809,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "",
@@ -4283,7 +4283,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4055.6391,
+          "ExtraFolioBalance": 3833.4123,
           "ResRemark": null,
           "FlightArrival": "13:15",
           "FlightDeparture": null,
@@ -4745,7 +4745,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5123,7 +5123,7 @@
         {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5511,7 +5511,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 36826.9175,
+          "ExtraFolioBalance": 36993.6809,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "",
@@ -5576,7 +5576,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 36826.9175,
+          "ExtraFolioBalance": 36993.6809,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "",
@@ -6059,7 +6059,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4055.6391,
+          "ExtraFolioBalance": 3833.4123,
           "ResRemark": null,
           "FlightArrival": "13:15",
           "FlightDeparture": null,
@@ -6542,7 +6542,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6578,7 +6578,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -6974,9 +6974,9 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
+          "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7279,16 +7279,37 @@
     },
     "2026-10-05": {
       "summary": {
-        "arrivals_count": 2,
+        "arrivals_count": 3,
         "departures_count": 10,
-        "inhouse_count": 48,
+        "inhouse_count": 49,
         "noshow_count": 0,
         "vacant_count": 58,
         "roomchanges_count": 0,
-        "eod_room_count": 48,
-        "eod_pax_count": 81
+        "eod_room_count": 49,
+        "eod_pax_count": 82
       },
       "arrivals": [
+        {
+          "Voucher": "2573730759",
+          "GroupNo": "",
+          "RecId": 32424,
+          "FirstName1": "SERKAN",
+          "LastName1": "CAN",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-08",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
         {
           "Voucher": "34006258",
           "GroupNo": "",
@@ -7756,6 +7777,27 @@
           "AgencyCode": "TUI UK"
         },
         {
+          "Voucher": "2573730759",
+          "GroupNo": "",
+          "RecId": 32424,
+          "FirstName1": "SERKAN",
+          "LastName1": "CAN",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-08",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "3038307",
           "GroupNo": "",
           "RecId": 31125,
@@ -7769,7 +7811,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4055.6391,
+          "ExtraFolioBalance": 3833.4123,
           "ResRemark": null,
           "FlightArrival": "13:15",
           "FlightDeparture": null,
@@ -8252,7 +8294,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8330,7 +8372,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -8585,9 +8627,9 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
+          "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8969,12 +9011,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 6,
-        "inhouse_count": 52,
+        "inhouse_count": 53,
         "noshow_count": 0,
         "vacant_count": 64,
         "roomchanges_count": 0,
-        "eod_room_count": 52,
-        "eod_pax_count": 91
+        "eod_room_count": 53,
+        "eod_pax_count": 92
       },
       "arrivals": [
         {
@@ -9402,6 +9444,27 @@
           "AgencyCode": "TUI UK"
         },
         {
+          "Voucher": "2573730759",
+          "GroupNo": "",
+          "RecId": 32424,
+          "FirstName1": "SERKAN",
+          "LastName1": "CAN",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-08",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "3038307",
           "GroupNo": "",
           "RecId": 31125,
@@ -9415,7 +9478,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4055.6391,
+          "ExtraFolioBalance": 3833.4123,
           "ResRemark": null,
           "FlightArrival": "13:15",
           "FlightDeparture": null,
@@ -10024,7 +10087,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10102,7 +10165,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -10448,9 +10511,9 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
+          "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10867,12 +10930,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 4,
-        "inhouse_count": 50,
+        "inhouse_count": 51,
         "noshow_count": 0,
         "vacant_count": 68,
         "roomchanges_count": 0,
-        "eod_room_count": 50,
-        "eod_pax_count": 90
+        "eod_room_count": 51,
+        "eod_pax_count": 91
       },
       "arrivals": [
         {
@@ -11006,6 +11069,27 @@
       ],
       "inhouse": [
         {
+          "Voucher": "2573730759",
+          "GroupNo": "",
+          "RecId": 32424,
+          "FirstName1": "SERKAN",
+          "LastName1": "CAN",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-08",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "3038307",
           "GroupNo": "",
           "RecId": 31125,
@@ -11019,7 +11103,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4055.6391,
+          "ExtraFolioBalance": 3833.4123,
           "ResRemark": null,
           "FlightArrival": "13:15",
           "FlightDeparture": null,
@@ -11628,7 +11712,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -11706,7 +11790,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -12108,9 +12192,9 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
+          "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12540,7 +12624,7 @@
     "2026-10-08": {
       "summary": {
         "arrivals_count": 1,
-        "departures_count": 5,
+        "departures_count": 6,
         "inhouse_count": 46,
         "noshow_count": 0,
         "vacant_count": 73,
@@ -12573,6 +12657,27 @@
       ],
       "departures": [
         {
+          "Voucher": "2573730759",
+          "GroupNo": "",
+          "RecId": 32424,
+          "FirstName1": "SERKAN",
+          "LastName1": "CAN",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-08",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 8,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 1,
+          "AgencyCode": "EXPEDIA"
+        },
+        {
           "Voucher": "3038307",
           "GroupNo": "",
           "RecId": 31125,
@@ -12586,7 +12691,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4055.6391,
+          "ExtraFolioBalance": 3833.4123,
           "ResRemark": null,
           "FlightArrival": "13:15",
           "FlightDeparture": null,
@@ -13197,7 +13302,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13275,7 +13380,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -13698,9 +13803,9 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
+          "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14759,7 +14864,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14837,7 +14942,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -15323,9 +15428,9 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
+          "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16368,7 +16473,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 5391.42825,
+          "ExtraFolioBalance": 6773.84575,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -16448,7 +16553,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -17172,15 +17277,15 @@
           "OccVac": 1
         },
         {
-          "Room": "113",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "Room": "114",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
+          "Room": "115",
+          "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -17966,7 +18071,7 @@
           "LastName1": "CONNOLLY",
           "CheckinDate": "2026-10-04",
           "CheckOutDate": "2026-10-11",
-          "Room": "115",
+          "Room": "113",
           "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 2,
@@ -18855,7 +18960,7 @@
         {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
