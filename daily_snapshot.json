@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-05 10:00:05",
+  "sync_time": "2026-10-05 11:00:05",
   "report_date": "2026-10-05",
   "summary": {
     "arrivals_count": 4,
-    "departures_count": 9,
-    "inhouse_count": 56,
+    "departures_count": 8,
+    "inhouse_count": 55,
     "noshow_count": 8,
-    "vacant_count": 44,
+    "vacant_count": 45,
     "roomchanges_count": 0,
     "eod_room_count": 51,
     "eod_pax_count": 85,
@@ -267,27 +267,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "32352",
-        "GroupNo": "",
-        "RecId": 32352,
-        "FirstName1": "GAIL",
-        "LastName1": "IMICH",
-        "CheckinDate": "2026-09-28",
-        "CheckOutDate": "2026-10-05",
-        "Room": "119",
-        "RoomType": "CLUB SEA",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": -4e-05,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       }
     ],
     "inhouse": [
@@ -458,27 +437,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "32352",
-        "GroupNo": "",
-        "RecId": 32352,
-        "FirstName1": "GAIL",
-        "LastName1": "IMICH",
-        "CheckinDate": "2026-09-28",
-        "CheckOutDate": "2026-10-05",
-        "Room": "119",
-        "RoomType": "CLUB SEA",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": -4e-05,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "2509984017",
@@ -1334,7 +1292,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 660.9912,
         "ResRemark": null,
         "FlightArrival": "12:30",
         "FlightDeparture": null,
@@ -1656,7 +1614,7 @@
       {
         "Room": "104",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1677,6 +1635,13 @@
       {
         "Room": "118",
         "RoomTypeCode": "SUIT",
+        "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "119",
+        "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -1975,7 +1940,7 @@
       {
         "Room": "104",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2080,7 +2045,7 @@
       {
         "Room": "119",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3051,7 +3016,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -3626,7 +3591,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -4651,7 +4616,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -5162,7 +5127,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5487,10 +5452,10 @@
     "2026-10-05": {
       "summary": {
         "arrivals_count": 4,
-        "departures_count": 9,
-        "inhouse_count": 56,
+        "departures_count": 8,
+        "inhouse_count": 55,
         "noshow_count": 8,
-        "vacant_count": 44,
+        "vacant_count": 45,
         "roomchanges_count": 0,
         "eod_room_count": 51,
         "eod_pax_count": 85
@@ -5749,27 +5714,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "32352",
-          "GroupNo": "",
-          "RecId": 32352,
-          "FirstName1": "GAIL",
-          "LastName1": "IMICH",
-          "CheckinDate": "2026-09-28",
-          "CheckOutDate": "2026-10-05",
-          "Room": "119",
-          "RoomType": "CLUB SEA",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": -4e-05,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         }
       ],
       "inhouse": [
@@ -5940,27 +5884,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "32352",
-          "GroupNo": "",
-          "RecId": 32352,
-          "FirstName1": "GAIL",
-          "LastName1": "IMICH",
-          "CheckinDate": "2026-09-28",
-          "CheckOutDate": "2026-10-05",
-          "Room": "119",
-          "RoomType": "CLUB SEA",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": -4e-05,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "2509984017",
@@ -6816,7 +6739,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -7138,7 +7061,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7159,6 +7082,13 @@
         {
           "Room": "118",
           "RoomTypeCode": "SUIT",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "119",
+          "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -8659,7 +8589,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -8959,7 +8889,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9001,7 +8931,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10277,7 +10207,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -10626,7 +10556,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10675,7 +10605,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11860,7 +11790,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -12230,7 +12160,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12286,7 +12216,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13422,7 +13352,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -13855,7 +13785,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13911,7 +13841,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15033,7 +14963,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -15676,7 +15606,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15767,7 +15697,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16551,7 +16481,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 660.9912,
           "ResRemark": null,
           "FlightArrival": "12:30",
           "FlightDeparture": null,
@@ -17343,7 +17273,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17441,7 +17371,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19213,7 +19143,7 @@
         {
           "Room": "104",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19311,7 +19241,7 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
