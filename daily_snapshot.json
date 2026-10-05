@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-10-05 22:00:04",
+  "sync_time": "2026-10-05 23:00:04",
   "report_date": "2026-10-05",
   "summary": {
     "arrivals_count": 1,
@@ -30,7 +30,7 @@
         "AgencyId": 1136,
         "ExtraFolioBalance": 0.0,
         "ResRemark": null,
-        "FlightArrival": null,
+        "FlightArrival": "02:30",
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "JOIN UP TRAVEL"
@@ -850,7 +850,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 13,
-        "ExtraFolioBalance": 13696.99259,
+        "ExtraFolioBalance": 14692.33319,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -4279,7 +4279,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5315,7 +5315,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -6135,7 +6135,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6995,7 +6995,7 @@
         "departures_count": 7,
         "inhouse_count": 59,
         "noshow_count": 0,
-        "vacant_count": 48,
+        "vacant_count": 47,
         "roomchanges_count": 0,
         "eod_room_count": 59,
         "eod_pax_count": 101
@@ -7017,7 +7017,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7038,7 +7038,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7059,7 +7059,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7080,7 +7080,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7101,7 +7101,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7156,8 +7156,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7609,7 +7609,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7630,7 +7630,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7651,7 +7651,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7672,7 +7672,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -7693,7 +7693,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -8174,7 +8174,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8420,8 +8420,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -8575,7 +8575,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -8808,13 +8808,6 @@
           "OccVac": 1
         },
         {
-          "Room": "402",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -8970,7 +8963,7 @@
         "departures_count": 4,
         "inhouse_count": 58,
         "noshow_count": 0,
-        "vacant_count": 52,
+        "vacant_count": 51,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 102
@@ -9269,7 +9262,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -9290,7 +9283,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -9311,7 +9304,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -9332,7 +9325,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -9353,7 +9346,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -9834,7 +9827,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10080,8 +10073,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -10235,7 +10228,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -10559,13 +10552,6 @@
           "OccVac": 1
         },
         {
-          "Room": "402",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -10721,7 +10707,7 @@
         "departures_count": 6,
         "inhouse_count": 53,
         "noshow_count": 0,
-        "vacant_count": 58,
+        "vacant_count": 57,
         "roomchanges_count": 0,
         "eod_room_count": 53,
         "eod_pax_count": 92
@@ -10894,7 +10880,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -10915,7 +10901,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -10936,7 +10922,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -10957,7 +10943,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -10978,7 +10964,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -11459,7 +11445,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -11705,8 +11691,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11860,7 +11846,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -12247,13 +12233,6 @@
           "OccVac": 1
         },
         {
-          "Room": "402",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -12409,7 +12388,7 @@
         "departures_count": 12,
         "inhouse_count": 44,
         "noshow_count": 0,
-        "vacant_count": 70,
+        "vacant_count": 69,
         "roomchanges_count": 0,
         "eod_room_count": 44,
         "eod_pax_count": 74
@@ -12496,7 +12475,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -12517,7 +12496,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -12538,7 +12517,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -12559,7 +12538,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -12580,7 +12559,7 @@
           "AgencyId": 1120,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "19:00",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
@@ -13063,7 +13042,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -13309,8 +13288,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13464,7 +13443,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -13998,13 +13977,6 @@
           "OccVac": 1
         },
         {
-          "Room": "402",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -14160,7 +14132,7 @@
         "departures_count": 18,
         "inhouse_count": 36,
         "noshow_count": 0,
-        "vacant_count": 87,
+        "vacant_count": 86,
         "roomchanges_count": 0,
         "eod_room_count": 36,
         "eod_pax_count": 62
@@ -14707,7 +14679,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 13,
-          "ExtraFolioBalance": 13696.99259,
+          "ExtraFolioBalance": 14692.33319,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -14955,8 +14927,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15110,7 +15082,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -15973,13 +15945,6 @@
           "OccVac": 1
         },
         {
-          "Room": "402",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "403",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -16135,7 +16100,7 @@
         "departures_count": 9,
         "inhouse_count": 34,
         "noshow_count": 0,
-        "vacant_count": 96,
+        "vacant_count": 95,
         "roomchanges_count": 0,
         "eod_room_count": 34,
         "eod_pax_count": 59
@@ -16489,8 +16454,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -16644,7 +16609,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
@@ -17704,13 +17669,6 @@
         },
         {
           "Room": "401",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "402",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -18126,8 +18084,8 @@
           "LastName1": "FROST",
           "CheckinDate": "2026-10-06",
           "CheckOutDate": "2026-10-12",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "402",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18283,7 +18241,7 @@
           "AgencyId": 1136,
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
-          "FlightArrival": null,
+          "FlightArrival": "02:30",
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "JOIN UP TRAVEL"
