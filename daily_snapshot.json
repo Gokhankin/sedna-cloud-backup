@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-05 09:00:05",
+  "sync_time": "2026-10-05 10:00:05",
   "report_date": "2026-10-05",
   "summary": {
-    "arrivals_count": 3,
+    "arrivals_count": 4,
     "departures_count": 9,
     "inhouse_count": 56,
     "noshow_count": 8,
-    "vacant_count": 45,
+    "vacant_count": 44,
     "roomchanges_count": 0,
-    "eod_room_count": 50,
-    "eod_pax_count": 84,
+    "eod_room_count": 51,
+    "eod_pax_count": 85,
     "hk_count": 111
   },
   "data": {
@@ -57,6 +57,27 @@
         "AgencyCode": "TUI UK"
       },
       {
+        "Voucher": "32433",
+        "GroupNo": "",
+        "RecId": 32433,
+        "FirstName1": "ZIYA HAKAN",
+        "LastName1": "SONMEZ",
+        "CheckinDate": "2026-10-05",
+        "CheckOutDate": "2026-10-12",
+        "Room": "132",
+        "RoomType": "SUIT",
+        "Board": "AI",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "COMP"
+      },
+      {
         "Voucher": "24339290",
         "GroupNo": "",
         "RecId": 32395,
@@ -64,8 +85,8 @@
         "LastName1": "YURKO",
         "CheckinDate": "2026-10-05",
         "CheckOutDate": "2026-10-13",
-        "Room": "128",
-        "RoomType": "STD-SVL",
+        "Room": "203",
+        "RoomType": "STD SEA L",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
@@ -1668,6 +1689,13 @@
         "OccVac": 1
       },
       {
+        "Room": "128",
+        "RoomTypeCode": "STD-SVL",
+        "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "129",
         "RoomTypeCode": "CLUB SEA",
         "DirtyClean": 1,
@@ -1682,22 +1710,8 @@
         "OccVac": 1
       },
       {
-        "Room": "132",
-        "RoomTypeCode": "SUIT",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "202",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "203",
-        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -5472,14 +5486,14 @@
     },
     "2026-10-05": {
       "summary": {
-        "arrivals_count": 3,
+        "arrivals_count": 4,
         "departures_count": 9,
         "inhouse_count": 56,
         "noshow_count": 8,
-        "vacant_count": 45,
+        "vacant_count": 44,
         "roomchanges_count": 0,
-        "eod_room_count": 50,
-        "eod_pax_count": 84
+        "eod_room_count": 51,
+        "eod_pax_count": 85
       },
       "arrivals": [
         {
@@ -5525,6 +5539,27 @@
           "AgencyCode": "TUI UK"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "24339290",
           "GroupNo": "",
           "RecId": 32395,
@@ -5532,8 +5567,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7136,6 +7171,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -7150,22 +7192,8 @@
           "OccVac": 1
         },
         {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -7408,12 +7436,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 7,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 61,
+        "vacant_count": 60,
         "roomchanges_count": 0,
-        "eod_room_count": 53,
-        "eod_pax_count": 92
+        "eod_room_count": 54,
+        "eod_pax_count": 93
       },
       "arrivals": [
         {
@@ -8723,6 +8751,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -8835,8 +8884,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -8971,6 +9020,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -8985,13 +9041,6 @@
           "OccVac": 1
         },
         {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -9001,13 +9050,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9327,12 +9369,12 @@
       "summary": {
         "arrivals_count": 2,
         "departures_count": 4,
-        "inhouse_count": 51,
+        "inhouse_count": 52,
         "noshow_count": 0,
-        "vacant_count": 65,
+        "vacant_count": 64,
         "roomchanges_count": 0,
-        "eod_room_count": 51,
-        "eod_pax_count": 91
+        "eod_room_count": 52,
+        "eod_pax_count": 92
       },
       "arrivals": [
         {
@@ -10327,6 +10369,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -10439,8 +10502,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -10631,6 +10694,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -10645,13 +10715,6 @@
           "OccVac": 1
         },
         {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -10661,13 +10724,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11001,12 +11057,12 @@
       "summary": {
         "arrivals_count": 1,
         "departures_count": 6,
-        "inhouse_count": 46,
+        "inhouse_count": 47,
         "noshow_count": 0,
-        "vacant_count": 71,
+        "vacant_count": 70,
         "roomchanges_count": 0,
-        "eod_room_count": 46,
-        "eod_pax_count": 81
+        "eod_room_count": 47,
+        "eod_pax_count": 82
       },
       "arrivals": [
         {
@@ -11896,6 +11952,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -12008,8 +12085,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -12242,6 +12319,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -12252,13 +12336,6 @@
           "Room": "130",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12279,13 +12356,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -12633,12 +12703,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 9,
-        "inhouse_count": 40,
+        "inhouse_count": 41,
         "noshow_count": 0,
-        "vacant_count": 75,
+        "vacant_count": 74,
         "roomchanges_count": 0,
-        "eod_room_count": 40,
-        "eod_pax_count": 67
+        "eod_room_count": 41,
+        "eod_pax_count": 68
       },
       "arrivals": [
         {
@@ -13444,6 +13514,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -13556,8 +13647,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13867,6 +13958,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -13877,13 +13975,6 @@
           "Room": "130",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13904,13 +13995,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -14272,12 +14356,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 16,
-        "inhouse_count": 34,
+        "inhouse_count": 35,
         "noshow_count": 0,
-        "vacant_count": 89,
+        "vacant_count": 88,
         "roomchanges_count": 0,
-        "eod_room_count": 34,
-        "eod_pax_count": 58
+        "eod_room_count": 35,
+        "eod_pax_count": 59
       },
       "arrivals": [
         {
@@ -15041,6 +15125,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -15153,8 +15258,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15709,6 +15814,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -15719,13 +15831,6 @@
           "Room": "131",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15753,13 +15858,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -16177,12 +16275,12 @@
       "summary": {
         "arrivals_count": 7,
         "departures_count": 8,
-        "inhouse_count": 33,
+        "inhouse_count": 34,
         "noshow_count": 0,
-        "vacant_count": 97,
+        "vacant_count": 96,
         "roomchanges_count": 0,
-        "eod_room_count": 33,
-        "eod_pax_count": 57
+        "eod_room_count": 34,
+        "eod_pax_count": 58
       },
       "arrivals": [
         {
@@ -16547,6 +16645,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -16659,8 +16778,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -17369,6 +17488,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -17379,13 +17505,6 @@
           "Room": "131",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "132",
-          "RoomTypeCode": "SUIT",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17413,13 +17532,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -17885,7 +17997,7 @@
     "2026-10-12": {
       "summary": {
         "arrivals_count": 11,
-        "departures_count": 4,
+        "departures_count": 5,
         "inhouse_count": 40,
         "noshow_count": 0,
         "vacant_count": 100,
@@ -18170,6 +18282,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "32433",
+          "GroupNo": "",
+          "RecId": 32433,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-05",
+          "CheckOutDate": "2026-10-12",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "3045185",
           "GroupNo": "",
           "RecId": 31878,
@@ -18284,8 +18417,8 @@
           "LastName1": "YURKO",
           "CheckinDate": "2026-10-05",
           "CheckOutDate": "2026-10-13",
-          "Room": "128",
-          "RoomType": "STD-SVL",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -19232,6 +19365,13 @@
           "OccVac": 1
         },
         {
+          "Room": "128",
+          "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "129",
           "RoomTypeCode": "CLUB SEA",
           "DirtyClean": 1,
@@ -19276,13 +19416,6 @@
         {
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
