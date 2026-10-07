@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-07 02:00:05",
+  "sync_time": "2026-10-07 03:00:05",
   "report_date": "2026-10-07",
   "summary": {
     "arrivals_count": 4,
     "departures_count": 4,
-    "inhouse_count": 62,
+    "inhouse_count": 61,
     "noshow_count": 10,
-    "vacant_count": 42,
+    "vacant_count": 43,
     "roomchanges_count": 0,
-    "eod_room_count": 62,
-    "eod_pax_count": 110,
+    "eod_room_count": 61,
+    "eod_pax_count": 108,
     "hk_count": 111
   },
   "data": {
@@ -91,7 +91,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": -204080.75793,
         "ResRemark": "",
         "FlightArrival": "OTELE 18-19",
         "FlightDeparture": "",
@@ -1321,27 +1321,6 @@
         "AgencyCode": "COMP"
       },
       {
-        "Voucher": "32401",
-        "GroupNo": "",
-        "RecId": 32404,
-        "FirstName1": "MEHMET",
-        "LastName1": "ELMA",
-        "CheckinDate": "2026-10-03",
-        "CheckOutDate": "2026-10-12",
-        "Room": "701",
-        "RoomType": "STD SEA L",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "22 otele geliş",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
         "Voucher": "8153858",
         "GroupNo": "",
         "RecId": 28830,
@@ -1985,6 +1964,13 @@
       {
         "Room": "424",
         "RoomTypeCode": "STD-SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "701",
+        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3805,6 +3791,27 @@
           "AgencyCode": "TUI UK"
         },
         {
+          "Voucher": "32401",
+          "GroupNo": "",
+          "RecId": 32404,
+          "FirstName1": "MEHMET",
+          "LastName1": "ELMA",
+          "CheckinDate": "2026-10-03",
+          "CheckOutDate": "2026-10-07",
+          "Room": "701",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "22 otele geliş",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "NOSHOW",
           "GroupNo": "",
           "RecId": 32467,
@@ -5060,27 +5067,6 @@
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
@@ -6118,12 +6104,12 @@
       "summary": {
         "arrivals_count": 4,
         "departures_count": 4,
-        "inhouse_count": 62,
+        "inhouse_count": 61,
         "noshow_count": 10,
-        "vacant_count": 42,
+        "vacant_count": 43,
         "roomchanges_count": 0,
-        "eod_room_count": 62,
-        "eod_pax_count": 110
+        "eod_room_count": 61,
+        "eod_pax_count": 108
       },
       "arrivals": [
         {
@@ -6203,7 +6189,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -7428,27 +7414,6 @@
           "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
@@ -8102,6 +8067,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -8115,12 +8087,12 @@
       "summary": {
         "arrivals_count": 1,
         "departures_count": 7,
-        "inhouse_count": 56,
+        "inhouse_count": 55,
         "noshow_count": 0,
-        "vacant_count": 51,
+        "vacant_count": 52,
         "roomchanges_count": 0,
-        "eod_room_count": 56,
-        "eod_pax_count": 98
+        "eod_room_count": 55,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -9220,27 +9192,6 @@
           "AgencyCode": "COMP"
         },
         {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -9401,7 +9352,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -9825,6 +9776,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -9838,12 +9796,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 12,
-        "inhouse_count": 47,
+        "inhouse_count": 46,
         "noshow_count": 0,
-        "vacant_count": 63,
+        "vacant_count": 64,
         "roomchanges_count": 0,
-        "eod_room_count": 47,
-        "eod_pax_count": 80
+        "eod_room_count": 46,
+        "eod_pax_count": 78
       },
       "arrivals": [
         {
@@ -10838,27 +10796,6 @@
           "AgencyCode": "COMP"
         },
         {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -11019,7 +10956,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -11590,6 +11527,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -11603,12 +11547,12 @@
       "summary": {
         "arrivals_count": 10,
         "departures_count": 18,
-        "inhouse_count": 39,
+        "inhouse_count": 38,
         "noshow_count": 0,
-        "vacant_count": 80,
+        "vacant_count": 81,
         "roomchanges_count": 0,
-        "eod_room_count": 39,
-        "eod_pax_count": 68
+        "eod_room_count": 38,
+        "eod_pax_count": 66
       },
       "arrivals": [
         {
@@ -12498,27 +12442,6 @@
           "AgencyCode": "COMP"
         },
         {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -12679,7 +12602,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -13579,6 +13502,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -13592,12 +13522,12 @@
       "summary": {
         "arrivals_count": 8,
         "departures_count": 9,
-        "inhouse_count": 38,
+        "inhouse_count": 37,
         "noshow_count": 0,
-        "vacant_count": 88,
+        "vacant_count": 89,
         "roomchanges_count": 0,
-        "eod_room_count": 38,
-        "eod_pax_count": 67
+        "eod_room_count": 37,
+        "eod_pax_count": 65
       },
       "arrivals": [
         {
@@ -14067,27 +13997,6 @@
           "AgencyCode": "COMP"
         },
         {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "8153858",
           "GroupNo": "",
           "RecId": 28830,
@@ -14269,7 +14178,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -15372,6 +15281,13 @@
           "OccVac": 1
         },
         {
+          "Room": "701",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "702",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -15384,7 +15300,7 @@
     "2026-10-12": {
       "summary": {
         "arrivals_count": 11,
-        "departures_count": 6,
+        "departures_count": 5,
         "inhouse_count": 43,
         "noshow_count": 0,
         "vacant_count": 90,
@@ -15730,27 +15646,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32401",
-          "GroupNo": "",
-          "RecId": 32404,
-          "FirstName1": "MEHMET",
-          "LastName1": "ELMA",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-12",
-          "Room": "701",
-          "RoomType": "STD SEA L",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "22 otele geliş",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [
@@ -15936,7 +15831,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -17680,7 +17575,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -19457,7 +19352,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": -204080.75793,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
