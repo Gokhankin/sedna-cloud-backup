@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-09 01:00:05",
+  "sync_time": "2026-10-09 02:00:05",
   "report_date": "2026-10-09",
   "summary": {
     "arrivals_count": 2,
-    "departures_count": 10,
-    "inhouse_count": 52,
+    "departures_count": 9,
+    "inhouse_count": 51,
     "noshow_count": 13,
-    "vacant_count": 52,
+    "vacant_count": 53,
     "roomchanges_count": 0,
     "eod_room_count": 44,
     "eod_pax_count": 75,
@@ -206,27 +206,6 @@
         "AgencyCode": "TUI UK"
       },
       {
-        "Voucher": "H2814245",
-        "GroupNo": "",
-        "RecId": 32240,
-        "FirstName1": "WILLIAM JOHN",
-        "LastName1": "SMART",
-        "CheckinDate": "2026-10-02",
-        "CheckOutDate": "2026-10-09",
-        "Room": "206",
-        "RoomType": "STD-LV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 31,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "13:30",
-        "FlightDeparture": "00:01",
-        "Status": 2,
-        "AgencyCode": "ATIK TOUR"
-      },
-      {
         "Voucher": "CZ556J",
         "GroupNo": "",
         "RecId": 32315,
@@ -416,27 +395,6 @@
         "FlightDeparture": "15:20",
         "Status": 2,
         "AgencyCode": "TUI UK"
-      },
-      {
-        "Voucher": "H2814245",
-        "GroupNo": "",
-        "RecId": 32240,
-        "FirstName1": "WILLIAM JOHN",
-        "LastName1": "SMART",
-        "CheckinDate": "2026-10-02",
-        "CheckOutDate": "2026-10-09",
-        "Room": "206",
-        "RoomType": "STD-LV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 31,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "13:30",
-        "FlightDeparture": "00:01",
-        "Status": 2,
-        "AgencyCode": "ATIK TOUR"
       },
       {
         "Voucher": "CZ556J",
@@ -1776,6 +1734,13 @@
         "Room": "204",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "206",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3665,27 +3630,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "H2814245",
-          "GroupNo": "",
-          "RecId": 32240,
-          "FirstName1": "WILLIAM JOHN",
-          "LastName1": "SMART",
-          "CheckinDate": "2026-10-02",
-          "CheckOutDate": "2026-10-09",
-          "Room": "206",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 31,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "13:30",
-          "FlightDeparture": "00:01",
-          "Status": 2,
-          "AgencyCode": "ATIK TOUR"
-        },
-        {
           "Voucher": "CZ556J",
           "GroupNo": "",
           "RecId": 32315,
@@ -3726,6 +3670,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "TRSTCA/DIANA"
+        },
+        {
+          "Voucher": "H2814245",
+          "GroupNo": "",
+          "RecId": 32240,
+          "FirstName1": "WILLIAM JOHN",
+          "LastName1": "SMART",
+          "CheckinDate": "2026-10-02",
+          "CheckOutDate": "2026-10-09",
+          "Room": "206",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 31,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "13:30",
+          "FlightDeparture": "00:01",
+          "Status": 3,
+          "AgencyCode": "ATIK TOUR"
         },
         {
           "Voucher": "NOSHOW",
@@ -5774,10 +5739,10 @@
     "2026-10-09": {
       "summary": {
         "arrivals_count": 2,
-        "departures_count": 10,
-        "inhouse_count": 52,
+        "departures_count": 9,
+        "inhouse_count": 51,
         "noshow_count": 13,
-        "vacant_count": 52,
+        "vacant_count": 53,
         "roomchanges_count": 0,
         "eod_room_count": 44,
         "eod_pax_count": 75
@@ -5975,27 +5940,6 @@
           "AgencyCode": "TUI UK"
         },
         {
-          "Voucher": "H2814245",
-          "GroupNo": "",
-          "RecId": 32240,
-          "FirstName1": "WILLIAM JOHN",
-          "LastName1": "SMART",
-          "CheckinDate": "2026-10-02",
-          "CheckOutDate": "2026-10-09",
-          "Room": "206",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 31,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "13:30",
-          "FlightDeparture": "00:01",
-          "Status": 2,
-          "AgencyCode": "ATIK TOUR"
-        },
-        {
           "Voucher": "CZ556J",
           "GroupNo": "",
           "RecId": 32315,
@@ -6185,27 +6129,6 @@
           "FlightDeparture": "15:20",
           "Status": 2,
           "AgencyCode": "TUI UK"
-        },
-        {
-          "Voucher": "H2814245",
-          "GroupNo": "",
-          "RecId": 32240,
-          "FirstName1": "WILLIAM JOHN",
-          "LastName1": "SMART",
-          "CheckinDate": "2026-10-02",
-          "CheckOutDate": "2026-10-09",
-          "Room": "206",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 31,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "13:30",
-          "FlightDeparture": "00:01",
-          "Status": 2,
-          "AgencyCode": "ATIK TOUR"
         },
         {
           "Voucher": "CZ556J",
@@ -7545,6 +7468,13 @@
           "Room": "204",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "206",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
