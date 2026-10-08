@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-10-08 17:00:05",
+  "sync_time": "2026-10-08 18:00:05",
   "report_date": "2026-10-08",
   "summary": {
     "arrivals_count": 0,
@@ -787,7 +787,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 5,
-        "ExtraFolioBalance": 19884.8131,
+        "ExtraFolioBalance": 21372.0433,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1018,7 +1018,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1136,
-        "ExtraFolioBalance": 9336.5007,
+        "ExtraFolioBalance": 11980.4655,
         "ResRemark": null,
         "FlightArrival": "02:30",
         "FlightDeparture": null,
@@ -1389,7 +1389,7 @@
       {
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1403,7 +1403,7 @@
       {
         "Room": "103",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1508,7 +1508,7 @@
       {
         "Room": "201",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1606,7 +1606,7 @@
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1782,18 +1782,18 @@
     "roomchanges": [],
     "all_roomchanges": [
       {
-        "ReservationId": 32093,
-        "Voucher": "3047479",
-        "FirstName1": "MATTHEW ALEXANDER",
-        "LastName1": "GREEN",
-        "OldRoom": "323",
-        "NewRoom": "2003",
+        "ReservationId": 30114,
+        "Voucher": "3029675",
+        "FirstName1": "DEBORAH",
+        "LastName1": "ROWLANDS",
+        "OldRoom": "333",
+        "NewRoom": "208",
         "RecordUser": "Remi",
         "RecordDate": "2026-10-07",
         "RCDate": "2026-10-07",
         "Time": "",
-        "CheckinDate": "2026-10-03",
-        "CheckOutDate": "2026-10-08",
+        "CheckinDate": "2026-10-07",
+        "CheckOutDate": "2026-10-14",
         "AgencyCode": "NEILSON",
         "RoomChanged": "1"
       },
@@ -1814,18 +1814,18 @@
         "RoomChanged": "1"
       },
       {
-        "ReservationId": 30114,
-        "Voucher": "3029675",
-        "FirstName1": "DEBORAH",
-        "LastName1": "ROWLANDS",
-        "OldRoom": "333",
-        "NewRoom": "208",
+        "ReservationId": 32093,
+        "Voucher": "3047479",
+        "FirstName1": "MATTHEW ALEXANDER",
+        "LastName1": "GREEN",
+        "OldRoom": "323",
+        "NewRoom": "2003",
         "RecordUser": "Remi",
         "RecordDate": "2026-10-07",
         "RCDate": "2026-10-07",
         "Time": "",
-        "CheckinDate": "2026-10-07",
-        "CheckOutDate": "2026-10-14",
+        "CheckinDate": "2026-10-03",
+        "CheckOutDate": "2026-10-08",
         "AgencyCode": "NEILSON",
         "RoomChanged": "1"
       }
@@ -1834,7 +1834,7 @@
       {
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1848,7 +1848,7 @@
       {
         "Room": "103",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2072,7 +2072,7 @@
       {
         "Room": "201",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2373,7 +2373,7 @@
       {
         "Room": "333",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4468,7 +4468,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 19884.8131,
+          "ExtraFolioBalance": 21372.0433,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4699,7 +4699,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -5259,7 +5259,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5273,7 +5273,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5357,7 +5357,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5448,7 +5448,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5623,18 +5623,18 @@
       ],
       "roomchanges": [
         {
-          "ReservationId": 32093,
-          "Voucher": "3047479",
-          "FirstName1": "MATTHEW ALEXANDER",
-          "LastName1": "GREEN",
-          "OldRoom": "323",
-          "NewRoom": "2003",
+          "ReservationId": 30114,
+          "Voucher": "3029675",
+          "FirstName1": "DEBORAH",
+          "LastName1": "ROWLANDS",
+          "OldRoom": "333",
+          "NewRoom": "208",
           "RecordUser": "Remi",
           "RecordDate": "2026-10-07",
           "RCDate": "2026-10-07",
           "Time": "",
-          "CheckinDate": "2026-10-03",
-          "CheckOutDate": "2026-10-08",
+          "CheckinDate": "2026-10-07",
+          "CheckOutDate": "2026-10-14",
           "AgencyCode": "NEILSON",
           "RoomChanged": "1"
         },
@@ -5655,18 +5655,18 @@
           "RoomChanged": "1"
         },
         {
-          "ReservationId": 30114,
-          "Voucher": "3029675",
-          "FirstName1": "DEBORAH",
-          "LastName1": "ROWLANDS",
-          "OldRoom": "333",
-          "NewRoom": "208",
+          "ReservationId": 32093,
+          "Voucher": "3047479",
+          "FirstName1": "MATTHEW ALEXANDER",
+          "LastName1": "GREEN",
+          "OldRoom": "323",
+          "NewRoom": "2003",
           "RecordUser": "Remi",
           "RecordDate": "2026-10-07",
           "RCDate": "2026-10-07",
           "Time": "",
-          "CheckinDate": "2026-10-07",
-          "CheckOutDate": "2026-10-14",
+          "CheckinDate": "2026-10-03",
+          "CheckOutDate": "2026-10-08",
           "AgencyCode": "NEILSON",
           "RoomChanged": "1"
         }
@@ -6457,7 +6457,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 19884.8131,
+          "ExtraFolioBalance": 21372.0433,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6688,7 +6688,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -7059,7 +7059,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7073,7 +7073,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7178,7 +7178,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7276,7 +7276,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8195,7 +8195,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 19884.8131,
+          "ExtraFolioBalance": 21372.0433,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8426,7 +8426,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -8607,7 +8607,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8621,7 +8621,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8747,7 +8747,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8866,7 +8866,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9757,7 +9757,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 19884.8131,
+          "ExtraFolioBalance": 21372.0433,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9988,7 +9988,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -10379,7 +10379,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10393,7 +10393,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10568,7 +10568,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10757,7 +10757,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11226,7 +11226,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 5,
-          "ExtraFolioBalance": 19884.8131,
+          "ExtraFolioBalance": 21372.0433,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -11459,7 +11459,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -12018,7 +12018,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12032,7 +12032,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12207,7 +12207,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12438,7 +12438,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13056,7 +13056,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -13846,7 +13846,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13860,7 +13860,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14028,7 +14028,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14266,7 +14266,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14763,7 +14763,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1136,
-          "ExtraFolioBalance": 9336.5007,
+          "ExtraFolioBalance": 11980.4655,
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
@@ -15765,7 +15765,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15779,7 +15779,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15954,7 +15954,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16206,7 +16206,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17628,7 +17628,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17642,7 +17642,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17817,7 +17817,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18083,7 +18083,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19449,7 +19449,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19463,7 +19463,7 @@
         {
           "Room": "103",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19645,7 +19645,7 @@
         {
           "Room": "201",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19918,7 +19918,7 @@
         {
           "Room": "333",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
