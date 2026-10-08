@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-08 11:00:05",
+  "sync_time": "2026-10-08 12:00:05",
   "report_date": "2026-10-08",
   "summary": {
     "arrivals_count": 1,
     "departures_count": 3,
     "inhouse_count": 52,
     "noshow_count": 11,
-    "vacant_count": 53,
+    "vacant_count": 54,
     "roomchanges_count": 0,
     "eod_room_count": 50,
     "eod_pax_count": 89,
@@ -45,8 +45,8 @@
         "LastName1": "WILLIAMSON",
         "CheckinDate": "2026-10-01",
         "CheckOutDate": "2026-10-08",
-        "Room": "201",
-        "RoomType": "STD SEA",
+        "Room": "2002",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
@@ -110,8 +110,8 @@
         "LastName1": "WILLIAMSON",
         "CheckinDate": "2026-10-01",
         "CheckOutDate": "2026-10-08",
-        "Room": "201",
-        "RoomType": "STD SEA",
+        "Room": "2002",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
@@ -200,7 +200,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 3405.80657,
+        "ExtraFolioBalance": 3559.74133,
         "ResRemark": null,
         "FlightArrival": "19:00",
         "FlightDeparture": null,
@@ -956,7 +956,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 1374.4175,
+        "ExtraFolioBalance": 4013.2991,
         "ResRemark": null,
         "FlightArrival": "19:00",
         "FlightDeparture": null,
@@ -1145,7 +1145,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 1655.559,
         "ResRemark": "",
         "FlightArrival": "OTELE 18-19",
         "FlightDeparture": "",
@@ -1509,7 +1509,7 @@
       {
         "Room": "123",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1537,6 +1537,13 @@
       {
         "Room": "132",
         "RoomTypeCode": "SUIT",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "201",
+        "RoomTypeCode": "STD SEA",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1802,7 +1809,24 @@
       }
     ],
     "roomchanges": [],
-    "all_roomchanges": [],
+    "all_roomchanges": [
+      {
+        "ReservationId": 31509,
+        "Voucher": "3041438",
+        "FirstName1": "PETER MARTIN",
+        "LastName1": "WILLIAMSON",
+        "OldRoom": "201",
+        "NewRoom": "2002",
+        "RecordUser": "Remi",
+        "RecordDate": "2026-10-07",
+        "RCDate": "2026-10-07",
+        "Time": "",
+        "CheckinDate": "2026-10-01",
+        "CheckOutDate": "2026-10-08",
+        "AgencyCode": "NEILSON",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -1961,7 +1985,7 @@
       {
         "Room": "123",
         "RoomTypeCode": "CLUB SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2590,8 +2614,8 @@
         "departures_count": 21,
         "inhouse_count": 67,
         "noshow_count": 21,
-        "vacant_count": 50,
-        "roomchanges_count": 0,
+        "vacant_count": 51,
+        "roomchanges_count": 1,
         "eod_room_count": 67,
         "eod_pax_count": 122
       },
@@ -2925,7 +2949,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -3385,8 +3409,8 @@
           "LastName1": "WILLIAMSON",
           "CheckinDate": "2026-10-01",
           "CheckOutDate": "2026-10-08",
-          "Room": "201",
-          "RoomType": "STD SEA",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -3790,7 +3814,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3405.80657,
+          "ExtraFolioBalance": 3559.74133,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -4546,7 +4570,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1374.4175,
+          "ExtraFolioBalance": 4013.2991,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -4735,7 +4759,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -5302,7 +5326,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5323,6 +5347,13 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "201",
+          "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -5580,7 +5611,24 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 31509,
+          "Voucher": "3041438",
+          "FirstName1": "PETER MARTIN",
+          "LastName1": "WILLIAMSON",
+          "OldRoom": "201",
+          "NewRoom": "2002",
+          "RecordUser": "Remi",
+          "RecordDate": "2026-10-07",
+          "RCDate": "2026-10-07",
+          "Time": "",
+          "CheckinDate": "2026-10-01",
+          "CheckOutDate": "2026-10-08",
+          "AgencyCode": "NEILSON",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-10-08": {
       "summary": {
@@ -5588,7 +5636,7 @@
         "departures_count": 3,
         "inhouse_count": 52,
         "noshow_count": 11,
-        "vacant_count": 53,
+        "vacant_count": 54,
         "roomchanges_count": 0,
         "eod_room_count": 50,
         "eod_pax_count": 89
@@ -5625,8 +5673,8 @@
           "LastName1": "WILLIAMSON",
           "CheckinDate": "2026-10-01",
           "CheckOutDate": "2026-10-08",
-          "Room": "201",
-          "RoomType": "STD SEA",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -5690,8 +5738,8 @@
           "LastName1": "WILLIAMSON",
           "CheckinDate": "2026-10-01",
           "CheckOutDate": "2026-10-08",
-          "Room": "201",
-          "RoomType": "STD SEA",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -5780,7 +5828,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3405.80657,
+          "ExtraFolioBalance": 3559.74133,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -6536,7 +6584,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1374.4175,
+          "ExtraFolioBalance": 4013.2991,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -6725,7 +6773,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -7089,7 +7137,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7117,6 +7165,13 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "201",
+          "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -7495,7 +7550,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 3405.80657,
+          "ExtraFolioBalance": 3559.74133,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -8253,7 +8308,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1374.4175,
+          "ExtraFolioBalance": 4013.2991,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -8442,7 +8497,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -8672,7 +8727,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9850,7 +9905,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1374.4175,
+          "ExtraFolioBalance": 4013.2991,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -10039,7 +10094,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -10514,7 +10569,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11356,7 +11411,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1374.4175,
+          "ExtraFolioBalance": 4013.2991,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -11566,7 +11621,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -12195,7 +12250,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12986,7 +13041,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1374.4175,
+          "ExtraFolioBalance": 4013.2991,
           "ResRemark": null,
           "FlightArrival": "19:00",
           "FlightDeparture": null,
@@ -13198,7 +13253,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -14044,7 +14099,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14921,7 +14976,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -15956,7 +16011,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16691,7 +16746,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1655.559,
           "ResRemark": "",
           "FlightArrival": "OTELE 18-19",
           "FlightDeparture": "",
@@ -17833,7 +17888,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19675,7 +19730,7 @@
         {
           "Room": "123",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
