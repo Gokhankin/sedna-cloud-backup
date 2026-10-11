@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-10-11 14:00:05",
+  "sync_time": "2026-10-11 15:00:05",
   "report_date": "2026-10-11",
   "summary": {
     "arrivals_count": 8,
@@ -64,8 +64,8 @@
         "LastName1": "BERNARD",
         "CheckinDate": "2026-10-11",
         "CheckOutDate": "2026-10-18",
-        "Room": "109",
-        "RoomType": "STD SEA",
+        "Room": "203",
+        "RoomType": "STD SEA L",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
@@ -473,7 +473,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 6484.27275,
+        "ExtraFolioBalance": 6842.9772,
         "ResRemark": null,
         "FlightArrival": "20:00 ?",
         "FlightDeparture": null,
@@ -494,7 +494,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 5960.0124,
+        "ExtraFolioBalance": 7174.089,
         "ResRemark": null,
         "FlightArrival": "16:05",
         "FlightDeparture": null,
@@ -662,7 +662,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 17828.4732,
+        "ExtraFolioBalance": 18930.6972,
         "ResRemark": null,
         "FlightArrival": "12:25",
         "FlightDeparture": null,
@@ -725,7 +725,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 165.3336,
+        "ExtraFolioBalance": 744.0012,
         "ResRemark": null,
         "FlightArrival": "20:00",
         "FlightDeparture": null,
@@ -767,7 +767,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 5456.0088,
+        "ExtraFolioBalance": 7384.9008,
         "ResRemark": null,
         "FlightArrival": "20:10",
         "FlightDeparture": null,
@@ -1327,7 +1327,14 @@
       {
         "Room": "108",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "109",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1355,7 +1362,7 @@
       {
         "Room": "113",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1454,13 +1461,6 @@
         "Room": "202",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "203",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1807,7 +1807,7 @@
       {
         "Room": "108",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1842,7 +1842,7 @@
       {
         "Room": "113",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2010,7 +2010,7 @@
       {
         "Room": "203",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3065,7 +3065,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -3128,7 +3128,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -3170,7 +3170,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -4707,7 +4707,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 6484.27275,
+          "ExtraFolioBalance": 6842.9772,
           "ResRemark": null,
           "FlightArrival": "20:00 ?",
           "FlightDeparture": null,
@@ -4728,7 +4728,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5960.0124,
+          "ExtraFolioBalance": 7174.089,
           "ResRemark": null,
           "FlightArrival": "16:05",
           "FlightDeparture": null,
@@ -4896,7 +4896,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -4959,7 +4959,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -5001,7 +5001,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -5918,7 +5918,7 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6065,7 +6065,7 @@
         {
           "Room": "203",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6428,8 +6428,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -6837,7 +6837,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 6484.27275,
+          "ExtraFolioBalance": 6842.9772,
           "ResRemark": null,
           "FlightArrival": "20:00 ?",
           "FlightDeparture": null,
@@ -6858,7 +6858,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5960.0124,
+          "ExtraFolioBalance": 7174.089,
           "ResRemark": null,
           "FlightArrival": "16:05",
           "FlightDeparture": null,
@@ -7026,7 +7026,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -7089,7 +7089,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -7131,7 +7131,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -7691,7 +7691,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7719,7 +7726,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7818,13 +7825,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8631,7 +8631,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 6484.27275,
+          "ExtraFolioBalance": 6842.9772,
           "ResRemark": null,
           "FlightArrival": "20:00 ?",
           "FlightDeparture": null,
@@ -8652,7 +8652,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5960.0124,
+          "ExtraFolioBalance": 7174.089,
           "ResRemark": null,
           "FlightArrival": "16:05",
           "FlightDeparture": null,
@@ -8862,7 +8862,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -8925,7 +8925,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -8961,8 +8961,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9114,7 +9114,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -9442,7 +9442,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9470,7 +9477,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9562,13 +9569,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10242,7 +10242,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 6484.27275,
+          "ExtraFolioBalance": 6842.9772,
           "ResRemark": null,
           "FlightArrival": "20:00 ?",
           "FlightDeparture": null,
@@ -10263,7 +10263,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5960.0124,
+          "ExtraFolioBalance": 7174.089,
           "ResRemark": null,
           "FlightArrival": "16:05",
           "FlightDeparture": null,
@@ -10494,7 +10494,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -10557,7 +10557,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -10593,8 +10593,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -10746,7 +10746,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -11263,7 +11263,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11291,7 +11298,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11390,13 +11397,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11900,7 +11900,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 6484.27275,
+          "ExtraFolioBalance": 6842.9772,
           "ResRemark": null,
           "FlightArrival": "20:00 ?",
           "FlightDeparture": null,
@@ -11921,7 +11921,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5960.0124,
+          "ExtraFolioBalance": 7174.089,
           "ResRemark": null,
           "FlightArrival": "16:05",
           "FlightDeparture": null,
@@ -12154,7 +12154,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -12217,7 +12217,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -12253,8 +12253,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -12406,7 +12406,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -13028,7 +13028,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13056,7 +13063,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13155,13 +13162,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13884,7 +13884,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -13947,7 +13947,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -13983,8 +13983,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -14136,7 +14136,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -14800,7 +14800,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14828,7 +14835,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14934,13 +14941,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15607,7 +15607,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -15670,7 +15670,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -15706,8 +15706,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15859,7 +15859,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -16586,7 +16586,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16614,7 +16621,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16727,13 +16734,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17671,7 +17671,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 17828.4732,
+          "ExtraFolioBalance": 18930.6972,
           "ResRemark": null,
           "FlightArrival": "12:25",
           "FlightDeparture": null,
@@ -17734,7 +17734,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 165.3336,
+          "ExtraFolioBalance": 744.0012,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -17772,8 +17772,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -17925,7 +17925,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -19030,7 +19030,14 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "109",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19058,7 +19065,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19192,13 +19199,6 @@
           "Room": "202",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19920,8 +19920,8 @@
           "LastName1": "BERNARD",
           "CheckinDate": "2026-10-11",
           "CheckOutDate": "2026-10-18",
-          "Room": "109",
-          "RoomType": "STD SEA",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -20073,7 +20073,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.0088,
+          "ExtraFolioBalance": 7384.9008,
           "ResRemark": null,
           "FlightArrival": "20:10",
           "FlightDeparture": null,
@@ -21453,7 +21453,7 @@
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21488,7 +21488,7 @@
         {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21642,7 +21642,7 @@
         {
           "Room": "203",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
