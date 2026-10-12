@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-13 00:00:05",
+  "sync_time": "2026-10-13 01:00:05",
   "report_date": "2026-10-13",
   "summary": {
     "arrivals_count": 13,
     "departures_count": 4,
-    "inhouse_count": 42,
+    "inhouse_count": 43,
     "noshow_count": 2,
-    "vacant_count": 53,
+    "vacant_count": 52,
     "roomchanges_count": 0,
     "eod_room_count": 53,
     "eod_pax_count": 92,
@@ -1195,6 +1195,27 @@
         "AgencyCode": "TUI NETHERLANDS"
       },
       {
+        "Voucher": "32555",
+        "GroupNo": "",
+        "RecId": 32555,
+        "FirstName1": "SAMUEL RYAN",
+        "LastName1": "SHAW",
+        "CheckinDate": "2026-10-12",
+        "CheckOutDate": "2026-10-22",
+        "Room": "104",
+        "RoomType": "STD-SV",
+        "Board": "HB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 10,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "COMP"
+      },
+      {
         "Voucher": "32372",
         "GroupNo": "",
         "RecId": 32372,
@@ -1313,13 +1334,6 @@
       {
         "Room": "102",
         "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "104",
-        "RoomTypeCode": "STD-SV",
         "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
@@ -2782,7 +2796,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -4193,7 +4207,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -5103,9 +5117,9 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 4,
-        "inhouse_count": 42,
+        "inhouse_count": 43,
         "noshow_count": 2,
-        "vacant_count": 53,
+        "vacant_count": 52,
         "roomchanges_count": 0,
         "eod_room_count": 53,
         "eod_pax_count": 92
@@ -6292,6 +6306,27 @@
           "AgencyCode": "TUI NETHERLANDS"
         },
         {
+          "Voucher": "32555",
+          "GroupNo": "",
+          "RecId": 32555,
+          "FirstName1": "SAMUEL RYAN",
+          "LastName1": "SHAW",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-22",
+          "Room": "104",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32372",
           "GroupNo": "",
           "RecId": 32372,
@@ -6410,13 +6445,6 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "104",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
@@ -7984,7 +8012,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -9707,7 +9735,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -11402,7 +11430,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -13545,7 +13573,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -15660,7 +15688,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -17789,7 +17817,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
@@ -19806,7 +19834,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "COMP"
         },
         {
