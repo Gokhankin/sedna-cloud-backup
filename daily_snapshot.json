@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-13 07:00:05",
+  "sync_time": "2026-10-13 08:00:05",
   "report_date": "2026-10-13",
   "summary": {
     "arrivals_count": 13,
-    "departures_count": 4,
-    "inhouse_count": 44,
+    "departures_count": 3,
+    "inhouse_count": 43,
     "noshow_count": 7,
-    "vacant_count": 51,
+    "vacant_count": 52,
     "roomchanges_count": 0,
     "eod_room_count": 53,
     "eod_pax_count": 92,
@@ -351,27 +351,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
-        "Voucher": "24339290",
-        "GroupNo": "",
-        "RecId": 32395,
-        "FirstName1": "KATERYNA",
-        "LastName1": "YURKO",
-        "CheckinDate": "2026-10-05",
-        "CheckOutDate": "2026-10-13",
-        "Room": "319",
-        "RoomType": "CLUB SV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1136,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "02:30",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "JOIN UP TRAVEL"
       }
     ],
     "inhouse": [
@@ -437,27 +416,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "FUN&SUN TRAVEL"
-      },
-      {
-        "Voucher": "24339290",
-        "GroupNo": "",
-        "RecId": 32395,
-        "FirstName1": "KATERYNA",
-        "LastName1": "YURKO",
-        "CheckinDate": "2026-10-05",
-        "CheckOutDate": "2026-10-13",
-        "Room": "319",
-        "RoomType": "CLUB SV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1136,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "02:30",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "JOIN UP TRAVEL"
       },
       {
         "Voucher": "3029675",
@@ -1621,6 +1579,13 @@
       {
         "Room": "316",
         "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "319",
+        "RoomTypeCode": "CLUB SV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3675,7 +3640,7 @@
           "ResRemark": null,
           "FlightArrival": "02:30",
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "JOIN UP TRAVEL"
         },
         {
@@ -5718,10 +5683,10 @@
     "2026-10-13": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 4,
-        "inhouse_count": 44,
+        "departures_count": 3,
+        "inhouse_count": 43,
         "noshow_count": 7,
-        "vacant_count": 51,
+        "vacant_count": 52,
         "roomchanges_count": 0,
         "eod_room_count": 53,
         "eod_pax_count": 92
@@ -6064,27 +6029,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
-          "Voucher": "24339290",
-          "GroupNo": "",
-          "RecId": 32395,
-          "FirstName1": "KATERYNA",
-          "LastName1": "YURKO",
-          "CheckinDate": "2026-10-05",
-          "CheckOutDate": "2026-10-13",
-          "Room": "319",
-          "RoomType": "CLUB SV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "02:30",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "JOIN UP TRAVEL"
         }
       ],
       "inhouse": [
@@ -6150,27 +6094,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "FUN&SUN TRAVEL"
-        },
-        {
-          "Voucher": "24339290",
-          "GroupNo": "",
-          "RecId": 32395,
-          "FirstName1": "KATERYNA",
-          "LastName1": "YURKO",
-          "CheckinDate": "2026-10-05",
-          "CheckOutDate": "2026-10-13",
-          "Room": "319",
-          "RoomType": "CLUB SV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1136,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "02:30",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "JOIN UP TRAVEL"
         },
         {
           "Voucher": "3029675",
@@ -7334,6 +7257,13 @@
         {
           "Room": "316",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "319",
+          "RoomTypeCode": "CLUB SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
