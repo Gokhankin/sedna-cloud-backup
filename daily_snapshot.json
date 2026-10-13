@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-10-13 10:00:05",
+  "sync_time": "2026-10-13 10:45:07",
   "report_date": "2026-10-13",
   "summary": {
-    "arrivals_count": 13,
+    "arrivals_count": 12,
     "departures_count": 3,
-    "inhouse_count": 43,
+    "inhouse_count": 44,
     "noshow_count": 7,
     "vacant_count": 52,
     "roomchanges_count": 0,
@@ -34,27 +34,6 @@
         "FlightDeparture": "",
         "Status": 1,
         "AgencyCode": "DIANA GBP"
-      },
-      {
-        "Voucher": "Y9HX75",
-        "GroupNo": "",
-        "RecId": 31837,
-        "FirstName1": "LAWRENCE",
-        "LastName1": "SUTTON",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-19",
-        "Room": "116",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": -98869.4928,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "32572",
@@ -794,6 +773,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "Y9HX75",
+        "GroupNo": "",
+        "RecId": 31837,
+        "FirstName1": "LAWRENCE",
+        "LastName1": "SUTTON",
+        "CheckinDate": "2026-10-12",
+        "CheckOutDate": "2026-10-18",
+        "Room": "116",
+        "RoomType": "STD SEA",
+        "Board": "HB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 5,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "3044723",
@@ -2558,14 +2558,14 @@
   "by_date": {
     "2026-10-12": {
       "summary": {
-        "arrivals_count": 25,
+        "arrivals_count": 26,
         "departures_count": 22,
-        "inhouse_count": 57,
+        "inhouse_count": 58,
         "noshow_count": 23,
-        "vacant_count": 62,
+        "vacant_count": 61,
         "roomchanges_count": 0,
-        "eod_room_count": 57,
-        "eod_pax_count": 101
+        "eod_room_count": 58,
+        "eod_pax_count": 103
       },
       "arrivals": [
         {
@@ -2861,6 +2861,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "ZFDV11",
@@ -4295,6 +4316,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3044723",
           "GroupNo": "",
           "RecId": 31840,
@@ -5328,13 +5370,6 @@
           "OccVac": 1
         },
         {
-          "Room": "116",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
@@ -5682,9 +5717,9 @@
     },
     "2026-10-13": {
       "summary": {
-        "arrivals_count": 13,
+        "arrivals_count": 12,
         "departures_count": 3,
-        "inhouse_count": 43,
+        "inhouse_count": 44,
         "noshow_count": 7,
         "vacant_count": 52,
         "roomchanges_count": 0,
@@ -5712,27 +5747,6 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "DIANA GBP"
-        },
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "32572",
@@ -6472,6 +6486,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "3044723",
@@ -7974,6 +8009,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3044723",
           "GroupNo": "",
           "RecId": 31840,
@@ -8119,27 +8175,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "2571939129",
@@ -9655,6 +9690,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3044723",
           "GroupNo": "",
           "RecId": 31840,
@@ -9800,27 +9856,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "2571939129",
@@ -11329,6 +11364,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3044723",
           "GroupNo": "",
           "RecId": 31840,
@@ -11474,27 +11530,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "2571939129",
@@ -13346,6 +13381,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3044723",
           "GroupNo": "",
           "RecId": 31840,
@@ -13491,27 +13547,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "2571939129",
@@ -15153,13 +15188,13 @@
     "2026-10-18": {
       "summary": {
         "arrivals_count": 13,
-        "departures_count": 8,
-        "inhouse_count": 68,
+        "departures_count": 9,
+        "inhouse_count": 67,
         "noshow_count": 0,
-        "vacant_count": 79,
+        "vacant_count": 80,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 119
+        "eod_room_count": 67,
+        "eod_pax_count": 117
       },
       "arrivals": [
         {
@@ -15459,6 +15494,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "Y9HX75",
+          "GroupNo": "",
+          "RecId": 31837,
+          "FirstName1": "LAWRENCE",
+          "LastName1": "SUTTON",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-18",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
+        },
+        {
           "Voucher": "3044723",
           "GroupNo": "",
           "RecId": 31840,
@@ -15607,27 +15663,6 @@
         }
       ],
       "inhouse": [
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
-        },
         {
           "Voucher": "2571939129",
           "GroupNo": "",
@@ -17109,6 +17144,13 @@
           "OccVac": 1
         },
         {
+          "Room": "116",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "117",
           "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
@@ -17597,7 +17639,7 @@
     "2026-10-19": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 13,
+        "departures_count": 12,
         "inhouse_count": 61,
         "noshow_count": 0,
         "vacant_count": 90,
@@ -17734,27 +17776,6 @@
         }
       ],
       "departures": [
-        {
-          "Voucher": "Y9HX75",
-          "GroupNo": "",
-          "RecId": 31837,
-          "FirstName1": "LAWRENCE",
-          "LastName1": "SUTTON",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-19",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": -98869.4928,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
-        },
         {
           "Voucher": "2571939129",
           "GroupNo": "",
