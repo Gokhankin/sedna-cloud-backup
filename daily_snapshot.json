@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-14 08:00:04",
+  "sync_time": "2026-10-14 09:00:04",
   "report_date": "2026-10-14",
   "summary": {
     "arrivals_count": 5,
-    "departures_count": 4,
-    "inhouse_count": 54,
+    "departures_count": 3,
+    "inhouse_count": 53,
     "noshow_count": 9,
-    "vacant_count": 51,
+    "vacant_count": 50,
     "roomchanges_count": 0,
     "eod_room_count": 55,
     "eod_pax_count": 95,
@@ -43,7 +43,7 @@
         "LastName1": "HATIA",
         "CheckinDate": "2026-10-14",
         "CheckOutDate": "2026-10-20",
-        "Room": "208",
+        "Room": "321",
         "RoomType": "STD-LVL",
         "Board": "HB",
         "Pax": 1,
@@ -164,27 +164,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "32323",
-        "GroupNo": "",
-        "RecId": 32323,
-        "FirstName1": "HELIA",
-        "LastName1": "ILKHANINODADHAM",
-        "CheckinDate": "2026-10-11",
-        "CheckOutDate": "2026-10-14",
-        "Room": "327",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT TL"
-      },
-      {
         "Voucher": "6032010472",
         "GroupNo": "",
         "RecId": 32438,
@@ -248,27 +227,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "32323",
-        "GroupNo": "",
-        "RecId": 32323,
-        "FirstName1": "HELIA",
-        "LastName1": "ILKHANINODADHAM",
-        "CheckinDate": "2026-10-11",
-        "CheckOutDate": "2026-10-14",
-        "Room": "327",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT TL"
       },
       {
         "Voucher": "6032010472",
@@ -1705,13 +1663,6 @@
       {
         "Room": "320",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "321",
-        "RoomTypeCode": "STD-LVL",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3553,27 +3504,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32323",
-          "GroupNo": "",
-          "RecId": 32323,
-          "FirstName1": "HELIA",
-          "LastName1": "ILKHANINODADHAM",
-          "CheckinDate": "2026-10-11",
-          "CheckOutDate": "2026-10-14",
-          "Room": "327",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
-        },
-        {
           "Voucher": "6032010472",
           "GroupNo": "",
           "RecId": 32438,
@@ -3593,6 +3523,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "32323",
+          "GroupNo": "",
+          "RecId": 32323,
+          "FirstName1": "HELIA",
+          "LastName1": "ILKHANINODADHAM",
+          "CheckinDate": "2026-10-11",
+          "CheckOutDate": "2026-10-14",
+          "Room": "327",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "MUNFERIT TL"
         },
         {
           "Voucher": "NOSHOW",
@@ -5550,10 +5501,10 @@
     "2026-10-14": {
       "summary": {
         "arrivals_count": 5,
-        "departures_count": 4,
-        "inhouse_count": 54,
+        "departures_count": 3,
+        "inhouse_count": 53,
         "noshow_count": 9,
-        "vacant_count": 51,
+        "vacant_count": 50,
         "roomchanges_count": 0,
         "eod_room_count": 55,
         "eod_pax_count": 95
@@ -5588,7 +5539,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
@@ -5709,27 +5660,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32323",
-          "GroupNo": "",
-          "RecId": 32323,
-          "FirstName1": "HELIA",
-          "LastName1": "ILKHANINODADHAM",
-          "CheckinDate": "2026-10-11",
-          "CheckOutDate": "2026-10-14",
-          "Room": "327",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
-        },
-        {
           "Voucher": "6032010472",
           "GroupNo": "",
           "RecId": 32438,
@@ -5793,27 +5723,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "32323",
-          "GroupNo": "",
-          "RecId": 32323,
-          "FirstName1": "HELIA",
-          "LastName1": "ILKHANINODADHAM",
-          "CheckinDate": "2026-10-11",
-          "CheckOutDate": "2026-10-14",
-          "Room": "327",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
         },
         {
           "Voucher": "6032010472",
@@ -7255,13 +7164,6 @@
           "OccVac": 1
         },
         {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "328",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -8324,7 +8226,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
@@ -8908,6 +8810,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "212",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -8973,13 +8882,6 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -10005,7 +9907,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
@@ -10638,6 +10540,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "212",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -10703,13 +10612,6 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -12008,7 +11910,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
@@ -13054,6 +12956,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -13140,13 +13049,6 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -14109,7 +14011,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
@@ -15449,6 +15351,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -15556,13 +15465,6 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -16203,7 +16105,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
@@ -17683,6 +17585,13 @@
           "OccVac": 1
         },
         {
+          "Room": "208",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -17804,13 +17713,6 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "321",
-          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -18204,7 +18106,7 @@
           "LastName1": "HATIA",
           "CheckinDate": "2026-10-14",
           "CheckOutDate": "2026-10-20",
-          "Room": "208",
+          "Room": "321",
           "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 1,
