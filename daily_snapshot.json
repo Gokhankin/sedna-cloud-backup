@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-10-15 09:00:05",
+  "sync_time": "2026-10-15 10:00:05",
   "report_date": "2026-10-15",
   "summary": {
     "arrivals_count": 4,
@@ -2024,7 +2024,7 @@
       {
         "Room": "131",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -4987,7 +4987,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8476,7 +8476,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8765,14 +8765,14 @@
     },
     "2026-10-17": {
       "summary": {
-        "arrivals_count": 19,
+        "arrivals_count": 20,
         "departures_count": 12,
-        "inhouse_count": 63,
+        "inhouse_count": 64,
         "noshow_count": 0,
         "vacant_count": 63,
         "roomchanges_count": 0,
-        "eod_room_count": 63,
-        "eod_pax_count": 110
+        "eod_room_count": 64,
+        "eod_pax_count": 112
       },
       "arrivals": [
         {
@@ -9131,6 +9131,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "3034498",
@@ -10628,6 +10649,27 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
+        },
+        {
           "Voucher": "QV3Y3Y",
           "GroupNo": "",
           "RecId": 28676,
@@ -10850,7 +10892,7 @@
         {
           "Room": "131",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11204,12 +11246,12 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 10,
-        "inhouse_count": 66,
+        "inhouse_count": 67,
         "noshow_count": 0,
         "vacant_count": 70,
         "roomchanges_count": 0,
-        "eod_room_count": 66,
-        "eod_pax_count": 116
+        "eod_room_count": 67,
+        "eod_pax_count": 118
       },
       "arrivals": [
         {
@@ -12729,6 +12771,27 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
+        },
+        {
           "Voucher": "QV3Y3Y",
           "GroupNo": "",
           "RecId": 28676,
@@ -13585,12 +13648,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 11,
-        "inhouse_count": 61,
+        "inhouse_count": 62,
         "noshow_count": 0,
         "vacant_count": 81,
         "roomchanges_count": 0,
-        "eod_room_count": 61,
-        "eod_pax_count": 108
+        "eod_room_count": 62,
+        "eod_pax_count": 110
       },
       "arrivals": [
         {
@@ -14816,6 +14879,27 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
+        },
+        {
           "Voucher": "QV3Y3Y",
           "GroupNo": "",
           "RecId": 28676,
@@ -15812,12 +15896,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 12,
-        "inhouse_count": 54,
+        "inhouse_count": 55,
         "noshow_count": 0,
         "vacant_count": 93,
         "roomchanges_count": 0,
-        "eod_room_count": 54,
-        "eod_pax_count": 96
+        "eod_room_count": 55,
+        "eod_pax_count": 98
       },
       "arrivals": [
         {
@@ -15830,7 +15914,7 @@
           "CheckOutDate": "2026-10-22",
           "Room": "",
           "RoomType": "STD-LV",
-          "Board": "AI",
+          "Board": "HB",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -16380,7 +16464,7 @@
           "CheckOutDate": "2026-10-22",
           "Room": "",
           "RoomType": "STD-LV",
-          "Board": "AI",
+          "Board": "HB",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -16831,6 +16915,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "QV3Y3Y",
@@ -17976,12 +18081,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 4,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 0,
         "vacant_count": 95,
         "roomchanges_count": 0,
-        "eod_room_count": 53,
-        "eod_pax_count": 94
+        "eod_room_count": 54,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -18250,7 +18355,7 @@
           "CheckOutDate": "2026-10-22",
           "Room": "",
           "RoomType": "STD-LV",
-          "Board": "AI",
+          "Board": "HB",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -18701,6 +18806,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "QV3Y3Y",
@@ -19923,12 +20049,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 8,
-        "inhouse_count": 50,
+        "inhouse_count": 51,
         "noshow_count": 0,
         "vacant_count": 96,
         "roomchanges_count": 0,
-        "eod_room_count": 50,
-        "eod_pax_count": 89
+        "eod_room_count": 51,
+        "eod_pax_count": 91
       },
       "arrivals": [
         {
@@ -20153,7 +20279,7 @@
           "CheckOutDate": "2026-10-22",
           "Room": "",
           "RoomType": "STD-LV",
-          "Board": "AI",
+          "Board": "HB",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -20606,6 +20732,27 @@
           "FlightDeparture": "",
           "Status": 1,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "34726066",
+          "GroupNo": "",
+          "RecId": 32612,
+          "FirstName1": "LEWIS",
+          "LastName1": "MURRAY",
+          "CheckinDate": "2026-10-17",
+          "CheckOutDate": "2026-10-24",
+          "Room": "",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 12,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:15",
+          "FlightDeparture": "21:10",
+          "Status": 1,
+          "AgencyCode": "TUI UK"
         },
         {
           "Voucher": "QV3Y3Y",
