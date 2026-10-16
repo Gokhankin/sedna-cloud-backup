@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-16 11:00:04",
+  "sync_time": "2026-10-16 12:00:04",
   "report_date": "2026-10-16",
   "summary": {
     "arrivals_count": 3,
     "departures_count": 1,
-    "inhouse_count": 54,
+    "inhouse_count": 52,
     "noshow_count": 10,
-    "vacant_count": 50,
+    "vacant_count": 52,
     "roomchanges_count": 0,
-    "eod_room_count": 56,
-    "eod_pax_count": 99,
+    "eod_room_count": 54,
+    "eod_pax_count": 95,
     "hk_count": 111
   },
   "data": {
@@ -985,48 +985,6 @@
         "AgencyCode": "EASYJET"
       },
       {
-        "Voucher": "32574",
-        "GroupNo": "",
-        "RecId": 32574,
-        "FirstName1": "ZIYA HAKAN",
-        "LastName1": "SONMEZ",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-20",
-        "Room": "118",
-        "RoomType": "SUIT",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 1818.5475,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "32591",
-        "GroupNo": "",
-        "RecId": 32591,
-        "FirstName1": "MEHMET RESAT",
-        "LastName1": "KARAMEHMET",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-20",
-        "Room": "132",
-        "RoomType": "SUIT",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
         "Voucher": "F48228",
         "GroupNo": "",
         "RecId": 31861,
@@ -1493,6 +1451,13 @@
         "OccVac": 1
       },
       {
+        "Room": "118",
+        "RoomTypeCode": "SUIT",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "120",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
@@ -1529,6 +1494,13 @@
       },
       {
         "Room": "131",
+        "RoomTypeCode": "SUIT",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "132",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 1,
         "HkStatus": 0,
@@ -2122,7 +2094,7 @@
       {
         "Room": "212",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2269,7 +2241,7 @@
       {
         "Room": "322",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3168,6 +3140,48 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "32574",
+          "GroupNo": "",
+          "RecId": 32574,
+          "FirstName1": "ZIYA HAKAN",
+          "LastName1": "SONMEZ",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-16",
+          "Room": "118",
+          "RoomType": "SUIT",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32591",
+          "GroupNo": "",
+          "RecId": 32591,
+          "FirstName1": "MEHMET RESAT",
+          "LastName1": "KARAMEHMET",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-16",
+          "Room": "132",
+          "RoomType": "SUIT",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "NOSHOW",
           "GroupNo": "",
           "RecId": 32640,
@@ -4237,48 +4251,6 @@
           "FlightDeparture": "20:25",
           "Status": 2,
           "AgencyCode": "EASYJET"
-        },
-        {
-          "Voucher": "32574",
-          "GroupNo": "",
-          "RecId": 32574,
-          "FirstName1": "ZIYA HAKAN",
-          "LastName1": "SONMEZ",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 1818.5475,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32591",
-          "GroupNo": "",
-          "RecId": 32591,
-          "FirstName1": "MEHMET RESAT",
-          "LastName1": "KARAMEHMET",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "132",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "F48228",
@@ -5001,7 +4973,7 @@
         {
           "Room": "212",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5064,7 +5036,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5264,12 +5236,12 @@
       "summary": {
         "arrivals_count": 3,
         "departures_count": 1,
-        "inhouse_count": 54,
+        "inhouse_count": 52,
         "noshow_count": 10,
-        "vacant_count": 50,
+        "vacant_count": 52,
         "roomchanges_count": 0,
-        "eod_room_count": 56,
-        "eod_pax_count": 99
+        "eod_room_count": 54,
+        "eod_pax_count": 95
       },
       "arrivals": [
         {
@@ -6241,48 +6213,6 @@
           "FlightDeparture": "20:25",
           "Status": 2,
           "AgencyCode": "EASYJET"
-        },
-        {
-          "Voucher": "32574",
-          "GroupNo": "",
-          "RecId": 32574,
-          "FirstName1": "ZIYA HAKAN",
-          "LastName1": "SONMEZ",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 1818.5475,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32591",
-          "GroupNo": "",
-          "RecId": 32591,
-          "FirstName1": "MEHMET RESAT",
-          "LastName1": "KARAMEHMET",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "132",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "F48228",
@@ -6751,6 +6681,13 @@
           "OccVac": 1
         },
         {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -6787,6 +6724,13 @@
         },
         {
           "Room": "131",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -7065,12 +7009,12 @@
       "summary": {
         "arrivals_count": 20,
         "departures_count": 12,
-        "inhouse_count": 64,
+        "inhouse_count": 62,
         "noshow_count": 0,
-        "vacant_count": 43,
+        "vacant_count": 45,
         "roomchanges_count": 0,
-        "eod_room_count": 64,
-        "eod_pax_count": 112
+        "eod_room_count": 62,
+        "eod_pax_count": 108
       },
       "arrivals": [
         {
@@ -8401,48 +8345,6 @@
           "AgencyCode": "EASYJET"
         },
         {
-          "Voucher": "32574",
-          "GroupNo": "",
-          "RecId": 32574,
-          "FirstName1": "ZIYA HAKAN",
-          "LastName1": "SONMEZ",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 1818.5475,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32591",
-          "GroupNo": "",
-          "RecId": 32591,
-          "FirstName1": "MEHMET RESAT",
-          "LastName1": "KARAMEHMET",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "132",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "FB4VW5",
           "GroupNo": "",
           "RecId": 32493,
@@ -9139,6 +9041,13 @@
           "OccVac": 1
         },
         {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -9175,6 +9084,13 @@
         },
         {
           "Room": "131",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -9404,12 +9320,12 @@
       "summary": {
         "arrivals_count": 13,
         "departures_count": 10,
-        "inhouse_count": 67,
+        "inhouse_count": 65,
         "noshow_count": 0,
-        "vacant_count": 51,
+        "vacant_count": 53,
         "roomchanges_count": 0,
-        "eod_room_count": 67,
-        "eod_pax_count": 118
+        "eod_room_count": 65,
+        "eod_pax_count": 114
       },
       "arrivals": [
         {
@@ -10341,48 +10257,6 @@
           "AgencyCode": "EASYJET"
         },
         {
-          "Voucher": "32574",
-          "GroupNo": "",
-          "RecId": 32574,
-          "FirstName1": "ZIYA HAKAN",
-          "LastName1": "SONMEZ",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 1818.5475,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32591",
-          "GroupNo": "",
-          "RecId": 32591,
-          "FirstName1": "MEHMET RESAT",
-          "LastName1": "KARAMEHMET",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "132",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "FB4VW5",
           "GroupNo": "",
           "RecId": 32493,
@@ -11352,6 +11226,13 @@
           "OccVac": 1
         },
         {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -11388,6 +11269,13 @@
         },
         {
           "Room": "130",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -11673,12 +11561,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 11,
-        "inhouse_count": 62,
+        "inhouse_count": 60,
         "noshow_count": 0,
-        "vacant_count": 62,
+        "vacant_count": 64,
         "roomchanges_count": 0,
-        "eod_room_count": 62,
-        "eod_pax_count": 110
+        "eod_room_count": 60,
+        "eod_pax_count": 106
       },
       "arrivals": [
         {
@@ -12253,48 +12141,6 @@
           "AgencyCode": "EASYJET"
         },
         {
-          "Voucher": "32574",
-          "GroupNo": "",
-          "RecId": 32574,
-          "FirstName1": "ZIYA HAKAN",
-          "LastName1": "SONMEZ",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 1818.5475,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32591",
-          "GroupNo": "",
-          "RecId": 32591,
-          "FirstName1": "MEHMET RESAT",
-          "LastName1": "KARAMEHMET",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "132",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "FB4VW5",
           "GroupNo": "",
           "RecId": 32493,
@@ -13411,6 +13257,13 @@
           "OccVac": 1
         },
         {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "120",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 0,
@@ -13454,6 +13307,13 @@
         },
         {
           "Room": "130",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "132",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -13787,7 +13647,7 @@
     "2026-10-20": {
       "summary": {
         "arrivals_count": 5,
-        "departures_count": 12,
+        "departures_count": 10,
         "inhouse_count": 55,
         "noshow_count": 0,
         "vacant_count": 74,
@@ -14112,48 +13972,6 @@
           "FlightDeparture": "20:25",
           "Status": 2,
           "AgencyCode": "EASYJET"
-        },
-        {
-          "Voucher": "32574",
-          "GroupNo": "",
-          "RecId": 32574,
-          "FirstName1": "ZIYA HAKAN",
-          "LastName1": "SONMEZ",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 1818.5475,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32591",
-          "GroupNo": "",
-          "RecId": 32591,
-          "FirstName1": "MEHMET RESAT",
-          "LastName1": "KARAMEHMET",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "132",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [
@@ -21236,7 +21054,7 @@
         {
           "Room": "212",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21341,7 +21159,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
