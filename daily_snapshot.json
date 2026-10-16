@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-16 08:00:04",
+  "sync_time": "2026-10-16 09:00:04",
   "report_date": "2026-10-16",
   "summary": {
     "arrivals_count": 3,
-    "departures_count": 2,
-    "inhouse_count": 55,
+    "departures_count": 1,
+    "inhouse_count": 54,
     "noshow_count": 10,
-    "vacant_count": 49,
+    "vacant_count": 50,
     "roomchanges_count": 0,
     "eod_room_count": 56,
     "eod_pax_count": 99,
@@ -99,27 +99,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "PX2E9D",
-        "GroupNo": "",
-        "RecId": 32512,
-        "FirstName1": "BURAK",
-        "LastName1": "ZAIM",
-        "CheckinDate": "2026-10-15",
-        "CheckOutDate": "2026-10-16",
-        "Room": "131",
-        "RoomType": "SUIT",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
       }
     ],
     "inhouse": [
@@ -143,27 +122,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "PX2E9D",
-        "GroupNo": "",
-        "RecId": 32512,
-        "FirstName1": "BURAK",
-        "LastName1": "ZAIM",
-        "CheckinDate": "2026-10-15",
-        "CheckOutDate": "2026-10-16",
-        "Room": "131",
-        "RoomType": "SUIT",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "17221720",
@@ -1019,7 +977,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 1322.58,
         "ResRemark": "",
         "FlightArrival": "19:35",
         "FlightDeparture": "20:25",
@@ -1565,6 +1523,13 @@
       {
         "Room": "128",
         "RoomTypeCode": "STD-SVL",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "131",
+        "RoomTypeCode": "SUIT",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -2649,7 +2614,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -3199,7 +3164,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "ADDAJET"
         },
         {
@@ -4266,7 +4231,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1322.58,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -5298,10 +5263,10 @@
     "2026-10-16": {
       "summary": {
         "arrivals_count": 3,
-        "departures_count": 2,
-        "inhouse_count": 55,
+        "departures_count": 1,
+        "inhouse_count": 54,
         "noshow_count": 10,
-        "vacant_count": 49,
+        "vacant_count": 50,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 99
@@ -5392,27 +5357,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "PX2E9D",
-          "GroupNo": "",
-          "RecId": 32512,
-          "FirstName1": "BURAK",
-          "LastName1": "ZAIM",
-          "CheckinDate": "2026-10-15",
-          "CheckOutDate": "2026-10-16",
-          "Room": "131",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
         }
       ],
       "inhouse": [
@@ -5436,27 +5380,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "PX2E9D",
-          "GroupNo": "",
-          "RecId": 32512,
-          "FirstName1": "BURAK",
-          "LastName1": "ZAIM",
-          "CheckinDate": "2026-10-15",
-          "CheckOutDate": "2026-10-16",
-          "Room": "131",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "17221720",
@@ -6312,7 +6235,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1322.58,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -6858,6 +6781,13 @@
         {
           "Room": "128",
           "RoomTypeCode": "STD-SVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "131",
+          "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -8463,7 +8393,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1322.58,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -10403,7 +10333,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1322.58,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -12315,7 +12245,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1322.58,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -14176,7 +14106,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 1322.58,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
