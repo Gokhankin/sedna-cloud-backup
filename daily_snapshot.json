@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-17 01:00:05",
+  "sync_time": "2026-10-17 02:00:05",
   "report_date": "2026-10-17",
   "summary": {
     "arrivals_count": 20,
     "departures_count": 12,
-    "inhouse_count": 53,
+    "inhouse_count": 54,
     "noshow_count": 4,
-    "vacant_count": 42,
+    "vacant_count": 41,
     "roomchanges_count": 0,
     "eod_room_count": 62,
     "eod_pax_count": 108,
@@ -1321,6 +1321,27 @@
         "AgencyCode": "EXPEDIA"
       },
       {
+        "Voucher": "6470540684",
+        "GroupNo": "",
+        "RecId": 32502,
+        "FirstName1": "JAN",
+        "LastName1": "NIELSEN",
+        "CheckinDate": "2026-10-16",
+        "CheckOutDate": "2026-10-19",
+        "Room": "109",
+        "RoomType": "STD SEA",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 7,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "BOOKING.COM"
+      },
+      {
         "Voucher": "32573",
         "GroupNo": "",
         "RecId": 32573,
@@ -1895,13 +1916,6 @@
         "Room": "108",
         "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "109",
-        "RoomTypeCode": "STD SEA",
-        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3083,7 +3097,7 @@
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "BOOKING.COM"
         },
         {
@@ -3952,27 +3966,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "6470540684",
-          "GroupNo": "",
-          "RecId": 32502,
-          "FirstName1": "JAN",
-          "LastName1": "NIELSEN",
-          "CheckinDate": "2026-10-16",
-          "CheckOutDate": "2026-10-19",
-          "Room": "109",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "ZFDV11",
           "GroupNo": "",
           "RecId": 30373,
@@ -4160,6 +4153,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "6470540684",
+          "GroupNo": "",
+          "RecId": 32502,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-16",
+          "CheckOutDate": "2026-10-19",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "32573",
@@ -5320,9 +5334,9 @@
       "summary": {
         "arrivals_count": 20,
         "departures_count": 12,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 4,
-        "vacant_count": 42,
+        "vacant_count": 41,
         "roomchanges_count": 0,
         "eod_room_count": 62,
         "eod_pax_count": 108
@@ -6635,6 +6649,27 @@
           "AgencyCode": "EXPEDIA"
         },
         {
+          "Voucher": "6470540684",
+          "GroupNo": "",
+          "RecId": 32502,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-16",
+          "CheckOutDate": "2026-10-19",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
+        },
+        {
           "Voucher": "32573",
           "GroupNo": "",
           "RecId": 32573,
@@ -7209,13 +7244,6 @@
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "109",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8002,27 +8030,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "6470540684",
-          "GroupNo": "",
-          "RecId": 32502,
-          "FirstName1": "JAN",
-          "LastName1": "NIELSEN",
-          "CheckinDate": "2026-10-16",
-          "CheckOutDate": "2026-10-19",
-          "Room": "109",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "ZFDV11",
           "GroupNo": "",
           "RecId": 30373,
@@ -8210,6 +8217,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "6470540684",
+          "GroupNo": "",
+          "RecId": 32502,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-16",
+          "CheckOutDate": "2026-10-19",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "32573",
@@ -9884,27 +9912,6 @@
       ],
       "departures": [
         {
-          "Voucher": "6470540684",
-          "GroupNo": "",
-          "RecId": 32502,
-          "FirstName1": "JAN",
-          "LastName1": "NIELSEN",
-          "CheckinDate": "2026-10-16",
-          "CheckOutDate": "2026-10-19",
-          "Room": "109",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 7,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "BOOKING.COM"
-        },
-        {
           "Voucher": "ZFDV11",
           "GroupNo": "",
           "RecId": 30373,
@@ -10092,6 +10099,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "EXPEDIA"
+        },
+        {
+          "Voucher": "6470540684",
+          "GroupNo": "",
+          "RecId": 32502,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-16",
+          "CheckOutDate": "2026-10-19",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 7,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "BOOKING.COM"
         },
         {
           "Voucher": "32573",
