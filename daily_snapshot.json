@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-17 10:00:05",
+  "sync_time": "2026-10-17 11:00:05",
   "report_date": "2026-10-17",
   "summary": {
     "arrivals_count": 19,
-    "departures_count": 7,
-    "inhouse_count": 49,
+    "departures_count": 6,
+    "inhouse_count": 48,
     "noshow_count": 10,
-    "vacant_count": 44,
+    "vacant_count": 45,
     "roomchanges_count": 0,
     "eod_room_count": 61,
     "eod_pax_count": 106,
@@ -416,27 +416,6 @@
     ],
     "departures": [
       {
-        "Voucher": "17221720",
-        "GroupNo": "",
-        "RecId": 28736,
-        "FirstName1": "NATASHA",
-        "LastName1": "CUMMINGS",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-17",
-        "Room": "209",
-        "RoomType": "STD SEA L",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 6502.685,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA GBP"
-      },
-      {
         "Voucher": "3042502",
         "GroupNo": "",
         "RecId": 31611,
@@ -564,27 +543,6 @@
       }
     ],
     "inhouse": [
-      {
-        "Voucher": "17221720",
-        "GroupNo": "",
-        "RecId": 28736,
-        "FirstName1": "NATASHA",
-        "LastName1": "CUMMINGS",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-17",
-        "Room": "209",
-        "RoomType": "STD SEA L",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 6502.685,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA GBP"
-      },
       {
         "Voucher": "3042502",
         "GroupNo": "",
@@ -1902,6 +1860,13 @@
         "Room": "132",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "209",
+        "RoomTypeCode": "STD SEA L",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3483,27 +3448,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "17221720",
-          "GroupNo": "",
-          "RecId": 28736,
-          "FirstName1": "NATASHA",
-          "LastName1": "CUMMINGS",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-17",
-          "Room": "209",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 6502.685,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
-        },
-        {
           "Voucher": "3042502",
           "GroupNo": "",
           "RecId": 31611,
@@ -3628,6 +3572,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "17221720",
+          "GroupNo": "",
+          "RecId": 28736,
+          "FirstName1": "NATASHA",
+          "LastName1": "CUMMINGS",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-17",
+          "Room": "209",
+          "RoomType": "STD SEA L",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "7BNMYRH-1-5404752736 ",
@@ -5627,10 +5592,10 @@
     "2026-10-17": {
       "summary": {
         "arrivals_count": 19,
-        "departures_count": 7,
-        "inhouse_count": 49,
+        "departures_count": 6,
+        "inhouse_count": 48,
         "noshow_count": 10,
-        "vacant_count": 44,
+        "vacant_count": 45,
         "roomchanges_count": 0,
         "eod_room_count": 61,
         "eod_pax_count": 106
@@ -6038,27 +6003,6 @@
       ],
       "departures": [
         {
-          "Voucher": "17221720",
-          "GroupNo": "",
-          "RecId": 28736,
-          "FirstName1": "NATASHA",
-          "LastName1": "CUMMINGS",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-17",
-          "Room": "209",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 6502.685,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
-        },
-        {
           "Voucher": "3042502",
           "GroupNo": "",
           "RecId": 31611,
@@ -6186,27 +6130,6 @@
         }
       ],
       "inhouse": [
-        {
-          "Voucher": "17221720",
-          "GroupNo": "",
-          "RecId": 28736,
-          "FirstName1": "NATASHA",
-          "LastName1": "CUMMINGS",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-17",
-          "Room": "209",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 6502.685,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
-        },
         {
           "Voucher": "3042502",
           "GroupNo": "",
@@ -7528,6 +7451,13 @@
           "OccVac": 1
         },
         {
+          "Room": "209",
+          "RoomTypeCode": "STD SEA L",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "211",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -7746,7 +7676,7 @@
         "departures_count": 9,
         "inhouse_count": 66,
         "noshow_count": 0,
-        "vacant_count": 51,
+        "vacant_count": 40,
         "roomchanges_count": 0,
         "eod_room_count": 66,
         "eod_pax_count": 116
@@ -7781,8 +7711,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7802,7 +7732,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -7823,8 +7753,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7844,7 +7774,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -7907,8 +7837,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7928,8 +7858,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -7949,8 +7879,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7970,8 +7900,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -7991,8 +7921,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -8012,8 +7942,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -8033,7 +7963,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -9129,8 +9059,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9192,7 +9122,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -9297,8 +9227,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9318,7 +9248,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -9381,8 +9311,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9402,8 +9332,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -9423,8 +9353,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9444,8 +9374,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -9465,8 +9395,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -9486,8 +9416,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -9528,7 +9458,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -9664,13 +9594,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -9727,20 +9650,6 @@
           "OccVac": 1
         },
         {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -9755,13 +9664,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -9769,57 +9671,8 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9994,7 +9847,7 @@
         "departures_count": 12,
         "inhouse_count": 61,
         "noshow_count": 0,
-        "vacant_count": 63,
+        "vacant_count": 52,
         "roomchanges_count": 0,
         "eod_room_count": 61,
         "eod_pax_count": 108
@@ -11083,8 +10936,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11167,7 +11020,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -11272,8 +11125,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11293,7 +11146,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -11356,8 +11209,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11377,8 +11230,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -11419,8 +11272,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11440,8 +11293,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -11461,8 +11314,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -11503,8 +11356,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -11587,7 +11440,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -11744,13 +11597,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -11821,20 +11667,6 @@
           "OccVac": 1
         },
         {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -11849,13 +11681,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -11863,43 +11688,8 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11919,13 +11709,6 @@
           "OccVac": 1
         },
         {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "326",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -11935,13 +11718,6 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -12137,7 +11913,7 @@
         "departures_count": 10,
         "inhouse_count": 56,
         "noshow_count": 0,
-        "vacant_count": 73,
+        "vacant_count": 62,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 100
@@ -12974,8 +12750,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13058,7 +12834,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -13163,8 +12939,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13184,7 +12960,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -13268,8 +13044,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13289,8 +13065,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -13331,8 +13107,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13352,8 +13128,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -13373,8 +13149,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -13415,8 +13191,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -13499,7 +13275,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -13719,13 +13495,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -13810,20 +13579,6 @@
           "OccVac": 1
         },
         {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -13838,13 +13593,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -13852,43 +13600,8 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -13910,13 +13623,6 @@
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -13952,13 +13658,6 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -14161,7 +13860,7 @@
         "departures_count": 4,
         "inhouse_count": 55,
         "noshow_count": 0,
-        "vacant_count": 76,
+        "vacant_count": 65,
         "roomchanges_count": 0,
         "eod_room_count": 55,
         "eod_pax_count": 98
@@ -14746,8 +14445,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -14830,7 +14529,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -14935,8 +14634,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -14956,7 +14655,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -15040,8 +14739,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15061,8 +14760,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -15103,8 +14802,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15124,8 +14823,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -15145,8 +14844,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -15187,8 +14886,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -15271,7 +14970,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -15554,13 +15253,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -15652,20 +15344,6 @@
           "OccVac": 1
         },
         {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -15680,13 +15358,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -15694,43 +15365,8 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -15745,13 +15381,6 @@
         {
           "Room": "317",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -15794,13 +15423,6 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -16017,7 +15639,7 @@
         "departures_count": 8,
         "inhouse_count": 52,
         "noshow_count": 0,
-        "vacant_count": 82,
+        "vacant_count": 71,
         "roomchanges_count": 0,
         "eod_room_count": 52,
         "eod_pax_count": 93
@@ -16560,8 +16182,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -16644,7 +16266,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -16749,8 +16371,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -16770,7 +16392,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -16854,8 +16476,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -16875,8 +16497,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -16917,8 +16539,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -16938,8 +16560,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -16959,8 +16581,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -17001,8 +16623,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -17085,7 +16707,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -17480,13 +17102,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -17571,20 +17186,6 @@
           "OccVac": 1
         },
         {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "207",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -17613,13 +17214,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -17627,43 +17221,8 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -17700,13 +17259,6 @@
           "Room": "319",
           "RoomTypeCode": "CLUB SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17755,13 +17307,6 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -17978,7 +17523,7 @@
         "departures_count": 5,
         "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 84,
+        "vacant_count": 73,
         "roomchanges_count": 0,
         "eod_room_count": 54,
         "eod_pax_count": 98
@@ -18395,8 +17940,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18500,7 +18045,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -18626,8 +18171,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18647,7 +18192,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -18731,8 +18276,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18752,8 +18297,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -18794,8 +18339,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18815,8 +18360,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -18836,8 +18381,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -18878,8 +18423,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -18962,7 +18507,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -19455,13 +19000,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -19553,20 +19091,6 @@
           "OccVac": 1
         },
         {
-          "Room": "203",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "207",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -19595,13 +19119,6 @@
           "OccVac": 1
         },
         {
-          "Room": "212",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "302",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -19609,43 +19126,8 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -19682,13 +19164,6 @@
           "Room": "319",
           "RoomTypeCode": "CLUB SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19751,13 +19226,6 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -19974,7 +19442,7 @@
         "departures_count": 18,
         "inhouse_count": 73,
         "noshow_count": 0,
-        "vacant_count": 97,
+        "vacant_count": 88,
         "roomchanges_count": 0,
         "eod_room_count": 74,
         "eod_pax_count": 110
@@ -20914,8 +20382,8 @@
           "LastName1": "RICHARDS",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "203",
+          "RoomType": "STD SEA L",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -21019,7 +20487,7 @@
           "LastName1": "ALLCROFT",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-24",
-          "Room": "",
+          "Room": "212",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 2,
@@ -21147,8 +20615,8 @@
           "LastName1": "THOMPSON",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "308",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -21168,7 +20636,7 @@
           "LastName1": "ZAYANI",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
+          "Room": "307",
           "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
@@ -21252,8 +20720,8 @@
           "LastName1": "DRISCOLL",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "204",
+          "RoomType": "STD-LVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -21273,8 +20741,8 @@
           "LastName1": "CROOKELL-SLADE",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-SV",
+          "Room": "303",
+          "RoomType": "STD SEA",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -21315,8 +20783,8 @@
           "LastName1": "GOLD",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "117",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -21336,8 +20804,8 @@
           "LastName1": "DEUNG",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "311",
+          "RoomType": "STD-SV",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
@@ -21357,8 +20825,8 @@
           "LastName1": "PAINES",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "306",
+          "RoomType": "STD-SV",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -21399,8 +20867,8 @@
           "LastName1": "BURMESTER",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-25",
-          "Room": "",
-          "RoomType": "STD-LV",
+          "Room": "331",
+          "RoomType": "STD-SVL",
           "Board": "HB",
           "Pax": 1,
           "Childs": 0,
@@ -21483,7 +20951,7 @@
           "LastName1": "PIECHURA",
           "CheckinDate": "2026-10-18",
           "CheckOutDate": "2026-10-27",
-          "Room": "",
+          "Room": "320",
           "RoomType": "STD-LV",
           "Board": "HB",
           "Pax": 1,
@@ -22767,13 +22235,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -22893,13 +22354,6 @@
           "OccVac": 1
         },
         {
-          "Room": "204",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "205",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
@@ -22956,34 +22410,6 @@
           "OccVac": 1
         },
         {
-          "Room": "303",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "306",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "307",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "308",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "309",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -22993,13 +22419,6 @@
         {
           "Room": "310",
           "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -23050,13 +22469,6 @@
           "Room": "319",
           "RoomTypeCode": "CLUB SV",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -23126,13 +22538,6 @@
         {
           "Room": "330",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "331",
-          "RoomTypeCode": "STD-SVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
