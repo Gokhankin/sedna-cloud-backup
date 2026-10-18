@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-10-18 11:00:05",
+  "sync_time": "2026-10-18 12:00:05",
   "report_date": "2026-10-18",
   "summary": {
-    "arrivals_count": 14,
+    "arrivals_count": 13,
     "departures_count": 3,
-    "inhouse_count": 55,
+    "inhouse_count": 56,
     "noshow_count": 5,
     "vacant_count": 40,
     "roomchanges_count": 0,
@@ -14,27 +14,6 @@
   },
   "data": {
     "arrivals": [
-      {
-        "Voucher": "TKDYEA",
-        "GroupNo": "",
-        "RecId": 32602,
-        "FirstName1": "VLADIMIR",
-        "LastName1": "ILIUSHCHENKO",
-        "CheckinDate": "2026-10-18",
-        "CheckOutDate": "2026-10-19",
-        "Room": "123",
-        "RoomType": "CLUB SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 5,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "ADDAJET"
-      },
       {
         "Voucher": "WQGTBF4-1-9814311624",
         "GroupNo": "",
@@ -318,8 +297,8 @@
         "LastName1": "SCHOEN-BELLING",
         "CheckinDate": "2026-10-09",
         "CheckOutDate": "2026-10-18",
-        "Room": "210",
-        "RoomType": "STD-LVL",
+        "Room": "2005",
+        "RoomType": "PM",
         "Board": "AI",
         "Pax": 2,
         "Childs": 0,
@@ -383,8 +362,8 @@
         "LastName1": "SCHOEN-BELLING",
         "CheckinDate": "2026-10-09",
         "CheckOutDate": "2026-10-18",
-        "Room": "210",
-        "RoomType": "STD-LVL",
+        "Room": "2005",
+        "RoomType": "PM",
         "Board": "AI",
         "Pax": 2,
         "Childs": 0,
@@ -668,6 +647,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "COMP"
+      },
+      {
+        "Voucher": "TKDYEA",
+        "GroupNo": "",
+        "RecId": 32602,
+        "FirstName1": "VLADIMIR",
+        "LastName1": "ILIUSHCHENKO",
+        "CheckinDate": "2026-10-18",
+        "CheckOutDate": "2026-10-19",
+        "Room": "123",
+        "RoomType": "CLUB SEA",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 5,
+        "ExtraFolioBalance": 1832.0907,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "ADDAJET"
       },
       {
         "Voucher": "347573",
@@ -1061,7 +1061,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 6662.148,
         "ResRemark": "",
         "FlightArrival": "21:35",
         "FlightDeparture": "14:05",
@@ -1418,7 +1418,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 2165.1981,
+        "ExtraFolioBalance": 3386.5919,
         "ResRemark": "",
         "FlightArrival": "20:15",
         "FlightDeparture": "21:10",
@@ -1712,7 +1712,7 @@
       {
         "Room": "130",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1921,7 +1921,24 @@
       }
     ],
     "roomchanges": [],
-    "all_roomchanges": [],
+    "all_roomchanges": [
+      {
+        "ReservationId": 31877,
+        "Voucher": "3045222",
+        "FirstName1": "ANJA",
+        "LastName1": "SCHOEN-BELLING",
+        "OldRoom": "210",
+        "NewRoom": "2005",
+        "RecordUser": "Remi",
+        "RecordDate": "2026-10-17",
+        "RCDate": "2026-10-17",
+        "Time": "",
+        "CheckinDate": "2026-10-09",
+        "CheckOutDate": "2026-10-18",
+        "AgencyCode": "NEILSON",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -2129,7 +2146,7 @@
       {
         "Room": "130",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2374,7 +2391,7 @@
       {
         "Room": "320",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2709,8 +2726,8 @@
         "departures_count": 22,
         "inhouse_count": 66,
         "noshow_count": 15,
-        "vacant_count": 46,
-        "roomchanges_count": 0,
+        "vacant_count": 47,
+        "roomchanges_count": 1,
         "eod_room_count": 66,
         "eod_pax_count": 116
       },
@@ -2939,7 +2956,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -3170,7 +3187,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -3693,8 +3710,8 @@
           "LastName1": "SCHOEN-BELLING",
           "CheckinDate": "2026-10-09",
           "CheckOutDate": "2026-10-18",
-          "Room": "210",
-          "RoomType": "STD-LVL",
+          "Room": "2005",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -4602,7 +4619,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -4959,7 +4976,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -5477,7 +5494,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5499,6 +5516,13 @@
           "Room": "209",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "210",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5547,7 +5571,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5713,13 +5737,30 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 31877,
+          "Voucher": "3045222",
+          "FirstName1": "ANJA",
+          "LastName1": "SCHOEN-BELLING",
+          "OldRoom": "210",
+          "NewRoom": "2005",
+          "RecordUser": "Remi",
+          "RecordDate": "2026-10-17",
+          "RCDate": "2026-10-17",
+          "Time": "",
+          "CheckinDate": "2026-10-09",
+          "CheckOutDate": "2026-10-18",
+          "AgencyCode": "NEILSON",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-10-18": {
       "summary": {
-        "arrivals_count": 14,
+        "arrivals_count": 13,
         "departures_count": 3,
-        "inhouse_count": 55,
+        "inhouse_count": 56,
         "noshow_count": 5,
         "vacant_count": 40,
         "roomchanges_count": 0,
@@ -5727,27 +5768,6 @@
         "eod_pax_count": 116
       },
       "arrivals": [
-        {
-          "Voucher": "TKDYEA",
-          "GroupNo": "",
-          "RecId": 32602,
-          "FirstName1": "VLADIMIR",
-          "LastName1": "ILIUSHCHENKO",
-          "CheckinDate": "2026-10-18",
-          "CheckOutDate": "2026-10-19",
-          "Room": "123",
-          "RoomType": "CLUB SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
-        },
         {
           "Voucher": "WQGTBF4-1-9814311624",
           "GroupNo": "",
@@ -6031,8 +6051,8 @@
           "LastName1": "SCHOEN-BELLING",
           "CheckinDate": "2026-10-09",
           "CheckOutDate": "2026-10-18",
-          "Room": "210",
-          "RoomType": "STD-LVL",
+          "Room": "2005",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -6096,8 +6116,8 @@
           "LastName1": "SCHOEN-BELLING",
           "CheckinDate": "2026-10-09",
           "CheckOutDate": "2026-10-18",
-          "Room": "210",
-          "RoomType": "STD-LVL",
+          "Room": "2005",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 2,
           "Childs": 0,
@@ -6381,6 +6401,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "TKDYEA",
+          "GroupNo": "",
+          "RecId": 32602,
+          "FirstName1": "VLADIMIR",
+          "LastName1": "ILIUSHCHENKO",
+          "CheckinDate": "2026-10-18",
+          "CheckOutDate": "2026-10-19",
+          "Room": "123",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 1832.0907,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
         },
         {
           "Voucher": "347573",
@@ -6774,7 +6815,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -7131,7 +7172,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -7425,7 +7466,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7797,27 +7838,6 @@
       ],
       "departures": [
         {
-          "Voucher": "TKDYEA",
-          "GroupNo": "",
-          "RecId": 32602,
-          "FirstName1": "VLADIMIR",
-          "LastName1": "ILIUSHCHENKO",
-          "CheckinDate": "2026-10-18",
-          "CheckOutDate": "2026-10-19",
-          "Room": "123",
-          "RoomType": "CLUB SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 5,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "ADDAJET"
-        },
-        {
           "Voucher": "ZFDV11",
           "GroupNo": "",
           "RecId": 30373,
@@ -8047,6 +8067,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "TKDYEA",
+          "GroupNo": "",
+          "RecId": 32602,
+          "FirstName1": "VLADIMIR",
+          "LastName1": "ILIUSHCHENKO",
+          "CheckinDate": "2026-10-18",
+          "CheckOutDate": "2026-10-19",
+          "Room": "123",
+          "RoomType": "CLUB SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 5,
+          "ExtraFolioBalance": 1832.0907,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "ADDAJET"
         }
       ],
       "inhouse": [
@@ -8442,7 +8483,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -8904,7 +8945,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -9442,7 +9483,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10235,7 +10276,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -10718,7 +10759,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -11347,7 +11388,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11930,7 +11971,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -12413,7 +12454,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -13112,7 +13153,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13665,7 +13706,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 6662.148,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -14150,7 +14191,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -14961,7 +15002,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15950,7 +15991,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -16866,7 +16907,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18392,7 +18433,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 2165.1981,
+          "ExtraFolioBalance": 3386.5919,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -20108,7 +20149,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -22538,7 +22579,7 @@
         {
           "Room": "130",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
