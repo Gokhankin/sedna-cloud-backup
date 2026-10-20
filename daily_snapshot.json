@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-20 10:00:04",
+  "sync_time": "2026-10-20 11:00:05",
   "report_date": "2026-10-20",
   "summary": {
-    "arrivals_count": 5,
-    "departures_count": 8,
+    "arrivals_count": 4,
+    "departures_count": 7,
     "inhouse_count": 61,
     "noshow_count": 5,
-    "vacant_count": 42,
+    "vacant_count": 43,
     "roomchanges_count": 0,
     "eod_room_count": 58,
     "eod_pax_count": 105,
@@ -34,27 +34,6 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "740173920",
-        "GroupNo": "",
-        "RecId": 32294,
-        "FirstName1": "RIJS",
-        "LastName1": "WILHELMUS",
-        "CheckinDate": "2026-10-20",
-        "CheckOutDate": "2026-10-24",
-        "Room": "322",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 15,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 1,
-        "AgencyCode": "DER TOUR"
       },
       {
         "Voucher": "ZW3DGVG-1-2578320462",
@@ -206,27 +185,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "3049909",
-        "GroupNo": "",
-        "RecId": 32218,
-        "FirstName1": "JOANNA",
-        "LastName1": "RANDALL",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-20",
-        "Room": "116",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 23282.91875,
-        "ResRemark": null,
-        "FlightArrival": "13:05",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
         "Voucher": "B56N4S",
         "GroupNo": "",
         "RecId": 32263,
@@ -371,27 +329,6 @@
         "ExtraFolioBalance": 11297.0375,
         "ResRemark": null,
         "FlightArrival": "15:45",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "3049909",
-        "GroupNo": "",
-        "RecId": 32218,
-        "FirstName1": "JOANNA",
-        "LastName1": "RANDALL",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-20",
-        "Room": "116",
-        "RoomType": "STD SEA",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 23282.91875,
-        "ResRemark": null,
-        "FlightArrival": "13:05",
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
@@ -578,7 +515,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 44,
-        "ExtraFolioBalance": 5635.06685,
+        "ExtraFolioBalance": 10076.49885,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -962,6 +899,27 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "JET2"
+      },
+      {
+        "Voucher": "740173920",
+        "GroupNo": "",
+        "RecId": 32294,
+        "FirstName1": "WILHELMUS",
+        "LastName1": "RIJS",
+        "CheckinDate": "2026-10-20",
+        "CheckOutDate": "2026-10-24",
+        "Room": "322",
+        "RoomType": "STD-LV",
+        "Board": "AI",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 15,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": "",
+        "FlightArrival": "",
+        "FlightDeparture": "",
+        "Status": 2,
+        "AgencyCode": "DER TOUR"
       },
       {
         "Voucher": "WQGTBF4-1-9814311624",
@@ -1724,6 +1682,13 @@
         "OccVac": 1
       },
       {
+        "Room": "116",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "118",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
@@ -1768,7 +1733,7 @@
       {
         "Room": "132",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2199,7 +2164,7 @@
       {
         "Room": "132",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2444,7 +2409,7 @@
       {
         "Room": "322",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3469,27 +3434,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "3049909",
-          "GroupNo": "",
-          "RecId": 32218,
-          "FirstName1": "JOANNA",
-          "LastName1": "RANDALL",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 23282.91875,
-          "ResRemark": null,
-          "FlightArrival": "13:05",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "B56N4S",
           "GroupNo": "",
           "RecId": 32263,
@@ -3593,6 +3537,27 @@
           "FlightDeparture": "",
           "Status": 3,
           "AgencyCode": "EASYJET"
+        },
+        {
+          "Voucher": "3049909",
+          "GroupNo": "",
+          "RecId": 32218,
+          "FirstName1": "JOANNA",
+          "LastName1": "RANDALL",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-20",
+          "Room": "116",
+          "RoomType": "STD SEA",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "13:05",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "32347",
@@ -3839,7 +3804,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 5635.06685,
+          "ExtraFolioBalance": 10076.49885,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5155,7 +5120,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5197,7 +5162,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5367,11 +5332,11 @@
     },
     "2026-10-20": {
       "summary": {
-        "arrivals_count": 5,
-        "departures_count": 8,
+        "arrivals_count": 4,
+        "departures_count": 7,
         "inhouse_count": 61,
         "noshow_count": 5,
-        "vacant_count": 42,
+        "vacant_count": 43,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 105
@@ -5397,27 +5362,6 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "740173920",
-          "GroupNo": "",
-          "RecId": 32294,
-          "FirstName1": "RIJS",
-          "LastName1": "WILHELMUS",
-          "CheckinDate": "2026-10-20",
-          "CheckOutDate": "2026-10-24",
-          "Room": "322",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 15,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "DER TOUR"
         },
         {
           "Voucher": "ZW3DGVG-1-2578320462",
@@ -5569,27 +5513,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "3049909",
-          "GroupNo": "",
-          "RecId": 32218,
-          "FirstName1": "JOANNA",
-          "LastName1": "RANDALL",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 23282.91875,
-          "ResRemark": null,
-          "FlightArrival": "13:05",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "B56N4S",
           "GroupNo": "",
           "RecId": 32263,
@@ -5734,27 +5657,6 @@
           "ExtraFolioBalance": 11297.0375,
           "ResRemark": null,
           "FlightArrival": "15:45",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "3049909",
-          "GroupNo": "",
-          "RecId": 32218,
-          "FirstName1": "JOANNA",
-          "LastName1": "RANDALL",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "116",
-          "RoomType": "STD SEA",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 23282.91875,
-          "ResRemark": null,
-          "FlightArrival": "13:05",
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
@@ -5941,7 +5843,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 5635.06685,
+          "ExtraFolioBalance": 10076.49885,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6325,6 +6227,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "740173920",
+          "GroupNo": "",
+          "RecId": 32294,
+          "FirstName1": "WILHELMUS",
+          "LastName1": "RIJS",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-24",
+          "Room": "322",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 15,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DER TOUR"
         },
         {
           "Voucher": "WQGTBF4-1-9814311624",
@@ -7087,6 +7010,13 @@
           "OccVac": 1
         },
         {
+          "Room": "116",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
@@ -7131,7 +7061,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7644,7 +7574,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 5635.06685,
+          "ExtraFolioBalance": 10076.49885,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7883,27 +7813,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "740173920",
-          "GroupNo": "",
-          "RecId": 32294,
-          "FirstName1": "RIJS",
-          "LastName1": "WILHELMUS",
-          "CheckinDate": "2026-10-20",
-          "CheckOutDate": "2026-10-24",
-          "Room": "322",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 15,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "DER TOUR"
-        },
-        {
           "Voucher": "QV3Y3Y",
           "GroupNo": "",
           "RecId": 28676,
@@ -8049,6 +7958,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "740173920",
+          "GroupNo": "",
+          "RecId": 32294,
+          "FirstName1": "WILHELMUS",
+          "LastName1": "RIJS",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-24",
+          "Room": "322",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 15,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DER TOUR"
         },
         {
           "Voucher": "WQGTBF4-1-9814311624",
@@ -8882,7 +8812,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9337,7 +9267,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 44,
-          "ExtraFolioBalance": 5635.06685,
+          "ExtraFolioBalance": 10076.49885,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9578,27 +9508,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "740173920",
-          "GroupNo": "",
-          "RecId": 32294,
-          "FirstName1": "RIJS",
-          "LastName1": "WILHELMUS",
-          "CheckinDate": "2026-10-20",
-          "CheckOutDate": "2026-10-24",
-          "Room": "322",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 15,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "DER TOUR"
-        },
-        {
           "Voucher": "QV3Y3Y",
           "GroupNo": "",
           "RecId": 28676,
@@ -9744,6 +9653,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "740173920",
+          "GroupNo": "",
+          "RecId": 32294,
+          "FirstName1": "WILHELMUS",
+          "LastName1": "RIJS",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-24",
+          "Room": "322",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 15,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DER TOUR"
         },
         {
           "Voucher": "WQGTBF4-1-9814311624",
@@ -10703,7 +10633,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11287,27 +11217,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "740173920",
-          "GroupNo": "",
-          "RecId": 32294,
-          "FirstName1": "RIJS",
-          "LastName1": "WILHELMUS",
-          "CheckinDate": "2026-10-20",
-          "CheckOutDate": "2026-10-24",
-          "Room": "322",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 15,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "DER TOUR"
-        },
-        {
           "Voucher": "5136436436",
           "GroupNo": "",
           "RecId": 32358,
@@ -11516,6 +11425,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "740173920",
+          "GroupNo": "",
+          "RecId": 32294,
+          "FirstName1": "WILHELMUS",
+          "LastName1": "RIJS",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-24",
+          "Room": "322",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 15,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DER TOUR"
         },
         {
           "Voucher": "WQGTBF4-1-9814311624",
@@ -12594,7 +12524,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13687,27 +13617,6 @@
       ],
       "departures": [
         {
-          "Voucher": "740173920",
-          "GroupNo": "",
-          "RecId": 32294,
-          "FirstName1": "RIJS",
-          "LastName1": "WILHELMUS",
-          "CheckinDate": "2026-10-20",
-          "CheckOutDate": "2026-10-24",
-          "Room": "322",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 15,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 1,
-          "AgencyCode": "DER TOUR"
-        },
-        {
           "Voucher": "5136436436",
           "GroupNo": "",
           "RecId": 32358,
@@ -13916,6 +13825,27 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "JET2"
+        },
+        {
+          "Voucher": "740173920",
+          "GroupNo": "",
+          "RecId": 32294,
+          "FirstName1": "WILHELMUS",
+          "LastName1": "RIJS",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-24",
+          "Room": "322",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 15,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 2,
+          "AgencyCode": "DER TOUR"
         },
         {
           "Voucher": "WQGTBF4-1-9814311624",
@@ -15703,7 +15633,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15773,7 +15703,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17853,7 +17783,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -17972,7 +17902,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19666,7 +19596,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19785,7 +19715,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21465,7 +21395,7 @@
         {
           "Room": "132",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21605,7 +21535,7 @@
         {
           "Room": "322",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
