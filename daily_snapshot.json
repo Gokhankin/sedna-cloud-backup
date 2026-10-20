@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-20 11:00:05",
+  "sync_time": "2026-10-20 12:00:05",
   "report_date": "2026-10-20",
   "summary": {
-    "arrivals_count": 4,
+    "arrivals_count": 5,
     "departures_count": 7,
     "inhouse_count": 61,
     "noshow_count": 5,
     "vacant_count": 43,
     "roomchanges_count": 0,
-    "eod_room_count": 58,
-    "eod_pax_count": 105,
+    "eod_room_count": 59,
+    "eod_pax_count": 106,
     "hk_count": 111
   },
   "data": {
@@ -97,6 +97,27 @@
         "FlightDeparture": null,
         "Status": 1,
         "AgencyCode": "NEILSON"
+      },
+      {
+        "Voucher": "",
+        "GroupNo": "",
+        "RecId": 32689,
+        "FirstName1": "NANCY",
+        "LastName1": "FRENCH",
+        "CheckinDate": "2026-10-20",
+        "CheckOutDate": "2026-10-27",
+        "Room": "114",
+        "RoomType": "STD-LV",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 4,
+        "ExtraFolioBalance": 46064.06,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 1,
+        "AgencyCode": "MUNFERIT GBP"
       }
     ],
     "departures": [
@@ -108,13 +129,13 @@
         "LastName1": "PEARSON",
         "CheckinDate": "2026-10-13",
         "CheckOutDate": "2026-10-20",
-        "Room": "312",
-        "RoomType": "STD-LVL",
+        "Room": "2002",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 7136.42125,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "19:35",
         "FlightDeparture": null,
@@ -234,13 +255,13 @@
         "LastName1": "WALDEN",
         "CheckinDate": "2026-10-13",
         "CheckOutDate": "2026-10-20",
-        "Room": "110",
-        "RoomType": "STD SEA",
+        "Room": "2003",
+        "RoomType": "PM",
         "Board": "AI",
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 1322.58,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "19:35",
         "FlightDeparture": "20:25",
@@ -257,13 +278,13 @@
         "LastName1": "PEARSON",
         "CheckinDate": "2026-10-13",
         "CheckOutDate": "2026-10-20",
-        "Room": "312",
-        "RoomType": "STD-LVL",
+        "Room": "2002",
+        "RoomType": "PM",
         "Board": "HB",
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 7136.42125,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": null,
         "FlightArrival": "19:35",
         "FlightDeparture": null,
@@ -383,13 +404,13 @@
         "LastName1": "WALDEN",
         "CheckinDate": "2026-10-13",
         "CheckOutDate": "2026-10-20",
-        "Room": "110",
-        "RoomType": "STD SEA",
+        "Room": "2003",
+        "RoomType": "PM",
         "Board": "AI",
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 9,
-        "ExtraFolioBalance": 1322.58,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "19:35",
         "FlightDeparture": "20:25",
@@ -599,7 +620,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 17904.52275,
+        "ExtraFolioBalance": 18626.25545,
         "ResRemark": "",
         "FlightArrival": "21:35",
         "FlightDeparture": "14:05",
@@ -956,7 +977,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 23373.0359,
+        "ExtraFolioBalance": 24705.4655,
         "ResRemark": null,
         "FlightArrival": "19:55",
         "FlightDeparture": null,
@@ -1019,7 +1040,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 1887.6086,
+        "ExtraFolioBalance": 2054.1623,
         "ResRemark": null,
         "FlightArrival": "21:30",
         "FlightDeparture": null,
@@ -1668,13 +1689,6 @@
         "OccVac": 1
       },
       {
-        "Room": "114",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "115",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 0,
@@ -1761,6 +1775,13 @@
       {
         "Room": "309",
         "RoomTypeCode": "SUIT",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "312",
+        "RoomTypeCode": "STD-LVL",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1942,7 +1963,40 @@
       }
     ],
     "roomchanges": [],
-    "all_roomchanges": [],
+    "all_roomchanges": [
+      {
+        "ReservationId": 30958,
+        "Voucher": "3036724",
+        "FirstName1": "ALAN",
+        "LastName1": "PEARSON",
+        "OldRoom": "312",
+        "NewRoom": "2002",
+        "RecordUser": "Remi",
+        "RecordDate": "2026-10-19",
+        "RCDate": "2026-10-19",
+        "Time": "",
+        "CheckinDate": "2026-10-13",
+        "CheckOutDate": "2026-10-20",
+        "AgencyCode": "NEILSON",
+        "RoomChanged": "1"
+      },
+      {
+        "ReservationId": 32327,
+        "Voucher": "9090226",
+        "FirstName1": "SUSAN JANE",
+        "LastName1": "WALDEN",
+        "OldRoom": "110",
+        "NewRoom": "2003",
+        "RecordUser": "AYTEKİN",
+        "RecordDate": "2026-10-19",
+        "RCDate": "2026-10-19",
+        "Time": "",
+        "CheckinDate": "2026-10-13",
+        "CheckOutDate": "2026-10-20",
+        "AgencyCode": "EASYJET",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -2038,7 +2092,7 @@
       {
         "Room": "114",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2730,8 +2784,8 @@
         "departures_count": 16,
         "inhouse_count": 69,
         "noshow_count": 11,
-        "vacant_count": 42,
-        "roomchanges_count": 0,
+        "vacant_count": 44,
+        "roomchanges_count": 2,
         "eod_room_count": 69,
         "eod_pax_count": 124
       },
@@ -3357,13 +3411,13 @@
           "LastName1": "PEARSON",
           "CheckinDate": "2026-10-13",
           "CheckOutDate": "2026-10-20",
-          "Room": "312",
-          "RoomType": "STD-LVL",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7136.42125,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "19:35",
           "FlightDeparture": null,
@@ -3483,13 +3537,13 @@
           "LastName1": "WALDEN",
           "CheckinDate": "2026-10-13",
           "CheckOutDate": "2026-10-20",
-          "Room": "110",
-          "RoomType": "STD SEA",
+          "Room": "2003",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 1322.58,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -3888,7 +3942,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17904.52275,
+          "ExtraFolioBalance": 18626.25545,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -4224,7 +4278,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 23373.0359,
+          "ExtraFolioBalance": 24705.4655,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -4287,7 +4341,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1887.6086,
+          "ExtraFolioBalance": 2054.1623,
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
@@ -5055,6 +5109,13 @@
           "OccVac": 1
         },
         {
+          "Room": "110",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
           "DirtyClean": 0,
@@ -5071,7 +5132,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5148,6 +5209,13 @@
         {
           "Room": "309",
           "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "312",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -5328,18 +5396,51 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 30958,
+          "Voucher": "3036724",
+          "FirstName1": "ALAN",
+          "LastName1": "PEARSON",
+          "OldRoom": "312",
+          "NewRoom": "2002",
+          "RecordUser": "Remi",
+          "RecordDate": "2026-10-19",
+          "RCDate": "2026-10-19",
+          "Time": "",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-20",
+          "AgencyCode": "NEILSON",
+          "RoomChanged": "1"
+        },
+        {
+          "ReservationId": 32327,
+          "Voucher": "9090226",
+          "FirstName1": "SUSAN JANE",
+          "LastName1": "WALDEN",
+          "OldRoom": "110",
+          "NewRoom": "2003",
+          "RecordUser": "AYTEKİN",
+          "RecordDate": "2026-10-19",
+          "RCDate": "2026-10-19",
+          "Time": "",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-20",
+          "AgencyCode": "EASYJET",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-10-20": {
       "summary": {
-        "arrivals_count": 4,
+        "arrivals_count": 5,
         "departures_count": 7,
         "inhouse_count": 61,
         "noshow_count": 5,
         "vacant_count": 43,
         "roomchanges_count": 0,
-        "eod_room_count": 58,
-        "eod_pax_count": 105
+        "eod_room_count": 59,
+        "eod_pax_count": 106
       },
       "arrivals": [
         {
@@ -5425,6 +5526,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
         }
       ],
       "departures": [
@@ -5436,13 +5558,13 @@
           "LastName1": "PEARSON",
           "CheckinDate": "2026-10-13",
           "CheckOutDate": "2026-10-20",
-          "Room": "312",
-          "RoomType": "STD-LVL",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7136.42125,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "19:35",
           "FlightDeparture": null,
@@ -5562,13 +5684,13 @@
           "LastName1": "WALDEN",
           "CheckinDate": "2026-10-13",
           "CheckOutDate": "2026-10-20",
-          "Room": "110",
-          "RoomType": "STD SEA",
+          "Room": "2003",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 1322.58,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -5585,13 +5707,13 @@
           "LastName1": "PEARSON",
           "CheckinDate": "2026-10-13",
           "CheckOutDate": "2026-10-20",
-          "Room": "312",
-          "RoomType": "STD-LVL",
+          "Room": "2002",
+          "RoomType": "PM",
           "Board": "HB",
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7136.42125,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "19:35",
           "FlightDeparture": null,
@@ -5711,13 +5833,13 @@
           "LastName1": "WALDEN",
           "CheckinDate": "2026-10-13",
           "CheckOutDate": "2026-10-20",
-          "Room": "110",
-          "RoomType": "STD SEA",
+          "Room": "2003",
+          "RoomType": "PM",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 9,
-          "ExtraFolioBalance": 1322.58,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "19:35",
           "FlightDeparture": "20:25",
@@ -5927,7 +6049,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17904.52275,
+          "ExtraFolioBalance": 18626.25545,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -6284,7 +6406,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 23373.0359,
+          "ExtraFolioBalance": 24705.4655,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -6347,7 +6469,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1887.6086,
+          "ExtraFolioBalance": 2054.1623,
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
@@ -6996,13 +7118,6 @@
           "OccVac": 1
         },
         {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
@@ -7089,6 +7204,13 @@
         {
           "Room": "309",
           "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "312",
+          "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -7275,12 +7397,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 5,
-        "inhouse_count": 58,
+        "inhouse_count": 59,
         "noshow_count": 0,
-        "vacant_count": 50,
+        "vacant_count": 49,
         "roomchanges_count": 0,
-        "eod_room_count": 58,
-        "eod_pax_count": 103
+        "eod_room_count": 59,
+        "eod_pax_count": 104
       },
       "arrivals": [
         {
@@ -7658,7 +7780,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17904.52275,
+          "ExtraFolioBalance": 18626.25545,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -8015,7 +8137,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 23373.0359,
+          "ExtraFolioBalance": 24705.4655,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -8078,7 +8200,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1887.6086,
+          "ExtraFolioBalance": 2054.1623,
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
@@ -8527,6 +8649,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
+        },
+        {
           "Voucher": "3034498",
           "GroupNo": "",
           "RecId": 30723,
@@ -8743,13 +8886,6 @@
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9075,12 +9211,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 10,
-        "inhouse_count": 53,
+        "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 58,
+        "vacant_count": 57,
         "roomchanges_count": 0,
-        "eod_room_count": 53,
-        "eod_pax_count": 96
+        "eod_room_count": 54,
+        "eod_pax_count": 97
       },
       "arrivals": [
         {
@@ -9351,7 +9487,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17904.52275,
+          "ExtraFolioBalance": 18626.25545,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -9710,7 +9846,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 23373.0359,
+          "ExtraFolioBalance": 24705.4655,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -9773,7 +9909,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1887.6086,
+          "ExtraFolioBalance": 2054.1623,
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
@@ -10285,6 +10421,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
+        },
+        {
           "Voucher": "3034498",
           "GroupNo": "",
           "RecId": 30723,
@@ -10557,13 +10714,6 @@
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10931,12 +11081,12 @@
       "summary": {
         "arrivals_count": 8,
         "departures_count": 5,
-        "inhouse_count": 56,
+        "inhouse_count": 57,
         "noshow_count": 0,
-        "vacant_count": 61,
+        "vacant_count": 60,
         "roomchanges_count": 0,
-        "eod_room_count": 56,
-        "eod_pax_count": 102
+        "eod_room_count": 57,
+        "eod_pax_count": 103
       },
       "arrivals": [
         {
@@ -11482,7 +11632,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 23373.0359,
+          "ExtraFolioBalance": 24705.4655,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -11545,7 +11695,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1887.6086,
+          "ExtraFolioBalance": 2054.1623,
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
@@ -12057,6 +12207,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
+        },
+        {
           "Voucher": "3034498",
           "GroupNo": "",
           "RecId": 30723,
@@ -12433,13 +12604,6 @@
         {
           "Room": "109",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -12829,12 +12993,12 @@
       "summary": {
         "arrivals_count": 37,
         "departures_count": 19,
-        "inhouse_count": 74,
+        "inhouse_count": 75,
         "noshow_count": 0,
-        "vacant_count": 45,
+        "vacant_count": 44,
         "roomchanges_count": 0,
-        "eod_room_count": 74,
-        "eod_pax_count": 111
+        "eod_room_count": 75,
+        "eod_pax_count": 112
       },
       "arrivals": [
         {
@@ -13882,7 +14046,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 23373.0359,
+          "ExtraFolioBalance": 24705.4655,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -13945,7 +14109,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 1887.6086,
+          "ExtraFolioBalance": 2054.1623,
           "ResRemark": null,
           "FlightArrival": "21:30",
           "FlightDeparture": null,
@@ -14457,6 +14621,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
         },
         {
           "Voucher": "3034498",
@@ -15589,13 +15774,6 @@
           "OccVac": 1
         },
         {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "115",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
@@ -15896,12 +16074,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 14,
-        "inhouse_count": 66,
+        "inhouse_count": 67,
         "noshow_count": 0,
-        "vacant_count": 57,
+        "vacant_count": 56,
         "roomchanges_count": 0,
-        "eod_room_count": 66,
-        "eod_pax_count": 93
+        "eod_room_count": 67,
+        "eod_pax_count": 94
       },
       "arrivals": [
         {
@@ -16476,6 +16654,27 @@
           "AgencyCode": "NEILSON"
         },
         {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
+        },
+        {
           "Voucher": "3034498",
           "GroupNo": "",
           "RecId": 30723,
@@ -17727,13 +17926,6 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -18123,12 +18315,12 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 2,
-        "inhouse_count": 64,
+        "inhouse_count": 65,
         "noshow_count": 0,
-        "vacant_count": 59,
+        "vacant_count": 58,
         "roomchanges_count": 0,
-        "eod_room_count": 64,
-        "eod_pax_count": 88
+        "eod_room_count": 65,
+        "eod_pax_count": 89
       },
       "arrivals": [],
       "departures": [
@@ -18280,6 +18472,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
         },
         {
           "Voucher": "3034498",
@@ -19533,13 +19746,6 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "114",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -19942,7 +20148,7 @@
     "2026-10-27": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 8,
+        "departures_count": 9,
         "inhouse_count": 56,
         "noshow_count": 0,
         "vacant_count": 65,
@@ -20056,6 +20262,27 @@
           "FlightDeparture": null,
           "Status": 1,
           "AgencyCode": "NEILSON"
+        },
+        {
+          "Voucher": "",
+          "GroupNo": "",
+          "RecId": 32689,
+          "FirstName1": "NANCY",
+          "LastName1": "FRENCH",
+          "CheckinDate": "2026-10-20",
+          "CheckOutDate": "2026-10-27",
+          "Room": "114",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 4,
+          "ExtraFolioBalance": 46064.06,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 1,
+          "AgencyCode": "MUNFERIT GBP"
         },
         {
           "Voucher": "3034498",
@@ -21339,7 +21566,7 @@
         {
           "Room": "114",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
