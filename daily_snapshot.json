@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-20 09:00:04",
+  "sync_time": "2026-10-20 10:00:04",
   "report_date": "2026-10-20",
   "summary": {
     "arrivals_count": 5,
-    "departures_count": 11,
-    "inhouse_count": 64,
+    "departures_count": 8,
+    "inhouse_count": 61,
     "noshow_count": 5,
-    "vacant_count": 40,
+    "vacant_count": 42,
     "roomchanges_count": 0,
     "eod_room_count": 58,
     "eod_pax_count": 105,
@@ -122,48 +122,6 @@
     ],
     "departures": [
       {
-        "Voucher": "347573",
-        "GroupNo": "",
-        "RecId": 28632,
-        "FirstName1": "LESLEY MARGUERITE",
-        "LastName1": "AINSCOUGH",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-20",
-        "Room": "122",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1101,
-        "ExtraFolioBalance": 24715.71375,
-        "ResRemark": "",
-        "FlightArrival": "20:30",
-        "FlightDeparture": "17:30",
-        "Status": 2,
-        "AgencyCode": "DT- KUONI UK"
-      },
-      {
-        "Voucher": "8790427",
-        "GroupNo": "",
-        "RecId": 30898,
-        "FirstName1": "DAVID THOMAS",
-        "LastName1": "KEMBLE",
-        "CheckinDate": "2026-10-15",
-        "CheckOutDate": "2026-10-20",
-        "Room": "327",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 9,
-        "ExtraFolioBalance": 9990.7484,
-        "ResRemark": "",
-        "FlightArrival": "13:30",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EASYJET"
-      },
-      {
         "Voucher": "3036724",
         "GroupNo": "",
         "RecId": 30958,
@@ -330,73 +288,10 @@
         "FlightDeparture": "20:25",
         "Status": 2,
         "AgencyCode": "EASYJET"
-      },
-      {
-        "Voucher": "32347",
-        "GroupNo": "",
-        "RecId": 32347,
-        "FirstName1": "NICU",
-        "LastName1": "GAVRILA",
-        "CheckinDate": "2026-09-25",
-        "CheckOutDate": "2026-10-20",
-        "Room": "703",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       }
     ],
     "inhouse": [
       {
-        "Voucher": "347573",
-        "GroupNo": "",
-        "RecId": 28632,
-        "FirstName1": "LESLEY MARGUERITE",
-        "LastName1": "AINSCOUGH",
-        "CheckinDate": "2026-10-13",
-        "CheckOutDate": "2026-10-20",
-        "Room": "122",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1101,
-        "ExtraFolioBalance": 24715.71375,
-        "ResRemark": "",
-        "FlightArrival": "20:30",
-        "FlightDeparture": "17:30",
-        "Status": 2,
-        "AgencyCode": "DT- KUONI UK"
-      },
-      {
-        "Voucher": "8790427",
-        "GroupNo": "",
-        "RecId": 30898,
-        "FirstName1": "DAVID THOMAS",
-        "LastName1": "KEMBLE",
-        "CheckinDate": "2026-10-15",
-        "CheckOutDate": "2026-10-20",
-        "Room": "327",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 9,
-        "ExtraFolioBalance": 9990.7484,
-        "ResRemark": "",
-        "FlightArrival": "13:30",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EASYJET"
-      },
-      {
         "Voucher": "3036724",
         "GroupNo": "",
         "RecId": 30958,
@@ -563,27 +458,6 @@
         "FlightDeparture": "20:25",
         "Status": 2,
         "AgencyCode": "EASYJET"
-      },
-      {
-        "Voucher": "32347",
-        "GroupNo": "",
-        "RecId": 32347,
-        "FirstName1": "NICU",
-        "LastName1": "GAVRILA",
-        "CheckinDate": "2026-09-25",
-        "CheckOutDate": "2026-10-20",
-        "Room": "703",
-        "RoomType": "STD SEA",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "F48228",
@@ -1810,7 +1684,7 @@
       {
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1853,6 +1727,13 @@
         "Room": "118",
         "RoomTypeCode": "SUIT",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "122",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2086,6 +1967,13 @@
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
+      },
+      {
+        "Room": "703",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
       }
     ],
     "roomchanges": [],
@@ -2094,7 +1982,7 @@
       {
         "Room": "101",
         "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3497,48 +3385,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "347573",
-          "GroupNo": "",
-          "RecId": 28632,
-          "FirstName1": "LESLEY MARGUERITE",
-          "LastName1": "AINSCOUGH",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "122",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1101,
-          "ExtraFolioBalance": 24715.71375,
-          "ResRemark": "",
-          "FlightArrival": "20:30",
-          "FlightDeparture": "17:30",
-          "Status": 2,
-          "AgencyCode": "DT- KUONI UK"
-        },
-        {
-          "Voucher": "8790427",
-          "GroupNo": "",
-          "RecId": 30898,
-          "FirstName1": "DAVID THOMAS",
-          "LastName1": "KEMBLE",
-          "CheckinDate": "2026-10-15",
-          "CheckOutDate": "2026-10-20",
-          "Room": "327",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 9990.7484,
-          "ResRemark": "",
-          "FlightArrival": "13:30",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "3036724",
           "GroupNo": "",
           "RecId": 30958,
@@ -3707,6 +3553,48 @@
           "AgencyCode": "EASYJET"
         },
         {
+          "Voucher": "347573",
+          "GroupNo": "",
+          "RecId": 28632,
+          "FirstName1": "LESLEY MARGUERITE",
+          "LastName1": "AINSCOUGH",
+          "CheckinDate": "2026-10-13",
+          "CheckOutDate": "2026-10-20",
+          "Room": "122",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1101,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "20:30",
+          "FlightDeparture": "17:30",
+          "Status": 3,
+          "AgencyCode": "DT- KUONI UK"
+        },
+        {
+          "Voucher": "8790427",
+          "GroupNo": "",
+          "RecId": 30898,
+          "FirstName1": "DAVID THOMAS",
+          "LastName1": "KEMBLE",
+          "CheckinDate": "2026-10-15",
+          "CheckOutDate": "2026-10-20",
+          "Room": "327",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 9,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "13:30",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "EASYJET"
+        },
+        {
           "Voucher": "32347",
           "GroupNo": "",
           "RecId": 32347,
@@ -3724,7 +3612,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "COMP"
         },
         {
@@ -5183,7 +5071,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5480,10 +5368,10 @@
     "2026-10-20": {
       "summary": {
         "arrivals_count": 5,
-        "departures_count": 11,
-        "inhouse_count": 64,
+        "departures_count": 8,
+        "inhouse_count": 61,
         "noshow_count": 5,
-        "vacant_count": 40,
+        "vacant_count": 42,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 105
@@ -5597,48 +5485,6 @@
       ],
       "departures": [
         {
-          "Voucher": "347573",
-          "GroupNo": "",
-          "RecId": 28632,
-          "FirstName1": "LESLEY MARGUERITE",
-          "LastName1": "AINSCOUGH",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "122",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1101,
-          "ExtraFolioBalance": 24715.71375,
-          "ResRemark": "",
-          "FlightArrival": "20:30",
-          "FlightDeparture": "17:30",
-          "Status": 2,
-          "AgencyCode": "DT- KUONI UK"
-        },
-        {
-          "Voucher": "8790427",
-          "GroupNo": "",
-          "RecId": 30898,
-          "FirstName1": "DAVID THOMAS",
-          "LastName1": "KEMBLE",
-          "CheckinDate": "2026-10-15",
-          "CheckOutDate": "2026-10-20",
-          "Room": "327",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 9990.7484,
-          "ResRemark": "",
-          "FlightArrival": "13:30",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "3036724",
           "GroupNo": "",
           "RecId": 30958,
@@ -5805,73 +5651,10 @@
           "FlightDeparture": "20:25",
           "Status": 2,
           "AgencyCode": "EASYJET"
-        },
-        {
-          "Voucher": "32347",
-          "GroupNo": "",
-          "RecId": 32347,
-          "FirstName1": "NICU",
-          "LastName1": "GAVRILA",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-10-20",
-          "Room": "703",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [
         {
-          "Voucher": "347573",
-          "GroupNo": "",
-          "RecId": 28632,
-          "FirstName1": "LESLEY MARGUERITE",
-          "LastName1": "AINSCOUGH",
-          "CheckinDate": "2026-10-13",
-          "CheckOutDate": "2026-10-20",
-          "Room": "122",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1101,
-          "ExtraFolioBalance": 24715.71375,
-          "ResRemark": "",
-          "FlightArrival": "20:30",
-          "FlightDeparture": "17:30",
-          "Status": 2,
-          "AgencyCode": "DT- KUONI UK"
-        },
-        {
-          "Voucher": "8790427",
-          "GroupNo": "",
-          "RecId": 30898,
-          "FirstName1": "DAVID THOMAS",
-          "LastName1": "KEMBLE",
-          "CheckinDate": "2026-10-15",
-          "CheckOutDate": "2026-10-20",
-          "Room": "327",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 9,
-          "ExtraFolioBalance": 9990.7484,
-          "ResRemark": "",
-          "FlightArrival": "13:30",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EASYJET"
-        },
-        {
           "Voucher": "3036724",
           "GroupNo": "",
           "RecId": 30958,
@@ -6038,27 +5821,6 @@
           "FlightDeparture": "20:25",
           "Status": 2,
           "AgencyCode": "EASYJET"
-        },
-        {
-          "Voucher": "32347",
-          "GroupNo": "",
-          "RecId": 32347,
-          "FirstName1": "NICU",
-          "LastName1": "GAVRILA",
-          "CheckinDate": "2026-09-25",
-          "CheckOutDate": "2026-10-20",
-          "Room": "703",
-          "RoomType": "STD SEA",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "F48228",
@@ -7285,7 +7047,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7328,6 +7090,13 @@
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "122",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -7557,6 +7326,13 @@
         },
         {
           "Room": "702",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "703",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -9015,7 +8791,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10815,7 +10591,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12692,7 +12468,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15871,7 +15647,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18014,7 +17790,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19820,7 +19596,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21598,7 +21374,7 @@
         {
           "Room": "101",
           "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
