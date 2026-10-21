@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-21 09:00:05",
+  "sync_time": "2026-10-21 10:00:05",
   "report_date": "2026-10-21",
   "summary": {
     "arrivals_count": 6,
-    "departures_count": 4,
-    "inhouse_count": 58,
+    "departures_count": 2,
+    "inhouse_count": 57,
     "noshow_count": 7,
-    "vacant_count": 42,
+    "vacant_count": 43,
     "roomchanges_count": 0,
-    "eod_room_count": 60,
-    "eod_pax_count": 106,
+    "eod_room_count": 61,
+    "eod_pax_count": 108,
     "hk_count": 111
   },
   "data": {
@@ -143,27 +143,6 @@
     ],
     "departures": [
       {
-        "Voucher": "3047449",
-        "GroupNo": "",
-        "RecId": 32096,
-        "FirstName1": "JONATHAN",
-        "LastName1": "AVERNS",
-        "CheckinDate": "2026-10-14",
-        "CheckOutDate": "2026-10-21",
-        "Room": "324",
-        "RoomType": "STD-SV",
-        "Board": "HB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 5456.1672,
-        "ResRemark": null,
-        "FlightArrival": "20:00",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
         "Voucher": "3048840",
         "GroupNo": "",
         "RecId": 32193,
@@ -204,52 +183,10 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "ADDAJET"
-      },
-      {
-        "Voucher": "32673",
-        "GroupNo": "",
-        "RecId": 32673,
-        "FirstName1": "JAN",
-        "LastName1": "NIELSEN",
-        "CheckinDate": "2026-10-19",
-        "CheckOutDate": "2026-10-21",
-        "Room": "109",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 27983.34,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       }
     ],
     "inhouse": [
       {
-        "Voucher": "3047449",
-        "GroupNo": "",
-        "RecId": 32096,
-        "FirstName1": "JONATHAN",
-        "LastName1": "AVERNS",
-        "CheckinDate": "2026-10-14",
-        "CheckOutDate": "2026-10-21",
-        "Room": "324",
-        "RoomType": "STD-SV",
-        "Board": "HB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 5456.1672,
-        "ResRemark": null,
-        "FlightArrival": "20:00",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
-      {
         "Voucher": "3048840",
         "GroupNo": "",
         "RecId": 32193,
@@ -290,27 +227,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "ADDAJET"
-      },
-      {
-        "Voucher": "32673",
-        "GroupNo": "",
-        "RecId": 32673,
-        "FirstName1": "JAN",
-        "LastName1": "NIELSEN",
-        "CheckinDate": "2026-10-19",
-        "CheckOutDate": "2026-10-21",
-        "Room": "109",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 27983.34,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "1319022630",
@@ -479,6 +395,27 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "COMP"
+      },
+      {
+        "Voucher": "32673",
+        "GroupNo": "",
+        "RecId": 32673,
+        "FirstName1": "JAN",
+        "LastName1": "NIELSEN",
+        "CheckinDate": "2026-10-19",
+        "CheckOutDate": "2026-10-22",
+        "Room": "109",
+        "RoomType": "STD SEA",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 3,
+        "ExtraFolioBalance": 16324.581,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "3042822",
@@ -1705,6 +1642,13 @@
       {
         "Room": "309",
         "RoomTypeCode": "SUIT",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "324",
+        "RoomTypeCode": "STD-SV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3322,27 +3266,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "3047449",
-          "GroupNo": "",
-          "RecId": 32096,
-          "FirstName1": "JONATHAN",
-          "LastName1": "AVERNS",
-          "CheckinDate": "2026-10-14",
-          "CheckOutDate": "2026-10-21",
-          "Room": "324",
-          "RoomType": "STD-SV",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.1672,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "3048840",
           "GroupNo": "",
           "RecId": 32193,
@@ -3385,27 +3308,6 @@
           "AgencyCode": "ADDAJET"
         },
         {
-          "Voucher": "32673",
-          "GroupNo": "",
-          "RecId": 32673,
-          "FirstName1": "JAN",
-          "LastName1": "NIELSEN",
-          "CheckinDate": "2026-10-19",
-          "CheckOutDate": "2026-10-21",
-          "Room": "109",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 27983.34,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "F48228",
           "GroupNo": "",
           "RecId": 31861,
@@ -3425,6 +3327,27 @@
           "FlightDeparture": null,
           "Status": 3,
           "AgencyCode": "TUI NETHERLANDS"
+        },
+        {
+          "Voucher": "3047449",
+          "GroupNo": "",
+          "RecId": 32096,
+          "FirstName1": "JONATHAN",
+          "LastName1": "AVERNS",
+          "CheckinDate": "2026-10-14",
+          "CheckOutDate": "2026-10-21",
+          "Room": "324",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:00",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "32691",
@@ -3761,6 +3684,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32673",
+          "GroupNo": "",
+          "RecId": 32673,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-19",
+          "CheckOutDate": "2026-10-22",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 16324.581,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "3042822",
@@ -5312,13 +5256,13 @@
     "2026-10-21": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 4,
-        "inhouse_count": 58,
+        "departures_count": 2,
+        "inhouse_count": 57,
         "noshow_count": 7,
-        "vacant_count": 42,
+        "vacant_count": 43,
         "roomchanges_count": 0,
-        "eod_room_count": 60,
-        "eod_pax_count": 106
+        "eod_room_count": 61,
+        "eod_pax_count": 108
       },
       "arrivals": [
         {
@@ -5450,27 +5394,6 @@
       ],
       "departures": [
         {
-          "Voucher": "3047449",
-          "GroupNo": "",
-          "RecId": 32096,
-          "FirstName1": "JONATHAN",
-          "LastName1": "AVERNS",
-          "CheckinDate": "2026-10-14",
-          "CheckOutDate": "2026-10-21",
-          "Room": "324",
-          "RoomType": "STD-SV",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.1672,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "3048840",
           "GroupNo": "",
           "RecId": 32193,
@@ -5511,52 +5434,10 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
-        },
-        {
-          "Voucher": "32673",
-          "GroupNo": "",
-          "RecId": 32673,
-          "FirstName1": "JAN",
-          "LastName1": "NIELSEN",
-          "CheckinDate": "2026-10-19",
-          "CheckOutDate": "2026-10-21",
-          "Room": "109",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 27983.34,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         }
       ],
       "inhouse": [
         {
-          "Voucher": "3047449",
-          "GroupNo": "",
-          "RecId": 32096,
-          "FirstName1": "JONATHAN",
-          "LastName1": "AVERNS",
-          "CheckinDate": "2026-10-14",
-          "CheckOutDate": "2026-10-21",
-          "Room": "324",
-          "RoomType": "STD-SV",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 5456.1672,
-          "ResRemark": null,
-          "FlightArrival": "20:00",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "3048840",
           "GroupNo": "",
           "RecId": 32193,
@@ -5597,27 +5478,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "ADDAJET"
-        },
-        {
-          "Voucher": "32673",
-          "GroupNo": "",
-          "RecId": 32673,
-          "FirstName1": "JAN",
-          "LastName1": "NIELSEN",
-          "CheckinDate": "2026-10-19",
-          "CheckOutDate": "2026-10-21",
-          "Room": "109",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 27983.34,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "1319022630",
@@ -5786,6 +5646,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32673",
+          "GroupNo": "",
+          "RecId": 32673,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-19",
+          "CheckOutDate": "2026-10-22",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 16324.581,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "3042822",
@@ -7017,6 +6898,13 @@
           "OccVac": 1
         },
         {
+          "Room": "324",
+          "RoomTypeCode": "STD-SV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "325",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 1,
@@ -7204,7 +7092,7 @@
     "2026-10-22": {
       "summary": {
         "arrivals_count": 5,
-        "departures_count": 10,
+        "departures_count": 11,
         "inhouse_count": 55,
         "noshow_count": 0,
         "vacant_count": 54,
@@ -7529,6 +7417,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32673",
+          "GroupNo": "",
+          "RecId": 32673,
+          "FirstName1": "JAN",
+          "LastName1": "NIELSEN",
+          "CheckinDate": "2026-10-19",
+          "CheckOutDate": "2026-10-22",
+          "Room": "109",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 16324.581,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
         }
       ],
       "inhouse": [
