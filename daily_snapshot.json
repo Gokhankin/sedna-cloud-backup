@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-21 11:00:04",
+  "sync_time": "2026-10-21 12:00:05",
   "report_date": "2026-10-21",
   "summary": {
     "arrivals_count": 6,
     "departures_count": 1,
-    "inhouse_count": 56,
+    "inhouse_count": 55,
     "noshow_count": 7,
-    "vacant_count": 44,
+    "vacant_count": 45,
     "roomchanges_count": 0,
-    "eod_room_count": 61,
-    "eod_pax_count": 108,
+    "eod_room_count": 60,
+    "eod_pax_count": 105,
     "hk_count": 111
   },
   "data": {
@@ -263,7 +263,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 18182.11225,
+        "ExtraFolioBalance": 18348.66595,
         "ResRemark": "",
         "FlightArrival": "21:35",
         "FlightDeparture": "14:05",
@@ -683,7 +683,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 0.0,
+        "ExtraFolioBalance": 499.6611,
         "ResRemark": null,
         "FlightArrival": "19:55",
         "FlightDeparture": null,
@@ -809,7 +809,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 12,
-        "ExtraFolioBalance": 17932.2817,
+        "ExtraFolioBalance": 19070.39865,
         "ResRemark": "",
         "FlightArrival": "20:15",
         "FlightDeparture": "21:10",
@@ -914,7 +914,7 @@
         "Pax": 3,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 222.0716,
+        "ExtraFolioBalance": 666.2148,
         "ResRemark": null,
         "FlightArrival": "20:00",
         "FlightDeparture": null,
@@ -977,7 +977,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 2442.7876,
+        "ExtraFolioBalance": 2775.895,
         "ResRemark": null,
         "FlightArrival": "21:25",
         "FlightDeparture": null,
@@ -1019,7 +1019,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 12824.6349,
+        "ExtraFolioBalance": 13463.09075,
         "ResRemark": null,
         "FlightArrival": "21:45",
         "FlightDeparture": null,
@@ -1130,27 +1130,6 @@
         "FlightDeparture": "12:30",
         "Status": 2,
         "AgencyCode": "TUI NETHERLANDS"
-      },
-      {
-        "Voucher": "32573",
-        "GroupNo": "",
-        "RecId": 32573,
-        "FirstName1": "ISMAIL",
-        "LastName1": "KARAKOC",
-        "CheckinDate": "2026-10-12",
-        "CheckOutDate": "2026-10-26",
-        "Room": "419",
-        "RoomType": "CLUB LV",
-        "Board": "BB",
-        "Pax": 3,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       },
       {
         "Voucher": "3034498",
@@ -1572,7 +1551,7 @@
       {
         "Room": "133",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1600,7 +1579,7 @@
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -1747,6 +1726,13 @@
       {
         "Room": "418",
         "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "419",
+        "RoomTypeCode": "CLUB LV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1912,7 +1898,7 @@
       {
         "Room": "116",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2031,7 +2017,7 @@
       {
         "Room": "133",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2262,7 +2248,7 @@
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3315,6 +3301,27 @@
           "AgencyCode": "ADDAJET"
         },
         {
+          "Voucher": "32573",
+          "GroupNo": "",
+          "RecId": 32573,
+          "FirstName1": "ISMAIL",
+          "LastName1": "KARAKOC",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-21",
+          "Room": "419",
+          "RoomType": "CLUB LV",
+          "Board": "BB",
+          "Pax": 3,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "32691",
           "GroupNo": "",
           "RecId": 32691,
@@ -3559,7 +3566,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 18182.11225,
+          "ExtraFolioBalance": 18348.66595,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -3979,7 +3986,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 499.6611,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -4105,7 +4112,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17932.2817,
+          "ExtraFolioBalance": 19070.39865,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -4210,7 +4217,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 222.0716,
+          "ExtraFolioBalance": 666.2148,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -4273,7 +4280,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2442.7876,
+          "ExtraFolioBalance": 2775.895,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -4315,7 +4322,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 12824.6349,
+          "ExtraFolioBalance": 13463.09075,
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
@@ -4426,27 +4433,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "3034498",
@@ -4938,7 +4924,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -4994,7 +4980,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5036,7 +5022,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -5222,12 +5208,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 1,
-        "inhouse_count": 56,
+        "inhouse_count": 55,
         "noshow_count": 7,
-        "vacant_count": 44,
+        "vacant_count": 45,
         "roomchanges_count": 0,
-        "eod_room_count": 61,
-        "eod_pax_count": 108
+        "eod_room_count": 60,
+        "eod_pax_count": 105
       },
       "arrivals": [
         {
@@ -5479,7 +5465,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 18182.11225,
+          "ExtraFolioBalance": 18348.66595,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -5899,7 +5885,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 499.6611,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -6025,7 +6011,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17932.2817,
+          "ExtraFolioBalance": 19070.39865,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -6130,7 +6116,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 222.0716,
+          "ExtraFolioBalance": 666.2148,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -6193,7 +6179,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2442.7876,
+          "ExtraFolioBalance": 2775.895,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -6235,7 +6221,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 12824.6349,
+          "ExtraFolioBalance": 13463.09075,
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
@@ -6346,27 +6332,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "3034498",
@@ -6788,7 +6753,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6816,7 +6781,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6968,6 +6933,13 @@
           "OccVac": 1
         },
         {
+          "Room": "419",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "420",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -7023,12 +6995,12 @@
       "summary": {
         "arrivals_count": 5,
         "departures_count": 11,
-        "inhouse_count": 55,
+        "inhouse_count": 54,
         "noshow_count": 0,
-        "vacant_count": 51,
+        "vacant_count": 52,
         "roomchanges_count": 0,
-        "eod_room_count": 55,
-        "eod_pax_count": 99
+        "eod_room_count": 54,
+        "eod_pax_count": 96
       },
       "arrivals": [
         {
@@ -7257,7 +7229,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 18182.11225,
+          "ExtraFolioBalance": 18348.66595,
           "ResRemark": "",
           "FlightArrival": "21:35",
           "FlightDeparture": "14:05",
@@ -7679,7 +7651,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 499.6611,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -7805,7 +7777,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17932.2817,
+          "ExtraFolioBalance": 19070.39865,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -7910,7 +7882,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 222.0716,
+          "ExtraFolioBalance": 666.2148,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -7973,7 +7945,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2442.7876,
+          "ExtraFolioBalance": 2775.895,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -8015,7 +7987,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 12824.6349,
+          "ExtraFolioBalance": 13463.09075,
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
@@ -8126,27 +8098,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32208",
@@ -8574,7 +8525,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8630,7 +8581,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8686,7 +8637,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8838,6 +8789,13 @@
           "OccVac": 1
         },
         {
+          "Room": "419",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "420",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -8893,12 +8851,12 @@
       "summary": {
         "arrivals_count": 8,
         "departures_count": 5,
-        "inhouse_count": 58,
+        "inhouse_count": 57,
         "noshow_count": 0,
-        "vacant_count": 48,
+        "vacant_count": 49,
         "roomchanges_count": 0,
-        "eod_room_count": 58,
-        "eod_pax_count": 105
+        "eod_room_count": 57,
+        "eod_pax_count": 102
       },
       "arrivals": [
         {
@@ -9444,7 +9402,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 499.6611,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -9570,7 +9528,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17932.2817,
+          "ExtraFolioBalance": 19070.39865,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -9675,7 +9633,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 222.0716,
+          "ExtraFolioBalance": 666.2148,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -9738,7 +9696,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2442.7876,
+          "ExtraFolioBalance": 2775.895,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -9780,7 +9738,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 12824.6349,
+          "ExtraFolioBalance": 13463.09075,
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
@@ -9891,27 +9849,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32208",
@@ -10423,7 +10360,7 @@
         {
           "Room": "116",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10500,7 +10437,7 @@
         {
           "Room": "133",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10549,7 +10486,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10687,6 +10624,13 @@
           "OccVac": 1
         },
         {
+          "Room": "419",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "420",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -10742,12 +10686,12 @@
       "summary": {
         "arrivals_count": 37,
         "departures_count": 19,
-        "inhouse_count": 76,
+        "inhouse_count": 75,
         "noshow_count": 0,
-        "vacant_count": 30,
+        "vacant_count": 31,
         "roomchanges_count": 0,
-        "eod_room_count": 76,
-        "eod_pax_count": 114
+        "eod_room_count": 75,
+        "eod_pax_count": 111
       },
       "arrivals": [
         {
@@ -11795,7 +11739,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 0.0,
+          "ExtraFolioBalance": 499.6611,
           "ResRemark": null,
           "FlightArrival": "19:55",
           "FlightDeparture": null,
@@ -11921,7 +11865,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 12,
-          "ExtraFolioBalance": 17932.2817,
+          "ExtraFolioBalance": 19070.39865,
           "ResRemark": "",
           "FlightArrival": "20:15",
           "FlightDeparture": "21:10",
@@ -12028,7 +11972,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 222.0716,
+          "ExtraFolioBalance": 666.2148,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -12091,7 +12035,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2442.7876,
+          "ExtraFolioBalance": 2775.895,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -12133,7 +12077,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 12824.6349,
+          "ExtraFolioBalance": 13463.09075,
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
@@ -12244,27 +12188,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32208",
@@ -13574,7 +13497,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13691,6 +13614,13 @@
           "OccVac": 1
         },
         {
+          "Room": "419",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "420",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -13746,12 +13676,12 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 14,
-        "inhouse_count": 68,
+        "inhouse_count": 67,
         "noshow_count": 0,
-        "vacant_count": 42,
+        "vacant_count": 43,
         "roomchanges_count": 0,
-        "eod_room_count": 68,
-        "eod_pax_count": 96
+        "eod_room_count": 67,
+        "eod_pax_count": 93
       },
       "arrivals": [
         {
@@ -13980,7 +13910,7 @@
           "Pax": 3,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 222.0716,
+          "ExtraFolioBalance": 666.2148,
           "ResRemark": null,
           "FlightArrival": "20:00",
           "FlightDeparture": null,
@@ -14043,7 +13973,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 2442.7876,
+          "ExtraFolioBalance": 2775.895,
           "ResRemark": null,
           "FlightArrival": "21:25",
           "FlightDeparture": null,
@@ -14085,7 +14015,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 12824.6349,
+          "ExtraFolioBalance": 13463.09075,
           "ResRemark": null,
           "FlightArrival": "21:45",
           "FlightDeparture": null,
@@ -14198,27 +14128,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         },
         {
           "Voucher": "32208",
@@ -15710,7 +15619,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15855,6 +15764,13 @@
           "OccVac": 1
         },
         {
+          "Room": "419",
+          "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "420",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -15909,7 +15825,7 @@
     "2026-10-26": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 2,
+        "departures_count": 1,
         "inhouse_count": 66,
         "noshow_count": 0,
         "vacant_count": 44,
@@ -15939,27 +15855,6 @@
           "FlightDeparture": "12:30",
           "Status": 2,
           "AgencyCode": "TUI NETHERLANDS"
-        },
-        {
-          "Voucher": "32573",
-          "GroupNo": "",
-          "RecId": 32573,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-26",
-          "Room": "419",
-          "RoomType": "CLUB LV",
-          "Board": "BB",
-          "Pax": 3,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [
@@ -17460,7 +17355,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19231,7 +19126,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20848,7 +20743,7 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
