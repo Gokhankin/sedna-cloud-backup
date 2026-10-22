@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-22 04:00:05",
+  "sync_time": "2026-10-22 05:00:05",
   "report_date": "2026-10-22",
   "summary": {
     "arrivals_count": 6,
     "departures_count": 15,
-    "inhouse_count": 64,
+    "inhouse_count": 65,
     "noshow_count": 6,
-    "vacant_count": 44,
+    "vacant_count": 43,
     "roomchanges_count": 0,
     "eod_room_count": 56,
     "eod_pax_count": 100,
@@ -1762,6 +1762,27 @@
         "AgencyCode": "DIANA GBP"
       },
       {
+        "Voucher": "32690",
+        "GroupNo": "",
+        "RecId": 32690,
+        "FirstName1": "ALLA",
+        "LastName1": "WILKEN",
+        "CheckinDate": "2026-10-21",
+        "CheckOutDate": "2026-10-29",
+        "Room": "107",
+        "RoomType": "STD-LVL",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 3,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": "GECE 3 GB OTELE",
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "MUNFERIT EURO"
+      },
+      {
         "Voucher": "31915",
         "GroupNo": "",
         "RecId": 31915,
@@ -1933,13 +1954,6 @@
       }
     ],
     "vacant": [
-      {
-        "Room": "107",
-        "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
       {
         "Room": "108",
         "RoomTypeCode": "STD SEA L",
@@ -2255,7 +2269,7 @@
       {
         "Room": "102",
         "RoomTypeCode": "CLUB LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2290,7 +2304,7 @@
       {
         "Room": "107",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2640,14 +2654,14 @@
       {
         "Room": "312",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "313",
         "RoomTypeCode": "CLUB SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2696,14 +2710,14 @@
       {
         "Room": "320",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2724,7 +2738,7 @@
       {
         "Room": "324",
         "RoomTypeCode": "STD-SV",
-        "DirtyClean": 0,
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3261,11 +3275,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         }
       ],
@@ -4861,11 +4875,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -5530,9 +5544,9 @@
       "summary": {
         "arrivals_count": 6,
         "departures_count": 15,
-        "inhouse_count": 64,
+        "inhouse_count": 65,
         "noshow_count": 6,
-        "vacant_count": 44,
+        "vacant_count": 43,
         "roomchanges_count": 0,
         "eod_room_count": 56,
         "eod_pax_count": 100
@@ -7286,6 +7300,27 @@
           "AgencyCode": "DIANA GBP"
         },
         {
+          "Voucher": "32690",
+          "GroupNo": "",
+          "RecId": 32690,
+          "FirstName1": "ALLA",
+          "LastName1": "WILKEN",
+          "CheckinDate": "2026-10-21",
+          "CheckOutDate": "2026-10-29",
+          "Room": "107",
+          "RoomType": "STD-LVL",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "GECE 3 GB OTELE",
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
+        },
+        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -7457,13 +7492,6 @@
         }
       ],
       "vacant": [
-        {
-          "Room": "107",
-          "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
         {
           "Room": "108",
           "RoomTypeCode": "STD SEA L",
@@ -9142,11 +9170,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -9449,7 +9477,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11488,11 +11516,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -12467,7 +12495,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -13435,11 +13463,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -14596,7 +14624,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14617,7 +14645,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15171,11 +15199,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -16339,7 +16367,7 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16360,7 +16388,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -16893,11 +16921,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -18110,14 +18138,14 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18138,7 +18166,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -18482,11 +18510,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -19545,7 +19573,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19706,14 +19734,14 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19727,14 +19755,14 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -19755,7 +19783,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -20013,11 +20041,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 3,
-          "ExtraFolioBalance": -53298.336,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "GECE 3 GB OTELE",
           "FlightDeparture": null,
-          "Status": 1,
+          "Status": 2,
           "AgencyCode": "MUNFERIT EURO"
         }
       ],
@@ -21078,7 +21106,7 @@
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21092,7 +21120,7 @@
         {
           "Room": "107",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21246,14 +21274,14 @@
         {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21274,14 +21302,14 @@
         {
           "Room": "320",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -21302,7 +21330,7 @@
         {
           "Room": "324",
           "RoomTypeCode": "STD-SV",
-          "DirtyClean": 0,
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
