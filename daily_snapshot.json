@@ -1,10 +1,10 @@
 {
-  "sync_time": "2026-10-24 08:00:04",
+  "sync_time": "2026-10-24 09:00:04",
   "report_date": "2026-10-24",
   "summary": {
     "arrivals_count": 37,
-    "departures_count": 21,
-    "inhouse_count": 60,
+    "departures_count": 20,
+    "inhouse_count": 59,
     "noshow_count": 8,
     "vacant_count": 24,
     "roomchanges_count": 0,
@@ -794,27 +794,6 @@
     ],
     "departures": [
       {
-        "Voucher": "QV3Y3Y",
-        "GroupNo": "",
-        "RecId": 28676,
-        "FirstName1": "JANET MARIE",
-        "LastName1": "FLYNN",
-        "CheckinDate": "2026-10-12",
-        "CheckOutDate": "2026-10-24",
-        "Room": "205",
-        "RoomType": "STD SEA L",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 13,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "23:10",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "JET2"
-      },
-      {
         "Voucher": "3011060",
         "GroupNo": "",
         "RecId": 28853,
@@ -1236,27 +1215,6 @@
       }
     ],
     "inhouse": [
-      {
-        "Voucher": "QV3Y3Y",
-        "GroupNo": "",
-        "RecId": 28676,
-        "FirstName1": "JANET MARIE",
-        "LastName1": "FLYNN",
-        "CheckinDate": "2026-10-12",
-        "CheckOutDate": "2026-10-24",
-        "Room": "205",
-        "RoomType": "STD SEA L",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 13,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "23:10",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "JET2"
-      },
       {
         "Voucher": "3011060",
         "GroupNo": "",
@@ -4246,27 +4204,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "QV3Y3Y",
-          "GroupNo": "",
-          "RecId": 28676,
-          "FirstName1": "JANET MARIE",
-          "LastName1": "FLYNN",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-24",
-          "Room": "205",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 13,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "23:10",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "JET2"
-        },
-        {
           "Voucher": "3011060",
           "GroupNo": "",
           "RecId": 28853,
@@ -4685,6 +4622,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "QV3Y3Y",
+          "GroupNo": "",
+          "RecId": 28676,
+          "FirstName1": "JANET MARIE",
+          "LastName1": "FLYNN",
+          "CheckinDate": "2026-10-12",
+          "CheckOutDate": "2026-10-24",
+          "Room": "205",
+          "RoomType": "STD SEA L",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 13,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "23:10",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "JET2"
         },
         {
           "Voucher": "NOSHOW",
@@ -6299,8 +6257,8 @@
     "2026-10-24": {
       "summary": {
         "arrivals_count": 37,
-        "departures_count": 21,
-        "inhouse_count": 60,
+        "departures_count": 20,
+        "inhouse_count": 59,
         "noshow_count": 8,
         "vacant_count": 24,
         "roomchanges_count": 0,
@@ -7088,27 +7046,6 @@
       ],
       "departures": [
         {
-          "Voucher": "QV3Y3Y",
-          "GroupNo": "",
-          "RecId": 28676,
-          "FirstName1": "JANET MARIE",
-          "LastName1": "FLYNN",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-24",
-          "Room": "205",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 13,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "23:10",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "JET2"
-        },
-        {
           "Voucher": "3011060",
           "GroupNo": "",
           "RecId": 28853,
@@ -7530,27 +7467,6 @@
         }
       ],
       "inhouse": [
-        {
-          "Voucher": "QV3Y3Y",
-          "GroupNo": "",
-          "RecId": 28676,
-          "FirstName1": "JANET MARIE",
-          "LastName1": "FLYNN",
-          "CheckinDate": "2026-10-12",
-          "CheckOutDate": "2026-10-24",
-          "Room": "205",
-          "RoomType": "STD SEA L",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 13,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "23:10",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "JET2"
-        },
         {
           "Voucher": "3011060",
           "GroupNo": "",
