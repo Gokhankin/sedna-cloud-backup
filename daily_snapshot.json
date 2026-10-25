@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-25 08:00:08",
+  "sync_time": "2026-10-25 09:00:04",
   "report_date": "2026-10-25",
   "summary": {
     "arrivals_count": 6,
-    "departures_count": 18,
-    "inhouse_count": 79,
+    "departures_count": 17,
+    "inhouse_count": 78,
     "noshow_count": 11,
-    "vacant_count": 24,
+    "vacant_count": 25,
     "roomchanges_count": 0,
     "eod_room_count": 67,
     "eod_pax_count": 100,
@@ -488,7 +488,7 @@
         "CheckOutDate": "2026-10-25",
         "Room": "334",
         "RoomType": "STD-LV",
-        "Board": "BB",
+        "Board": "AI",
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 10,
@@ -498,27 +498,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "2588299588",
-        "GroupNo": "",
-        "RecId": 32728,
-        "FirstName1": "ILIA",
-        "LastName1": "MALYSHEV",
-        "CheckinDate": "2026-10-24",
-        "CheckOutDate": "2026-10-25",
-        "Room": "118",
-        "RoomType": "SUIT",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 6659.964,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       }
     ],
     "inhouse": [
@@ -868,7 +847,7 @@
         "CheckOutDate": "2026-10-25",
         "Room": "334",
         "RoomType": "STD-LV",
-        "Board": "BB",
+        "Board": "AI",
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 10,
@@ -878,27 +857,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "2588299588",
-        "GroupNo": "",
-        "RecId": 32728,
-        "FirstName1": "ILIA",
-        "LastName1": "MALYSHEV",
-        "CheckinDate": "2026-10-24",
-        "CheckOutDate": "2026-10-25",
-        "Room": "118",
-        "RoomType": "SUIT",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 8,
-        "ExtraFolioBalance": 6659.964,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "EXPEDIA"
       },
       {
         "Voucher": "DYGRNN",
@@ -2424,6 +2382,13 @@
         "OccVac": 1
       },
       {
+        "Room": "118",
+        "RoomTypeCode": "SUIT",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "124",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 0,
@@ -3390,7 +3355,7 @@
           "CheckOutDate": "2026-10-25",
           "Room": "334",
           "RoomType": "STD-LV",
-          "Board": "BB",
+          "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -3415,11 +3380,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 6659.964,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -5368,7 +5333,7 @@
           "CheckOutDate": "2026-10-25",
           "Room": "334",
           "RoomType": "STD-LV",
-          "Board": "BB",
+          "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -5393,11 +5358,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 8,
-          "ExtraFolioBalance": 6659.964,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "EXPEDIA"
         },
         {
@@ -7510,10 +7475,10 @@
     "2026-10-25": {
       "summary": {
         "arrivals_count": 6,
-        "departures_count": 18,
-        "inhouse_count": 79,
+        "departures_count": 17,
+        "inhouse_count": 78,
         "noshow_count": 11,
-        "vacant_count": 24,
+        "vacant_count": 25,
         "roomchanges_count": 0,
         "eod_room_count": 67,
         "eod_pax_count": 100
@@ -7993,7 +7958,7 @@
           "CheckOutDate": "2026-10-25",
           "Room": "334",
           "RoomType": "STD-LV",
-          "Board": "BB",
+          "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -8003,27 +7968,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "2588299588",
-          "GroupNo": "",
-          "RecId": 32728,
-          "FirstName1": "ILIA",
-          "LastName1": "MALYSHEV",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-10-25",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 6659.964,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         }
       ],
       "inhouse": [
@@ -8373,7 +8317,7 @@
           "CheckOutDate": "2026-10-25",
           "Room": "334",
           "RoomType": "STD-LV",
-          "Board": "BB",
+          "Board": "AI",
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 10,
@@ -8383,27 +8327,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "2588299588",
-          "GroupNo": "",
-          "RecId": 32728,
-          "FirstName1": "ILIA",
-          "LastName1": "MALYSHEV",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-10-25",
-          "Room": "118",
-          "RoomType": "SUIT",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 8,
-          "ExtraFolioBalance": 6659.964,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "EXPEDIA"
         },
         {
           "Voucher": "DYGRNN",
@@ -9925,6 +9848,13 @@
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "118",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
