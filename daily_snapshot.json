@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-27 10:00:05",
+  "sync_time": "2026-10-27 11:00:04",
   "report_date": "2026-10-27",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 8,
-    "inhouse_count": 66,
+    "departures_count": 6,
+    "inhouse_count": 64,
     "noshow_count": 17,
-    "vacant_count": 40,
+    "vacant_count": 42,
     "roomchanges_count": 0,
     "eod_room_count": 58,
     "eod_pax_count": 83,
@@ -79,27 +79,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "32208",
-        "GroupNo": "",
-        "RecId": 32208,
-        "FirstName1": "STEPHEN THOMAS JOHN",
-        "LastName1": "KENNY",
-        "CheckinDate": "2026-10-22",
-        "CheckOutDate": "2026-10-27",
-        "Room": "134",
-        "RoomType": "JR SUIT S",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1,
-        "ExtraFolioBalance": 8781.324,
-        "ResRemark": null,
-        "FlightArrival": "22:10",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT TL"
-      },
-      {
         "Voucher": "34204618",
         "GroupNo": "",
         "RecId": 32211,
@@ -119,27 +98,6 @@
         "FlightDeparture": "23:25",
         "Status": 2,
         "AgencyCode": "TUI UK"
-      },
-      {
-        "Voucher": "18052810",
-        "GroupNo": "",
-        "RecId": 32357,
-        "FirstName1": "PETER",
-        "LastName1": "BERRY",
-        "CheckinDate": "2026-10-22",
-        "CheckOutDate": "2026-10-27",
-        "Room": "305",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA GBP"
       },
       {
         "Voucher": "3056515",
@@ -249,27 +207,6 @@
         "AgencyCode": "NEILSON"
       },
       {
-        "Voucher": "32208",
-        "GroupNo": "",
-        "RecId": 32208,
-        "FirstName1": "STEPHEN THOMAS JOHN",
-        "LastName1": "KENNY",
-        "CheckinDate": "2026-10-22",
-        "CheckOutDate": "2026-10-27",
-        "Room": "134",
-        "RoomType": "JR SUIT S",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1,
-        "ExtraFolioBalance": 8781.324,
-        "ResRemark": null,
-        "FlightArrival": "22:10",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT TL"
-      },
-      {
         "Voucher": "34204618",
         "GroupNo": "",
         "RecId": 32211,
@@ -289,27 +226,6 @@
         "FlightDeparture": "23:25",
         "Status": 2,
         "AgencyCode": "TUI UK"
-      },
-      {
-        "Voucher": "18052810",
-        "GroupNo": "",
-        "RecId": 32357,
-        "FirstName1": "PETER",
-        "LastName1": "BERRY",
-        "CheckinDate": "2026-10-22",
-        "CheckOutDate": "2026-10-27",
-        "Room": "305",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 44,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": "",
-        "FlightArrival": "",
-        "FlightDeparture": "",
-        "Status": 2,
-        "AgencyCode": "DIANA GBP"
       },
       {
         "Voucher": "3056515",
@@ -1982,6 +1898,13 @@
         "OccVac": 1
       },
       {
+        "Room": "134",
+        "RoomTypeCode": "JR SUIT S",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
         "Room": "204",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
@@ -1998,6 +1921,13 @@
       {
         "Room": "303",
         "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "305",
+        "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3727,27 +3657,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32208",
-          "GroupNo": "",
-          "RecId": 32208,
-          "FirstName1": "STEPHEN THOMAS JOHN",
-          "LastName1": "KENNY",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-27",
-          "Room": "134",
-          "RoomType": "JR SUIT S",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 8781.324,
-          "ResRemark": null,
-          "FlightArrival": "22:10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
-        },
-        {
           "Voucher": "34204618",
           "GroupNo": "",
           "RecId": 32211,
@@ -3767,27 +3676,6 @@
           "FlightDeparture": "23:25",
           "Status": 2,
           "AgencyCode": "TUI UK"
-        },
-        {
-          "Voucher": "18052810",
-          "GroupNo": "",
-          "RecId": 32357,
-          "FirstName1": "PETER",
-          "LastName1": "BERRY",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-27",
-          "Room": "305",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "3056515",
@@ -3830,6 +3718,48 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "MUNFERIT GBP"
+        },
+        {
+          "Voucher": "32208",
+          "GroupNo": "",
+          "RecId": 32208,
+          "FirstName1": "STEPHEN THOMAS JOHN",
+          "LastName1": "KENNY",
+          "CheckinDate": "2026-10-22",
+          "CheckOutDate": "2026-10-27",
+          "Room": "134",
+          "RoomType": "JR SUIT S",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "22:10",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "MUNFERIT TL"
+        },
+        {
+          "Voucher": "18052810",
+          "GroupNo": "",
+          "RecId": 32357,
+          "FirstName1": "PETER",
+          "LastName1": "BERRY",
+          "CheckinDate": "2026-10-22",
+          "CheckOutDate": "2026-10-27",
+          "Room": "305",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 44,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": "",
+          "FlightArrival": "",
+          "FlightDeparture": "",
+          "Status": 3,
+          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "NOSHOW",
@@ -6326,10 +6256,10 @@
     "2026-10-27": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 8,
-        "inhouse_count": 66,
+        "departures_count": 6,
+        "inhouse_count": 64,
         "noshow_count": 17,
-        "vacant_count": 40,
+        "vacant_count": 42,
         "roomchanges_count": 0,
         "eod_room_count": 58,
         "eod_pax_count": 83
@@ -6400,27 +6330,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32208",
-          "GroupNo": "",
-          "RecId": 32208,
-          "FirstName1": "STEPHEN THOMAS JOHN",
-          "LastName1": "KENNY",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-27",
-          "Room": "134",
-          "RoomType": "JR SUIT S",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 8781.324,
-          "ResRemark": null,
-          "FlightArrival": "22:10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
-        },
-        {
           "Voucher": "34204618",
           "GroupNo": "",
           "RecId": 32211,
@@ -6440,27 +6349,6 @@
           "FlightDeparture": "23:25",
           "Status": 2,
           "AgencyCode": "TUI UK"
-        },
-        {
-          "Voucher": "18052810",
-          "GroupNo": "",
-          "RecId": 32357,
-          "FirstName1": "PETER",
-          "LastName1": "BERRY",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-27",
-          "Room": "305",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "3056515",
@@ -6570,27 +6458,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "32208",
-          "GroupNo": "",
-          "RecId": 32208,
-          "FirstName1": "STEPHEN THOMAS JOHN",
-          "LastName1": "KENNY",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-27",
-          "Room": "134",
-          "RoomType": "JR SUIT S",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1,
-          "ExtraFolioBalance": 8781.324,
-          "ResRemark": null,
-          "FlightArrival": "22:10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT TL"
-        },
-        {
           "Voucher": "34204618",
           "GroupNo": "",
           "RecId": 32211,
@@ -6610,27 +6477,6 @@
           "FlightDeparture": "23:25",
           "Status": 2,
           "AgencyCode": "TUI UK"
-        },
-        {
-          "Voucher": "18052810",
-          "GroupNo": "",
-          "RecId": 32357,
-          "FirstName1": "PETER",
-          "LastName1": "BERRY",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-27",
-          "Room": "305",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 44,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": "",
-          "FlightArrival": "",
-          "FlightDeparture": "",
-          "Status": 2,
-          "AgencyCode": "DIANA GBP"
         },
         {
           "Voucher": "3056515",
@@ -8303,6 +8149,13 @@
           "OccVac": 1
         },
         {
+          "Room": "134",
+          "RoomTypeCode": "JR SUIT S",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "204",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
@@ -8319,6 +8172,13 @@
         {
           "Room": "303",
           "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "305",
+          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
