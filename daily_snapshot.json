@@ -1,5 +1,5 @@
 {
-  "sync_time": "2026-10-28 12:00:04",
+  "sync_time": "2026-10-28 13:00:05",
   "report_date": "2026-10-28",
   "summary": {
     "arrivals_count": 1,
@@ -158,7 +158,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1085,
-        "ExtraFolioBalance": 7252.929,
+        "ExtraFolioBalance": 0.0,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -200,7 +200,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1116,
-        "ExtraFolioBalance": 2053.4889,
+        "ExtraFolioBalance": 2414.23695,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -677,8 +677,8 @@
         "LastName1": "AFANASEV",
         "CheckinDate": "2026-10-24",
         "CheckOutDate": "2026-10-31",
-        "Room": "211",
-        "RoomType": "STD SEA L",
+        "Room": "101",
+        "RoomType": "JR SUIT S",
         "Board": "AI",
         "Pax": 1,
         "Childs": 0,
@@ -704,7 +704,7 @@
         "Pax": 1,
         "Childs": 0,
         "AgencyId": 1130,
-        "ExtraFolioBalance": 5716.4691,
+        "ExtraFolioBalance": 6581.9658,
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1082,7 +1082,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1130,
-        "ExtraFolioBalance": 721.4961,
+        "ExtraFolioBalance": 1942.4895,
         "ResRemark": null,
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1124,7 +1124,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1120,
-        "ExtraFolioBalance": 7631.20875,
+        "ExtraFolioBalance": 7825.4577,
         "ResRemark": null,
         "FlightArrival": "19:15",
         "FlightDeparture": null,
@@ -1661,13 +1661,6 @@
     ],
     "vacant": [
       {
-        "Room": "101",
-        "RoomTypeCode": "JR SUIT S",
-        "DirtyClean": 0,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "102",
         "RoomTypeCode": "CLUB LV",
         "DirtyClean": 0,
@@ -1775,6 +1768,13 @@
       {
         "Room": "208",
         "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "211",
+        "RoomTypeCode": "STD SEA L",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1942,7 +1942,24 @@
       }
     ],
     "roomchanges": [],
-    "all_roomchanges": [],
+    "all_roomchanges": [
+      {
+        "ReservationId": 32616,
+        "Voucher": "REGATTA GROUP",
+        "FirstName1": "TIMOFEI",
+        "LastName1": "AFANASEV",
+        "OldRoom": "211",
+        "NewRoom": "101",
+        "RecordUser": "Remi",
+        "RecordDate": "2026-10-27",
+        "RCDate": "2026-10-27",
+        "Time": "",
+        "CheckinDate": "2026-10-24",
+        "CheckOutDate": "2026-10-31",
+        "AgencyCode": "JET24 OPS LLC",
+        "RoomChanged": "1"
+      }
+    ],
     "hk": [
       {
         "Room": "101",
@@ -2542,7 +2559,7 @@
       {
         "Room": "404",
         "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2731,7 +2748,7 @@
         "inhouse_count": 78,
         "noshow_count": 37,
         "vacant_count": 48,
-        "roomchanges_count": 0,
+        "roomchanges_count": 1,
         "eod_room_count": 78,
         "eod_pax_count": 123
       },
@@ -4287,7 +4304,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 7252.929,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -4329,7 +4346,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 2053.4889,
+          "ExtraFolioBalance": 2414.23695,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -4806,8 +4823,8 @@
           "LastName1": "AFANASEV",
           "CheckinDate": "2026-10-24",
           "CheckOutDate": "2026-10-31",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "101",
+          "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -4833,7 +4850,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 5716.4691,
+          "ExtraFolioBalance": 6581.9658,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5211,7 +5228,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 721.4961,
+          "ExtraFolioBalance": 1942.4895,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -5253,7 +5270,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7631.20875,
+          "ExtraFolioBalance": 7825.4577,
           "ResRemark": null,
           "FlightArrival": "19:15",
           "FlightDeparture": null,
@@ -6147,13 +6164,6 @@
       ],
       "vacant": [
         {
-          "Room": "101",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
@@ -6254,6 +6264,13 @@
         {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -6373,7 +6390,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6483,7 +6500,24 @@
           "OccVac": 1
         }
       ],
-      "roomchanges": []
+      "roomchanges": [
+        {
+          "ReservationId": 32616,
+          "Voucher": "REGATTA GROUP",
+          "FirstName1": "TIMOFEI",
+          "LastName1": "AFANASEV",
+          "OldRoom": "211",
+          "NewRoom": "101",
+          "RecordUser": "Remi",
+          "RecordDate": "2026-10-27",
+          "RCDate": "2026-10-27",
+          "Time": "",
+          "CheckinDate": "2026-10-24",
+          "CheckOutDate": "2026-10-31",
+          "AgencyCode": "JET24 OPS LLC",
+          "RoomChanged": "1"
+        }
+      ]
     },
     "2026-10-28": {
       "summary": {
@@ -6641,7 +6675,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 7252.929,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6683,7 +6717,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 2053.4889,
+          "ExtraFolioBalance": 2414.23695,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -7160,8 +7194,8 @@
           "LastName1": "AFANASEV",
           "CheckinDate": "2026-10-24",
           "CheckOutDate": "2026-10-31",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "101",
+          "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -7187,7 +7221,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 5716.4691,
+          "ExtraFolioBalance": 6581.9658,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7565,7 +7599,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 721.4961,
+          "ExtraFolioBalance": 1942.4895,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7607,7 +7641,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7631.20875,
+          "ExtraFolioBalance": 7825.4577,
           "ResRemark": null,
           "FlightArrival": "19:15",
           "FlightDeparture": null,
@@ -8144,13 +8178,6 @@
       ],
       "vacant": [
         {
-          "Room": "101",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
           "DirtyClean": 0,
@@ -8258,6 +8285,13 @@
         {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -8474,7 +8508,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1085,
-          "ExtraFolioBalance": 7252.929,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -8518,7 +8552,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 2053.4889,
+          "ExtraFolioBalance": 2414.23695,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8995,8 +9029,8 @@
           "LastName1": "AFANASEV",
           "CheckinDate": "2026-10-24",
           "CheckOutDate": "2026-10-31",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "101",
+          "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -9022,7 +9056,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 5716.4691,
+          "ExtraFolioBalance": 6581.9658,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9400,7 +9434,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 721.4961,
+          "ExtraFolioBalance": 1942.4895,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -9463,7 +9497,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7631.20875,
+          "ExtraFolioBalance": 7825.4577,
           "ResRemark": null,
           "FlightArrival": "19:15",
           "FlightDeparture": null,
@@ -9578,13 +9612,6 @@
       ],
       "noshow": [],
       "vacant": [
-        {
-          "Room": "101",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
@@ -9707,6 +9734,13 @@
         {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9923,7 +9957,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 2053.4889,
+          "ExtraFolioBalance": 2414.23695,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -10402,8 +10436,8 @@
           "LastName1": "AFANASEV",
           "CheckinDate": "2026-10-24",
           "CheckOutDate": "2026-10-31",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "101",
+          "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -10429,7 +10463,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 5716.4691,
+          "ExtraFolioBalance": 6581.9658,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10807,7 +10841,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 721.4961,
+          "ExtraFolioBalance": 1942.4895,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -10870,7 +10904,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7631.20875,
+          "ExtraFolioBalance": 7825.4577,
           "ResRemark": null,
           "FlightArrival": "19:15",
           "FlightDeparture": null,
@@ -10985,13 +11019,6 @@
       ],
       "noshow": [],
       "vacant": [
-        {
-          "Room": "101",
-          "RoomTypeCode": "JR SUIT S",
-          "DirtyClean": 0,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
         {
           "Room": "102",
           "RoomTypeCode": "CLUB LV",
@@ -11149,6 +11176,13 @@
         {
           "Room": "208",
           "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "211",
+          "RoomTypeCode": "STD SEA L",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -11646,8 +11680,8 @@
           "LastName1": "AFANASEV",
           "CheckinDate": "2026-10-24",
           "CheckOutDate": "2026-10-31",
-          "Room": "211",
-          "RoomType": "STD SEA L",
+          "Room": "101",
+          "RoomType": "JR SUIT S",
           "Board": "AI",
           "Pax": 1,
           "Childs": 0,
@@ -11673,7 +11707,7 @@
           "Pax": 1,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 5716.4691,
+          "ExtraFolioBalance": 6581.9658,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12051,7 +12085,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1130,
-          "ExtraFolioBalance": 721.4961,
+          "ExtraFolioBalance": 1942.4895,
           "ResRemark": null,
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -12116,7 +12150,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7631.20875,
+          "ExtraFolioBalance": 7825.4577,
           "ResRemark": null,
           "FlightArrival": "19:15",
           "FlightDeparture": null,
@@ -12898,7 +12932,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 7631.20875,
+          "ExtraFolioBalance": 7825.4577,
           "ResRemark": null,
           "FlightArrival": "19:15",
           "FlightDeparture": null,
@@ -13612,7 +13646,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -14401,7 +14435,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15190,7 +15224,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -15979,7 +16013,7 @@
         {
           "Room": "404",
           "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
