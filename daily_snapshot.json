@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-29 03:00:04",
+  "sync_time": "2026-10-29 04:00:04",
   "report_date": "2026-10-29",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 4,
-    "inhouse_count": 55,
+    "departures_count": 3,
+    "inhouse_count": 54,
     "noshow_count": 22,
-    "vacant_count": 41,
+    "vacant_count": 42,
     "roomchanges_count": 0,
     "eod_room_count": 51,
     "eod_pax_count": 72,
@@ -56,27 +56,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "BA HOLIDAYS"
-      },
-      {
-        "Voucher": "32690",
-        "GroupNo": "",
-        "RecId": 32690,
-        "FirstName1": "ALLA",
-        "LastName1": "WILKEN",
-        "CheckinDate": "2026-10-21",
-        "CheckOutDate": "2026-10-29",
-        "Room": "107",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "GECE 3 GB OTELE",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "32797",
@@ -142,27 +121,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "BA HOLIDAYS"
-      },
-      {
-        "Voucher": "32690",
-        "GroupNo": "",
-        "RecId": 32690,
-        "FirstName1": "ALLA",
-        "LastName1": "WILKEN",
-        "CheckinDate": "2026-10-21",
-        "CheckOutDate": "2026-10-29",
-        "Room": "107",
-        "RoomType": "STD-LVL",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": "GECE 3 GB OTELE",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "32797",
@@ -1733,6 +1691,13 @@
         "Room": "106",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "107",
+        "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -3881,27 +3846,6 @@
           "AgencyCode": "BA HOLIDAYS"
         },
         {
-          "Voucher": "32690",
-          "GroupNo": "",
-          "RecId": 32690,
-          "FirstName1": "ALLA",
-          "LastName1": "WILKEN",
-          "CheckinDate": "2026-10-21",
-          "CheckOutDate": "2026-10-29",
-          "Room": "107",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "GECE 3 GB OTELE",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "32797",
           "GroupNo": "",
           "RecId": 32797,
@@ -3921,6 +3865,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "32690",
+          "GroupNo": "",
+          "RecId": 32690,
+          "FirstName1": "ALLA",
+          "LastName1": "WILKEN",
+          "CheckinDate": "2026-10-21",
+          "CheckOutDate": "2026-10-29",
+          "Room": "107",
+          "RoomType": "STD-LVL",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "GECE 3 GB OTELE",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "NOSHOW",
@@ -6627,10 +6592,10 @@
     "2026-10-29": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 4,
-        "inhouse_count": 55,
+        "departures_count": 3,
+        "inhouse_count": 54,
         "noshow_count": 22,
-        "vacant_count": 41,
+        "vacant_count": 42,
         "roomchanges_count": 0,
         "eod_room_count": 51,
         "eod_pax_count": 72
@@ -6678,27 +6643,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
-        },
-        {
-          "Voucher": "32690",
-          "GroupNo": "",
-          "RecId": 32690,
-          "FirstName1": "ALLA",
-          "LastName1": "WILKEN",
-          "CheckinDate": "2026-10-21",
-          "CheckOutDate": "2026-10-29",
-          "Room": "107",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "GECE 3 GB OTELE",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "32797",
@@ -6764,27 +6708,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BA HOLIDAYS"
-        },
-        {
-          "Voucher": "32690",
-          "GroupNo": "",
-          "RecId": 32690,
-          "FirstName1": "ALLA",
-          "LastName1": "WILKEN",
-          "CheckinDate": "2026-10-21",
-          "CheckOutDate": "2026-10-29",
-          "Room": "107",
-          "RoomType": "STD-LVL",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": "GECE 3 GB OTELE",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "32797",
@@ -8355,6 +8278,13 @@
           "Room": "106",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "107",
+          "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
