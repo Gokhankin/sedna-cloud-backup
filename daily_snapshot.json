@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-29 10:00:05",
+  "sync_time": "2026-10-29 11:00:04",
   "report_date": "2026-10-29",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 2,
-    "inhouse_count": 53,
+    "departures_count": 1,
+    "inhouse_count": 52,
     "noshow_count": 22,
-    "vacant_count": 43,
+    "vacant_count": 44,
     "roomchanges_count": 0,
     "eod_room_count": 51,
     "eod_pax_count": 72,
@@ -15,27 +15,6 @@
   "data": {
     "arrivals": [],
     "departures": [
-      {
-        "Voucher": "3044676",
-        "GroupNo": "",
-        "RecId": 31841,
-        "FirstName1": "JANE",
-        "LastName1": "BEINART",
-        "CheckinDate": "2026-10-22",
-        "CheckOutDate": "2026-10-29",
-        "Room": "325",
-        "RoomType": "JR SUIT S",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 11615.802,
-        "ResRemark": null,
-        "FlightArrival": "20:05",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
       {
         "Voucher": "32797",
         "GroupNo": "",
@@ -59,27 +38,6 @@
       }
     ],
     "inhouse": [
-      {
-        "Voucher": "3044676",
-        "GroupNo": "",
-        "RecId": 31841,
-        "FirstName1": "JANE",
-        "LastName1": "BEINART",
-        "CheckinDate": "2026-10-22",
-        "CheckOutDate": "2026-10-29",
-        "Room": "325",
-        "RoomType": "JR SUIT S",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 11615.802,
-        "ResRemark": null,
-        "FlightArrival": "20:05",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
       {
         "Voucher": "32797",
         "GroupNo": "",
@@ -1851,6 +1809,13 @@
       {
         "Room": "321",
         "RoomTypeCode": "STD-LVL",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "325",
+        "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3769,27 +3734,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "3044676",
-          "GroupNo": "",
-          "RecId": 31841,
-          "FirstName1": "JANE",
-          "LastName1": "BEINART",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-29",
-          "Room": "325",
-          "RoomType": "JR SUIT S",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 11615.802,
-          "ResRemark": null,
-          "FlightArrival": "20:05",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "32797",
           "GroupNo": "",
           "RecId": 32797,
@@ -3809,6 +3753,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "3044676",
+          "GroupNo": "",
+          "RecId": 31841,
+          "FirstName1": "JANE",
+          "LastName1": "BEINART",
+          "CheckinDate": "2026-10-22",
+          "CheckOutDate": "2026-10-29",
+          "Room": "325",
+          "RoomType": "JR SUIT S",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "20:05",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "EUHUUPZ-1-1388287518",
@@ -6557,37 +6522,16 @@
     "2026-10-29": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 2,
-        "inhouse_count": 53,
+        "departures_count": 1,
+        "inhouse_count": 52,
         "noshow_count": 22,
-        "vacant_count": 43,
+        "vacant_count": 44,
         "roomchanges_count": 0,
         "eod_room_count": 51,
         "eod_pax_count": 72
       },
       "arrivals": [],
       "departures": [
-        {
-          "Voucher": "3044676",
-          "GroupNo": "",
-          "RecId": 31841,
-          "FirstName1": "JANE",
-          "LastName1": "BEINART",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-29",
-          "Room": "325",
-          "RoomType": "JR SUIT S",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 11615.802,
-          "ResRemark": null,
-          "FlightArrival": "20:05",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
         {
           "Voucher": "32797",
           "GroupNo": "",
@@ -6611,27 +6555,6 @@
         }
       ],
       "inhouse": [
-        {
-          "Voucher": "3044676",
-          "GroupNo": "",
-          "RecId": 31841,
-          "FirstName1": "JANE",
-          "LastName1": "BEINART",
-          "CheckinDate": "2026-10-22",
-          "CheckOutDate": "2026-10-29",
-          "Room": "325",
-          "RoomType": "JR SUIT S",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 11615.802,
-          "ResRemark": null,
-          "FlightArrival": "20:05",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
         {
           "Voucher": "32797",
           "GroupNo": "",
@@ -8403,6 +8326,13 @@
         {
           "Room": "321",
           "RoomTypeCode": "STD-LVL",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "325",
+          "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
