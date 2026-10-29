@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-29 13:00:04",
+  "sync_time": "2026-10-29 14:00:04",
   "report_date": "2026-10-29",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 1,
-    "inhouse_count": 52,
+    "departures_count": 0,
+    "inhouse_count": 51,
     "noshow_count": 22,
-    "vacant_count": 35,
+    "vacant_count": 31,
     "roomchanges_count": 0,
     "eod_room_count": 51,
     "eod_pax_count": 72,
@@ -14,51 +14,8 @@
   },
   "data": {
     "arrivals": [],
-    "departures": [
-      {
-        "Voucher": "32797",
-        "GroupNo": "",
-        "RecId": 32797,
-        "FirstName1": "DENIZ",
-        "LastName1": "SEKER",
-        "CheckinDate": "2026-10-28",
-        "CheckOutDate": "2026-10-29",
-        "Room": "330",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      }
-    ],
+    "departures": [],
     "inhouse": [
-      {
-        "Voucher": "32797",
-        "GroupNo": "",
-        "RecId": 32797,
-        "FirstName1": "DENIZ",
-        "LastName1": "SEKER",
-        "CheckinDate": "2026-10-28",
-        "CheckOutDate": "2026-10-29",
-        "Room": "330",
-        "RoomType": "STD-LV",
-        "Board": "AI",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
       {
         "Voucher": "69452K",
         "GroupNo": "",
@@ -73,7 +30,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 1116,
-        "ExtraFolioBalance": 7797.70785,
+        "ExtraFolioBalance": 8158.4559,
         "ResRemark": null,
         "FlightArrival": null,
         "FlightDeparture": null,
@@ -1625,22 +1582,8 @@
         "OccVac": 1
       },
       {
-        "Room": "117",
-        "RoomTypeCode": "STD-SVL",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "118",
         "RoomTypeCode": "SUIT",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "122",
-        "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1723,13 +1666,6 @@
         "OccVac": 1
       },
       {
-        "Room": "311",
-        "RoomTypeCode": "STD-SV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "312",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 1,
@@ -1739,20 +1675,6 @@
       {
         "Room": "313",
         "RoomTypeCode": "CLUB SV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "318",
-        "RoomTypeCode": "STD-LV",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "320",
-        "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -1775,6 +1697,13 @@
         "Room": "329",
         "RoomTypeCode": "STD-LVL",
         "DirtyClean": 0,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "330",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -2655,7 +2584,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "COMP"
         },
         {
@@ -3671,27 +3600,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "32797",
-          "GroupNo": "",
-          "RecId": 32797,
-          "FirstName1": "DENIZ",
-          "LastName1": "SEKER",
-          "CheckinDate": "2026-10-28",
-          "CheckOutDate": "2026-10-29",
-          "Room": "330",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
           "Voucher": "3044676",
           "GroupNo": "",
           "RecId": 31841,
@@ -3753,6 +3661,27 @@
           "FlightDeparture": null,
           "Status": 3,
           "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "32797",
+          "GroupNo": "",
+          "RecId": 32797,
+          "FirstName1": "DENIZ",
+          "LastName1": "SEKER",
+          "CheckinDate": "2026-10-28",
+          "CheckOutDate": "2026-10-29",
+          "Room": "330",
+          "RoomType": "STD-LV",
+          "Board": "AI",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
         },
         {
           "Voucher": "NOSHOW",
@@ -4230,7 +4159,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 7797.70785,
+          "ExtraFolioBalance": 8158.4559,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -6459,60 +6388,17 @@
     "2026-10-29": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 1,
-        "inhouse_count": 52,
+        "departures_count": 0,
+        "inhouse_count": 51,
         "noshow_count": 22,
-        "vacant_count": 35,
+        "vacant_count": 31,
         "roomchanges_count": 0,
         "eod_room_count": 51,
         "eod_pax_count": 72
       },
       "arrivals": [],
-      "departures": [
-        {
-          "Voucher": "32797",
-          "GroupNo": "",
-          "RecId": 32797,
-          "FirstName1": "DENIZ",
-          "LastName1": "SEKER",
-          "CheckinDate": "2026-10-28",
-          "CheckOutDate": "2026-10-29",
-          "Room": "330",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "departures": [],
       "inhouse": [
-        {
-          "Voucher": "32797",
-          "GroupNo": "",
-          "RecId": 32797,
-          "FirstName1": "DENIZ",
-          "LastName1": "SEKER",
-          "CheckinDate": "2026-10-28",
-          "CheckOutDate": "2026-10-29",
-          "Room": "330",
-          "RoomType": "STD-LV",
-          "Board": "AI",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
         {
           "Voucher": "69452K",
           "GroupNo": "",
@@ -6527,7 +6413,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 7797.70785,
+          "ExtraFolioBalance": 8158.4559,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -8079,22 +7965,8 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -8177,13 +8049,6 @@
           "OccVac": 1
         },
         {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -8193,20 +8058,6 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "318",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -8229,6 +8080,13 @@
           "Room": "329",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 0,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "330",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8304,7 +8162,7 @@
         "departures_count": 11,
         "inhouse_count": 40,
         "noshow_count": 0,
-        "vacant_count": 46,
+        "vacant_count": 41,
         "roomchanges_count": 0,
         "eod_room_count": 40,
         "eod_pax_count": 54
@@ -8325,7 +8183,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1116,
-          "ExtraFolioBalance": 7797.70785,
+          "ExtraFolioBalance": 8158.4559,
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
@@ -9430,22 +9288,8 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9556,13 +9400,6 @@
           "OccVac": 1
         },
         {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -9572,20 +9409,6 @@
         {
           "Room": "313",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "318",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -9718,7 +9541,7 @@
         "departures_count": 33,
         "inhouse_count": 7,
         "noshow_count": 0,
-        "vacant_count": 79,
+        "vacant_count": 74,
         "roomchanges_count": 0,
         "eod_room_count": 7,
         "eod_pax_count": 11
@@ -10655,13 +10478,6 @@
           "OccVac": 1
         },
         {
-          "Room": "117",
-          "RoomTypeCode": "STD-SVL",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "118",
           "RoomTypeCode": "SUIT",
           "DirtyClean": 1,
@@ -10671,13 +10487,6 @@
         {
           "Room": "119",
           "RoomTypeCode": "CLUB SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "122",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
@@ -10893,13 +10702,6 @@
           "OccVac": 1
         },
         {
-          "Room": "311",
-          "RoomTypeCode": "STD-SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "312",
           "RoomTypeCode": "STD-LVL",
           "DirtyClean": 1,
@@ -10935,22 +10737,8 @@
           "OccVac": 1
         },
         {
-          "Room": "318",
-          "RoomTypeCode": "STD-LV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "319",
           "RoomTypeCode": "CLUB SV",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "320",
-          "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
