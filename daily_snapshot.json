@@ -1,15 +1,15 @@
 {
-  "sync_time": "2026-10-31 13:00:05",
+  "sync_time": "2026-10-31 14:00:05",
   "report_date": "2026-10-31",
   "summary": {
     "arrivals_count": 0,
     "departures_count": 1,
-    "inhouse_count": 9,
+    "inhouse_count": 8,
     "noshow_count": 27,
-    "vacant_count": 66,
+    "vacant_count": 67,
     "roomchanges_count": 0,
-    "eod_room_count": 8,
-    "eod_pax_count": 11,
+    "eod_room_count": 7,
+    "eod_pax_count": 10,
     "hk_count": 111
   },
   "data": {
@@ -205,27 +205,6 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "BOOKING.COM"
-      },
-      {
-        "Voucher": "32793",
-        "GroupNo": "",
-        "RecId": 32793,
-        "FirstName1": "ISMAIL",
-        "LastName1": "KARAKOC",
-        "CheckinDate": "2026-10-28",
-        "CheckOutDate": "2026-11-01",
-        "Room": "404",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
       }
     ],
     "noshow": [
@@ -1172,6 +1151,13 @@
       {
         "Room": "402",
         "RoomTypeCode": "STD SEA L",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "404",
+        "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -4014,6 +4000,27 @@
           "AgencyCode": "COMP"
         },
         {
+          "Voucher": "32793",
+          "GroupNo": "",
+          "RecId": 32793,
+          "FirstName1": "ISMAIL",
+          "LastName1": "KARAKOC",
+          "CheckinDate": "2026-10-28",
+          "CheckOutDate": "2026-10-31",
+          "Room": "404",
+          "RoomType": "STD-LV",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 10,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "COMP"
+        },
+        {
           "Voucher": "NOSHOW",
           "GroupNo": "",
           "RecId": 32843,
@@ -4726,27 +4733,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
-        },
-        {
-          "Voucher": "32793",
-          "GroupNo": "",
-          "RecId": 32793,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-28",
-          "CheckOutDate": "2026-11-01",
-          "Room": "404",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "noshow": [
@@ -6019,12 +6005,12 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 1,
-        "inhouse_count": 9,
+        "inhouse_count": 8,
         "noshow_count": 27,
-        "vacant_count": 66,
+        "vacant_count": 67,
         "roomchanges_count": 0,
-        "eod_room_count": 8,
-        "eod_pax_count": 11
+        "eod_room_count": 7,
+        "eod_pax_count": 10
       },
       "arrivals": [],
       "departures": [
@@ -6218,27 +6204,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
-        },
-        {
-          "Voucher": "32793",
-          "GroupNo": "",
-          "RecId": 32793,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-28",
-          "CheckOutDate": "2026-11-01",
-          "Room": "404",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "noshow": [
@@ -7190,6 +7155,13 @@
           "OccVac": 1
         },
         {
+          "Room": "404",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "405",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
@@ -7279,7 +7251,7 @@
     "2026-11-01": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 8,
+        "departures_count": 7,
         "inhouse_count": 0,
         "noshow_count": 0,
         "vacant_count": 110,
@@ -7435,27 +7407,6 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
-        },
-        {
-          "Voucher": "32793",
-          "GroupNo": "",
-          "RecId": 32793,
-          "FirstName1": "ISMAIL",
-          "LastName1": "KARAKOC",
-          "CheckinDate": "2026-10-28",
-          "CheckOutDate": "2026-11-01",
-          "Room": "404",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
         }
       ],
       "inhouse": [],
