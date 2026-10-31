@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-10-31 18:00:04",
+  "sync_time": "2026-10-31 19:00:05",
   "report_date": "2026-10-31",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 1,
-    "inhouse_count": 8,
+    "departures_count": 0,
+    "inhouse_count": 7,
     "noshow_count": 27,
-    "vacant_count": 67,
+    "vacant_count": 68,
     "roomchanges_count": 0,
     "eod_room_count": 7,
     "eod_pax_count": 10,
@@ -14,51 +14,8 @@
   },
   "data": {
     "arrivals": [],
-    "departures": [
-      {
-        "Voucher": "2998351",
-        "GroupNo": "",
-        "RecId": 28637,
-        "FirstName1": "DAVID",
-        "LastName1": "CARPENTER",
-        "CheckinDate": "2026-10-24",
-        "CheckOutDate": "2026-10-31",
-        "Room": "314",
-        "RoomType": "SUIT",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 4384.4763,
-        "ResRemark": null,
-        "FlightArrival": "20.10",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      }
-    ],
+    "departures": [],
     "inhouse": [
-      {
-        "Voucher": "2998351",
-        "GroupNo": "",
-        "RecId": 28637,
-        "FirstName1": "DAVID",
-        "LastName1": "CARPENTER",
-        "CheckinDate": "2026-10-24",
-        "CheckOutDate": "2026-10-31",
-        "Room": "314",
-        "RoomType": "SUIT",
-        "Board": "AI",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 4384.4763,
-        "ResRemark": null,
-        "FlightArrival": "20.10",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
       {
         "Voucher": "3032290",
         "GroupNo": "",
@@ -199,7 +156,7 @@
         "Pax": 2,
         "Childs": 0,
         "AgencyId": 7,
-        "ExtraFolioBalance": 28663.91355,
+        "ExtraFolioBalance": 29998.41195,
         "ResRemark": "",
         "FlightArrival": "",
         "FlightDeparture": "",
@@ -1060,6 +1017,13 @@
       {
         "Room": "313",
         "RoomTypeCode": "CLUB SV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "314",
+        "RoomTypeCode": "SUIT",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -3341,11 +3305,11 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 1120,
-          "ExtraFolioBalance": 4384.4763,
+          "ExtraFolioBalance": 0.0,
           "ResRemark": null,
           "FlightArrival": "20.10",
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "NEILSON"
         },
         {
@@ -4727,7 +4691,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 28663.91355,
+          "ExtraFolioBalance": 29998.41195,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -6004,60 +5968,17 @@
     "2026-10-31": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 1,
-        "inhouse_count": 8,
+        "departures_count": 0,
+        "inhouse_count": 7,
         "noshow_count": 27,
-        "vacant_count": 67,
+        "vacant_count": 68,
         "roomchanges_count": 0,
         "eod_room_count": 7,
         "eod_pax_count": 10
       },
       "arrivals": [],
-      "departures": [
-        {
-          "Voucher": "2998351",
-          "GroupNo": "",
-          "RecId": 28637,
-          "FirstName1": "DAVID",
-          "LastName1": "CARPENTER",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-10-31",
-          "Room": "314",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 4384.4763,
-          "ResRemark": null,
-          "FlightArrival": "20.10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        }
-      ],
+      "departures": [],
       "inhouse": [
-        {
-          "Voucher": "2998351",
-          "GroupNo": "",
-          "RecId": 28637,
-          "FirstName1": "DAVID",
-          "LastName1": "CARPENTER",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-10-31",
-          "Room": "314",
-          "RoomType": "SUIT",
-          "Board": "AI",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 4384.4763,
-          "ResRemark": null,
-          "FlightArrival": "20.10",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
         {
           "Voucher": "3032290",
           "GroupNo": "",
@@ -6198,7 +6119,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 28663.91355,
+          "ExtraFolioBalance": 29998.41195,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
@@ -7064,6 +6985,13 @@
           "OccVac": 1
         },
         {
+          "Room": "314",
+          "RoomTypeCode": "SUIT",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
           "Room": "315",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
@@ -7401,7 +7329,7 @@
           "Pax": 2,
           "Childs": 0,
           "AgencyId": 7,
-          "ExtraFolioBalance": 28663.91355,
+          "ExtraFolioBalance": 29998.41195,
           "ResRemark": "",
           "FlightArrival": "",
           "FlightDeparture": "",
