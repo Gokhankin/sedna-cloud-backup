@@ -1,62 +1,19 @@
 {
-  "sync_time": "2026-10-31 21:00:04",
+  "sync_time": "2026-10-31 22:00:04",
   "report_date": "2026-10-31",
   "summary": {
-    "arrivals_count": 2,
+    "arrivals_count": 0,
     "departures_count": 0,
-    "inhouse_count": 7,
+    "inhouse_count": 9,
     "noshow_count": 27,
-    "vacant_count": 68,
+    "vacant_count": 66,
     "roomchanges_count": 0,
     "eod_room_count": 9,
     "eod_pax_count": 13,
     "hk_count": 111
   },
   "data": {
-    "arrivals": [
-      {
-        "Voucher": "",
-        "GroupNo": "",
-        "RecId": 32873,
-        "FirstName1": "ALEKSEI",
-        "LastName1": "SHULPIN",
-        "CheckinDate": "2026-10-31",
-        "CheckOutDate": "2026-11-01",
-        "Room": "",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 2,
-        "ExtraFolioBalance": -6741.5029,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "MUNFERIT USD"
-      },
-      {
-        "Voucher": "32874",
-        "GroupNo": "",
-        "RecId": 32874,
-        "FirstName1": "SVETLANA",
-        "LastName1": "ASTAKHOVA",
-        "CheckinDate": "2026-10-31",
-        "CheckOutDate": "2026-11-01",
-        "Room": "",
-        "RoomType": "STD-LV",
-        "Board": "BB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 1,
-        "AgencyCode": "MUNFERIT EURO"
-      }
-    ],
+    "arrivals": [],
     "departures": [],
     "inhouse": [
       {
@@ -205,6 +162,48 @@
         "FlightDeparture": "",
         "Status": 2,
         "AgencyCode": "BOOKING.COM"
+      },
+      {
+        "Voucher": "32873",
+        "GroupNo": "",
+        "RecId": 32873,
+        "FirstName1": "ALEKSEI",
+        "LastName1": "SHULPIN",
+        "CheckinDate": "2026-10-31",
+        "CheckOutDate": "2026-11-01",
+        "Room": "110",
+        "RoomType": "STD SEA",
+        "Board": "BB",
+        "Pax": 1,
+        "Childs": 0,
+        "AgencyId": 2,
+        "ExtraFolioBalance": -0.00463,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "MUNFERIT USD"
+      },
+      {
+        "Voucher": "32874",
+        "GroupNo": "",
+        "RecId": 32874,
+        "FirstName1": "SVETLANA",
+        "LastName1": "ASTAKHOVA",
+        "CheckinDate": "2026-10-31",
+        "CheckOutDate": "2026-11-01",
+        "Room": "111",
+        "RoomType": "STD SEA L",
+        "Board": "BB",
+        "Pax": 2,
+        "Childs": 0,
+        "AgencyId": 3,
+        "ExtraFolioBalance": 0.0,
+        "ResRemark": null,
+        "FlightArrival": null,
+        "FlightDeparture": null,
+        "Status": 2,
+        "AgencyCode": "MUNFERIT EURO"
       }
     ],
     "noshow": [
@@ -827,20 +826,6 @@
         "OccVac": 1
       },
       {
-        "Room": "110",
-        "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
-        "Room": "111",
-        "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
-        "HkStatus": 0,
-        "OccVac": 1
-      },
-      {
         "Room": "113",
         "RoomTypeCode": "JR SUIT S",
         "DirtyClean": 1,
@@ -1323,14 +1308,14 @@
       {
         "Room": "110",
         "RoomTypeCode": "STD SEA",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
       {
         "Room": "111",
         "RoomTypeCode": "STD SEA L",
-        "DirtyClean": 1,
+        "DirtyClean": 0,
         "HkStatus": 0,
         "OccVac": 1
       },
@@ -5812,14 +5797,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -6010,59 +5995,16 @@
     },
     "2026-10-31": {
       "summary": {
-        "arrivals_count": 2,
+        "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 7,
+        "inhouse_count": 9,
         "noshow_count": 27,
-        "vacant_count": 68,
+        "vacant_count": 66,
         "roomchanges_count": 0,
         "eod_room_count": 9,
         "eod_pax_count": 13
       },
-      "arrivals": [
-        {
-          "Voucher": "",
-          "GroupNo": "",
-          "RecId": 32873,
-          "FirstName1": "ALEKSEI",
-          "LastName1": "SHULPIN",
-          "CheckinDate": "2026-10-31",
-          "CheckOutDate": "2026-11-01",
-          "Room": "",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 2,
-          "ExtraFolioBalance": -6741.5029,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "MUNFERIT USD"
-        },
-        {
-          "Voucher": "32874",
-          "GroupNo": "",
-          "RecId": 32874,
-          "FirstName1": "SVETLANA",
-          "LastName1": "ASTAKHOVA",
-          "CheckinDate": "2026-10-31",
-          "CheckOutDate": "2026-11-01",
-          "Room": "",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "MUNFERIT EURO"
-        }
-      ],
+      "arrivals": [],
       "departures": [],
       "inhouse": [
         {
@@ -6211,6 +6153,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "32873",
+          "GroupNo": "",
+          "RecId": 32873,
+          "FirstName1": "ALEKSEI",
+          "LastName1": "SHULPIN",
+          "CheckinDate": "2026-10-31",
+          "CheckOutDate": "2026-11-01",
+          "Room": "110",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 2,
+          "ExtraFolioBalance": -0.00463,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT USD"
+        },
+        {
+          "Voucher": "32874",
+          "GroupNo": "",
+          "RecId": 32874,
+          "FirstName1": "SVETLANA",
+          "LastName1": "ASTAKHOVA",
+          "CheckinDate": "2026-10-31",
+          "CheckOutDate": "2026-11-01",
+          "Room": "111",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
         }
       ],
       "noshow": [
@@ -6833,20 +6817,6 @@
           "OccVac": 1
         },
         {
-          "Room": "110",
-          "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
-          "Room": "111",
-          "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
-          "HkStatus": 0,
-          "OccVac": 1
-        },
-        {
           "Room": "113",
           "RoomTypeCode": "JR SUIT S",
           "DirtyClean": 1,
@@ -7276,48 +7246,6 @@
       "arrivals": [],
       "departures": [
         {
-          "Voucher": "",
-          "GroupNo": "",
-          "RecId": 32873,
-          "FirstName1": "ALEKSEI",
-          "LastName1": "SHULPIN",
-          "CheckinDate": "2026-10-31",
-          "CheckOutDate": "2026-11-01",
-          "Room": "",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 2,
-          "ExtraFolioBalance": -6741.5029,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "MUNFERIT USD"
-        },
-        {
-          "Voucher": "32874",
-          "GroupNo": "",
-          "RecId": 32874,
-          "FirstName1": "SVETLANA",
-          "LastName1": "ASTAKHOVA",
-          "CheckinDate": "2026-10-31",
-          "CheckOutDate": "2026-11-01",
-          "Room": "",
-          "RoomType": "STD-LV",
-          "Board": "BB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 1,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "3032290",
           "GroupNo": "",
           "RecId": 30440,
@@ -7463,6 +7391,48 @@
           "FlightDeparture": "",
           "Status": 2,
           "AgencyCode": "BOOKING.COM"
+        },
+        {
+          "Voucher": "32873",
+          "GroupNo": "",
+          "RecId": 32873,
+          "FirstName1": "ALEKSEI",
+          "LastName1": "SHULPIN",
+          "CheckinDate": "2026-10-31",
+          "CheckOutDate": "2026-11-01",
+          "Room": "110",
+          "RoomType": "STD SEA",
+          "Board": "BB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 2,
+          "ExtraFolioBalance": -0.00463,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT USD"
+        },
+        {
+          "Voucher": "32874",
+          "GroupNo": "",
+          "RecId": 32874,
+          "FirstName1": "SVETLANA",
+          "LastName1": "ASTAKHOVA",
+          "CheckinDate": "2026-10-31",
+          "CheckOutDate": "2026-11-01",
+          "Room": "111",
+          "RoomType": "STD SEA L",
+          "Board": "BB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
         }
       ],
       "inhouse": [],
@@ -7534,14 +7504,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -8323,14 +8293,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9112,14 +9082,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -9901,14 +9871,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -10690,14 +10660,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -11479,14 +11449,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
@@ -12268,14 +12238,14 @@
         {
           "Room": "110",
           "RoomTypeCode": "STD SEA",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
         {
           "Room": "111",
           "RoomTypeCode": "STD SEA L",
-          "DirtyClean": 1,
+          "DirtyClean": 0,
           "HkStatus": 0,
           "OccVac": 1
         },
