@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-11-01 10:00:04",
+  "sync_time": "2026-11-01 11:00:05",
   "report_date": "2026-11-01",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 7,
-    "inhouse_count": 7,
+    "departures_count": 6,
+    "inhouse_count": 6,
     "noshow_count": 32,
-    "vacant_count": 103,
+    "vacant_count": 104,
     "roomchanges_count": 0,
     "eod_room_count": 0,
     "eod_pax_count": 0,
@@ -35,27 +35,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "31123",
-        "GroupNo": "",
-        "RecId": 31123,
-        "FirstName1": "DARIA",
-        "LastName1": "KUZNETSOVA",
-        "CheckinDate": "2026-10-24",
-        "CheckOutDate": "2026-11-01",
-        "Room": "333",
-        "RoomType": "STD-LV",
-        "Board": "HB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 6493.46855,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "31915",
@@ -184,27 +163,6 @@
         "FlightDeparture": null,
         "Status": 2,
         "AgencyCode": "NEILSON"
-      },
-      {
-        "Voucher": "31123",
-        "GroupNo": "",
-        "RecId": 31123,
-        "FirstName1": "DARIA",
-        "LastName1": "KUZNETSOVA",
-        "CheckinDate": "2026-10-24",
-        "CheckOutDate": "2026-11-01",
-        "Room": "333",
-        "RoomType": "STD-LV",
-        "Board": "HB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 3,
-        "ExtraFolioBalance": 6493.46855,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "MUNFERIT EURO"
       },
       {
         "Voucher": "31915",
@@ -1500,6 +1458,13 @@
       },
       {
         "Room": "332",
+        "RoomTypeCode": "STD-LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "333",
         "RoomTypeCode": "STD-LV",
         "DirtyClean": 1,
         "HkStatus": 0,
@@ -4504,27 +4469,6 @@
           "AgencyCode": "NEILSON"
         },
         {
-          "Voucher": "31123",
-          "GroupNo": "",
-          "RecId": 31123,
-          "FirstName1": "DARIA",
-          "LastName1": "KUZNETSOVA",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-11-01",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 6493.46855,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
-        },
-        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -4627,6 +4571,27 @@
           "FlightArrival": null,
           "FlightDeparture": null,
           "Status": 2,
+          "AgencyCode": "MUNFERIT EURO"
+        },
+        {
+          "Voucher": "31123",
+          "GroupNo": "",
+          "RecId": 31123,
+          "FirstName1": "DARIA",
+          "LastName1": "KUZNETSOVA",
+          "CheckinDate": "2026-10-24",
+          "CheckOutDate": "2026-11-01",
+          "Room": "333",
+          "RoomType": "STD-LV",
+          "Board": "HB",
+          "Pax": 1,
+          "Childs": 0,
+          "AgencyId": 3,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": null,
+          "FlightDeparture": null,
+          "Status": 3,
           "AgencyCode": "MUNFERIT EURO"
         },
         {
@@ -6984,10 +6949,10 @@
     "2026-11-01": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 7,
-        "inhouse_count": 7,
+        "departures_count": 6,
+        "inhouse_count": 6,
         "noshow_count": 32,
-        "vacant_count": 103,
+        "vacant_count": 104,
         "roomchanges_count": 0,
         "eod_room_count": 0,
         "eod_pax_count": 0
@@ -7014,27 +6979,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "31123",
-          "GroupNo": "",
-          "RecId": 31123,
-          "FirstName1": "DARIA",
-          "LastName1": "KUZNETSOVA",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-11-01",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 6493.46855,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "31915",
@@ -7163,27 +7107,6 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "NEILSON"
-        },
-        {
-          "Voucher": "31123",
-          "GroupNo": "",
-          "RecId": 31123,
-          "FirstName1": "DARIA",
-          "LastName1": "KUZNETSOVA",
-          "CheckinDate": "2026-10-24",
-          "CheckOutDate": "2026-11-01",
-          "Room": "333",
-          "RoomType": "STD-LV",
-          "Board": "HB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 3,
-          "ExtraFolioBalance": 6493.46855,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "MUNFERIT EURO"
         },
         {
           "Voucher": "31915",
@@ -8479,6 +8402,13 @@
         },
         {
           "Room": "332",
+          "RoomTypeCode": "STD-LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "333",
           "RoomTypeCode": "STD-LV",
           "DirtyClean": 1,
           "HkStatus": 0,
