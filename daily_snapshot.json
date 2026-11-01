@@ -1,12 +1,12 @@
 {
-  "sync_time": "2026-11-01 16:00:05",
+  "sync_time": "2026-11-01 17:00:05",
   "report_date": "2026-11-01",
   "summary": {
     "arrivals_count": 0,
-    "departures_count": 3,
-    "inhouse_count": 3,
+    "departures_count": 2,
+    "inhouse_count": 2,
     "noshow_count": 32,
-    "vacant_count": 107,
+    "vacant_count": 108,
     "roomchanges_count": 0,
     "eod_room_count": 0,
     "eod_pax_count": 0,
@@ -15,27 +15,6 @@
   "data": {
     "arrivals": [],
     "departures": [
-      {
-        "Voucher": "3032290",
-        "GroupNo": "",
-        "RecId": 30440,
-        "FirstName1": "PAUL",
-        "LastName1": "COOKE",
-        "CheckinDate": "2026-10-25",
-        "CheckOutDate": "2026-11-01",
-        "Room": "336",
-        "RoomType": "STD-SV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 14457.67185,
-        "ResRemark": null,
-        "FlightArrival": "19:15",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
       {
         "Voucher": "31915",
         "GroupNo": "",
@@ -80,27 +59,6 @@
       }
     ],
     "inhouse": [
-      {
-        "Voucher": "3032290",
-        "GroupNo": "",
-        "RecId": 30440,
-        "FirstName1": "PAUL",
-        "LastName1": "COOKE",
-        "CheckinDate": "2026-10-25",
-        "CheckOutDate": "2026-11-01",
-        "Room": "336",
-        "RoomType": "STD-SV",
-        "Board": "HB",
-        "Pax": 2,
-        "Childs": 0,
-        "AgencyId": 1120,
-        "ExtraFolioBalance": 14457.67185,
-        "ResRemark": null,
-        "FlightArrival": "19:15",
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "NEILSON"
-      },
       {
         "Voucher": "31915",
         "GroupNo": "",
@@ -1375,6 +1333,13 @@
       {
         "Room": "335",
         "RoomTypeCode": "CLUB LV",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "336",
+        "RoomTypeCode": "STD-SV",
         "DirtyClean": 1,
         "HkStatus": 0,
         "OccVac": 1
@@ -4343,27 +4308,6 @@
       ],
       "inhouse": [
         {
-          "Voucher": "3032290",
-          "GroupNo": "",
-          "RecId": 30440,
-          "FirstName1": "PAUL",
-          "LastName1": "COOKE",
-          "CheckinDate": "2026-10-25",
-          "CheckOutDate": "2026-11-01",
-          "Room": "336",
-          "RoomType": "STD-SV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 14457.67185,
-          "ResRemark": null,
-          "FlightArrival": "19:15",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
-        {
           "Voucher": "31915",
           "GroupNo": "",
           "RecId": 31915,
@@ -4404,6 +4348,27 @@
           "FlightDeparture": null,
           "Status": 2,
           "AgencyCode": "COMP"
+        },
+        {
+          "Voucher": "3032290",
+          "GroupNo": "",
+          "RecId": 30440,
+          "FirstName1": "PAUL",
+          "LastName1": "COOKE",
+          "CheckinDate": "2026-10-25",
+          "CheckOutDate": "2026-11-01",
+          "Room": "336",
+          "RoomType": "STD-SV",
+          "Board": "HB",
+          "Pax": 2,
+          "Childs": 0,
+          "AgencyId": 1120,
+          "ExtraFolioBalance": 0.0,
+          "ResRemark": null,
+          "FlightArrival": "19:15",
+          "FlightDeparture": null,
+          "Status": 3,
+          "AgencyCode": "NEILSON"
         },
         {
           "Voucher": "31123",
@@ -6844,37 +6809,16 @@
     "2026-11-01": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 3,
-        "inhouse_count": 3,
+        "departures_count": 2,
+        "inhouse_count": 2,
         "noshow_count": 32,
-        "vacant_count": 107,
+        "vacant_count": 108,
         "roomchanges_count": 0,
         "eod_room_count": 0,
         "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [
-        {
-          "Voucher": "3032290",
-          "GroupNo": "",
-          "RecId": 30440,
-          "FirstName1": "PAUL",
-          "LastName1": "COOKE",
-          "CheckinDate": "2026-10-25",
-          "CheckOutDate": "2026-11-01",
-          "Room": "336",
-          "RoomType": "STD-SV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 14457.67185,
-          "ResRemark": null,
-          "FlightArrival": "19:15",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
         {
           "Voucher": "31915",
           "GroupNo": "",
@@ -6919,27 +6863,6 @@
         }
       ],
       "inhouse": [
-        {
-          "Voucher": "3032290",
-          "GroupNo": "",
-          "RecId": 30440,
-          "FirstName1": "PAUL",
-          "LastName1": "COOKE",
-          "CheckinDate": "2026-10-25",
-          "CheckOutDate": "2026-11-01",
-          "Room": "336",
-          "RoomType": "STD-SV",
-          "Board": "HB",
-          "Pax": 2,
-          "Childs": 0,
-          "AgencyId": 1120,
-          "ExtraFolioBalance": 14457.67185,
-          "ResRemark": null,
-          "FlightArrival": "19:15",
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "NEILSON"
-        },
         {
           "Voucher": "31915",
           "GroupNo": "",
@@ -8214,6 +8137,13 @@
         {
           "Room": "335",
           "RoomTypeCode": "CLUB LV",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "336",
+          "RoomTypeCode": "STD-SV",
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
