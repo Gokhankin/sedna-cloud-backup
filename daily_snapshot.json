@@ -1,64 +1,21 @@
 {
-  "sync_time": "2026-11-03 16:00:05",
+  "sync_time": "2026-11-03 17:00:04",
   "report_date": "2026-11-03",
   "summary": {
     "arrivals_count": 0,
     "departures_count": 0,
-    "inhouse_count": 2,
+    "inhouse_count": 0,
     "noshow_count": 0,
-    "vacant_count": 108,
+    "vacant_count": 110,
     "roomchanges_count": 0,
-    "eod_room_count": 2,
-    "eod_pax_count": 2,
+    "eod_room_count": 0,
+    "eod_pax_count": 0,
     "hk_count": 111
   },
   "data": {
     "arrivals": [],
     "departures": [],
-    "inhouse": [
-      {
-        "Voucher": "31915",
-        "GroupNo": "",
-        "RecId": 31915,
-        "FirstName1": "HALIL",
-        "LastName1": "APA",
-        "CheckinDate": "2026-08-24",
-        "CheckOutDate": "2026-11-10",
-        "Room": "704",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      },
-      {
-        "Voucher": "32286",
-        "GroupNo": "",
-        "RecId": 32286,
-        "FirstName1": "SERPIL",
-        "LastName1": "APOTHELOZ",
-        "CheckinDate": "2026-09-17",
-        "CheckOutDate": "2026-11-10",
-        "Room": "705",
-        "RoomType": "STD SEA",
-        "Board": "BB",
-        "Pax": 1,
-        "Childs": 0,
-        "AgencyId": 10,
-        "ExtraFolioBalance": 0.0,
-        "ResRemark": null,
-        "FlightArrival": null,
-        "FlightDeparture": null,
-        "Status": 2,
-        "AgencyCode": "COMP"
-      }
-    ],
+    "inhouse": [],
     "noshow": [],
     "vacant": [
       {
@@ -812,6 +769,20 @@
       },
       {
         "Room": "703",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "704",
+        "RoomTypeCode": "STD SEA",
+        "DirtyClean": 1,
+        "HkStatus": 0,
+        "OccVac": 1
+      },
+      {
+        "Room": "705",
         "RoomTypeCode": "STD SEA",
         "DirtyClean": 1,
         "HkStatus": 0,
@@ -1622,7 +1593,7 @@
           "FirstName1": "HALIL",
           "LastName1": "APA",
           "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
+          "CheckOutDate": "2026-11-03",
           "Room": "704",
           "RoomType": "STD SEA",
           "Board": "BB",
@@ -1633,7 +1604,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "COMP"
         },
         {
@@ -1643,7 +1614,7 @@
           "FirstName1": "SERPIL",
           "LastName1": "APOTHELOZ",
           "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
+          "CheckOutDate": "2026-11-03",
           "Room": "705",
           "RoomType": "STD SEA",
           "Board": "BB",
@@ -1654,7 +1625,7 @@
           "ResRemark": null,
           "FlightArrival": null,
           "FlightDeparture": null,
-          "Status": 2,
+          "Status": 3,
           "AgencyCode": "COMP"
         }
       ],
@@ -2423,59 +2394,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -3229,6 +3157,20 @@
         },
         {
           "Room": "703",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -3241,59 +3183,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -4047,6 +3946,20 @@
         },
         {
           "Room": "703",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -4059,59 +3972,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -4865,6 +4735,20 @@
         },
         {
           "Room": "703",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -4877,59 +4761,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -5683,6 +5524,20 @@
         },
         {
           "Room": "703",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -5695,59 +5550,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -6501,6 +6313,20 @@
         },
         {
           "Room": "703",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -6513,59 +6339,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -7319,6 +7102,20 @@
         },
         {
           "Room": "703",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
           "RoomTypeCode": "STD SEA",
           "DirtyClean": 1,
           "HkStatus": 0,
@@ -7331,59 +7128,16 @@
       "summary": {
         "arrivals_count": 0,
         "departures_count": 0,
-        "inhouse_count": 2,
+        "inhouse_count": 0,
         "noshow_count": 0,
-        "vacant_count": 108,
+        "vacant_count": 110,
         "roomchanges_count": 0,
-        "eod_room_count": 2,
-        "eod_pax_count": 2
+        "eod_room_count": 0,
+        "eod_pax_count": 0
       },
       "arrivals": [],
       "departures": [],
-      "inhouse": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "inhouse": [],
       "noshow": [],
       "vacant": [
         {
@@ -8141,6 +7895,20 @@
           "DirtyClean": 1,
           "HkStatus": 0,
           "OccVac": 1
+        },
+        {
+          "Room": "704",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
+        },
+        {
+          "Room": "705",
+          "RoomTypeCode": "STD SEA",
+          "DirtyClean": 1,
+          "HkStatus": 0,
+          "OccVac": 1
         }
       ],
       "roomchanges": []
@@ -8148,7 +7916,7 @@
     "2026-11-10": {
       "summary": {
         "arrivals_count": 0,
-        "departures_count": 2,
+        "departures_count": 0,
         "inhouse_count": 0,
         "noshow_count": 0,
         "vacant_count": 110,
@@ -8157,50 +7925,7 @@
         "eod_pax_count": 0
       },
       "arrivals": [],
-      "departures": [
-        {
-          "Voucher": "31915",
-          "GroupNo": "",
-          "RecId": 31915,
-          "FirstName1": "HALIL",
-          "LastName1": "APA",
-          "CheckinDate": "2026-08-24",
-          "CheckOutDate": "2026-11-10",
-          "Room": "704",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        },
-        {
-          "Voucher": "32286",
-          "GroupNo": "",
-          "RecId": 32286,
-          "FirstName1": "SERPIL",
-          "LastName1": "APOTHELOZ",
-          "CheckinDate": "2026-09-17",
-          "CheckOutDate": "2026-11-10",
-          "Room": "705",
-          "RoomType": "STD SEA",
-          "Board": "BB",
-          "Pax": 1,
-          "Childs": 0,
-          "AgencyId": 10,
-          "ExtraFolioBalance": 0.0,
-          "ResRemark": null,
-          "FlightArrival": null,
-          "FlightDeparture": null,
-          "Status": 2,
-          "AgencyCode": "COMP"
-        }
-      ],
+      "departures": [],
       "inhouse": [],
       "noshow": [],
       "vacant": [
